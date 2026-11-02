@@ -1,10 +1,10 @@
 import type { Band } from "./types";
 
 export const BANDS: Band[] = [
-  { key: "low", min: 0, max: 20, label_th: "ผลกระทบเชิงระบบระดับต่ำ", label_en: "Low systemic impact", color: "green" },
-  { key: "watch", min: 21, max: 45, label_th: "เฝ้าระวัง / ผันผวนระดับภูมิภาค", label_en: "Watch / regional volatility", color: "yellow" },
-  { key: "high", min: 46, max: 70, label_th: "ตึงเครียดสูง / กระทบห่วงโซ่โลก", label_en: "High tension / global supply-chain impact", color: "orange" },
-  { key: "critical", min: 71, max: 100, label_th: "วิกฤตเชิงระบบระดับโลก", label_en: "Global systemic crisis", color: "red" },
+  { key: "low", min: 0, max: 20, label_th: "ผลกระทบเชิงระบบระดับต่ำ", label_en: "Low systemic impact", short_th: "ต่ำ", short_en: "Low", color: "green" },
+  { key: "watch", min: 21, max: 45, label_th: "เฝ้าระวัง / ผันผวนระดับภูมิภาค", label_en: "Watch / regional volatility", short_th: "เฝ้าระวัง", short_en: "Watch", color: "yellow" },
+  { key: "high", min: 46, max: 70, label_th: "ตึงเครียดสูง / กระทบห่วงโซ่โลก", label_en: "High tension / global supply-chain impact", short_th: "ตึงเครียดสูง", short_en: "High tension", color: "orange" },
+  { key: "critical", min: 71, max: 100, label_th: "วิกฤตเชิงระบบระดับโลก", label_en: "Global systemic crisis", short_th: "วิกฤต", short_en: "Crisis", color: "red" },
 ];
 
 // One hex per band, used for marks only — text stays in neutral ink.

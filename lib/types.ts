@@ -10,6 +10,8 @@ export interface Band {
   max: number;
   label_th: string;
   label_en?: string;
+  short_th?: string;
+  short_en?: string;
   color: string;
 }
 

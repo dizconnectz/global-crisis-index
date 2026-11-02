@@ -63,6 +63,7 @@ function PillarCard({ k, p }: { k: PillarKey; p: Pillar }) {
   const { lang, t, pick } = useLang();
   const Icon = ICON[k];
   const st = STATUS[p.status];
+  const band = bandOf(p.score);
   return (
     <article className="flex flex-col rounded-xl border border-zinc-200 bg-white p-4 shadow-sm sm:p-5">
       <div className="flex items-start justify-between gap-3">
@@ -76,17 +77,27 @@ function PillarCard({ k, p }: { k: PillarKey; p: Pillar }) {
             </div>
           </div>
         </div>
-        <div className="text-right">
+        <div className="flex flex-col items-end">
           <div className="num text-3xl font-bold leading-none text-zinc-900">{p.score === null ? "—" : Math.round(p.score)}</div>
-          <div className={`mt-1 inline-flex items-center gap-1 text-[11px] ${st.cls}`} title={p.note ?? undefined}>
-            <st.Icon className="h-3 w-3" aria-hidden />
-            {pick(p, "status")}
-          </div>
+          {band && (
+            <span
+              className="mt-1.5 inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium text-zinc-900"
+              style={{ borderColor: `${BAND_HEX[band.key]}66`, background: `${BAND_HEX[band.key]}14` }}
+            >
+              <span style={{ color: BAND_HEX[band.key] }}>●</span>
+              {pick(band, "short")}
+            </span>
+          )}
         </div>
       </div>
 
       <div className="mt-3">
         <ScoreBar score={p.score} />
+      </div>
+      {/* data-source health, not the risk level */}
+      <div className={`mt-1.5 inline-flex items-center gap-1 text-[11px] ${st.cls}`} title={p.note ?? undefined}>
+        <st.Icon className="h-3 w-3" aria-hidden />
+        {t("dataStatus")}: {pick(p, "status")}
       </div>
 
       <div className="mt-4 flex-1">

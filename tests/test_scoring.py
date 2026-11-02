@@ -426,12 +426,36 @@ def test_template_warnings_carry_source_links():
     assert latest["summary"]["early_warnings_en"][0]["refs"] == w["refs"]
 
 
+def _ev(eid, score, sources, category="chokepoint"):
+    from gci.models import Event
+    return Event(id=eid, pillar="geo", category=category, category_th="", title=eid, severity=score, score=score,
+                 sources=sources, links=[f"https://{s}.example/{eid}" for s in sources], link_sources=sources)
+
+
 def test_gemini_refs_come_from_our_data_not_the_model():
     from gci.ai_helper import _validate
-    ref_map = {"E1": [{"url": "https://bbc.example/a", "source": "BBC World"}]}
+    events = {"E1": _ev("E1", 50, ["BBC World"])}
     data = {"executive_summary_th": "ก", "executive_summary_en": "a",
-            "early_warnings": [{"title_th": "ก", "title_en": "a", "signal_strength": "ปานกลาง",
+            "early_warnings": [{"title_th": "ก", "title_en": "a", "signal_strength": "สูง",
                                 "event_ids": ["E1", "E99"], "url": "https://evil.example"}]}
-    out = _validate(data, ref_map)
-    assert out["early_warnings_th"][0]["refs"] == ref_map["E1"]
+    out = _validate(data, events)
+    assert out["early_warnings_th"][0]["refs"] == [{"url": "https://BBC World.example/E1", "source": "BBC World"}]
     assert "evil" not in str(out)
+
+
+def test_watchlist_signal_is_computed_in_code_not_by_the_model():
+    from gci.ai_helper import _validate
+    events = {"E1": _ev("E1", 70, ["BBC", "AJ", "Reuters"]), "E2": _ev("E2", 45, ["BBC"], "sanctions"),
+              "E3": _ev("E3", 20, ["AJ"])}
+
+    def run(model_says):
+        data = {"executive_summary_th": "ก", "executive_summary_en": "a", "early_warnings": [
+            {"title_th": "a", "title_en": "a", "signal_strength": model_says, "event_ids": ["E1"]},
+            {"title_th": "b", "title_en": "b", "signal_strength": model_says, "event_ids": ["E2"]},
+            {"title_th": "c", "title_en": "c", "signal_strength": model_says, "event_ids": ["E3"]},
+        ]}
+        return [(w["signal_strength"], w["timeframe"]) for w in _validate(data, events)["early_warnings_th"]]
+
+    expected = [("สูง", "1-4 สัปดาห์"), ("ปานกลาง", "1-3 เดือน"), ("เฝ้าระวัง", "1-4 สัปดาห์")]
+    assert run("สูง") == expected
+    assert run("เฝ้าระวัง") == expected  # whatever the model says, the label is the same

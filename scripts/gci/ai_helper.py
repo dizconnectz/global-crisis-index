@@ -158,7 +158,7 @@ def template_summary(ctx: dict) -> dict:
 
 # Bump when the prompt or output rules change, so cached text from an older
 # prompt is regenerated instead of reused by the gatekeeper.
-PROMPT_VERSION = 3
+PROMPT_VERSION = 4
 GEMINI_TIMEOUT_MS = 60_000
 
 PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
@@ -179,8 +179,6 @@ Reply with this JSON shape:
   "executive_summary_en": "the same 2 sentences in English",
   "early_warnings": [
     {{"title_th": "...", "title_en": "...",
-      "signal_strength": "สูง|ปานกลาง|เฝ้าระวัง",
-      "timeframe_th": "e.g. 1-4 สัปดาห์ or 1-3 เดือน", "timeframe_en": "e.g. 1-4 weeks or 1-3 months",
       "evidence_th": "one Thai sentence of fact from the news", "evidence_en": "the same in English",
       "event_ids": ["ids of the events above this warning is based on, e.g. E1"]}}
   ],
@@ -191,15 +189,27 @@ Rules:
 - The overall score and level are displayed right above the summary. The summary must contain NO scores,
   NO "/100", and must not name the risk level. Explain causes only.
 - early_warnings: at most 3, each backed by the news above (1-3 month watchlist: troop movements, new sanctions,
-  energy trends, etc). signal_strength must be exactly one of the three Thai values. Use "สูง" only when 3 or
-  more independent sources confirm it; a single-source report is at most "ปานกลาง".
+  energy trends, etc). Every warning must list the event_ids it relies on.
 - local_notes: only about the local events listed above, at most 4. If that list is "(none)", return empty lists."""
 
 
-def _validate(data: dict, ref_map: dict[str, list[dict]] | None = None) -> dict:
-    """Shape-check the model output. Source links come only from `ref_map` (our own
-    fetched articles, keyed by the ids shown in the prompt), never from the model."""
-    ref_map = ref_map or {}
+def _deterministic_label(cited: list[Event]) -> tuple[str, str]:
+    """(signal, Thai timeframe) from the strongest cited event — same rule as the template.
+    A warning that cites no known event gets the weakest signal."""
+    if not cited:
+        return "เฝ้าระวัง", "1-3 เดือน"
+    rank = {s: i for i, s in enumerate(SIGNALS)}  # สูง=0 is strongest
+    best = min(cited, key=lambda e: (rank[_signal(e)], -e.score))
+    return _signal(best), WATCH_TIMEFRAME.get(best.category, "1-3 เดือน")
+
+
+def _validate(data: dict, events_by_id: dict[str, Event] | None = None) -> dict:
+    """Shape-check the model output and attach what must be deterministic.
+
+    The model only writes words. Signal strength, timeframe and source links are
+    derived in code from the events it cites (by the E-ids shown in the prompt),
+    so the same evidence always gets the same label and links are never invented."""
+    events_by_id = events_by_id or {}
     exec_th = str(data.get("executive_summary_th", "")).strip()
     exec_en = str(data.get("executive_summary_en", "")).strip()
     if not exec_th or not exec_en:
@@ -208,19 +218,19 @@ def _validate(data: dict, ref_map: dict[str, list[dict]] | None = None) -> dict:
     for w in (data.get("early_warnings") or [])[:3]:
         if not isinstance(w, dict) or not w.get("title_th") or not w.get("title_en"):
             continue
-        sig = str(w.get("signal_strength", "")).strip()
-        sig = sig if sig in SIGNALS else "เฝ้าระวัง"
+        cited = [events_by_id[k] for k in dict.fromkeys(str(e).strip() for e in (w.get("event_ids") or []))
+                 if k in events_by_id][:3]
+        sig, tf = _deterministic_label(cited)
         refs, seen_urls = [], set()
-        for eid in (w.get("event_ids") or [])[:3]:
-            for r in ref_map.get(str(eid).strip(), []):
+        for ev in cited:
+            for r in ev.refs():
                 if r["url"] not in seen_urls and len(refs) < 3:
                     seen_urls.add(r["url"])
                     refs.append(r)
-        warn_th.append({"title": str(w["title_th"]).strip()[:120], "signal_strength": sig,
-                        "timeframe": str(w.get("timeframe_th") or "1-3 เดือน").strip()[:40],
+        warn_th.append({"title": str(w["title_th"]).strip()[:120], "signal_strength": sig, "timeframe": tf,
                         "evidence_summary": str(w.get("evidence_th", "")).strip()[:300], "refs": refs})
         warn_en.append({"title": str(w["title_en"]).strip()[:120], "signal_strength": sig,
-                        "timeframe": str(w.get("timeframe_en") or "1-3 months").strip()[:40],
+                        "timeframe": TIMEFRAME_EN[tf],
                         "evidence_summary": str(w.get("evidence_en", "")).strip()[:300], "refs": refs})
 
     def notes(key: str) -> list[str]:
@@ -244,7 +254,7 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
     listed = [e for e in ctx["events"] if not e.is_local][:ctx["max_headlines"]]
     heads = [f"- E{n} [{e.pillar}/{e.category_en or e.category}] {e.title} (sources: {len(e.sources)}, score {e.score:.0f})"
              for n, e in enumerate(listed, 1)]
-    ref_map = {f"E{n}": e.refs() for n, e in enumerate(listed, 1)}
+    events_by_id = {f"E{n}": e for n, e in enumerate(listed, 1)}
     local = [f"- {e.category_en or e.category}: {e.title} ({e.location_en or ''})" for e in ctx["local_events"][:6]]
     prompt = PROMPT.format(indices=json.dumps(indices, ensure_ascii=False),
                            headlines="\n".join(heads) or "- (none)", local="\n".join(local) or "- (none)")
@@ -258,7 +268,7 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
         model=model, contents=prompt,
         config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
     )
-    return _validate(json.loads(resp.text), ref_map)
+    return _validate(json.loads(resp.text), events_by_id)
 
 
 def _enforce_rules(text: dict, ctx: dict) -> dict:

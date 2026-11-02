@@ -61,6 +61,7 @@ const DICT = {
     en: "Sub-scores 0-100 per pillar, with the real indicator values behind them",
   },
   weight: { th: "น้ำหนัก", en: "Weight" },
+  dataStatus: { th: "ข้อมูล", en: "Data" },
   colIndicator: { th: "ตัวชี้วัด", en: "Indicator" },
   colLatest: { th: "ล่าสุด", en: "Latest" },
   col5d: { th: "5 วันทำการ", en: "5 trading days" },
