@@ -12,6 +12,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 from datetime import datetime
 
 from .geo_utils import countries_en, countries_th
@@ -148,10 +149,14 @@ def template_summary(ctx: dict) -> dict:
 
 # ---------------------------------------------------------------- Gemini
 
-PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
-Never create or change any score. Use only the numbers and news provided below. Do not guess probabilities.
+# Bump when the prompt or output rules change, so cached text from an older
+# prompt is regenerated instead of reused by the gatekeeper.
+PROMPT_VERSION = 2
 
-Index data (already computed by the system):
+PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
+Use only the facts and news provided below. Do not guess probabilities.
+
+Pillar pressure (0-100, computed by the system; for your judgement only, do not quote these numbers):
 {indices}
 
 Deduplicated events / headlines (max 20):
@@ -162,7 +167,7 @@ Local events whose weight was capped:
 
 Reply with this JSON shape:
 {{
-  "executive_summary_th": "2 short Thai sentences on WHY the index is where it is (which pillars and events drive it)",
+  "executive_summary_th": "1-2 short Thai sentences on WHAT is driving global risk right now (the main events and markets)",
   "executive_summary_en": "the same 2 sentences in English",
   "early_warnings": [
     {{"title_th": "...", "title_en": "...",
@@ -173,9 +178,13 @@ Reply with this JSON shape:
   "local_notes_th": ["short Thai note"],
   "local_notes_en": ["the same in English"]
 }}
-The overall score and its level are already displayed next to the summary: do NOT restate them.
-early_warnings: at most 3, each backed by the news above (1-3 month watchlist: troop movements, new sanctions,
-energy trends, etc). local_notes: at most 4. signal_strength must be exactly one of the three Thai values."""
+Rules:
+- The overall score and level are displayed right above the summary. The summary must contain NO scores,
+  NO "/100", and must not name the risk level. Explain causes only.
+- early_warnings: at most 3, each backed by the news above (1-3 month watchlist: troop movements, new sanctions,
+  energy trends, etc). signal_strength must be exactly one of the three Thai values. Use "สูง" only when 3 or
+  more independent sources confirm it; a single-source report is at most "ปานกลาง".
+- local_notes: only about the local events listed above, at most 4. If that list is "(none)", return empty lists."""
 
 
 def _validate(data: dict) -> dict:
@@ -207,10 +216,11 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
     from google import genai
     from google.genai import types
 
+    # The overall score and band are deliberately left out: the summary sits right
+    # under them on the page, and what the model doesn't see it can't repeat.
     indices = {
-        "global_score": ctx["global_score"], "band": ctx["band_label_en"],
-        "pillars": ctx["pillar_scores"], "boost": ctx["boost"], "cross_confirmed": ctx["cross_confirmed"],
-        "econ_indicators": {i["key"]: {"value": i["value"], "change_5d_pct": i["change_pct"]}
+        "pillars": ctx["pillar_scores"], "cross_pillar_crisis": ctx["cross_confirmed"],
+        "econ_indicators": {i["label_en"]: {"value": i["value"], "change_5d_pct": i["change_pct"]}
                             for i in ctx["econ_indicators"]},
     }
     heads = [f"- [{e.pillar}/{e.category_en or e.category}] {e.title} (sources: {len(e.sources)}, score {e.score:.0f})"
@@ -224,6 +234,17 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
         config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
     )
     return _validate(json.loads(resp.text))
+
+
+def _enforce_rules(text: dict, ctx: dict) -> dict:
+    """Code-side guarantees, whatever the model wrote."""
+    text = dict(text)
+    if not ctx["local_events"]:
+        text["local_notes_th"], text["local_notes_en"] = [], []
+    if any(re.search(r"\d+\s*/\s*100", text[k]) for k in ("executive_summary_th", "executive_summary_en")):
+        tpl = template_summary(ctx)
+        text["executive_summary_th"], text["executive_summary_en"] = tpl["executive_summary_th"], tpl["executive_summary_en"]
+    return text
 
 
 def events_hash(events: list[Event]) -> tuple[str, list[str]]:
@@ -245,16 +266,16 @@ def build_narrative(ctx: dict, ai_cache: dict, now: datetime, ai_cfg: dict) -> t
         econ_delta = abs(econ - prev_econ) if econ is not None and prev_econ is not None else float("inf")
         cached = ai_cache.get("summary") or {}
         if (ai_cache.get("source") == "gemini" and cached.get("executive_summary_en")
-                and not new_ids and econ_delta < ai_cfg["econ_delta_threshold"]):
+                and ai_cache.get("prompt_version") == PROMPT_VERSION and not new_ids and econ_delta < ai_cfg["econ_delta_threshold"]):
             log.info("AI gate: no new events, econ Δ=%.2f -> reuse previous text (0 tokens)", econ_delta)
             summary = {**cached, "source": "gemini_cached", "model": ai_cache.get("model"),
                        "generated_at": ai_cache.get("generated_at")}
             return summary, ai_cache
         try:
-            text = _call_gemini(ctx, api_key, model)
+            text = _enforce_rules(_call_gemini(ctx, api_key, model), ctx)
             log.info("Gemini summary generated with %s", model)
-            new_cache = {"source": "gemini", "model": model, "events_hash": h, "event_ids": ids,
-                         "econ_score": econ, "summary": text, "generated_at": iso(now)}
+            new_cache = {"source": "gemini", "model": model, "prompt_version": PROMPT_VERSION, "events_hash": h,
+                         "event_ids": ids, "econ_score": econ, "summary": text, "generated_at": iso(now)}
             return {**text, "source": "gemini", "model": model, "generated_at": iso(now)}, new_cache
         except Exception as exc:  # noqa: BLE001 - 429 quota, network, bad JSON… all fall back
             log.warning("Gemini unavailable (%s: %s) -> template", type(exc).__name__, str(exc)[:160])

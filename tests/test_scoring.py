@@ -379,3 +379,35 @@ def test_optional_gdelt_outage_does_not_mark_geo_delayed():
     latest, _, _ = build_state(base_inputs(gdelt=gdelt_down), CFG, {}, [], NOW)
     assert latest["pillars"]["geo"]["status"] == "ok"
     assert latest["data_status"]["key"] == "ok"
+
+
+def test_gemini_output_rules_are_enforced_in_code(monkeypatch):
+    from gci import ai_helper
+
+    def chatty(ctx, key, model):
+        return {"executive_summary_th": "ดัชนีอยู่ที่ 45/100", "executive_summary_en": "The index is 45/100.",
+                "early_warnings_th": [], "early_warnings_en": [],
+                "local_notes_th": ["ข่าวตลาดหุ้น"], "local_notes_en": ["stock market news"]}
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setattr(ai_helper, "_call_gemini", chatty)
+    latest, _, _ = build_state(base_inputs(), CFG, {}, [], NOW)
+    s = latest["summary"]
+    assert s["source"] == "gemini"
+    assert "/100" not in s["executive_summary_th"] and "/100" not in s["executive_summary_en"]
+    assert s["local_notes_th"] == [] and s["local_notes_en"] == []  # no local events this run
+
+
+def test_prompt_version_change_invalidates_cached_ai_text(monkeypatch):
+    from gci import ai_helper
+    calls = []
+
+    def fake(ctx, key, model):
+        calls.append(1)
+        return {"executive_summary_th": "สรุป", "early_warnings_th": [], "local_notes_th": [],
+                "executive_summary_en": "Summary", "early_warnings_en": [], "local_notes_en": []}
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setattr(ai_helper, "_call_gemini", fake)
+    _, _, cache = build_state(base_inputs(), CFG, {}, [], NOW)
+    cache["ai"]["prompt_version"] = ai_helper.PROMPT_VERSION - 1
+    build_state(base_inputs(), CFG, cache, [], NOW + timedelta(hours=6))
+    assert len(calls) == 2
