@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T10:34:54Z",
+  "generated_at": "2026-11-02T10:39:58Z",
   "global_score": 48,
   "band": {
     "key": "high",
@@ -11,7 +11,7 @@
     "color": "orange"
   },
   "formula": {
-    "base": 47.67,
+    "base": 47.7,
     "boost": 0.0,
     "cross_confirmed": false,
     "max1": 66.5,
@@ -22,7 +22,7 @@
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 32.2,
+      "score": 32.3,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,27 +35,27 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 18.79,
+          "value": 18.85,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+2.2% (5 วันทำการ)",
-          "hint_en": "+2.2% (5 trading days)"
+          "hint": "+2.5% (5 วันทำการ)",
+          "hint_en": "+2.5% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 108.74,
+          "value": 108.83,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-6.1% (5 วันทำการ)",
-          "hint_en": "-6.1% (5 trading days)"
+          "hint": "-6.0% (5 วันทำการ)",
+          "hint_en": "-6.0% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3905.4,
+          "value": 3903.7,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
           "hint": "-3.3% (5 วันทำการ)",
@@ -91,10 +91,10 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 18.79,
-          "change_pct": 2.18,
-          "drawdown_pct": -39.48,
-          "score": 25.2,
+          "value": 18.85,
+          "change_pct": 2.5,
+          "drawdown_pct": -39.29,
+          "score": 25.4,
           "status": "ok",
           "last_date": "2026-11-02",
           "provider": "yfinance"
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 108.74,
-          "change_pct": -6.1,
-          "drawdown_pct": -8.12,
-          "score": 53.4,
+          "value": 108.83,
+          "change_pct": -6.03,
+          "drawdown_pct": -8.04,
+          "score": 53.5,
           "status": "ok",
           "last_date": "2026-11-02",
           "provider": "yfinance"
@@ -123,9 +123,9 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3905.4,
-          "change_pct": -3.29,
-          "drawdown_pct": -26.57,
+          "value": 3903.7,
+          "change_pct": -3.34,
+          "drawdown_pct": -26.6,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -275,7 +275,7 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-02T10:22:19Z",
-          "last_seen": "2026-11-02T10:34:54Z",
+          "last_seen": "2026-11-02T10:39:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -369,7 +369,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 12,
+          "value": 13,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -389,7 +389,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 106,
+          "value": 77,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
@@ -528,7 +528,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T10:34:54Z",
+          "last_seen": "2026-11-02T10:39:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -542,7 +542,7 @@
           "category_en": "Actual cyber incident",
           "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "severity": 40.0,
-          "score": 23.5,
+          "score": 23.4,
           "countries": [
             "russia",
             "ukraine"
@@ -595,7 +595,7 @@
             "CISA"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T10:34:54Z",
+          "last_seen": "2026-11-02T10:39:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -628,7 +628,7 @@
             "CISA"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T10:34:54Z",
+          "last_seen": "2026-11-02T10:39:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -683,7 +683,7 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 32.2,
+      "score": 32.3,
       "contribution": 11.3,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 471.51 USD",
       "headline_en": "SOXX semiconductor ETF 471.51 USD"
@@ -699,85 +699,109 @@
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันได้รับแรงขับเคลื่อนจากความตึงเครียดทางภูมิรัฐศาสตร์ โดยเฉพาะภัยคุกคามต่อการขนส่งในช่องแคบฮอร์มุซและความขัดแย้งที่ดำเนินอยู่ในยูเครนและตะวันออกกลาง ควบคู่ไปกับการระบาดของโรคอีโบลาครั้งใหม่ ตัวชี้วัดทางเศรษฐกิจแสดงให้เห็นถึงตลาดที่ผันผวนเล็กน้อยและการลดลงของราคาน้ำมันและทองคำ",
+    "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งรายงานการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ และความขัดแย้งทางอาวุธที่ดำเนินอยู่ในยูเครน เยเมน และฉนวนกาซา นอกจากนี้ การระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรียยังเป็นข้อกังวลด้านสาธารณสุข",
     "early_warnings_th": [
       {
-        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อการขนส่ง",
-        "signal_strength": "สูง",
+        "title": "ความตึงเครียดที่เพิ่มขึ้นในเส้นทางเดินเรือสำคัญ",
+        "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "เรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซท่ามกลางรายงานสงครามอิหร่าน ขณะที่การโจมตีของรัสเซียทำให้ไฟฟ้าดับในยูเครน และมีการเจรจาเพื่อยุติสงครามสหรัฐฯ-อิหร่าน",
+        "evidence_summary": "รายงานข่าวระบุว่าเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ท่ามกลางสถานการณ์สงครามอิหร่านที่กำลังดำเนินอยู่ และมีการเจรจาเพื่อยุติความขัดแย้งระหว่างสหรัฐฯ-อิหร่าน",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
             "source": "aljazeera.com"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+            "source": "news.google.com"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
             "source": "news.google.com"
           }
         ]
       },
       {
-        "title": "การระบาดของโรคติดต่อร้ายแรง",
+        "title": "ความขัดแย้งทั่วโลกและภัยคุกคามทางไซเบอร์ที่ต่อเนื่อง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
-        "refs": [
-          {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-            "source": "WHO DON"
-          }
-        ]
-      },
-      {
-        "title": "การโจมตีทางไซเบอร์ต่อบริการสาธารณะ",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "แอปแจ้งเตือนการโจมตีทางอากาศของรัสเซียและยูเครนถูกโจมตีทางไซเบอร์หลังจากสิ้นสุดการพักรบ",
+        "evidence_summary": "แอปแจ้งเตือนการโจมตีทางอากาศในรัสเซียและยูเครนถูกโจมตีทางไซเบอร์ ขณะที่การสู้รบและขีปนาวุธยังคงเกิดขึ้นในเยเมน ยูเครน และฉนวนกาซา",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
             "source": "aljazeera.com"
           },
           {
+            "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
             "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "การระบาดของโรคอีโบลาในแอฟริกา",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
+        "refs": [
+          {
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
           }
         ]
       }
     ],
     "local_notes_th": [
-      "พายุหมุนเขตร้อน MURASU-26 ระดับสีแดงในอินเดีย ส่งผลกระทบต่อประชากร 2.104 ล้านคน",
-      "เหตุการณ์แรนซัมแวร์ SafePay"
+      "มีการแจ้งเตือนระดับสีแดงสำหรับพายุไซโคลนเขตร้อน MURASU-26 ในอินเดีย ซึ่งส่งผลกระทบต่อประชากรมากกว่า 2.1 ล้านคนด้วยความเร็วลมระดับ 1 หรือสูงกว่า",
+      "มีคำแนะนำเกี่ยวกับ SafePay Ransomware ภายใต้โครงการ #StopRansomware"
     ],
-    "executive_summary_en": "Global risk is currently driven by geopolitical tensions, particularly the threat to shipping in the Strait of Hormuz and ongoing conflicts in Ukraine and the Middle East, alongside a new Ebola outbreak. Economic indicators show slight market volatility and a decrease in oil and gold prices.",
+    "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, particularly the reported attacks on tankers in the Strait of Hormuz and ongoing armed conflicts in Ukraine, Yemen, and Gaza. Additionally, a significant Ebola outbreak in the Democratic Republic of the Congo, Kenya, and Nigeria poses a public health concern.",
     "early_warnings_en": [
       {
-        "title": "Geopolitical Tensions and Shipping Threats",
-        "signal_strength": "สูง",
+        "title": "Escalating Tensions in Key Shipping Chokepoint",
+        "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Tankers were hit in the Strait of Hormuz amidst reports of an Iran war, while Russian strikes cut power to thousands in Ukraine, and mediators held talks to end the US-Iran war.",
+        "evidence_summary": "News reports indicate tankers were hit in the Strait of Hormuz amidst an ongoing Iran war situation, with talks underway to end the US-Iran conflict.",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
             "source": "aljazeera.com"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+            "source": "news.google.com"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
             "source": "news.google.com"
           }
         ]
       },
       {
-        "title": "High-Consequence Disease Outbreak",
+        "title": "Persistent Global Conflicts and Cyber Threats",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "Air raid alert apps in Russia and Ukraine were hit by cyberattacks, while fighting and missile strikes persist in Yemen, Ukraine, and Gaza.",
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+            "source": "aljazeera.com"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "Ebola Outbreak in Africa",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
         "evidence_summary": "An Ebola disease outbreak caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
@@ -787,31 +811,15 @@
             "source": "WHO DON"
           }
         ]
-      },
-      {
-        "title": "Cyberattacks on Public Services",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 weeks",
-        "evidence_summary": "Air raid alert apps in Russia and Ukraine were hit by cyberattacks after a truce ended.",
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
-            "source": "aljazeera.com"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ]
       }
     ],
     "local_notes_en": [
-      "Red notification for tropical cyclone MURASU-26 in India, affecting 2.104 million people.",
-      "SafePay Ransomware incident."
+      "A red notification has been issued for tropical cyclone MURASU-26 in India, affecting over 2.1 million people with Category 1 wind speeds or higher.",
+      "There is an advisory regarding SafePay Ransomware under the #StopRansomware initiative."
     ],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-02T10:34:54Z"
+    "generated_at": "2026-11-02T10:39:58Z"
   },
   "local_events": [
     {
@@ -876,7 +884,7 @@
         "CISA"
       ],
       "first_seen": "2026-11-02T06:49:49Z",
-      "last_seen": "2026-11-02T10:34:54Z",
+      "last_seen": "2026-11-02T10:39:58Z",
       "is_local": true,
       "location": null,
       "location_en": null,
@@ -892,7 +900,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:56Z",
+        "fetched_at": "2026-11-02T10:40:00Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -902,7 +910,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T10:35:05Z",
+        "fetched_at": "2026-11-02T10:40:17Z",
         "items": null,
         "error": "HTTP 429",
         "note": null,
@@ -912,8 +920,8 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:54Z",
-        "items": 27,
+        "fetched_at": "2026-11-02T10:39:58Z",
+        "items": 28,
         "error": null,
         "note": null,
         "optional": false
@@ -922,7 +930,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:54Z",
+        "fetched_at": "2026-11-02T10:39:58Z",
         "items": 25,
         "error": null,
         "note": null,
@@ -932,8 +940,8 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:55Z",
-        "items": 54,
+        "fetched_at": "2026-11-02T10:39:59Z",
+        "items": 24,
         "error": null,
         "note": null,
         "optional": false
@@ -942,7 +950,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:54Z",
+        "fetched_at": "2026-11-02T10:39:58Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -952,7 +960,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:59Z",
+        "fetched_at": "2026-11-02T10:40:00Z",
         "items": 174,
         "error": null,
         "note": null,
@@ -962,7 +970,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:55Z",
+        "fetched_at": "2026-11-02T10:39:59Z",
         "items": 20,
         "error": null,
         "note": null,
@@ -972,7 +980,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T10:34:55Z",
+        "fetched_at": "2026-11-02T10:39:59Z",
         "items": 54,
         "error": null,
         "note": "google_news_fallback",
