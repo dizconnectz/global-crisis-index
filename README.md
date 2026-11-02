@@ -73,6 +73,49 @@ Everything runs in one GitHub Actions workflow: [`.github/workflows/update_and_d
 
 ---
 
+## What happens when something goes wrong
+
+The system is built so that **no single failure stops the site or produces a wrong score**. Scores never depend on AI, and missing data is never counted as zero.
+
+### Gemini (AI summaries)
+
+| Situation | What the system does | What visitors see | Action needed |
+|---|---|---|---|
+| **Free quota / tokens used up** (HTTP 429) | Catches the error and writes the summary from the built-in template in the same run. The next run tries Gemini again. | Same scores; summary reads more plainly; footer of the hero card says *Summary by rule-based template*. | None. If it happens every run, check usage at [Google AI Studio](https://aistudio.google.com/) or switch to a lighter model with the `GEMINI_MODEL` variable. |
+| Nothing new since the last run | Skips the AI call (0 tokens) and reuses the previous AI text. This keeps usage far below the free quota. | *Summary by Gemini (previous run)*. | None. |
+| API key missing, wrong or revoked | Runs in template mode. | Template summary. | Add or replace the `GEMINI_API_KEY` secret. |
+| Gemini slow or unreachable | Gives up after 60 seconds and uses the template. | Template summary. | None. |
+| Gemini returns broken or incomplete JSON | Rejects the response and uses the template. | Template summary. | None. |
+| Gemini quotes the score or invents local notes | Code removes them: a summary containing a score is replaced by the template's; local notes are cleared when there are no local events. | Clean summary. | None. |
+| The prompt is changed in code | Cached AI text from the old prompt is discarded and regenerated. | New-style summary on the next run. | None. |
+
+### Data sources
+
+| Situation | What the system does | What visitors see | Action needed |
+|---|---|---|---|
+| One source fails (e.g. a news feed) | Scores the pillar from the remaining sources. | Header: *Some data delayed*; pillar marked the same. | None, unless it persists for days. |
+| GDELT rate-limits us (common on shared GitHub servers) | Treated as a supplementary source; the other news feeds carry the pillar. | Header stays *Normal*. | None. |
+| cisa.gov blocks GitHub's servers | Automatically uses Google News results from cisa.gov instead. | Normal. | None. |
+| Every source for a pillar fails | Uses that pillar's last valid score if it is under 72 hours old; otherwise leaves the pillar out of the average and re-weights the rest. **Never substitutes 0.** | Pillar marked *Using last valid value* or *Data missing*. | Check the run log if it lasts more than a day. |
+| All sources fail at once | Each pillar falls back to its last valid score (up to 72 h old). Only if none is left is the headline score shown as "—" instead of a made-up number. | *Some data delayed*, or "—" with an explanation. | Check the Actions log. |
+| Weekend / market holiday | Uses the last close (Friday) as a normal value. | *Market closed (weekend)*. | None. |
+| A source changes its format | That source fails (see above); the rest keep working. | *Some data delayed*. | Update the matching fetcher in `scripts/gci/fetchers/`. |
+
+### Pipeline, GitHub and the website
+
+| Situation | What the system does | What visitors see | Action needed |
+|---|---|---|---|
+| A test fails during a run | Stops before committing or deploying. | The previous version of the site stays online; the freshness badge turns *Delayed* after 7 h and *Stale data* after 13 h. | Open the failed run in the Actions tab and fix the cause. |
+| A scheduled run starts late or is skipped | The next run catches up. | Freshness badge reflects the real data age. | None. |
+| Two runs overlap | They queue one after the other (never in parallel). | Nothing. | None. |
+| You push code while the bot pushes data | The bot rebases on your commit before pushing. | Nothing. | Run `git pull` before editing locally. |
+| GitHub Pages deploy fails | The last successful deploy stays online. | Previous version. | Re-run the workflow. |
+| Scheduled runs stop after long inactivity | GitHub may pause schedules on inactive repositories; the bot's regular data commits normally prevent this. | Freshness badge turns *Stale data*. | Actions tab → re-enable the workflow. |
+| Someone forks the repository | The fork has no access to your secrets and runs in template mode. | — | None. |
+| Visitor still sees an old version | GitHub Pages lets browsers cache pages for up to 10 minutes. | Old page. | Hard refresh (Ctrl+Shift+R). |
+
+---
+
 ## Project layout
 
 ```

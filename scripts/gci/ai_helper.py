@@ -152,6 +152,7 @@ def template_summary(ctx: dict) -> dict:
 # Bump when the prompt or output rules change, so cached text from an older
 # prompt is regenerated instead of reused by the gatekeeper.
 PROMPT_VERSION = 2
+GEMINI_TIMEOUT_MS = 60_000
 
 PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
 Use only the facts and news provided below. Do not guess probabilities.
@@ -228,7 +229,8 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
     local = [f"- {e.category_en or e.category}: {e.title} ({e.location_en or ''})" for e in ctx["local_events"][:6]]
     prompt = PROMPT.format(indices=json.dumps(indices, ensure_ascii=False),
                            headlines="\n".join(heads) or "- (none)", local="\n".join(local) or "- (none)")
-    client = genai.Client(api_key=api_key)
+    # The SDK waits forever by default; a hung call must not stall the whole update run.
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=GEMINI_TIMEOUT_MS))
     resp = client.models.generate_content(
         model=model, contents=prompt,
         config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
