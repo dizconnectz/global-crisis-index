@@ -11,22 +11,19 @@ on:
       - "data/**"
       - "README.md"
 
-permissions:
-  contents: write   # commit refreshed JSON
-  pages: write      # deploy to GitHub Pages
-  id-token: write
+# Least privilege: nothing by default; each job asks only for what it needs.
+permissions: {}
 
 concurrency:
   group: gci-update
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 15
+    permissions:
+      contents: write   # commit refreshed JSON
     steps:
       - uses: actions/checkout@v7
 
@@ -54,11 +51,37 @@ jobs:
           git add public/data/latest_state.json public/data/history.json data/state_cache.json
           if git diff --cached --quiet; then
             echo "No data change"
-          else
-            git commit -m "data: update index $(date -u +'%Y-%m-%dT%H:%MZ')"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
-            git push
+            exit 0
           fi
+          git commit -m "data: update index $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # Retry on a race with another push, but never swallow a real failure.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+              exit 0
+            fi
+            echo "push attempt $attempt failed, retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push refreshed data"
+          exit 1
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write      # deploy to GitHub Pages
+      id-token: write   # required by deploy-pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Re-checkout the branch tip so the build includes the data just committed.
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-node@v7
         with:
