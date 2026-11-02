@@ -265,7 +265,7 @@ def test_runs_without_gemini_key_and_produces_complete_thai_json():
     assert any("฀" <= ch <= "๿" for ch in s["executive_summary_th"])  # Thai script
     assert isinstance(s["early_warnings_th"], list) and len(s["early_warnings_th"]) <= 3
     for w in s["early_warnings_th"]:
-        assert set(w) == {"title", "signal_strength", "timeframe", "evidence_summary"}
+        assert set(w) == {"title", "signal_strength", "timeframe", "evidence_summary", "refs"}
         assert w["signal_strength"] in ("สูง", "ปานกลาง", "เฝ้าระวัง")
     assert isinstance(s["local_notes_th"], list) and len(s["local_notes_th"]) <= 4
 
@@ -411,3 +411,27 @@ def test_prompt_version_change_invalidates_cached_ai_text(monkeypatch):
     cache["ai"]["prompt_version"] = ai_helper.PROMPT_VERSION - 1
     build_state(base_inputs(), CFG, cache, [], NOW + timedelta(hours=6))
     assert len(calls) == 2
+
+
+# ---------------------------------------------------------------- warning source links
+
+def test_template_warnings_carry_source_links():
+    arts = [Article(title="Russia deploys troops, military drills near Poland border", source=s,
+                    link=f"https://{s.lower().replace(' ', '')}.example/story", published=NOW)
+            for s in ("BBC World", "Al Jazeera", "Reuters (Google News)")]
+    latest, _, _ = build_state(base_inputs(rss=[ok("BBC World", "geo", arts)]), CFG, {}, [], NOW)
+    w = latest["summary"]["early_warnings_th"][0]
+    assert w["refs"] and all(r["url"].startswith("https://") and r["source"] for r in w["refs"])
+    assert len({r["source"] for r in w["refs"]}) == len(w["refs"])  # one link per outlet
+    assert latest["summary"]["early_warnings_en"][0]["refs"] == w["refs"]
+
+
+def test_gemini_refs_come_from_our_data_not_the_model():
+    from gci.ai_helper import _validate
+    ref_map = {"E1": [{"url": "https://bbc.example/a", "source": "BBC World"}]}
+    data = {"executive_summary_th": "ก", "executive_summary_en": "a",
+            "early_warnings": [{"title_th": "ก", "title_en": "a", "signal_strength": "ปานกลาง",
+                                "event_ids": ["E1", "E99"], "url": "https://evil.example"}]}
+    out = _validate(data, ref_map)
+    assert out["early_warnings_th"][0]["refs"] == ref_map["E1"]
+    assert "evil" not in str(out)

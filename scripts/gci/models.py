@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
+from urllib.parse import urlparse
 
 
 def safe_links(links: list[str]) -> list[str]:
@@ -80,6 +81,7 @@ class Event:
     sources: list[str] = field(default_factory=list)
     article_count: int = 1
     links: list[str] = field(default_factory=list)
+    link_sources: list[str] = field(default_factory=list)   # outlet name for each entry in `links`
     first_seen: str | None = None
     last_seen: str | None = None
     is_local: bool = False
@@ -96,12 +98,25 @@ class Event:
             "title": self.title,
             "severity": round(self.severity, 1), "score": round(self.score, 1),
             "countries": self.countries, "sources": self.sources,
-            "article_count": self.article_count, "links": safe_links(self.links)[:3],
+            "article_count": self.article_count, "links": safe_links(self.links)[:3], "refs": self.refs(),
+            "link_sources": self.link_sources[:5],
             "first_seen": self.first_seen, "last_seen": self.last_seen,
             "is_local": self.is_local, "location": self.location,
             "location_en": self.location_en if self.location_en is not None else self.location,
             "raw_score": None if self.raw_score is None else round(self.raw_score, 1),
         }
+
+    def refs(self, limit: int = 3) -> list[dict]:
+        """Source links for display: [{url, source}], web URLs only."""
+        out = []
+        for i, url in enumerate(self.links):
+            if not safe_links([url]):
+                continue
+            name = self.link_sources[i] if i < len(self.link_sources) else (urlparse(url).hostname or url).removeprefix("www.")
+            out.append({"url": url, "source": name})
+            if len(out) == limit:
+                break
+        return out
 
     @classmethod
     def from_dict(cls, d: dict) -> "Event":
@@ -111,6 +126,7 @@ class Event:
             severity=float(d.get("severity", 0)), score=float(d.get("score", 0)),
             countries=list(d.get("countries", [])), sources=list(d.get("sources", [])),
             article_count=int(d.get("article_count", 1)), links=list(d.get("links", [])),
+            link_sources=list(d.get("link_sources", [])),
             first_seen=d.get("first_seen"), last_seen=d.get("last_seen"),
             is_local=bool(d.get("is_local", False)), location=d.get("location"),
             raw_score=d.get("raw_score"), category_en=d.get("category_en", ""),

@@ -119,21 +119,26 @@ def template_summary(ctx: dict) -> dict:
     for ev in _watch_events(events):
         tf = WATCH_TIMEFRAME[ev.category]
         sig = _signal(ev)
+        refs = ev.refs()
         warn_th.append({
             "title": f"{ev.category_th}: {countries_th(ev.countries)}", "signal_strength": sig, "timeframe": tf,
+            "refs": refs,
             "evidence_summary": f"พบรายงาน {ev.article_count} ชิ้นจาก {len(ev.sources)} แหล่งข่าว เช่น “{ev.title[:140]}”",
         })
         warn_en.append({
             "title": f"{ev.category_en or ev.category_th}: {countries_en(ev.countries)}", "signal_strength": sig,
-            "timeframe": TIMEFRAME_EN[tf],
+            "timeframe": TIMEFRAME_EN[tf], "refs": refs,
             "evidence_summary": f"{ev.article_count} report(s) from {len(ev.sources)} outlet(s), e.g. “{ev.title[:140]}”",
         })
     brent = next((i for i in ctx["econ_indicators"] if i["key"] == "brent"), None)
     if len(warn_th) < 3 and brent and brent.get("change_pct") is not None and abs(brent["change_pct"]) >= 8:
         sig = "ปานกลาง" if abs(brent["change_pct"]) < 15 else "สูง"
+        brent_refs = [{"url": "https://finance.yahoo.com/quote/BZ%3DF/", "source": "Yahoo Finance"}]
         warn_th.append({"title": "ความผันผวนราคาพลังงาน", "signal_strength": sig, "timeframe": "1-3 เดือน",
+                        "refs": brent_refs,
                         "evidence_summary": f"ราคาน้ำมัน Brent เปลี่ยนแปลง {brent['change_pct']:+.1f}% ใน 5 วันทำการ (ล่าสุด {brent['value']:.1f} USD)"})
         warn_en.append({"title": "Energy price volatility", "signal_strength": sig, "timeframe": "1-3 months",
+                        "refs": brent_refs,
                         "evidence_summary": f"Brent crude moved {brent['change_pct']:+.1f}% over 5 trading days (last {brent['value']:.1f} USD)"})
 
     notes_th, notes_en = [], []
@@ -153,7 +158,7 @@ def template_summary(ctx: dict) -> dict:
 
 # Bump when the prompt or output rules change, so cached text from an older
 # prompt is regenerated instead of reused by the gatekeeper.
-PROMPT_VERSION = 2
+PROMPT_VERSION = 3
 GEMINI_TIMEOUT_MS = 60_000
 
 PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
@@ -162,7 +167,7 @@ Use only the facts and news provided below. Do not guess probabilities.
 Pillar pressure (0-100, computed by the system; for your judgement only, do not quote these numbers):
 {indices}
 
-Deduplicated events / headlines (max 20):
+Deduplicated events / headlines (max 20), each with an id like E1:
 {headlines}
 
 Local events whose weight was capped:
@@ -176,7 +181,8 @@ Reply with this JSON shape:
     {{"title_th": "...", "title_en": "...",
       "signal_strength": "สูง|ปานกลาง|เฝ้าระวัง",
       "timeframe_th": "e.g. 1-4 สัปดาห์ or 1-3 เดือน", "timeframe_en": "e.g. 1-4 weeks or 1-3 months",
-      "evidence_th": "one Thai sentence of fact from the news", "evidence_en": "the same in English"}}
+      "evidence_th": "one Thai sentence of fact from the news", "evidence_en": "the same in English",
+      "event_ids": ["ids of the events above this warning is based on, e.g. E1"]}}
   ],
   "local_notes_th": ["short Thai note"],
   "local_notes_en": ["the same in English"]
@@ -190,7 +196,10 @@ Rules:
 - local_notes: only about the local events listed above, at most 4. If that list is "(none)", return empty lists."""
 
 
-def _validate(data: dict) -> dict:
+def _validate(data: dict, ref_map: dict[str, list[dict]] | None = None) -> dict:
+    """Shape-check the model output. Source links come only from `ref_map` (our own
+    fetched articles, keyed by the ids shown in the prompt), never from the model."""
+    ref_map = ref_map or {}
     exec_th = str(data.get("executive_summary_th", "")).strip()
     exec_en = str(data.get("executive_summary_en", "")).strip()
     if not exec_th or not exec_en:
@@ -201,12 +210,18 @@ def _validate(data: dict) -> dict:
             continue
         sig = str(w.get("signal_strength", "")).strip()
         sig = sig if sig in SIGNALS else "เฝ้าระวัง"
+        refs, seen_urls = [], set()
+        for eid in (w.get("event_ids") or [])[:3]:
+            for r in ref_map.get(str(eid).strip(), []):
+                if r["url"] not in seen_urls and len(refs) < 3:
+                    seen_urls.add(r["url"])
+                    refs.append(r)
         warn_th.append({"title": str(w["title_th"]).strip()[:120], "signal_strength": sig,
                         "timeframe": str(w.get("timeframe_th") or "1-3 เดือน").strip()[:40],
-                        "evidence_summary": str(w.get("evidence_th", "")).strip()[:300]})
+                        "evidence_summary": str(w.get("evidence_th", "")).strip()[:300], "refs": refs})
         warn_en.append({"title": str(w["title_en"]).strip()[:120], "signal_strength": sig,
                         "timeframe": str(w.get("timeframe_en") or "1-3 months").strip()[:40],
-                        "evidence_summary": str(w.get("evidence_en", "")).strip()[:300]})
+                        "evidence_summary": str(w.get("evidence_en", "")).strip()[:300], "refs": refs})
 
     def notes(key: str) -> list[str]:
         return [str(n).strip()[:240] for n in (data.get(key) or []) if str(n).strip()][:4]
@@ -226,8 +241,10 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
         "econ_indicators": {i["label_en"]: {"value": i["value"], "change_5d_pct": i["change_pct"]}
                             for i in ctx["econ_indicators"]},
     }
-    heads = [f"- [{e.pillar}/{e.category_en or e.category}] {e.title} (sources: {len(e.sources)}, score {e.score:.0f})"
-             for e in ctx["events"] if not e.is_local][:ctx["max_headlines"]]
+    listed = [e for e in ctx["events"] if not e.is_local][:ctx["max_headlines"]]
+    heads = [f"- E{n} [{e.pillar}/{e.category_en or e.category}] {e.title} (sources: {len(e.sources)}, score {e.score:.0f})"
+             for n, e in enumerate(listed, 1)]
+    ref_map = {f"E{n}": e.refs() for n, e in enumerate(listed, 1)}
     local = [f"- {e.category_en or e.category}: {e.title} ({e.location_en or ''})" for e in ctx["local_events"][:6]]
     prompt = PROMPT.format(indices=json.dumps(indices, ensure_ascii=False),
                            headlines="\n".join(heads) or "- (none)", local="\n".join(local) or "- (none)")
@@ -241,7 +258,7 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
         model=model, contents=prompt,
         config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
     )
-    return _validate(json.loads(resp.text))
+    return _validate(json.loads(resp.text), ref_map)
 
 
 def _enforce_rules(text: dict, ctx: dict) -> dict:

@@ -1,6 +1,6 @@
 "use client";
 
-import { Binoculars, CalendarRange, FileSearch, SignalHigh, SignalLow, SignalMedium } from "lucide-react";
+import { Binoculars, CalendarRange, ExternalLink, FileSearch, SignalHigh, SignalLow, SignalMedium } from "lucide-react";
 import type { Signal, Warning } from "@/lib/types";
 import { useLang } from "@/lib/i18n";
 
@@ -49,6 +49,30 @@ export function Watchlist({ warnings, source }: { warnings: Warning[]; source: s
                   <FileSearch className="mt-1 h-3.5 w-3.5 shrink-0 text-zinc-400" aria-hidden />
                   <span className="break-words">{w.evidence_summary}</span>
                 </p>
+                {(() => {
+                  // URLs are filtered in the pipeline too; re-check so only web links render
+                  const refs = (w.refs ?? []).filter((r) => /^https?:\/\//i.test(r.url));
+                  return refs.length > 0 ? (
+                    <div className="mt-auto pt-3">
+                      <div className="mb-1 text-[11px] text-zinc-500">{t("readSources")}</div>
+                      <ul className="flex flex-wrap gap-1.5">
+                        {refs.map((r) => (
+                          <li key={r.url}>
+                            <a
+                              href={r.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-xs text-zinc-700 hover:border-zinc-400 hover:text-zinc-900"
+                            >
+                              {r.source}
+                              <ExternalLink className="h-3 w-3" aria-hidden />
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null;
+                })()}
               </li>
             );
           })}

@@ -50,6 +50,7 @@ const DICT = {
   byRules: { th: "สกัดด้วยกฎอัตโนมัติ", en: "Extracted by rules" },
   byAI: { th: "สกัดโดย AI จากข่าวที่ระบบส่งให้", en: "Extracted by AI from news supplied by the system" },
   noWarnings: { th: "ไม่พบสัญญาณเตือนที่มีหลักฐานเพียงพอในรอบนี้", en: "No sufficiently evidenced warning signals this run" },
+  readSources: { th: "อ่านข่าวต้นทาง", en: "Read the source" },
   sig_สูง: { th: "สัญญาณสูง", en: "High signal" },
   sig_ปานกลาง: { th: "สัญญาณปานกลาง", en: "Medium signal" },
   sig_เฝ้าระวัง: { th: "สัญญาณเฝ้าระวัง", en: "Watch" },

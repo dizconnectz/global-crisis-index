@@ -77,11 +77,17 @@ export interface Pillar {
   indicators?: Indicator[];
 }
 
+export interface SourceRef {
+  url: string;
+  source: string;
+}
+
 export interface Warning {
   title: string;
   signal_strength: Signal;
   timeframe: string;
   evidence_summary: string;
+  refs?: SourceRef[];
 }
 
 export interface SourceStatus {

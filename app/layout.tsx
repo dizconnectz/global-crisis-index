@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { IBM_Plex_Sans_Thai, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono, Sarabun } from "next/font/google";
 import "./globals.css";
 
-const thai = IBM_Plex_Sans_Thai({
+// Sarabun is a looped Thai face (letters keep their heads), easier to read than loopless sans.
+const thai = Sarabun({
   subsets: ["thai", "latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-thai",

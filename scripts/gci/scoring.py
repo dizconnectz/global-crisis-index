@@ -219,12 +219,14 @@ def group_articles(articles: list[Article], categories: list[dict], pillar: str,
         if target is None:
             clusters.append({"cat": cat, "countries": countries, "tokens": toks, "title": art.title,
                              "sources": {art.source}, "links": [art.link] if art.link else [],
+                             "link_sources": [art.source] if art.link else [],
                              "count": 1, "text": text})
         else:
             target["sources"].add(art.source)
             target["count"] += 1
-            if art.link and len(target["links"]) < 5:
+            if art.link and art.source not in target["link_sources"] and len(target["links"]) < 5:
                 target["links"].append(art.link)
+                target["link_sources"].append(art.source)
             for c in countries:
                 if c not in target["countries"]:
                     target["countries"].append(c)
@@ -242,7 +244,7 @@ def group_articles(articles: list[Article], categories: list[dict], pillar: str,
             category_en=cl["cat"].get("label_en", cl["cat"]["label_th"]),
             title=cl["title"], severity=sev, score=sev * factor,
             countries=cl["countries"][:5], sources=sorted(cl["sources"])[:8],
-            article_count=cl["count"], links=cl["links"],
+            article_count=cl["count"], links=cl["links"], link_sources=cl["link_sources"],
         ))
         events[-1]._text = cl["text"]  # type: ignore[attr-defined]  # used by bio multi-country check
     # Two clusters can collapse onto the same id (same category + same lead countries)
@@ -372,6 +374,7 @@ def hazard_events(hazards: list[dict], cfg: dict, now: datetime) -> list[Event]:
             id=h["id"], pillar="nat", category=category, category_th=cat_th, category_en=cat_en, title=h["title"],
             severity=raw, score=raw if is_global else min(raw, nat["local_cap"]),
             countries=h.get("countries") or [], sources=[h["source"]], links=[h["link"]] if h.get("link") else [],
+            link_sources=[h["source"]] if h.get("link") else [],
             first_seen=iso(t), last_seen=iso(t), is_local=not is_global, location=location.strip(),
             location_en=location_en.strip(),
             raw_score=raw,
