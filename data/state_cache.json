@@ -22,7 +22,7 @@
           "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -54,7 +54,7 @@
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
         ],
         "first_seen": "2026-11-02T06:43:02Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -82,7 +82,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -108,7 +108,7 @@
           "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -132,7 +132,33 @@
           "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -191,7 +217,7 @@
           "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -217,7 +243,7 @@
           "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1hCZEI1TGROaFpoLWpHcWkyeGtYNGdDbjNNZ09rODVBRmQ3WjBEWTBOLXJ6ejNhUWdlLTFBdVozQVlpalhmM1FlMmJhTkJ6U3FRWTU5YTM1aG02RXVpaDVfMUFjLVE1Y2lIYVBTbDRMVWM0TG4wOXpBTUx4TFZRSFhsV2pHdzN5SFp0NTh2R3FVdGZINWpyRUduQnpYN1B6ekdtdHJMdw?oc=5"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -241,7 +267,7 @@
           "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -265,7 +291,7 @@
           "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": true,
         "location": null,
         "location_en": null,
@@ -291,7 +317,7 @@
           "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": true,
         "location": "คองโก",
         "location_en": "DR Congo",
@@ -318,7 +344,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:06:47Z",
+        "last_seen": "2026-11-02T07:08:00Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -329,19 +355,19 @@
   "last_valid": {
     "econ": {
       "score": 33.4,
-      "as_of": "2026-11-02T07:06:47Z"
+      "as_of": "2026-11-02T07:08:00Z"
     },
     "geo": {
-      "score": 66.5,
-      "as_of": "2026-11-02T07:06:47Z"
+      "score": 66.6,
+      "as_of": "2026-11-02T07:08:00Z"
     },
     "nat": {
       "score": 10.2,
-      "as_of": "2026-11-02T07:06:47Z"
+      "as_of": "2026-11-02T07:08:00Z"
     },
     "bio_infra": {
       "score": 56.4,
-      "as_of": "2026-11-02T07:06:47Z"
+      "as_of": "2026-11-02T07:08:00Z"
     }
   },
   "econ_indicators": {
@@ -350,23 +376,23 @@
       "change_pct": -0.15,
       "drawdown_pct": -37.46,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T07:06:47Z",
+      "as_of": "2026-11-02T07:08:00Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 110.31999969482422,
-      "change_pct": -4.74,
-      "drawdown_pct": -6.78,
+      "last": 110.26000213623047,
+      "change_pct": -4.79,
+      "drawdown_pct": -6.84,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T07:06:47Z",
+      "as_of": "2026-11-02T07:08:00Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3916.300048828125,
-      "change_pct": -3.02,
-      "drawdown_pct": -26.36,
+      "last": 3916.199951171875,
+      "change_pct": -3.03,
+      "drawdown_pct": -26.37,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T07:06:47Z",
+      "as_of": "2026-11-02T07:08:00Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -374,7 +400,7 @@
       "change_pct": -0.57,
       "drawdown_pct": -3.05,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T07:06:47Z",
+      "as_of": "2026-11-02T07:08:00Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -382,13 +408,13 @@
       "change_pct": -1.4,
       "drawdown_pct": -28.01,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T07:06:47Z",
+      "as_of": "2026-11-02T07:08:00Z",
       "provider": "yfinance"
     }
   },
   "ai": {
-    "source": "template",
-    "model": null,
+    "source": "gemini",
+    "model": "gemini-2.5-flash",
     "events_hash": "8c1086ab6f43c570",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
@@ -398,57 +424,61 @@
     ],
     "econ_score": 33.4,
     "summary": {
-      "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และน้ำมันดิบ Brent ทั้งนี้ข่าวหลักบางส่วนยังมีแหล่งยืนยันเพียงแหล่งเดียว และยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด",
+      "executive_summary_th": "ดัชนีความเสี่ยงโดยรวมอยู่ที่ 45 ซึ่งอยู่ในระดับ \"เฝ้าระวัง / ความผันผวนในภูมิภาค\" โดยมีปัจจัยขับเคลื่อนหลักจากความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางและสงครามรัสเซีย-ยูเครน รวมถึงความเสี่ยงด้านชีวภาพและโครงสร้างพื้นฐานจากโรคอีโบลาและการโจมตีทางไซเบอร์",
       "early_warnings_th": [
         {
-          "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
+          "title": "ภัยคุกคามต่อเส้นทางเดินเรือสำคัญและสถานการณ์ความขัดแย้งในช่องแคบฮอร์มุซ",
+          "signal_strength": "สูง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ท่ามกลางความขัดแย้งระหว่างอิหร่านและสหรัฐฯ"
+        },
+        {
+          "title": "การระบาดของโรคอีโบลาในแอฟริกา",
+          "signal_strength": "สูง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "มีข่าวการระบาดของโรคอีโบลาที่เกิดจากเชื้อ Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย"
+        },
+        {
+          "title": "การโจมตีทางไซเบอร์ต่อแอปแจ้งเตือนภัยทางอากาศในยูเครนและรัสเซีย",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
-        },
-        {
-          "title": "โรคติดต่อร้ายแรง: คองโก–ไนจีเรีย",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
-        },
-        {
-          "title": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง: รัสเซีย–ยูเครน",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
+          "evidence_summary": "แอปแจ้งเตือนภัยทางอากาศของรัสเซียและยูเครนถูกโจมตีทางไซเบอร์หลังจากการหยุดยิงสิ้นสุดลง"
         }
       ],
       "local_notes_th": [
-        "การโจมตีไซเบอร์ที่เกิดขึ้นจริง — หลายพื้นที่: #StopRansomware: SafePay Ransomware (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
+        "ดัชนีความผันผวน VIX อยู่ที่ 19.42 ขณะที่ราคาน้ำมันดิบเบรนท์และทองคำลดลง 4.79% และ 3.03% ตามลำดับในช่วง 5 วันที่ผ่านมา",
+        "ดัชนีตลาดหุ้นหลักอย่าง S&P 500 และ SOXX ก็ปรับตัวลดลงเล็กน้อยเช่นกัน",
+        "มีการแจ้งเตือน #StopRansomware: SafePay Ransomware ซึ่งเป็นภัยคุกคามทางไซเบอร์ที่ต้องเฝ้าระวัง"
       ],
-      "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and Brent crude oil. Some key reports still rest on a single source, and there is no sign yet of the crisis spreading across pillars.",
+      "executive_summary_en": "The overall risk index stands at 45, indicating \"Watch / regional volatility,\" primarily driven by geopolitical tensions in the Middle East and the Russia-Ukraine conflict, alongside bio-infrastructure risks from Ebola and cyberattacks.",
       "early_warnings_en": [
         {
-          "title": "Shipping chokepoint threat: Iran",
+          "title": "Shipping Chokepoint Threat and Conflict Situation in Hormuz Strait",
+          "signal_strength": "สูง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Tankers were reported hit in Hormuz Strait amidst ongoing conflict between Iran and the US."
+        },
+        {
+          "title": "Ebola Outbreak in Africa",
+          "signal_strength": "สูง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "News of an Ebola disease outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria."
+        },
+        {
+          "title": "Cyberattacks on Air Raid Alert Apps in Ukraine and Russia",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
-        },
-        {
-          "title": "High-consequence disease: DR Congo–Nigeria",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
-        },
-        {
-          "title": "Actual cyber incident: Russia–Ukraine",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
+          "evidence_summary": "Russia and Ukraine air raid alert apps were hit by cyberattacks after the truce ended."
         }
       ],
       "local_notes_en": [
-        "Actual cyber incident — multiple areas: #StopRansomware: SafePay Ransomware (weight in the global index capped at 25 points in its pillar)"
+        "The VIX volatility index stands at 19.42, while Brent crude oil and gold prices decreased by 4.79% and 3.03% respectively over the past 5 days.",
+        "Major stock indices like S&P 500 and SOXX also saw slight declines.",
+        "A #StopRansomware: SafePay Ransomware alert has been issued, indicating a cyber threat to monitor."
       ]
     },
-    "generated_at": "2026-11-02T07:06:47Z"
+    "generated_at": "2026-11-02T07:08:00Z"
   },
-  "updated_at": "2026-11-02T07:06:47Z",
+  "updated_at": "2026-11-02T07:08:00Z",
   "version": 1
 }
