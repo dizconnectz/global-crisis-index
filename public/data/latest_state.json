@@ -1,69 +1,94 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:34:05Z",
-  "global_score": 44,
+  "generated_at": "2026-11-02T06:43:02Z",
+  "global_score": 45,
   "band": {
     "key": "watch",
     "min": 21,
     "max": 45,
     "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
+    "label_en": "Watch / regional volatility",
     "color": "yellow"
   },
   "formula": {
-    "base": 44.47,
+    "base": 44.71,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 65.8,
+    "max1": 66.5,
     "max2": 54.8,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
+      "label_en": "Economy, finance & energy",
       "score": 33.4,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
       "status_th": "ปกติ",
+      "status_en": "Normal",
       "note": null,
       "top_events": [],
       "metrics": [
         {
+          "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
+          "label_en": "VIX volatility index",
           "value": 19.42,
           "unit": "จุด",
-          "hint": "-0.1% (5 วันทำการ)"
+          "unit_en": "pts",
+          "hint": "-0.1% (5 วันทำการ)",
+          "hint_en": "-0.1% (5 trading days)"
         },
         {
+          "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
-          "value": 110.1,
+          "label_en": "Brent crude oil",
+          "value": 110.11,
           "unit": "USD/บาร์เรล",
-          "hint": "-4.9% (5 วันทำการ)"
+          "unit_en": "USD/bbl",
+          "hint": "-4.9% (5 วันทำการ)",
+          "hint_en": "-4.9% (5 trading days)"
         },
         {
+          "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
-          "value": 3920.6,
+          "label_en": "Gold (safe haven)",
+          "value": 3916.9,
           "unit": "USD/ออนซ์",
-          "hint": "-2.9% (5 วันทำการ)"
+          "unit_en": "USD/oz",
+          "hint": "-3.0% (5 วันทำการ)",
+          "hint_en": "-3.0% (5 trading days)"
         },
         {
+          "key": "spx",
           "label_th": "ดัชนี S&P 500",
+          "label_en": "S&P 500 index",
           "value": 7580.07,
           "unit": "จุด",
-          "hint": "-0.6% (5 วันทำการ)"
+          "unit_en": "pts",
+          "hint": "-0.6% (5 วันทำการ)",
+          "hint_en": "-0.6% (5 trading days)"
         },
         {
+          "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
+          "label_en": "SOXX semiconductor ETF",
           "value": 471.51,
           "unit": "USD",
-          "hint": "-1.4% (5 วันทำการ)"
+          "unit_en": "USD",
+          "hint": "-1.4% (5 วันทำการ)",
+          "hint_en": "-1.4% (5 trading days)"
         }
       ],
       "indicators": [
         {
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
+          "label_en": "VIX volatility index",
           "unit": "จุด",
+          "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
           "value": 19.42,
@@ -77,12 +102,14 @@
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
+          "label_en": "Brent crude oil",
           "unit": "USD/บาร์เรล",
+          "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 110.1,
-          "change_pct": -4.93,
-          "drawdown_pct": -6.97,
+          "value": 110.11,
+          "change_pct": -4.92,
+          "drawdown_pct": -6.96,
           "score": 55.1,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -91,12 +118,14 @@
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
+          "label_en": "Gold (safe haven)",
           "unit": "USD/ออนซ์",
+          "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3920.6,
-          "change_pct": -2.92,
-          "drawdown_pct": -26.28,
+          "value": 3916.9,
+          "change_pct": -3.01,
+          "drawdown_pct": -26.35,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -105,7 +134,9 @@
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
+          "label_en": "S&P 500 index",
           "unit": "จุด",
+          "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
           "value": 7580.07,
@@ -119,7 +150,9 @@
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
+          "label_en": "SOXX semiconductor ETF",
           "unit": "USD",
+          "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
           "value": 471.51,
@@ -135,11 +168,13 @@
     },
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
-      "score": 65.8,
+      "label_en": "Conflict & geopolitics",
+      "score": 66.5,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "partial",
       "status_th": "ข้อมูลบางส่วนล่าช้า",
+      "status_en": "Some data delayed",
       "note": "บางแหล่งข้อมูลไม่ตอบสนอง",
       "top_events": [
         {
@@ -147,6 +182,7 @@
           "pillar": "geo",
           "category": "chokepoint",
           "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
           "severity": 85.0,
           "score": 51.0,
@@ -161,9 +197,10 @@
             "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
+          "last_seen": "2026-11-02T06:43:02Z",
           "is_local": false,
           "location": null,
+          "location_en": null,
           "raw_score": null
         },
         {
@@ -171,26 +208,59 @@
           "pillar": "geo",
           "category": "missile_strike",
           "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+          "category_en": "Air / missile strikes",
+          "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "severity": 55.0,
           "score": 44.0,
           "countries": [
-            "ukraine",
-            "russia"
+            "russia",
+            "ukraine"
           ],
           "sources": [
             "Al Jazeera",
             "BBC World"
           ],
-          "article_count": 2,
+          "article_count": 1,
           "links": [
-            "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
+          "last_seen": "2026-11-02T06:43:02Z",
           "is_local": false,
           "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:conflict:ad160a7842",
+          "pillar": "geo",
+          "category": "conflict",
+          "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "category_en": "Armed conflict",
+          "title": "Emotional reunions with loved ones for Oleshky evacuees",
+          "severity": 30.0,
+          "score": 30.0,
+          "countries": [
+            "ukraine",
+            "belarus",
+            "russia"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World",
+            "Reuters (Google News)"
+          ],
+          "article_count": 3,
+          "links": [
+            "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+            "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
+          ],
+          "first_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:43:02Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
           "raw_score": null
         },
         {
@@ -198,6 +268,7 @@
           "pillar": "geo",
           "category": "conflict",
           "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "category_en": "Armed conflict",
           "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
           "severity": 30.0,
           "score": 30.0,
@@ -221,6 +292,7 @@
           "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
+          "location_en": null,
           "raw_score": null
         },
         {
@@ -228,6 +300,7 @@
           "pillar": "geo",
           "category": "conflict",
           "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "category_en": "Armed conflict",
           "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
           "severity": 30.0,
           "score": 18.0,
@@ -243,62 +316,55 @@
             "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
+          "last_seen": "2026-11-02T06:43:02Z",
           "is_local": false,
           "location": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:conflict:e454d80e02",
-          "pillar": "geo",
-          "category": "conflict",
-          "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-          "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
-          "severity": 30.0,
-          "score": 18.0,
-          "countries": [],
-          "sources": [
-            "Al Jazeera"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
-          "is_local": false,
-          "location": null,
+          "location_en": null,
           "raw_score": null
         }
       ],
       "metrics": [
         {
+          "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
-          "value": 5,
+          "label_en": "Active events tracked",
+          "value": 6,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
-          "value": 0,
+          "label_en": "New events this run",
+          "value": 1,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
+          "label_en": "Articles analysed",
           "value": 72,
           "unit": "ชิ้น",
-          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์"
+          "unit_en": "articles",
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
+      "label_en": "Natural hazards at strategic hubs",
       "score": 10.2,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
       "status_th": "ปกติ",
+      "status_en": "Normal",
       "note": null,
       "top_events": [
         {
@@ -306,6 +372,7 @@
           "pillar": "nat",
           "category": "gdacs_fl",
           "category_th": "อุทกภัย",
+          "category_en": "Flood",
           "title": "Green flood alert in Indonesia",
           "severity": 1.6,
           "score": 1.6,
@@ -323,43 +390,62 @@
           "last_seen": "2026-10-29T09:29:04Z",
           "is_local": false,
           "location": "Indonesia (ห่างช่องแคบมะละกา ~183 กม.)",
+          "location_en": "Indonesia (~183 km from Strait of Malacca)",
           "raw_score": 1.6
         }
       ],
       "metrics": [
         {
+          "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
+          "label_en": "M6.0+ earthquakes (7 days)",
           "value": 5,
           "unit": "ครั้ง",
-          "hint": null
+          "unit_en": "quakes",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "gdacs_orange_red",
           "label_th": "GDACS ระดับส้ม/แดง",
+          "label_en": "GDACS orange/red alerts",
           "value": 0,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "near_hubs",
           "label_th": "ใกล้จุดยุทธศาสตร์โลก",
+          "label_en": "Near global strategic hubs",
           "value": 1,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
+          "label_en": "Capped as local events",
           "value": 158,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         }
       ]
     },
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
+      "label_en": "Health & critical infrastructure",
       "score": 54.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "partial",
       "status_th": "ข้อมูลบางส่วนล่าช้า",
+      "status_en": "Some data delayed",
       "note": "บางแหล่งข้อมูลไม่ตอบสนอง",
       "top_events": [
         {
@@ -367,6 +453,7 @@
           "pillar": "bio_infra",
           "category": "high_consequence",
           "category_th": "โรคติดต่อร้ายแรง",
+          "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
           "score": 45.0,
@@ -382,9 +469,10 @@
             "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
+          "last_seen": "2026-11-02T06:43:02Z",
           "is_local": false,
           "location": null,
+          "location_en": null,
           "raw_score": null
         },
         {
@@ -392,6 +480,7 @@
           "pillar": "bio_infra",
           "category": "cyber_incident",
           "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "category_en": "Actual cyber incident",
           "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "severity": 40.0,
           "score": 24.0,
@@ -407,30 +496,43 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:34:05Z",
+          "last_seen": "2026-11-02T06:43:02Z",
           "is_local": false,
           "location": null,
+          "location_en": null,
           "raw_score": null
         }
       ],
       "metrics": [
         {
+          "key": "health",
           "label_th": "เหตุการณ์สุขภาพที่ติดตาม",
+          "label_en": "Health events tracked",
           "value": 2,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
+          "label_en": "Cyber incidents / outages",
           "value": 1,
           "unit": "เหตุการณ์",
-          "hint": null
+          "unit_en": "events",
+          "hint": null,
+          "hint_en": null
         },
         {
+          "key": "advisories",
           "label_th": "ประกาศช่องโหว่ทั่วไป",
+          "label_en": "Routine vulnerability advisories",
           "value": 0,
           "unit": "รายการ",
-          "hint": null
+          "unit_en": "items",
+          "hint": null,
+          "hint_en": null
         }
       ]
     }
@@ -439,27 +541,33 @@
     {
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
-      "score": 65.8,
-      "contribution": 23.0,
-      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon"
+      "label_en": "Conflict & geopolitics",
+      "score": 66.5,
+      "contribution": 23.3,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+      "headline_en": "Shipping chokepoint threat: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon"
     },
     {
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
+      "label_en": "Economy, finance & energy",
       "score": 33.4,
       "contribution": 11.7,
-      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 471.51 USD"
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 471.51 USD",
+      "headline_en": "SOXX semiconductor ETF 471.51 USD"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
+      "label_en": "Health & critical infrastructure",
       "score": 54.8,
       "contribution": 8.2,
-      "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
+      "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
+      "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 44/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
+    "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 45/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
     "early_warnings_th": [
       {
         "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
@@ -481,20 +589,43 @@
       }
     ],
     "local_notes_th": [],
+    "executive_summary_en": "The Global Crisis Index stands at 45/100 (“Watch / regional volatility”), driven mainly by conflict & geopolitics (66/100) and economy, finance & energy (33/100). The heaviest-weighted event is shipping chokepoint threat involving Iran (confirmed by 1 source).",
+    "early_warnings_en": [
+      {
+        "title": "Shipping chokepoint threat: Iran",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-4 weeks",
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
+      },
+      {
+        "title": "High-consequence disease: DR Congo–Nigeria",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
+      },
+      {
+        "title": "Actual cyber incident: Russia–Ukraine",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
+      }
+    ],
+    "local_notes_en": [],
     "source": "template",
     "model": null,
-    "generated_at": "2026-11-02T06:34:05Z"
+    "generated_at": "2026-11-02T06:43:02Z"
   },
   "local_events": [],
   "data_status": {
     "key": "degraded",
     "label_th": "ข้อมูลบางส่วนล่าช้า",
+    "label_en": "Some data delayed",
     "sources": [
       {
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:07Z",
+        "fetched_at": "2026-11-02T06:43:04Z",
         "items": 5,
         "error": null,
         "note": null
@@ -503,7 +634,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T06:34:59Z",
+        "fetched_at": "2026-11-02T06:43:50Z",
         "items": null,
         "error": "HTTP 429",
         "note": null
@@ -512,7 +643,7 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:05Z",
+        "fetched_at": "2026-11-02T06:43:02Z",
         "items": 30,
         "error": null,
         "note": null
@@ -521,7 +652,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:06Z",
+        "fetched_at": "2026-11-02T06:43:03Z",
         "items": 25,
         "error": null,
         "note": null
@@ -530,7 +661,7 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:06Z",
+        "fetched_at": "2026-11-02T06:43:03Z",
         "items": 17,
         "error": null,
         "note": null
@@ -539,7 +670,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:05Z",
+        "fetched_at": "2026-11-02T06:43:02Z",
         "items": 5,
         "error": null,
         "note": null
@@ -548,7 +679,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:09Z",
+        "fetched_at": "2026-11-02T06:43:04Z",
         "items": 174,
         "error": null,
         "note": null
@@ -557,7 +688,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:34:06Z",
+        "fetched_at": "2026-11-02T06:43:02Z",
         "items": 20,
         "error": null,
         "note": null
@@ -566,7 +697,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "error",
-        "fetched_at": "2026-11-02T06:34:12Z",
+        "fetched_at": "2026-11-02T06:43:09Z",
         "items": null,
         "error": "403 Client Error: Forbidden for url: https://www.cisa.gov/cybersecurity-advisories/all.xml",
         "note": null
@@ -593,6 +724,7 @@
         "min": 0,
         "max": 20,
         "label_th": "ผลกระทบเชิงระบบระดับต่ำ",
+        "label_en": "Low systemic impact",
         "color": "green"
       },
       {
@@ -600,6 +732,7 @@
         "min": 21,
         "max": 45,
         "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
+        "label_en": "Watch / regional volatility",
         "color": "yellow"
       },
       {
@@ -607,6 +740,7 @@
         "min": 46,
         "max": 70,
         "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
+        "label_en": "High tension / global supply-chain impact",
         "color": "orange"
       },
       {
@@ -614,6 +748,7 @@
         "min": 71,
         "max": 100,
         "label_th": "วิกฤตเชิงระบบระดับโลก",
+        "label_en": "Global systemic crisis",
         "color": "red"
       }
     ],
@@ -629,6 +764,16 @@
       "คลองปานามา",
       "ช่องแคบบับเอลมันเดบ",
       "เซี่ยงไฮ้"
+    ],
+    "strategic_hubs_en": [
+      "Taiwan Strait",
+      "Suez Canal",
+      "Strait of Hormuz",
+      "Strait of Malacca",
+      "Tokyo",
+      "Panama Canal",
+      "Bab el-Mandeb",
+      "Shanghai"
     ],
     "decay_per_day": 0.15
   }
