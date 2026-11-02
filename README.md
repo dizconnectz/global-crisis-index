@@ -84,6 +84,7 @@ The system is built so that **no single failure stops the site or produces a wro
 | **Free quota / tokens used up** (HTTP 429) | Catches the error and writes the summary from the built-in template in the same run. The next run tries Gemini again. | Same scores; summary reads more plainly; footer of the hero card says *Summary by rule-based template*. | None. If it happens every run, check usage at [Google AI Studio](https://aistudio.google.com/) or switch to a lighter model with the `GEMINI_MODEL` variable. |
 | Nothing new since the last run | Skips the AI call (0 tokens) and reuses the previous AI text. This keeps usage far below the free quota. | *Summary by Gemini (previous run)*. | None. |
 | API key missing, wrong or revoked | Runs in template mode. | Template summary. | Add or replace the `GEMINI_API_KEY` secret. |
+| Gemini overloaded (HTTP 503 "high demand") | Retries once after a few seconds, then uses the template. The next run tries again. | Template summary for that run. | None. |
 | Gemini slow or unreachable | Gives up after 60 seconds and uses the template. | Template summary. | None. |
 | Gemini returns broken or incomplete JSON | Rejects the response and uses the template. | Template summary. | None. |
 | Gemini quotes the score or invents local notes | Code removes them: a summary containing a score is replaced by the template's; local notes are cleared when there are no local events. | Clean summary. | None. |

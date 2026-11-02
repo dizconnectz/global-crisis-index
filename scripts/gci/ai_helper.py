@@ -138,9 +138,11 @@ def template_summary(ctx: dict) -> dict:
 
     notes_th, notes_en = [], []
     for ev in ctx["local_events"][:4]:
-        notes_th.append(f"{ev.category_th} — {ev.location or countries_th(ev.countries)}: {ev.title[:120]} "
+        where_th = ev.location or (countries_th(ev.countries) if ev.countries else "ไม่ระบุพื้นที่")
+        where_en = ev.location_en or (countries_en(ev.countries) if ev.countries else "location not specified")
+        notes_th.append(f"{ev.category_th} — {where_th}: {ev.title[:120]} "
                         f"(น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ {ev.score:.0f} คะแนนในหมวด)")
-        notes_en.append(f"{ev.category_en or ev.category_th} — {ev.location_en or countries_en(ev.countries)}: {ev.title[:120]} "
+        notes_en.append(f"{ev.category_en or ev.category_th} — {where_en}: {ev.title[:120]} "
                         f"(weight in the global index capped at {ev.score:.0f} points in its pillar)")
 
     return {"executive_summary_th": exec_th, "early_warnings_th": warn_th, "local_notes_th": notes_th,
@@ -230,7 +232,11 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
     prompt = PROMPT.format(indices=json.dumps(indices, ensure_ascii=False),
                            headlines="\n".join(heads) or "- (none)", local="\n".join(local) or "- (none)")
     # The SDK waits forever by default; a hung call must not stall the whole update run.
-    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=GEMINI_TIMEOUT_MS))
+    # 5xx ("model overloaded") is usually momentary, so retry once; 429 (quota) is not retried.
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(
+        timeout=GEMINI_TIMEOUT_MS,
+        retry_options=types.HttpRetryOptions(attempts=2, initial_delay=5, http_status_codes=[500, 502, 503, 504]),
+    ))
     resp = client.models.generate_content(
         model=model, contents=prompt,
         config=types.GenerateContentConfig(response_mime_type="application/json", temperature=0.2),
