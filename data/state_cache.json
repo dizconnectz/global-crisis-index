@@ -23,7 +23,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -53,7 +53,7 @@
           "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -78,7 +78,7 @@
           "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -102,7 +102,7 @@
           "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -124,7 +124,7 @@
           "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -151,429 +151,7 @@
           "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:ebd92c9de6": {
-        "id": "bio_infra:vuln_advisory:ebd92c9de6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 7,
-        "links": [
-          "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-          "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-          "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:83a2f52bc5": {
-        "id": "bio_infra:vuln_advisory:83a2f52bc5",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Hitachi Energy CoreTec Product",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:42362bf092": {
-        "id": "bio_infra:vuln_advisory:42362bf092",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Hitachi Energy TRO600 series products",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:38ac87ad73": {
-        "id": "bio_infra:vuln_advisory:38ac87ad73",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens Mendix SAML Module",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:7f95319368": {
-        "id": "bio_infra:vuln_advisory:7f95319368",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "EPICS Base",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:cbc96e5987": {
-        "id": "bio_infra:vuln_advisory:cbc96e5987",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:e97826694c": {
-        "id": "bio_infra:vuln_advisory:e97826694c",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens RUGGEDCOM CROSSBOW",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:a14bace131": {
-        "id": "bio_infra:vuln_advisory:a14bace131",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens RUGGEDCOM APE1808 Devices",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:05c6aae29b": {
-        "id": "bio_infra:vuln_advisory:05c6aae29b",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:5fd26cb370": {
-        "id": "bio_infra:vuln_advisory:5fd26cb370",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens WinCC",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:4a0e22f07a": {
-        "id": "bio_infra:vuln_advisory:4a0e22f07a",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:1b351cfc24": {
-        "id": "bio_infra:vuln_advisory:1b351cfc24",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens PSS(R)SINCAL",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:7ca90f3dce": {
-        "id": "bio_infra:vuln_advisory:7ca90f3dce",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens Capital Embedded AR Classic",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:fe72eb66c1": {
-        "id": "bio_infra:vuln_advisory:fe72eb66c1",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "InterSystems Corporation InterSystems IRIS for Health",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:cb2a5db1d3": {
-        "id": "bio_infra:vuln_advisory:cb2a5db1d3",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens SIMATIC IPCs",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:ec16177046": {
-        "id": "bio_infra:vuln_advisory:ec16177046",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens SIMATIC S7 PLCs Web Server",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:dfd5441ef5": {
-        "id": "bio_infra:vuln_advisory:dfd5441ef5",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens SENTRON 3NA COM Fuse",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:203eb3ef14": {
-        "id": "bio_infra:vuln_advisory:203eb3ef14",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Kiloview E3 NDI Encoder",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
-        "is_local": false,
-        "location": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:6083cd4651": {
-        "id": "bio_infra:vuln_advisory:6083cd4651",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "title": "Siemens Industrial Edge Devices",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -597,7 +175,7 @@
           "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": true,
         "location": "คองโก",
         "raw_score": 27.0
@@ -622,7 +200,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:25:18Z",
+        "last_seen": "2026-11-02T06:30:16Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -632,19 +210,19 @@
   "last_valid": {
     "econ": {
       "score": 33.4,
-      "as_of": "2026-11-02T06:25:18Z"
+      "as_of": "2026-11-02T06:30:16Z"
     },
     "geo": {
       "score": 65.8,
-      "as_of": "2026-11-02T06:25:18Z"
+      "as_of": "2026-11-02T06:30:16Z"
     },
     "nat": {
-      "score": 10.3,
-      "as_of": "2026-11-02T06:25:18Z"
+      "score": 10.2,
+      "as_of": "2026-11-02T06:30:16Z"
     },
     "bio_infra": {
-      "score": 55.3,
-      "as_of": "2026-11-02T06:25:18Z"
+      "score": 54.8,
+      "as_of": "2026-11-02T06:30:16Z"
     }
   },
   "econ_indicators": {
@@ -653,23 +231,23 @@
       "change_pct": -0.15,
       "drawdown_pct": -37.46,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:25:18Z",
+      "as_of": "2026-11-02T06:30:16Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 110.04000091552734,
-      "change_pct": -4.98,
-      "drawdown_pct": -7.02,
+      "last": 110.05000305175781,
+      "change_pct": -4.97,
+      "drawdown_pct": -7.01,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:25:18Z",
+      "as_of": "2026-11-02T06:30:16Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3921.89990234375,
-      "change_pct": -2.88,
-      "drawdown_pct": -26.26,
+      "last": 3920.60009765625,
+      "change_pct": -2.92,
+      "drawdown_pct": -26.28,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:25:18Z",
+      "as_of": "2026-11-02T06:30:16Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -677,7 +255,7 @@
       "change_pct": -0.57,
       "drawdown_pct": -3.05,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:25:18Z",
+      "as_of": "2026-11-02T06:30:16Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -685,7 +263,7 @@
       "change_pct": -1.4,
       "drawdown_pct": -28.01,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:25:18Z",
+      "as_of": "2026-11-02T06:30:16Z",
       "provider": "yfinance"
     }
   },
@@ -701,7 +279,7 @@
     ],
     "econ_score": 33.4,
     "summary": {
-      "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 45/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
+      "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 44/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
       "early_warnings_th": [
         {
           "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
@@ -724,8 +302,8 @@
       ],
       "local_notes_th": []
     },
-    "generated_at": "2026-11-02T06:25:18Z"
+    "generated_at": "2026-11-02T06:30:16Z"
   },
-  "updated_at": "2026-11-02T06:25:18Z",
+  "updated_at": "2026-11-02T06:30:16Z",
   "version": 1
 }
