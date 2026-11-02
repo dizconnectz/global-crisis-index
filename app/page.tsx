@@ -42,6 +42,13 @@ export default function Home() {
       <footer className="border-t border-zinc-800/80 py-6 text-center text-xs text-zinc-500">
         Global Crisis Index · ข้อมูลจาก Yahoo Finance, FRED, GDELT, BBC, Al Jazeera, Reuters, USGS, GDACS, WHO, CISA ·
         ไม่ใช่คำแนะนำการลงทุน
+        <div className="mt-1">
+          © 2026 dizconnectz · ข้อมูลและเนื้อหาใช้สัญญาอนุญาต{" "}
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.th" className="underline hover:text-zinc-300" target="_blank" rel="noopener noreferrer">
+            CC BY 4.0
+          </a>{" "}
+          — นำไปใช้หรืออ้างอิงได้โดยต้องให้เครดิต
+        </div>
       </footer>
     </>
   );
