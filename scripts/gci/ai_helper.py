@@ -64,36 +64,55 @@ def _watch_events(events: list[Event]) -> list[Event]:
     return out
 
 
+def _reasons(pillar: str, ctx: dict) -> tuple[str, str]:
+    """Why a pillar is elevated, in words (Thai, English). The score and level are
+    already shown above the summary, so no numbers are repeated here."""
+    if pillar == "econ":
+        inds = sorted((i for i in ctx["econ_indicators"] if (i.get("score") or 0) >= 20),
+                      key=lambda i: i["score"], reverse=True)[:2]
+        if not inds:
+            return "", ""
+        return (" จากความเคลื่อนไหวของ" + " และ".join(i["label_th"] for i in inds),
+                ", driven by " + " and ".join(i["label_en"] for i in inds))
+    ev = next((e for e in ctx["events"] if e.pillar == pillar and not e.is_local), None)
+    if ev is None:
+        return "", ""
+    return (f" โดยเฉพาะ{ev.category_th}เกี่ยวกับ{countries_th(ev.countries)}",
+            f", especially {(ev.category_en or ev.category).lower()} involving {countries_en(ev.countries)}")
+
+
 def template_summary(ctx: dict) -> dict:
-    score, band_th, band_en = ctx["global_score"], ctx["band_label_th"], ctx["band_label_en"]
-    drivers = ctx["top_drivers"]
+    drivers = [d for d in ctx["top_drivers"] if d["score"] >= 20][:2] or ctx["top_drivers"][:1]
     events: list[Event] = ctx["events"]
     top = next((e for e in events if not e.is_local), None)
 
-    if score is None:
+    if ctx["global_score"] is None:
         exec_th = ("ขณะนี้ยังคำนวณดัชนีรวมไม่ได้เพราะแหล่งข้อมูลหลักขาดหาย "
                    "ระบบจะไม่แสดงค่าแทนที่เป็นศูนย์เพื่อไม่ให้โลกดูปลอดภัยเกินจริง")
         exec_en = ("The global index cannot be computed right now because key data sources are missing. "
                    "The system will not substitute zero, which would make the world look safer than it is.")
+    elif not drivers:
+        exec_th = "ไม่พบแรงกดดันที่โดดเด่นในหมวดใด ตลาดการเงินและสถานการณ์โลกค่อนข้างสงบ"
+        exec_en = "No pillar shows notable pressure; markets and world events are relatively calm."
     else:
-        drv_th = " และ".join(f"หมวด{PILLAR_TH[d['pillar']]} ({d['score']:.0f}/100)" for d in drivers[:2])
-        drv_en = " and ".join(f"{PILLAR_EN[d['pillar']].lower()} ({d['score']:.0f}/100)" for d in drivers[:2])
-        s1_th = f"ดัชนีวิกฤตโลกอยู่ที่ {score}/100 ระดับ “{band_th}” โดยแรงกดดันหลักมาจาก{drv_th}"
-        s1_en = f"The Global Crisis Index stands at {score}/100 (“{band_en}”), driven mainly by {drv_en}."
-        if top:
-            s2_th = (f"เหตุการณ์ที่มีน้ำหนักสูงสุดคือ{top.category_th}เกี่ยวกับ{countries_th(top.countries)} "
-                     f"(ยืนยันจาก {len(top.sources)} แหล่ง)")
-            s2_en = (f"The heaviest-weighted event is {top.category_en.lower() or top.category}"
-                     f" involving {countries_en(top.countries)} (confirmed by {len(top.sources)} "
-                     f"source{'s' if len(top.sources) != 1 else ''})")
-        else:
-            s2_th = "ไม่พบเหตุการณ์ระดับโลกที่มีน้ำหนักโดดเด่นในรอบนี้"
-            s2_en = "No dominant global-scale event was detected in this run"
+        parts_th, parts_en = [], []
+        for d in drivers:
+            r_th, r_en = _reasons(d["pillar"], ctx)
+            parts_th.append(PILLAR_TH[d["pillar"]] + r_th)
+            parts_en.append(PILLAR_EN[d["pillar"]].lower() + r_en)
+        s1_th = "แรงกดดันหลักมาจาก" + parts_th[0] + (f" รองลงมาคือ{parts_th[1]}" if len(parts_th) > 1 else "")
+        s1_en = "Pressure comes mainly from " + parts_en[0] + (f", followed by {parts_en[1]}" if len(parts_en) > 1 else "") + "."
         if ctx["cross_confirmed"]:
-            s2_th += f" และวิกฤตเริ่มลุกลามข้ามหมวด ทำให้ตัวเร่งเชิงระบบเพิ่มคะแนน +{ctx['boost']:.0f}"
-            s2_en += f", and the crisis is spreading across pillars, adding a systemic boost of +{ctx['boost']:.0f}"
+            s2_th = "วิกฤตเริ่มลุกลามข้ามหมวด จึงมีตัวเร่งเชิงระบบเพิ่มเข้ามา"
+            s2_en = "The crisis is spreading across pillars, so the systemic booster is active."
+        elif top and len(top.sources) == 1:
+            s2_th = "ทั้งนี้ข่าวหลักบางส่วนยังมีแหล่งยืนยันเพียงแหล่งเดียว และยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด"
+            s2_en = "Some key reports still rest on a single source, and there is no sign yet of the crisis spreading across pillars."
+        else:
+            s2_th = "ยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด"
+            s2_en = "There is no sign yet of the crisis spreading across pillars."
         exec_th = f"{s1_th} {s2_th}"
-        exec_en = f"{s1_en} {s2_en}."
+        exec_en = f"{s1_en} {s2_en}"
 
     warn_th, warn_en = [], []
     for ev in _watch_events(events):
@@ -143,7 +162,7 @@ Local events whose weight was capped:
 
 Reply with this JSON shape:
 {{
-  "executive_summary_th": "2 Thai sentences explaining why the score is at its current level",
+  "executive_summary_th": "2 short Thai sentences on WHY the index is where it is (which pillars and events drive it)",
   "executive_summary_en": "the same 2 sentences in English",
   "early_warnings": [
     {{"title_th": "...", "title_en": "...",
@@ -154,6 +173,7 @@ Reply with this JSON shape:
   "local_notes_th": ["short Thai note"],
   "local_notes_en": ["the same in English"]
 }}
+The overall score and its level are already displayed next to the summary: do NOT restate them.
 early_warnings: at most 3, each backed by the news above (1-3 month watchlist: troop movements, new sanctions,
 energy trends, etc). local_notes: at most 4. signal_strength must be exactly one of the three Thai values."""
 

@@ -4,11 +4,11 @@ from __future__ import annotations
 
 import logging
 import time
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 import requests
+from defusedxml.ElementTree import fromstring as safe_fromstring
 
 log = logging.getLogger("gci.http")
 
@@ -21,7 +21,8 @@ DEFAULT_TIMEOUT = 20
 
 def get(url: str, *, params=None, timeout: int = DEFAULT_TIMEOUT, retries: int = 3,
         backoff: float = 2.0, headers: dict | None = None) -> requests.Response:
-    """GET with retry on network errors, 429 and 5xx. Raises the last error."""
+    """GET with retry on network errors, 429 and 5xx. Other 4xx (403, 404…) are
+    permanent for this run, so they fail immediately instead of wasting retries."""
     hdrs = {"User-Agent": USER_AGENT, "Accept": "*/*"}
     if headers:
         hdrs.update(headers)
@@ -34,6 +35,9 @@ def get(url: str, *, params=None, timeout: int = DEFAULT_TIMEOUT, retries: int =
             resp.raise_for_status()
             return resp
         except requests.RequestException as exc:
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            if status is not None and 400 <= status < 500 and status != 429:
+                raise
             last_exc = exc
             if attempt < retries - 1:
                 wait = backoff * (2 ** attempt)
@@ -60,8 +64,11 @@ def _parse_date(text: str | None) -> datetime | None:
 
 
 def parse_rss(xml_bytes: bytes) -> list[dict]:
-    """Minimal RSS 2.0 / Atom parser -> [{title, link, summary, published, raw}]."""
-    root = ET.fromstring(xml_bytes)
+    """Minimal RSS 2.0 / Atom parser -> [{title, link, summary, published, raw}].
+
+    Feeds are untrusted input, so parsing goes through defusedxml (blocks entity
+    expansion and external entity tricks)."""
+    root = safe_fromstring(xml_bytes)
     items: list[dict] = []
     atom = "{http://www.w3.org/2005/Atom}"
     nodes = root.findall(".//item") or root.findall(f".//{atom}entry")

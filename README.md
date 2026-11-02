@@ -1,109 +1,138 @@
 # Global Crisis Index (GCI)
 
-🌐 **เว็บไซต์:** <https://dizconnectz.github.io/global-crisis-index/>
+🌐 **Live site:** <https://dizconnectz.github.io/global-crisis-index/>
 
-ดัชนี 0–100 วัด **ระดับผลกระทบเชิงระบบต่อโลก** จาก 4 เสาหลัก ได้แก่ เศรษฐกิจ/พลังงาน, ภูมิรัฐศาสตร์, ภัยธรรมชาติ และสุขภาพ/โครงสร้างพื้นฐาน
-เว็บเป็นภาษาไทย โฮสต์บน **GitHub Pages** และอัปเดตด้วย **GitHub Actions** ทุก 6 ชั่วโมง ใช้ฟรีทั้งหมด ไม่ต้องมีเซิร์ฟเวอร์หรือฐานข้อมูล
+A 0–100 index of **systemic impact on the world**, built from four pillars: the economy & energy markets, geopolitical conflict, natural hazards at strategic hubs, and health & critical infrastructure.
+The site is available in Thai and English, hosted free on **GitHub Pages**, and refreshed every 6 hours by **GitHub Actions** — no server, no database, no paid services.
 
-| ช่วงคะแนน | ความหมาย |
+| Score | Meaning |
 |---|---|
-| 0–20 | 🟢 ผลกระทบเชิงระบบระดับต่ำ |
-| 21–45 | 🟡 เฝ้าระวัง / ผันผวนระดับภูมิภาค |
-| 46–70 | 🟠 ตึงเครียดสูง / กระทบห่วงโซ่โลก |
-| 71–100 | 🔴 วิกฤตเชิงระบบระดับโลก |
+| 0–20 | 🟢 Low systemic impact |
+| 21–45 | 🟡 Watch / regional volatility |
+| 46–70 | 🟠 High tension / global supply-chain impact |
+| 71–100 | 🔴 Global systemic crisis |
 
 ---
 
-## สถาปัตยกรรม
+## What the site shows
+
+- **Headline score** with its level, a short plain-language summary, the top drivers, and a trend line of recent scores.
+- **Early-warning watchlist** — up to three things worth watching over the next 1–3 months, each with its evidence. Kept separate from the score.
+- **The four pillars** — each pillar's sub-score alongside the real numbers behind it (VIX, Brent crude, gold, event counts, and so on).
+- **Local event notes** — serious events that hit one area only (for example, a strong earthquake far from global shipping routes). They are listed so readers stay informed, while their weight in the world score is deliberately limited.
+
+## Design principles
+
+- **Every number is computed by code, never by AI.** The site works fully without any AI key. AI (optional) only writes the summary text.
+- **Missing data is never treated as zero.** If a source is down, the system uses its last valid value or leaves that pillar out — it never pretends the world got safer.
+- **Weekends are normal.** Markets closed on Saturday/Sunday use Friday's close and are not flagged as an outage.
+- **No double counting.** Fifty articles about the same story count as one event; what matters is how many independent outlets confirm it.
+- **Local vs. global.** A disaster far from global supply-chain hubs is capped so it cannot inflate the world score.
+- **Transparent status.** The header shows how fresh the data is and whether any source is delayed.
+
+## Data sources (all free)
+
+| Pillar | Sources |
+|---|---|
+| Economy, finance & energy | Yahoo Finance (via `yfinance`), FRED |
+| Conflict & geopolitics | GDELT, BBC World, Al Jazeera, Reuters (via Google News) |
+| Natural hazards | USGS earthquakes, GDACS alerts |
+| Health & infrastructure | WHO Disease Outbreak News, CISA advisories (Google News fallback) |
+
+---
+
+## How the data updates
+
+Everything runs in one GitHub Actions workflow: [`.github/workflows/update_and_deploy.yml`](.github/workflows/update_and_deploy.yml).
+
+**Triggers**
+
+| Trigger | When |
+|---|---|
+| Schedule (`17 */6 * * *`) | Every 6 hours at minute 17 UTC (00:17, 06:17, 12:17, 18:17 UTC). GitHub may start scheduled runs a few minutes late. |
+| Manual | Actions tab → *Update index & deploy* → **Run workflow** |
+| Code push to `main` | Rebuilds after code changes (data-only and README commits are ignored) |
+
+**Each run**
+
+1. `python scripts/update_index.py` — fetch all sources and compute the index
+2. `pytest` — if any test fails, the run stops and nothing is published
+3. The bot commits the refreshed JSON files back to the repository
+4. `npm run build` — build the static site with the new data baked in
+5. Deploy to GitHub Pages
+
+**Where the data lives** — in this repository. Git is the database, so every update is a commit you can look back on.
+
+| File | Contents | Public URL |
+|---|---|---|
+| `public/data/latest_state.json` | Current score, pillar scores, source status, watchlist, local notes (Thai + English) | [`/data/latest_state.json`](https://dizconnectz.github.io/global-crisis-index/data/latest_state.json) |
+| `public/data/history.json` | Last 90 days of scores, for the trend chart | [`/data/history.json`](https://dizconnectz.github.io/global-crisis-index/data/history.json) |
+| `data/state_cache.json` | Internal memory: ongoing events, last valid values, previous AI text | not published on the site |
+
+> If you edit code locally, run `git pull` first — the bot commits new data every 6 hours.
+
+---
+
+## Project layout
 
 ```
-GitHub Actions (ทุก 6 ชม. ที่นาที :17)
-  └─ python scripts/update_index.py      ดึงข้อมูล → คำนวณ (deterministic) → สรุปภาษาไทย
-  └─ pytest                              ทดสอบสูตร/การจัดการข้อมูลหาย (ถ้าไม่ผ่านจะไม่ commit)
-  └─ git commit JSON                     Git ทำหน้าที่เป็นฐานข้อมูล
-  └─ npm run build (Next.js static)      ฝังข้อมูลลงหน้าเว็บ
-  └─ actions/deploy-pages                ทำทั้งหมดใน workflow เดียว
-```
-
-```
-config/scoring_rules.json      น้ำหนัก จุดอ้างอิง Piecewise คำสำคัญ จุดยุทธศาสตร์ — ปรับจูนได้ที่นี่ที่เดียว
-scripts/update_index.py        จุดเริ่มของ pipeline
-scripts/gci/fetchers/          markets (yfinance → Yahoo JSON → FRED), news (GDELT + RSS), hazards (USGS + GDACS), health_cyber (WHO + CISA)
-scripts/gci/scoring.py         Piecewise mapping, ยุบข่าวซ้ำ, decay ของเหตุการณ์ต่อเนื่อง, ตัวกรอง 2 ขั้น, สูตรรวม
-scripts/gci/validators.py      กฎ null ≠ 0, ค่าล่าสุดที่ยังไม่หมดอายุ, สถานะ ok/partial/market_closed/stale/degraded
-scripts/gci/ai_helper.py       Gemini (ข้อความเท่านั้น) + Gatekeeper + เทมเพลตภาษาไทยสำรอง
-scripts/gci/pipeline.py        ประกอบทุกอย่างเป็น JSON
+config/scoring_rules.json      All tunable settings (weights, thresholds, keywords, strategic hubs)
+scripts/update_index.py        Pipeline entry point
+scripts/gci/fetchers/          Data fetchers: markets, news, hazards, health/cyber
+scripts/gci/scoring.py         Scoring, news de-duplication, event decay, local/global filter
+scripts/gci/validators.py      Missing-data rules and source/pillar status
+scripts/gci/ai_helper.py       Optional Gemini summaries + rule-based fallback (Thai & English)
+scripts/gci/pipeline.py        Assembles everything into the JSON files
 tests/test_scoring.py          Unit tests
-app/, components/, lib/        หน้าเว็บ Next.js + Tailwind
-public/data/latest_state.json  คะแนนปัจจุบัน ดัชนีย่อย สถานะแหล่งข้อมูล Watchlist หมายเหตุท้องถิ่น
-public/data/history.json       ประวัติ 90 วัน (สำหรับกราฟ)
-data/state_cache.json          เหตุการณ์ที่ยังไม่ยุติ, ค่าล่าสุดที่ใช้ได้, แคช AI
+app/, components/, lib/        Next.js + Tailwind website (static export)
 ```
 
----
+## Deploy your own copy
 
-## ติดตั้งและใช้งานจริง (GitHub Pages)
+1. Fork or push this repository to GitHub (branch `main`).
+2. **Settings → Pages → Build and deployment → Source:** choose **GitHub Actions**.
+3. **Settings → Actions → General → Workflow permissions:** choose **Read and write permissions**.
+4. *(Optional)* For more natural summaries, add a Gemini API key:
+   - Get a free key at <https://aistudio.google.com/apikey>
+   - **Settings → Secrets and variables → Actions → New repository secret**, name it `GEMINI_API_KEY`
+   - *(Optional)* add a repository variable `GEMINI_MODEL` (default: `gemini-2.5-flash`)
+   - Without a key the site still works, using built-in templates.
+5. Run it once: **Actions → Update index & deploy → Run workflow**.
+   Your site will be at `https://<user>.github.io/<repo>/`.
 
-1. **สร้าง repository บน GitHub** แล้ว push โค้ดนี้ขึ้น branch `main`
-   ```bash
-   git remote add origin https://github.com/<user>/<repo>.git
-   git push -u origin main
-   ```
-2. **เปิด GitHub Pages:** *Settings → Pages → Build and deployment → Source:* เลือก **GitHub Actions**
-3. **อนุญาตให้ workflow เขียน repo:** *Settings → Actions → General → Workflow permissions:* เลือก **Read and write permissions**
-4. **(ไม่บังคับ) ใส่ Gemini API Key** เพื่อให้ได้ข้อความสรุปที่เป็นธรรมชาติขึ้น:
-   - ขอคีย์ฟรีที่ <https://aistudio.google.com/apikey>
-   - *Settings → Secrets and variables → Actions → New repository secret:* ชื่อ `GEMINI_API_KEY`
-   - (ไม่บังคับ) แท็บ *Variables:* ชื่อ `GEMINI_MODEL` (ค่าเริ่มต้น `gemini-2.5-flash`)
-   - ถ้าไม่ใส่ ระบบทำงานได้ครบด้วยเทมเพลตภาษาไทย
-5. **รันครั้งแรก:** *Actions → Update index & deploy → Run workflow*
-   เว็บจะอยู่ที่ `https://<user>.github.io/<repo>/` (workflow ตั้ง `basePath` ให้อัตโนมัติ)
-
-หลังจากนั้นระบบจะอัปเดตเองทุก 6 ชั่วโมง
-
-> **หมายเหตุ:** GitHub ปิด schedule อัตโนมัติถ้า repo ไม่มี activity 60 วัน แต่ commit ข้อมูลทุก 6 ชั่วโมงนับเป็น activity อยู่แล้ว
-
-## รันบนเครื่อง
+## Run locally
 
 ```bash
 pip install -r requirements.txt
-python -m pytest -q tests              # ทดสอบสูตร
-python scripts/update_index.py         # ดึงข้อมูลจริง เขียน public/data/*.json
-python scripts/update_index.py --dry-run   # คำนวณอย่างเดียว ไม่เขียนไฟล์
+python -m pytest -q tests                  # run the tests
+python scripts/update_index.py             # fetch live data, write public/data/*.json
+python scripts/update_index.py --dry-run   # compute only, write nothing
 
 npm install
-npm run dev                            # http://localhost:3000
-npm run build                          # static export → out/
+npm run dev                                # http://localhost:3000
+npm run build                              # static export to out/
 ```
 
-ใช้ Gemini บนเครื่อง: ตั้ง environment variable `GEMINI_API_KEY` (และ `GEMINI_MODEL` ถ้าต้องการ) ก่อนรัน `update_index.py`
+To use Gemini locally, set the `GEMINI_API_KEY` environment variable (and optionally `GEMINI_MODEL`) before running `update_index.py`.
 
-## ปรับจูน
+## Tuning
 
-ค่าทุกอย่างอยู่ใน `config/scoring_rules.json`:
+All settings live in `config/scoring_rules.json`: pillar weights, market reference points, news keywords and severity levels, event decay, strategic hubs and their radius, and the caps for local events. After changing anything, run `pytest` to confirm the safety properties (caps, missing-data handling, de-duplication) still hold.
 
-- `weights`, `booster` — สูตรรวม
-- `econ.indicators.*` — จุดอ้างอิง Piecewise ของ VIX, Brent, ทองคำ, S&P 500, SOXX (ระดับราคา / %เปลี่ยน 5 วันทำการ / drawdown จากจุดสูงสุด 52 สัปดาห์)
-- `geo.categories` — คำสำคัญและความรุนแรงของแต่ละประเภทเหตุการณ์
-- `events` — อัตรา decay, ตัวคูณการยืนยันจากหลายสำนักข่าว
-- `nat.strategic_hubs` — จุดยุทธศาสตร์ 8 แห่งและรัศมี
-- `bio_infra.categories` — หมวดโรคระบาด/ไซเบอร์ และเพดานกรณีประเทศเดียว
+## Limitations
 
-แก้แล้วรัน `pytest` เพื่อยืนยันว่าคุณสมบัติด้านความปลอดภัย (เพดาน, null ≠ 0, ยุบข่าวซ้ำ) ยังคงอยู่
+- News is classified using English keywords, so some events may be missed or put in the wrong category.
+- Headlines are shown in their original language (English).
+- The index measures systemic impact on the world, not the human toll in any one place.
+- It updates every 6 hours. It is not a real-time warning system and not investment advice.
+- The watchlist summarises reported news. It is not a probability forecast.
+- GDELT limits request rates. When it is unavailable, the conflict pillar relies on the remaining news feeds.
 
-## ข้อจำกัด
+## License & attribution
 
-- จัดหมวดข่าวด้วยคำสำคัญภาษาอังกฤษ อาจพลาดหรือจัดผิดหมวดได้
-- GDELT จำกัดความถี่ (1 คำขอ/5 วินาทีต่อ IP) หากโดนจำกัด หมวดภูมิรัฐศาสตร์จะใช้ RSS ที่เหลือและแสดงสถานะ “ข้อมูลบางส่วนล่าช้า”
-- ไม่ใช่ระบบเตือนภัยเรียลไทม์ และไม่ใช่คำแนะนำการลงทุน
+- **Source code** — [MIT License](LICENSE). You may use, modify and redistribute it, keeping the copyright and license notice.
+- **Index data and site content** (`public/data/`, GCI scores, text on the website) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may use or cite them, but **you must give credit**:
 
-## License และการให้เครดิต
+> Source: Global Crisis Index (GCI) by dizconnectz — https://dizconnectz.github.io/global-crisis-index/
 
-- **ซอร์สโค้ด** ใช้สัญญาอนุญาต [MIT License](LICENSE) — นำไปใช้ แก้ไข หรือเผยแพร่ต่อได้ แต่ต้องคงข้อความลิขสิทธิ์และสัญญาอนุญาตไว้
-- **ข้อมูลดัชนีและเนื้อหา** (`public/data/`, ข้อความบนเว็บ, คะแนน GCI) ใช้สัญญาอนุญาต [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.th) — นำไปใช้หรืออ้างอิงได้ แต่ **ต้องให้เครดิต**
-
-รูปแบบการให้เครดิต:
-
-> ที่มา: Global Crisis Index (GCI) โดย dizconnectz — https://dizconnectz.github.io/global-crisis-index/
-
-ข้อมูลต้นทาง (Yahoo Finance, FRED, GDELT, BBC, Al Jazeera, Reuters, USGS, GDACS, WHO, CISA) เป็นของเจ้าของแต่ละราย และอยู่ภายใต้เงื่อนไขของแหล่งนั้นๆ
+Third-party source data (Yahoo Finance, FRED, GDELT, BBC, Al Jazeera, Reuters, USGS, GDACS, WHO, CISA) belongs to its respective owners and remains subject to their terms.

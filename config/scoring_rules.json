@@ -166,6 +166,7 @@
     "who_api": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDateAndTime%20desc&$top=20",
     "who_rss": "https://www.who.int/rss-feeds/news-english.xml",
     "cisa_rss": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "cisa_fallback_rss": "https://news.google.com/rss/search?q=site:cisa.gov+when:14d&hl=en-US&gl=US&ceid=US:en",
     "window_days": 14
   },
 

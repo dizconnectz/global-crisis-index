@@ -23,6 +23,17 @@ def _ok_data(results: list[SourceResult]) -> list | None:
     return out
 
 
+def _health(results: list[SourceResult]) -> list[bool]:
+    """Per-source ok flags for resolve_pillar. Optional sources only count when no
+    required source answered (then they are what keeps the pillar alive)."""
+    required = [r.ok for r in results if not r.optional]
+    if not required:
+        return [r.ok for r in results]
+    if not any(required) and any(r.ok for r in results if r.optional):
+        return required + [True]
+    return required
+
+
 def _metric(key: str, label: tuple[str, str], value, unit: tuple[str, str] = ("", ""),
             hint: tuple[str, str] | None = None) -> dict:
     """label/unit/hint are (thai, english) pairs."""
@@ -57,7 +68,7 @@ def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: dateti
     news_results = [inputs["gdelt"], *inputs["rss"]]
     articles: list[Article] | None = _ok_data(news_results)
     geo = scoring.score_geo(articles, cfg, cache["active_events"].get("geo", {}), now)
-    geo_score, geo_status, geo_note = resolve_pillar("geo", geo["score"], [r.ok for r in news_results],
+    geo_score, geo_status, geo_note = resolve_pillar("geo", geo["score"], _health(news_results),
                                                      cache, now, max_age)
     cache["active_events"]["geo"] = geo["state"]
 

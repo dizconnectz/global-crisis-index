@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 
 from ..http import _parse_date, get, parse_rss
 from ..models import Article, SourceResult
@@ -39,11 +40,20 @@ def fetch_who(bio_cfg: dict) -> SourceResult:
 
 
 def fetch_cisa(bio_cfg: dict) -> SourceResult:
+    """cisa.gov blocks many cloud IP ranges (incl. GitHub runners), so fall back to
+    Google News restricted to site:cisa.gov."""
     try:
         items = parse_rss(get(bio_cfg["cisa_rss"]).content)
         arts = [Article(title=i["title"], source="CISA", link=i["link"], summary=i["summary"][:600],
                         published=i["published"]) for i in items]
         return SourceResult("CISA Cybersecurity Alerts", "bio_infra", True, arts)
     except Exception as exc:  # noqa: BLE001
-        log.warning("CISA failed: %s", exc)
+        log.warning("CISA direct feed failed (%s), trying Google News fallback", exc)
+    try:
+        items = parse_rss(get(bio_cfg["cisa_fallback_rss"]).content)
+        arts = [Article(title=re.sub(r"\s+-\s+CISA.*$", "", i["title"]), source="CISA", link=i["link"],
+                        published=i["published"]) for i in items]
+        return SourceResult("CISA Cybersecurity Alerts", "bio_infra", True, arts, note="google_news_fallback")
+    except Exception as exc:  # noqa: BLE001
+        log.warning("CISA fallback failed: %s", exc)
         return SourceResult("CISA Cybersecurity Alerts", "bio_infra", False, None, error=str(exc)[:200])

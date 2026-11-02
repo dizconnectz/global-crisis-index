@@ -81,15 +81,6 @@ const DICT = {
   colType: { th: "ประเภท", en: "Type" },
   colActual: { th: "ความรุนแรงจริง", en: "Actual severity" },
   colCounted: { th: "นับในดัชนี", en: "Counted in index" },
-  // methodology
-  methodTitle: { th: "วิธีคำนวณ แหล่งข้อมูล และข้อจำกัด", en: "Methodology, sources & limitations" },
-  sourceStatus: { th: "สถานะแหล่งข้อมูลรอบล่าสุด", en: "Source status, latest run" },
-  colSource: { th: "แหล่ง", en: "Source" },
-  colStatus: { th: "สถานะ", en: "Status" },
-  colItems: { th: "รายการ", en: "Items" },
-  colTime: { th: "เวลา (ไทย)", en: "Time (Bangkok)" },
-  srcOk: { th: "✓ ปกติ", en: "✓ OK" },
-  srcErr: { th: "✕ ไม่ตอบสนอง", en: "✕ No response" },
   // footer
   dataFrom: { th: "ข้อมูลจาก", en: "Data from" },
   notAdvice: { th: "ไม่ใช่คำแนะนำการลงทุน", en: "Not investment advice" },

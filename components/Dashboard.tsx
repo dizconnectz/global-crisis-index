@@ -7,7 +7,6 @@ import { HeroGauge } from "./HeroGauge";
 import { Watchlist } from "./Watchlist";
 import { Pillars } from "./Pillars";
 import { LocalNotes } from "./LocalNotes";
-import { Methodology } from "./Methodology";
 
 const SOURCES = "Yahoo Finance, FRED, GDELT, BBC, Al Jazeera, Reuters, USGS, GDACS, WHO, CISA";
 
@@ -34,7 +33,6 @@ function Body({ state, history }: { state: LatestState | null; history: HistoryP
         <Watchlist warnings={warnings} source={s.source} />
         <Pillars state={state} />
         <LocalNotes events={state.local_events} notes={notes} localCap={state.config.local_cap} />
-        <Methodology state={state} />
       </main>
       <footer className="border-t border-zinc-200 py-6 text-center text-xs text-zinc-500">
         Global Crisis Index · {t("dataFrom")} {SOURCES} · {t("notAdvice")}

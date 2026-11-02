@@ -270,7 +270,10 @@ def test_runs_without_gemini_key_and_produces_complete_thai_json():
     assert isinstance(s["local_notes_th"], list) and len(s["local_notes_th"]) <= 4
 
     # English twin of every generated text block
-    assert "Global Crisis Index" in s["executive_summary_en"]
+    # the score and level are shown above the summary, so it must not repeat them
+    for text in (s["executive_summary_th"], s["executive_summary_en"]):
+        assert "/100" not in text and latest["band"]["label_th"] not in text
+    assert s["executive_summary_en"].startswith("Pressure comes mainly from")
     assert len(s["early_warnings_en"]) == len(s["early_warnings_th"])
     assert len(s["local_notes_en"]) == len(s["local_notes_th"])
     for p in latest["pillars"].values():
@@ -333,3 +336,46 @@ def test_many_green_gdacs_alerts_stay_minor():
                "place": "X", "mag": None, "lat": -30.0, "lon": -60.0 + i * 0.01, "alert": "green",
                "tsunami": False, "time": NOW, "link": "", "countries": ["Argentina"]} for i in range(150)]
     assert scoring.score_nat(greens, CFG, NOW)["score"] < 10
+
+
+# ---------------------------------------------------------------- security / robustness
+
+def test_only_web_links_reach_the_site():
+    from gci.models import Event
+    ev = Event(id="x", pillar="geo", category="conflict", category_th="", title="t", severity=1, score=1,
+               links=["javascript:alert(1)", "data:text/html,x", "https://ok.example/a", "HTTP://ok.example/b"])
+    assert ev.to_dict()["links"] == ["https://ok.example/a", "HTTP://ok.example/b"]
+
+
+def test_permanent_4xx_is_not_retried(monkeypatch):
+    import requests
+    from gci import http
+
+    calls = []
+
+    class Resp:
+        status_code = 403
+
+        def raise_for_status(self):
+            raise requests.HTTPError("403", response=self)
+
+    monkeypatch.setattr(http.requests, "get", lambda *a, **k: calls.append(1) or Resp())
+    monkeypatch.setattr(http.time, "sleep", lambda s: None)
+    with pytest.raises(requests.HTTPError):
+        http.get("https://example.test", retries=3)
+    assert len(calls) == 1
+
+
+def test_rss_parser_rejects_entity_expansion():
+    from gci.http import parse_rss
+    bomb = b'''<?xml version="1.0"?><!DOCTYPE r [<!ENTITY a "aaaaaaaaaa"><!ENTITY b "&a;&a;&a;&a;&a;">]>
+<rss><channel><item><title>&b;</title></item></channel></rss>'''
+    with pytest.raises(Exception):
+        parse_rss(bomb)
+
+
+def test_optional_gdelt_outage_does_not_mark_geo_delayed():
+    gdelt_down = SourceResult("GDELT", "geo", False, None, error="429", optional=True)
+    latest, _, _ = build_state(base_inputs(gdelt=gdelt_down), CFG, {}, [], NOW)
+    assert latest["pillars"]["geo"]["status"] == "ok"
+    assert latest["data_status"]["key"] == "ok"

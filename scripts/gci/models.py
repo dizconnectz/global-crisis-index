@@ -7,6 +7,12 @@ from datetime import datetime, timezone
 from typing import Any
 
 
+def safe_links(links: list[str]) -> list[str]:
+    """Links come from third-party feeds; keep only plain web URLs so nothing like
+    `javascript:` can reach an <a href> on the site."""
+    return [u for u in links if isinstance(u, str) and u.lower().startswith(("https://", "http://"))]
+
+
 def utcnow() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -35,6 +41,7 @@ class SourceResult:
     error: str | None = None
     fetched_at: datetime = field(default_factory=utcnow)
     note: str | None = None
+    optional: bool = False   # supplementary source: its outage alone doesn't mark the pillar delayed
 
     def to_status(self) -> dict:
         count = len(self.data) if isinstance(self.data, (list, dict)) else None
@@ -46,6 +53,7 @@ class SourceResult:
             "items": count,
             "error": self.error,
             "note": self.note,
+            "optional": self.optional,
         }
 
 
@@ -88,7 +96,7 @@ class Event:
             "title": self.title,
             "severity": round(self.severity, 1), "score": round(self.score, 1),
             "countries": self.countries, "sources": self.sources,
-            "article_count": self.article_count, "links": self.links[:3],
+            "article_count": self.article_count, "links": safe_links(self.links)[:3],
             "first_seen": self.first_seen, "last_seen": self.last_seen,
             "is_local": self.is_local, "location": self.location,
             "location_en": self.location_en if self.location_en is not None else self.location,
