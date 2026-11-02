@@ -22,7 +22,7 @@
           "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -54,7 +54,7 @@
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
         ],
         "first_seen": "2026-11-02T06:43:02Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -82,7 +82,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -108,7 +108,7 @@
           "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -132,7 +132,7 @@
           "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -191,11 +191,85 @@
           "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:vuln_advisory:ebd92c9de6": {
+        "id": "bio_infra:vuln_advisory:ebd92c9de6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0F3WVN4RVlxQVhwNUNpSFVBeG9UZzllMnhkLWFaNVdlbVRLRHplOXdybmFqLW44dGd0SzY0cTlwcnBpUEd2bXc4VXl1LVhVcDJtS21xWEg1UGZfcThnWVQ4Z05XQ2FBN2kwMFlEdXNELVZ3a0VXWTE4ZFN4QWRLS2VCM09kaWJ3OHp5VUFMTG5aUE42NC1vMS1YVDQ1QkxJT3gtZ0FZWQ?oc=5",
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1hCZEI1TGROaFpoLWpHcWkyeGtYNGdDbjNNZ09rODVBRmQ3WjBEWTBOLXJ6ejNhUWdlLTFBdVozQVlpalhmM1FlMmJhTkJ6U3FRWTU5YTM1aG02RXVpaDVfMUFjLVE1Y2lIYVBTbDRMVWM0TG4wOXpBTUx4TFZRSFhsV2pHdzN5SFp0NTh2R3FVdGZINWpyRUduQnpYN1B6ekdtdHJMdw?oc=5"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-02T06:49:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:8f1a948c39": {
+        "id": "bio_infra:vuln_advisory:8f1a948c39",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-02T06:49:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:6c1b9fa3bc": {
+        "id": "bio_infra:cyber_incident:6c1b9fa3bc",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "#StopRansomware: SafePay Ransomware",
+        "severity": 40.0,
+        "score": 25.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-02T06:49:49Z",
+        "is_local": true,
+        "location": null,
+        "location_en": null,
+        "raw_score": 40.0
       },
       "bio_infra:high_consequence:6179c355b9": {
         "id": "bio_infra:high_consequence:6179c355b9",
@@ -217,7 +291,7 @@
           "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": true,
         "location": "คองโก",
         "location_en": "DR Congo",
@@ -244,7 +318,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:43:02Z",
+        "last_seen": "2026-11-02T06:49:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -255,19 +329,19 @@
   "last_valid": {
     "econ": {
       "score": 33.4,
-      "as_of": "2026-11-02T06:43:02Z"
+      "as_of": "2026-11-02T06:49:49Z"
     },
     "geo": {
       "score": 66.5,
-      "as_of": "2026-11-02T06:43:02Z"
+      "as_of": "2026-11-02T06:49:49Z"
     },
     "nat": {
       "score": 10.2,
-      "as_of": "2026-11-02T06:43:02Z"
+      "as_of": "2026-11-02T06:49:49Z"
     },
     "bio_infra": {
-      "score": 54.8,
-      "as_of": "2026-11-02T06:43:02Z"
+      "score": 56.4,
+      "as_of": "2026-11-02T06:49:49Z"
     }
   },
   "econ_indicators": {
@@ -276,23 +350,23 @@
       "change_pct": -0.15,
       "drawdown_pct": -37.46,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:43:02Z",
+      "as_of": "2026-11-02T06:49:49Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 110.11000061035156,
-      "change_pct": -4.92,
-      "drawdown_pct": -6.96,
+      "last": 110.06999969482422,
+      "change_pct": -4.96,
+      "drawdown_pct": -7.0,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:43:02Z",
+      "as_of": "2026-11-02T06:49:49Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3916.89990234375,
-      "change_pct": -3.01,
-      "drawdown_pct": -26.35,
+      "last": 3914.699951171875,
+      "change_pct": -3.06,
+      "drawdown_pct": -26.39,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:43:02Z",
+      "as_of": "2026-11-02T06:49:49Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -300,7 +374,7 @@
       "change_pct": -0.57,
       "drawdown_pct": -3.05,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:43:02Z",
+      "as_of": "2026-11-02T06:49:49Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -308,7 +382,7 @@
       "change_pct": -1.4,
       "drawdown_pct": -28.01,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:43:02Z",
+      "as_of": "2026-11-02T06:49:49Z",
       "provider": "yfinance"
     }
   },
@@ -324,7 +398,7 @@
     ],
     "econ_score": 33.4,
     "summary": {
-      "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 45/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
+      "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และน้ำมันดิบ Brent ทั้งนี้ข่าวหลักบางส่วนยังมีแหล่งยืนยันเพียงแหล่งเดียว และยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด",
       "early_warnings_th": [
         {
           "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
@@ -345,8 +419,10 @@
           "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
         }
       ],
-      "local_notes_th": [],
-      "executive_summary_en": "The Global Crisis Index stands at 45/100 (“Watch / regional volatility”), driven mainly by conflict & geopolitics (66/100) and economy, finance & energy (33/100). The heaviest-weighted event is shipping chokepoint threat involving Iran (confirmed by 1 source).",
+      "local_notes_th": [
+        "การโจมตีไซเบอร์ที่เกิดขึ้นจริง — หลายพื้นที่: #StopRansomware: SafePay Ransomware (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
+      ],
+      "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and Brent crude oil. Some key reports still rest on a single source, and there is no sign yet of the crisis spreading across pillars.",
       "early_warnings_en": [
         {
           "title": "Shipping chokepoint threat: Iran",
@@ -367,10 +443,12 @@
           "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
         }
       ],
-      "local_notes_en": []
+      "local_notes_en": [
+        "Actual cyber incident — multiple areas: #StopRansomware: SafePay Ransomware (weight in the global index capped at 25 points in its pillar)"
+      ]
     },
-    "generated_at": "2026-11-02T06:43:02Z"
+    "generated_at": "2026-11-02T06:49:49Z"
   },
-  "updated_at": "2026-11-02T06:43:02Z",
+  "updated_at": "2026-11-02T06:49:49Z",
   "version": 1
 }

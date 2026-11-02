@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:43:02Z",
+  "generated_at": "2026-11-02T06:49:49Z",
   "global_score": 45,
   "band": {
     "key": "watch",
@@ -11,11 +11,11 @@
     "color": "yellow"
   },
   "formula": {
-    "base": 44.71,
+    "base": 44.95,
     "boost": 0.0,
     "cross_confirmed": false,
     "max1": 66.5,
-    "max2": 54.8,
+    "max2": 56.4,
     "max1_pillar": "geo"
   },
   "pillars": {
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 110.11,
+          "value": 110.07,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-4.9% (5 วันทำการ)",
-          "hint_en": "-4.9% (5 trading days)"
+          "hint": "-5.0% (5 วันทำการ)",
+          "hint_en": "-5.0% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3916.9,
+          "value": 3914.7,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-3.0% (5 วันทำการ)",
-          "hint_en": "-3.0% (5 trading days)"
+          "hint": "-3.1% (5 วันทำการ)",
+          "hint_en": "-3.1% (5 trading days)"
         },
         {
           "key": "spx",
@@ -107,9 +107,9 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 110.11,
-          "change_pct": -4.92,
-          "drawdown_pct": -6.96,
+          "value": 110.07,
+          "change_pct": -4.96,
+          "drawdown_pct": -7.0,
           "score": 55.1,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -123,9 +123,9 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3916.9,
-          "change_pct": -3.01,
-          "drawdown_pct": -26.35,
+          "value": 3914.7,
+          "change_pct": -3.06,
+          "drawdown_pct": -26.39,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -172,10 +172,10 @@
       "score": 66.5,
       "weight": 0.35,
       "effective_weight": 0.35,
-      "status": "partial",
-      "status_th": "ข้อมูลบางส่วนล่าช้า",
-      "status_en": "Some data delayed",
-      "note": "บางแหล่งข้อมูลไม่ตอบสนอง",
+      "status": "ok",
+      "status_th": "ปกติ",
+      "status_en": "Normal",
+      "note": null,
       "top_events": [
         {
           "id": "geo:chokepoint:73ae71ea05",
@@ -197,7 +197,7 @@
             "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -225,7 +225,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -257,7 +257,7 @@
             "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
           ],
           "first_seen": "2026-11-02T06:43:02Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -271,7 +271,7 @@
           "category_en": "Armed conflict",
           "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
           "severity": 30.0,
-          "score": 30.0,
+          "score": 29.9,
           "countries": [
             "russia",
             "ukraine",
@@ -316,7 +316,7 @@
             "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -338,7 +338,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 1,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -440,13 +440,13 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 54.8,
+      "score": 56.4,
       "weight": 0.15,
       "effective_weight": 0.15,
-      "status": "partial",
-      "status_th": "ข้อมูลบางส่วนล่าช้า",
-      "status_en": "Some data delayed",
-      "note": "บางแหล่งข้อมูลไม่ตอบสนอง",
+      "status": "ok",
+      "status_th": "ปกติ",
+      "status_en": "Normal",
+      "note": null,
       "top_events": [
         {
           "id": "bio_infra:high_consequence:08ddd752fb",
@@ -469,7 +469,7 @@
             "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -496,7 +496,57 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:43:02Z",
+          "last_seen": "2026-11-02T06:49:49Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:vuln_advisory:ebd92c9de6",
+          "pillar": "bio_infra",
+          "category": "vuln_advisory",
+          "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+          "category_en": "Routine vulnerability advisory",
+          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "severity": 5.0,
+          "score": 5.0,
+          "countries": [],
+          "sources": [
+            "CISA"
+          ],
+          "article_count": 3,
+          "links": [
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ0F3WVN4RVlxQVhwNUNpSFVBeG9UZzllMnhkLWFaNVdlbVRLRHplOXdybmFqLW44dGd0SzY0cTlwcnBpUEd2bXc4VXl1LVhVcDJtS21xWEg1UGZfcThnWVQ4Z05XQ2FBN2kwMFlEdXNELVZ3a0VXWTE4ZFN4QWRLS2VCM09kaWJ3OHp5VUFMTG5aUE42NC1vMS1YVDQ1QkxJT3gtZ0FZWQ?oc=5",
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1hCZEI1TGROaFpoLWpHcWkyeGtYNGdDbjNNZ09rODVBRmQ3WjBEWTBOLXJ6ejNhUWdlLTFBdVozQVlpalhmM1FlMmJhTkJ6U3FRWTU5YTM1aG02RXVpaDVfMUFjLVE1Y2lIYVBTbDRMVWM0TG4wOXpBTUx4TFZRSFhsV2pHdzN5SFp0NTh2R3FVdGZINWpyRUduQnpYN1B6ekdtdHJMdw?oc=5"
+          ],
+          "first_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T06:49:49Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:vuln_advisory:8f1a948c39",
+          "pillar": "bio_infra",
+          "category": "vuln_advisory",
+          "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+          "category_en": "Routine vulnerability advisory",
+          "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+          "severity": 5.0,
+          "score": 5.0,
+          "countries": [],
+          "sources": [
+            "CISA"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
+          ],
+          "first_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T06:49:49Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -518,7 +568,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 1,
+          "value": 2,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -528,7 +578,7 @@
           "key": "advisories",
           "label_th": "ประกาศช่องโหว่ทั่วไป",
           "label_en": "Routine vulnerability advisories",
-          "value": 0,
+          "value": 2,
           "unit": "รายการ",
           "unit_en": "items",
           "hint": null,
@@ -560,14 +610,14 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 54.8,
-      "contribution": 8.2,
+      "score": 56.4,
+      "contribution": 8.5,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 45/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
+    "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และน้ำมันดิบ Brent ทั้งนี้ข่าวหลักบางส่วนยังมีแหล่งยืนยันเพียงแหล่งเดียว และยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด",
     "early_warnings_th": [
       {
         "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
@@ -588,8 +638,10 @@
         "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
       }
     ],
-    "local_notes_th": [],
-    "executive_summary_en": "The Global Crisis Index stands at 45/100 (“Watch / regional volatility”), driven mainly by conflict & geopolitics (66/100) and economy, finance & energy (33/100). The heaviest-weighted event is shipping chokepoint threat involving Iran (confirmed by 1 source).",
+    "local_notes_th": [
+      "การโจมตีไซเบอร์ที่เกิดขึ้นจริง — หลายพื้นที่: #StopRansomware: SafePay Ransomware (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
+    ],
+    "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and Brent crude oil. Some key reports still rest on a single source, and there is no sign yet of the crisis spreading across pillars.",
     "early_warnings_en": [
       {
         "title": "Shipping chokepoint threat: Iran",
@@ -610,97 +662,133 @@
         "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
       }
     ],
-    "local_notes_en": [],
+    "local_notes_en": [
+      "Actual cyber incident — multiple areas: #StopRansomware: SafePay Ransomware (weight in the global index capped at 25 points in its pillar)"
+    ],
     "source": "template",
     "model": null,
-    "generated_at": "2026-11-02T06:43:02Z"
+    "generated_at": "2026-11-02T06:49:49Z"
   },
-  "local_events": [],
+  "local_events": [
+    {
+      "id": "bio_infra:cyber_incident:6c1b9fa3bc",
+      "pillar": "bio_infra",
+      "category": "cyber_incident",
+      "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+      "category_en": "Actual cyber incident",
+      "title": "#StopRansomware: SafePay Ransomware",
+      "severity": 40.0,
+      "score": 25.0,
+      "countries": [],
+      "sources": [
+        "CISA"
+      ],
+      "article_count": 1,
+      "links": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
+      ],
+      "first_seen": "2026-11-02T06:49:49Z",
+      "last_seen": "2026-11-02T06:49:49Z",
+      "is_local": true,
+      "location": null,
+      "location_en": null,
+      "raw_score": 40.0
+    }
+  ],
   "data_status": {
-    "key": "degraded",
-    "label_th": "ข้อมูลบางส่วนล่าช้า",
-    "label_en": "Some data delayed",
+    "key": "ok",
+    "label_th": "ปกติ",
+    "label_en": "Normal",
     "sources": [
       {
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:04Z",
+        "fetched_at": "2026-11-02T06:49:51Z",
         "items": 5,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T06:43:50Z",
+        "fetched_at": "2026-11-02T06:50:02Z",
         "items": null,
         "error": "HTTP 429",
-        "note": null
+        "note": null,
+        "optional": true
       },
       {
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:02Z",
+        "fetched_at": "2026-11-02T06:49:49Z",
         "items": 30,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:03Z",
+        "fetched_at": "2026-11-02T06:49:50Z",
         "items": 25,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:03Z",
+        "fetched_at": "2026-11-02T06:49:50Z",
         "items": 17,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:02Z",
+        "fetched_at": "2026-11-02T06:49:49Z",
         "items": 5,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:04Z",
+        "fetched_at": "2026-11-02T06:49:51Z",
         "items": 174,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:43:02Z",
+        "fetched_at": "2026-11-02T06:49:50Z",
         "items": 20,
         "error": null,
-        "note": null
+        "note": null,
+        "optional": false
       },
       {
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
-        "status": "error",
-        "fetched_at": "2026-11-02T06:43:09Z",
-        "items": null,
-        "error": "403 Client Error: Forbidden for url: https://www.cisa.gov/cybersecurity-advisories/all.xml",
-        "note": null
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:49:50Z",
+        "items": 100,
+        "error": null,
+        "note": "google_news_fallback",
+        "optional": false
       }
     ]
   },
