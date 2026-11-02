@@ -1,0 +1,86 @@
+name: Update index & deploy
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6h at :17 to dodge the top-of-hour queue
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/data/**"
+      - "data/**"
+      - "README.md"
+
+permissions:
+  contents: write   # commit refreshed JSON
+  pages: write      # deploy to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: gci-update
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch live data & compute index
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python scripts/update_index.py
+
+      - name: Unit tests (scoring + data integrity) — gate before commit
+        run: python -m pytest -q tests
+
+      - name: Commit refreshed state
+        run: |
+          git config user.name  "gci-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/latest_state.json public/data/history.json data/state_cache.json
+          if git diff --cached --quiet; then
+            echo "No data change"
+          else
+            git commit -m "data: update index $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          npm ci
+          npm run build
+          touch out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

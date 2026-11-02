@@ -1,0 +1,703 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T06:25:18Z",
+  "global_score": 45,
+  "band": {
+    "key": "watch",
+    "min": 21,
+    "max": 45,
+    "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
+    "color": "yellow"
+  },
+  "formula": {
+    "base": 44.56,
+    "boost": 0.0,
+    "cross_confirmed": false,
+    "max1": 65.8,
+    "max2": 55.3,
+    "max1_pillar": "geo"
+  },
+  "pillars": {
+    "econ": {
+      "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
+      "score": 33.4,
+      "weight": 0.35,
+      "effective_weight": 0.35,
+      "status": "ok",
+      "status_th": "ปกติ",
+      "note": null,
+      "top_events": [],
+      "metrics": [
+        {
+          "label_th": "ดัชนีความผันผวน VIX",
+          "value": 19.42,
+          "unit": "จุด",
+          "hint": "-0.1% (5 วันทำการ)"
+        },
+        {
+          "label_th": "น้ำมันดิบ Brent",
+          "value": 110.04,
+          "unit": "USD/บาร์เรล",
+          "hint": "-5.0% (5 วันทำการ)"
+        },
+        {
+          "label_th": "ทองคำ (Safe Haven)",
+          "value": 3921.9,
+          "unit": "USD/ออนซ์",
+          "hint": "-2.9% (5 วันทำการ)"
+        },
+        {
+          "label_th": "ดัชนี S&P 500",
+          "value": 7580.07,
+          "unit": "จุด",
+          "hint": "-0.6% (5 วันทำการ)"
+        },
+        {
+          "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
+          "value": 471.51,
+          "unit": "USD",
+          "hint": "-1.4% (5 วันทำการ)"
+        }
+      ],
+      "indicators": [
+        {
+          "key": "vix",
+          "label_th": "ดัชนีความผันผวน VIX",
+          "unit": "จุด",
+          "ticker": "^VIX",
+          "weight": 0.3,
+          "value": 19.42,
+          "change_pct": -0.15,
+          "drawdown_pct": -37.46,
+          "score": 27.7,
+          "status": "ok",
+          "last_date": "2026-10-30",
+          "provider": "yfinance"
+        },
+        {
+          "key": "brent",
+          "label_th": "น้ำมันดิบ Brent",
+          "unit": "USD/บาร์เรล",
+          "ticker": "BZ=F",
+          "weight": 0.25,
+          "value": 110.04,
+          "change_pct": -4.98,
+          "drawdown_pct": -7.02,
+          "score": 55.1,
+          "status": "ok",
+          "last_date": "2026-11-02",
+          "provider": "yfinance"
+        },
+        {
+          "key": "gold",
+          "label_th": "ทองคำ (Safe Haven)",
+          "unit": "USD/ออนซ์",
+          "ticker": "GC=F",
+          "weight": 0.1,
+          "value": 3921.9,
+          "change_pct": -2.88,
+          "drawdown_pct": -26.26,
+          "score": 5.0,
+          "status": "ok",
+          "last_date": "2026-11-02",
+          "provider": "yfinance"
+        },
+        {
+          "key": "spx",
+          "label_th": "ดัชนี S&P 500",
+          "unit": "จุด",
+          "ticker": "^GSPC",
+          "weight": 0.2,
+          "value": 7580.07,
+          "change_pct": -0.57,
+          "drawdown_pct": -3.05,
+          "score": 5.2,
+          "status": "ok",
+          "last_date": "2026-10-30",
+          "provider": "yfinance"
+        },
+        {
+          "key": "soxx",
+          "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
+          "unit": "USD",
+          "ticker": "SOXX",
+          "weight": 0.15,
+          "value": 471.51,
+          "change_pct": -1.4,
+          "drawdown_pct": -28.01,
+          "score": 65.0,
+          "status": "ok",
+          "last_date": "2026-10-30",
+          "provider": "yfinance"
+        }
+      ],
+      "coverage": 1.0
+    },
+    "geo": {
+      "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
+      "score": 65.8,
+      "weight": 0.35,
+      "effective_weight": 0.35,
+      "status": "partial",
+      "status_th": "ข้อมูลบางส่วนล่าช้า",
+      "note": "บางแหล่งข้อมูลไม่ตอบสนอง",
+      "top_events": [
+        {
+          "id": "geo:chokepoint:73ae71ea05",
+          "pillar": "geo",
+          "category": "chokepoint",
+          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+          "severity": 85.0,
+          "score": 51.0,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:missile_strike:a59ee23b9a",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+          "severity": 55.0,
+          "score": 44.0,
+          "countries": [
+            "ukraine",
+            "russia"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World"
+          ],
+          "article_count": 2,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+            "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:conflict:a59ee23b9a",
+          "pillar": "geo",
+          "category": "conflict",
+          "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+          "severity": 30.0,
+          "score": 30.0,
+          "countries": [
+            "russia",
+            "ukraine",
+            "belarus"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World",
+            "Reuters (Google News)"
+          ],
+          "article_count": 4,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+            "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+            "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:conflict:0c5abc2fdb",
+          "pillar": "geo",
+          "category": "conflict",
+          "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+          "severity": 30.0,
+          "score": 18.0,
+          "countries": [
+            "israel",
+            "palestine"
+          ],
+          "sources": [
+            "BBC World"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:conflict:e454d80e02",
+          "pillar": "geo",
+          "category": "conflict",
+          "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+          "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+          "severity": 30.0,
+          "score": 18.0,
+          "countries": [],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        }
+      ],
+      "metrics": [
+        {
+          "label_th": "เหตุการณ์ที่ติดตามอยู่",
+          "value": 5,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "เหตุการณ์ใหม่รอบนี้",
+          "value": 0,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "บทความที่วิเคราะห์",
+          "value": 70,
+          "unit": "ชิ้น",
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์"
+        }
+      ]
+    },
+    "nat": {
+      "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
+      "score": 10.3,
+      "weight": 0.15,
+      "effective_weight": 0.15,
+      "status": "ok",
+      "status_th": "ปกติ",
+      "note": null,
+      "top_events": [
+        {
+          "id": "gdacs:FL1104253",
+          "pillar": "nat",
+          "category": "gdacs_fl",
+          "category_th": "อุทกภัย",
+          "title": "Green flood alert in Indonesia",
+          "severity": 1.6,
+          "score": 1.6,
+          "countries": [
+            "Indonesia"
+          ],
+          "sources": [
+            "GDACS"
+          ],
+          "article_count": 1,
+          "links": [
+            "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253"
+          ],
+          "first_seen": "2026-10-29T09:29:04Z",
+          "last_seen": "2026-10-29T09:29:04Z",
+          "is_local": false,
+          "location": "Indonesia (ห่างช่องแคบมะละกา ~183 กม.)",
+          "raw_score": 1.6
+        }
+      ],
+      "metrics": [
+        {
+          "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
+          "value": 5,
+          "unit": "ครั้ง",
+          "hint": null
+        },
+        {
+          "label_th": "GDACS ระดับส้ม/แดง",
+          "value": 0,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "ใกล้จุดยุทธศาสตร์โลก",
+          "value": 1,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
+          "value": 158,
+          "unit": "เหตุการณ์",
+          "hint": null
+        }
+      ]
+    },
+    "bio_infra": {
+      "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
+      "score": 55.3,
+      "weight": 0.15,
+      "effective_weight": 0.15,
+      "status": "ok",
+      "status_th": "ปกติ",
+      "note": null,
+      "top_events": [
+        {
+          "id": "bio_infra:high_consequence:08ddd752fb",
+          "pillar": "bio_infra",
+          "category": "high_consequence",
+          "category_th": "โรคติดต่อร้ายแรง",
+          "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
+          "severity": 45.0,
+          "score": 45.0,
+          "countries": [
+            "dr congo",
+            "nigeria"
+          ],
+          "sources": [
+            "WHO DON"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:cyber_incident:a59ee23b9a",
+          "pillar": "bio_infra",
+          "category": "cyber_incident",
+          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+          "severity": 40.0,
+          "score": 24.0,
+          "countries": [
+            "russia",
+            "ukraine"
+          ],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:vuln_advisory:ebd92c9de6",
+          "pillar": "bio_infra",
+          "category": "vuln_advisory",
+          "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "severity": 5.0,
+          "score": 5.0,
+          "countries": [],
+          "sources": [
+            "CISA"
+          ],
+          "article_count": 7,
+          "links": [
+            "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+            "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+            "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:vuln_advisory:83a2f52bc5",
+          "pillar": "bio_infra",
+          "category": "vuln_advisory",
+          "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+          "title": "Hitachi Energy CoreTec Product",
+          "severity": 5.0,
+          "score": 5.0,
+          "countries": [],
+          "sources": [
+            "CISA"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:vuln_advisory:42362bf092",
+          "pillar": "bio_infra",
+          "category": "vuln_advisory",
+          "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+          "title": "Hitachi Energy TRO600 series products",
+          "severity": 5.0,
+          "score": 5.0,
+          "countries": [],
+          "sources": [
+            "CISA"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-02T06:25:18Z",
+          "is_local": false,
+          "location": null,
+          "raw_score": null
+        }
+      ],
+      "metrics": [
+        {
+          "label_th": "เหตุการณ์สุขภาพที่ติดตาม",
+          "value": 2,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
+          "value": 1,
+          "unit": "เหตุการณ์",
+          "hint": null
+        },
+        {
+          "label_th": "ประกาศช่องโหว่ทั่วไป",
+          "value": 19,
+          "unit": "รายการ",
+          "hint": null
+        }
+      ]
+    }
+  },
+  "top_drivers": [
+    {
+      "pillar": "geo",
+      "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
+      "score": 65.8,
+      "contribution": 23.0,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon"
+    },
+    {
+      "pillar": "econ",
+      "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
+      "score": 33.4,
+      "contribution": 11.7,
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 471.51 USD"
+    },
+    {
+      "pillar": "bio_infra",
+      "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
+      "score": 55.3,
+      "contribution": 8.3,
+      "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
+    }
+  ],
+  "summary": {
+    "executive_summary_th": "ดัชนีวิกฤตโลกอยู่ที่ 45/100 ระดับ “เฝ้าระวัง / ผันผวนระดับภูมิภาค” โดยแรงกดดันหลักมาจากหมวดความขัดแย้งและภูมิรัฐศาสตร์ (66/100) และหมวดเศรษฐกิจ การเงิน และพลังงาน (33/100) เหตุการณ์ที่มีน้ำหนักสูงสุดคือการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน (ยืนยันจาก 1 แหล่ง)",
+    "early_warnings_th": [
+      {
+        "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-4 สัปดาห์",
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
+      },
+      {
+        "title": "โรคติดต่อร้ายแรง: คองโก–ไนจีเรีย",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
+      },
+      {
+        "title": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง: รัสเซีย–ยูเครน",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
+      }
+    ],
+    "local_notes_th": [],
+    "source": "template",
+    "model": null,
+    "generated_at": "2026-11-02T06:25:18Z"
+  },
+  "local_events": [],
+  "data_status": {
+    "key": "degraded",
+    "label_th": "ข้อมูลบางส่วนล่าช้า",
+    "sources": [
+      {
+        "name": "Market data (Yahoo/FRED)",
+        "pillar": "econ",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 5,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "GDELT DOC 2.0",
+        "pillar": "geo",
+        "status": "error",
+        "fetched_at": "2026-11-02T06:26:12Z",
+        "items": null,
+        "error": "HTTP 429",
+        "note": null
+      },
+      {
+        "name": "BBC World",
+        "pillar": "geo",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 30,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "Al Jazeera",
+        "pillar": "geo",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 25,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "Reuters (Google News)",
+        "pillar": "geo",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 15,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "USGS Earthquakes",
+        "pillar": "nat",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 5,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "GDACS Alerts",
+        "pillar": "nat",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:21Z",
+        "items": 174,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "WHO Disease Outbreak News",
+        "pillar": "bio_infra",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 20,
+        "error": null,
+        "note": null
+      },
+      {
+        "name": "CISA Cybersecurity Alerts",
+        "pillar": "bio_infra",
+        "status": "ok",
+        "fetched_at": "2026-11-02T06:25:19Z",
+        "items": 30,
+        "error": null,
+        "note": null
+      }
+    ]
+  },
+  "config": {
+    "weights": {
+      "econ": 0.35,
+      "geo": 0.35,
+      "nat": 0.15,
+      "bio_infra": 0.15
+    },
+    "booster": {
+      "max1_threshold": 70,
+      "max2_threshold": 45,
+      "factor": 0.65,
+      "exponent": 1.3,
+      "isolated_cap": 15
+    },
+    "bands": [
+      {
+        "key": "low",
+        "min": 0,
+        "max": 20,
+        "label_th": "ผลกระทบเชิงระบบระดับต่ำ",
+        "color": "green"
+      },
+      {
+        "key": "watch",
+        "min": 21,
+        "max": 45,
+        "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
+        "color": "yellow"
+      },
+      {
+        "key": "high",
+        "min": 46,
+        "max": 70,
+        "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
+        "color": "orange"
+      },
+      {
+        "key": "critical",
+        "min": 71,
+        "max": 100,
+        "label_th": "วิกฤตเชิงระบบระดับโลก",
+        "color": "red"
+      }
+    ],
+    "local_cap": 30,
+    "single_country_cap": 25,
+    "hub_radius_km": 300,
+    "strategic_hubs": [
+      "ช่องแคบไต้หวัน",
+      "คลองสุเอซ",
+      "ช่องแคบฮอร์มุซ",
+      "ช่องแคบมะละกา",
+      "โตเกียว",
+      "คลองปานามา",
+      "ช่องแคบบับเอลมันเดบ",
+      "เซี่ยงไฮ้"
+    ],
+    "decay_per_day": 0.15
+  }
+}
