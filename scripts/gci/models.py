@@ -78,16 +78,20 @@ class Event:
     location: str | None = None
     raw_score: float | None = None   # score before local cap
     is_new: bool = False
+    category_en: str = ""
+    location_en: str | None = None
 
     def to_dict(self) -> dict:
         return {
             "id": self.id, "pillar": self.pillar, "category": self.category,
-            "category_th": self.category_th, "title": self.title,
+            "category_th": self.category_th, "category_en": self.category_en or self.category_th,
+            "title": self.title,
             "severity": round(self.severity, 1), "score": round(self.score, 1),
             "countries": self.countries, "sources": self.sources,
             "article_count": self.article_count, "links": self.links[:3],
             "first_seen": self.first_seen, "last_seen": self.last_seen,
             "is_local": self.is_local, "location": self.location,
+            "location_en": self.location_en if self.location_en is not None else self.location,
             "raw_score": None if self.raw_score is None else round(self.raw_score, 1),
         }
 
@@ -101,5 +105,6 @@ class Event:
             article_count=int(d.get("article_count", 1)), links=list(d.get("links", [])),
             first_seen=d.get("first_seen"), last_seen=d.get("last_seen"),
             is_local=bool(d.get("is_local", False)), location=d.get("location"),
-            raw_score=d.get("raw_score"),
+            raw_score=d.get("raw_score"), category_en=d.get("category_en", ""),
+            location_en=d.get("location_en"),
         )

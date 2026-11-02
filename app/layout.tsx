@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "ดัชนี 0-100 วัดระดับผลกระทบเชิงระบบต่อโลก จากเศรษฐกิจ ภูมิรัฐศาสตร์ ภัยธรรมชาติ และสุขภาพ/โครงสร้างพื้นฐาน อัปเดตทุก 6 ชั่วโมง คำนวณแบบโปร่งใสตรวจสอบได้",
 };
 
-export const viewport: Viewport = { themeColor: "#09090b" };
+export const viewport: Viewport = { themeColor: "#f4f4f5" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

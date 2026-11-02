@@ -1,9 +1,9 @@
-"""Thai narrative layer. Gemini writes words only — never numbers.
+"""Bilingual (Thai/English) narrative layer. Gemini writes words only — never numbers.
 
 Order of preference:
   1. Gatekeeper: nothing new + econ moved < threshold  -> reuse previous AI text (0 tokens)
-  2. One Gemini request per run (JSON mode)
-  3. Rule-based Thai template (no key, quota exhausted, bad response, anything)
+  2. One Gemini request per run (JSON mode), both languages in the same call
+  3. Rule-based Thai + English template (no key, quota exhausted, bad response, anything)
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ import logging
 import os
 from datetime import datetime
 
-from .geo_utils import countries_th
+from .geo_utils import countries_en, countries_th
 from .models import Event, iso
 
 log = logging.getLogger("gci.ai")
@@ -26,12 +26,19 @@ PILLAR_TH = {
     "nat": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
     "bio_infra": "สุขภาพและโครงสร้างพื้นฐาน",
 }
+PILLAR_EN = {
+    "econ": "Economy, finance & energy",
+    "geo": "Conflict & geopolitics",
+    "nat": "Natural hazards at strategic hubs",
+    "bio_infra": "Health & critical infrastructure",
+}
 WATCH_TIMEFRAME = {
     "mobilization": "1-4 สัปดาห์", "chokepoint": "1-4 สัปดาห์", "energy_infra": "1-4 สัปดาห์",
     "great_power": "1-4 สัปดาห์", "nuclear": "1-4 สัปดาห์", "invasion": "1-4 สัปดาห์",
     "sanctions": "1-3 เดือน", "novel_pathogen": "1-3 เดือน", "high_consequence": "1-3 เดือน",
     "pheic": "1-4 สัปดาห์", "global_outage": "1-4 สัปดาห์", "cyber_incident": "1-3 เดือน",
 }
+TIMEFRAME_EN = {"1-4 สัปดาห์": "1-4 weeks", "1-3 เดือน": "1-3 months"}
 
 
 # ---------------------------------------------------------------- template (always available)
@@ -45,101 +52,135 @@ def _signal(ev: Event) -> str:
     return "เฝ้าระวัง"
 
 
-def template_summary(ctx: dict) -> dict:
-    score, band = ctx["global_score"], ctx["band_label_th"]
-    drivers = ctx["top_drivers"]
-    events: list[Event] = ctx["events"]
-    if score is None:
-        exec_th = ("ขณะนี้ยังคำนวณดัชนีรวมไม่ได้เพราะแหล่งข้อมูลหลักขาดหาย "
-                   "ระบบจะไม่แสดงค่าแทนที่เป็นศูนย์เพื่อไม่ให้โลกดูปลอดภัยเกินจริง")
-    else:
-        drv = " และ".join(f"หมวด{PILLAR_TH[d['pillar']]} ({d['score']:.0f}/100)" for d in drivers[:2])
-        s1 = f"ดัชนีวิกฤตโลกอยู่ที่ {score}/100 ระดับ “{band}” โดยแรงกดดันหลักมาจาก{drv}"
-        top = next((e for e in events if not e.is_local), None)
-        if top:
-            s2 = (f"เหตุการณ์ที่มีน้ำหนักสูงสุดคือ{top.category_th}เกี่ยวกับ{countries_th(top.countries)} "
-                  f"(ยืนยันจาก {len(top.sources)} แหล่ง)")
-        else:
-            s2 = "ไม่พบเหตุการณ์ระดับโลกที่มีน้ำหนักโดดเด่นในรอบนี้"
-        if ctx["cross_confirmed"]:
-            s2 += f" และวิกฤตเริ่มลุกลามข้ามหมวด ทำให้ตัวเร่งเชิงระบบเพิ่มคะแนน +{ctx['boost']:.0f}"
-        exec_th = f"{s1} {s2}"
-
-    warnings = []
-    seen = set()
+def _watch_events(events: list[Event]) -> list[Event]:
+    out, seen = [], set()
     for ev in events:
         if ev.category not in WATCH_TIMEFRAME or ev.is_local or ev.category in seen or ev.title in seen:
             continue
         seen.update({ev.category, ev.title})
-        warnings.append({
-            "title": f"{ev.category_th}: {countries_th(ev.countries)}",
-            "signal_strength": _signal(ev),
-            "timeframe": WATCH_TIMEFRAME[ev.category],
+        out.append(ev)
+        if len(out) == 3:
+            break
+    return out
+
+
+def template_summary(ctx: dict) -> dict:
+    score, band_th, band_en = ctx["global_score"], ctx["band_label_th"], ctx["band_label_en"]
+    drivers = ctx["top_drivers"]
+    events: list[Event] = ctx["events"]
+    top = next((e for e in events if not e.is_local), None)
+
+    if score is None:
+        exec_th = ("ขณะนี้ยังคำนวณดัชนีรวมไม่ได้เพราะแหล่งข้อมูลหลักขาดหาย "
+                   "ระบบจะไม่แสดงค่าแทนที่เป็นศูนย์เพื่อไม่ให้โลกดูปลอดภัยเกินจริง")
+        exec_en = ("The global index cannot be computed right now because key data sources are missing. "
+                   "The system will not substitute zero, which would make the world look safer than it is.")
+    else:
+        drv_th = " และ".join(f"หมวด{PILLAR_TH[d['pillar']]} ({d['score']:.0f}/100)" for d in drivers[:2])
+        drv_en = " and ".join(f"{PILLAR_EN[d['pillar']].lower()} ({d['score']:.0f}/100)" for d in drivers[:2])
+        s1_th = f"ดัชนีวิกฤตโลกอยู่ที่ {score}/100 ระดับ “{band_th}” โดยแรงกดดันหลักมาจาก{drv_th}"
+        s1_en = f"The Global Crisis Index stands at {score}/100 (“{band_en}”), driven mainly by {drv_en}."
+        if top:
+            s2_th = (f"เหตุการณ์ที่มีน้ำหนักสูงสุดคือ{top.category_th}เกี่ยวกับ{countries_th(top.countries)} "
+                     f"(ยืนยันจาก {len(top.sources)} แหล่ง)")
+            s2_en = (f"The heaviest-weighted event is {top.category_en.lower() or top.category}"
+                     f" involving {countries_en(top.countries)} (confirmed by {len(top.sources)} "
+                     f"source{'s' if len(top.sources) != 1 else ''})")
+        else:
+            s2_th = "ไม่พบเหตุการณ์ระดับโลกที่มีน้ำหนักโดดเด่นในรอบนี้"
+            s2_en = "No dominant global-scale event was detected in this run"
+        if ctx["cross_confirmed"]:
+            s2_th += f" และวิกฤตเริ่มลุกลามข้ามหมวด ทำให้ตัวเร่งเชิงระบบเพิ่มคะแนน +{ctx['boost']:.0f}"
+            s2_en += f", and the crisis is spreading across pillars, adding a systemic boost of +{ctx['boost']:.0f}"
+        exec_th = f"{s1_th} {s2_th}"
+        exec_en = f"{s1_en} {s2_en}."
+
+    warn_th, warn_en = [], []
+    for ev in _watch_events(events):
+        tf = WATCH_TIMEFRAME[ev.category]
+        sig = _signal(ev)
+        warn_th.append({
+            "title": f"{ev.category_th}: {countries_th(ev.countries)}", "signal_strength": sig, "timeframe": tf,
             "evidence_summary": f"พบรายงาน {ev.article_count} ชิ้นจาก {len(ev.sources)} แหล่งข่าว เช่น “{ev.title[:140]}”",
         })
-        if len(warnings) == 3:
-            break
-    brent = next((i for i in ctx["econ_indicators"] if i["key"] == "brent"), None)
-    if len(warnings) < 3 and brent and brent.get("change_pct") is not None and abs(brent["change_pct"]) >= 8:
-        warnings.append({
-            "title": "ความผันผวนราคาพลังงาน",
-            "signal_strength": "ปานกลาง" if abs(brent["change_pct"]) < 15 else "สูง",
-            "timeframe": "1-3 เดือน",
-            "evidence_summary": f"ราคาน้ำมัน Brent เปลี่ยนแปลง {brent['change_pct']:+.1f}% ใน 5 วันทำการ (ล่าสุด {brent['value']:.1f} USD)",
+        warn_en.append({
+            "title": f"{ev.category_en or ev.category_th}: {countries_en(ev.countries)}", "signal_strength": sig,
+            "timeframe": TIMEFRAME_EN[tf],
+            "evidence_summary": f"{ev.article_count} report(s) from {len(ev.sources)} outlet(s), e.g. “{ev.title[:140]}”",
         })
+    brent = next((i for i in ctx["econ_indicators"] if i["key"] == "brent"), None)
+    if len(warn_th) < 3 and brent and brent.get("change_pct") is not None and abs(brent["change_pct"]) >= 8:
+        sig = "ปานกลาง" if abs(brent["change_pct"]) < 15 else "สูง"
+        warn_th.append({"title": "ความผันผวนราคาพลังงาน", "signal_strength": sig, "timeframe": "1-3 เดือน",
+                        "evidence_summary": f"ราคาน้ำมัน Brent เปลี่ยนแปลง {brent['change_pct']:+.1f}% ใน 5 วันทำการ (ล่าสุด {brent['value']:.1f} USD)"})
+        warn_en.append({"title": "Energy price volatility", "signal_strength": sig, "timeframe": "1-3 months",
+                        "evidence_summary": f"Brent crude moved {brent['change_pct']:+.1f}% over 5 trading days (last {brent['value']:.1f} USD)"})
 
-    notes = []
+    notes_th, notes_en = [], []
     for ev in ctx["local_events"][:4]:
-        cap_note = f"น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ {ev.score:.0f} คะแนนในหมวด"
-        where = ev.location or countries_th(ev.countries)
-        notes.append(f"{ev.category_th} — {where}: {ev.title[:120]} ({cap_note})")
+        notes_th.append(f"{ev.category_th} — {ev.location or countries_th(ev.countries)}: {ev.title[:120]} "
+                        f"(น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ {ev.score:.0f} คะแนนในหมวด)")
+        notes_en.append(f"{ev.category_en or ev.category_th} — {ev.location_en or countries_en(ev.countries)}: {ev.title[:120]} "
+                        f"(weight in the global index capped at {ev.score:.0f} points in its pillar)")
 
-    return {"executive_summary_th": exec_th, "early_warnings_th": warnings, "local_notes_th": notes}
+    return {"executive_summary_th": exec_th, "early_warnings_th": warn_th, "local_notes_th": notes_th,
+            "executive_summary_en": exec_en, "early_warnings_en": warn_en, "local_notes_en": notes_en}
 
 
 # ---------------------------------------------------------------- Gemini
 
-PROMPT = """คุณเป็นนักวิเคราะห์ความเสี่ยงเชิงระบบ ตอบเป็น JSON เท่านั้น ภาษาไทย
-ห้ามสร้างหรือแก้ไขตัวเลขคะแนนใดๆ ให้อ้างอิงเฉพาะตัวเลขและข่าวในข้อมูลด้านล่างเท่านั้น ห้ามเดาเปอร์เซ็นต์ความน่าจะเป็น
+PROMPT = """You are a systemic-risk analyst. Reply with JSON only, in BOTH Thai and English.
+Never create or change any score. Use only the numbers and news provided below. Do not guess probabilities.
 
-ข้อมูลดัชนี (คำนวณโดยระบบแล้ว):
+Index data (already computed by the system):
 {indices}
 
-เหตุการณ์/พาดหัวข่าวที่ตัดซ้ำแล้ว (สูงสุด 20 รายการ):
+Deduplicated events / headlines (max 20):
 {headlines}
 
-เหตุการณ์ระดับท้องถิ่นที่ถูกจำกัดน้ำหนัก:
+Local events whose weight was capped:
 {local}
 
-ตอบด้วย JSON รูปแบบ:
+Reply with this JSON shape:
 {{
-  "executive_summary_th": "สรุปสาเหตุของระดับคะแนนปัจจุบัน 2 ประโยค",
-  "early_warnings_th": [
-    {{"title": "ชื่อความเสี่ยง", "signal_strength": "สูง|ปานกลาง|เฝ้าระวัง",
-      "timeframe": "เช่น 1-4 สัปดาห์ หรือ 1-3 เดือน", "evidence_summary": "ข้อเท็จจริงจากข่าว 1 ประโยค"}}
+  "executive_summary_th": "2 Thai sentences explaining why the score is at its current level",
+  "executive_summary_en": "the same 2 sentences in English",
+  "early_warnings": [
+    {{"title_th": "...", "title_en": "...",
+      "signal_strength": "สูง|ปานกลาง|เฝ้าระวัง",
+      "timeframe_th": "e.g. 1-4 สัปดาห์ or 1-3 เดือน", "timeframe_en": "e.g. 1-4 weeks or 1-3 months",
+      "evidence_th": "one Thai sentence of fact from the news", "evidence_en": "the same in English"}}
   ],
-  "local_notes_th": ["สรุปเหตุการณ์ท้องถิ่นสั้นๆ"]
+  "local_notes_th": ["short Thai note"],
+  "local_notes_en": ["the same in English"]
 }}
-early_warnings_th ไม่เกิน 3 รายการ และต้องมีหลักฐานจากข่าวที่ให้ไว้เท่านั้น local_notes_th ไม่เกิน 4 รายการ"""
+early_warnings: at most 3, each backed by the news above (1-3 month watchlist: troop movements, new sanctions,
+energy trends, etc). local_notes: at most 4. signal_strength must be exactly one of the three Thai values."""
 
 
 def _validate(data: dict) -> dict:
     exec_th = str(data.get("executive_summary_th", "")).strip()
-    if not exec_th:
-        raise ValueError("empty executive_summary_th")
-    warnings = []
-    for w in (data.get("early_warnings_th") or [])[:3]:
-        if not isinstance(w, dict) or not w.get("title"):
+    exec_en = str(data.get("executive_summary_en", "")).strip()
+    if not exec_th or not exec_en:
+        raise ValueError("missing executive summary")
+    warn_th, warn_en = [], []
+    for w in (data.get("early_warnings") or [])[:3]:
+        if not isinstance(w, dict) or not w.get("title_th") or not w.get("title_en"):
             continue
         sig = str(w.get("signal_strength", "")).strip()
-        warnings.append({
-            "title": str(w["title"]).strip()[:120],
-            "signal_strength": sig if sig in SIGNALS else "เฝ้าระวัง",
-            "timeframe": str(w.get("timeframe") or "1-3 เดือน").strip()[:40],
-            "evidence_summary": str(w.get("evidence_summary", "")).strip()[:300],
-        })
-    notes = [str(n).strip()[:240] for n in (data.get("local_notes_th") or []) if str(n).strip()][:4]
-    return {"executive_summary_th": exec_th[:600], "early_warnings_th": warnings, "local_notes_th": notes}
+        sig = sig if sig in SIGNALS else "เฝ้าระวัง"
+        warn_th.append({"title": str(w["title_th"]).strip()[:120], "signal_strength": sig,
+                        "timeframe": str(w.get("timeframe_th") or "1-3 เดือน").strip()[:40],
+                        "evidence_summary": str(w.get("evidence_th", "")).strip()[:300]})
+        warn_en.append({"title": str(w["title_en"]).strip()[:120], "signal_strength": sig,
+                        "timeframe": str(w.get("timeframe_en") or "1-3 months").strip()[:40],
+                        "evidence_summary": str(w.get("evidence_en", "")).strip()[:300]})
+
+    def notes(key: str) -> list[str]:
+        return [str(n).strip()[:240] for n in (data.get(key) or []) if str(n).strip()][:4]
+
+    return {"executive_summary_th": exec_th[:600], "early_warnings_th": warn_th, "local_notes_th": notes("local_notes_th"),
+            "executive_summary_en": exec_en[:700], "early_warnings_en": warn_en, "local_notes_en": notes("local_notes_en")}
 
 
 def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
@@ -147,16 +188,16 @@ def _call_gemini(ctx: dict, api_key: str, model: str) -> dict:
     from google.genai import types
 
     indices = {
-        "global_score": ctx["global_score"], "band": ctx["band_label_th"],
+        "global_score": ctx["global_score"], "band": ctx["band_label_en"],
         "pillars": ctx["pillar_scores"], "boost": ctx["boost"], "cross_confirmed": ctx["cross_confirmed"],
         "econ_indicators": {i["key"]: {"value": i["value"], "change_5d_pct": i["change_pct"]}
                             for i in ctx["econ_indicators"]},
     }
-    heads = [f"- [{e.pillar}/{e.category_th}] {e.title} (แหล่ง: {len(e.sources)}, คะแนน {e.score:.0f})"
+    heads = [f"- [{e.pillar}/{e.category_en or e.category}] {e.title} (sources: {len(e.sources)}, score {e.score:.0f})"
              for e in ctx["events"] if not e.is_local][:ctx["max_headlines"]]
-    local = [f"- {e.category_th}: {e.title} ({e.location or ''})" for e in ctx["local_events"][:6]]
+    local = [f"- {e.category_en or e.category}: {e.title} ({e.location_en or ''})" for e in ctx["local_events"][:6]]
     prompt = PROMPT.format(indices=json.dumps(indices, ensure_ascii=False),
-                           headlines="\n".join(heads) or "- (ไม่มี)", local="\n".join(local) or "- (ไม่มี)")
+                           headlines="\n".join(heads) or "- (none)", local="\n".join(local) or "- (none)")
     client = genai.Client(api_key=api_key)
     resp = client.models.generate_content(
         model=model, contents=prompt,
@@ -182,10 +223,11 @@ def build_narrative(ctx: dict, ai_cache: dict, now: datetime, ai_cfg: dict) -> t
         new_ids = set(ids) - prev_ids
         prev_econ = ai_cache.get("econ_score")
         econ_delta = abs(econ - prev_econ) if econ is not None and prev_econ is not None else float("inf")
-        if (ai_cache.get("source") == "gemini" and ai_cache.get("summary")
+        cached = ai_cache.get("summary") or {}
+        if (ai_cache.get("source") == "gemini" and cached.get("executive_summary_en")
                 and not new_ids and econ_delta < ai_cfg["econ_delta_threshold"]):
             log.info("AI gate: no new events, econ Δ=%.2f -> reuse previous text (0 tokens)", econ_delta)
-            summary = {**ai_cache["summary"], "source": "gemini_cached", "model": ai_cache.get("model"),
+            summary = {**cached, "source": "gemini_cached", "model": ai_cache.get("model"),
                        "generated_at": ai_cache.get("generated_at")}
             return summary, ai_cache
         try:
@@ -195,7 +237,7 @@ def build_narrative(ctx: dict, ai_cache: dict, now: datetime, ai_cfg: dict) -> t
                          "econ_score": econ, "summary": text, "generated_at": iso(now)}
             return {**text, "source": "gemini", "model": model, "generated_at": iso(now)}, new_cache
         except Exception as exc:  # noqa: BLE001 - 429 quota, network, bad JSON… all fall back
-            log.warning("Gemini unavailable (%s: %s) -> Thai template", type(exc).__name__, str(exc)[:160])
+            log.warning("Gemini unavailable (%s: %s) -> template", type(exc).__name__, str(exc)[:160])
 
     text = template_summary(ctx)
     new_cache = {"source": "template", "model": None, "events_hash": h, "event_ids": ids,

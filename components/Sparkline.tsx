@@ -2,13 +2,15 @@
 
 import { useMemo, useRef, useState } from "react";
 import type { HistoryPoint } from "@/lib/types";
-import { BAND_HEX, bandOf, fmtThaiDate } from "@/lib/format";
+import { BAND_HEX, bandOf, fmtDate } from "@/lib/format";
+import { useLang } from "@/lib/i18n";
 
 const W = 320;
 const H = 88;
 const PAD = { t: 6, b: 6, l: 2, r: 2 };
 
 export function Sparkline({ history }: { history: HistoryPoint[] }) {
+  const { lang, t } = useLang();
   const [hover, setHover] = useState<number | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -26,7 +28,7 @@ export function Sparkline({ history }: { history: HistoryPoint[] }) {
   }, [history]);
 
   if (pts.length === 0) {
-    return <div className="text-xs text-zinc-500">ยังไม่มีประวัติคะแนน</div>;
+    return <div className="text-xs text-zinc-500">{t("noHistory")}</div>;
   }
 
   const last = pts[pts.length - 1];
@@ -47,9 +49,9 @@ export function Sparkline({ history }: { history: HistoryPoint[] }) {
   return (
     <figure>
       <figcaption className="mb-1.5 flex items-baseline justify-between text-xs text-zinc-500">
-        <span>แนวโน้มคะแนนย้อนหลัง (สูงสุด 90 วัน)</span>
+        <span>{t("trend")}</span>
         {pts.length > 1 && (
-          <span className="num text-zinc-400">
+          <span className="num text-zinc-600">
             {delta > 0 ? "▲" : delta < 0 ? "▼" : "■"} {delta > 0 ? "+" : ""}
             {delta}
           </span>
@@ -63,33 +65,33 @@ export function Sparkline({ history }: { history: HistoryPoint[] }) {
           onPointerMove={onMove}
           onPointerLeave={() => setHover(null)}
           role="img"
-          aria-label={`กราฟคะแนนย้อนหลัง ${history.length} จุด ล่าสุด ${last.h.score}`}
+          aria-label={t("chartAria", { n: history.length, s: last.h.score })}
         >
           {[20, 45, 70].map((t) => (
-            <line key={t} x1={0} x2={W} y1={yOf(t)} y2={yOf(t)} stroke="#27272a" strokeDasharray="2 4" strokeWidth={1} />
+            <line key={t} x1={0} x2={W} y1={yOf(t)} y2={yOf(t)} stroke="#e4e4e7" strokeDasharray="2 4" strokeWidth={1} />
           ))}
           {pts.length > 1 && (
-            <path d={d} fill="none" stroke="#d4d4d8" strokeWidth={2} strokeLinejoin="round" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+            <path d={d} fill="none" stroke="#3f3f46" strokeWidth={2} strokeLinejoin="round" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
           )}
-          {active && <line x1={active.x} x2={active.x} y1={0} y2={H} stroke="#52525b" strokeWidth={1} vectorEffect="non-scaling-stroke" />}
+          {active && <line x1={active.x} x2={active.x} y1={0} y2={H} stroke="#a1a1aa" strokeWidth={1} vectorEffect="non-scaling-stroke" />}
           {(active ? [active] : [last]).map((p) => {
             const b = bandOf(p.h.score);
             return (
-              <circle key="dot" cx={p.x} cy={p.y} r={4.5} fill={b ? BAND_HEX[b.key] : "#a1a1aa"} stroke="#18181b" strokeWidth={2} />
+              <circle key="dot" cx={p.x} cy={p.y} r={4.5} fill={b ? BAND_HEX[b.key] : "#a1a1aa"} stroke="#ffffff" strokeWidth={2} />
             );
           })}
         </svg>
         {active && (
           <div
-            className="pointer-events-none absolute -top-2 z-10 -translate-y-full whitespace-nowrap rounded-md border border-zinc-700 bg-zinc-900 px-2.5 py-1.5 text-xs shadow-lg"
+            className="pointer-events-none absolute -top-2 z-10 -translate-y-full whitespace-nowrap rounded-md border border-zinc-300 bg-white px-2.5 py-1.5 text-xs shadow-md"
             style={{ left: `${(active.x / W) * 100}%`, transform: `translate(${active.x > W * 0.6 ? "-100%" : active.x < W * 0.2 ? "0" : "-50%"}, -100%)` }}
           >
-            <div className="num text-sm font-bold text-zinc-100">{active.h.score}</div>
-            <div className="text-zinc-400">{fmtThaiDate(active.h.t)}</div>
+            <div className="num text-sm font-bold text-zinc-900">{active.h.score}</div>
+            <div className="text-zinc-600">{fmtDate(active.h.t, lang)}</div>
           </div>
         )}
       </div>
-      {pts.length < 3 && <div className="mt-1 text-[11px] text-zinc-500">กำลังสะสมข้อมูล — กราฟจะสมบูรณ์ขึ้นหลังอัปเดตหลายรอบ</div>}
+      {pts.length < 3 && <div className="mt-1 text-[11px] text-zinc-500">{t("accumulating")}</div>}
     </figure>
   );
 }

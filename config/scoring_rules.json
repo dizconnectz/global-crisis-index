@@ -11,10 +11,10 @@
   },
 
   "bands": [
-    { "key": "low",      "min": 0,  "max": 20,  "label_th": "ผลกระทบเชิงระบบระดับต่ำ",         "color": "green" },
-    { "key": "watch",    "min": 21, "max": 45,  "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",     "color": "yellow" },
-    { "key": "high",     "min": 46, "max": 70,  "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",      "color": "orange" },
-    { "key": "critical", "min": 71, "max": 100, "label_th": "วิกฤตเชิงระบบระดับโลก",             "color": "red" }
+    { "key": "low",      "min": 0,  "max": 20,  "label_th": "ผลกระทบเชิงระบบระดับต่ำ", "label_en": "Low systemic impact",         "color": "green" },
+    { "key": "watch",    "min": 21, "max": 45,  "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค", "label_en": "Watch / regional volatility",     "color": "yellow" },
+    { "key": "high",     "min": 46, "max": 70,  "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก", "label_en": "High tension / global supply-chain impact",      "color": "orange" },
+    { "key": "critical", "min": 71, "max": 100, "label_th": "วิกฤตเชิงระบบระดับโลก", "label_en": "Global systemic crisis",             "color": "red" }
   ],
 
   "freshness": {
@@ -27,16 +27,16 @@
     "trading_days_window": 5,
     "indicators": {
       "vix": {
-        "label_th": "ดัชนีความผันผวน VIX",
-        "ticker": "^VIX", "fred": "VIXCLS", "unit": "จุด",
+        "label_th": "ดัชนีความผันผวน VIX", "label_en": "VIX volatility index",
+        "ticker": "^VIX", "fred": "VIXCLS", "unit": "จุด", "unit_en": "pts",
         "weight": 0.30,
         "combine": "max",
         "level_points":   [[12, 0], [15, 10], [20, 30], [25, 50], [30, 65], [40, 85], [55, 100]],
         "change_points":  [[0, 0], [15, 10], [30, 35], [60, 70], [100, 100]]
       },
       "brent": {
-        "label_th": "น้ำมันดิบ Brent",
-        "ticker": "BZ=F", "fred": "DCOILBRENTEU", "unit": "USD/บาร์เรล",
+        "label_th": "น้ำมันดิบ Brent", "label_en": "Brent crude oil",
+        "ticker": "BZ=F", "fred": "DCOILBRENTEU", "unit": "USD/บาร์เรล", "unit_en": "USD/bbl",
         "weight": 0.25,
         "combine": "max",
         "level_points":   [[60, 5], [75, 12], [90, 30], [110, 55], [130, 80], [150, 100]],
@@ -44,23 +44,23 @@
         "change_abs": true
       },
       "gold": {
-        "label_th": "ทองคำ (Safe Haven)",
-        "ticker": "GC=F", "fred": null, "unit": "USD/ออนซ์",
+        "label_th": "ทองคำ (Safe Haven)", "label_en": "Gold (safe haven)",
+        "ticker": "GC=F", "fred": null, "unit": "USD/ออนซ์", "unit_en": "USD/oz",
         "weight": 0.10,
         "combine": "change_only",
         "change_points":  [[0, 5], [2, 20], [4, 45], [7, 75], [10, 100]]
       },
       "spx": {
-        "label_th": "ดัชนี S&P 500",
-        "ticker": "^GSPC", "fred": "SP500", "unit": "จุด",
+        "label_th": "ดัชนี S&P 500", "label_en": "S&P 500 index",
+        "ticker": "^GSPC", "fred": "SP500", "unit": "จุด", "unit_en": "pts",
         "weight": 0.20,
         "combine": "max",
         "change_points":   [[-20, 100], [-12, 80], [-7, 55], [-4, 30], [-2, 12], [0, 0]],
         "drawdown_points": [[-35, 100], [-20, 75], [-12, 45], [-7, 20], [-3, 5], [0, 0]]
       },
       "soxx": {
-        "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
-        "ticker": "SOXX", "fred": null, "unit": "USD",
+        "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX", "label_en": "SOXX semiconductor ETF",
+        "ticker": "SOXX", "fred": null, "unit": "USD", "unit_en": "USD",
         "weight": 0.15,
         "combine": "max",
         "change_points":   [[-25, 100], [-15, 75], [-9, 45], [-5, 20], [-2, 5], [0, 0]],
@@ -81,29 +81,29 @@
 
   "geo": {
     "categories": [
-      { "id": "nuclear",        "severity": 95, "label_th": "ภัยคุกคามนิวเคลียร์",
+      { "id": "nuclear",        "severity": 95, "label_th": "ภัยคุกคามนิวเคลียร์", "label_en": "Nuclear threat",
         "any": ["nuclear strike", "nuclear attack", "nuclear weapon", "nuclear test", "tactical nuke", "nuclear threat", "radiological"] },
-      { "id": "great_power",    "severity": 90, "label_th": "การปะทะของมหาอำนาจ",
+      { "id": "great_power",    "severity": 90, "label_th": "การปะทะของมหาอำนาจ", "label_en": "Great-power clash",
         "powers_min": 2,
         "any": ["clash", "fired on", "shoot down", "shot down", "strike", "attack", "collision", "confrontation", "skirmish"] },
-      { "id": "chokepoint",     "severity": 85, "label_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+      { "id": "chokepoint",     "severity": 85, "label_th": "การปิด/คุกคามช่องแคบเดินเรือ", "label_en": "Shipping chokepoint threat",
         "any": ["blockade", "strait closed", "closes strait", "close the strait", "shipping halted", "shipping suspended", "tanker seized", "tanker attacked", "tankers hit", "tanker hit", "tankers attacked", "ships attacked", "red sea attack", "naval blockade"],
         "or_all": [["hormuz", "attack"], ["hormuz", "close"], ["hormuz", "hit"], ["hormuz", "tanker"], ["hormuz", "mine"], ["malacca", "block"], ["suez", "block"], ["taiwan strait", "blockade"], ["bab el-mandeb", "attack"], ["red sea", "shipping"]] },
-      { "id": "energy_infra",   "severity": 75, "label_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+      { "id": "energy_infra",   "severity": 75, "label_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน", "label_en": "Attack on energy infrastructure",
         "or_all": [["refinery", "attack"], ["refinery", "strike"], ["refinery", "drone"], ["oil facility", "attack"], ["pipeline", "sabotage"], ["pipeline", "attack"], ["power grid", "attack"], ["power plant", "strike"], ["gas field", "attack"], ["oil terminal", "strike"], ["energy infrastructure", "strike"], ["energy infrastructure", "attack"]] },
-      { "id": "invasion",       "severity": 80, "label_th": "การรุกรานหรือประกาศสงคราม",
+      { "id": "invasion",       "severity": 80, "label_th": "การรุกรานหรือประกาศสงคราม", "label_en": "Invasion or declaration of war",
         "any": ["invasion", "invades", "declares war", "declaration of war", "full-scale war", "ground offensive", "annexation", "annexes"] },
-      { "id": "missile_strike", "severity": 55, "label_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+      { "id": "missile_strike", "severity": 55, "label_th": "การโจมตีทางอากาศ/ขีปนาวุธ", "label_en": "Air / missile strikes",
         "any": ["missile", "airstrike", "air strike", "air raid", "drone strike", "ballistic", "bombardment", "shelling", "rocket attack"] },
-      { "id": "mobilization",   "severity": 45, "label_th": "การเคลื่อนกำลังพล",
+      { "id": "mobilization",   "severity": 45, "label_th": "การเคลื่อนกำลังพล", "label_en": "Military mobilisation",
         "any": ["troop buildup", "troops massing", "mobilisation", "mobilization", "military drills", "war games", "deploys troops", "military exercise", "carrier strike group"] },
-      { "id": "sanctions",      "severity": 40, "label_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+      { "id": "sanctions",      "severity": 40, "label_th": "มาตรการคว่ำบาตร/สงครามการค้า", "label_en": "Sanctions / trade war",
         "any": ["sanction", "export ban", "export controls", "embargo", "tariff", "trade war", "asset freeze"] },
-      { "id": "coup_unrest",    "severity": 35, "label_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+      { "id": "coup_unrest",    "severity": 35, "label_th": "รัฐประหาร/ความไม่สงบทางการเมือง", "label_en": "Coup / political unrest",
         "any": ["coup", "martial law", "state of emergency", "insurrection", "civil war"] },
-      { "id": "terror",         "severity": 35, "label_th": "การก่อการร้าย",
+      { "id": "terror",         "severity": 35, "label_th": "การก่อการร้าย", "label_en": "Terrorism",
         "any": ["terror attack", "terrorist attack", "suicide bomb", "bombing kills", "gunmen kill"] },
-      { "id": "conflict",       "severity": 30, "label_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+      { "id": "conflict",       "severity": 30, "label_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ", "label_en": "Armed conflict",
         "any": ["killed in", "fighting", "ceasefire", "offensive", "troops", "militants", "rebels", "insurgent", "war"] }
     ],
     "great_powers": ["united states", "china", "russia", "nato"],
@@ -131,34 +131,35 @@
     "gdacs_red_multicountry": 85,
     "tsunami_cross_region_min_mag": 7.5,
     "strategic_hubs": [
-      { "id": "taiwan_strait", "name_th": "ช่องแคบไต้หวัน",   "lat": 24.0,  "lon": 119.5 },
-      { "id": "suez",          "name_th": "คลองสุเอซ",        "lat": 30.6,  "lon": 32.3 },
-      { "id": "hormuz",        "name_th": "ช่องแคบฮอร์มุซ",    "lat": 26.6,  "lon": 56.3 },
-      { "id": "malacca",       "name_th": "ช่องแคบมะละกา",    "lat": 2.5,   "lon": 101.0 },
-      { "id": "tokyo",         "name_th": "โตเกียว",          "lat": 35.68, "lon": 139.69 },
-      { "id": "panama",        "name_th": "คลองปานามา",       "lat": 9.08,  "lon": -79.68 },
-      { "id": "bab_el_mandeb", "name_th": "ช่องแคบบับเอลมันเดบ", "lat": 12.6,  "lon": 43.3 },
-      { "id": "shanghai",      "name_th": "เซี่ยงไฮ้",         "lat": 31.23, "lon": 121.47 }
+      { "id": "taiwan_strait", "name_th": "ช่องแคบไต้หวัน", "name_en": "Taiwan Strait",   "lat": 24.0,  "lon": 119.5 },
+      { "id": "suez",          "name_th": "คลองสุเอซ", "name_en": "Suez Canal",        "lat": 30.6,  "lon": 32.3 },
+      { "id": "hormuz",        "name_th": "ช่องแคบฮอร์มุซ", "name_en": "Strait of Hormuz",    "lat": 26.6,  "lon": 56.3 },
+      { "id": "malacca",       "name_th": "ช่องแคบมะละกา", "name_en": "Strait of Malacca",    "lat": 2.5,   "lon": 101.0 },
+      { "id": "tokyo",         "name_th": "โตเกียว", "name_en": "Tokyo",          "lat": 35.68, "lon": 139.69 },
+      { "id": "panama",        "name_th": "คลองปานามา", "name_en": "Panama Canal",       "lat": 9.08,  "lon": -79.68 },
+      { "id": "bab_el_mandeb", "name_th": "ช่องแคบบับเอลมันเดบ", "name_en": "Bab el-Mandeb", "lat": 12.6,  "lon": 43.3 },
+      { "id": "shanghai",      "name_th": "เซี่ยงไฮ้", "name_en": "Shanghai",         "lat": 31.23, "lon": 121.47 }
     ],
+    "gdacs_type_en": { "EQ": "Earthquake", "TC": "Tropical cyclone", "FL": "Flood", "VO": "Volcanic eruption", "DR": "Drought", "WF": "Wildfire", "TS": "Tsunami" },
     "gdacs_type_th": { "EQ": "แผ่นดินไหว", "TC": "พายุหมุนเขตร้อน", "FL": "อุทกภัย", "VO": "ภูเขาไฟระเบิด", "DR": "ภัยแล้ง", "WF": "ไฟป่า", "TS": "สึนามิ" }
   },
 
   "bio_infra": {
     "single_country_cap": 25,
     "categories": [
-      { "id": "pheic",        "severity": 90, "label_th": "ภาวะฉุกเฉินด้านสาธารณสุขระหว่างประเทศ", "multi_country": true,
+      { "id": "pheic",        "severity": 90, "label_th": "ภาวะฉุกเฉินด้านสาธารณสุขระหว่างประเทศ", "label_en": "International public-health emergency", "multi_country": true,
         "any": ["public health emergency of international concern", "pheic", "pandemic declared", "pandemic emergency"] },
-      { "id": "novel_pathogen", "severity": 60, "label_th": "เชื้อโรคอุบัติใหม่",
+      { "id": "novel_pathogen", "severity": 60, "label_th": "เชื้อโรคอุบัติใหม่", "label_en": "Novel pathogen",
         "any": ["novel virus", "novel coronavirus", "human-to-human transmission", "unknown disease", "disease x", "new strain"] },
-      { "id": "high_consequence", "severity": 45, "label_th": "โรคติดต่อร้ายแรง",
+      { "id": "high_consequence", "severity": 45, "label_th": "โรคติดต่อร้ายแรง", "label_en": "High-consequence disease",
         "any": ["ebola", "marburg", "avian influenza", "h5n1", "mers", "nipah", "plague", "mpox clade i", "lassa", "cholera"] },
-      { "id": "outbreak",     "severity": 25, "label_th": "การระบาดของโรค",
+      { "id": "outbreak",     "severity": 25, "label_th": "การระบาดของโรค", "label_en": "Disease outbreak",
         "any": ["outbreak", "epidemic", "disease outbreak news", "cases reported"] },
-      { "id": "global_outage", "severity": 70, "label_th": "ระบบล่มหลายประเทศ", "multi_country": true,
+      { "id": "global_outage", "severity": 70, "label_th": "ระบบล่มหลายประเทศ", "label_en": "Multi-country system outage", "multi_country": true,
         "any": ["global outage", "worldwide outage", "global it outage", "internet outage across", "undersea cable cut", "subsea cable"] },
-      { "id": "cyber_incident", "severity": 40, "label_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+      { "id": "cyber_incident", "severity": 40, "label_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง", "label_en": "Actual cyber incident",
         "any": ["ransomware attack", "cyberattack", "cyber attack", "actively exploited", "#stopransomware", "compromise of", "breach of", "hackers", "malicious cyber activity"] },
-      { "id": "vuln_advisory", "severity": 5, "label_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+      { "id": "vuln_advisory", "severity": 5, "label_th": "ประกาศเตือนช่องโหว่ทั่วไป", "label_en": "Routine vulnerability advisory",
         "any": ["ics advisory", "vulnerability", "vulnerabilities", "cve", "releases", "security update", "known exploited vulnerabilities"] }
     ],
     "multi_country_markers": ["multi-country", "multiple countries", "several countries", "international partners", "global", "worldwide", "across europe", "across asia", "across africa", "regional spread"],

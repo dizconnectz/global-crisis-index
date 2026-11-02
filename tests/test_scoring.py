@@ -269,6 +269,14 @@ def test_runs_without_gemini_key_and_produces_complete_thai_json():
         assert w["signal_strength"] in ("สูง", "ปานกลาง", "เฝ้าระวัง")
     assert isinstance(s["local_notes_th"], list) and len(s["local_notes_th"]) <= 4
 
+    # English twin of every generated text block
+    assert "Global Crisis Index" in s["executive_summary_en"]
+    assert len(s["early_warnings_en"]) == len(s["early_warnings_th"])
+    assert len(s["local_notes_en"]) == len(s["local_notes_th"])
+    for p in latest["pillars"].values():
+        assert p["label_en"] and p["status_en"]
+        assert all(m["label_en"] for m in p["metrics"])
+
     assert isinstance(latest["global_score"], int)
     assert latest["band"]["label_th"]
     assert set(latest["pillars"]) == {"econ", "geo", "nat", "bio_infra"}
@@ -295,7 +303,8 @@ def test_gemini_gatekeeper_skips_call_when_nothing_changed(monkeypatch):
 
     def fake(ctx, key, model):
         calls.append(1)
-        return {"executive_summary_th": "สรุป", "early_warnings_th": [], "local_notes_th": []}
+        return {"executive_summary_th": "สรุป", "early_warnings_th": [], "local_notes_th": [],
+                "executive_summary_en": "Summary", "early_warnings_en": [], "local_notes_en": []}
     monkeypatch.setenv("GEMINI_API_KEY", "test-key")
     monkeypatch.setattr(ai_helper, "_call_gemini", fake)
     _, _, cache = build_state(base_inputs(), CFG, {}, [], NOW)

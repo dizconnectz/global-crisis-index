@@ -141,3 +141,12 @@ COUNTRY_TH = {
 def countries_th(countries: list[str], limit: int = 3) -> str:
     names = [COUNTRY_TH.get(c, c.title()) for c in countries[:limit]]
     return "–".join(names) if names else "หลายพื้นที่"
+
+
+COUNTRY_EN_OVERRIDE = {"united states": "US", "united kingdom": "UK", "uae": "UAE", "dr congo": "DR Congo",
+                       "nato": "NATO", "european union": "EU", "palestine": "Palestine/Gaza", "baltics": "Baltic states"}
+
+
+def countries_en(countries: list[str], limit: int = 3) -> str:
+    names = [COUNTRY_EN_OVERRIDE.get(c, c.title()) for c in countries[:limit]]
+    return "–".join(names) if names else "multiple areas"

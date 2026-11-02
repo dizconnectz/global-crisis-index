@@ -9,6 +9,7 @@ export interface Band {
   min: number;
   max: number;
   label_th: string;
+  label_en?: string;
   color: string;
 }
 
@@ -17,6 +18,7 @@ export interface EventItem {
   pillar: PillarKey;
   category: string;
   category_th: string;
+  category_en?: string;
   title: string;
   severity: number;
   score: number;
@@ -28,20 +30,27 @@ export interface EventItem {
   last_seen: string | null;
   is_local: boolean;
   location: string | null;
+  location_en?: string | null;
   raw_score: number | null;
 }
 
 export interface Metric {
+  key?: string;
   label_th: string;
+  label_en?: string;
   value: number | string | null;
   unit: string;
+  unit_en?: string;
   hint: string | null;
+  hint_en?: string | null;
 }
 
 export interface Indicator {
   key: string;
   label_th: string;
+  label_en?: string;
   unit: string;
+  unit_en?: string;
   ticker: string;
   weight: number;
   value: number | null;
@@ -55,11 +64,13 @@ export interface Indicator {
 
 export interface Pillar {
   label_th: string;
+  label_en?: string;
   score: number | null;
   weight: number;
   effective_weight: number | null;
   status: Status;
   status_th: string;
+  status_en?: string;
   note: string | null;
   top_events: EventItem[];
   metrics: Metric[];
@@ -97,17 +108,28 @@ export interface LatestState {
     max1_pillar: PillarKey | null;
   };
   pillars: Record<PillarKey, Pillar>;
-  top_drivers: { pillar: PillarKey; label_th: string; score: number; contribution: number; headline: string | null }[];
+  top_drivers: {
+    pillar: PillarKey;
+    label_th: string;
+    label_en?: string;
+    score: number;
+    contribution: number;
+    headline: string | null;
+    headline_en?: string | null;
+  }[];
   summary: {
     executive_summary_th: string;
     early_warnings_th: Warning[];
     local_notes_th: string[];
+    executive_summary_en?: string;
+    early_warnings_en?: Warning[];
+    local_notes_en?: string[];
     source: "gemini" | "gemini_cached" | "template";
     model: string | null;
     generated_at: string | null;
   };
   local_events: EventItem[];
-  data_status: { key: "ok" | "market_closed" | "degraded"; label_th: string; sources: SourceStatus[] };
+  data_status: { key: "ok" | "market_closed" | "degraded"; label_th: string; label_en?: string; sources: SourceStatus[] };
   config: {
     weights: Record<PillarKey, number>;
     booster: { max1_threshold: number; max2_threshold: number; factor: number; exponent: number; isolated_cap: number };
@@ -116,6 +138,7 @@ export interface LatestState {
     single_country_cap: number;
     hub_radius_km: number;
     strategic_hubs: string[];
+    strategic_hubs_en?: string[];
     decay_per_day: number;
   };
 }

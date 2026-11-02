@@ -22,6 +22,14 @@ STATUS_TH = {
     "degraded": "ข้อมูลขาดหาย (ตัดออกจากการเฉลี่ย)",
 }
 
+STATUS_EN = {
+    "ok": "Normal",
+    "partial": "Some data delayed",
+    "market_closed": "Market closed (weekend)",
+    "stale": "Using last valid value",
+    "degraded": "Data missing (excluded)",
+}
+
 
 def resolve_pillar(name: str, computed: float | None, sources_ok: list[bool], cache: dict,
                    now: datetime, max_age_hours: float) -> tuple[float | None, str, str | None]:
@@ -55,10 +63,9 @@ def remember_valid(cache: dict, name: str, score: float | None, status: str, now
 def overall_status(pillar_status: dict[str, str]) -> dict:
     values = set(pillar_status.values())
     if values & {"degraded", "stale", "partial"}:
-        key = "degraded"
-        label = "ข้อมูลบางส่วนล่าช้า"
+        key, label, label_en = "degraded", "ข้อมูลบางส่วนล่าช้า", "Some data delayed"
     elif "market_closed" in values:
-        key, label = "market_closed", "ตลาดปิดสุดสัปดาห์"
+        key, label, label_en = "market_closed", "ตลาดปิดสุดสัปดาห์", "Market closed (weekend)"
     else:
-        key, label = "ok", "ปกติ"
-    return {"key": key, "label_th": label}
+        key, label, label_en = "ok", "ปกติ", "Normal"
+    return {"key": key, "label_th": label, "label_en": label_en}

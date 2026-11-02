@@ -5,9 +5,9 @@ from __future__ import annotations
 from datetime import datetime, timedelta
 
 from . import scoring
-from .ai_helper import PILLAR_TH, build_narrative
+from .ai_helper import PILLAR_EN, PILLAR_TH, build_narrative
 from .models import Article, Event, SourceResult, iso, parse_iso
-from .validators import STATUS_TH, overall_status, remember_valid, resolve_pillar
+from .validators import STATUS_EN, STATUS_TH, overall_status, remember_valid, resolve_pillar
 
 PILLARS = ("econ", "geo", "nat", "bio_infra")
 
@@ -23,8 +23,12 @@ def _ok_data(results: list[SourceResult]) -> list | None:
     return out
 
 
-def _metric(label: str, value, unit: str = "", hint: str | None = None) -> dict:
-    return {"label_th": label, "value": value, "unit": unit, "hint": hint}
+def _metric(key: str, label: tuple[str, str], value, unit: tuple[str, str] = ("", ""),
+            hint: tuple[str, str] | None = None) -> dict:
+    """label/unit/hint are (thai, english) pairs."""
+    return {"key": key, "label_th": label[0], "label_en": label[1], "value": value,
+            "unit": unit[0], "unit_en": unit[1],
+            "hint": hint[0] if hint else None, "hint_en": hint[1] if hint else None}
 
 
 def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: datetime) -> tuple[dict, list, dict]:
@@ -79,6 +83,12 @@ def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: dateti
     comp = scoring.compose(scores, cfg)
     band = scoring.band_for(comp["global_score"], cfg)
 
+    # events restored from older state may predate English labels
+    cat_en = {c["id"]: c.get("label_en", c["label_th"]) for c in cfg["geo"]["categories"] + cfg["bio_infra"]["categories"]}
+    for ev in geo["events"] + bio["events"]:
+        if not ev.category_en:
+            ev.category_en = cat_en.get(ev.category, ev.category_th)
+
     events_by_pillar: dict[str, list[Event]] = {"geo": geo["events"], "nat": nat["events"],
                                                 "bio_infra": bio["events"], "econ": []}
     all_events = sorted(geo["events"] + nat["events"] + bio["events"], key=lambda e: e.score, reverse=True)
@@ -98,17 +108,20 @@ def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: dateti
             valid = [i for i in econ["indicators"] if i["score"] is not None]
             top_ind = max(valid, key=lambda i: i["score"]) if valid else None
             headline = f"{top_ind['label_th']} {top_ind['value']:,} {top_ind['unit']}" if top_ind else None
+            headline_en = f"{top_ind['label_en']} {top_ind['value']:,} {top_ind['unit_en']}" if top_ind else None
         else:
             top_ev = next((e for e in events_by_pillar[p] if not e.is_local), None)
             headline = f"{top_ev.category_th}: {top_ev.title}" if top_ev else None
-        drivers.append({"pillar": p, "label_th": PILLAR_TH[p], "score": scores[p],
-                        "contribution": round(contrib, 1), "headline": headline})
+            headline_en = f"{top_ev.category_en}: {top_ev.title}" if top_ev else None
+        drivers.append({"pillar": p, "label_th": PILLAR_TH[p], "label_en": PILLAR_EN[p], "score": scores[p],
+                        "contribution": round(contrib, 1), "headline": headline, "headline_en": headline_en})
     drivers.sort(key=lambda d: d["contribution"], reverse=True)
 
     # ---- narrative (AI or template)
     econ_inds = [i for i in econ["indicators"]]
     ctx = {
         "global_score": comp["global_score"], "band_label_th": band["label_th"] if band else "ไม่ทราบ",
+        "band_label_en": band.get("label_en", "") if band else "unknown",
         "top_drivers": drivers, "events": all_events, "local_events": local_events,
         "cross_confirmed": comp["cross_confirmed"], "boost": comp["boost"] or 0,
         "pillar_scores": scores, "econ_indicators": econ_inds, "max_headlines": cfg["ai"]["max_headlines"],
@@ -118,46 +131,54 @@ def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: dateti
 
     # ---- pillar blocks for UI
     nat_events = nat["events"]
+    EV = ("เหตุการณ์", "events")
     pillar_blocks = {
         "econ": {
-            "metrics": [_metric(i["label_th"], i["value"], i["unit"],
-                                None if i["change_pct"] is None else f"{i['change_pct']:+.1f}% (5 วันทำการ)")
+            "metrics": [_metric(i["key"], (i["label_th"], i["label_en"]), i["value"], (i["unit"], i["unit_en"]),
+                                None if i["change_pct"] is None else
+                                (f"{i['change_pct']:+.1f}% (5 วันทำการ)", f"{i['change_pct']:+.1f}% (5 trading days)"))
                         for i in econ["indicators"]],
             "indicators": [{k: v for k, v in i.items() if k not in ("last", "as_of")} for i in econ["indicators"]],
             "coverage": econ["coverage"],
         },
         "geo": {
             "metrics": [
-                _metric("เหตุการณ์ที่ติดตามอยู่", len(geo["events"]), "เหตุการณ์"),
-                _metric("เหตุการณ์ใหม่รอบนี้", sum(1 for e in geo["events"] if e.is_new), "เหตุการณ์"),
-                _metric("บทความที่วิเคราะห์", geo["articles"], "ชิ้น", f"ยุบรวมเหลือ {geo['clusters']} กลุ่มเหตุการณ์"),
+                _metric("active_events", ("เหตุการณ์ที่ติดตามอยู่", "Active events tracked"), len(geo["events"]), EV),
+                _metric("new_events", ("เหตุการณ์ใหม่รอบนี้", "New events this run"),
+                        sum(1 for e in geo["events"] if e.is_new), EV),
+                _metric("articles", ("บทความที่วิเคราะห์", "Articles analysed"), geo["articles"], ("ชิ้น", "articles"),
+                        (f"ยุบรวมเหลือ {geo['clusters']} กลุ่มเหตุการณ์", f"deduplicated into {geo['clusters']} event clusters")),
             ],
         },
         "nat": {
             "metrics": [
-                _metric("แผ่นดินไหว M6.0+ (7 วัน)", sum(1 for e in nat_events if e.category == "earthquake"), "ครั้ง"),
-                _metric("GDACS ระดับส้ม/แดง", None if hazards is None else sum(
-                    1 for h in hazards if h["source"] == "GDACS" and h.get("alert") in ("orange", "red")), "เหตุการณ์"),
-                _metric("ใกล้จุดยุทธศาสตร์โลก", sum(1 for e in nat_events if not e.is_local), "เหตุการณ์"),
-                _metric("จำกัดเป็นเหตุการณ์ท้องถิ่น", sum(1 for e in nat_events if e.is_local), "เหตุการณ์"),
+                _metric("quakes", ("แผ่นดินไหว M6.0+ (7 วัน)", "M6.0+ earthquakes (7 days)"),
+                        sum(1 for e in nat_events if e.category == "earthquake"), ("ครั้ง", "quakes")),
+                _metric("gdacs_orange_red", ("GDACS ระดับส้ม/แดง", "GDACS orange/red alerts"), None if hazards is None else sum(
+                    1 for h in hazards if h["source"] == "GDACS" and h.get("alert") in ("orange", "red")), EV),
+                _metric("near_hubs", ("ใกล้จุดยุทธศาสตร์โลก", "Near global strategic hubs"),
+                        sum(1 for e in nat_events if not e.is_local), EV),
+                _metric("local", ("จำกัดเป็นเหตุการณ์ท้องถิ่น", "Capped as local events"),
+                        sum(1 for e in nat_events if e.is_local), EV),
             ],
         },
         "bio_infra": {
             "metrics": [
-                _metric("เหตุการณ์สุขภาพที่ติดตาม", sum(1 for e in bio["events"] if e.category in
-                        ("pheic", "novel_pathogen", "high_consequence", "outbreak")), "เหตุการณ์"),
-                _metric("เหตุการณ์ไซเบอร์/ระบบล่ม", sum(1 for e in bio["events"] if e.category in
-                        ("cyber_incident", "global_outage")), "เหตุการณ์"),
-                _metric("ประกาศช่องโหว่ทั่วไป", sum(1 for e in bio["events"] if e.category == "vuln_advisory"), "รายการ"),
+                _metric("health", ("เหตุการณ์สุขภาพที่ติดตาม", "Health events tracked"), sum(1 for e in bio["events"] if e.category in
+                        ("pheic", "novel_pathogen", "high_consequence", "outbreak")), EV),
+                _metric("cyber", ("เหตุการณ์ไซเบอร์/ระบบล่ม", "Cyber incidents / outages"), sum(1 for e in bio["events"] if e.category in
+                        ("cyber_incident", "global_outage")), EV),
+                _metric("advisories", ("ประกาศช่องโหว่ทั่วไป", "Routine vulnerability advisories"),
+                        sum(1 for e in bio["events"] if e.category == "vuln_advisory"), ("รายการ", "items")),
             ],
         },
     }
     pillars_out = {}
     for p in PILLARS:
         pillars_out[p] = {
-            "label_th": PILLAR_TH[p], "score": scores[p], "weight": cfg["weights"][p],
+            "label_th": PILLAR_TH[p], "label_en": PILLAR_EN[p], "score": scores[p], "weight": cfg["weights"][p],
             "effective_weight": comp["effective_weights"].get(p), "status": statuses[p],
-            "status_th": STATUS_TH[statuses[p]], "note": notes[p],
+            "status_th": STATUS_TH[statuses[p]], "status_en": STATUS_EN[statuses[p]], "note": notes[p],
             "top_events": [e.to_dict() for e in events_by_pillar[p] if not e.is_local][:5],
             **pillar_blocks[p],
         }
@@ -186,6 +207,7 @@ def build_state(inputs: dict, cfg: dict, cache: dict, history: list, now: dateti
                    "local_cap": cfg["nat"]["local_cap"], "single_country_cap": cfg["bio_infra"]["single_country_cap"],
                    "hub_radius_km": cfg["nat"]["hub_radius_km"],
                    "strategic_hubs": [h["name_th"] for h in cfg["nat"]["strategic_hubs"]],
+                   "strategic_hubs_en": [h["name_en"] for h in cfg["nat"]["strategic_hubs"]],
                    "decay_per_day": cfg["events"]["decay_per_day"]},
     }
     cache["updated_at"] = iso(now)

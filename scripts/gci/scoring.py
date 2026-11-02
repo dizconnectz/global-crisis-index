@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timedelta
 from functools import lru_cache
 
-from .geo_utils import countries_th, find_countries, haversine_km, normalize, title_tokens
+from .geo_utils import countries_en, countries_th, find_countries, haversine_km, normalize, title_tokens
 from .models import Article, Event, iso, parse_iso
 
 
@@ -108,13 +108,15 @@ def score_econ(market_data: dict | None, cfg: dict, cached_indicators: dict, now
             if prev and prev.get("last") is not None and prev_at and now - prev_at <= max_age:
                 rec = {**prev, "status": "stale"}
         if rec is None:
-            indicators.append({"key": key, "label_th": ind["label_th"], "unit": ind["unit"],
+            indicators.append({"key": key, "label_th": ind["label_th"], "label_en": ind["label_en"],
+                               "unit": ind["unit"], "unit_en": ind.get("unit_en", ""),
                                "ticker": ind["ticker"], "weight": ind["weight"],
                                "value": None, "change_pct": None, "drawdown_pct": None,
                                "score": None, "status": "missing", "last_date": None})
             continue
         indicators.append({
-            "key": key, "label_th": ind["label_th"], "unit": ind["unit"], "ticker": ind["ticker"],
+            "key": key, "label_th": ind["label_th"], "label_en": ind["label_en"], "unit": ind["unit"],
+            "unit_en": ind.get("unit_en", ""), "ticker": ind["ticker"],
             "weight": ind["weight"], "value": round(rec["last"], 2),
             "change_pct": round(rec["change_pct"], 2), "drawdown_pct": round(rec["drawdown_pct"], 2),
             "score": round(score_indicator(ind, rec), 1), "status": rec["status"],
@@ -237,6 +239,7 @@ def group_articles(articles: list[Article], categories: list[dict], pillar: str,
         events.append(Event(
             id=_event_id(pillar, cl["cat"]["id"], cl["countries"], cl["tokens"]),
             pillar=pillar, category=cl["cat"]["id"], category_th=cl["cat"]["label_th"],
+            category_en=cl["cat"].get("label_en", cl["cat"]["label_th"]),
             title=cl["title"], severity=sev, score=sev * factor,
             countries=cl["countries"][:5], sources=sorted(cl["sources"])[:8],
             article_count=cl["count"], links=cl["links"],
@@ -346,13 +349,14 @@ def hazard_events(hazards: list[dict], cfg: dict, now: datetime) -> list[Event]:
             raw = piecewise(h["mag"], nat["magnitude_points"])
             if alert in nat["pager_floor"]:
                 raw = max(raw, nat["pager_floor"][alert])
-            category, cat_th = "earthquake", nat["gdacs_type_th"]["EQ"]
+            category, cat_th, cat_en = "earthquake", nat["gdacs_type_th"]["EQ"], nat["gdacs_type_en"]["EQ"]
         else:
             raw = float(nat["gdacs_alert_points"].get(alert or "green", 10))
             if alert == "red" and multi_country:
                 raw = max(raw, nat["gdacs_red_multicountry"])
             category = f"gdacs_{h['type'].lower() or 'other'}"
             cat_th = nat["gdacs_type_th"].get(h["type"], "ภัยธรรมชาติ")
+            cat_en = nat["gdacs_type_en"].get(h["type"], "Natural hazard")
         raw = decay(raw, age_days, rate)
 
         hub, dist = nearest_hub(h.get("lat"), h.get("lon"), nat["strategic_hubs"])
@@ -360,14 +364,16 @@ def hazard_events(hazards: list[dict], cfg: dict, now: datetime) -> list[Event]:
         cross_tsunami = h.get("tsunami") and (h.get("mag") or 0) >= nat["tsunami_cross_region_min_mag"]
         red_multi = h["source"] == "GDACS" and alert == "red" and multi_country
         is_global = near_hub or cross_tsunami or red_multi
-        location = h.get("place") or ""
+        location = location_en = h.get("place") or ""
         if near_hub:
             location = f"{location} (ห่าง{hub['name_th']} ~{dist:.0f} กม.)"
+            location_en = f"{location_en} (~{dist:.0f} km from {hub['name_en']})"
         events.append(Event(
-            id=h["id"], pillar="nat", category=category, category_th=cat_th, title=h["title"],
+            id=h["id"], pillar="nat", category=category, category_th=cat_th, category_en=cat_en, title=h["title"],
             severity=raw, score=raw if is_global else min(raw, nat["local_cap"]),
             countries=h.get("countries") or [], sources=[h["source"]], links=[h["link"]] if h.get("link") else [],
             first_seen=iso(t), last_seen=iso(t), is_local=not is_global, location=location.strip(),
+            location_en=location_en.strip(),
             raw_score=raw,
         ))
     events.sort(key=lambda e: e.score, reverse=True)
@@ -412,6 +418,7 @@ def score_bio_infra(official: list[Article] | None, news: list[Article] | None, 
             ev.score = float(bio["single_country_cap"])
             ev.is_local = True
             ev.location = countries_th(ev.countries, 1) if ev.countries else None
+            ev.location_en = countries_en(ev.countries, 1) if ev.countries else None
     # same id may come from both official and news lists
     uniq: dict[str, Event] = {}
     for ev in events:
