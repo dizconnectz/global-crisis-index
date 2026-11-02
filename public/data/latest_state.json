@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:30:16Z",
+  "generated_at": "2026-11-02T06:34:05Z",
   "global_score": 44,
   "band": {
     "key": "watch",
@@ -36,9 +36,9 @@
         },
         {
           "label_th": "น้ำมันดิบ Brent",
-          "value": 110.05,
+          "value": 110.1,
           "unit": "USD/บาร์เรล",
-          "hint": "-5.0% (5 วันทำการ)"
+          "hint": "-4.9% (5 วันทำการ)"
         },
         {
           "label_th": "ทองคำ (Safe Haven)",
@@ -80,9 +80,9 @@
           "unit": "USD/บาร์เรล",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 110.05,
-          "change_pct": -4.97,
-          "drawdown_pct": -7.01,
+          "value": 110.1,
+          "change_pct": -4.93,
+          "drawdown_pct": -6.97,
           "score": 55.1,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -161,7 +161,7 @@
             "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -188,7 +188,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -218,7 +218,7 @@
             "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -243,7 +243,7 @@
             "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -265,7 +265,7 @@
             "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -286,7 +286,7 @@
         },
         {
           "label_th": "บทความที่วิเคราะห์",
-          "value": 71,
+          "value": 72,
           "unit": "ชิ้น",
           "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์"
         }
@@ -382,7 +382,7 @@
             "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -407,7 +407,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:30:16Z",
+          "last_seen": "2026-11-02T06:34:05Z",
           "is_local": false,
           "location": null,
           "raw_score": null
@@ -483,7 +483,7 @@
     "local_notes_th": [],
     "source": "template",
     "model": null,
-    "generated_at": "2026-11-02T06:30:16Z"
+    "generated_at": "2026-11-02T06:34:05Z"
   },
   "local_events": [],
   "data_status": {
@@ -494,7 +494,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:23Z",
+        "fetched_at": "2026-11-02T06:34:07Z",
         "items": 5,
         "error": null,
         "note": null
@@ -503,16 +503,16 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T06:30:58Z",
+        "fetched_at": "2026-11-02T06:34:59Z",
         "items": null,
-        "error": "empty response (no articles)",
+        "error": "HTTP 429",
         "note": null
       },
       {
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:16Z",
+        "fetched_at": "2026-11-02T06:34:05Z",
         "items": 30,
         "error": null,
         "note": null
@@ -521,7 +521,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:17Z",
+        "fetched_at": "2026-11-02T06:34:06Z",
         "items": 25,
         "error": null,
         "note": null
@@ -530,8 +530,8 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:17Z",
-        "items": 16,
+        "fetched_at": "2026-11-02T06:34:06Z",
+        "items": 17,
         "error": null,
         "note": null
       },
@@ -539,7 +539,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:16Z",
+        "fetched_at": "2026-11-02T06:34:05Z",
         "items": 5,
         "error": null,
         "note": null
@@ -548,7 +548,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:20Z",
+        "fetched_at": "2026-11-02T06:34:09Z",
         "items": 174,
         "error": null,
         "note": null
@@ -557,7 +557,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:30:16Z",
+        "fetched_at": "2026-11-02T06:34:06Z",
         "items": 20,
         "error": null,
         "note": null
@@ -566,7 +566,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "error",
-        "fetched_at": "2026-11-02T06:30:23Z",
+        "fetched_at": "2026-11-02T06:34:12Z",
         "items": null,
         "error": "403 Client Error: Forbidden for url: https://www.cisa.gov/cybersecurity-advisories/all.xml",
         "note": null

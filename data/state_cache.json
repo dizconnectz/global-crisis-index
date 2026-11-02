@@ -23,7 +23,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -53,7 +53,7 @@
           "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -78,7 +78,7 @@
           "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -102,7 +102,7 @@
           "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -124,7 +124,7 @@
           "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -151,7 +151,7 @@
           "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -175,7 +175,7 @@
           "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": true,
         "location": "คองโก",
         "raw_score": 27.0
@@ -200,7 +200,7 @@
           "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T06:30:16Z",
+        "last_seen": "2026-11-02T06:34:05Z",
         "is_local": false,
         "location": null,
         "raw_score": null
@@ -210,19 +210,19 @@
   "last_valid": {
     "econ": {
       "score": 33.4,
-      "as_of": "2026-11-02T06:30:16Z"
+      "as_of": "2026-11-02T06:34:05Z"
     },
     "geo": {
       "score": 65.8,
-      "as_of": "2026-11-02T06:30:16Z"
+      "as_of": "2026-11-02T06:34:05Z"
     },
     "nat": {
       "score": 10.2,
-      "as_of": "2026-11-02T06:30:16Z"
+      "as_of": "2026-11-02T06:34:05Z"
     },
     "bio_infra": {
       "score": 54.8,
-      "as_of": "2026-11-02T06:30:16Z"
+      "as_of": "2026-11-02T06:34:05Z"
     }
   },
   "econ_indicators": {
@@ -231,15 +231,15 @@
       "change_pct": -0.15,
       "drawdown_pct": -37.46,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:30:16Z",
+      "as_of": "2026-11-02T06:34:05Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 110.05000305175781,
-      "change_pct": -4.97,
-      "drawdown_pct": -7.01,
+      "last": 110.0999984741211,
+      "change_pct": -4.93,
+      "drawdown_pct": -6.97,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:30:16Z",
+      "as_of": "2026-11-02T06:34:05Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -247,7 +247,7 @@
       "change_pct": -2.92,
       "drawdown_pct": -26.28,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T06:30:16Z",
+      "as_of": "2026-11-02T06:34:05Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -255,7 +255,7 @@
       "change_pct": -0.57,
       "drawdown_pct": -3.05,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:30:16Z",
+      "as_of": "2026-11-02T06:34:05Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -263,7 +263,7 @@
       "change_pct": -1.4,
       "drawdown_pct": -28.01,
       "last_date": "2026-10-30",
-      "as_of": "2026-11-02T06:30:16Z",
+      "as_of": "2026-11-02T06:34:05Z",
       "provider": "yfinance"
     }
   },
@@ -302,8 +302,8 @@
       ],
       "local_notes_th": []
     },
-    "generated_at": "2026-11-02T06:30:16Z"
+    "generated_at": "2026-11-02T06:34:05Z"
   },
-  "updated_at": "2026-11-02T06:30:16Z",
+  "updated_at": "2026-11-02T06:34:05Z",
   "version": 1
 }
