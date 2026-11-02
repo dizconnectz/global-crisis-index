@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:49:49Z",
+  "generated_at": "2026-11-02T07:06:47Z",
   "global_score": 45,
   "band": {
     "key": "watch",
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 110.07,
+          "value": 110.32,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-5.0% (5 วันทำการ)",
-          "hint_en": "-5.0% (5 trading days)"
+          "hint": "-4.7% (5 วันทำการ)",
+          "hint_en": "-4.7% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3914.7,
+          "value": 3916.3,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-3.1% (5 วันทำการ)",
-          "hint_en": "-3.1% (5 trading days)"
+          "hint": "-3.0% (5 วันทำการ)",
+          "hint_en": "-3.0% (5 trading days)"
         },
         {
           "key": "spx",
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 110.07,
-          "change_pct": -4.96,
-          "drawdown_pct": -7.0,
-          "score": 55.1,
+          "value": 110.32,
+          "change_pct": -4.74,
+          "drawdown_pct": -6.78,
+          "score": 55.4,
           "status": "ok",
           "last_date": "2026-11-02",
           "provider": "yfinance"
@@ -123,9 +123,9 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3914.7,
-          "change_pct": -3.06,
-          "drawdown_pct": -26.39,
+          "value": 3916.3,
+          "change_pct": -3.02,
+          "drawdown_pct": -26.36,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -197,7 +197,7 @@
             "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -211,7 +211,7 @@
           "category_en": "Air / missile strikes",
           "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
           "severity": 55.0,
-          "score": 44.0,
+          "score": 43.9,
           "countries": [
             "russia",
             "ukraine"
@@ -225,7 +225,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -257,7 +257,7 @@
             "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
           ],
           "first_seen": "2026-11-02T06:43:02Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -316,7 +316,7 @@
             "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -348,7 +348,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 72,
+          "value": 73,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
@@ -469,7 +469,7 @@
             "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -496,7 +496,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -522,7 +522,7 @@
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1hCZEI1TGROaFpoLWpHcWkyeGtYNGdDbjNNZ09rODVBRmQ3WjBEWTBOLXJ6ejNhUWdlLTFBdVozQVlpalhmM1FlMmJhTkJ6U3FRWTU5YTM1aG02RXVpaDVfMUFjLVE1Y2lIYVBTbDRMVWM0TG4wOXpBTUx4TFZRSFhsV2pHdzN5SFp0NTh2R3FVdGZINWpyRUduQnpYN1B6ekdtdHJMdw?oc=5"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -546,7 +546,7 @@
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T06:49:49Z",
+          "last_seen": "2026-11-02T07:06:47Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -667,7 +667,7 @@
     ],
     "source": "template",
     "model": null,
-    "generated_at": "2026-11-02T06:49:49Z"
+    "generated_at": "2026-11-02T07:06:47Z"
   },
   "local_events": [
     {
@@ -688,7 +688,7 @@
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
       ],
       "first_seen": "2026-11-02T06:49:49Z",
-      "last_seen": "2026-11-02T06:49:49Z",
+      "last_seen": "2026-11-02T07:06:47Z",
       "is_local": true,
       "location": null,
       "location_en": null,
@@ -704,7 +704,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:51Z",
+        "fetched_at": "2026-11-02T07:06:49Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -714,7 +714,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T06:50:02Z",
+        "fetched_at": "2026-11-02T07:06:59Z",
         "items": null,
         "error": "HTTP 429",
         "note": null,
@@ -724,7 +724,7 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:49Z",
+        "fetched_at": "2026-11-02T07:06:47Z",
         "items": 30,
         "error": null,
         "note": null,
@@ -734,7 +734,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:50Z",
+        "fetched_at": "2026-11-02T07:06:47Z",
         "items": 25,
         "error": null,
         "note": null,
@@ -744,8 +744,8 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:50Z",
-        "items": 17,
+        "fetched_at": "2026-11-02T07:06:47Z",
+        "items": 18,
         "error": null,
         "note": null,
         "optional": false
@@ -754,7 +754,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:49Z",
+        "fetched_at": "2026-11-02T07:06:47Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -764,7 +764,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:51Z",
+        "fetched_at": "2026-11-02T07:06:51Z",
         "items": 174,
         "error": null,
         "note": null,
@@ -774,7 +774,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:50Z",
+        "fetched_at": "2026-11-02T07:06:47Z",
         "items": 20,
         "error": null,
         "note": null,
@@ -784,8 +784,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T06:49:50Z",
-        "items": 100,
+        "fetched_at": "2026-11-02T07:06:47Z",
+        "items": 54,
         "error": null,
         "note": "google_news_fallback",
         "optional": false
