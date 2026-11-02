@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:08:00Z",
+  "generated_at": "2026-11-02T07:10:38Z",
   "global_score": 45,
   "band": {
     "key": "watch",
@@ -11,10 +11,10 @@
     "color": "yellow"
   },
   "formula": {
-    "base": 44.99,
+    "base": 45.02,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 66.6,
+    "max1": 66.7,
     "max2": 56.4,
     "max1_pillar": "geo"
   },
@@ -45,7 +45,7 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 110.26,
+          "value": 110.24,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
           "hint": "-4.8% (5 วันทำการ)",
@@ -55,7 +55,7 @@
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3916.2,
+          "value": 3917.8,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
           "hint": "-3.0% (5 วันทำการ)",
@@ -107,9 +107,9 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 110.26,
-          "change_pct": -4.79,
-          "drawdown_pct": -6.84,
+          "value": 110.24,
+          "change_pct": -4.81,
+          "drawdown_pct": -6.85,
           "score": 55.3,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -123,9 +123,9 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3916.2,
-          "change_pct": -3.03,
-          "drawdown_pct": -26.37,
+          "value": 3917.8,
+          "change_pct": -2.99,
+          "drawdown_pct": -26.33,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-02",
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 66.6,
+      "score": 66.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -197,7 +197,7 @@
             "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -225,7 +225,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -257,7 +257,7 @@
             "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
           ],
           "first_seen": "2026-11-02T06:43:02Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -316,7 +316,7 @@
             "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -328,7 +328,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 7,
+          "value": 8,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -351,8 +351,8 @@
           "value": 73,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 6 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 6 event clusters"
+          "hint": "ยุบรวมเหลือ 7 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 7 event clusters"
         }
       ]
     },
@@ -469,7 +469,7 @@
             "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -496,7 +496,7 @@
             "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -522,7 +522,7 @@
             "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1hCZEI1TGROaFpoLWpHcWkyeGtYNGdDbjNNZ09rODVBRmQ3WjBEWTBOLXJ6ejNhUWdlLTFBdVozQVlpalhmM1FlMmJhTkJ6U3FRWTU5YTM1aG02RXVpaDVfMUFjLVE1Y2lIYVBTbDRMVWM0TG4wOXpBTUx4TFZRSFhsV2pHdzN5SFp0NTh2R3FVdGZINWpyRUduQnpYN1B6ekdtdHJMdw?oc=5"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -546,7 +546,7 @@
             "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
           ],
           "first_seen": "2026-11-02T06:49:49Z",
-          "last_seen": "2026-11-02T07:08:00Z",
+          "last_seen": "2026-11-02T07:10:38Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -592,7 +592,7 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 66.6,
+      "score": 66.7,
       "contribution": 23.3,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
       "headline_en": "Shipping chokepoint threat: Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon"
@@ -617,61 +617,57 @@
     }
   ],
   "summary": {
-    "executive_summary_th": "ดัชนีความเสี่ยงโดยรวมอยู่ที่ 45 ซึ่งอยู่ในระดับ \"เฝ้าระวัง / ความผันผวนในภูมิภาค\" โดยมีปัจจัยขับเคลื่อนหลักจากความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางและสงครามรัสเซีย-ยูเครน รวมถึงความเสี่ยงด้านชีวภาพและโครงสร้างพื้นฐานจากโรคอีโบลาและการโจมตีทางไซเบอร์",
+    "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และน้ำมันดิบ Brent ทั้งนี้ข่าวหลักบางส่วนยังมีแหล่งยืนยันเพียงแหล่งเดียว และยังไม่พบสัญญาณว่าวิกฤตลุกลามข้ามหมวด",
     "early_warnings_th": [
       {
-        "title": "ภัยคุกคามต่อเส้นทางเดินเรือสำคัญและสถานการณ์ความขัดแย้งในช่องแคบฮอร์มุซ",
-        "signal_strength": "สูง",
-        "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ท่ามกลางความขัดแย้งระหว่างอิหร่านและสหรัฐฯ"
-      },
-      {
-        "title": "การระบาดของโรคอีโบลาในแอฟริกา",
-        "signal_strength": "สูง",
-        "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีข่าวการระบาดของโรคอีโบลาที่เกิดจากเชื้อ Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย"
-      },
-      {
-        "title": "การโจมตีทางไซเบอร์ต่อแอปแจ้งเตือนภัยทางอากาศในยูเครนและรัสเซีย",
+        "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "แอปแจ้งเตือนภัยทางอากาศของรัสเซียและยูเครนถูกโจมตีทางไซเบอร์หลังจากการหยุดยิงสิ้นสุดลง"
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
+      },
+      {
+        "title": "โรคติดต่อร้ายแรง: คองโก–ไนจีเรีย",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
+      },
+      {
+        "title": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง: รัสเซีย–ยูเครน",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
       }
     ],
     "local_notes_th": [
-      "ดัชนีความผันผวน VIX อยู่ที่ 19.42 ขณะที่ราคาน้ำมันดิบเบรนท์และทองคำลดลง 4.79% และ 3.03% ตามลำดับในช่วง 5 วันที่ผ่านมา",
-      "ดัชนีตลาดหุ้นหลักอย่าง S&P 500 และ SOXX ก็ปรับตัวลดลงเล็กน้อยเช่นกัน",
-      "มีการแจ้งเตือน #StopRansomware: SafePay Ransomware ซึ่งเป็นภัยคุกคามทางไซเบอร์ที่ต้องเฝ้าระวัง"
+      "การโจมตีไซเบอร์ที่เกิดขึ้นจริง — หลายพื้นที่: #StopRansomware: SafePay Ransomware (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
     ],
-    "executive_summary_en": "The overall risk index stands at 45, indicating \"Watch / regional volatility,\" primarily driven by geopolitical tensions in the Middle East and the Russia-Ukraine conflict, alongside bio-infrastructure risks from Ebola and cyberattacks.",
+    "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and Brent crude oil. Some key reports still rest on a single source, and there is no sign yet of the crisis spreading across pillars.",
     "early_warnings_en": [
       {
-        "title": "Shipping Chokepoint Threat and Conflict Situation in Hormuz Strait",
-        "signal_strength": "สูง",
-        "timeframe": "1-4 weeks",
-        "evidence_summary": "Tankers were reported hit in Hormuz Strait amidst ongoing conflict between Iran and the US."
-      },
-      {
-        "title": "Ebola Outbreak in Africa",
-        "signal_strength": "สูง",
-        "timeframe": "1-3 months",
-        "evidence_summary": "News of an Ebola disease outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria."
-      },
-      {
-        "title": "Cyberattacks on Air Raid Alert Apps in Ukraine and Russia",
+        "title": "Shipping chokepoint threat: Iran",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Russia and Ukraine air raid alert apps were hit by cyberattacks after the truce ended."
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”"
+      },
+      {
+        "title": "High-consequence disease: DR Congo–Nigeria",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria”"
+      },
+      {
+        "title": "Actual cyber incident: Russia–Ukraine",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends”"
       }
     ],
     "local_notes_en": [
-      "The VIX volatility index stands at 19.42, while Brent crude oil and gold prices decreased by 4.79% and 3.03% respectively over the past 5 days.",
-      "Major stock indices like S&P 500 and SOXX also saw slight declines.",
-      "A #StopRansomware: SafePay Ransomware alert has been issued, indicating a cyber threat to monitor."
+      "Actual cyber incident — multiple areas: #StopRansomware: SafePay Ransomware (weight in the global index capped at 25 points in its pillar)"
     ],
-    "source": "gemini",
-    "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-02T07:08:00Z"
+    "source": "template",
+    "model": null,
+    "generated_at": "2026-11-02T07:10:38Z"
   },
   "local_events": [
     {
@@ -692,7 +688,7 @@
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
       ],
       "first_seen": "2026-11-02T06:49:49Z",
-      "last_seen": "2026-11-02T07:08:00Z",
+      "last_seen": "2026-11-02T07:10:38Z",
       "is_local": true,
       "location": null,
       "location_en": null,
@@ -708,7 +704,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:02Z",
+        "fetched_at": "2026-11-02T07:10:41Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -718,9 +714,9 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-02T07:08:11Z",
+        "fetched_at": "2026-11-02T07:10:59Z",
         "items": null,
-        "error": "HTTP 429",
+        "error": "empty response (no articles)",
         "note": null,
         "optional": true
       },
@@ -728,7 +724,7 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
+        "fetched_at": "2026-11-02T07:10:39Z",
         "items": 30,
         "error": null,
         "note": null,
@@ -738,7 +734,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
+        "fetched_at": "2026-11-02T07:10:39Z",
         "items": 25,
         "error": null,
         "note": null,
@@ -748,7 +744,7 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
+        "fetched_at": "2026-11-02T07:10:39Z",
         "items": 18,
         "error": null,
         "note": null,
@@ -758,7 +754,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
+        "fetched_at": "2026-11-02T07:10:39Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -768,7 +764,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:02Z",
+        "fetched_at": "2026-11-02T07:10:41Z",
         "items": 174,
         "error": null,
         "note": null,
@@ -778,7 +774,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
+        "fetched_at": "2026-11-02T07:10:40Z",
         "items": 20,
         "error": null,
         "note": null,
@@ -788,8 +784,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-02T07:08:00Z",
-        "items": 100,
+        "fetched_at": "2026-11-02T07:10:39Z",
+        "items": 54,
         "error": null,
         "note": "google_news_fallback",
         "optional": false
