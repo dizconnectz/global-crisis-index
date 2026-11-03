@@ -1,13 +1,364 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Ukraine war briefing : US to mediate talks with Kyiv and Moscow in Abu Dhabi next week , says Witkoff",
+        "severity": 30.0,
+        "score": 30.0,
+        "countries": [
+          "ukraine",
+          "russia",
+          "uae",
+          "nato"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
+        ],
+        "article_count": 5,
+        "links": [
+          "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
+          "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
+          "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
+            "source": "aol.co.uk"
+          },
+          {
+            "url": "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
+            "source": "channelnewsasia.com"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "aol.co.uk",
+          "channelnewsasia.com",
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:nuclear:73ae71ea05": {
+        "id": "geo:nuclear:73ae71ea05",
+        "pillar": "geo",
+        "category": "nuclear",
+        "category_th": "ภัยคุกคามนิวเคลียร์",
+        "category_en": "Nuclear threat",
+        "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
+        "severity": 95.0,
+        "score": 57.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "metro.co.uk"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/"
+        ],
+        "refs": [
+          {
+            "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
+            "source": "metro.co.uk"
+          }
+        ],
+        "link_sources": [
+          "metro.co.uk"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump calls Iran conflict a  soft war , insists US holds the cards ahead of midterm elections",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Reuters (Google News)",
+          "nypost.com",
+          "wfmz.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
+          "https://www.wfmz.com/news/ap/ap-national/iran-s-chief-negotiator-says-the-us-must-act-to-prevent-renewed-war-and-other-mideast-news/article_4cd51f4d-14df-5d20-90c9-21ddc855c56c.html"
+        ],
+        "refs": [
+          {
+            "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
+            "source": "nypost.com"
+          },
+          {
+            "url": "https://www.wfmz.com/news/ap/ap-national/iran-s-chief-negotiator-says-the-us-must-act-to-prevent-renewed-war-and-other-mideast-news/article_4cd51f4d-14df-5d20-90c9-21ddc855c56c.html",
+            "source": "wfmz.com"
+          }
+        ],
+        "link_sources": [
+          "nypost.com",
+          "wfmz.com"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:mobilization:01609539a2": {
+        "id": "geo:mobilization:01609539a2",
+        "pillar": "geo",
+        "category": "mobilization",
+        "category_th": "การเคลื่อนกำลังพล",
+        "category_en": "Military mobilisation",
+        "title": "Coalition of the Willing to hold first joint military exercises in Poland",
+        "severity": 45.0,
+        "score": 27.0,
+        "countries": [
+          "poland"
+        ],
+        "sources": [
+          "bgnes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "http://www.bgnes.com/politics/coalition-of-the-willing-to-hold-first-joint-military-exercises-in-poland"
+        ],
+        "refs": [
+          {
+            "url": "http://www.bgnes.com/politics/coalition-of-the-willing-to-hold-first-joint-military-exercises-in-poland",
+            "source": "bgnes.com"
+          }
+        ],
+        "link_sources": [
+          "bgnes.com"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:d33ec26a75": {
+        "id": "geo:sanctions:d33ec26a75",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Tariff news : Maine Sen . Susan Collins fights backlash",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "bnnbloomberg.ca"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
+            "source": "bnnbloomberg.ca"
+          }
+        ],
+        "link_sources": [
+          "bnnbloomberg.ca"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:aec3be9677": {
+        "id": "geo:coup_unrest:aec3be9677",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "  The Coup Is Underway : Kunstler Sees A  Turnstile Into The Next Phase Of The Fourth Turning  ",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [],
+        "sources": [
+          "zerohedge.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.zerohedge.com/political/coup-underway-kunstler-sees-turnstile-next-phase-fourth-turning"
+        ],
+        "refs": [
+          {
+            "url": "https://www.zerohedge.com/political/coup-underway-kunstler-sees-turnstile-next-phase-fourth-turning",
+            "source": "zerohedge.com"
+          }
+        ],
+        "link_sources": [
+          "zerohedge.com"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0b0432919a": {
+        "id": "geo:conflict:0b0432919a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Godzilla : Destroy All Monsters Melee Remastered review – Power Stone Kaiju Wars",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "metro.co.uk"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://metro.co.uk/2026/11/03/godzilla-destroy-monsters-melee-remastered-review-power-stone-kaiju-wars-29760761/"
+        ],
+        "refs": [
+          {
+            "url": "https://metro.co.uk/2026/11/03/godzilla-destroy-monsters-melee-remastered-review-power-stone-kaiju-wars-29760761/",
+            "source": "metro.co.uk"
+          }
+        ],
+        "link_sources": [
+          "metro.co.uk"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:2ef44b2e75": {
+        "id": "geo:conflict:2ef44b2e75",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "A new cold war : hackers target fridges across the globe",
+        "severity": 30.0,
+        "score": 30.0,
+        "countries": [],
+        "sources": [
+          "aspenpublicradio.org",
+          "ksmu.org",
+          "ksut.org",
+          "kunc.org",
+          "northernpublicradio.org",
+          "wcsufm.org"
+        ],
+        "article_count": 6,
+        "links": [
+          "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+          "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+          "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe"
+        ],
+        "refs": [
+          {
+            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "ksut.org"
+          },
+          {
+            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "wcsufm.org"
+          },
+          {
+            "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "northernpublicradio.org"
+          }
+        ],
+        "link_sources": [
+          "ksut.org",
+          "wcsufm.org",
+          "northernpublicradio.org",
+          "aspenpublicradio.org",
+          "ksmu.org"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8b53846582": {
+        "id": "geo:conflict:8b53846582",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Hegseth announces pathway for troops to become military chaplains",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "armytimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.armytimes.com/news/your-army/2026/11/02/hegseth-announces-pathway-for-troops-to-become-military-chaplains/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.armytimes.com/news/your-army/2026/11/02/hegseth-announces-pathway-for-troops-to-become-military-chaplains/",
+            "source": "armytimes.com"
+          }
+        ],
+        "link_sources": [
+          "armytimes.com"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:terror:a59ee23b9a": {
         "id": "geo:terror:a59ee23b9a",
         "pillar": "geo",
         "category": "terror",
         "category_th": "การก่อการร้าย",
         "category_en": "Terrorism",
-        "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+        "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
         "severity": 35.0,
         "score": 21.0,
         "countries": [
@@ -31,51 +382,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-        "severity": 30.0,
-        "score": 25.5,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T19:34:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -110,7 +417,147 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "What we know about the alert app hack in Ukraine and Russia",
+        "severity": 55.0,
+        "score": 34.3,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:9837c944d6": {
+        "id": "geo:sanctions:9837c944d6",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "South Carolina shrimpers weigh costs, vote in crucial US midterms",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:813e6af174": {
+        "id": "geo:conflict:813e6af174",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "From Italy to Canada, how the UK’s Palestine Action group went global",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "canada",
+          "united kingdom",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:36fe0534f5": {
+        "id": "geo:conflict:36fe0534f5",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Very cold war: Who’s attacking Europe’s supermarket freezers?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -196,43 +643,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T10:39:58Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "What we know about the alert app hack in Ukraine and Russia",
-        "severity": 55.0,
-        "score": 37.4,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
@@ -633,32 +1043,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-02T07:10:38Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     },
     "bio_infra": {
@@ -692,7 +1076,191 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:ebd92c9de6": {
+        "id": "bio_infra:vuln_advisory:ebd92c9de6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:8f1a948c39": {
+        "id": "bio_infra:vuln_advisory:8f1a948c39",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:2ef44b2e75": {
+        "id": "bio_infra:cyber_incident:2ef44b2e75",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "A new cold war : hackers target fridges across the globe",
+        "severity": 40.0,
+        "score": 25.0,
+        "countries": [],
+        "sources": [
+          "aspenpublicradio.org",
+          "ksmu.org",
+          "ksut.org",
+          "kunc.org",
+          "northernpublicradio.org",
+          "wcsufm.org"
+        ],
+        "article_count": 6,
+        "links": [
+          "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+          "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+          "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe"
+        ],
+        "refs": [
+          {
+            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "ksut.org"
+          },
+          {
+            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "wcsufm.org"
+          },
+          {
+            "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "northernpublicradio.org"
+          }
+        ],
+        "link_sources": [
+          "ksut.org",
+          "wcsufm.org",
+          "northernpublicradio.org",
+          "aspenpublicradio.org",
+          "ksmu.org"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": true,
+        "location": null,
+        "location_en": null,
+        "raw_score": 40.0
+      },
+      "bio_infra:cyber_incident:4a6adad770": {
+        "id": "bio_infra:cyber_incident:4a6adad770",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T19:34:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:36fe0534f5": {
+        "id": "bio_infra:cyber_incident:36fe0534f5",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Very cold war: Who’s attacking Europe’s supermarket freezers?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-03T19:34:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -730,105 +1298,6 @@
         "location": null,
         "location_en": null,
         "raw_score": 40.0
-      },
-      "bio_infra:vuln_advisory:ebd92c9de6": {
-        "id": "bio_infra:vuln_advisory:ebd92c9de6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:8f1a948c39": {
-        "id": "bio_infra:vuln_advisory:8f1a948c39",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:cyber_incident:4a6adad770": {
-        "id": "bio_infra:cyber_incident:4a6adad770",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       },
       "bio_infra:cyber_incident:cd1b674e1e": {
         "id": "bio_infra:cyber_incident:cd1b674e1e",
@@ -963,61 +1432,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 36.3,
-      "as_of": "2026-11-03T06:56:57Z"
+      "score": 34.5,
+      "as_of": "2026-11-03T19:34:54Z"
     },
     "geo": {
-      "score": 66.0,
-      "as_of": "2026-11-03T06:56:57Z"
+      "score": 72.1,
+      "as_of": "2026-11-03T19:34:54Z"
     },
     "nat": {
-      "score": 30.0,
-      "as_of": "2026-11-03T06:56:57Z"
+      "score": 7.3,
+      "as_of": "2026-11-03T19:34:54Z"
     },
     "bio_infra": {
-      "score": 57.2,
-      "as_of": "2026-11-03T06:56:57Z"
+      "score": 57.3,
+      "as_of": "2026-11-03T19:34:54Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 21.149999618530273,
-      "change_pct": 15.01,
-      "drawdown_pct": -31.88,
-      "last_date": "2026-11-02",
-      "as_of": "2026-11-03T06:56:57Z",
+      "last": 20.6200008392334,
+      "change_pct": 17.69,
+      "drawdown_pct": -33.59,
+      "last_date": "2026-11-03",
+      "as_of": "2026-11-03T19:34:54Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 106.3499984741211,
-      "change_pct": -6.61,
-      "drawdown_pct": -10.14,
+      "last": 103.58000183105469,
+      "change_pct": -9.04,
+      "drawdown_pct": -12.48,
       "last_date": "2026-11-03",
-      "as_of": "2026-11-03T06:56:57Z",
+      "as_of": "2026-11-03T19:34:54Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3926.0,
-      "change_pct": -3.65,
-      "drawdown_pct": -26.18,
+      "last": 3932.89990234375,
+      "change_pct": -3.48,
+      "drawdown_pct": -26.05,
       "last_date": "2026-11-03",
-      "as_of": "2026-11-03T06:56:57Z",
+      "as_of": "2026-11-03T19:34:54Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7541.39990234375,
-      "change_pct": -1.76,
-      "drawdown_pct": -3.55,
-      "last_date": "2026-11-02",
-      "as_of": "2026-11-03T06:56:57Z",
+      "last": 7574.25,
+      "change_pct": -1.92,
+      "drawdown_pct": -3.13,
+      "last_date": "2026-11-03",
+      "as_of": "2026-11-03T19:34:54Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 453.6499938964844,
-      "change_pct": -7.76,
-      "drawdown_pct": -30.74,
-      "last_date": "2026-11-02",
-      "as_of": "2026-11-03T06:56:57Z",
+      "last": 463.5799865722656,
+      "change_pct": -9.29,
+      "drawdown_pct": -29.23,
+      "last_date": "2026-11-03",
+      "as_of": "2026-11-03T19:34:54Z",
       "provider": "yfinance"
     }
   },
@@ -1025,25 +1494,30 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "4c2c5eed0252faff",
+    "events_hash": "554fef0b26fec81c",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
-      "gdacs:TC1001346",
       "geo:chokepoint:73ae71ea05",
-      "geo:conflict:ed9a73c4e5",
+      "geo:conflict:2ef44b2e75",
+      "geo:conflict:a59ee23b9a",
       "geo:missile_strike:73ae71ea05",
-      "geo:missile_strike:a59ee23b9a"
+      "geo:missile_strike:a59ee23b9a",
+      "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 36.3,
+    "econ_score": 34.5,
     "summary": {
-      "executive_summary_th": "ความขัดแย้งทางภูมิรัฐศาสตร์ โดยเฉพาะในตะวันออกกลางและยูเครน ประกอบกับการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ กำลังเพิ่มความเสี่ยงเชิงระบบทั่วโลก ความผันผวนของตลาดเพิ่มขึ้น และดัชนีหลักกำลังลดลง",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันได้รับแรงผลักดันจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางจากการโจมตีของสหรัฐฯ และคำเตือนด้านนิวเคลียร์ของอิหร่าน ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน นอกจากนี้ การโจมตีทางไซเบอร์ระลอกใหม่ที่มุ่งเป้าไปที่โครงสร้างพื้นฐานที่สำคัญ เช่น ตู้แช่แข็งในซูเปอร์มาร์เก็ต ก็เป็นปัจจัยที่ทำให้ตลาดมีความผันผวน",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีการโจมตีของสหรัฐฯ ในช่องแคบฮอร์มุซ และเกิดการระเบิดที่เกาะเกช์มของอิหร่าน รวมถึงการสกัดกั้นขีปนาวุธในเยเมนและการโจมตีในฉนวนกาซา",
+          "evidence_summary": "มีรายงานการโจมตีของสหรัฐฯ ในช่องแคบฮอร์มุซ และโทรทัศน์อิหร่านได้เผยแพร่วิดีโอเตือนเกี่ยวกับการเอาชีวิตรอดจากการโจมตีนิวเคลียร์",
           "refs": [
+            {
+              "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
+              "source": "metro.co.uk"
+            },
             {
               "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
               "source": "Al Jazeera"
@@ -1051,66 +1525,66 @@
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "ความเสี่ยงที่เพิ่มขึ้นของการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
+          "title": "ภัยคุกคามจากการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "ตู้แช่แข็งซูเปอร์มาร์เก็ตทั่วยุโรปถูกแฮก และแอปแจ้งเตือนภัยทางอากาศสาธารณะในยูเครนและรัสเซียถูกแฮกส่งการแจ้งเตือนที่เป็นเท็จ",
+          "evidence_summary": "แฮกเกอร์ได้กำหนดเป้าหมายตู้เย็นทั่วโลก และแอปแจ้งเตือนการโจมตีทางอากาศในยูเครนก็ถูกแฮกส่งการแจ้งเตือนที่ผิดพลาด",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "ksut.org"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "wcsufm.org"
             }
           ]
         },
         {
-          "title": "การหยุดชะงักทางการค้าทั่วโลกและความไม่แน่นอนทางเศรษฐกิจ",
+          "title": "ความไม่แน่นอนทางการค้าและเศรษฐกิจโลก",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการเคลื่อนไหวเพื่อถอดรวันดาและแอฟริกาใต้จากข้อตกลงการค้าของสหรัฐฯ และอินเดียพยายามแก้ไขข้อพิพาทภาษีสกอตช์ภายใต้ข้อตกลงการค้ากับสหราชอาณาจักร",
+          "evidence_summary": "สหรัฐฯ มีแผนที่จะถอดรวันดาและแอฟริกาใต้จากข้อตกลงทางการค้า และมีการหารือเรื่องภาษีนำเข้าสกอตช์ภายใต้ข้อตกลงการค้ากับสหราชอาณาจักร",
           "refs": [
+            {
+              "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
+              "source": "bnnbloomberg.ca"
+            },
             {
               "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5",
-              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "พายุไซโคลนเขตร้อน MURASU-26 พัดถล่มอินเดีย ส่งผลกระทบต่อประชากร 1.935 ล้านคน",
-        "เกิดเหตุการณ์โจมตีทางไซเบอร์ด้วยแรนซัมแวร์ SafePay"
+        "เหตุการณ์การโจมตีทางไซเบอร์ที่มุ่งเป้าไปที่ตู้แช่แข็งทั่วโลกถูกบันทึกไว้ ซึ่งแสดงถึงภัยคุกคามทางไซเบอร์ที่แพร่หลาย",
+        "มีการรายงานเหตุการณ์แรนซัมแวร์ SafePay ซึ่งเป็นภัยคุกคามทางไซเบอร์ที่สำคัญในระดับท้องถิ่น"
       ],
-      "executive_summary_en": "Geopolitical conflicts, particularly in the Middle East and Ukraine, coupled with significant cyberattacks on critical infrastructure, are increasing global systemic risk. Market volatility is rising, and major indices are declining.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with US strikes and Iranian nuclear warnings, alongside ongoing conflicts in Ukraine. A new wave of cyberattacks targeting critical infrastructure, such as supermarket freezers, is also contributing to market volatility.",
       "early_warnings_en": [
         {
           "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "US strikes have occurred in the Strait of Hormuz, explosions hit Iran’s Qeshm Island, and there are reports of missile interceptions in Yemen and strikes in Gaza.",
+          "evidence_summary": "US strikes have been reported in the Strait of Hormuz, and Iranian TV broadcast a warning video on surviving a nuclear strike.",
           "refs": [
+            {
+              "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
+              "source": "metro.co.uk"
+            },
             {
               "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
               "source": "Al Jazeera"
@@ -1118,61 +1592,57 @@
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Increased Cyberattack Risk on Critical Infrastructure",
+          "title": "Threat of Cyberattacks on Critical Infrastructure",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Supermarket freezers across Europe have been hacked, and public air raid alert apps in Ukraine and Russia were hacked, sending false alerts.",
+          "evidence_summary": "Hackers have targeted fridges across the globe, and Ukraine's public air raid alert app was hacked, sending false alerts.",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "ksut.org"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "wcsufm.org"
             }
           ]
         },
         {
-          "title": "Global Trade Disruptions and Economic Uncertainty",
+          "title": "Global Trade and Economic Uncertainty",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "There are moves to remove Rwanda and South Africa from a US trade deal, and India is working to resolve a Scotch tariff dispute under a UK trade pact.",
+          "evidence_summary": "The US plans to remove Rwanda and South Africa from a trade deal, and discussions are underway to resolve a Scotch tariff dispute under a UK trade pact.",
           "refs": [
+            {
+              "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
+              "source": "bnnbloomberg.ca"
+            },
             {
               "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5",
-              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "Tropical cyclone MURASU-26 has affected India, with 1.935 million people impacted by Category 1 wind speeds or higher.",
-        "An actual cyber incident involving SafePay Ransomware has been reported."
+        "The cyberattack incident targeting fridges across the globe has been noted, indicating a pervasive cyber threat.",
+        "A SafePay Ransomware incident has been reported, highlighting a significant local cyber threat."
       ]
     },
-    "generated_at": "2026-11-03T06:56:57Z"
+    "generated_at": "2026-11-03T19:34:54Z"
   },
-  "updated_at": "2026-11-03T06:56:57Z",
+  "updated_at": "2026-11-03T19:34:54Z",
   "version": 1
 }
