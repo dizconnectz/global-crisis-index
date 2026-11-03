@@ -31,42 +31,51 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c4fb5956d": {
-        "id": "geo:conflict:0c4fb5956d",
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
         "pillar": "geo",
         "category": "conflict",
         "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
         "category_en": "Armed conflict",
-        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+        "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
         "severity": 30.0,
-        "score": 18.0,
+        "score": 25.5,
         "countries": [
-          "ukraine"
+          "ukraine",
+          "russia"
         ],
         "sources": [
-          "BBC World"
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)"
         ],
-        "article_count": 1,
+        "article_count": 3,
         "links": [
-          "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+            "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World"
+          "BBC World",
+          "Al Jazeera"
         ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -101,7 +110,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -119,18 +128,17 @@
         "countries": [
           "israel",
           "iran",
-          "palestine",
-          "china"
+          "palestine"
         ],
         "sources": [
           "Al Jazeera",
           "BBC World",
           "Reuters (Google News)"
         ],
-        "article_count": 5,
+        "article_count": 4,
         "links": [
           "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+          "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss",
           "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5"
         ],
         "refs": [
@@ -139,7 +147,7 @@
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss",
             "source": "Al Jazeera"
           },
           {
@@ -153,7 +161,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -188,7 +196,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T10:39:58Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -202,7 +210,7 @@
         "category_en": "Air / missile strikes",
         "title": "What we know about the alert app hack in Ukraine and Russia",
         "severity": 55.0,
-        "score": 39.8,
+        "score": 37.4,
         "countries": [
           "ukraine",
           "russia"
@@ -225,7 +233,113 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Explosions hit Iran’s Qeshm Island as US media report US strikes in Hormuz",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:a0b737dcc6": {
+        "id": "geo:sanctions:a0b737dcc6",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "china",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -259,6 +373,41 @@
         ],
         "link_sources": [
           "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c4fb5956d": {
+        "id": "geo:conflict:0c4fb5956d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
         "last_seen": "2026-11-02T21:46:15Z",
@@ -332,44 +481,6 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-02T07:10:38Z",
-        "last_seen": "2026-11-02T10:39:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Russian strikes cut power to thousands in Ukraine, despite Trump’s energy ceasefire push - NBC News",
-        "severity": 30.0,
-        "score": 29.2,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-02T10:39:58Z",
         "is_local": false,
         "location": null,
@@ -464,32 +575,6 @@
           "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
         ],
         "first_seen": "2026-11-02T06:43:02Z",
-        "last_seen": "2026-11-02T07:11:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-02T07:11:50Z",
         "is_local": false,
         "location": null,
@@ -607,73 +692,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T21:46:15Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:ebd92c9de6": {
-        "id": "bio_infra:vuln_advisory:ebd92c9de6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T21:46:15Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:8f1a948c39": {
-        "id": "bio_infra:vuln_advisory:8f1a948c39",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -706,11 +725,77 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": true,
         "location": null,
         "location_en": null,
         "raw_score": 40.0
+      },
+      "bio_infra:vuln_advisory:ebd92c9de6": {
+        "id": "bio_infra:vuln_advisory:ebd92c9de6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXRVbkVBRDJOWW9FQnhDUndWQTVyUEZlUXRQVU9KN3A3WHZtT3ZYSEpBekIxbzlQNE9HT0VwQ2xVeTJINUFFUVpCUHFxVF9sSzA3cl9keHNNUHZ1bXZkekp6clJET0NscVlTdU11dV9JejlMWjhNU3BIaEh4ejJFdmt6TVZjcWdKVDdpQXVuUXQtUHNtZDl4RlRoenVGbG9MNzZZRm80NA?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:8f1a948c39": {
+        "id": "bio_infra:vuln_advisory:8f1a948c39",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMUJ4V1E1SkNOU2lsa2xkZUtxcm1oMzFQYWRkR2FJVGtpYzVvVFpmdDduU0FBZ3AxNUpYU3dQd2ZKQmhYdmhaVXI3QmZONHFQWnhxNWFua05KcWl2RUtlX0NMQUVqSm50akVOMDRaSktZbmZNbFZlMmpZYVpHTU45LUVHZnh5NXZUb3UxSURWbUZJdkU1VGxZWUhwTm9fWllraHFtWmJ2XzdyZw?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
       },
       "bio_infra:cyber_incident:4a6adad770": {
         "id": "bio_infra:cyber_incident:4a6adad770",
@@ -739,7 +824,77 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:cd1b674e1e": {
+        "id": "bio_infra:cyber_incident:cd1b674e1e",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-03T06:56:57Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:a59ee23b9a": {
+        "id": "bio_infra:cyber_incident:a59ee23b9a",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers hit Ukraine and Russia's emergency apps, send fake nuclear alerts, World News - AsiaOne.com",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVZCZklZTHcxczVSU2RVYmd6SXlMUExCQXVlZEd4bXZnWmZERVM5Q19IU2VoY0duaHJGMEViY0FSUWo2YlV0dXo5cmp0bjZFaVc4R202cmQ2UDREbVUzMU1uM2lBeXUzZGEyakhxSWJYQjVXMk5vVlU2Z1RlSXMyNnpMeS1ENi1xSXhicW1NTG9UUUgwWXlDSjJ1a1R4UDY5V0Rn?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVZCZklZTHcxczVSU2RVYmd6SXlMUExCQXVlZEd4bXZnWmZERVM5Q19IU2VoY0duaHJGMEViY0FSUWo2YlV0dXo5cmp0bjZFaVc4R202cmQ2UDREbVUzMU1uM2lBeXUzZGEyakhxSWJYQjVXMk5vVlU2Z1RlSXMyNnpMeS1ENi1xSXhicW1NTG9UUUgwWXlDSjJ1a1R4UDY5V0Rn?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -780,33 +935,6 @@
         "location_en": "DR Congo",
         "raw_score": 27.0
       },
-      "bio_infra:cyber_incident:a59ee23b9a": {
-        "id": "bio_infra:cyber_incident:a59ee23b9a",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:11:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "bio_infra:high_consequence:ce54f33ec9": {
         "id": "bio_infra:high_consequence:ce54f33ec9",
         "pillar": "bio_infra",
@@ -835,20 +963,20 @@
   },
   "last_valid": {
     "econ": {
-      "score": 35.9,
-      "as_of": "2026-11-02T21:46:15Z"
+      "score": 36.3,
+      "as_of": "2026-11-03T06:56:57Z"
     },
     "geo": {
-      "score": 63.1,
-      "as_of": "2026-11-02T21:46:15Z"
+      "score": 66.0,
+      "as_of": "2026-11-03T06:56:57Z"
     },
     "nat": {
-      "score": 30.5,
-      "as_of": "2026-11-02T21:46:15Z"
+      "score": 30.0,
+      "as_of": "2026-11-03T06:56:57Z"
     },
     "bio_infra": {
-      "score": 57.0,
-      "as_of": "2026-11-02T21:46:15Z"
+      "score": 57.2,
+      "as_of": "2026-11-03T06:56:57Z"
     }
   },
   "econ_indicators": {
@@ -857,23 +985,23 @@
       "change_pct": 15.01,
       "drawdown_pct": -31.88,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T21:46:15Z",
+      "as_of": "2026-11-03T06:56:57Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 104.25,
-      "change_pct": -9.98,
-      "drawdown_pct": -11.91,
-      "last_date": "2026-11-02",
-      "as_of": "2026-11-02T21:46:15Z",
+      "last": 106.3499984741211,
+      "change_pct": -6.61,
+      "drawdown_pct": -10.14,
+      "last_date": "2026-11-03",
+      "as_of": "2026-11-03T06:56:57Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3954.300048828125,
-      "change_pct": -2.08,
-      "drawdown_pct": -25.65,
-      "last_date": "2026-11-02",
-      "as_of": "2026-11-02T21:46:15Z",
+      "last": 3926.0,
+      "change_pct": -3.65,
+      "drawdown_pct": -26.18,
+      "last_date": "2026-11-03",
+      "as_of": "2026-11-03T06:56:57Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -881,7 +1009,7 @@
       "change_pct": -1.76,
       "drawdown_pct": -3.55,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T21:46:15Z",
+      "as_of": "2026-11-03T06:56:57Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -889,7 +1017,7 @@
       "change_pct": -7.76,
       "drawdown_pct": -30.74,
       "last_date": "2026-11-02",
-      "as_of": "2026-11-02T21:46:15Z",
+      "as_of": "2026-11-03T06:56:57Z",
       "provider": "yfinance"
     }
   },
@@ -897,45 +1025,44 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "49ea7030fbe28414",
+    "events_hash": "4c2c5eed0252faff",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "gdacs:TC1001346",
       "geo:chokepoint:73ae71ea05",
       "geo:conflict:ed9a73c4e5",
-      "geo:missile_strike:0c4fb5956d",
-      "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:a59ee23b9a"
     ],
-    "econ_score": 35.9,
+    "econ_score": 36.3,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันเกิดจากความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะความขัดแย้งระหว่างอิหร่าน-สหรัฐฯ ที่ส่งผลกระทบต่อการขนส่งในช่องแคบฮอร์มุซ และความขัดแย้งที่ดำเนินอยู่ในยูเครน รวมถึงการระบาดของอีโบลาในแอฟริกา ตลาดการเงินสะท้อนความไม่แน่นอนนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหลักที่ลดลง แม้ว่าราคาน้ำมันดิบจะปรับตัวลดลงก็ตาม",
+      "executive_summary_th": "ความขัดแย้งทางภูมิรัฐศาสตร์ โดยเฉพาะในตะวันออกกลางและยูเครน ประกอบกับการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ กำลังเพิ่มความเสี่ยงเชิงระบบทั่วโลก ความผันผวนของตลาดเพิ่มขึ้น และดัชนีหลักกำลังลดลง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นและภัยคุกคามต่อเส้นทางเดินเรือสำคัญ",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซท่ามกลางความขัดแย้งระหว่างอิหร่านและสหรัฐฯ ที่ดำเนินอยู่ ขณะที่ผู้ไกล่เกลี่ยกำลังเจรจาเพื่อยุติสงคราม",
+          "evidence_summary": "มีการโจมตีของสหรัฐฯ ในช่องแคบฮอร์มุซ และเกิดการระเบิดที่เกาะเกช์มของอิหร่าน รวมถึงการสกัดกั้นขีปนาวุธในเยเมนและการโจมตีในฉนวนกาซา",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
-              "source": "aljazeera.com"
+              "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-              "source": "news.google.com"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
-              "source": "news.google.com"
+              "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "การโจมตีทางไซเบอร์ที่แพร่หลายต่อระบบสาธารณะและโครงสร้างพื้นฐานที่สำคัญ",
+          "title": "ความเสี่ยงที่เพิ่มขึ้นของการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "แอปพลิเคชันแจ้งเตือนภัยทางอากาศสาธารณะในยูเครนและรัสเซียถูกแฮก ทำให้ส่งการแจ้งเตือนที่ผิดพลาด และมีความกังวลเกี่ยวกับความเปราะบางของเทคโนโลยีอื่นๆ รวมถึงตู้แช่แข็งในซูเปอร์มาร์เก็ตต่อการควบคุมทางไซเบอร์",
+          "evidence_summary": "ตู้แช่แข็งซูเปอร์มาร์เก็ตทั่วยุโรปถูกแฮก และแอปแจ้งเตือนภัยทางอากาศสาธารณะในยูเครนและรัสเซียถูกแฮกส่งการแจ้งเตือนที่เป็นเท็จ",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
@@ -952,49 +1079,57 @@
           ]
         },
         {
-          "title": "การระบาดซ้ำของโรคร้ายแรง",
-          "signal_strength": "ปานกลาง",
+          "title": "การหยุดชะงักทางการค้าทั่วโลกและความไม่แน่นอนทางเศรษฐกิจ",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
+          "evidence_summary": "มีการเคลื่อนไหวเพื่อถอดรวันดาและแอฟริกาใต้จากข้อตกลงการค้าของสหรัฐฯ และอินเดียพยายามแก้ไขข้อพิพาทภาษีสกอตช์ภายใต้ข้อตกลงการค้ากับสหราชอาณาจักร",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีการแจ้งเตือนระดับสีแดงสำหรับพายุไซโคลน MURASU-26 ในอินเดีย ซึ่งส่งผลกระทบต่อประชากร 2.379 ล้านคนด้วยความเร็วลมระดับ 1 หรือสูงกว่า",
-        "มีรายงานเหตุการณ์ทางไซเบอร์ที่เกี่ยวข้องกับ SafePay Ransomware"
+        "พายุไซโคลนเขตร้อน MURASU-26 พัดถล่มอินเดีย ส่งผลกระทบต่อประชากร 1.935 ล้านคน",
+        "เกิดเหตุการณ์โจมตีทางไซเบอร์ด้วยแรนซัมแวร์ SafePay"
       ],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical conflicts, particularly the Iran-US conflict impacting shipping in Hormuz and ongoing hostilities in Ukraine, alongside a significant Ebola outbreak in Africa. Financial markets reflect this uncertainty with increased volatility and declines in major indices, though crude oil prices have fallen.",
+      "executive_summary_en": "Geopolitical conflicts, particularly in the Middle East and Ukraine, coupled with significant cyberattacks on critical infrastructure, are increasing global systemic risk. Market volatility is rising, and major indices are declining.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Shipping Chokepoint Threats",
+          "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tankers have been hit in Hormuz amid ongoing conflict between Iran and the US, while mediators are holding talks to end the war.",
+          "evidence_summary": "US strikes have occurred in the Strait of Hormuz, explosions hit Iran’s Qeshm Island, and there are reports of missile interceptions in Yemen and strikes in Gaza.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
-              "source": "aljazeera.com"
+              "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-              "source": "news.google.com"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
-              "source": "news.google.com"
+              "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Widespread Cyberattacks Targeting Public and Critical Infrastructure",
+          "title": "Increased Cyberattack Risk on Critical Infrastructure",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Public air raid alert applications in Ukraine and Russia have been hacked, sending false alerts, and concerns are raised about the vulnerability of other technology, including supermarket freezers, to cyber control.",
+          "evidence_summary": "Supermarket freezers across Europe have been hacked, and public air raid alert apps in Ukraine and Russia were hacked, sending false alerts.",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
@@ -1011,25 +1146,33 @@
           ]
         },
         {
-          "title": "Resurgence of High-Consequence Disease Outbreaks",
-          "signal_strength": "ปานกลาง",
+          "title": "Global Trade Disruptions and Economic Uncertainty",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "An Ebola disease outbreak caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+          "evidence_summary": "There are moves to remove Rwanda and South Africa from a US trade deal, and India is working to resolve a Scotch tariff dispute under a UK trade pact.",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "A red notification has been issued for Tropical Cyclone MURASU-26 in India, affecting 2.379 million people with Category 1 wind speeds or higher.",
-        "A cyber incident involving SafePay Ransomware has been reported."
+        "Tropical cyclone MURASU-26 has affected India, with 1.935 million people impacted by Category 1 wind speeds or higher.",
+        "An actual cyber incident involving SafePay Ransomware has been reported."
       ]
     },
-    "generated_at": "2026-11-02T21:46:15Z"
+    "generated_at": "2026-11-03T06:56:57Z"
   },
-  "updated_at": "2026-11-02T21:46:15Z",
+  "updated_at": "2026-11-03T06:56:57Z",
   "version": 1
 }
