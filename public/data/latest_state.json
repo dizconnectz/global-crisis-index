@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T06:38:42Z",
-  "global_score": 50,
+  "generated_at": "2026-11-04T19:51:48Z",
+  "global_score": 47,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,18 +11,18 @@
     "color": "orange"
   },
   "formula": {
-    "base": 47.68,
-    "boost": 2.48,
-    "cross_confirmed": true,
-    "max1": 74.0,
-    "max2": 57.1,
+    "base": 46.91,
+    "boost": 0.0,
+    "cross_confirmed": false,
+    "max1": 69.7,
+    "max2": 57.2,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 34.9,
+      "score": 37.2,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,51 +35,51 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 20.83,
+          "value": 16.8,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+18.9% (5 วันทำการ)",
-          "hint_en": "+18.9% (5 trading days)"
+          "hint": "-0.7% (5 วันทำการ)",
+          "hint_en": "-0.7% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 104.14,
+          "value": 94.91,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-9.7% (5 วันทำการ)",
-          "hint_en": "-9.7% (5 trading days)"
+          "hint": "-17.7% (5 วันทำการ)",
+          "hint_en": "-17.7% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 4025.0,
+          "value": 4069.1,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-0.7% (5 วันทำการ)",
-          "hint_en": "-0.7% (5 trading days)"
+          "hint": "+0.4% (5 วันทำการ)",
+          "hint_en": "+0.4% (5 trading days)"
         },
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
           "label_en": "S&P 500 index",
-          "value": 7568.92,
+          "value": 7698.21,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-2.0% (5 วันทำการ)",
-          "hint_en": "-2.0% (5 trading days)"
+          "hint": "-0.6% (5 วันทำการ)",
+          "hint_en": "-0.6% (5 trading days)"
         },
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
           "label_en": "SOXX semiconductor ETF",
-          "value": 465.0,
+          "value": 447.66,
           "unit": "USD",
           "unit_en": "USD",
-          "hint": "-9.0% (5 วันทำการ)",
-          "hint_en": "-9.0% (5 trading days)"
+          "hint": "-14.2% (5 วันทำการ)",
+          "hint_en": "-14.2% (5 trading days)"
         }
       ],
       "indicators": [
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 20.83,
-          "change_pct": 18.89,
-          "drawdown_pct": -32.91,
-          "score": 33.3,
+          "value": 16.8,
+          "change_pct": -0.65,
+          "drawdown_pct": -45.89,
+          "score": 17.2,
           "status": "ok",
-          "last_date": "2026-11-03",
+          "last_date": "2026-11-04",
           "provider": "yfinance"
         },
         {
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 104.14,
-          "change_pct": -9.69,
-          "drawdown_pct": -12.01,
-          "score": 47.7,
+          "value": 94.91,
+          "change_pct": -17.7,
+          "drawdown_pct": -19.81,
+          "score": 78.1,
           "status": "ok",
           "last_date": "2026-11-04",
           "provider": "yfinance"
@@ -123,10 +123,10 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 4025.0,
-          "change_pct": -0.66,
-          "drawdown_pct": -24.32,
-          "score": 5.0,
+          "value": 4069.1,
+          "change_pct": 0.43,
+          "drawdown_pct": -23.49,
+          "score": 8.2,
           "status": "ok",
           "last_date": "2026-11-04",
           "provider": "yfinance"
@@ -139,12 +139,12 @@
           "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
-          "value": 7568.92,
-          "change_pct": -1.99,
-          "drawdown_pct": -3.2,
-          "score": 11.9,
+          "value": 7698.21,
+          "change_pct": -0.59,
+          "drawdown_pct": -1.54,
+          "score": 3.5,
           "status": "ok",
-          "last_date": "2026-11-03",
+          "last_date": "2026-11-04",
           "provider": "yfinance"
         },
         {
@@ -155,12 +155,12 @@
           "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
-          "value": 465.0,
-          "change_pct": -9.01,
-          "drawdown_pct": -29.01,
-          "score": 67.5,
+          "value": 447.66,
+          "change_pct": -14.23,
+          "drawdown_pct": -31.66,
+          "score": 73.3,
           "status": "ok",
-          "last_date": "2026-11-03",
+          "last_date": "2026-11-04",
           "provider": "yfinance"
         }
       ],
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 74.0,
+      "score": 69.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Nuclear threat",
           "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
           "severity": 95.0,
-          "score": 57.0,
+          "score": 52.1,
           "countries": [
             "iran"
           ],
@@ -220,7 +220,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iranian island in Hormuz strait attacked media",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 46.6,
           "countries": [
             "iran"
           ],
@@ -256,7 +256,7 @@
           "category_en": "Invasion or declaration of war",
           "title": "Trump DOJ  invasion  hype backfires as judge threatens to punish officials behind it",
           "severity": 80.0,
-          "score": 48.0,
+          "score": 43.9,
           "countries": [],
           "sources": [
             "rawstory.com"
@@ -289,7 +289,7 @@
           "category_en": "Air / missile strikes",
           "title": "US Launches Airstrikes on Iran in Strait of Hormuz Ahead of Midterms",
           "severity": 55.0,
-          "score": 33.0,
+          "score": 30.2,
           "countries": [
             "iran"
           ],
@@ -325,7 +325,7 @@
           "category_en": "Air / missile strikes",
           "title": "What we know about the alert app hack in Ukraine and Russia",
           "severity": 55.0,
-          "score": 33.0,
+          "score": 30.2,
           "countries": [
             "ukraine",
             "russia"
@@ -360,7 +360,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 32,
+          "value": 35,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -370,7 +370,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 2,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -380,18 +380,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 173,
+          "value": 78,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 10 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 6.7,
+      "score": 6.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "partial",
@@ -445,7 +445,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.1,
+      "score": 57.2,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -483,7 +483,42 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-04T06:38:42Z",
+          "last_seen": "2026-11-04T19:51:48Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:cyber_incident:23e591e8c3",
+          "pillar": "bio_infra",
+          "category": "cyber_incident",
+          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "category_en": "Actual cyber incident",
+          "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+          "severity": 40.0,
+          "score": 24.0,
+          "countries": [
+            "france"
+          ],
+          "sources": [
+            "BBC World"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ],
+          "link_sources": [
+            "BBC World"
+          ],
+          "first_seen": "2026-11-04T19:51:48Z",
+          "last_seen": "2026-11-04T19:51:48Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -497,7 +532,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 21.9,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -530,7 +565,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 21.9,
           "countries": [],
           "sources": [
             "BBC World"
@@ -563,7 +598,7 @@
           "category_en": "Actual cyber incident",
           "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 21.9,
           "countries": [
             "european union",
             "germany",
@@ -591,39 +626,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "bio_infra:cyber_incident:1537daf802",
-          "pillar": "bio_infra",
-          "category": "cyber_incident",
-          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-          "category_en": "Actual cyber incident",
-          "title": "Binance hackers used fake job interview in $6.3 billion attack - Reuters",
-          "severity": 40.0,
-          "score": 24.0,
-          "countries": [],
-          "sources": [
-            "Reuters (Google News)"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHZFVzJneVFEOFFQSm5yVXh2T0Z4Nk1mZkhpSzZHQkJvbkdDVVhyMjJ6dnRZb2J6cEowUVB3UU4tRUVJX2wtRVkxdE5xVjh4WFMwVkFMeGRnUTIwd0lkNERVNUpETVQta2paOWV4bkVfczhVWE9OTzNqa3hLWlBxY1JJV0pablZ3dDVIdUd3RVJmaFRrMkNOeGdyaWRNeGRkVHZhOHUwWnlHV3g4cUVPbS1KZkM3aWc?oc=5"
-          ],
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHZFVzJneVFEOFFQSm5yVXh2T0Z4Nk1mZkhpSzZHQkJvbkdDVVhyMjJ6dnRZb2J6cEowUVB3UU4tRUVJX2wtRVkxdE5xVjh4WFMwVkFMeGRnUTIwd0lkNERVNUpETVQta2paOWV4bkVfczhVWE9OTzNqa3hLWlBxY1JJV0pablZ3dDVIdUd3RVJmaFRrMkNOeGdyaWRNeGRkVHZhOHUwWnlHV3g4cUVPbS1KZkM3aWc?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ],
-          "link_sources": [
-            "Reuters (Google News)"
-          ],
-          "first_seen": "2026-11-04T06:38:42Z",
-          "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -641,7 +643,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 9,
+          "value": 10,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -665,8 +667,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 74.0,
-      "contribution": 28.4,
+      "score": 69.7,
+      "contribution": 24.4,
       "headline": "ภัยคุกคามนิวเคลียร์: Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
       "headline_en": "Nuclear threat: Iranian TV broadcasts chilling warning video on how to survive a nuclear strike"
     },
@@ -674,16 +676,16 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 34.9,
-      "contribution": 12.2,
-      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 465.0 USD",
-      "headline_en": "SOXX semiconductor ETF 465.0 USD"
+      "score": 37.2,
+      "contribution": 13.0,
+      "headline": "น้ำมันดิบ Brent 94.91 USD/บาร์เรล",
+      "headline_en": "Brent crude oil 94.91 USD/bbl"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.1,
+      "score": 57.2,
       "contribution": 8.6,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
@@ -824,7 +826,7 @@
       "Hackers have targeted fridges across the globe, indicating a new vector for cyber warfare.",
       "A ransomware variant named SafePay has been identified, posing a local cyber threat."
     ],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-04T06:38:42Z"
   },
@@ -837,7 +839,7 @@
       "category_en": "Actual cyber incident",
       "title": "A new cold war : hackers target fridges across the globe",
       "severity": 40.0,
-      "score": 23.2,
+      "score": 21.2,
       "countries": [],
       "sources": [
         "aspenpublicradio.org",
@@ -879,7 +881,7 @@
       "is_local": true,
       "location": null,
       "location_en": null,
-      "raw_score": 37.1
+      "raw_score": 33.9
     },
     {
       "id": "bio_infra:cyber_incident:6c1b9fa3bc",
@@ -889,7 +891,7 @@
       "category_en": "Actual cyber incident",
       "title": "#StopRansomware: SafePay Ransomware",
       "severity": 40.0,
-      "score": 21.3,
+      "score": 19.5,
       "countries": [],
       "sources": [
         "CISA"
@@ -912,7 +914,7 @@
       "is_local": true,
       "location": null,
       "location_en": null,
-      "raw_score": 34.1
+      "raw_score": 31.2
     }
   ],
   "data_status": {
@@ -924,7 +926,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:44Z",
+        "fetched_at": "2026-11-04T19:51:52Z",
         "items": 5,
         "error": null,
         "note": null,
@@ -933,10 +935,10 @@
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
-        "status": "ok",
-        "fetched_at": "2026-11-04T06:39:02Z",
-        "items": 75,
-        "error": null,
+        "status": "error",
+        "fetched_at": "2026-11-04T19:52:01Z",
+        "items": null,
+        "error": "HTTP 429",
         "note": null,
         "optional": true
       },
@@ -944,7 +946,7 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:42Z",
+        "fetched_at": "2026-11-04T19:51:49Z",
         "items": 23,
         "error": null,
         "note": null,
@@ -954,7 +956,7 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:43Z",
+        "fetched_at": "2026-11-04T19:51:49Z",
         "items": 25,
         "error": null,
         "note": null,
@@ -964,8 +966,8 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:43Z",
-        "items": 50,
+        "fetched_at": "2026-11-04T19:51:50Z",
+        "items": 30,
         "error": null,
         "note": null,
         "optional": false
@@ -974,7 +976,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:43Z",
+        "fetched_at": "2026-11-04T19:51:49Z",
         "items": 4,
         "error": null,
         "note": null,
@@ -984,9 +986,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "error",
-        "fetched_at": "2026-11-04T06:38:43Z",
+        "fetched_at": "2026-11-04T19:51:50Z",
         "items": null,
-        "error": "not well-formed (invalid token): line 17, column 54",
+        "error": "not well-formed (invalid token): line 17, column 125",
         "note": null,
         "optional": false
       },
@@ -994,7 +996,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:43Z",
+        "fetched_at": "2026-11-04T19:51:50Z",
         "items": 20,
         "error": null,
         "note": null,
@@ -1004,8 +1006,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-04T06:38:43Z",
-        "items": 53,
+        "fetched_at": "2026-11-04T19:51:49Z",
+        "items": 49,
         "error": null,
         "note": "google_news_fallback",
         "optional": false

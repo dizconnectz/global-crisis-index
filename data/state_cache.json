@@ -1,6 +1,187 @@
 {
   "active_events": {
     "geo": {
+      "geo:sanctions:d1faafcc70": {
+        "id": "geo:sanctions:d1faafcc70",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada",
+          "united states"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ed9a73c4e5": {
+        "id": "geo:conflict:ed9a73c4e5",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran's chief negotiator says Americans voted 'no to war'",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 4,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:6179c355b9": {
+        "id": "geo:sanctions:6179c355b9",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:3b2910db6e": {
+        "id": "geo:conflict:3b2910db6e",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Yemeni government forces claim control of strategic al-Jawf mountain range",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:55a57e9a6a": {
+        "id": "geo:sanctions:55a57e9a6a",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Breakingviews - COMMENTARY: COP31 will show up the folly of cleantech tariffs - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-04T06:38:42Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:missile_strike:73ae71ea05": {
         "id": "geo:missile_strike:73ae71ea05",
         "pillar": "geo",
@@ -344,39 +525,6 @@
         ],
         "link_sources": [
           "Al Jazeera"
-        ],
-        "first_seen": "2026-11-04T06:38:42Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:55a57e9a6a": {
-        "id": "geo:sanctions:55a57e9a6a",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Breakingviews - COMMENTARY: COP31 will show up the folly of cleantech tariffs - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
         ],
         "first_seen": "2026-11-04T06:38:42Z",
         "last_seen": "2026-11-04T06:38:42Z",
@@ -738,57 +886,6 @@
         ],
         "first_seen": "2026-11-03T19:34:54Z",
         "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:ed9a73c4e5": {
-        "id": "geo:conflict:ed9a73c4e5",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Ryanair says it may freeze workers' pay and raise airfares",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "israel",
-          "iran",
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-03T06:56:57Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1186,7 +1283,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-04T06:38:42Z",
+        "last_seen": "2026-11-04T19:51:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1219,7 +1316,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-04T06:38:42Z",
+        "last_seen": "2026-11-04T19:51:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1252,11 +1349,82 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-04T06:38:42Z",
+        "last_seen": "2026-11-04T19:51:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:cyber_incident:23e591e8c3": {
+        "id": "bio_infra:cyber_incident:23e591e8c3",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "france"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:high_consequence:6179c355b9": {
+        "id": "bio_infra:high_consequence:6179c355b9",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "WHO approves trials for two new Ebola vaccines",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-04T19:51:48Z",
+        "is_local": true,
+        "location": "คองโก",
+        "location_en": "DR Congo",
+        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:8907bdf767": {
         "id": "bio_infra:cyber_incident:8907bdf767",
@@ -1582,41 +1750,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:high_consequence:6179c355b9": {
-        "id": "bio_infra:high_consequence:6179c355b9",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T10:39:58Z",
-        "is_local": true,
-        "location": "คองโก",
-        "location_en": "DR Congo",
-        "raw_score": 27.0
-      },
       "bio_infra:high_consequence:ce54f33ec9": {
         "id": "bio_infra:high_consequence:ce54f33ec9",
         "pillar": "bio_infra",
@@ -1645,61 +1778,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 34.9,
-      "as_of": "2026-11-04T06:38:42Z"
+      "score": 37.2,
+      "as_of": "2026-11-04T19:51:48Z"
     },
     "geo": {
-      "score": 74.0,
-      "as_of": "2026-11-04T06:38:42Z"
+      "score": 69.7,
+      "as_of": "2026-11-04T19:51:48Z"
     },
     "nat": {
-      "score": 6.7,
-      "as_of": "2026-11-04T06:38:42Z"
+      "score": 6.1,
+      "as_of": "2026-11-04T19:51:48Z"
     },
     "bio_infra": {
-      "score": 57.1,
-      "as_of": "2026-11-04T06:38:42Z"
+      "score": 57.2,
+      "as_of": "2026-11-04T19:51:48Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 20.829999923706055,
-      "change_pct": 18.89,
-      "drawdown_pct": -32.91,
-      "last_date": "2026-11-03",
-      "as_of": "2026-11-04T06:38:42Z",
+      "last": 16.799999237060547,
+      "change_pct": -0.65,
+      "drawdown_pct": -45.89,
+      "last_date": "2026-11-04",
+      "as_of": "2026-11-04T19:51:48Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 104.13999938964844,
-      "change_pct": -9.69,
-      "drawdown_pct": -12.01,
+      "last": 94.91000366210938,
+      "change_pct": -17.7,
+      "drawdown_pct": -19.81,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T06:38:42Z",
+      "as_of": "2026-11-04T19:51:48Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4025.0,
-      "change_pct": -0.66,
-      "drawdown_pct": -24.32,
+      "last": 4069.10009765625,
+      "change_pct": 0.43,
+      "drawdown_pct": -23.49,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T06:38:42Z",
+      "as_of": "2026-11-04T19:51:48Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7568.919921875,
-      "change_pct": -1.99,
-      "drawdown_pct": -3.2,
-      "last_date": "2026-11-03",
-      "as_of": "2026-11-04T06:38:42Z",
+      "last": 7698.2099609375,
+      "change_pct": -0.59,
+      "drawdown_pct": -1.54,
+      "last_date": "2026-11-04",
+      "as_of": "2026-11-04T19:51:48Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 465.0,
-      "change_pct": -9.01,
-      "drawdown_pct": -29.01,
-      "last_date": "2026-11-03",
-      "as_of": "2026-11-04T06:38:42Z",
+      "last": 447.6600036621094,
+      "change_pct": -14.23,
+      "drawdown_pct": -31.66,
+      "last_date": "2026-11-04",
+      "as_of": "2026-11-04T19:51:48Z",
       "provider": "yfinance"
     }
   },
@@ -1858,6 +1991,6 @@
     },
     "generated_at": "2026-11-04T06:38:42Z"
   },
-  "updated_at": "2026-11-04T06:38:42Z",
+  "updated_at": "2026-11-04T19:51:48Z",
   "version": 1
 }
