@@ -1,6 +1,150 @@
 {
   "active_events": {
     "geo": {
+      "geo:sanctions:73ae71ea05": {
+        "id": "geo:sanctions:73ae71ea05",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Chandigarh - based couple , their firms face  US sanctions over Iran oil links",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "dailyexcelsior.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
+            "source": "dailyexcelsior.com"
+          }
+        ],
+        "link_sources": [
+          "dailyexcelsior.com"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:5009c8e190": {
+        "id": "geo:conflict:5009c8e190",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Eight killed in series of shootings in western Turkey",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "turkey"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+        "severity": 30.0,
+        "score": 23.3,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:762bfd26d0": {
+        "id": "geo:conflict:762bfd26d0",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:73ae71ea05": {
         "id": "geo:conflict:73ae71ea05",
         "pillar": "geo",
@@ -9,7 +153,7 @@
         "category_en": "Armed conflict",
         "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
         "severity": 30.0,
-        "score": 25.4,
+        "score": 24.0,
         "countries": [
           "iran"
         ],
@@ -21,10 +165,10 @@
           "truthout.org",
           "wfmz.com"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
           "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss"
+          "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5"
         ],
         "refs": [
           {
@@ -32,16 +176,189 @@
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5",
+            "source": "Reuters (Google News)"
           }
         ],
         "link_sources": [
           "BBC World",
-          "Al Jazeera"
+          "Reuters (Google News)"
         ],
         "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-05T06:57:58Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "manilatimes.net"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:1be0a55e17": {
+        "id": "geo:conflict:1be0a55e17",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Jordanian officer killed in stabbing attack in Amman",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:46eb8b3d43": {
+        "id": "geo:conflict:46eb8b3d43",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Gaza holds final of tournament honouring more than 1,000 slain athletes",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:6c82092395": {
+        "id": "geo:missile_strike:6c82092395",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "India in final-stage talks to expand missile sale to Philippines, sources say - Reuters",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "india",
+          "philippines"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-05T20:04:17Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:28ab7e6bbf": {
+        "id": "geo:conflict:28ab7e6bbf",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "OpenAI kicks off charm offensive to change voters' view of data centers - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pvX1VfZi1WbVpNTl9weHZ0YUJ5RmhvVTgyOVRadlVyc01HeW1rdm5uRjhzMFRSSkJ4TW1yVmxHbkFvSnpTWkxWSGRIalRXM0dndmdtUXNTNTlYc0V2TGlxNTEtZm5iZDJlZXd5VUhjWUc1ejFXeTJpNHBzY2g4NllDX3dNWmo0eFBZQW1MUVR5Z2NVOUFMcENoLWZzMThDaGNXdERwWXJ6Mi1MTHc?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pvX1VfZi1WbVpNTl9weHZ0YUJ5RmhvVTgyOVRadlVyc01HeW1rdm5uRjhzMFRSSkJ4TW1yVmxHbkFvSnpTWkxWSGRIalRXM0dndmdtUXNTNTlYc0V2TGlxNTEtZm5iZDJlZXd5VUhjWUc1ejFXeTJpNHBzY2g4NllDX3dNWmo0eFBZQW1MUVR5Z2NVOUFMcENoLWZzMThDaGNXdERwWXJ6Mi1MTHc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -114,112 +431,6 @@
         ],
         "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-05T06:57:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:73ae71ea05": {
-        "id": "geo:sanctions:73ae71ea05",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Democrats won Congress. But can they deliver on their promises?",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T06:57:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-05T06:57:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:46eb8b3d43": {
-        "id": "geo:conflict:46eb8b3d43",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Democratic Socialists of America see record wins in US midterm elections",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -471,62 +682,6 @@
           "wthitv.com"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Ukraine war briefing : US to mediate talks with Kyiv and Moscow in Abu Dhabi next week , says Witkoff",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "ukraine",
-          "russia",
-          "uae",
-          "nato",
-          "germany"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "aol.co.uk",
-          "channelnewsasia.com"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-          "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
-          "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-            "source": "aol.co.uk"
-          },
-          {
-            "url": "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
-            "source": "channelnewsasia.com"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "aol.co.uk",
-          "channelnewsasia.com",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-04T06:38:42Z",
         "is_local": false,
         "location": null,
@@ -1456,7 +1611,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-05T06:57:58Z",
+        "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1475,13 +1630,13 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5"
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5",
             "source": "CISA"
           }
         ],
@@ -1489,7 +1644,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-05T06:57:58Z",
+        "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1522,7 +1677,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-05T06:57:58Z",
+        "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1555,7 +1710,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-05T06:57:58Z",
+        "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1984,61 +2139,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 39.3,
-      "as_of": "2026-11-05T06:57:58Z"
+      "score": 54.7,
+      "as_of": "2026-11-05T20:04:17Z"
     },
     "geo": {
-      "score": 68.9,
-      "as_of": "2026-11-05T06:57:58Z"
+      "score": 67.9,
+      "as_of": "2026-11-05T20:04:17Z"
     },
     "nat": {
-      "score": 30.3,
-      "as_of": "2026-11-05T06:57:58Z"
+      "score": 30.0,
+      "as_of": "2026-11-05T20:04:17Z"
     },
     "bio_infra": {
-      "score": 56.7,
-      "as_of": "2026-11-05T06:57:58Z"
+      "score": 55.8,
+      "as_of": "2026-11-05T20:04:17Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 16.610000610351562,
-      "change_pct": -1.77,
-      "drawdown_pct": -46.51,
-      "last_date": "2026-11-04",
-      "as_of": "2026-11-05T06:57:58Z",
+      "last": 24.100000381469727,
+      "change_pct": 40.12,
+      "drawdown_pct": -22.38,
+      "last_date": "2026-11-05",
+      "as_of": "2026-11-05T20:04:17Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 94.0,
-      "change_pct": -18.18,
-      "drawdown_pct": -20.57,
+      "last": 98.23999786376953,
+      "change_pct": -14.48,
+      "drawdown_pct": -16.99,
       "last_date": "2026-11-05",
-      "as_of": "2026-11-05T06:57:58Z",
+      "as_of": "2026-11-05T20:04:17Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4137.7998046875,
-      "change_pct": 2.64,
-      "drawdown_pct": -22.2,
+      "last": 4126.60009765625,
+      "change_pct": 2.36,
+      "drawdown_pct": -22.41,
       "last_date": "2026-11-05",
-      "as_of": "2026-11-05T06:57:58Z",
+      "as_of": "2026-11-05T20:04:17Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7688.6201171875,
-      "change_pct": -0.71,
-      "drawdown_pct": -1.67,
-      "last_date": "2026-11-04",
-      "as_of": "2026-11-05T06:57:58Z",
+      "last": 7400.22998046875,
+      "change_pct": -4.15,
+      "drawdown_pct": -5.35,
+      "last_date": "2026-11-05",
+      "as_of": "2026-11-05T20:04:17Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 450.4100036621094,
-      "change_pct": -13.7,
-      "drawdown_pct": -31.24,
-      "last_date": "2026-11-04",
-      "as_of": "2026-11-05T06:57:58Z",
+      "last": 135.33999633789062,
+      "change_pct": -20.99,
+      "drawdown_pct": -70.89,
+      "last_date": "2026-11-05",
+      "as_of": "2026-11-05T20:04:17Z",
       "provider": "yfinance"
     }
   },
@@ -2046,31 +2201,32 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "d2f185d0357100b1",
+    "events_hash": "59b08408153e1314",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "gdacs:TC1001346",
       "geo:chokepoint:73ae71ea05",
       "geo:invasion:7d6b0d5274",
+      "geo:missile_strike:6c82092395",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 39.5,
+    "econ_score": 54.7,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในช่องแคบฮอร์มุซที่มีการโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่านและการโจมตีเกาะของอิหร่าน ควบคู่ไปกับการระบาดของโรคอีโบลาครั้งใหม่ในแอฟริกา เหตุการณ์ทางไซเบอร์ที่แพร่หลายซึ่งมุ่งเป้าไปที่โครงสร้างพื้นฐานที่สำคัญและระบบการเงินก็เป็นปัจจัยที่ทำให้เกิดความไม่มั่นคง ในขณะที่ราคาน้ำมันดิบปรับตัวลดลงอย่างมีนัยสำคัญ",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในช่องแคบฮอร์มุซที่เกี่ยวข้องกับอิหร่านและการโจมตีทางอากาศของสหรัฐฯ ควบคู่ไปกับการระบาดของโรคอีโบลาในแอฟริกาและเหตุการณ์ทางไซเบอร์ที่แพร่หลาย ตลาดการเงินสะท้อนความไม่มั่นคงนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหุ้นที่ลดลง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นและความขัดแย้งที่อาจเกิดขึ้นในช่องแคบฮอร์มุซ",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และความเสี่ยงจากความขัดแย้งที่เพิ่มขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานการโจมตีเกาะของอิหร่านในช่องแคบฮอร์มุซ และสหรัฐฯ ได้เปิดฉากโจมตีทางอากาศต่ออิหร่านในพื้นที่ดังกล่าว ขณะที่โทรทัศน์อิหร่านเผยแพร่วิดีโอเตือนภัยการเอาชีวิตรอดจากการโจมตีนิวเคลียร์",
+          "evidence_summary": "รายงานระบุว่าเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ตามมาด้วยการโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่านในช่องแคบฮอร์มุซ ขณะที่โทรทัศน์อิหร่านเผยแพร่วิดีโอเตือนภัยการเอาชีวิตรอดจากการโจมตีนิวเคลียร์",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
               "source": "metro.co.uk"
-            },
-            {
-              "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-              "source": "manilatimes.net"
             },
             {
               "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
@@ -2079,27 +2235,7 @@
           ]
         },
         {
-          "title": "การโจมตีทางไซเบอร์ที่เพิ่มขึ้นซึ่งมุ่งเป้าไปที่โครงสร้างพื้นฐานที่สำคัญและระบบการเงิน",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "แอปแจ้งเตือนภัยทางอากาศในยูเครนและรัสเซียถูกแฮก และมีการรายงานการโจมตีทางไซเบอร์ที่ส่งผลกระทบต่อระบบจัดเก็บเลือดของฝรั่งเศสและเป้าหมายอื่นๆ ทั่วโลก",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "ksut.org"
-            },
-            {
-              "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "wcsufm.org"
-            }
-          ]
-        },
-        {
-          "title": "การกลับมาและการแพร่กระจายของการระบาดของโรคที่มีผลกระทบร้ายแรง",
+          "title": "การกลับมาของการระบาดของโรคที่มีผลกระทบรุนแรง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
           "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
@@ -2109,27 +2245,46 @@
               "source": "WHO DON"
             }
           ]
+        },
+        {
+          "title": "การโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญและระบบสาธารณะที่เพิ่มขึ้น",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "คลังเก็บเลือดของฝรั่งเศสได้รับผลกระทบจากการแฮกตู้แช่แข็ง และแอปแจ้งเตือนการโจมตีทางอากาศสาธารณะในยูเครนและรัสเซียส่งการแจ้งเตือนที่ผิดพลาดหลังถูกแฮก",
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "ksut.org"
+            }
+          ]
         }
       ],
       "local_notes_th": [
-        "พายุไซโคลนเขตร้อน MURASU-26 ได้รับการแจ้งเตือนสีแดงในอินเดีย โดยมีประชากร 1.506 ล้านคนได้รับผลกระทบจากความเร็วลมระดับ Category 1",
-        "มีการรายงานเหตุการณ์ทางไซเบอร์ที่แฮกเกอร์มุ่งเป้าไปที่ตู้เย็นทั่วโลก"
+        "มีการแจ้งเตือนระดับสีแดงสำหรับพายุไซโคลนเขตร้อน MURASU-26 ในอินเดีย ซึ่งส่งผลกระทบต่อประชากรมากกว่า 1.5 ล้านคนด้วยความเร็วลมระดับ 1"
       ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Strait of Hormuz with US airstrikes on Iran and an attack on an Iranian island, alongside a new Ebola outbreak in Africa. Widespread cyber incidents targeting critical infrastructure and financial systems also contribute to the instability, while crude oil prices have seen a significant decline.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Strait of Hormuz involving Iran and US airstrikes, alongside a significant Ebola outbreak in Africa and widespread cyber incidents. Financial markets reflect this instability with increased volatility and declining equity indices.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Potential Conflict in the Strait of Hormuz",
+          "title": "Heightened Geopolitical Tensions and Conflict Risk in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Reports indicate an attack on an Iranian island in the Hormuz Strait, and the US has launched airstrikes on Iran in the area, while Iranian TV broadcast a warning video on surviving a nuclear strike.",
+          "evidence_summary": "Reports indicate tankers were struck in Hormuz, followed by US airstrikes on Iran in the Strait of Hormuz, while Iranian TV broadcast a nuclear strike survival video.",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
               "source": "metro.co.uk"
-            },
-            {
-              "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-              "source": "manilatimes.net"
             },
             {
               "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
@@ -2138,45 +2293,44 @@
           ]
         },
         {
-          "title": "Increasing Cyber Attacks Targeting Critical Infrastructure and Financial Systems",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Air raid alert apps in Ukraine and Russia were hacked, and cyberattacks impacting French blood storage systems and other targets globally have been reported.",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "ksut.org"
-            },
-            {
-              "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "wcsufm.org"
-            }
-          ]
-        },
-        {
-          "title": "Resurgence and Spread of High-Consequence Disease Outbreaks",
+          "title": "Resurgence of High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "An outbreak of Ebola disease caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+          "evidence_summary": "A disease outbreak of Ebola caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
               "source": "WHO DON"
             }
           ]
+        },
+        {
+          "title": "Increasing Cyber Attacks on Critical Infrastructure and Public Systems",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "French blood storage facilities were impacted by freezer hacks, and public air raid alert apps in Ukraine and Russia sent false alerts after being hacked.",
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+              "source": "ksut.org"
+            }
+          ]
         }
       ],
       "local_notes_en": [
-        "Tropical cyclone MURASU-26 received a red notification in India, affecting 1.506 million people with Category 1 wind speeds.",
-        "A cyber incident has been reported where hackers are targeting fridges across the globe."
+        "A red notification has been issued for tropical cyclone MURASU-26 in India, affecting over 1.5 million people with Category 1 wind speeds."
       ]
     },
-    "generated_at": "2026-11-05T04:26:36Z"
+    "generated_at": "2026-11-05T20:04:17Z"
   },
-  "updated_at": "2026-11-05T06:57:58Z",
+  "updated_at": "2026-11-05T20:04:17Z",
   "version": 1
 }

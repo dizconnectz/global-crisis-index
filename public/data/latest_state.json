@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T06:57:58Z",
-  "global_score": 51,
+  "generated_at": "2026-11-05T20:04:17Z",
+  "global_score": 56,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,18 +11,18 @@
     "color": "orange"
   },
   "formula": {
-    "base": 50.92,
+    "base": 55.78,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 68.9,
-    "max2": 56.7,
+    "max1": 67.9,
+    "max2": 55.8,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 39.3,
+      "score": 54.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,51 +35,51 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 16.61,
+          "value": 24.1,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-1.8% (5 วันทำการ)",
-          "hint_en": "-1.8% (5 trading days)"
+          "hint": "+40.1% (5 วันทำการ)",
+          "hint_en": "+40.1% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 94.0,
+          "value": 98.24,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-18.2% (5 วันทำการ)",
-          "hint_en": "-18.2% (5 trading days)"
+          "hint": "-14.5% (5 วันทำการ)",
+          "hint_en": "-14.5% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 4137.8,
+          "value": 4126.6,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "+2.6% (5 วันทำการ)",
-          "hint_en": "+2.6% (5 trading days)"
+          "hint": "+2.4% (5 วันทำการ)",
+          "hint_en": "+2.4% (5 trading days)"
         },
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
           "label_en": "S&P 500 index",
-          "value": 7688.62,
+          "value": 7400.23,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-0.7% (5 วันทำการ)",
-          "hint_en": "-0.7% (5 trading days)"
+          "hint": "-4.2% (5 วันทำการ)",
+          "hint_en": "-4.2% (5 trading days)"
         },
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
           "label_en": "SOXX semiconductor ETF",
-          "value": 450.41,
+          "value": 135.34,
           "unit": "USD",
           "unit_en": "USD",
-          "hint": "-13.7% (5 วันทำการ)",
-          "hint_en": "-13.7% (5 trading days)"
+          "hint": "-21.0% (5 วันทำการ)",
+          "hint_en": "-21.0% (5 trading days)"
         }
       ],
       "indicators": [
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 16.61,
-          "change_pct": -1.77,
-          "drawdown_pct": -46.51,
-          "score": 16.4,
+          "value": 24.1,
+          "change_pct": 40.12,
+          "drawdown_pct": -22.38,
+          "score": 46.8,
           "status": "ok",
-          "last_date": "2026-11-04",
+          "last_date": "2026-11-05",
           "provider": "yfinance"
         },
         {
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 94.0,
-          "change_pct": -18.18,
-          "drawdown_pct": -20.57,
-          "score": 79.5,
+          "value": 98.24,
+          "change_pct": -14.48,
+          "drawdown_pct": -16.99,
+          "score": 67.8,
           "status": "ok",
           "last_date": "2026-11-05",
           "provider": "yfinance"
@@ -123,10 +123,10 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 4137.8,
-          "change_pct": 2.64,
-          "drawdown_pct": -22.2,
-          "score": 28.0,
+          "value": 4126.6,
+          "change_pct": 2.36,
+          "drawdown_pct": -22.41,
+          "score": 24.5,
           "status": "ok",
           "last_date": "2026-11-05",
           "provider": "yfinance"
@@ -139,12 +139,12 @@
           "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
-          "value": 7688.62,
-          "change_pct": -0.71,
-          "drawdown_pct": -1.67,
-          "score": 4.3,
+          "value": 7400.23,
+          "change_pct": -4.15,
+          "drawdown_pct": -5.35,
+          "score": 31.2,
           "status": "ok",
-          "last_date": "2026-11-04",
+          "last_date": "2026-11-05",
           "provider": "yfinance"
         },
         {
@@ -155,12 +155,12 @@
           "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
-          "value": 450.41,
-          "change_pct": -13.7,
-          "drawdown_pct": -31.24,
-          "score": 72.5,
+          "value": 135.34,
+          "change_pct": -20.99,
+          "drawdown_pct": -70.89,
+          "score": 100.0,
           "status": "ok",
-          "last_date": "2026-11-04",
+          "last_date": "2026-11-05",
           "provider": "yfinance"
         }
       ],
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 68.9,
+      "score": 67.9,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -183,7 +183,7 @@
           "category": "chokepoint",
           "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
           "category_en": "Shipping chokepoint threat",
-          "title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
+          "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
           "severity": 85.0,
           "score": 51.0,
           "countries": [
@@ -195,11 +195,11 @@
           ],
           "article_count": 1,
           "links": [
-            "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
+            "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
           ],
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ],
@@ -207,7 +207,7 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-05T06:57:58Z",
+          "last_seen": "2026-11-05T20:04:17Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -221,7 +221,7 @@
           "category_en": "Nuclear threat",
           "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
           "severity": 95.0,
-          "score": 48.3,
+          "score": 44.2,
           "countries": [
             "iran"
           ],
@@ -256,7 +256,7 @@
           "category_en": "Invasion or declaration of war",
           "title": "Trump DOJ  invasion  hype backfires as judge threatens to punish officials behind it",
           "severity": 80.0,
-          "score": 40.7,
+          "score": 37.3,
           "countries": [],
           "sources": [
             "rawstory.com"
@@ -282,6 +282,42 @@
           "raw_score": null
         },
         {
+          "id": "geo:missile_strike:6c82092395",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "India in final-stage talks to expand missile sale to Philippines, sources say - Reuters",
+          "severity": 55.0,
+          "score": 33.0,
+          "countries": [
+            "india",
+            "philippines"
+          ],
+          "sources": [
+            "Reuters (Google News)"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5"
+          ],
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ],
+          "link_sources": [
+            "Reuters (Google News)"
+          ],
+          "first_seen": "2026-11-05T20:04:17Z",
+          "last_seen": "2026-11-05T20:04:17Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:missile_strike:73ae71ea05",
           "pillar": "geo",
           "category": "missile_strike",
@@ -289,7 +325,7 @@
           "category_en": "Air / missile strikes",
           "title": "US Launches Airstrikes on Iran in Strait of Hormuz Ahead of Midterms",
           "severity": 55.0,
-          "score": 28.0,
+          "score": 25.6,
           "countries": [
             "iran"
           ],
@@ -316,43 +352,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:a59ee23b9a",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "What we know about the alert app hack in Ukraine and Russia",
-          "severity": 55.0,
-          "score": 28.0,
-          "countries": [
-            "ukraine",
-            "russia"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ],
-          "link_sources": [
-            "BBC World"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -360,7 +359,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 40,
+          "value": 45,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -370,7 +369,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 0,
+          "value": 1,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -380,61 +379,25 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 77,
+          "value": 81,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 5 event clusters"
+          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 10 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 30.3,
+      "score": 30.0,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
       "status_th": "ปกติ",
       "status_en": "Normal",
       "note": null,
-      "top_events": [
-        {
-          "id": "gdacs:FL1104253",
-          "pillar": "nat",
-          "category": "gdacs_fl",
-          "category_th": "อุทกภัย",
-          "category_en": "Flood",
-          "title": "Green flood alert in Indonesia",
-          "severity": 1.0,
-          "score": 1.0,
-          "countries": [
-            "Indonesia"
-          ],
-          "sources": [
-            "GDACS"
-          ],
-          "article_count": 1,
-          "links": [
-            "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253"
-          ],
-          "refs": [
-            {
-              "url": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104253",
-              "source": "GDACS"
-            }
-          ],
-          "link_sources": [
-            "GDACS"
-          ],
-          "first_seen": "2026-10-29T09:29:04Z",
-          "last_seen": "2026-10-29T09:29:04Z",
-          "is_local": false,
-          "location": "Indonesia (ห่างช่องแคบมะละกา ~183 กม.)",
-          "location_en": "Indonesia (~183 km from Strait of Malacca)",
-          "raw_score": 1.0
-        }
-      ],
+      "top_events": [],
       "metrics": [
         {
           "key": "quakes",
@@ -460,7 +423,7 @@
           "key": "near_hubs",
           "label_th": "ใกล้จุดยุทธศาสตร์โลก",
           "label_en": "Near global strategic hubs",
-          "value": 1,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -470,7 +433,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 157,
+          "value": 163,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -481,7 +444,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 56.7,
+      "score": 55.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -519,7 +482,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-05T06:57:58Z",
+          "last_seen": "2026-11-05T20:04:17Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -533,7 +496,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 22.0,
           "countries": [
             "france"
           ],
@@ -568,7 +531,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 20.4,
+          "score": 18.6,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -601,7 +564,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 20.4,
+          "score": 18.6,
           "countries": [],
           "sources": [
             "BBC World"
@@ -634,7 +597,7 @@
           "category_en": "Actual cyber incident",
           "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
           "severity": 40.0,
-          "score": 20.4,
+          "score": 18.6,
           "countries": [
             "european union",
             "germany",
@@ -703,46 +666,46 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 68.9,
-      "contribution": 24.1,
-      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
-      "headline_en": "Shipping chokepoint threat: Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz"
+      "score": 67.9,
+      "contribution": 23.8,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran says tankers struck in Hormuz amid fears of new US attack",
+      "headline_en": "Shipping chokepoint threat: Iran says tankers struck in Hormuz amid fears of new US attack"
     },
     {
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 39.3,
-      "contribution": 13.8,
-      "headline": "น้ำมันดิบ Brent 94.0 USD/บาร์เรล",
-      "headline_en": "Brent crude oil 94.0 USD/bbl"
+      "score": 54.7,
+      "contribution": 19.1,
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 135.34 USD",
+      "headline_en": "SOXX semiconductor ETF 135.34 USD"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 56.7,
-      "contribution": 8.5,
+      "score": 55.8,
+      "contribution": 8.4,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในช่องแคบฮอร์มุซที่มีการโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่านและการโจมตีเกาะของอิหร่าน ควบคู่ไปกับการระบาดของโรคอีโบลาครั้งใหม่ในแอฟริกา เหตุการณ์ทางไซเบอร์ที่แพร่หลายซึ่งมุ่งเป้าไปที่โครงสร้างพื้นฐานที่สำคัญและระบบการเงินก็เป็นปัจจัยที่ทำให้เกิดความไม่มั่นคง ในขณะที่ราคาน้ำมันดิบปรับตัวลดลงอย่างมีนัยสำคัญ",
+    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในช่องแคบฮอร์มุซที่เกี่ยวข้องกับอิหร่านและการโจมตีทางอากาศของสหรัฐฯ ควบคู่ไปกับการระบาดของโรคอีโบลาในแอฟริกาและเหตุการณ์ทางไซเบอร์ที่แพร่หลาย ตลาดการเงินสะท้อนความไม่มั่นคงนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหุ้นที่ลดลง",
     "early_warnings_th": [
       {
-        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นและความขัดแย้งที่อาจเกิดขึ้นในช่องแคบฮอร์มุซ",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และความเสี่ยงจากความขัดแย้งที่เพิ่มขึ้นในตะวันออกกลาง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "มีรายงานการโจมตีเกาะของอิหร่านในช่องแคบฮอร์มุซ และสหรัฐฯ ได้เปิดฉากโจมตีทางอากาศต่ออิหร่านในพื้นที่ดังกล่าว ขณะที่โทรทัศน์อิหร่านเผยแพร่วิดีโอเตือนภัยการเอาชีวิตรอดจากการโจมตีนิวเคลียร์",
+        "evidence_summary": "รายงานระบุว่าเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ตามมาด้วยการโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่านในช่องแคบฮอร์มุซ ขณะที่โทรทัศน์อิหร่านเผยแพร่วิดีโอเตือนภัยการเอาชีวิตรอดจากการโจมตีนิวเคลียร์",
         "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
           {
             "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
             "source": "metro.co.uk"
-          },
-          {
-            "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-            "source": "manilatimes.net"
           },
           {
             "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
@@ -751,27 +714,7 @@
         ]
       },
       {
-        "title": "การโจมตีทางไซเบอร์ที่เพิ่มขึ้นซึ่งมุ่งเป้าไปที่โครงสร้างพื้นฐานที่สำคัญและระบบการเงิน",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-3 เดือน",
-        "evidence_summary": "แอปแจ้งเตือนภัยทางอากาศในยูเครนและรัสเซียถูกแฮก และมีการรายงานการโจมตีทางไซเบอร์ที่ส่งผลกระทบต่อระบบจัดเก็บเลือดของฝรั่งเศสและเป้าหมายอื่นๆ ทั่วโลก",
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "ksut.org"
-          },
-          {
-            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "wcsufm.org"
-          }
-        ]
-      },
-      {
-        "title": "การกลับมาและการแพร่กระจายของการระบาดของโรคที่มีผลกระทบร้ายแรง",
+        "title": "การกลับมาของการระบาดของโรคที่มีผลกระทบรุนแรง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
         "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
@@ -781,27 +724,46 @@
             "source": "WHO DON"
           }
         ]
+      },
+      {
+        "title": "การโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญและระบบสาธารณะที่เพิ่มขึ้น",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "คลังเก็บเลือดของฝรั่งเศสได้รับผลกระทบจากการแฮกตู้แช่แข็ง และแอปแจ้งเตือนการโจมตีทางอากาศสาธารณะในยูเครนและรัสเซียส่งการแจ้งเตือนที่ผิดพลาดหลังถูกแฮก",
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "ksut.org"
+          }
+        ]
       }
     ],
     "local_notes_th": [
-      "พายุไซโคลนเขตร้อน MURASU-26 ได้รับการแจ้งเตือนสีแดงในอินเดีย โดยมีประชากร 1.506 ล้านคนได้รับผลกระทบจากความเร็วลมระดับ Category 1",
-      "มีการรายงานเหตุการณ์ทางไซเบอร์ที่แฮกเกอร์มุ่งเป้าไปที่ตู้เย็นทั่วโลก"
+      "มีการแจ้งเตือนระดับสีแดงสำหรับพายุไซโคลนเขตร้อน MURASU-26 ในอินเดีย ซึ่งส่งผลกระทบต่อประชากรมากกว่า 1.5 ล้านคนด้วยความเร็วลมระดับ 1"
     ],
-    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Strait of Hormuz with US airstrikes on Iran and an attack on an Iranian island, alongside a new Ebola outbreak in Africa. Widespread cyber incidents targeting critical infrastructure and financial systems also contribute to the instability, while crude oil prices have seen a significant decline.",
+    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Strait of Hormuz involving Iran and US airstrikes, alongside a significant Ebola outbreak in Africa and widespread cyber incidents. Financial markets reflect this instability with increased volatility and declining equity indices.",
     "early_warnings_en": [
       {
-        "title": "Escalating Geopolitical Tensions and Potential Conflict in the Strait of Hormuz",
+        "title": "Heightened Geopolitical Tensions and Conflict Risk in the Middle East",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Reports indicate an attack on an Iranian island in the Hormuz Strait, and the US has launched airstrikes on Iran in the area, while Iranian TV broadcast a warning video on surviving a nuclear strike.",
+        "evidence_summary": "Reports indicate tankers were struck in Hormuz, followed by US airstrikes on Iran in the Strait of Hormuz, while Iranian TV broadcast a nuclear strike survival video.",
         "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
           {
             "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
             "source": "metro.co.uk"
-          },
-          {
-            "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-            "source": "manilatimes.net"
           },
           {
             "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
@@ -810,45 +772,44 @@
         ]
       },
       {
-        "title": "Increasing Cyber Attacks Targeting Critical Infrastructure and Financial Systems",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-3 months",
-        "evidence_summary": "Air raid alert apps in Ukraine and Russia were hacked, and cyberattacks impacting French blood storage systems and other targets globally have been reported.",
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "ksut.org"
-          },
-          {
-            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "wcsufm.org"
-          }
-        ]
-      },
-      {
-        "title": "Resurgence and Spread of High-Consequence Disease Outbreaks",
+        "title": "Resurgence of High-Consequence Disease Outbreaks",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "An outbreak of Ebola disease caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+        "evidence_summary": "A disease outbreak of Ebola caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
             "source": "WHO DON"
           }
         ]
+      },
+      {
+        "title": "Increasing Cyber Attacks on Critical Infrastructure and Public Systems",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "French blood storage facilities were impacted by freezer hacks, and public air raid alert apps in Ukraine and Russia sent false alerts after being hacked.",
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
+            "source": "ksut.org"
+          }
+        ]
       }
     ],
     "local_notes_en": [
-      "Tropical cyclone MURASU-26 received a red notification in India, affecting 1.506 million people with Category 1 wind speeds.",
-      "A cyber incident has been reported where hackers are targeting fridges across the globe."
+      "A red notification has been issued for tropical cyclone MURASU-26 in India, affecting over 1.5 million people with Category 1 wind speeds."
     ],
-    "source": "gemini_cached",
+    "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-05T04:26:36Z"
+    "generated_at": "2026-11-05T20:04:17Z"
   },
   "local_events": [
     {
@@ -858,7 +819,7 @@
       "category_th": "พายุหมุนเขตร้อน",
       "category_en": "Tropical cyclone",
       "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.506 million .",
-      "severity": 38.0,
+      "severity": 34.7,
       "score": 30,
       "countries": [
         "India"
@@ -884,59 +845,7 @@
       "is_local": true,
       "location": "India",
       "location_en": "India",
-      "raw_score": 38.0
-    },
-    {
-      "id": "bio_infra:cyber_incident:2ef44b2e75",
-      "pillar": "bio_infra",
-      "category": "cyber_incident",
-      "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-      "category_en": "Actual cyber incident",
-      "title": "A new cold war : hackers target fridges across the globe",
-      "severity": 40.0,
-      "score": 19.7,
-      "countries": [],
-      "sources": [
-        "aspenpublicradio.org",
-        "ksmu.org",
-        "ksut.org",
-        "kunc.org",
-        "northernpublicradio.org",
-        "wcsufm.org"
-      ],
-      "article_count": 6,
-      "links": [
-        "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-        "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-        "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe"
-      ],
-      "refs": [
-        {
-          "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "source": "ksut.org"
-        },
-        {
-          "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "source": "wcsufm.org"
-        },
-        {
-          "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "source": "northernpublicradio.org"
-        }
-      ],
-      "link_sources": [
-        "ksut.org",
-        "wcsufm.org",
-        "northernpublicradio.org",
-        "aspenpublicradio.org",
-        "ksmu.org"
-      ],
-      "first_seen": "2026-11-03T19:34:54Z",
-      "last_seen": "2026-11-03T19:34:54Z",
-      "is_local": true,
-      "location": null,
-      "location_en": null,
-      "raw_score": 31.5
+      "raw_score": 34.7
     }
   ],
   "data_status": {
@@ -948,7 +857,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:58:00Z",
+        "fetched_at": "2026-11-05T20:04:20Z",
         "items": 5,
         "data_as_of": "2026-11-05",
         "error": null,
@@ -958,11 +867,11 @@
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
-        "status": "error",
-        "fetched_at": "2026-11-05T06:58:08Z",
-        "items": null,
-        "data_as_of": null,
-        "error": "HTTP 429",
+        "status": "ok",
+        "fetched_at": "2026-11-05T20:04:33Z",
+        "items": 8,
+        "data_as_of": "2026-11-05T07:15:00Z",
+        "error": null,
         "note": null,
         "optional": true
       },
@@ -970,9 +879,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
-        "items": 23,
-        "data_as_of": "2026-11-05T06:35:25Z",
+        "fetched_at": "2026-11-05T20:04:18Z",
+        "items": 21,
+        "data_as_of": "2026-11-05T19:58:40Z",
         "error": null,
         "note": null,
         "optional": false
@@ -981,9 +890,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
+        "fetched_at": "2026-11-05T20:04:18Z",
         "items": 25,
-        "data_as_of": "2026-11-05T06:34:50Z",
+        "data_as_of": "2026-11-05T19:48:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -992,9 +901,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
-        "items": 29,
-        "data_as_of": "2026-11-05T05:44:00Z",
+        "fetched_at": "2026-11-05T20:04:18Z",
+        "items": 27,
+        "data_as_of": "2026-11-05T19:34:01Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1003,9 +912,9 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
+        "fetched_at": "2026-11-05T20:04:17Z",
         "items": 4,
-        "data_as_of": "2026-11-01T11:47:03Z",
+        "data_as_of": "2026-11-05T17:21:45Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1014,9 +923,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:58:01Z",
-        "items": 181,
-        "data_as_of": "2026-11-05T04:19:16Z",
+        "fetched_at": "2026-11-05T20:04:20Z",
+        "items": 191,
+        "data_as_of": "2026-11-05T17:39:33Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1025,7 +934,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
+        "fetched_at": "2026-11-05T20:04:18Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -1036,9 +945,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-05T06:57:58Z",
-        "items": 51,
-        "data_as_of": "2026-11-03T18:03:34Z",
+        "fetched_at": "2026-11-05T20:04:18Z",
+        "items": 35,
+        "data_as_of": "2026-11-05T13:56:45Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false
