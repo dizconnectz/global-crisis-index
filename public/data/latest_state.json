@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T05:22:48Z",
-  "global_score": 50,
+  "generated_at": "2026-11-05T06:57:58Z",
+  "global_score": 51,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,10 +11,10 @@
     "color": "orange"
   },
   "formula": {
-    "base": 50.22,
+    "base": 50.92,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 66.6,
+    "max1": 68.9,
     "max2": 56.7,
     "max1_pillar": "geo"
   },
@@ -22,7 +22,7 @@
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 39.6,
+      "score": 39.3,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 93.84,
+          "value": 94.0,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-18.3% (5 วันทำการ)",
-          "hint_en": "-18.3% (5 trading days)"
+          "hint": "-18.2% (5 วันทำการ)",
+          "hint_en": "-18.2% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 4142.4,
+          "value": 4137.8,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "+2.8% (5 วันทำการ)",
-          "hint_en": "+2.8% (5 trading days)"
+          "hint": "+2.6% (5 วันทำการ)",
+          "hint_en": "+2.6% (5 trading days)"
         },
         {
           "key": "spx",
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 93.84,
-          "change_pct": -18.31,
-          "drawdown_pct": -20.71,
-          "score": 79.9,
+          "value": 94.0,
+          "change_pct": -18.18,
+          "drawdown_pct": -20.57,
+          "score": 79.5,
           "status": "ok",
           "last_date": "2026-11-05",
           "provider": "yfinance"
@@ -123,10 +123,10 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 4142.4,
-          "change_pct": 2.75,
-          "drawdown_pct": -22.11,
-          "score": 29.4,
+          "value": 4137.8,
+          "change_pct": 2.64,
+          "drawdown_pct": -22.2,
+          "score": 28.0,
           "status": "ok",
           "last_date": "2026-11-05",
           "provider": "yfinance"
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 66.6,
+      "score": 68.9,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -178,6 +178,42 @@
       "note": null,
       "top_events": [
         {
+          "id": "geo:chokepoint:73ae71ea05",
+          "pillar": "geo",
+          "category": "chokepoint",
+          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "category_en": "Shipping chokepoint threat",
+          "title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
+          "severity": 85.0,
+          "score": 51.0,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "manilatimes.net"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-05T06:57:58Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:nuclear:73ae71ea05",
           "pillar": "geo",
           "category": "nuclear",
@@ -185,7 +221,7 @@
           "category_en": "Nuclear threat",
           "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
           "severity": 95.0,
-          "score": 48.9,
+          "score": 48.3,
           "countries": [
             "iran"
           ],
@@ -213,42 +249,6 @@
           "raw_score": null
         },
         {
-          "id": "geo:chokepoint:73ae71ea05",
-          "pillar": "geo",
-          "category": "chokepoint",
-          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-          "category_en": "Shipping chokepoint threat",
-          "title": "Iranian island in Hormuz strait attacked media",
-          "severity": 85.0,
-          "score": 43.7,
-          "countries": [
-            "iran"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "manilatimes.net"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664"
-          ],
-          "refs": [
-            {
-              "url": "https://www.manilatimes.net/2026/11/04/world/americas-emea/iranian-island-in-hormuz-strait-attacked-media/2460664",
-              "source": "manilatimes.net"
-            }
-          ],
-          "link_sources": [
-            "manilatimes.net"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
           "id": "geo:invasion:7d6b0d5274",
           "pillar": "geo",
           "category": "invasion",
@@ -256,7 +256,7 @@
           "category_en": "Invasion or declaration of war",
           "title": "Trump DOJ  invasion  hype backfires as judge threatens to punish officials behind it",
           "severity": 80.0,
-          "score": 41.2,
+          "score": 40.7,
           "countries": [],
           "sources": [
             "rawstory.com"
@@ -289,7 +289,7 @@
           "category_en": "Air / missile strikes",
           "title": "US Launches Airstrikes on Iran in Strait of Hormuz Ahead of Midterms",
           "severity": 55.0,
-          "score": 28.3,
+          "score": 28.0,
           "countries": [
             "iran"
           ],
@@ -325,7 +325,7 @@
           "category_en": "Air / missile strikes",
           "title": "What we know about the alert app hack in Ukraine and Russia",
           "severity": 55.0,
-          "score": 28.3,
+          "score": 28.0,
           "countries": [
             "ukraine",
             "russia"
@@ -380,11 +380,11 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 75,
+          "value": 77,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 6 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 6 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
@@ -519,7 +519,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-05T05:22:48Z",
+          "last_seen": "2026-11-05T06:57:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -554,7 +554,7 @@
             "BBC World"
           ],
           "first_seen": "2026-11-04T19:51:48Z",
-          "last_seen": "2026-11-05T05:22:48Z",
+          "last_seen": "2026-11-05T06:57:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -568,7 +568,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 20.6,
+          "score": 20.4,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -601,7 +601,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 20.6,
+          "score": 20.4,
           "countries": [],
           "sources": [
             "BBC World"
@@ -634,7 +634,7 @@
           "category_en": "Actual cyber incident",
           "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
           "severity": 40.0,
-          "score": 20.6,
+          "score": 20.4,
           "countries": [
             "european union",
             "germany",
@@ -703,19 +703,19 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 66.6,
-      "contribution": 23.3,
-      "headline": "ภัยคุกคามนิวเคลียร์: Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
-      "headline_en": "Nuclear threat: Iranian TV broadcasts chilling warning video on how to survive a nuclear strike"
+      "score": 68.9,
+      "contribution": 24.1,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
+      "headline_en": "Shipping chokepoint threat: Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz"
     },
     {
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 39.6,
-      "contribution": 13.9,
-      "headline": "น้ำมันดิบ Brent 93.84 USD/บาร์เรล",
-      "headline_en": "Brent crude oil 93.84 USD/bbl"
+      "score": 39.3,
+      "contribution": 13.8,
+      "headline": "น้ำมันดิบ Brent 94.0 USD/บาร์เรล",
+      "headline_en": "Brent crude oil 94.0 USD/bbl"
     },
     {
       "pillar": "bio_infra",
@@ -858,7 +858,7 @@
       "category_th": "พายุหมุนเขตร้อน",
       "category_en": "Tropical cyclone",
       "title": "Red notification for tropical cyclone MURASU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 1.506 million .",
-      "severity": 38.4,
+      "severity": 38.0,
       "score": 30,
       "countries": [
         "India"
@@ -884,7 +884,7 @@
       "is_local": true,
       "location": "India",
       "location_en": "India",
-      "raw_score": 38.4
+      "raw_score": 38.0
     },
     {
       "id": "bio_infra:cyber_incident:2ef44b2e75",
@@ -894,7 +894,7 @@
       "category_en": "Actual cyber incident",
       "title": "A new cold war : hackers target fridges across the globe",
       "severity": 40.0,
-      "score": 19.9,
+      "score": 19.7,
       "countries": [],
       "sources": [
         "aspenpublicradio.org",
@@ -936,7 +936,7 @@
       "is_local": true,
       "location": null,
       "location_en": null,
-      "raw_score": 31.8
+      "raw_score": 31.5
     }
   ],
   "data_status": {
@@ -948,7 +948,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:50Z",
+        "fetched_at": "2026-11-05T06:58:00Z",
         "items": 5,
         "data_as_of": "2026-11-05",
         "error": null,
@@ -959,7 +959,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-05T05:23:03Z",
+        "fetched_at": "2026-11-05T06:58:08Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -970,9 +970,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
+        "fetched_at": "2026-11-05T06:57:58Z",
         "items": 23,
-        "data_as_of": "2026-11-05T03:56:16Z",
+        "data_as_of": "2026-11-05T06:35:25Z",
         "error": null,
         "note": null,
         "optional": false
@@ -981,9 +981,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
+        "fetched_at": "2026-11-05T06:57:58Z",
         "items": 25,
-        "data_as_of": "2026-11-05T04:49:56Z",
+        "data_as_of": "2026-11-05T06:34:50Z",
         "error": null,
         "note": null,
         "optional": false
@@ -992,9 +992,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
-        "items": 27,
-        "data_as_of": "2026-11-05T01:06:00Z",
+        "fetched_at": "2026-11-05T06:57:58Z",
+        "items": 29,
+        "data_as_of": "2026-11-05T05:44:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1003,7 +1003,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
+        "fetched_at": "2026-11-05T06:57:58Z",
         "items": 4,
         "data_as_of": "2026-11-01T11:47:03Z",
         "error": null,
@@ -1014,7 +1014,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:50Z",
+        "fetched_at": "2026-11-05T06:58:01Z",
         "items": 181,
         "data_as_of": "2026-11-05T04:19:16Z",
         "error": null,
@@ -1025,7 +1025,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
+        "fetched_at": "2026-11-05T06:57:58Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -1036,8 +1036,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-05T05:22:49Z",
-        "items": 52,
+        "fetched_at": "2026-11-05T06:57:58Z",
+        "items": 51,
         "data_as_of": "2026-11-03T18:03:34Z",
         "error": null,
         "note": "google_news_fallback",
