@@ -97,6 +97,8 @@ export interface SourceStatus {
   pillar: PillarKey;
   status: "ok" | "error";
   fetched_at: string;
+  /** Newest underlying data point: ISO time, or a bare YYYY-MM-DD for daily market closes. */
+  data_as_of?: string | null;
   items: number | null;
   error: string | null;
   note: string | null;

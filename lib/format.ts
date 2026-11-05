@@ -56,3 +56,14 @@ export function relativeParts(fromIso: string, now: number): { key: "justNow" | 
   if (hrs < 48) return { key: "hrAgo", n: hrs };
   return { key: "dayAgo", n: Math.floor(hrs / 24) };
 }
+
+/** A bare `YYYY-MM-DD` (daily market close) shows as a date with no clock time. */
+export function fmtAsOf(v: string | null | undefined, lang: Locale = "th"): string {
+  if (!v) return "—";
+  if (/^\d{4}-\d{2}-\d{2}$/.test(v)) {
+    return new Date(`${v}T00:00:00Z`).toLocaleDateString(LOCALE[lang], {
+      day: "numeric", month: "short", year: "2-digit", timeZone: "UTC",
+    });
+  }
+  return fmtDate(v, lang);
+}

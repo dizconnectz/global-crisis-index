@@ -459,3 +459,21 @@ def test_watchlist_signal_is_computed_in_code_not_by_the_model():
     expected = [("สูง", "1-4 สัปดาห์"), ("ปานกลาง", "1-3 เดือน"), ("เฝ้าระวัง", "1-4 สัปดาห์")]
     assert run("สูง") == expected
     assert run("เฝ้าระวัง") == expected  # whatever the model says, the label is the same
+
+
+# ---------------------------------------------------------------- data_as_of per source
+
+def test_source_status_reports_newest_data_time():
+    older, newer = NOW - timedelta(hours=9), NOW - timedelta(hours=2)
+    arts = ok("BBC", "geo", [Article("a", "BBC", published=older), Article("b", "BBC", published=newer),
+                              Article("c", "BBC", published=None)])
+    quakes = ok("USGS", "nat", [{"time": older}, {"time": newer}])
+    st = {s.name: s.to_status() for s in (arts, quakes)}
+    assert st["BBC"]["data_as_of"] == iso(newer)
+    assert st["USGS"]["data_as_of"] == iso(newer)
+
+
+def test_market_data_as_of_is_a_bare_date_and_failures_have_none():
+    assert calm_markets().to_status()["data_as_of"] == NOW.strftime("%Y-%m-%d")
+    assert fail("X", "geo").to_status()["data_as_of"] is None
+    assert ok("empty", "geo", []).to_status()["data_as_of"] is None
