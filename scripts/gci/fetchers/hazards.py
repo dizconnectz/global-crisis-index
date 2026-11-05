@@ -12,6 +12,11 @@ log = logging.getLogger("gci.hazards")
 
 USGS_URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson"
 GDACS_URL = "https://www.gdacs.org/xml/rss.xml"
+# gdacs.org sits behind a bot filter that answers browser-like User-Agents with an
+# HTML JavaScript challenge instead of the feed. An honest, identifying client name
+# gets the real XML, so use that here instead of the default browser-style UA.
+GDACS_HEADERS = {"User-Agent": "GlobalCrisisIndex/1.0 (+https://github.com/dizconnectz/global-crisis-index)",
+                 "Accept": "application/rss+xml, application/xml;q=0.9"}
 
 
 def fetch_usgs(nat_cfg: dict) -> SourceResult:
@@ -50,7 +55,10 @@ def _local(tag: str) -> str:
 
 def fetch_gdacs(nat_cfg: dict) -> SourceResult:
     try:
-        items = parse_rss(get(GDACS_URL).content)
+        body = get(GDACS_URL, headers=GDACS_HEADERS).content
+        if body.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
+            raise ValueError("GDACS returned an HTML page (bot challenge?) instead of the RSS feed")
+        items = parse_rss(body)
         alerts = []
         for it in items:
             fields: dict[str, str] = {}

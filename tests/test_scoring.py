@@ -477,3 +477,35 @@ def test_market_data_as_of_is_a_bare_date_and_failures_have_none():
     assert calm_markets().to_status()["data_as_of"] == NOW.strftime("%Y-%m-%d")
     assert fail("X", "geo").to_status()["data_as_of"] is None
     assert ok("empty", "geo", []).to_status()["data_as_of"] is None
+
+
+# ---------------------------------------------------------------- GDACS fetch
+
+GDACS_RSS = b"""<?xml version="1.0"?><rss version="2.0" xmlns:gdacs="http://www.gdacs.org"><channel>
+<item><title>Green earthquake alert</title><link>https://www.gdacs.org/x</link>
+<pubDate>Wed, 04 Nov 2026 10:00:00 GMT</pubDate><gdacs:eventtype>EQ</gdacs:eventtype>
+<gdacs:eventid>1</gdacs:eventid><gdacs:alertlevel>Green</gdacs:alertlevel><gdacs:country>Chile</gdacs:country>
+</item></channel></rss>"""
+
+
+def test_gdacs_sends_honest_user_agent_and_parses_feed(monkeypatch):
+    from gci.fetchers import hazards
+    seen = {}
+
+    def fake_get(url, **kw):
+        seen.update(kw.get("headers") or {})
+        return type("R", (), {"content": GDACS_RSS})()
+
+    monkeypatch.setattr(hazards, "get", fake_get)
+    res = hazards.fetch_gdacs(CFG["nat"])
+    assert res.ok and len(res.data) == 1 and res.data[0]["alert"] == "green"
+    assert seen["User-Agent"].startswith("GlobalCrisisIndex/")
+    assert "Mozilla" not in seen["User-Agent"]
+
+
+def test_gdacs_html_challenge_page_is_reported_clearly(monkeypatch):
+    from gci.fetchers import hazards
+    monkeypatch.setattr(hazards, "get",
+                        lambda url, **kw: type("R", (), {"content": b"<!DOCTYPE html><html><script>x</script>"})())
+    res = hazards.fetch_gdacs(CFG["nat"])
+    assert not res.ok and "HTML page" in res.error
