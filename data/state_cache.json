@@ -9,7 +9,7 @@
         "category_en": "Armed conflict",
         "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
         "severity": 30.0,
-        "score": 25.9,
+        "score": 25.7,
         "countries": [
           "iran"
         ],
@@ -21,7 +21,7 @@
           "truthout.org",
           "wfmz.com"
         ],
-        "article_count": 5,
+        "article_count": 4,
         "links": [
           "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
           "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
@@ -41,7 +41,44 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:9636e0af39": {
+        "id": "geo:conflict:9636e0af39",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine",
+          "european union",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T05:22:48Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -76,7 +113,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -111,7 +148,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -146,7 +183,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -181,7 +218,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1419,7 +1456,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1440,11 +1477,11 @@
         ],
         "article_count": 3,
         "links": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5",
             "source": "CISA"
           }
         ],
@@ -1452,7 +1489,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1485,7 +1522,40 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:906d96177f": {
+        "id": "bio_infra:vuln_advisory:906d96177f",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Urges Patching Newly Exploited Vulnerabilities in Ivanti Connect Secure",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblhOY1lDWmNic0I1a0o1NVhKaVFiZThWTTlVRHRsVTB6WHh6YVZpQ0kyUFU4MnQxU2pydjBMaDZtWWJpT0wtUzlUekhRVjg5VzVlREl5c0d0Qi1vRll1dnQtNjJSYTZTQi13VkY4d3pUb2FHTFFYNkZFODdGVUM2TkhSczM1N0NuS1daV19EMHpQNFRVdjFJQWJGaHA1NEtLTXpFMHNBMDJjTnhoYXk0VG5rNVQwdjRCbm56QlRNYnpBdw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblhOY1lDWmNic0I1a0o1NVhKaVFiZThWTTlVRHRsVTB6WHh6YVZpQ0kyUFU4MnQxU2pydjBMaDZtWWJpT0wtUzlUekhRVjg5VzVlREl5c0d0Qi1vRll1dnQtNjJSYTZTQi13VkY4d3pUb2FHTFFYNkZFODdGVUM2TkhSczM1N0NuS1daV19EMHpQNFRVdjFJQWJGaHA1NEtLTXpFMHNBMDJjTnhoYXk0VG5rNVQwdjRCbm56QlRNYnpBdw?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-05T05:22:48Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1520,7 +1590,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-05T04:26:36Z",
+        "last_seen": "2026-11-05T05:22:48Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1914,20 +1984,20 @@
   },
   "last_valid": {
     "econ": {
-      "score": 39.5,
-      "as_of": "2026-11-05T04:26:36Z"
+      "score": 39.6,
+      "as_of": "2026-11-05T05:22:48Z"
     },
     "geo": {
-      "score": 66.9,
-      "as_of": "2026-11-05T04:26:36Z"
+      "score": 66.6,
+      "as_of": "2026-11-05T05:22:48Z"
     },
     "nat": {
       "score": 30.3,
-      "as_of": "2026-11-05T04:26:36Z"
+      "as_of": "2026-11-05T05:22:48Z"
     },
     "bio_infra": {
-      "score": 56.8,
-      "as_of": "2026-11-05T04:26:36Z"
+      "score": 56.7,
+      "as_of": "2026-11-05T05:22:48Z"
     }
   },
   "econ_indicators": {
@@ -1936,23 +2006,23 @@
       "change_pct": -1.77,
       "drawdown_pct": -46.51,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-05T04:26:36Z",
+      "as_of": "2026-11-05T05:22:48Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 93.72000122070312,
-      "change_pct": -18.73,
-      "drawdown_pct": -20.81,
-      "last_date": "2026-11-04",
-      "as_of": "2026-11-05T04:26:36Z",
+      "last": 93.83999633789062,
+      "change_pct": -18.31,
+      "drawdown_pct": -20.71,
+      "last_date": "2026-11-05",
+      "as_of": "2026-11-05T05:22:48Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4149.60009765625,
-      "change_pct": 2.42,
-      "drawdown_pct": -21.98,
-      "last_date": "2026-11-04",
-      "as_of": "2026-11-05T04:26:36Z",
+      "last": 4142.39990234375,
+      "change_pct": 2.75,
+      "drawdown_pct": -22.11,
+      "last_date": "2026-11-05",
+      "as_of": "2026-11-05T05:22:48Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -1960,7 +2030,7 @@
       "change_pct": -0.71,
       "drawdown_pct": -1.67,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-05T04:26:36Z",
+      "as_of": "2026-11-05T05:22:48Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -1968,7 +2038,7 @@
       "change_pct": -13.7,
       "drawdown_pct": -31.24,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-05T04:26:36Z",
+      "as_of": "2026-11-05T05:22:48Z",
       "provider": "yfinance"
     }
   },
@@ -2107,6 +2177,6 @@
     },
     "generated_at": "2026-11-05T04:26:36Z"
   },
-  "updated_at": "2026-11-05T04:26:36Z",
+  "updated_at": "2026-11-05T05:22:48Z",
   "version": 1
 }
