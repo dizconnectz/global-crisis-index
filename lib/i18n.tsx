@@ -25,6 +25,10 @@ const DICT = {
   freshFetched: { th: "ดึงเมื่อ", en: "Fetched" },
   freshDailyClose: { th: "ราคาปิดรายวัน", en: "daily close" },
   freshUnknown: { th: "ไม่ระบุ", en: "n/a" },
+  freshOptionalNote: {
+    th: "แหล่งเสริม มักถูกจำกัดอัตราการเรียก ไม่กระทบคะแนน",
+    en: "supplementary source, often rate-limited; does not affect the score",
+  },
   freshFailed: { th: "ดึงไม่สำเร็จ", en: "fetch failed" },
   langLabel: { th: "ภาษา", en: "Language" },
   // relative time
