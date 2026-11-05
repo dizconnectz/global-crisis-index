@@ -102,6 +102,8 @@ export interface SourceStatus {
   items: number | null;
   error: string | null;
   note: string | null;
+  /** Supplementary source: its outage does not affect the score. */
+  optional?: boolean;
 }
 
 export interface LatestState {

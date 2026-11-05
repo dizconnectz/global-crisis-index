@@ -37,7 +37,14 @@ export function DataFreshness({ sources }: { sources: SourceStatus[] }) {
                 <td className="px-3 py-2 text-zinc-900">{s.name}</td>
                 <td className="px-3 py-2 text-zinc-700">
                   {s.status !== "ok" ? (
-                    <span className="text-amber-700">{t("freshFailed")}</span>
+                    s.optional ? (
+                      <>
+                        <span className="text-zinc-600">{t("freshFailed")}</span>
+                        <span className="block text-xs text-zinc-500">{t("freshOptionalNote")}</span>
+                      </>
+                    ) : (
+                      <span className="text-amber-700">{t("freshFailed")}</span>
+                    )
                   ) : s.data_as_of ? (
                     <>
                       {fmtAsOf(s.data_as_of, lang)}
