@@ -31,7 +31,228 @@
           "BBC World"
         ],
         "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran's chief negotiator says Americans voted 'no to war'",
+        "severity": 30.0,
+        "score": 26.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 5,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:6179c355b9": {
+        "id": "geo:sanctions:6179c355b9",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "El Salvador’s Bukele touts military intervention in Haiti",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:73ae71ea05": {
+        "id": "geo:sanctions:73ae71ea05",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Democrats won Congress. But can they deliver on their promises?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:46eb8b3d43": {
+        "id": "geo:conflict:46eb8b3d43",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Democratic Socialists of America see record wins in US midterm elections",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T03:35:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:38384a8522": {
+        "id": "geo:conflict:38384a8522",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Sudan factories struggle to restart after devastating wartime losses",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "sudan"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-05T03:35:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -75,41 +296,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-04T19:51:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:6179c355b9": {
-        "id": "geo:sanctions:6179c355b9",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-04T19:51:48Z",
         "last_seen": "2026-11-04T19:51:48Z",
         "is_local": false,
         "location": null,
@@ -339,56 +525,6 @@
           "metro.co.uk"
         ],
         "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trump calls Iran conflict a  soft war , insists US holds the cards ahead of midterm elections",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
-          "https://truthout.org/articles/us-continues-strikes-on-iran-despite-trump-claims-that-war-is-over/",
-          "https://www.wfmz.com/news/ap/ap-national/iran-s-chief-negotiator-says-the-us-must-act-to-prevent-renewed-war-and-other-mideast-news/article_4cd51f4d-14df-5d20-90c9-21ddc855c56c.html"
-        ],
-        "refs": [
-          {
-            "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
-            "source": "nypost.com"
-          },
-          {
-            "url": "https://truthout.org/articles/us-continues-strikes-on-iran-despite-trump-claims-that-war-is-over/",
-            "source": "truthout.org"
-          },
-          {
-            "url": "https://www.wfmz.com/news/ap/ap-national/iran-s-chief-negotiator-says-the-us-must-act-to-prevent-renewed-war-and-other-mideast-news/article_4cd51f4d-14df-5d20-90c9-21ddc855c56c.html",
-            "source": "wfmz.com"
-          }
-        ],
-        "link_sources": [
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
         "last_seen": "2026-11-04T06:38:42Z",
         "is_local": false,
         "location": null,
@@ -1283,7 +1419,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1302,13 +1438,13 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 3,
         "links": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5"
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRTdFcnRiWGJGd0NXdjQ3Vlc4cnVDZzc1bW5CMVlJdUlDWHZwTTVfUlJVVGMyVjNjaC0wRUtXVVZEZVlMUmJLbDJPVE4xcUFpX2d0VEpsOV9ldk8zMDFBWXhyZm5WYXRicUY4bkJfVU9jR3J1NFROVEo4Mk5vdUV1a3dxYnYyckdrSmJWeHhlcFhJLTFSdDhTY1YwMk55VEZBRndoaA?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5",
             "source": "CISA"
           }
         ],
@@ -1316,7 +1452,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1349,7 +1485,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1384,7 +1520,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-04T19:51:48Z",
+        "last_seen": "2026-11-05T03:35:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1778,61 +1914,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 37.2,
-      "as_of": "2026-11-04T19:51:48Z"
+      "score": 39.2,
+      "as_of": "2026-11-05T03:35:49Z"
     },
     "geo": {
-      "score": 69.7,
-      "as_of": "2026-11-04T19:51:48Z"
+      "score": 67.2,
+      "as_of": "2026-11-05T03:35:49Z"
     },
     "nat": {
-      "score": 6.1,
-      "as_of": "2026-11-04T19:51:48Z"
+      "score": 5.8,
+      "as_of": "2026-11-05T03:35:49Z"
     },
     "bio_infra": {
-      "score": 57.2,
-      "as_of": "2026-11-04T19:51:48Z"
+      "score": 56.8,
+      "as_of": "2026-11-05T03:35:49Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 16.799999237060547,
-      "change_pct": -0.65,
-      "drawdown_pct": -45.89,
+      "last": 16.610000610351562,
+      "change_pct": -1.77,
+      "drawdown_pct": -46.51,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T19:51:48Z",
+      "as_of": "2026-11-05T03:35:49Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 94.91000366210938,
-      "change_pct": -17.7,
-      "drawdown_pct": -19.81,
+      "last": 93.79000091552734,
+      "change_pct": -18.67,
+      "drawdown_pct": -20.75,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T19:51:48Z",
+      "as_of": "2026-11-05T03:35:49Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4069.10009765625,
-      "change_pct": 0.43,
-      "drawdown_pct": -23.49,
+      "last": 4142.5,
+      "change_pct": 2.24,
+      "drawdown_pct": -22.11,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T19:51:48Z",
+      "as_of": "2026-11-05T03:35:49Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7698.2099609375,
-      "change_pct": -0.59,
-      "drawdown_pct": -1.54,
+      "last": 7688.6201171875,
+      "change_pct": -0.71,
+      "drawdown_pct": -1.67,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T19:51:48Z",
+      "as_of": "2026-11-05T03:35:49Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 447.6600036621094,
-      "change_pct": -14.23,
-      "drawdown_pct": -31.66,
+      "last": 450.4100036621094,
+      "change_pct": -13.7,
+      "drawdown_pct": -31.24,
       "last_date": "2026-11-04",
-      "as_of": "2026-11-04T19:51:48Z",
+      "as_of": "2026-11-05T03:35:49Z",
       "provider": "yfinance"
     }
   },
@@ -1840,27 +1976,22 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "1bb465f239141d2f",
+    "events_hash": "991d08af60798a0f",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
-      "geo:conflict:73ae71ea05",
-      "geo:conflict:a59ee23b9a",
       "geo:invasion:7d6b0d5274",
-      "geo:missile_strike:23d45fa7a5",
-      "geo:missile_strike:73ae71ea05",
-      "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 34.9,
+    "econ_score": 39.2,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่มีการโจมตีทางอากาศของสหรัฐฯ และคำเตือนจากอิหร่าน ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครนและการยิงขีปนาวุธของเกาหลีเหนือ ในขณะเดียวกัน มีการโจมตีทางไซเบอร์ที่เพิ่มขึ้นอย่างมีนัยสำคัญต่อโครงสร้างพื้นฐานที่สำคัญ สถาบันการเงิน และระบบแจ้งเตือนสาธารณะทั่วโลก ซึ่งส่งผลให้ตลาดมีความผันผวนและความไม่แน่นอนทางเศรษฐกิจ",
+      "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนด้วยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางจากภัยคุกคามนิวเคลียร์และการโจมตีในช่องแคบฮอร์มุซ ควบคู่ไปกับความขัดแย้งต่อเนื่องและสงครามไซเบอร์ นอกจากนี้ยังมีความกังวลด้านสาธารณสุขจากการระบาดของอีโบลาและเหตุการณ์ไซเบอร์ที่ส่งผลกระทบต่อโครงสร้างพื้นฐานที่สำคัญ",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานการโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่านในช่องแคบฮอร์มุซ และโทรทัศน์อิหร่านได้เผยแพร่วิดีโอเตือนเกี่ยวกับการเอาชีวิตรอดจากการโจมตีด้วยนิวเคลียร์",
+          "evidence_summary": "โทรทัศน์อิหร่านเผยแพร่วิดีโอเตือนเกี่ยวกับการเอาชีวิตรอดจากการโจมตีด้วยนิวเคลียร์ และมีรายงานการโจมตีเกาะของอิหร่านในช่องแคบฮอร์มุซ ตามมาด้วยการโจมตีทางอากาศของสหรัฐฯ ในช่องแคบเดียวกัน",
           "refs": [
             {
               "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
@@ -1877,10 +2008,10 @@
           ]
         },
         {
-          "title": "การโจมตีทางไซเบอร์ในวงกว้างต่อโครงสร้างพื้นฐานที่สำคัญและการเงิน",
+          "title": "สงครามไซเบอร์ที่แพร่หลายและความเปราะบางของโครงสร้างพื้นฐาน",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการโจมตีทางไซเบอร์ต่อซูเปอร์มาร์เก็ตในยุโรป ตู้เย็นทั่วโลก และการใช้กลโกงสัมภาษณ์งานปลอมเพื่อแฮก Binance",
+          "evidence_summary": "แอปแจ้งเตือนการโจมตีทางอากาศในยูเครนและรัสเซียถูกแฮก การจัดเก็บเลือดของฝรั่งเศสได้รับผลกระทบจากการแฮกตู้แช่แข็ง และวิศวกรของ Binance ตกเป็นเป้าหมายของแฮกเกอร์ ซึ่งบ่งชี้ถึง 'สงครามเย็นครั้งใหม่' ในโลกไซเบอร์",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
@@ -1897,37 +2028,28 @@
           ]
         },
         {
-          "title": "ความขัดแย้งทั่วโลกและการวางกำลังทางทหารที่ยังคงดำเนินอยู่",
-          "signal_strength": "เฝ้าระวัง",
+          "title": "วิกฤตสาธารณสุขจากโรคระบาดร้ายแรง",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการเจรจาไกล่เกลี่ยระหว่างยูเครนและรัสเซียในอาบูดาบี ขณะที่เกาหลีเหนือยิงขีปนาวุธหลายลูก และมีการซ้อมรบร่วมครั้งแรกของ Coalition of the Willing ในโปแลนด์",
+          "evidence_summary": "รายงานข่าวการระบาดของโรคยืนยันการระบาดของโรคอีโบลาที่เกิดจากไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-              "source": "aol.co.uk"
-            },
-            {
-              "url": "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
-              "source": "channelnewsasia.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีการโจมตีทางไซเบอร์โดยแฮกเกอร์ที่มุ่งเป้าไปที่ตู้เย็นทั่วโลก ซึ่งบ่งชี้ถึงช่องทางใหม่ในการทำสงครามไซเบอร์",
-        "มีการระบุแรนซัมแวร์ชื่อ SafePay ซึ่งเป็นภัยคุกคามทางไซเบอร์ในระดับท้องถิ่น"
+        "เหตุการณ์ไซเบอร์ที่เกี่ยวข้องกับการแฮกตู้เย็นทั่วโลกถูกระบุว่าเป็นส่วนหนึ่งของ 'สงครามเย็นครั้งใหม่'"
       ],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with US airstrikes and Iranian warnings, alongside ongoing conflicts in Ukraine and North Korean missile launches. Concurrently, there is a significant rise in cyberattacks targeting critical infrastructure, financial institutions, and public alert systems globally, contributing to market volatility and economic uncertainty.",
+      "executive_summary_en": "The global risk landscape is currently driven by heightened geopolitical tensions, particularly in the Middle East with nuclear threats and attacks in the Strait of Hormuz, alongside ongoing conflicts and cyber warfare. Additionally, there are concerns regarding public health due to an Ebola outbreak and significant cyber incidents impacting critical infrastructure.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions in the Middle East",
+          "title": "Escalating Geopolitical Conflict in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "US airstrikes on Iran in the Strait of Hormuz have been reported, and Iranian TV broadcast a warning video on surviving a nuclear strike.",
+          "evidence_summary": "Iranian TV broadcast a nuclear strike survival video, and an Iranian island in the Hormuz Strait was reportedly attacked, followed by US airstrikes on Iran in the same strait.",
           "refs": [
             {
               "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
@@ -1944,10 +2066,10 @@
           ]
         },
         {
-          "title": "Widespread Cyberattacks Targeting Critical Infrastructure and Finance",
+          "title": "Widespread Cyber Warfare and Infrastructure Vulnerabilities",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Cyberattacks have been reported on supermarkets in Europe, fridges globally, and a fake job interview scam was used to hack Binance.",
+          "evidence_summary": "Public air raid alert apps in Ukraine and Russia were hacked, French blood storage was impacted by freezer hacks, and a Binance engineer was targeted by hackers, indicating a broad 'new cold war' in cyberspace.",
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
@@ -1964,33 +2086,24 @@
           ]
         },
         {
-          "title": "Persistent Global Conflicts and Military Posturing",
-          "signal_strength": "เฝ้าระวัง",
+          "title": "Public Health Crisis from High-Consequence Disease",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Mediation talks between Ukraine and Russia are scheduled in Abu Dhabi, while North Korea fired multiple missiles, and the Coalition of the Willing held its first joint military exercises in Poland.",
+          "evidence_summary": "A Disease Outbreak News report confirmed an Ebola disease outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-mediate-020038000.html",
-              "source": "aol.co.uk"
-            },
-            {
-              "url": "https://www.channelnewsasia.com/world/russia-ukraine-war-black-sea-nato-6516256",
-              "source": "channelnewsasia.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "Hackers have targeted fridges across the globe, indicating a new vector for cyber warfare.",
-        "A ransomware variant named SafePay has been identified, posing a local cyber threat."
+        "The cyber incident involving hackers targeting fridges across the globe is noted as part of a 'new cold war.'"
       ]
     },
-    "generated_at": "2026-11-04T06:38:42Z"
+    "generated_at": "2026-11-05T03:35:49Z"
   },
-  "updated_at": "2026-11-04T19:51:48Z",
+  "updated_at": "2026-11-05T03:35:49Z",
   "version": 1
 }
