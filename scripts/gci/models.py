@@ -32,6 +32,28 @@ def parse_iso(text: str | None) -> datetime | None:
     return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
 
+def newest_data_time(data: Any) -> str | None:
+    """When the freshest item in a fetcher's payload happened (not when we fetched it).
+
+    Articles carry `.published`, hazard dicts carry `time`, market payloads carry
+    daily closes as `YYYY-MM-DD`. Market data is date-only (a daily close), so that
+    case returns a bare date and the UI shows no clock time for it."""
+    newest: datetime | None = None
+    newest_day: str | None = None
+    items = data.values() if isinstance(data, dict) else (data if isinstance(data, list) else [])
+    for it in items:
+        if isinstance(it, dict) and "rows" in it and it["rows"]:       # market indicator
+            day = max(r[0] for r in it["rows"])
+            newest_day = max(newest_day, day) if newest_day else day
+            continue
+        ts = it.get("time") if isinstance(it, dict) else getattr(it, "published", None)
+        if isinstance(ts, datetime) and (newest is None or ts > newest):
+            newest = ts
+    if newest is not None:
+        return iso(newest)
+    return newest_day
+
+
 @dataclass
 class SourceResult:
     """Outcome of one fetcher. `data` is None when the source failed entirely."""
@@ -52,6 +74,8 @@ class SourceResult:
             "status": "ok" if self.ok else "error",
             "fetched_at": iso(self.fetched_at),
             "items": count,
+            # Newest underlying data point; None when unknown or the fetch failed.
+            "data_as_of": newest_data_time(self.data) if self.ok else None,
             "error": self.error,
             "note": self.note,
             "optional": self.optional,

@@ -15,6 +15,17 @@ const DICT = {
   localTime: { th: "(เวลาไทย)", en: "(Bangkok time)" },
   failedSources: { th: "แหล่งที่ไม่ตอบสนอง", en: "Sources not responding" },
   allSourcesOk: { th: "ทุกแหล่งข้อมูลตอบสนองปกติ", en: "All sources responded normally" },
+  freshTitle: { th: "ความสดของข้อมูลแต่ละแหล่ง", en: "How fresh is each source" },
+  freshSub: {
+    th: "“ข้อมูลล่าสุด” คือเวลาของรายการใหม่สุดที่แหล่งนั้นรายงาน ส่วน “ดึงเมื่อ” คือเวลาที่ระบบดึงข้อมูลรอบนี้ (เวลาไทย)",
+    en: "“Latest data” is the time of the newest item the source reported; “Fetched” is when this run pulled it (Bangkok time)",
+  },
+  freshSource: { th: "แหล่งข้อมูล", en: "Source" },
+  freshLatest: { th: "ข้อมูลล่าสุด", en: "Latest data" },
+  freshFetched: { th: "ดึงเมื่อ", en: "Fetched" },
+  freshDailyClose: { th: "ราคาปิดรายวัน", en: "daily close" },
+  freshUnknown: { th: "ไม่ระบุ", en: "n/a" },
+  freshFailed: { th: "ดึงไม่สำเร็จ", en: "fetch failed" },
   langLabel: { th: "ภาษา", en: "Language" },
   // relative time
   justNow: { th: "เมื่อสักครู่", en: "just now" },
