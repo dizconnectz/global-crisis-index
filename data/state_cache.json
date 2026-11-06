@@ -1,6 +1,252 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:23e591e8c3": {
+        "id": "geo:conflict:23e591e8c3",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Two dead after bus crashes in France, officials say",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "france"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "wthitv.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:762bfd26d0": {
+        "id": "geo:conflict:762bfd26d0",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:14d281fd80": {
+        "id": "geo:conflict:14d281fd80",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:38384a8522": {
+        "id": "geo:conflict:38384a8522",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Millions fleeing Sudan’s war risk losing shelter as funds run low, UN warns",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "sudan"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:mobilization:54155a838b": {
+        "id": "geo:mobilization:54155a838b",
+        "pillar": "geo",
+        "category": "mobilization",
+        "category_th": "การเคลื่อนกำลังพล",
+        "category_en": "Military mobilisation",
+        "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
+        "severity": 45.0,
+        "score": 27.0,
+        "countries": [
+          "ukraine",
+          "france",
+          "united kingdom",
+          "poland"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:c17dce4ca3": {
+        "id": "geo:sanctions:c17dce4ca3",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "EXCLUSIVE: VietJet to pay lessor $250 million after court-ordered asset freeze, sources say - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-06T06:57:31Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:5009c8e190": {
         "id": "geo:conflict:5009c8e190",
         "pillar": "geo",
@@ -70,39 +316,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:762bfd26d0": {
-        "id": "geo:conflict:762bfd26d0",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-05T20:04:17Z",
         "last_seen": "2026-11-06T06:57:31Z",
         "is_local": false,
         "location": null,
@@ -179,39 +392,6 @@
         ],
         "link_sources": [
           "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T06:57:31Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:c17dce4ca3": {
-        "id": "geo:sanctions:c17dce4ca3",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "EXCLUSIVE: VietJet to pay lessor $250 million after court-ordered asset freeze, sources say - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
         ],
         "first_seen": "2026-11-06T06:57:31Z",
         "last_seen": "2026-11-06T06:57:31Z",
@@ -548,41 +728,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:38384a8522": {
-        "id": "geo:conflict:38384a8522",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Sudan factories struggle to restart after devastating wartime losses",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T05:22:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:d1faafcc70": {
         "id": "geo:sanctions:d1faafcc70",
         "pillar": "geo",
@@ -759,42 +904,6 @@
         ],
         "first_seen": "2026-11-04T06:38:42Z",
         "last_seen": "2026-11-04T19:51:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "US Launches Airstrikes on Iran in Strait of Hormuz Ahead of Midterms",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "wthitv.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.wthitv.com:443/2026/11/03/us-strikes-strait-hormuz-create-more-questions-about-whats-ahead/",
-            "source": "wthitv.com"
-          }
-        ],
-        "link_sources": [
-          "wthitv.com"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-04T06:38:42Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1693,42 +1802,6 @@
       }
     },
     "bio_infra": {
-      "bio_infra:high_consequence:08ddd752fb": {
-        "id": "bio_infra:high_consequence:08ddd752fb",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
-        "severity": 45.0,
-        "score": 45.0,
-        "countries": [
-          "dr congo",
-          "nigeria"
-        ],
-        "sources": [
-          "WHO DON"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
-        ],
-        "refs": [
-          {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-            "source": "WHO DON"
-          }
-        ],
-        "link_sources": [
-          "WHO DON"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "bio_infra:vuln_advisory:ebd92c9de6": {
         "id": "bio_infra:vuln_advisory:ebd92c9de6",
         "pillar": "bio_infra",
@@ -1742,7 +1815,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
         ],
@@ -1756,7 +1829,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-06T06:57:31Z",
+        "last_seen": "2026-11-06T19:29:50Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1789,7 +1862,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-06T06:57:31Z",
+        "last_seen": "2026-11-06T19:29:50Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1822,39 +1895,78 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-06T06:57:31Z",
+        "last_seen": "2026-11-06T19:29:50Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:vuln_advisory:0d4a7098ef": {
-        "id": "bio_infra:vuln_advisory:0d4a7098ef",
+      "bio_infra:high_consequence:6179c355b9": {
+        "id": "bio_infra:high_consequence:6179c355b9",
         "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Vulnerability Analysis PathwayCourse FY27",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [
+          "dr congo"
+        ],
         "sources": [
-          "CISA"
+          "Al Jazeera",
+          "BBC World"
         ],
         "article_count": 1,
         "links": [
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5"
+          "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5",
-            "source": "CISA"
+            "url": "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "CISA"
+          "Al Jazeera"
         ],
-        "first_seen": "2026-11-06T06:57:31Z",
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-06T19:29:50Z",
+        "is_local": true,
+        "location": "คองโก",
+        "location_en": "DR Congo",
+        "raw_score": 27.0
+      },
+      "bio_infra:high_consequence:08ddd752fb": {
+        "id": "bio_infra:high_consequence:08ddd752fb",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
+        "severity": 45.0,
+        "score": 45.0,
+        "countries": [
+          "dr congo",
+          "nigeria"
+        ],
+        "sources": [
+          "WHO DON"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+        ],
+        "refs": [
+          {
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
+          }
+        ],
+        "link_sources": [
+          "WHO DON"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-06T06:57:31Z",
         "is_local": false,
         "location": null,
@@ -1895,42 +2007,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:high_consequence:6179c355b9": {
-        "id": "bio_infra:high_consequence:6179c355b9",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "WHO approves trials for two new Ebola vaccines",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-04T19:51:48Z",
-        "is_local": true,
-        "location": "คองโก",
-        "location_en": "DR Congo",
-        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:8907bdf767": {
         "id": "bio_infra:cyber_incident:8907bdf767",
@@ -2284,61 +2360,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 65.4,
-      "as_of": "2026-11-06T06:57:31Z"
+      "score": 53.6,
+      "as_of": "2026-11-06T19:29:50Z"
     },
     "geo": {
-      "score": 67.1,
-      "as_of": "2026-11-06T06:57:31Z"
+      "score": 63.4,
+      "as_of": "2026-11-06T19:29:50Z"
     },
     "nat": {
-      "score": 30.0,
-      "as_of": "2026-11-06T06:57:31Z"
+      "score": 32.1,
+      "as_of": "2026-11-06T19:29:50Z"
     },
     "bio_infra": {
-      "score": 55.0,
-      "as_of": "2026-11-06T06:57:31Z"
+      "score": 53.0,
+      "as_of": "2026-11-06T19:29:50Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 28.18000030517578,
-      "change_pct": 63.84,
-      "drawdown_pct": -9.24,
-      "last_date": "2026-11-05",
-      "as_of": "2026-11-06T06:57:31Z",
+      "last": 24.420000076293945,
+      "change_pct": 25.75,
+      "drawdown_pct": -21.35,
+      "last_date": "2026-11-06",
+      "as_of": "2026-11-06T19:29:50Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 99.97000122070312,
-      "change_pct": -15.02,
-      "drawdown_pct": -15.53,
+      "last": 98.58000183105469,
+      "change_pct": -16.2,
+      "drawdown_pct": -16.7,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T06:57:31Z",
+      "as_of": "2026-11-06T19:29:50Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4055.699951171875,
-      "change_pct": 4.02,
-      "drawdown_pct": -23.74,
+      "last": 4076.89990234375,
+      "change_pct": 4.57,
+      "drawdown_pct": -23.34,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T06:57:31Z",
+      "as_of": "2026-11-06T19:29:50Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7353.72998046875,
-      "change_pct": -4.75,
-      "drawdown_pct": -5.95,
-      "last_date": "2026-11-05",
-      "as_of": "2026-11-06T06:57:31Z",
+      "last": 7401.7099609375,
+      "change_pct": -2.35,
+      "drawdown_pct": -5.34,
+      "last_date": "2026-11-06",
+      "as_of": "2026-11-06T19:29:50Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 131.89999389648438,
-      "change_pct": -22.99,
-      "drawdown_pct": -39.59,
-      "last_date": "2026-11-05",
-      "as_of": "2026-11-06T06:57:31Z",
+      "last": 136.3249969482422,
+      "change_pct": -13.26,
+      "drawdown_pct": -37.56,
+      "last_date": "2026-11-06",
+      "as_of": "2026-11-06T19:29:50Z",
       "provider": "yfinance"
     }
   },
@@ -2346,25 +2422,25 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "60db6bc6581c61d8",
+    "events_hash": "3d87122244945f98",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
-      "gdacs:TC1001346",
       "geo:chokepoint:73ae71ea05",
       "geo:invasion:7d6b0d5274",
       "geo:missile_strike:6c82092395",
+      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:ec9f74ca51",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 65.4,
+    "econ_score": 53.6,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางจากเหตุการณ์ที่เกี่ยวข้องกับอิหร่านและการโจมตีทางอากาศของสหรัฐฯ ควบคู่ไปกับความขัดแย้งและการคว่ำบาตรที่ดำเนินอยู่ เหตุการณ์เหล่านี้ส่งผลให้ตลาดมีความผันผวนอย่างมาก รวมถึงดัชนี VIX ที่เพิ่มขึ้นและดัชนีตลาดหุ้นหลักที่ลดลง",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันได้รับแรงขับเคลื่อนจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งการกระทำของอิหร่านในช่องแคบฮอร์มุซและวาทศิลป์ด้านนิวเคลียร์ ควบคู่ไปกับความผันผวนของตลาดที่สะท้อนจากดัชนี VIX ที่เพิ่มขึ้นและดัชนีหุ้นที่ลดลง นอกจากนี้ การระบาดของอีโบลาครั้งใหม่และการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญยังเป็นปัจจัยเสริมในภูมิทัศน์ความเสี่ยงที่ซับซ้อนนี้",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่เพิ่มขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ การโจมตีทางอากาศของสหรัฐฯ ต่ออิหร่าน และการเผยแพร่วิดีโอเตือนภัยนิวเคลียร์จากอิหร่าน ซึ่งบ่งชี้ถึงความตึงเครียดที่เพิ่มขึ้นในภูมิภาค",
+          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ขณะที่อิหร่านยังคงกดดันหลังการลงคะแนนเสียงของสหรัฐฯ และมีการเผยแพร่วิดีโอเตือนภัยการโจมตีด้วยนิวเคลียร์ทางโทรทัศน์ของอิหร่าน",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2375,16 +2451,32 @@
               "source": "metro.co.uk"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามด้านสาธารณสุขและโครงสร้างพื้นฐานที่สำคัญทางไซเบอร์",
+          "title": "ความผันผวนของตลาดโลกและความไม่แน่นอนทางเศรษฐกิจ",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและการคว่ำบาตรของสหรัฐฯ ต่อการเชื่อมโยงน้ำมันของอิหร่านส่งผลกระทบต่อการค้าและตลาดพลังงานโลก",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
+              "source": "dailyexcelsior.com"
+            }
+          ]
+        },
+        {
+          "title": "ภัยคุกคามด้านสุขภาพและไซเบอร์ที่เกิดขึ้นใหม่",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการโจมตีทางไซเบอร์ที่ส่งผลกระทบต่อการจัดเก็บเลือดในฝรั่งเศสและตู้เย็นทั่วโลก",
+          "evidence_summary": "มีการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการโจมตีทางไซเบอร์ที่ส่งผลกระทบต่อการจัดเก็บเลือดในฝรั่งเศสและเป้าหมายตู้เย็นทั่วโลก",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
@@ -2399,38 +2491,16 @@
               "source": "ksut.org"
             }
           ]
-        },
-        {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์และการคว่ำบาตรทางเศรษฐกิจที่ขยายวงกว้าง",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "อินเดียอยู่ระหว่างการเจรจาขั้นสุดท้ายเพื่อขยายการขายขีปนาวุธให้ฟิลิปปินส์ ในขณะที่เวียดเจ็ทและทีมทัพรวันดาเผชิญกับการคว่ำบาตรของสหรัฐฯ และมีการซ้อมรบร่วมในโปแลนด์",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ]
         }
       ],
-      "local_notes_th": [
-        "พายุไซโคลนเขตร้อน MURASU-26 ได้รับการแจ้งเตือนระดับสีแดงในอินเดีย โดยมีประชากร 1.506 ล้านคนได้รับผลกระทบจากความเร็วลมระดับ 1 (120 กม./ชม.) หรือสูงกว่า"
-      ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with incidents involving Iran and US airstrikes, alongside ongoing conflicts and sanctions. These events are contributing to significant market volatility, including a rise in the VIX index and declines in major stock indices.",
+      "local_notes_th": [],
+      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly concerning Iran's actions in the Strait of Hormuz and its nuclear rhetoric, alongside ongoing market volatility reflected in rising VIX and falling equity indices. Additionally, a new Ebola outbreak and cyberattacks on critical infrastructure contribute to the complex risk landscape.",
       "early_warnings_en": [
         {
           "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tankers were reportedly hit in Hormuz, US launched airstrikes on Iran, and Iran broadcast a nuclear strike warning video, indicating heightened regional tensions.",
+          "evidence_summary": "Tankers were reportedly hit in Hormuz as Iran maintains pressure after the US vote, and Iranian TV broadcast a chilling warning video on how to survive a nuclear strike.",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2441,16 +2511,32 @@
               "source": "metro.co.uk"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "Global Health and Critical Infrastructure Cyber Threats",
+          "title": "Global Market Volatility and Economic Uncertainty",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Tanker attacks in the Strait of Hormuz and US sanctions on Iran oil links are impacting global trade and energy markets.",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
+              "source": "dailyexcelsior.com"
+            }
+          ]
+        },
+        {
+          "title": "Emerging Health and Cyber Threats",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "An Ebola outbreak is reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside cyberattacks impacting French blood storage and fridges globally.",
+          "evidence_summary": "An Ebola disease outbreak caused by Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside cyberattacks impacting French blood storage and targeting fridges across the globe.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
@@ -2465,34 +2551,12 @@
               "source": "ksut.org"
             }
           ]
-        },
-        {
-          "title": "Broadening Geopolitical Conflicts and Economic Sanctions",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "India is in final-stage talks to expand missile sales to the Philippines, while VietJet and Rwanda's army team face US sanctions, and joint military exercises are held in Poland.",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV000QWU5a0lPSXVaZDVhb0pJOXkzUjN0MWVXMVNZemNfS2E3SFhXMEdwNzVyLWw5UGU4dlFaYzVlUzkwQ0RGUlgxZUg1ZEJQTWd0aDdLWlpza2hZR1NMZzRJTEV5U1U2cjZ3bnVpZUtjc3lKdzZKd3dDY2VscFk1ejhiTHNJYWIxdm01SV85YzBxU0dnWHB6c1ROd01wZURpSE5MQnVLVThUbnlRSXNHR0dDZWIzSmRjRXRjZWFuTQ?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ]
         }
       ],
-      "local_notes_en": [
-        "Tropical cyclone MURASU-26 has a red notification in India, affecting 1.506 million people with Category 1 (120 km/h) wind speeds or higher."
-      ]
+      "local_notes_en": []
     },
-    "generated_at": "2026-11-06T06:57:31Z"
+    "generated_at": "2026-11-06T19:29:50Z"
   },
-  "updated_at": "2026-11-06T06:57:31Z",
+  "updated_at": "2026-11-06T19:29:50Z",
   "version": 1
 }
