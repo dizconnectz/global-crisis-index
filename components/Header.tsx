@@ -6,9 +6,11 @@ import type { LatestState } from "@/lib/types";
 import { fmtDate, relativeParts } from "@/lib/format";
 import { useLang, type Lang } from "@/lib/i18n";
 
-// Pipeline runs every 6h; allow one missed run before calling data late.
-const FRESH_H = 7;
-const LATE_H = 13;
+// The workflow is scheduled every 6h, but GitHub throttles scheduled runs and in
+// practice they land roughly every 11-13h. "Fresh" covers that real cadence;
+// "late" allows one more missed run before the data is called stale.
+const FRESH_H = 14;
+const LATE_H = 26;
 
 function LangToggle() {
   const { lang, setLang, t } = useLang();

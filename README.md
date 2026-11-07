@@ -3,7 +3,7 @@
 🌐 **Live site:** <https://dizconnectz.github.io/global-crisis-index/>
 
 A 0–100 index of **systemic impact on the world**, built from four pillars: the economy & energy markets, geopolitical conflict, natural hazards at strategic hubs, and health & critical infrastructure.
-The site is available in Thai and English, hosted free on **GitHub Pages**, and refreshed every 6 hours by **GitHub Actions** — no server, no database, no paid services.
+The site is available in Thai and English, hosted free on **GitHub Pages**, and refreshed several times a day by **GitHub Actions** — no server, no database, no paid services.
 
 | Score | Meaning |
 |---|---|
@@ -49,7 +49,7 @@ Everything runs in one GitHub Actions workflow: [`.github/workflows/update_and_d
 
 | Trigger | When |
 |---|---|
-| Schedule (`17 */6 * * *`) | Every 6 hours at minute 17 UTC (00:17, 06:17, 12:17, 18:17 UTC). GitHub may start scheduled runs a few minutes late. |
+| Schedule (`17 */6 * * *`) | Every 6 hours at minute 17 UTC (00:17, 06:17, 12:17, 18:17 UTC). GitHub often delays or skips scheduled runs when its queue is busy; in practice runs land roughly every 11-13 hours. |
 | Manual | Actions tab → *Update index & deploy* → **Run workflow** |
 | Code push to `main` | Rebuilds after code changes (data-only and README commits are ignored) |
 
@@ -168,7 +168,7 @@ All settings live in `config/scoring_rules.json`: pillar weights, market referen
 - News is classified using English keywords, so some events may be missed or put in the wrong category.
 - Headlines are shown in their original language (English).
 - The index measures systemic impact on the world, not the human toll in any one place.
-- It updates every 6 hours. It is not a real-time warning system and not investment advice.
+- It is scheduled every 6 hours, but GitHub often delays scheduled runs, so data can be up to about 13 hours old. It is not a real-time warning system and not investment advice.
 - The watchlist summarises reported news. It is not a probability forecast.
 - GDELT limits request rates. When it is unavailable, the conflict pillar relies on the remaining news feeds.
 
