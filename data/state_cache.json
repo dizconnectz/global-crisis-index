@@ -30,7 +30,79 @@
           "BBC World"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "manilatimes.net"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-07T13:14:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:14d281fd80": {
+        "id": "geo:conflict:14d281fd80",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -65,7 +137,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -101,7 +173,82 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:66b49f810a": {
+        "id": "geo:sanctions:66b49f810a",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
+        "severity": 40.0,
+        "score": 31.7,
+        "countries": [
+          "canada",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T13:14:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "wthitv.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -173,87 +320,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T11:51:55Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:66b49f810a": {
-        "id": "geo:sanctions:66b49f810a",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
-        "severity": 40.0,
-        "score": 32.0,
-        "countries": [
-          "canada",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-07T06:09:31Z",
-        "last_seen": "2026-11-07T11:51:55Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "wthitv.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
         "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
@@ -397,41 +463,6 @@
         ],
         "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-07T06:09:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:14d281fd80": {
-        "id": "geo:conflict:14d281fd80",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-06T19:29:50Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -655,43 +686,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-06T06:57:31Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-06T06:57:31Z",
         "is_local": false,
         "location": null,
@@ -1962,7 +1956,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1995,7 +1989,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2028,7 +2022,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2061,7 +2055,42 @@
           "CISA"
         ],
         "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T11:51:55Z",
+        "last_seen": "2026-11-07T13:14:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:c705264ec3": {
+        "id": "bio_infra:cyber_incident:c705264ec3",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T13:14:34Z",
+        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2527,19 +2556,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-07T11:51:55Z"
+      "as_of": "2026-11-07T13:14:34Z"
     },
     "geo": {
-      "score": 59.1,
-      "as_of": "2026-11-07T11:51:55Z"
+      "score": 65.4,
+      "as_of": "2026-11-07T13:14:34Z"
     },
     "nat": {
-      "score": 10.1,
-      "as_of": "2026-11-07T11:51:55Z"
+      "score": 10.0,
+      "as_of": "2026-11-07T13:14:34Z"
     },
     "bio_infra": {
-      "score": 48.3,
-      "as_of": "2026-11-07T11:51:55Z"
+      "score": 49.3,
+      "as_of": "2026-11-07T13:14:34Z"
     }
   },
   "econ_indicators": {
@@ -2548,7 +2577,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:51:55Z",
+      "as_of": "2026-11-07T13:14:34Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -2556,7 +2585,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:51:55Z",
+      "as_of": "2026-11-07T13:14:34Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -2564,7 +2593,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:51:55Z",
+      "as_of": "2026-11-07T13:14:34Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -2572,7 +2601,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:51:55Z",
+      "as_of": "2026-11-07T13:14:34Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -2580,7 +2609,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:51:55Z",
+      "as_of": "2026-11-07T13:14:34Z",
       "provider": "yfinance"
     }
   },
@@ -2706,6 +2735,6 @@
     },
     "generated_at": "2026-11-07T11:17:01Z"
   },
-  "updated_at": "2026-11-07T11:51:55Z",
+  "updated_at": "2026-11-07T13:14:34Z",
   "version": 1
 }

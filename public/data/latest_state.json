@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T11:51:55Z",
-  "global_score": 49,
+  "generated_at": "2026-11-07T13:14:34Z",
+  "global_score": 51,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,10 +11,10 @@
     "color": "orange"
   },
   "formula": {
-    "base": 48.87,
+    "base": 51.21,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 59.1,
+    "max1": 65.4,
     "max2": 55.5,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 59.1,
+      "score": 65.4,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -183,9 +183,9 @@
           "category": "chokepoint",
           "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
           "category_en": "Shipping chokepoint threat",
-          "title": "Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
           "severity": 85.0,
-          "score": 41.9,
+          "score": 51.0,
           "countries": [
             "iran"
           ],
@@ -196,19 +196,19 @@
           ],
           "article_count": 1,
           "links": [
-            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5"
+            "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
           ],
           "refs": [
             {
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ],
           "link_sources": [
-            "Reuters (Google News)"
+            "Al Jazeera"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-06T06:57:31Z",
+          "last_seen": "2026-11-07T13:14:34Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -222,7 +222,7 @@
           "category_en": "Nuclear threat",
           "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
           "severity": 95.0,
-          "score": 33.8,
+          "score": 33.5,
           "countries": [
             "iran"
           ],
@@ -244,43 +244,6 @@
           ],
           "first_seen": "2026-11-03T19:34:54Z",
           "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:a59ee23b9a",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "Russia launches missile attack on Kyiv, injuring residents",
-          "severity": 55.0,
-          "score": 33.0,
-          "countries": [
-            "russia",
-            "ukraine"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-              "source": "Al Jazeera"
-            }
-          ],
-          "link_sources": [
-            "Al Jazeera"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-07T11:51:55Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -318,6 +281,43 @@
             "Reuters (Google News)"
           ],
           "first_seen": "2026-11-03T06:56:57Z",
+          "last_seen": "2026-11-07T13:14:34Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:missile_strike:a59ee23b9a",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "severity": 55.0,
+          "score": 32.7,
+          "countries": [
+            "russia",
+            "ukraine"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
           "last_seen": "2026-11-07T11:51:55Z",
           "is_local": false,
           "location": null,
@@ -330,9 +330,9 @@
           "category": "sanctions",
           "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
           "category_en": "Sanctions / trade war",
-          "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+          "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
           "severity": 40.0,
-          "score": 32.0,
+          "score": 31.7,
           "countries": [
             "canada",
             "iran"
@@ -341,27 +341,21 @@
             "Al Jazeera",
             "Reuters (Google News)"
           ],
-          "article_count": 2,
+          "article_count": 1,
           "links": [
-            "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
             "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
           ],
           "refs": [
-            {
-              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
             {
               "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
               "source": "Reuters (Google News)"
             }
           ],
           "link_sources": [
-            "Al Jazeera",
             "Reuters (Google News)"
           ],
           "first_seen": "2026-11-07T06:09:31Z",
-          "last_seen": "2026-11-07T11:51:55Z",
+          "last_seen": "2026-11-07T13:14:34Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -393,7 +387,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 71,
+          "value": 70,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 7 กลุ่มเหตุการณ์",
@@ -404,7 +398,7 @@
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 10.1,
+      "score": 10.0,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -419,8 +413,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 5.4,
-          "score": 5.4,
+          "severity": 5.3,
+          "score": 5.3,
           "countries": [],
           "sources": [
             "USGS"
@@ -443,7 +437,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 5.4
+          "raw_score": 5.3
         }
       ],
       "metrics": [
@@ -481,7 +475,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 161,
+          "value": 176,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -492,7 +486,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 48.3,
+      "score": 49.3,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -508,7 +502,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 37.0,
+          "score": 36.7,
           "countries": [
             "dr congo",
             "nigeria"
@@ -537,6 +531,41 @@
           "raw_score": null
         },
         {
+          "id": "bio_infra:cyber_incident:c705264ec3",
+          "pillar": "bio_infra",
+          "category": "cyber_incident",
+          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "category_en": "Actual cyber incident",
+          "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+          "severity": 40.0,
+          "score": 24.0,
+          "countries": [
+            "russia"
+          ],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-07T13:14:34Z",
+          "last_seen": "2026-11-07T13:14:34Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "bio_infra:cyber_incident:23e591e8c3",
           "pillar": "bio_infra",
           "category": "cyber_incident",
@@ -544,7 +573,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 16.8,
+          "score": 16.6,
           "countries": [
             "france"
           ],
@@ -579,7 +608,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 14.2,
+          "score": 14.1,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -612,7 +641,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 14.2,
+          "score": 14.1,
           "countries": [],
           "sources": [
             "BBC World"
@@ -636,43 +665,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "bio_infra:cyber_incident:d291e724fb",
-          "pillar": "bio_infra",
-          "category": "cyber_incident",
-          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-          "category_en": "Actual cyber incident",
-          "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
-          "severity": 40.0,
-          "score": 14.2,
-          "countries": [
-            "european union",
-            "germany",
-            "united kingdom"
-          ],
-          "sources": [
-            "Al Jazeera"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks?traffic_source=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks?traffic_source=rss",
-              "source": "Al Jazeera"
-            }
-          ],
-          "link_sources": [
-            "Al Jazeera"
-          ],
-          "first_seen": "2026-11-04T06:38:42Z",
-          "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -690,7 +682,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 10,
+          "value": 11,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -714,10 +706,10 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 59.1,
-      "contribution": 20.7,
-      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters",
-      "headline_en": "Shipping chokepoint threat: Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters"
+      "score": 65.4,
+      "contribution": 22.9,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+      "headline_en": "Shipping chokepoint threat: Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation"
     },
     {
       "pillar": "econ",
@@ -732,8 +724,8 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 48.3,
-      "contribution": 7.2,
+      "score": 49.3,
+      "contribution": 7.4,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
@@ -857,7 +849,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:56Z",
+        "fetched_at": "2026-11-07T13:14:36Z",
         "items": 5,
         "data_as_of": "2026-11-06",
         "error": null,
@@ -868,7 +860,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-07T11:52:03Z",
+        "fetched_at": "2026-11-07T13:14:43Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -879,9 +871,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
-        "items": 22,
-        "data_as_of": "2026-11-07T07:20:00Z",
+        "fetched_at": "2026-11-07T13:14:34Z",
+        "items": 23,
+        "data_as_of": "2026-11-07T12:49:36Z",
         "error": null,
         "note": null,
         "optional": false
@@ -890,9 +882,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
+        "fetched_at": "2026-11-07T13:14:34Z",
         "items": 25,
-        "data_as_of": "2026-11-07T11:10:02Z",
+        "data_as_of": "2026-11-07T12:29:48Z",
         "error": null,
         "note": null,
         "optional": false
@@ -901,9 +893,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
-        "items": 24,
-        "data_as_of": "2026-11-07T11:07:59Z",
+        "fetched_at": "2026-11-07T13:14:35Z",
+        "items": 22,
+        "data_as_of": "2026-11-07T12:56:55Z",
         "error": null,
         "note": null,
         "optional": false
@@ -912,7 +904,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
+        "fetched_at": "2026-11-07T13:14:34Z",
         "items": 4,
         "data_as_of": "2026-11-06T10:39:27Z",
         "error": null,
@@ -923,9 +915,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:57Z",
-        "items": 196,
-        "data_as_of": "2026-11-07T11:24:32Z",
+        "fetched_at": "2026-11-07T13:14:36Z",
+        "items": 212,
+        "data_as_of": "2026-11-07T12:18:57Z",
         "error": null,
         "note": null,
         "optional": false
@@ -934,7 +926,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
+        "fetched_at": "2026-11-07T13:14:35Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -945,8 +937,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T11:51:55Z",
-        "items": 47,
+        "fetched_at": "2026-11-07T13:14:35Z",
+        "items": 46,
         "data_as_of": "2026-11-06T20:53:11Z",
         "error": null,
         "note": "google_news_fallback",
