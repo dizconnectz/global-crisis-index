@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T06:09:31Z",
-  "global_score": 50,
+  "generated_at": "2026-11-07T11:17:01Z",
+  "global_score": 49,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,10 +11,10 @@
     "color": "orange"
   },
   "formula": {
-    "base": 49.64,
+    "base": 48.95,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 60.5,
+    "max1": 59.3,
     "max2": 55.5,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 60.5,
+      "score": 59.3,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters",
           "severity": 85.0,
-          "score": 43.6,
+          "score": 42.1,
           "countries": [
             "iran"
           ],
@@ -222,7 +222,7 @@
           "category_en": "Nuclear threat",
           "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
           "severity": 95.0,
-          "score": 35.1,
+          "score": 33.9,
           "countries": [
             "iran"
           ],
@@ -244,43 +244,6 @@
           ],
           "first_seen": "2026-11-03T19:34:54Z",
           "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:73ae71ea05",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
-          "severity": 55.0,
-          "score": 33.0,
-          "countries": [
-            "iran"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World",
-            "wthitv.com"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ],
-          "link_sources": [
-            "BBC World"
-          ],
-          "first_seen": "2026-11-03T06:56:57Z",
-          "last_seen": "2026-11-07T06:09:31Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -317,40 +280,88 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-07T06:09:31Z",
+          "last_seen": "2026-11-07T11:17:01Z",
           "is_local": false,
           "location": null,
           "location_en": null,
           "raw_score": null
         },
         {
-          "id": "geo:invasion:7d6b0d5274",
+          "id": "geo:missile_strike:73ae71ea05",
           "pillar": "geo",
-          "category": "invasion",
-          "category_th": "การรุกรานหรือประกาศสงคราม",
-          "category_en": "Invasion or declaration of war",
-          "title": "Trump DOJ  invasion  hype backfires as judge threatens to punish officials behind it",
-          "severity": 80.0,
-          "score": 29.6,
-          "countries": [],
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
+          "severity": 55.0,
+          "score": 33.0,
+          "countries": [
+            "iran"
+          ],
           "sources": [
-            "rawstory.com"
+            "Al Jazeera",
+            "BBC World",
+            "Reuters (Google News)",
+            "wthitv.com"
           ],
           "article_count": 1,
           "links": [
-            "https://www.rawstory.com/justice-department-immigration/"
+            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
           ],
           "refs": [
             {
-              "url": "https://www.rawstory.com/justice-department-immigration/",
-              "source": "rawstory.com"
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+              "source": "Reuters (Google News)"
             }
           ],
           "link_sources": [
-            "rawstory.com"
+            "Reuters (Google News)"
           ],
-          "first_seen": "2026-11-04T06:38:42Z",
-          "last_seen": "2026-11-04T06:38:42Z",
+          "first_seen": "2026-11-03T06:56:57Z",
+          "last_seen": "2026-11-07T11:17:01Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:sanctions:66b49f810a",
+          "pillar": "geo",
+          "category": "sanctions",
+          "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+          "category_en": "Sanctions / trade war",
+          "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+          "severity": 40.0,
+          "score": 32.0,
+          "countries": [
+            "canada",
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "Reuters (Google News)"
+          ],
+          "article_count": 2,
+          "links": [
+            "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+            "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera",
+            "Reuters (Google News)"
+          ],
+          "first_seen": "2026-11-07T06:09:31Z",
+          "last_seen": "2026-11-07T11:17:01Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -362,7 +373,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 53,
+          "value": 54,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -382,18 +393,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 79,
+          "value": 71,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 9 event clusters"
+          "hint": "ยุบรวมเหลือ 7 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 7 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 10.4,
+      "score": 10.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -408,8 +419,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 5.6,
-          "score": 5.6,
+          "severity": 5.4,
+          "score": 5.4,
           "countries": [],
           "sources": [
             "USGS"
@@ -432,7 +443,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 5.6
+          "raw_score": 5.4
         }
       ],
       "metrics": [
@@ -470,7 +481,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 160,
+          "value": 161,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -481,7 +492,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 49.9,
+      "score": 48.4,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -497,7 +508,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 38.5,
+          "score": 37.1,
           "countries": [
             "dr congo",
             "nigeria"
@@ -533,7 +544,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 17.4,
+          "score": 16.8,
           "countries": [
             "france"
           ],
@@ -568,7 +579,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 14.8,
+          "score": 14.3,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -601,7 +612,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 14.8,
+          "score": 14.3,
           "countries": [],
           "sources": [
             "BBC World"
@@ -634,7 +645,7 @@
           "category_en": "Actual cyber incident",
           "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
           "severity": 40.0,
-          "score": 14.8,
+          "score": 14.3,
           "countries": [
             "european union",
             "germany",
@@ -689,7 +700,7 @@
           "key": "advisories",
           "label_th": "ประกาศช่องโหว่ทั่วไป",
           "label_en": "Routine vulnerability advisories",
-          "value": 3,
+          "value": 4,
           "unit": "รายการ",
           "unit_en": "items",
           "hint": null,
@@ -703,8 +714,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 60.5,
-      "contribution": 21.2,
+      "score": 59.3,
+      "contribution": 20.8,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters",
       "headline_en": "Shipping chokepoint threat: Tankers hit in Hormuz as Iran keeps up pressure after US vote - Reuters"
     },
@@ -721,20 +732,20 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 49.9,
-      "contribution": 7.5,
+      "score": 48.4,
+      "contribution": 7.3,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งการกระทำของอิหร่านในช่องแคบฮอร์มุซและภัยคุกคามทางนิวเคลียร์ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน พัฒนาการเหล่านี้ส่งผลให้ตลาดมีความผันผวนสูงขึ้น สะท้อนจากดัชนี VIX และราคาทองคำที่เพิ่มขึ้น และตลาดหุ้นกับหุ้นกลุ่มเซมิคอนดักเตอร์ที่ลดลง",
+    "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่เกี่ยวข้องกับอิหร่าน และความขัดแย้งที่ดำเนินอยู่ในยูเครน ควบคู่ไปกับการระบาดของโรคอีโบลา ตลาดการเงินสะท้อนความไม่แน่นอนนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหลักที่ลดลง ในขณะที่สินทรัพย์ปลอดภัยอย่างทองคำปรับตัวสูงขึ้น",
     "early_warnings_th": [
       {
-        "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "อิหร่านยังคงสร้างแรงกดดันผ่านการกระทำในช่องแคบฮอร์มุซ ออกคำเตือนการโจมตีด้วยนิวเคลียร์ และมีการก่อสร้างใกล้ฐานขีปนาวุธอย่างต่อเนื่อง ขณะที่เผชิญกับการคว่ำบาตรใหม่จากสหรัฐฯ",
+        "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ และอิหร่านยังคงกดดันหลังการลงคะแนนเสียงของสหรัฐฯ รวมถึงมีการคว่ำบาตรบริษัทที่เกี่ยวข้องกับอิหร่านและข่าวการโจมตีด้วยขีปนาวุธในเกาะเกชห์มของอิหร่าน",
         "refs": [
           {
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -745,16 +756,16 @@
             "source": "metro.co.uk"
           },
           {
-            "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+            "source": "Reuters (Google News)"
           }
         ]
       },
       {
-        "title": "ความขัดแย้งที่ดำเนินอยู่และแนวโน้มการยกระดับในยูเครน",
+        "title": "ความขัดแย้งที่ยืดเยื้อในยุโรปตะวันออก",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ และกองกำลังยุโรปกำลังเตรียมพร้อมสำหรับการประจำการหลังการหยุดยิงในยูเครน ซึ่งบ่งชี้ถึงความไม่มั่นคงที่ต่อเนื่อง",
+        "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ ทำให้มีผู้บาดเจ็บ และกองทหารยุโรปกำลังเตรียมพร้อมสำหรับการประจำการในยูเครนหลังการหยุดยิงที่เป็นไปได้",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
@@ -763,42 +774,30 @@
           {
             "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
             "source": "Al Jazeera"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
           }
         ]
       },
       {
-        "title": "ข้อพิพาททางการค้าและการคว่ำบาตรที่ขยายวงกว้าง",
+        "title": "การระบาดของโรคที่มีผลกระทบร้ายแรง",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "กระทรวงการคลังสหรัฐฯ ได้คว่ำบาตรบริษัทแคนาดาที่เกี่ยวข้องกับอิหร่าน และเรียกร้องให้จีนปฏิบัติตามข้อตกลงทางการค้า ขณะที่คำสั่งศาลอายัดทรัพย์สินส่งผลกระทบต่อสายการบินเวียตเจ็ท",
+        "evidence_summary": "มีรายงานข่าวการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
         "refs": [
           {
-            "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
           }
         ]
       }
     ],
     "local_notes_th": [],
-    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, notably involving Iran's actions in the Strait of Hormuz and nuclear threats, alongside ongoing conflict in Ukraine. These developments are contributing to heightened market volatility, reflected in rising VIX and gold prices, and declines in equity and semiconductor markets.",
+    "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, particularly in the Middle East involving Iran, and ongoing conflict in Ukraine, alongside a notable Ebola outbreak. Financial markets reflect this uncertainty with increased volatility and declines in major indices, while safe-haven assets like gold have risen.",
     "early_warnings_en": [
       {
-        "title": "Heightened Geopolitical Instability in the Middle East",
+        "title": "Escalating Geopolitical Tensions in the Middle East",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Iran continues to exert pressure through actions in the Strait of Hormuz, issues nuclear strike warnings, and has ongoing construction near missile bases, while facing new US sanctions.",
+        "evidence_summary": "Tankers were reportedly hit in Hormuz as Iran keeps up pressure after the US vote, alongside sanctions on firms with Iran ties and news of missile strikes on Iran's Qeshm Island.",
         "refs": [
           {
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -809,16 +808,16 @@
             "source": "metro.co.uk"
           },
           {
-            "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+            "source": "Reuters (Google News)"
           }
         ]
       },
       {
-        "title": "Ongoing Conflict and Potential Escalation in Ukraine",
+        "title": "Persistent Conflict in Eastern Europe",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-3 months",
-        "evidence_summary": "Russia has launched missile attacks on Kyiv, and European troops are preparing for a possible post-ceasefire deployment to Ukraine, indicating continued instability.",
+        "evidence_summary": "Russia launched a missile attack on Kyiv, injuring residents, and European troops are preparing for possible post-ceasefire deployment to Ukraine.",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
@@ -827,30 +826,18 @@
           {
             "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
             "source": "Al Jazeera"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
           }
         ]
       },
       {
-        "title": "Broadening Trade and Sanctions Disputes",
+        "title": "High-Consequence Disease Outbreak",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-3 months",
-        "evidence_summary": "The US Treasury has sanctioned Canadian firms over Iran ties and urged China to honor trade commitments, while a court-ordered asset freeze impacts VietJet.",
+        "evidence_summary": "Disease Outbreak News reported Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
         "refs": [
           {
-            "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
           }
         ]
       }
@@ -858,7 +845,7 @@
     "local_notes_en": [],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-07T06:09:31Z"
+    "generated_at": "2026-11-07T11:17:01Z"
   },
   "local_events": [],
   "data_status": {
@@ -870,7 +857,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:32Z",
+        "fetched_at": "2026-11-07T11:17:02Z",
         "items": 5,
         "data_as_of": "2026-11-06",
         "error": null,
@@ -881,7 +868,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-07T06:09:41Z",
+        "fetched_at": "2026-11-07T11:17:12Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -892,9 +879,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
-        "items": 27,
-        "data_as_of": "2026-11-07T03:25:00Z",
+        "fetched_at": "2026-11-07T11:17:01Z",
+        "items": 22,
+        "data_as_of": "2026-11-07T07:20:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -903,9 +890,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
+        "fetched_at": "2026-11-07T11:17:01Z",
         "items": 25,
-        "data_as_of": "2026-11-07T05:51:23Z",
+        "data_as_of": "2026-11-07T10:36:32Z",
         "error": null,
         "note": null,
         "optional": false
@@ -914,9 +901,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
-        "items": 27,
-        "data_as_of": "2026-11-07T00:21:00Z",
+        "fetched_at": "2026-11-07T11:17:01Z",
+        "items": 24,
+        "data_as_of": "2026-11-07T11:07:59Z",
         "error": null,
         "note": null,
         "optional": false
@@ -925,7 +912,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
+        "fetched_at": "2026-11-07T11:17:01Z",
         "items": 4,
         "data_as_of": "2026-11-06T10:39:27Z",
         "error": null,
@@ -936,9 +923,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:34Z",
-        "items": 193,
-        "data_as_of": "2026-11-07T04:11:52Z",
+        "fetched_at": "2026-11-07T11:17:03Z",
+        "items": 195,
+        "data_as_of": "2026-11-07T08:11:58Z",
         "error": null,
         "note": null,
         "optional": false
@@ -947,7 +934,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
+        "fetched_at": "2026-11-07T11:17:01Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -958,8 +945,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T06:09:31Z",
-        "items": 44,
+        "fetched_at": "2026-11-07T11:17:01Z",
+        "items": 46,
         "data_as_of": "2026-11-06T20:53:11Z",
         "error": null,
         "note": "google_news_fallback",

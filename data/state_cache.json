@@ -30,77 +30,78 @@
           "BBC World"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "wthitv.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-07T06:09:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:762bfd26d0": {
-        "id": "geo:conflict:762bfd26d0",
+      "geo:conflict:38384a8522": {
+        "id": "geo:conflict:38384a8522",
         "pillar": "geo",
         "category": "conflict",
         "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
         "category_en": "Armed conflict",
-        "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+        "title": "Sudan war and climate change see parents struggle to feed their children",
         "severity": 30.0,
         "score": 18.0,
-        "countries": [],
+        "countries": [
+          "sudan"
+        ],
         "sources": [
-          "BBC World"
+          "Al Jazeera"
         ],
         "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss"
+          "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
+            "url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World"
+          "Al Jazeera"
         ],
-        "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-07T11:17:01Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:d591d87e00": {
+        "id": "geo:conflict:d591d87e00",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Qatari PM says US willing to seek solution to war with Iran",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran",
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -137,7 +138,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -172,7 +173,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -186,28 +187,106 @@
         "category_en": "Sanctions / trade war",
         "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
         "severity": 40.0,
-        "score": 24.0,
+        "score": 32.0,
         "countries": [
           "canada",
           "iran"
         ],
         "sources": [
-          "Al Jazeera"
+          "Al Jazeera",
+          "Reuters (Google News)"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
-          "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
+          "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
         ],
         "refs": [
           {
             "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
             "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+            "source": "Reuters (Google News)"
           }
         ],
         "link_sources": [
-          "Al Jazeera"
+          "Al Jazeera",
+          "Reuters (Google News)"
         ],
         "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "wthitv.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-07T11:17:01Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:762bfd26d0": {
+        "id": "geo:conflict:762bfd26d0",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T20:04:17Z",
         "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
@@ -352,41 +431,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-06T19:29:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:38384a8522": {
-        "id": "geo:conflict:38384a8522",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Millions fleeing Sudan’s war risk losing shelter as funds run low, UN warns",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-06T19:29:50Z",
         "is_local": false,
         "location": null,
@@ -1904,13 +1948,13 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5",
             "source": "CISA"
           }
         ],
@@ -1918,7 +1962,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1951,7 +1995,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1984,7 +2028,40 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T11:17:01Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:0d4a7098ef": {
+        "id": "bio_infra:vuln_advisory:0d4a7098ef",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Vulnerability Analysis PathwayCourse FY27",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:17:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2450,19 +2527,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-07T06:09:31Z"
+      "as_of": "2026-11-07T11:17:01Z"
     },
     "geo": {
-      "score": 60.5,
-      "as_of": "2026-11-07T06:09:31Z"
+      "score": 59.3,
+      "as_of": "2026-11-07T11:17:01Z"
     },
     "nat": {
-      "score": 10.4,
-      "as_of": "2026-11-07T06:09:31Z"
+      "score": 10.1,
+      "as_of": "2026-11-07T11:17:01Z"
     },
     "bio_infra": {
-      "score": 49.9,
-      "as_of": "2026-11-07T06:09:31Z"
+      "score": 48.4,
+      "as_of": "2026-11-07T11:17:01Z"
     }
   },
   "econ_indicators": {
@@ -2471,7 +2548,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T06:09:31Z",
+      "as_of": "2026-11-07T11:17:01Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -2479,7 +2556,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T06:09:31Z",
+      "as_of": "2026-11-07T11:17:01Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -2487,7 +2564,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T06:09:31Z",
+      "as_of": "2026-11-07T11:17:01Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -2495,7 +2572,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T06:09:31Z",
+      "as_of": "2026-11-07T11:17:01Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -2503,7 +2580,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T06:09:31Z",
+      "as_of": "2026-11-07T11:17:01Z",
       "provider": "yfinance"
     }
   },
@@ -2511,23 +2588,24 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "a15959827acb371a",
+    "events_hash": "ccfb7cc926f7232a",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
       "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:a59ee23b9a",
-      "geo:nuclear:73ae71ea05"
+      "geo:nuclear:73ae71ea05",
+      "geo:sanctions:66b49f810a"
     ],
     "econ_score": 55.5,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งการกระทำของอิหร่านในช่องแคบฮอร์มุซและภัยคุกคามทางนิวเคลียร์ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน พัฒนาการเหล่านี้ส่งผลให้ตลาดมีความผันผวนสูงขึ้น สะท้อนจากดัชนี VIX และราคาทองคำที่เพิ่มขึ้น และตลาดหุ้นกับหุ้นกลุ่มเซมิคอนดักเตอร์ที่ลดลง",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่เกี่ยวข้องกับอิหร่าน และความขัดแย้งที่ดำเนินอยู่ในยูเครน ควบคู่ไปกับการระบาดของโรคอีโบลา ตลาดการเงินสะท้อนความไม่แน่นอนนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหลักที่ลดลง ในขณะที่สินทรัพย์ปลอดภัยอย่างทองคำปรับตัวสูงขึ้น",
       "early_warnings_th": [
         {
-          "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "อิหร่านยังคงสร้างแรงกดดันผ่านการกระทำในช่องแคบฮอร์มุซ ออกคำเตือนการโจมตีด้วยนิวเคลียร์ และมีการก่อสร้างใกล้ฐานขีปนาวุธอย่างต่อเนื่อง ขณะที่เผชิญกับการคว่ำบาตรใหม่จากสหรัฐฯ",
+          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ และอิหร่านยังคงกดดันหลังการลงคะแนนเสียงของสหรัฐฯ รวมถึงมีการคว่ำบาตรบริษัทที่เกี่ยวข้องกับอิหร่านและข่าวการโจมตีด้วยขีปนาวุธในเกาะเกชห์มของอิหร่าน",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2538,16 +2616,16 @@
               "source": "metro.co.uk"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         },
         {
-          "title": "ความขัดแย้งที่ดำเนินอยู่และแนวโน้มการยกระดับในยูเครน",
+          "title": "ความขัดแย้งที่ยืดเยื้อในยุโรปตะวันออก",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ และกองกำลังยุโรปกำลังเตรียมพร้อมสำหรับการประจำการหลังการหยุดยิงในยูเครน ซึ่งบ่งชี้ถึงความไม่มั่นคงที่ต่อเนื่อง",
+          "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ ทำให้มีผู้บาดเจ็บ และกองทหารยุโรปกำลังเตรียมพร้อมสำหรับการประจำการในยูเครนหลังการหยุดยิงที่เป็นไปได้",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
@@ -2556,42 +2634,30 @@
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "ข้อพิพาททางการค้าและการคว่ำบาตรที่ขยายวงกว้าง",
+          "title": "การระบาดของโรคที่มีผลกระทบร้ายแรง",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "กระทรวงการคลังสหรัฐฯ ได้คว่ำบาตรบริษัทแคนาดาที่เกี่ยวข้องกับอิหร่าน และเรียกร้องให้จีนปฏิบัติตามข้อตกลงทางการค้า ขณะที่คำสั่งศาลอายัดทรัพย์สินส่งผลกระทบต่อสายการบินเวียตเจ็ท",
+          "evidence_summary": "มีรายงานข่าวการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, notably involving Iran's actions in the Strait of Hormuz and nuclear threats, alongside ongoing conflict in Ukraine. These developments are contributing to heightened market volatility, reflected in rising VIX and gold prices, and declines in equity and semiconductor markets.",
+      "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, particularly in the Middle East involving Iran, and ongoing conflict in Ukraine, alongside a notable Ebola outbreak. Financial markets reflect this uncertainty with increased volatility and declines in major indices, while safe-haven assets like gold have risen.",
       "early_warnings_en": [
         {
-          "title": "Heightened Geopolitical Instability in the Middle East",
+          "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Iran continues to exert pressure through actions in the Strait of Hormuz, issues nuclear strike warnings, and has ongoing construction near missile bases, while facing new US sanctions.",
+          "evidence_summary": "Tankers were reportedly hit in Hormuz as Iran keeps up pressure after the US vote, alongside sanctions on firms with Iran ties and news of missile strikes on Iran's Qeshm Island.",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2602,16 +2668,16 @@
               "source": "metro.co.uk"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         },
         {
-          "title": "Ongoing Conflict and Potential Escalation in Ukraine",
+          "title": "Persistent Conflict in Eastern Europe",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Russia has launched missile attacks on Kyiv, and European troops are preparing for a possible post-ceasefire deployment to Ukraine, indicating continued instability.",
+          "evidence_summary": "Russia launched a missile attack on Kyiv, injuring residents, and European troops are preparing for possible post-ceasefire deployment to Ukraine.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
@@ -2620,38 +2686,26 @@
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "Broadening Trade and Sanctions Disputes",
+          "title": "High-Consequence Disease Outbreak",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "The US Treasury has sanctioned Canadian firms over Iran ties and urged China to honor trade commitments, while a court-ordered asset freeze impacts VietJet.",
+          "evidence_summary": "Disease Outbreak News reported Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-07T06:09:31Z"
+    "generated_at": "2026-11-07T11:17:01Z"
   },
-  "updated_at": "2026-11-07T06:09:31Z",
+  "updated_at": "2026-11-07T11:17:01Z",
   "version": 1
 }
