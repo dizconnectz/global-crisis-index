@@ -1,6 +1,356 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:e18a77f7d4": {
+        "id": "geo:conflict:e18a77f7d4",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "What we know so far after Krakow gun attack",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8dfd5ff85f": {
+        "id": "geo:missile_strike:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Houthis say at least 25 killed in Saudi air strike",
+        "severity": 55.0,
+        "score": 44.0,
+        "countries": [
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "sana.sy"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:invasion:8f4f9f2dcb": {
+        "id": "geo:invasion:8f4f9f2dcb",
+        "pillar": "geo",
+        "category": "invasion",
+        "category_th": "การรุกรานหรือประกาศสงคราม",
+        "category_en": "Invasion or declaration of war",
+        "title": "Mélenchon promises action against Israeli annexation if elected President",
+        "severity": 80.0,
+        "score": 48.0,
+        "countries": [
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:66b49f810a": {
+        "id": "geo:sanctions:66b49f810a",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+        "severity": 40.0,
+        "score": 38.3,
+        "countries": [
+          "canada",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "aninews.in",
+          "dunyanews.tv",
+          "khaama.com",
+          "news.webindia123.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:065595248b": {
+        "id": "geo:conflict:065595248b",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "yemen",
+          "syria",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a383595182": {
+        "id": "geo:missile_strike:a383595182",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Lebanese footballer refuses to give up after injuries from Israeli strike",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "lebanon",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:cf41b4af86": {
+        "id": "geo:conflict:cf41b4af86",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "wthitv.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:chokepoint:d591d87e00": {
         "id": "geo:chokepoint:d591d87e00",
         "pillar": "geo",
@@ -225,61 +575,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:66b49f810a": {
-        "id": "geo:sanctions:66b49f810a",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Trump says US talking to Iran amid sanctions push",
-        "severity": 40.0,
-        "score": 40.0,
-        "countries": [
-          "iran",
-          "canada"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "aninews.in",
-          "dunyanews.tv",
-          "khaama.com",
-          "news.webindia123.com"
-        ],
-        "article_count": 5,
-        "links": [
-          "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
-          "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
-          "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links"
-        ],
-        "refs": [
-          {
-            "url": "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
-            "source": "news.webindia123.com"
-          },
-          {
-            "url": "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
-            "source": "aninews.in"
-          },
-          {
-            "url": "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links",
-            "source": "dunyanews.tv"
-          }
-        ],
-        "link_sources": [
-          "news.webindia123.com",
-          "aninews.in",
-          "dunyanews.tv",
-          "khaama.com",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-07T06:09:31Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:nuclear:ed9a73c4e5": {
         "id": "geo:nuclear:ed9a73c4e5",
         "pillar": "geo",
@@ -368,43 +663,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:8dfd5ff85f": {
-        "id": "geo:missile_strike:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Coalition intercepts and destroys cruise missile launched by Houthis toward Riyadh",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "yemen",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "sana.sy"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://sana.sy/en/middle-east/2356697/"
-        ],
-        "refs": [
-          {
-            "url": "https://sana.sy/en/middle-east/2356697/",
-            "source": "sana.sy"
-          }
-        ],
-        "link_sources": [
-          "sana.sy"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
         "last_seen": "2026-11-07T15:28:13Z",
         "is_local": false,
         "location": null,
@@ -584,44 +842,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "wthitv.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
         "last_seen": "2026-11-07T15:28:13Z",
         "is_local": false,
         "location": null,
@@ -941,46 +1161,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-        "severity": 30.0,
-        "score": 21.6,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "aol.co.uk",
-          "channelnewsasia.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-06T06:57:31Z",
         "is_local": false,
         "location": null,
@@ -2279,7 +2459,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5"
         ],
@@ -2293,7 +2473,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2326,7 +2506,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2359,7 +2539,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2392,7 +2572,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2404,30 +2584,64 @@
         "category": "cyber_incident",
         "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
         "category_en": "Actual cyber incident",
-        "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+        "title": "Italian foreign minister says hackers leaked his personal data",
         "severity": 40.0,
         "score": 24.0,
         "countries": [
           "russia"
         ],
         "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-07T13:14:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:63e47de263": {
+        "id": "bio_infra:cyber_incident:63e47de263",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Who is behind Europe’s suspected hybrid attacks?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
           "Al Jazeera"
         ],
         "article_count": 1,
         "links": [
-          "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss"
+          "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
+            "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
         "link_sources": [
           "Al Jazeera"
         ],
-        "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2893,19 +3107,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-07T15:28:13Z"
+      "as_of": "2026-11-07T21:57:34Z"
     },
     "geo": {
-      "score": 97.5,
-      "as_of": "2026-11-07T15:28:13Z"
+      "score": 95.3,
+      "as_of": "2026-11-07T21:57:34Z"
     },
     "nat": {
-      "score": 9.9,
-      "as_of": "2026-11-07T15:28:13Z"
+      "score": 10.3,
+      "as_of": "2026-11-07T21:57:34Z"
     },
     "bio_infra": {
-      "score": 48.8,
-      "as_of": "2026-11-07T15:28:13Z"
+      "score": 48.2,
+      "as_of": "2026-11-07T21:57:34Z"
     }
   },
   "econ_indicators": {
@@ -2914,7 +3128,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T15:28:13Z",
+      "as_of": "2026-11-07T21:57:34Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -2922,7 +3136,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T15:28:13Z",
+      "as_of": "2026-11-07T21:57:34Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -2930,7 +3144,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T15:28:13Z",
+      "as_of": "2026-11-07T21:57:34Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -2938,7 +3152,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T15:28:13Z",
+      "as_of": "2026-11-07T21:57:34Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -2946,7 +3160,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T15:28:13Z",
+      "as_of": "2026-11-07T21:57:34Z",
       "provider": "yfinance"
     }
   },
@@ -2954,15 +3168,16 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "46e57e8bfee6c53f",
+    "events_hash": "e1c4cda694ae5d7c",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:d591d87e00",
-      "geo:conflict:f2e533405c",
       "geo:energy_infra:a59ee23b9a",
+      "geo:invasion:8f4f9f2dcb",
       "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:a383595182",
       "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5",
@@ -2970,13 +3185,13 @@
     ],
     "econ_score": 55.5,
     "summary": {
-      "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในประเด็นอิหร่านและช่องแคบฮอร์มุซ รวมถึงความขัดแย้งที่ดำเนินอยู่ในยูเครน กำลังเป็นปัจจัยขับเคลื่อนความเสี่ยงทั่วโลกในขณะนี้ ซึ่งสะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้น ราคาทองคำที่สูงขึ้น และตลาดหุ้นที่ปรับตัวลดลง",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับความทะเยอทะยานด้านนิวเคลียร์ของอิหร่านและการโจมตีในช่องแคบฮอร์มุซ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน เหตุการณ์เหล่านี้กำลังกระตุ้นความผันผวนของตลาด ซึ่งเห็นได้จากราคาทองคำที่สูงขึ้นและตลาดหุ้นที่ลดลง",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "title": "ความเสี่ยงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลางและการหยุดชะงักของอุปทานพลังงาน",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "รายงานหลายฉบับระบุถึงความตึงเครียดที่เพิ่มขึ้นระหว่างสหรัฐฯ และอิหร่าน รวมถึงภัยคุกคามจากอาวุธนิวเคลียร์ การเตรียมพร้อมของกองทัพสหรัฐฯ เพื่อโจมตี การโจมตีด้วยขีปนาวุธต่อเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและเกาะเกาะเคชม และการออกอากาศคำเตือนการเอาชีวิตรอดจากการโจมตีด้วยนิวเคลียร์ทางโทรทัศน์ของอิหร่าน",
+          "evidence_summary": "เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมที่จะโจมตีอิหร่าน ซึ่งเกิดขึ้นพร้อมกับการโจมตีเรือบรรทุกน้ำมัน 5 ลำในช่องแคบฮอร์มุซและการโจมตีด้วยขีปนาวุธบนเกาะเคช์ม ในขณะที่วาทศิลป์เกี่ยวกับโครงการนิวเคลียร์ของอิหร่านทวีความรุนแรงขึ้น",
           "refs": [
             {
               "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
@@ -2993,54 +3208,54 @@
           ]
         },
         {
-          "title": "ความเสี่ยงด้านพลังงานและเส้นทางเดินเรือสำคัญยังคงมีอยู่",
+          "title": "ความขัดแย้งที่ยืดเยื้อและความเปราะบางของโครงสร้างพื้นฐานด้านพลังงานในยูเครน",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและโครงสร้างพื้นฐานด้านพลังงานในยูเครนเน้นย้ำถึงความเปราะบางที่ยังคงมีอยู่ในห่วงโซ่อุปทานพลังงานทั่วโลกและเส้นทางเดินเรือที่สำคัญ",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "ขีปนาวุธได้พุ่งเป้าโจมตีเคียฟ ทำให้มีผู้บาดเจ็บ 5 ราย และการโจมตีของรัสเซียได้ทำลายโครงสร้างพื้นฐานด้านพลังงานของยูเครน ส่งผลให้เกิดไฟฟ้าดับในห้าภูมิภาค",
           "refs": [
             {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
+              "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+              "source": "durangoherald.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
+              "source": "timesofindia.indiatimes.com"
             },
             {
-              "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
-              "source": "moneycontrol.com"
+              "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
+              "source": "dailyadvance.com"
             }
           ]
         },
         {
-          "title": "การขยายวงของมาตรการคว่ำบาตรทางภูมิรัฐศาสตร์และการหยุดชะงักทางการค้า",
-          "signal_strength": "ปานกลาง",
+          "title": "ความเสี่ยงด้านสาธารณสุขและความมั่นคงทางไซเบอร์ที่กำลังเกิดขึ้น",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "สหรัฐฯ กำลังดำเนินการคว่ำบาตรอิหร่านและบริษัทจีน และเรียกร้องให้จีนปฏิบัติตามข้อผูกพันทางการค้า ซึ่งบ่งชี้ถึงขอบเขตที่กว้างขึ้นของแรงกดดันทางเศรษฐกิจและโอกาสที่จะเกิดความขัดแย้งทางการค้า",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ในขณะที่เหตุการณ์ทางไซเบอร์รวมถึงการรั่วไหลของข้อมูลส่วนตัวของรัฐมนตรีต่างประเทศอิตาลีและการโจมตีแบบไฮบริดที่ต้องสงสัยในยุโรป",
           "refs": [
             {
-              "url": "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
-              "source": "news.webindia123.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             },
             {
-              "url": "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
-              "source": "aninews.in"
+              "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
-              "url": "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links",
-              "source": "dunyanews.tv"
+              "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Escalating geopolitical tensions, particularly concerning Iran and the Strait of Hormuz, alongside the ongoing conflict in Ukraine, are currently driving global risk. This is reflected in increased market volatility, rising gold prices, and declining equity markets.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, primarily concerning Iran's nuclear ambitions and attacks in the Strait of Hormuz, alongside ongoing conflicts in Ukraine. These events are fueling market volatility, evidenced by rising gold prices and declining equity markets.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflict in the Middle East",
+          "title": "Heightened Geopolitical Risk in the Middle East and Energy Supply Disruptions",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Multiple reports indicate heightened tensions between the US and Iran, including nuclear weapon threats, US troops poised to strike, missile attacks on tankers in the Strait of Hormuz and Qeshm Island, and Iranian TV broadcasting nuclear strike survival warnings.",
+          "evidence_summary": "The Pentagon has indicated US troops are poised to strike Iran, coinciding with attacks on five tankers in the Strait of Hormuz and missile strikes on Qeshm Island, while rhetoric around Iran's nuclear program intensifies.",
           "refs": [
             {
               "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
@@ -3057,50 +3272,50 @@
           ]
         },
         {
-          "title": "Persistent Energy and Shipping Chokepoint Risks",
+          "title": "Persistent Conflict and Energy Infrastructure Vulnerability in Ukraine",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Attacks on tankers in the Strait of Hormuz and energy infrastructure in Ukraine highlight ongoing vulnerabilities in global energy supply chains and critical shipping routes.",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Missiles have targeted Kyiv, wounding five, and Russian strikes have hit Ukraine's energy infrastructure, leading to power cuts in five regions.",
           "refs": [
             {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
+              "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+              "source": "durangoherald.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
+              "source": "timesofindia.indiatimes.com"
             },
             {
-              "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
-              "source": "moneycontrol.com"
+              "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
+              "source": "dailyadvance.com"
             }
           ]
         },
         {
-          "title": "Broadening Geopolitical Sanctions and Trade Disruptions",
-          "signal_strength": "ปานกลาง",
+          "title": "Emerging Public Health and Cyber Security Risks",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "The US is pursuing sanctions against Iran and Chinese firms, and urging China to honor trade commitments, indicating a widening scope of economic pressure and potential trade friction.",
+          "evidence_summary": "An Ebola outbreak has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, while cyber incidents include the leaking of an Italian foreign minister's personal data and suspected hybrid attacks in Europe.",
           "refs": [
             {
-              "url": "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
-              "source": "news.webindia123.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             },
             {
-              "url": "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
-              "source": "aninews.in"
+              "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
-              "url": "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links",
-              "source": "dunyanews.tv"
+              "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-07T15:28:13Z"
+    "generated_at": "2026-11-07T21:57:34Z"
   },
-  "updated_at": "2026-11-07T15:28:13Z",
+  "updated_at": "2026-11-07T21:57:34Z",
   "version": 1
 }
