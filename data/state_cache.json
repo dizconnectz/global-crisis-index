@@ -30,7 +30,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -67,7 +67,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -100,7 +100,224 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Russia launches missile attack on Kyiv, injuring residents",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:66b49f810a": {
+        "id": "geo:sanctions:66b49f810a",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:9701abab4f": {
+        "id": "geo:conflict:9701abab4f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran",
+          "qatar"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T07:11:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:3ab9380fa2": {
+        "id": "geo:sanctions:3ab9380fa2",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US urges China to honour Busan trade deal commitments",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-07T06:09:31Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c5abc2fdb": {
+        "id": "geo:conflict:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Palestinian couples tie the knot in mass wedding in Gaza",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "palestine",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/6/palestinian-couples-tie-the-knot-in-mass-wedding-in-gaza?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/palestinian-couples-tie-the-knot-in-mass-wedding-in-gaza?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -693,41 +910,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "El Salvador’s Bukele touts military intervention in Haiti",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T06:57:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:d1faafcc70": {
         "id": "geo:sanctions:d1faafcc70",
         "pillar": "geo",
@@ -1006,43 +1188,6 @@
           "rawstory.com"
         ],
         "first_seen": "2026-11-04T06:38:42Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "What we know about the alert app hack in Ukraine and Russia",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-04T06:38:42Z",
         "is_local": false,
         "location": null,
@@ -1688,33 +1833,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c5abc2fdb": {
-        "id": "geo:conflict:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-02T07:11:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:ad160a7842": {
         "id": "geo:conflict:ad160a7842",
         "pillar": "geo",
@@ -1770,35 +1888,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:conflict:9701abab4f": {
-        "id": "geo:conflict:9701abab4f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iran, Qatari mediators hold third day of talks to end US-Iran war - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran",
-          "qatar"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?oc=5",
-          "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5",
-          "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRnZsbm5kTVNPUzdkajNKcXU0UXRqSS1MUThfYnZ6NjJ5NVAxME9aeV9CYXhUa2xhU29DX2c0LVBlR1FuSGJSSUJTZ1dyVkhNOG5hTFJwbjdIRHUwYXJVYUZoOFVhYmpBaFpMSjdFT1RvZEgyVDEwZHJndmJWNUZRaHZ0bURiUGtvRG01UkZKcld0eklfb2tWcTlDa045NDZBS0pPVlRZN3lYdEdVajZ1U0ZILUhjUFZiYmhpd3MwSlpVY3JlaXo5Rm56SVEzX0NrcTZfNURUeDZXaW03YmfSAd4BQVVfeXFMUEZ2bG5uZE1TT1M3ZGozSnF1NFF0akktTFE4X2J2ejYyeTVQMTBPWnlfQmF4VGtsYVNvQ19nNC1QZUdRbkhiUklCU2dXclZITThuYUxScG43SER1MGFyVWFGaDhVYWJqQWhaTEo3RU9Ub2RIMlQxMGRyZ3ZiVjVGUWh2dG1EYlBrb0RtNVJGSnJXdHpJX29rVnE5Q2tOOTQ2QUtKT1ZUWTd5WHRHVWo2dVNGSC1IY1BWYmJoaXdzMEpaVWNyZWl6OUZueklRM19Da3E2XzVEVHg2V2ltN2Jn?oc=5"
-        ],
-        "first_seen": "2026-11-02T07:11:50Z",
-        "last_seen": "2026-11-02T07:11:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     },
     "bio_infra": {
@@ -1815,7 +1904,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMmM0Rl9lSzNaTXRTWXF4MzJsdktLaF9IbGJXdW1FUi1PQjh6aklXUTZablE0VTBlZ1Z6Um1NZXdkZ1FCUFlMTVgtRXFrQ1hIeVBjWE9kYTk2eEIycVVUd19ScDFmaC1idmxkQTU4UFF1d25wUldzbTdrX0NHX3lKV0UydEZpN01HbzdqZjRObl9heENSYUJ1bTV2bmM5UDQyZ3NKRQ?oc=5"
         ],
@@ -1829,7 +1918,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1862,7 +1951,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1895,7 +1984,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-07T06:09:31Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2360,61 +2449,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 53.6,
-      "as_of": "2026-11-06T19:29:50Z"
+      "score": 55.5,
+      "as_of": "2026-11-07T06:09:31Z"
     },
     "geo": {
-      "score": 63.4,
-      "as_of": "2026-11-06T19:29:50Z"
+      "score": 60.5,
+      "as_of": "2026-11-07T06:09:31Z"
     },
     "nat": {
-      "score": 32.1,
-      "as_of": "2026-11-06T19:29:50Z"
+      "score": 10.4,
+      "as_of": "2026-11-07T06:09:31Z"
     },
     "bio_infra": {
-      "score": 53.0,
-      "as_of": "2026-11-06T19:29:50Z"
+      "score": 49.9,
+      "as_of": "2026-11-07T06:09:31Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 24.420000076293945,
-      "change_pct": 25.75,
-      "drawdown_pct": -21.35,
+      "last": 25.639999389648438,
+      "change_pct": 32.03,
+      "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T19:29:50Z",
+      "as_of": "2026-11-07T06:09:31Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 98.58000183105469,
-      "change_pct": -16.2,
-      "drawdown_pct": -16.7,
+      "last": 98.31999969482422,
+      "change_pct": -16.42,
+      "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T19:29:50Z",
+      "as_of": "2026-11-07T06:09:31Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4076.89990234375,
-      "change_pct": 4.57,
-      "drawdown_pct": -23.34,
+      "last": 4074.89990234375,
+      "change_pct": 4.51,
+      "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T19:29:50Z",
+      "as_of": "2026-11-07T06:09:31Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7401.7099609375,
-      "change_pct": -2.35,
-      "drawdown_pct": -5.34,
+      "last": 7376.85986328125,
+      "change_pct": -2.68,
+      "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T19:29:50Z",
+      "as_of": "2026-11-07T06:09:31Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 136.3249969482422,
-      "change_pct": -13.26,
-      "drawdown_pct": -37.56,
+      "last": 136.52999877929688,
+      "change_pct": -13.13,
+      "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-06T19:29:50Z",
+      "as_of": "2026-11-07T06:09:31Z",
       "provider": "yfinance"
     }
   },
@@ -2422,25 +2511,23 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "3d87122244945f98",
+    "events_hash": "a15959827acb371a",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
-      "geo:invasion:7d6b0d5274",
-      "geo:missile_strike:6c82092395",
       "geo:missile_strike:73ae71ea05",
-      "geo:missile_strike:ec9f74ca51",
+      "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 53.6,
+    "econ_score": 55.5,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันได้รับแรงขับเคลื่อนจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งการกระทำของอิหร่านในช่องแคบฮอร์มุซและวาทศิลป์ด้านนิวเคลียร์ ควบคู่ไปกับความผันผวนของตลาดที่สะท้อนจากดัชนี VIX ที่เพิ่มขึ้นและดัชนีหุ้นที่ลดลง นอกจากนี้ การระบาดของอีโบลาครั้งใหม่และการโจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญยังเป็นปัจจัยเสริมในภูมิทัศน์ความเสี่ยงที่ซับซ้อนนี้",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งการกระทำของอิหร่านในช่องแคบฮอร์มุซและภัยคุกคามทางนิวเคลียร์ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน พัฒนาการเหล่านี้ส่งผลให้ตลาดมีความผันผวนสูงขึ้น สะท้อนจากดัชนี VIX และราคาทองคำที่เพิ่มขึ้น และตลาดหุ้นกับหุ้นกลุ่มเซมิคอนดักเตอร์ที่ลดลง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ขณะที่อิหร่านยังคงกดดันหลังการลงคะแนนเสียงของสหรัฐฯ และมีการเผยแพร่วิดีโอเตือนภัยการโจมตีด้วยนิวเคลียร์ทางโทรทัศน์ของอิหร่าน",
+          "evidence_summary": "อิหร่านยังคงสร้างแรงกดดันผ่านการกระทำในช่องแคบฮอร์มุซ ออกคำเตือนการโจมตีด้วยนิวเคลียร์ และมีการก่อสร้างใกล้ฐานขีปนาวุธอย่างต่อเนื่อง ขณะที่เผชิญกับการคว่ำบาตรใหม่จากสหรัฐฯ",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2457,50 +2544,54 @@
           ]
         },
         {
-          "title": "ความผันผวนของตลาดโลกและความไม่แน่นอนทางเศรษฐกิจ",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและการคว่ำบาตรของสหรัฐฯ ต่อการเชื่อมโยงน้ำมันของอิหร่านส่งผลกระทบต่อการค้าและตลาดพลังงานโลก",
+          "title": "ความขัดแย้งที่ดำเนินอยู่และแนวโน้มการยกระดับในยูเครน",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ และกองกำลังยุโรปกำลังเตรียมพร้อมสำหรับการประจำการหลังการหยุดยิงในยูเครน ซึ่งบ่งชี้ถึงความไม่มั่นคงที่ต่อเนื่อง",
           "refs": [
             {
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
-              "source": "dailyexcelsior.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามด้านสุขภาพและไซเบอร์ที่เกิดขึ้นใหม่",
-          "signal_strength": "ปานกลาง",
+          "title": "ข้อพิพาททางการค้าและการคว่ำบาตรที่ขยายวงกว้าง",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการโจมตีทางไซเบอร์ที่ส่งผลกระทบต่อการจัดเก็บเลือดในฝรั่งเศสและเป้าหมายตู้เย็นทั่วโลก",
+          "evidence_summary": "กระทรวงการคลังสหรัฐฯ ได้คว่ำบาตรบริษัทแคนาดาที่เกี่ยวข้องกับอิหร่าน และเรียกร้องให้จีนปฏิบัติตามข้อตกลงทางการค้า ขณะที่คำสั่งศาลอายัดทรัพย์สินส่งผลกระทบต่อสายการบินเวียตเจ็ท",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "ksut.org"
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly concerning Iran's actions in the Strait of Hormuz and its nuclear rhetoric, alongside ongoing market volatility reflected in rising VIX and falling equity indices. Additionally, a new Ebola outbreak and cyberattacks on critical infrastructure contribute to the complex risk landscape.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, notably involving Iran's actions in the Strait of Hormuz and nuclear threats, alongside ongoing conflict in Ukraine. These developments are contributing to heightened market volatility, reflected in rising VIX and gold prices, and declines in equity and semiconductor markets.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions in the Middle East",
+          "title": "Heightened Geopolitical Instability in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tankers were reportedly hit in Hormuz as Iran maintains pressure after the US vote, and Iranian TV broadcast a chilling warning video on how to survive a nuclear strike.",
+          "evidence_summary": "Iran continues to exert pressure through actions in the Strait of Hormuz, issues nuclear strike warnings, and has ongoing construction near missile bases, while facing new US sanctions.",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
@@ -2517,46 +2608,50 @@
           ]
         },
         {
-          "title": "Global Market Volatility and Economic Uncertainty",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Tanker attacks in the Strait of Hormuz and US sanctions on Iran oil links are impacting global trade and energy markets.",
+          "title": "Ongoing Conflict and Potential Escalation in Ukraine",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Russia has launched missile attacks on Kyiv, and European troops are preparing for a possible post-ceasefire deployment to Ukraine, indicating continued instability.",
           "refs": [
             {
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
-              "source": "dailyexcelsior.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "Emerging Health and Cyber Threats",
-          "signal_strength": "ปานกลาง",
+          "title": "Broadening Trade and Sanctions Disputes",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "An Ebola disease outbreak caused by Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside cyberattacks impacting French blood storage and targeting fridges across the globe.",
+          "evidence_summary": "The US Treasury has sanctioned Canadian firms over Iran ties and urged China to honor trade commitments, while a court-ordered asset freeze impacts VietJet.",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-              "source": "ksut.org"
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-06T19:29:50Z"
+    "generated_at": "2026-11-07T06:09:31Z"
   },
-  "updated_at": "2026-11-06T19:29:50Z",
+  "updated_at": "2026-11-07T06:09:31Z",
   "version": 1
 }
