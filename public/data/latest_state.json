@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T13:14:34Z",
-  "global_score": 51,
+  "generated_at": "2026-11-07T15:28:13Z",
+  "global_score": 84,
   "band": {
-    "key": "high",
-    "min": 46,
-    "max": 70,
-    "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
-    "label_en": "High tension / global supply-chain impact",
-    "color": "orange"
+    "key": "critical",
+    "min": 71,
+    "max": 100,
+    "label_th": "วิกฤตเชิงระบบระดับโลก",
+    "label_en": "Global systemic crisis",
+    "color": "red"
   },
   "formula": {
-    "base": 51.21,
-    "boost": 0.0,
-    "cross_confirmed": false,
-    "max1": 65.4,
+    "base": 62.35,
+    "boost": 21.85,
+    "cross_confirmed": true,
+    "max1": 97.5,
     "max2": 55.5,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 65.4,
+      "score": 97.5,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -178,6 +178,151 @@
       "note": null,
       "top_events": [
         {
+          "id": "geo:nuclear:ed9a73c4e5",
+          "pillar": "geo",
+          "category": "nuclear",
+          "category_th": "ภัยคุกคามนิวเคลียร์",
+          "category_en": "Nuclear threat",
+          "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
+          "severity": 95.0,
+          "score": 95.0,
+          "countries": [
+            "israel",
+            "iran"
+          ],
+          "sources": [
+            "egyptindependent.com",
+            "middleeasteye.net",
+            "popularmechanics.com"
+          ],
+          "article_count": 3,
+          "links": [
+            "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+            "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
+            "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/"
+          ],
+          "refs": [
+            {
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+              "source": "middleeasteye.net"
+            },
+            {
+              "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
+              "source": "popularmechanics.com"
+            },
+            {
+              "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
+              "source": "egyptindependent.com"
+            }
+          ],
+          "link_sources": [
+            "middleeasteye.net",
+            "popularmechanics.com",
+            "egyptindependent.com"
+          ],
+          "first_seen": "2026-11-07T15:28:13Z",
+          "last_seen": "2026-11-07T15:28:13Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:chokepoint:d591d87e00",
+          "pillar": "geo",
+          "category": "chokepoint",
+          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "category_en": "Shipping chokepoint threat",
+          "title": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
+          "severity": 85.0,
+          "score": 68.0,
+          "countries": [
+            "united states",
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "themarysue.com"
+          ],
+          "article_count": 2,
+          "links": [
+            "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+            "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "themarysue.com",
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-07T15:28:13Z",
+          "last_seen": "2026-11-07T15:28:13Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:missile_strike:a59ee23b9a",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Missiles target Kyiv and wound 5 as Ukraine prepares for talks with Russia and the US",
+          "severity": 55.0,
+          "score": 55.0,
+          "countries": [
+            "ukraine",
+            "russia"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World",
+            "dailyadvance.com",
+            "durangoherald.com",
+            "timesofindia.indiatimes.com"
+          ],
+          "article_count": 3,
+          "links": [
+            "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+            "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
+            "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html"
+          ],
+          "refs": [
+            {
+              "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+              "source": "durangoherald.com"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
+              "source": "timesofindia.indiatimes.com"
+            },
+            {
+              "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
+              "source": "dailyadvance.com"
+            }
+          ],
+          "link_sources": [
+            "durangoherald.com",
+            "timesofindia.indiatimes.com",
+            "dailyadvance.com"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-07T15:28:13Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:chokepoint:73ae71ea05",
           "pillar": "geo",
           "category": "chokepoint",
@@ -185,7 +330,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 50.2,
           "countries": [
             "iran"
           ],
@@ -215,147 +360,36 @@
           "raw_score": null
         },
         {
-          "id": "geo:nuclear:73ae71ea05",
+          "id": "geo:energy_infra:a59ee23b9a",
           "pillar": "geo",
-          "category": "nuclear",
-          "category_th": "ภัยคุกคามนิวเคลียร์",
-          "category_en": "Nuclear threat",
-          "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
-          "severity": 95.0,
-          "score": 33.5,
-          "countries": [
-            "iran"
-          ],
-          "sources": [
-            "metro.co.uk"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/"
-          ],
-          "refs": [
-            {
-              "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
-              "source": "metro.co.uk"
-            }
-          ],
-          "link_sources": [
-            "metro.co.uk"
-          ],
-          "first_seen": "2026-11-03T19:34:54Z",
-          "last_seen": "2026-11-04T06:38:42Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:73ae71ea05",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says - Reuters",
-          "severity": 55.0,
-          "score": 33.0,
-          "countries": [
-            "iran"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World",
-            "Reuters (Google News)",
-            "wthitv.com"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5"
-          ],
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ],
-          "link_sources": [
-            "Reuters (Google News)"
-          ],
-          "first_seen": "2026-11-03T06:56:57Z",
-          "last_seen": "2026-11-07T13:14:34Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:a59ee23b9a",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "Russia launches missile attack on Kyiv, injuring residents",
-          "severity": 55.0,
-          "score": 32.7,
+          "category": "energy_infra",
+          "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+          "category_en": "Attack on energy infrastructure",
+          "title": "Russian strikes hit Ukraine energy infrastructure , cause power cuts in five regions",
+          "severity": 75.0,
+          "score": 45.0,
           "countries": [
             "russia",
             "ukraine"
           ],
           "sources": [
-            "Al Jazeera",
-            "BBC World"
+            "moneycontrol.com"
           ],
           "article_count": 1,
           "links": [
-            "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+            "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html"
           ],
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
+              "source": "moneycontrol.com"
             }
           ],
           "link_sources": [
-            "Al Jazeera"
+            "moneycontrol.com"
           ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-07T11:51:55Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:sanctions:66b49f810a",
-          "pillar": "geo",
-          "category": "sanctions",
-          "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-          "category_en": "Sanctions / trade war",
-          "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
-          "severity": 40.0,
-          "score": 31.7,
-          "countries": [
-            "canada",
-            "iran"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "Reuters (Google News)"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5"
-          ],
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ],
-          "link_sources": [
-            "Reuters (Google News)"
-          ],
-          "first_seen": "2026-11-07T06:09:31Z",
-          "last_seen": "2026-11-07T13:14:34Z",
+          "first_seen": "2026-11-07T15:28:13Z",
+          "last_seen": "2026-11-07T15:28:13Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -367,7 +401,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 54,
+          "value": 61,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -377,7 +411,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 0,
+          "value": 4,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -387,18 +421,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 70,
+          "value": 144,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 7 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 7 event clusters"
+          "hint": "ยุบรวมเหลือ 15 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 15 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 10.0,
+      "score": 9.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -486,7 +520,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 49.3,
+      "score": 48.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -502,7 +536,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 36.7,
+          "score": 36.1,
           "countries": [
             "dr congo",
             "nigeria"
@@ -559,7 +593,7 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-07T13:14:34Z",
-          "last_seen": "2026-11-07T13:14:34Z",
+          "last_seen": "2026-11-07T15:28:13Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -573,7 +607,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 16.6,
+          "score": 16.4,
           "countries": [
             "france"
           ],
@@ -608,7 +642,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 14.1,
+          "score": 13.9,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -641,7 +675,7 @@
           "category_en": "Actual cyber incident",
           "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
           "severity": 40.0,
-          "score": 14.1,
+          "score": 13.9,
           "countries": [],
           "sources": [
             "BBC World"
@@ -706,10 +740,10 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 65.4,
-      "contribution": 22.9,
-      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-      "headline_en": "Shipping chokepoint threat: Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation"
+      "score": 97.5,
+      "contribution": 56.0,
+      "headline": "ภัยคุกคามนิวเคลียร์: Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
+      "headline_en": "Nuclear threat: Trump says  there would be no Israel  if Iran was allowed nuclear weapon"
     },
     {
       "pillar": "econ",
@@ -724,120 +758,144 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 49.3,
-      "contribution": 7.4,
+      "score": 48.8,
+      "contribution": 7.3,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่เกี่ยวข้องกับอิหร่าน และความขัดแย้งที่ดำเนินอยู่ในยูเครน ควบคู่ไปกับการระบาดของโรคอีโบลา ตลาดการเงินสะท้อนความไม่แน่นอนนี้ด้วยความผันผวนที่เพิ่มขึ้นและดัชนีหลักที่ลดลง ในขณะที่สินทรัพย์ปลอดภัยอย่างทองคำปรับตัวสูงขึ้น",
+    "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในประเด็นอิหร่านและช่องแคบฮอร์มุซ รวมถึงความขัดแย้งที่ดำเนินอยู่ในยูเครน กำลังเป็นปัจจัยขับเคลื่อนความเสี่ยงทั่วโลกในขณะนี้ ซึ่งสะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้น ราคาทองคำที่สูงขึ้น และตลาดหุ้นที่ปรับตัวลดลง",
     "early_warnings_th": [
       {
-        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+        "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+        "signal_strength": "สูง",
+        "timeframe": "1-4 สัปดาห์",
+        "evidence_summary": "รายงานหลายฉบับระบุถึงความตึงเครียดที่เพิ่มขึ้นระหว่างสหรัฐฯ และอิหร่าน รวมถึงภัยคุกคามจากอาวุธนิวเคลียร์ การเตรียมพร้อมของกองทัพสหรัฐฯ เพื่อโจมตี การโจมตีด้วยขีปนาวุธต่อเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและเกาะเกาะเคชม และการออกอากาศคำเตือนการเอาชีวิตรอดจากการโจมตีด้วยนิวเคลียร์ทางโทรทัศน์ของอิหร่าน",
+        "refs": [
+          {
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+            "source": "middleeasteye.net"
+          },
+          {
+            "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
+            "source": "popularmechanics.com"
+          },
+          {
+            "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
+            "source": "egyptindependent.com"
+          }
+        ]
+      },
+      {
+        "title": "ความเสี่ยงด้านพลังงานและเส้นทางเดินเรือสำคัญยังคงมีอยู่",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ และอิหร่านยังคงกดดันหลังการลงคะแนนเสียงของสหรัฐฯ รวมถึงมีการคว่ำบาตรบริษัทที่เกี่ยวข้องกับอิหร่านและข่าวการโจมตีด้วยขีปนาวุธในเกาะเกชห์มของอิหร่าน",
+        "evidence_summary": "การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและโครงสร้างพื้นฐานด้านพลังงานในยูเครนเน้นย้ำถึงความเปราะบางที่ยังคงมีอยู่ในห่วงโซ่อุปทานพลังงานทั่วโลกและเส้นทางเดินเรือที่สำคัญ",
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+            "source": "themarysue.com"
           },
           {
-            "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
-            "source": "metro.co.uk"
+            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
+            "source": "moneycontrol.com"
           }
         ]
       },
       {
-        "title": "ความขัดแย้งที่ยืดเยื้อในยุโรปตะวันออก",
-        "signal_strength": "เฝ้าระวัง",
+        "title": "การขยายวงของมาตรการคว่ำบาตรทางภูมิรัฐศาสตร์และการหยุดชะงักทางการค้า",
+        "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "รัสเซียได้เปิดฉากโจมตีด้วยขีปนาวุธในกรุงเคียฟ ทำให้มีผู้บาดเจ็บ และกองทหารยุโรปกำลังเตรียมพร้อมสำหรับการประจำการในยูเครนหลังการหยุดยิงที่เป็นไปได้",
+        "evidence_summary": "สหรัฐฯ กำลังดำเนินการคว่ำบาตรอิหร่านและบริษัทจีน และเรียกร้องให้จีนปฏิบัติตามข้อผูกพันทางการค้า ซึ่งบ่งชี้ถึงขอบเขตที่กว้างขึ้นของแรงกดดันทางเศรษฐกิจและโอกาสที่จะเกิดความขัดแย้งทางการค้า",
         "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
+            "source": "news.webindia123.com"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "title": "การระบาดของโรคที่มีผลกระทบร้ายแรง",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีรายงานข่าวการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
-        "refs": [
+            "url": "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
+            "source": "aninews.in"
+          },
           {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-            "source": "WHO DON"
+            "url": "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links",
+            "source": "dunyanews.tv"
           }
         ]
       }
     ],
     "local_notes_th": [],
-    "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, particularly in the Middle East involving Iran, and ongoing conflict in Ukraine, alongside a notable Ebola outbreak. Financial markets reflect this uncertainty with increased volatility and declines in major indices, while safe-haven assets like gold have risen.",
+    "executive_summary_en": "Escalating geopolitical tensions, particularly concerning Iran and the Strait of Hormuz, alongside the ongoing conflict in Ukraine, are currently driving global risk. This is reflected in increased market volatility, rising gold prices, and declining equity markets.",
     "early_warnings_en": [
       {
-        "title": "Escalating Geopolitical Tensions in the Middle East",
+        "title": "Escalating Geopolitical Conflict in the Middle East",
+        "signal_strength": "สูง",
+        "timeframe": "1-4 weeks",
+        "evidence_summary": "Multiple reports indicate heightened tensions between the US and Iran, including nuclear weapon threats, US troops poised to strike, missile attacks on tankers in the Strait of Hormuz and Qeshm Island, and Iranian TV broadcasting nuclear strike survival warnings.",
+        "refs": [
+          {
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+            "source": "middleeasteye.net"
+          },
+          {
+            "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
+            "source": "popularmechanics.com"
+          },
+          {
+            "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
+            "source": "egyptindependent.com"
+          }
+        ]
+      },
+      {
+        "title": "Persistent Energy and Shipping Chokepoint Risks",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Tankers were reportedly hit in Hormuz as Iran keeps up pressure after the US vote, alongside sanctions on firms with Iran ties and news of missile strikes on Iran's Qeshm Island.",
+        "evidence_summary": "Attacks on tankers in the Strait of Hormuz and energy infrastructure in Ukraine highlight ongoing vulnerabilities in global energy supply chains and critical shipping routes.",
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+            "source": "themarysue.com"
           },
           {
-            "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
-            "source": "metro.co.uk"
+            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
+            "source": "moneycontrol.com"
           }
         ]
       },
       {
-        "title": "Persistent Conflict in Eastern Europe",
-        "signal_strength": "เฝ้าระวัง",
+        "title": "Broadening Geopolitical Sanctions and Trade Disruptions",
+        "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "Russia launched a missile attack on Kyiv, injuring residents, and European troops are preparing for possible post-ceasefire deployment to Ukraine.",
+        "evidence_summary": "The US is pursuing sanctions against Iran and Chinese firms, and urging China to honor trade commitments, indicating a widening scope of economic pressure and potential trade friction.",
         "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://news.webindia123.com/news/Articles/World/20261107/4516928.html",
+            "source": "news.webindia123.com"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "title": "High-Consequence Disease Outbreak",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-3 months",
-        "evidence_summary": "Disease Outbreak News reported Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
-        "refs": [
+            "url": "https://aninews.in/news/world/us/trump-says-us-talking-to-iran-amid-sanctions-push20261107092210/",
+            "source": "aninews.in"
+          },
           {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-            "source": "WHO DON"
+            "url": "https://dunyanews.tv/en/World/981631-us-sanctions-8-canadian-money-services-over-alleged-iran-crypto-links",
+            "source": "dunyanews.tv"
           }
         ]
       }
     ],
     "local_notes_en": [],
-    "source": "gemini_cached",
+    "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-07T11:17:01Z"
+    "generated_at": "2026-11-07T15:28:13Z"
   },
   "local_events": [],
   "data_status": {
@@ -849,7 +907,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:36Z",
+        "fetched_at": "2026-11-07T15:28:14Z",
         "items": 5,
         "data_as_of": "2026-11-06",
         "error": null,
@@ -859,11 +917,11 @@
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
-        "status": "error",
-        "fetched_at": "2026-11-07T13:14:43Z",
-        "items": null,
-        "data_as_of": null,
-        "error": "HTTP 429",
+        "status": "ok",
+        "fetched_at": "2026-11-07T15:28:25Z",
+        "items": 75,
+        "data_as_of": "2026-11-07T11:30:00Z",
+        "error": null,
         "note": null,
         "optional": true
       },
@@ -871,9 +929,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:34Z",
-        "items": 23,
-        "data_as_of": "2026-11-07T12:49:36Z",
+        "fetched_at": "2026-11-07T15:28:13Z",
+        "items": 25,
+        "data_as_of": "2026-11-07T15:00:10Z",
         "error": null,
         "note": null,
         "optional": false
@@ -882,9 +940,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:34Z",
+        "fetched_at": "2026-11-07T15:28:13Z",
         "items": 25,
-        "data_as_of": "2026-11-07T12:29:48Z",
+        "data_as_of": "2026-11-07T14:30:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -893,9 +951,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:35Z",
-        "items": 22,
-        "data_as_of": "2026-11-07T12:56:55Z",
+        "fetched_at": "2026-11-07T15:28:13Z",
+        "items": 19,
+        "data_as_of": "2026-11-07T11:07:59Z",
         "error": null,
         "note": null,
         "optional": false
@@ -904,7 +962,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:34Z",
+        "fetched_at": "2026-11-07T15:28:13Z",
         "items": 4,
         "data_as_of": "2026-11-06T10:39:27Z",
         "error": null,
@@ -915,7 +973,7 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:36Z",
+        "fetched_at": "2026-11-07T15:28:16Z",
         "items": 212,
         "data_as_of": "2026-11-07T12:18:57Z",
         "error": null,
@@ -926,7 +984,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:35Z",
+        "fetched_at": "2026-11-07T15:28:13Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -937,8 +995,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T13:14:35Z",
-        "items": 46,
+        "fetched_at": "2026-11-07T15:28:13Z",
+        "items": 48,
         "data_as_of": "2026-11-06T20:53:11Z",
         "error": null,
         "note": "google_news_fallback",
