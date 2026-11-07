@@ -30,7 +30,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -65,7 +65,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -101,7 +101,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -138,7 +138,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -173,7 +173,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -216,7 +216,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-07T06:09:31Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -254,7 +254,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1948,7 +1948,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5"
         ],
@@ -1962,7 +1962,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1995,7 +1995,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2028,7 +2028,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2061,7 +2061,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2527,19 +2527,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-07T11:17:01Z"
+      "as_of": "2026-11-07T11:51:55Z"
     },
     "geo": {
-      "score": 59.3,
-      "as_of": "2026-11-07T11:17:01Z"
+      "score": 59.1,
+      "as_of": "2026-11-07T11:51:55Z"
     },
     "nat": {
       "score": 10.1,
-      "as_of": "2026-11-07T11:17:01Z"
+      "as_of": "2026-11-07T11:51:55Z"
     },
     "bio_infra": {
-      "score": 48.4,
-      "as_of": "2026-11-07T11:17:01Z"
+      "score": 48.3,
+      "as_of": "2026-11-07T11:51:55Z"
     }
   },
   "econ_indicators": {
@@ -2548,7 +2548,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:17:01Z",
+      "as_of": "2026-11-07T11:51:55Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -2556,7 +2556,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:17:01Z",
+      "as_of": "2026-11-07T11:51:55Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -2564,7 +2564,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:17:01Z",
+      "as_of": "2026-11-07T11:51:55Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -2572,7 +2572,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:17:01Z",
+      "as_of": "2026-11-07T11:51:55Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -2580,7 +2580,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T11:17:01Z",
+      "as_of": "2026-11-07T11:51:55Z",
       "provider": "yfinance"
     }
   },
@@ -2706,6 +2706,6 @@
     },
     "generated_at": "2026-11-07T11:17:01Z"
   },
-  "updated_at": "2026-11-07T11:17:01Z",
+  "updated_at": "2026-11-07T11:51:55Z",
   "version": 1
 }
