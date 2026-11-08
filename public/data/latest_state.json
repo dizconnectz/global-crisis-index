@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T21:57:34Z",
-  "global_score": 82,
+  "generated_at": "2026-11-08T06:15:12Z",
+  "global_score": 78,
   "band": {
     "key": "critical",
     "min": 71,
@@ -11,10 +11,10 @@
     "color": "red"
   },
   "formula": {
-    "base": 61.55,
-    "boost": 20.02,
+    "base": 60.24,
+    "boost": 17.68,
     "cross_confirmed": true,
-    "max1": 95.3,
+    "max1": 92.4,
     "max2": 55.5,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 95.3,
+      "score": 92.4,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Nuclear threat",
           "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
           "severity": 95.0,
-          "score": 90.9,
+          "score": 86.0,
           "countries": [
             "israel",
             "iran"
@@ -235,7 +235,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
           "severity": 85.0,
-          "score": 65.1,
+          "score": 61.5,
           "countries": [
             "united states",
             "iran"
@@ -278,7 +278,7 @@
           "category_en": "Air / missile strikes",
           "title": "Missiles target Kyiv and wound 5 as Ukraine prepares for talks with Russia and the US",
           "severity": 55.0,
-          "score": 52.6,
+          "score": 49.8,
           "countries": [
             "ukraine",
             "russia"
@@ -323,43 +323,6 @@
           "raw_score": null
         },
         {
-          "id": "geo:chokepoint:73ae71ea05",
-          "pillar": "geo",
-          "category": "chokepoint",
-          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-          "category_en": "Shipping chokepoint threat",
-          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-          "severity": 85.0,
-          "score": 48.1,
-          "countries": [
-            "iran"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "Reuters (Google News)",
-            "manilatimes.net"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
-            }
-          ],
-          "link_sources": [
-            "Al Jazeera"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-07T13:14:34Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
           "id": "geo:invasion:8f4f9f2dcb",
           "pillar": "geo",
           "category": "invasion",
@@ -388,7 +351,44 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-07T21:57:34Z",
-          "last_seen": "2026-11-07T21:57:34Z",
+          "last_seen": "2026-11-08T06:15:12Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:chokepoint:73ae71ea05",
+          "pillar": "geo",
+          "category": "chokepoint",
+          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "category_en": "Shipping chokepoint threat",
+          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+          "severity": 85.0,
+          "score": 45.5,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "Reuters (Google News)",
+            "manilatimes.net"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-07T13:14:34Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -400,7 +400,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 66,
+          "value": 68,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -410,7 +410,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 2,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -420,7 +420,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 63,
+          "value": 60,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
@@ -431,7 +431,7 @@
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 10.3,
+      "score": 9.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -446,8 +446,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 5.0,
-          "score": 5.0,
+          "severity": 4.8,
+          "score": 4.8,
           "countries": [],
           "sources": [
             "USGS"
@@ -470,7 +470,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 5.0
+          "raw_score": 4.8
         },
         {
           "id": "gdacs:EQ1576118",
@@ -479,8 +479,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC, 630 thousand in MMI V.",
-          "severity": 2.9,
-          "score": 2.9,
+          "severity": 2.7,
+          "score": 2.7,
           "countries": [
             "Japan"
           ],
@@ -505,7 +505,7 @@
           "is_local": false,
           "location": "Japan (ห่างโตเกียว ~203 กม.)",
           "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 2.9
+          "raw_score": 2.7
         }
       ],
       "metrics": [
@@ -513,7 +513,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 4,
+          "value": 3,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -543,7 +543,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 189,
+          "value": 184,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -554,7 +554,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 48.2,
+      "score": 46.6,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -570,7 +570,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 34.6,
+          "score": 32.7,
           "countries": [
             "dr congo",
             "nigeria"
@@ -628,7 +628,7 @@
             "BBC World"
           ],
           "first_seen": "2026-11-07T13:14:34Z",
-          "last_seen": "2026-11-07T21:57:34Z",
+          "last_seen": "2026-11-08T06:15:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -661,7 +661,7 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-07T21:57:34Z",
-          "last_seen": "2026-11-07T21:57:34Z",
+          "last_seen": "2026-11-08T06:15:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -675,7 +675,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 15.7,
+          "score": 14.8,
           "countries": [
             "france"
           ],
@@ -710,7 +710,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 13.3,
+          "score": 12.6,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -761,7 +761,7 @@
           "key": "advisories",
           "label_th": "ประกาศช่องโหว่ทั่วไป",
           "label_en": "Routine vulnerability advisories",
-          "value": 4,
+          "value": 3,
           "unit": "รายการ",
           "unit_en": "items",
           "hint": null,
@@ -775,8 +775,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 95.3,
-      "contribution": 53.4,
+      "score": 92.4,
+      "contribution": 50.0,
       "headline": "ภัยคุกคามนิวเคลียร์: Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
       "headline_en": "Nuclear threat: Trump says  there would be no Israel  if Iran was allowed nuclear weapon"
     },
@@ -793,8 +793,8 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 48.2,
-      "contribution": 7.2,
+      "score": 46.6,
+      "contribution": 7.0,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
@@ -928,7 +928,7 @@
       }
     ],
     "local_notes_en": [],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-07T21:57:34Z"
   },
@@ -942,7 +942,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:36Z",
+        "fetched_at": "2026-11-08T06:15:13Z",
         "items": 5,
         "data_as_of": "2026-11-06",
         "error": null,
@@ -953,7 +953,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-07T21:57:44Z",
+        "fetched_at": "2026-11-08T06:15:26Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -964,9 +964,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:34Z",
-        "items": 24,
-        "data_as_of": "2026-11-07T21:13:24Z",
+        "fetched_at": "2026-11-08T06:15:12Z",
+        "items": 25,
+        "data_as_of": "2026-11-08T04:03:12Z",
         "error": null,
         "note": null,
         "optional": false
@@ -975,9 +975,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:34Z",
+        "fetched_at": "2026-11-08T06:15:12Z",
         "items": 25,
-        "data_as_of": "2026-11-07T21:24:10Z",
+        "data_as_of": "2026-11-08T05:09:39Z",
         "error": null,
         "note": null,
         "optional": false
@@ -986,9 +986,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:35Z",
-        "items": 14,
-        "data_as_of": "2026-11-07T21:00:05Z",
+        "fetched_at": "2026-11-08T06:15:12Z",
+        "items": 10,
+        "data_as_of": "2026-11-07T22:45:30Z",
         "error": null,
         "note": null,
         "optional": false
@@ -997,8 +997,8 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:34Z",
-        "items": 4,
+        "fetched_at": "2026-11-08T06:15:12Z",
+        "items": 3,
         "data_as_of": "2026-11-06T10:39:27Z",
         "error": null,
         "note": null,
@@ -1008,9 +1008,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:40Z",
-        "items": 233,
-        "data_as_of": "2026-11-07T21:48:19Z",
+        "fetched_at": "2026-11-08T06:15:14Z",
+        "items": 214,
+        "data_as_of": "2026-11-08T04:43:52Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1019,7 +1019,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:35Z",
+        "fetched_at": "2026-11-08T06:15:12Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -1030,9 +1030,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-07T21:57:35Z",
-        "items": 47,
-        "data_as_of": "2026-11-06T20:53:11Z",
+        "fetched_at": "2026-11-08T06:15:12Z",
+        "items": 46,
+        "data_as_of": "2026-11-07T22:08:26Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false

@@ -28,7 +28,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -40,9 +40,9 @@
         "category": "missile_strike",
         "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
         "category_en": "Air / missile strikes",
-        "title": "Houthis say at least 25 killed in Saudi air strike",
+        "title": "Houthis say at least 33 killed in Saudi air strike",
         "severity": 55.0,
-        "score": 44.0,
+        "score": 41.6,
         "countries": [
           "yemen",
           "saudi arabia"
@@ -52,27 +52,134 @@
           "BBC World",
           "sana.sy"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Haitians cheer El Salvador’s Bukele amid gang war",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss"
+        ],
+        "refs": [
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World",
           "Al Jazeera"
         ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:afa09db868": {
+        "id": "geo:conflict:afa09db868",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump asks UFC chief Dana White to be White House press secretary",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:f2e533405c": {
+        "id": "geo:conflict:f2e533405c",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+        "severity": 30.0,
+        "score": 27.1,
+        "countries": [
+          "iran",
+          "uae"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "armstrongeconomics.com",
+          "economictimes.indiatimes.com",
+          "egyptindependent.com",
+          "foxnews.com",
+          "iranherald.com",
+          "middleeaststar.com",
+          "moneycontrol.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -107,7 +214,120 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ab65d8b961": {
+        "id": "geo:sanctions:ab65d8b961",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-08T06:15:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:065595248b": {
+        "id": "geo:conflict:065595248b",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Syria denies plans to send troops to Yemen as Saudi military ties deepen - Reuters",
+        "severity": 30.0,
+        "score": 22.7,
+        "countries": [
+          "syria",
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -154,90 +374,6 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-07T06:09:31Z",
-        "last_seen": "2026-11-07T21:57:34Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "aol.co.uk",
-          "channelnewsasia.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T21:57:34Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:065595248b": {
-        "id": "geo:conflict:065595248b",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "yemen",
-          "syria",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-07T21:57:34Z",
         "last_seen": "2026-11-07T21:57:34Z",
         "is_local": false,
         "location": null,
@@ -474,63 +610,6 @@
         ],
         "link_sources": [
           "thestar.com.my"
-        ],
-        "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:f2e533405c": {
-        "id": "geo:conflict:f2e533405c",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "JD Vance leads behind - the - scenes push for new Iran deal amid war tensions : Report",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "iran",
-          "uae"
-        ],
-        "sources": [
-          "armstrongeconomics.com",
-          "economictimes.indiatimes.com",
-          "egyptindependent.com",
-          "foxnews.com",
-          "iranherald.com",
-          "middleeaststar.com",
-          "moneycontrol.com",
-          "omanobserver.om"
-        ],
-        "article_count": 9,
-        "links": [
-          "https://www.moneycontrol.com/world/jd-vance-leads-behind-the-scenes-push-for-new-iran-deal-amid-war-tensions-report-article-14074318.html",
-          "https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region",
-          "https://www.egyptindependent.com/irans-hardliners-see-a-weakened-trump-and-want-more-to-end-the-war/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.moneycontrol.com/world/jd-vance-leads-behind-the-scenes-push-for-new-iran-deal-amid-war-tensions-report-article-14074318.html",
-            "source": "moneycontrol.com"
-          },
-          {
-            "url": "https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region",
-            "source": "foxnews.com"
-          },
-          {
-            "url": "https://www.egyptindependent.com/irans-hardliners-see-a-weakened-trump-and-want-more-to-end-the-war/",
-            "source": "egyptindependent.com"
-          }
-        ],
-        "link_sources": [
-          "moneycontrol.com",
-          "foxnews.com",
-          "egyptindependent.com",
-          "economictimes.indiatimes.com",
-          "thehindu.com"
         ],
         "first_seen": "2026-11-07T15:28:13Z",
         "last_seen": "2026-11-07T15:28:13Z",
@@ -916,41 +995,6 @@
         ],
         "first_seen": "2026-11-07T11:17:01Z",
         "last_seen": "2026-11-07T13:14:34Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-07T11:51:55Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2473,7 +2517,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2506,7 +2550,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2539,40 +2583,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-07T21:57:34Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:0d4a7098ef": {
-        "id": "bio_infra:vuln_advisory:0d4a7098ef",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Vulnerability Analysis PathwayCourse FY27",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTFyREFXcFl6eGYwUkpURzkzaFJQTk1kVmFnMTlYN0x4Skd0Z3A2ZGNrMlZENnEwMmhGSU9KazhBVmEzZW1zSWYtbF90NjJLV2UzVGJ1bWZ3NkM5VmpjVFRiMHlfX05oMkhiNkk3X3F5Mmw2SU1HOXJ5TXJYQjE3cXZMZ0xjZUlmcE96cV8wbjVjVU83d0VQc1lTVQ?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2608,7 +2619,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2641,7 +2652,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-07T21:57:34Z",
+        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3107,19 +3118,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-07T21:57:34Z"
+      "as_of": "2026-11-08T06:15:12Z"
     },
     "geo": {
-      "score": 95.3,
-      "as_of": "2026-11-07T21:57:34Z"
+      "score": 92.4,
+      "as_of": "2026-11-08T06:15:12Z"
     },
     "nat": {
-      "score": 10.3,
-      "as_of": "2026-11-07T21:57:34Z"
+      "score": 9.9,
+      "as_of": "2026-11-08T06:15:12Z"
     },
     "bio_infra": {
-      "score": 48.2,
-      "as_of": "2026-11-07T21:57:34Z"
+      "score": 46.6,
+      "as_of": "2026-11-08T06:15:12Z"
     }
   },
   "econ_indicators": {
@@ -3128,7 +3139,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T21:57:34Z",
+      "as_of": "2026-11-08T06:15:12Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -3136,7 +3147,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T21:57:34Z",
+      "as_of": "2026-11-08T06:15:12Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -3144,7 +3155,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T21:57:34Z",
+      "as_of": "2026-11-08T06:15:12Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3152,7 +3163,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T21:57:34Z",
+      "as_of": "2026-11-08T06:15:12Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3160,7 +3171,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-07T21:57:34Z",
+      "as_of": "2026-11-08T06:15:12Z",
       "provider": "yfinance"
     }
   },
@@ -3316,6 +3327,6 @@
     },
     "generated_at": "2026-11-07T21:57:34Z"
   },
-  "updated_at": "2026-11-07T21:57:34Z",
+  "updated_at": "2026-11-08T06:15:12Z",
   "version": 1
 }
