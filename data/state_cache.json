@@ -1,6 +1,341 @@
 {
   "active_events": {
     "geo": {
+      "geo:chokepoint:29886bc41b": {
+        "id": "geo:chokepoint:29886bc41b",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Trump orders blockade on Iranian ground transport as Houthis say Saudis killed dozens in air strikes",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran",
+          "yemen"
+        ],
+        "sources": [
+          "foxnews.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+        ],
+        "refs": [
+          {
+            "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8",
+            "source": "foxnews.com"
+          }
+        ],
+        "link_sources": [
+          "foxnews.com"
+        ],
+        "first_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:2ccc9c3da2": {
+        "id": "geo:conflict:2ccc9c3da2",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Resumption of War in Iran after US Mid - Terms",
+        "severity": 30.0,
+        "score": 30.0,
+        "countries": [
+          "iran",
+          "iraq"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "foxnews.com",
+          "mg.co.za",
+          "naturalnews.com"
+        ],
+        "article_count": 4,
+        "links": [
+          "https://mg.co.za/thought-leader/2026-11-08-resumption-of-war-in-iran-after-us-mid-terms/",
+          "https://www.naturalnews.com/2026-11-08-trump-weighs-next-move-war-with-iran.html",
+          "https://www.foxnews.com/opinion/robert-l-maginnis-iran-war-cost-republicans-congress-what-will-it-cost-america"
+        ],
+        "refs": [
+          {
+            "url": "https://mg.co.za/thought-leader/2026-11-08-resumption-of-war-in-iran-after-us-mid-terms/",
+            "source": "mg.co.za"
+          },
+          {
+            "url": "https://www.naturalnews.com/2026-11-08-trump-weighs-next-move-war-with-iran.html",
+            "source": "naturalnews.com"
+          },
+          {
+            "url": "https://www.foxnews.com/opinion/robert-l-maginnis-iran-war-cost-republicans-congress-what-will-it-cost-america",
+            "source": "foxnews.com"
+          }
+        ],
+        "link_sources": [
+          "mg.co.za",
+          "naturalnews.com",
+          "foxnews.com",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-06T06:57:31Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8dfd5ff85f": {
+        "id": "geo:missile_strike:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged , and other Mideast news",
+        "severity": 55.0,
+        "score": 55.0,
+        "countries": [
+          "saudi arabia",
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "clickorlando.com",
+          "idahostatejournal.com",
+          "khqa.com",
+          "news4jax.com",
+          "newsday.com"
+        ],
+        "article_count": 9,
+        "links": [
+          "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
+          "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
+          "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
+            "source": "newsday.com"
+          },
+          {
+            "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
+            "source": "winnipegfreepress.com"
+          },
+          {
+            "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
+            "source": "wsls.com"
+          }
+        ],
+        "link_sources": [
+          "newsday.com",
+          "winnipegfreepress.com",
+          "wsls.com",
+          "idahostatejournal.com",
+          "news4jax.com"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:14d281fd80": {
+        "id": "geo:conflict:14d281fd80",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "More than 50 killed in two attacks in Yemen , Houthi officials say",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "irishtimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.irishtimes.com/world/middle-east/2026/11/07/more-than-50-killed-in-two-attacks-in-yemen-houthi-officials-say/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.irishtimes.com/world/middle-east/2026/11/07/more-than-50-killed-in-two-attacks-in-yemen-houthi-officials-say/",
+            "source": "irishtimes.com"
+          }
+        ],
+        "link_sources": [
+          "irishtimes.com"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c4fb5956d": {
+        "id": "geo:conflict:0c4fb5956d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Hacked Records Show 400 , 000 Russians Killed in War on Ukraine",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World",
+          "livemint.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.livemint.com/news/world/hacked-records-show-400-000-russians-killed-in-war-on-ukraine-11794157943924.html"
+        ],
+        "refs": [
+          {
+            "url": "https://www.livemint.com/news/world/hacked-records-show-400-000-russians-killed-in-war-on-ukraine-11794157943924.html",
+            "source": "livemint.com"
+          }
+        ],
+        "link_sources": [
+          "livemint.com"
+        ],
+        "first_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:0c4fb5956d": {
+        "id": "geo:missile_strike:0c4fb5956d",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Drone and missile attacks wound 9 in Ukraine",
+        "severity": 55.0,
+        "score": 44.0,
+        "countries": [
+          "ukraine"
+        ],
+        "sources": [
+          "Reuters (Google News)",
+          "mercurynews.com",
+          "nwaonline.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.mercurynews.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+          "https://www.nwaonline.com/news/2026/nov/08/drone-missile-strikes-in-ukraine-wound-9/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.mercurynews.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+            "source": "mercurynews.com"
+          },
+          {
+            "url": "https://www.nwaonline.com/news/2026/nov/08/drone-missile-strikes-in-ukraine-wound-9/",
+            "source": "nwaonline.com"
+          }
+        ],
+        "link_sources": [
+          "mercurynews.com",
+          "nwaonline.com"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:nuclear:ed9a73c4e5": {
+        "id": "geo:nuclear:ed9a73c4e5",
+        "pillar": "geo",
+        "category": "nuclear",
+        "category_th": "ภัยคุกคามนิวเคลียร์",
+        "category_en": "Nuclear threat",
+        "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
+        "severity": 95.0,
+        "score": 77.1,
+        "countries": [
+          "israel",
+          "iran"
+        ],
+        "sources": [
+          "egyptindependent.com",
+          "hindustantimes.com",
+          "middleeasteye.net",
+          "popularmechanics.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html"
+        ],
+        "refs": [
+          {
+            "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+            "source": "hindustantimes.com"
+          }
+        ],
+        "link_sources": [
+          "hindustantimes.com"
+        ],
+        "first_seen": "2026-11-07T15:28:13Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:energy_infra:7a3d474ec2": {
+        "id": "geo:energy_infra:7a3d474ec2",
+        "pillar": "geo",
+        "category": "energy_infra",
+        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+        "category_en": "Attack on energy infrastructure",
+        "title": "Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say - The Hindu",
+        "severity": 75.0,
+        "score": 45.0,
+        "countries": [
+          "iraq"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-08T22:14:37Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:e18a77f7d4": {
         "id": "geo:conflict:e18a77f7d4",
         "pillar": "geo",
@@ -28,51 +363,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:8dfd5ff85f": {
-        "id": "geo:missile_strike:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Houthis say at least 33 killed in Saudi air strike",
-        "severity": 55.0,
-        "score": 44.0,
-        "countries": [
-          "yemen",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "sana.sy"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-          "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
         "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
@@ -740,56 +1030,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:nuclear:ed9a73c4e5": {
-        "id": "geo:nuclear:ed9a73c4e5",
-        "pillar": "geo",
-        "category": "nuclear",
-        "category_th": "ภัยคุกคามนิวเคลียร์",
-        "category_en": "Nuclear threat",
-        "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
-        "severity": 95.0,
-        "score": 95.0,
-        "countries": [
-          "israel",
-          "iran"
-        ],
-        "sources": [
-          "egyptindependent.com",
-          "middleeasteye.net",
-          "popularmechanics.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
-          "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
-          "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
-            "source": "middleeasteye.net"
-          },
-          {
-            "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
-            "source": "popularmechanics.com"
-          },
-          {
-            "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
-            "source": "egyptindependent.com"
-          }
-        ],
-        "link_sources": [
-          "middleeasteye.net",
-          "popularmechanics.com",
-          "egyptindependent.com"
-        ],
-        "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:9689f0274f": {
         "id": "geo:conflict:9689f0274f",
         "pillar": "geo",
@@ -937,41 +1177,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:14d281fd80": {
-        "id": "geo:conflict:14d281fd80",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T19:29:50Z",
         "last_seen": "2026-11-07T15:28:13Z",
         "is_local": false,
         "location": null,
@@ -1291,49 +1496,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-06T06:57:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:2ccc9c3da2": {
-        "id": "geo:conflict:2ccc9c3da2",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "iran",
-          "iraq"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T06:57:31Z",
         "last_seen": "2026-11-06T06:57:31Z",
         "is_local": false,
         "location": null,
@@ -2413,41 +2575,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c4fb5956d": {
-        "id": "geo:conflict:0c4fb5956d",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-02T21:46:15Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:e074138d45": {
         "id": "geo:conflict:e074138d45",
         "pillar": "geo",
@@ -2478,41 +2605,6 @@
         ],
         "first_seen": "2026-11-02T07:10:38Z",
         "last_seen": "2026-11-02T10:39:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:0c4fb5956d": {
-        "id": "geo:missile_strike:0c4fb5956d",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Ukraine says public air raid alert app sent false alerts after being hacked, World News - AsiaOne.com",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "ukraine"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOFZyMmtqRkxhalBycWtOV3lra0NPQ3hPQUd3WGVNdi1XRnFhUUR2Y0MyWFlVQVNKazFZb2FCbDdiZ2lLMlNVTUc3SllKQnFTeFdjU0kwRUFmRW5ZMnVoX0liLV9qQ1Rac0NtNFkwbWlpWnZBdEFjUDhSeHdQMTVqMlJ0SndkRll1ZGg5cHNzbTB6UjVrTHhRUjhrZVBPMzZKXzhFVENqbzc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-02T10:34:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2603,7 +2695,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2636,7 +2728,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2669,7 +2761,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2705,7 +2797,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3204,19 +3296,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-08T13:38:54Z"
+      "as_of": "2026-11-08T22:14:37Z"
     },
     "geo": {
-      "score": 89.8,
-      "as_of": "2026-11-08T13:38:54Z"
+      "score": 87.4,
+      "as_of": "2026-11-08T22:14:37Z"
     },
     "nat": {
-      "score": 9.6,
-      "as_of": "2026-11-08T13:38:54Z"
+      "score": 9.2,
+      "as_of": "2026-11-08T22:14:37Z"
     },
     "bio_infra": {
-      "score": 45.1,
-      "as_of": "2026-11-08T13:38:54Z"
+      "score": 43.3,
+      "as_of": "2026-11-08T22:14:37Z"
     }
   },
   "econ_indicators": {
@@ -3225,7 +3317,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T13:38:54Z",
+      "as_of": "2026-11-08T22:14:37Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -3233,7 +3325,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T13:38:54Z",
+      "as_of": "2026-11-08T22:14:37Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -3241,7 +3333,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T13:38:54Z",
+      "as_of": "2026-11-08T22:14:37Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3249,7 +3341,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T13:38:54Z",
+      "as_of": "2026-11-08T22:14:37Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3257,7 +3349,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T13:38:54Z",
+      "as_of": "2026-11-08T22:14:37Z",
       "provider": "yfinance"
     }
   },
@@ -3265,145 +3357,145 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "e1c4cda694ae5d7c",
+    "events_hash": "ac2948059c6ca98b",
     "event_ids": [
-      "bio_infra:high_consequence:08ddd752fb",
+      "geo:chokepoint:29886bc41b",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:d591d87e00",
+      "geo:conflict:2ccc9c3da2",
+      "geo:energy_infra:7a3d474ec2",
       "geo:energy_infra:a59ee23b9a",
       "geo:invasion:8f4f9f2dcb",
-      "geo:missile_strike:73ae71ea05",
+      "geo:missile_strike:0c4fb5956d",
       "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a383595182",
       "geo:missile_strike:a59ee23b9a",
-      "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5",
       "geo:sanctions:66b49f810a"
     ],
     "econ_score": 55.5,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับความทะเยอทะยานด้านนิวเคลียร์ของอิหร่านและการโจมตีในช่องแคบฮอร์มุซ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน เหตุการณ์เหล่านี้กำลังกระตุ้นความผันผวนของตลาด ซึ่งเห็นได้จากราคาทองคำที่สูงขึ้นและตลาดหุ้นที่ลดลง",
+      "executive_summary_th": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง ซึ่งรวมถึงภัยคุกคามทางนิวเคลียร์และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน ควบคู่ไปกับการสู้รบที่ดำเนินอยู่ในยูเครน กำลังผลักดันความผันผวนของตลาดโลกอย่างมีนัยสำคัญและความกังวลเกี่ยวกับเสถียรภาพทางเศรษฐกิจ",
       "early_warnings_th": [
         {
-          "title": "ความเสี่ยงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลางและการหยุดชะงักของอุปทานพลังงาน",
+          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมที่จะโจมตีอิหร่าน ซึ่งเกิดขึ้นพร้อมกับการโจมตีเรือบรรทุกน้ำมัน 5 ลำในช่องแคบฮอร์มุซและการโจมตีด้วยขีปนาวุธบนเกาะเคช์ม ในขณะที่วาทศิลป์เกี่ยวกับโครงการนิวเคลียร์ของอิหร่านทวีความรุนแรงขึ้น",
+          "evidence_summary": "อิสราเอลระบุว่าภารกิจของอิหร่านยังไม่เสร็จสิ้น โดยพวกเขากำลังพยายามสร้างอาวุธนิวเคลียร์ ขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมโจมตีอิหร่าน และมีการโจมตีเรือบรรทุกน้ำมัน 5 ลำในช่องแคบฮอร์มุซ",
           "refs": [
             {
-              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
-              "source": "middleeasteye.net"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
-              "source": "popularmechanics.com"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             },
             {
-              "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
-              "source": "egyptindependent.com"
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "ความขัดแย้งที่ยืดเยื้อและความเปราะบางของโครงสร้างพื้นฐานด้านพลังงานในยูเครน",
+          "title": "ภัยคุกคามต่ออุปทานพลังงานและโครงสร้างพื้นฐานทั่วโลก",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "ขีปนาวุธได้พุ่งเป้าโจมตีเคียฟ ทำให้มีผู้บาดเจ็บ 5 ราย และการโจมตีของรัสเซียได้ทำลายโครงสร้างพื้นฐานด้านพลังงานของยูเครน ส่งผลให้เกิดไฟฟ้าดับในห้าภูมิภาค",
+          "evidence_summary": "การผลิตที่แหล่งก๊าซ Khor Mor ของอิรักถูกระงับหลังการโจมตีด้วยโดรน และซาอุดีอาระเบียสกัดกั้นขีปนาวุธขณะที่อาคาร Aramco ในริยาดได้รับความเสียหาย รวมถึงการโจมตีโครงสร้างพื้นฐานด้านพลังงานในยูเครน",
           "refs": [
             {
-              "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-              "source": "durangoherald.com"
+              "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
+              "source": "newsday.com"
             },
             {
-              "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
-              "source": "timesofindia.indiatimes.com"
+              "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
+              "source": "winnipegfreepress.com"
             },
             {
-              "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
-              "source": "dailyadvance.com"
+              "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
+              "source": "wsls.com"
             }
           ]
         },
         {
-          "title": "ความเสี่ยงด้านสาธารณสุขและความมั่นคงทางไซเบอร์ที่กำลังเกิดขึ้น",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ในขณะที่เหตุการณ์ทางไซเบอร์รวมถึงการรั่วไหลของข้อมูลส่วนตัวของรัฐมนตรีต่างประเทศอิตาลีและการโจมตีแบบไฮบริดที่ต้องสงสัยในยุโรป",
+          "title": "ความผันผวนของตลาดที่เพิ่มขึ้นและความไม่แน่นอนทางเศรษฐกิจ",
+          "signal_strength": "สูง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "ดัชนี VIX เพิ่มขึ้น 32.03% ในขณะที่ราคาทองคำ ซึ่งเป็นสินทรัพย์ปลอดภัย เพิ่มขึ้น 4.51% บ่งชี้ถึงความกังวลของตลาดท่ามกลางความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             },
             {
-              "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, primarily concerning Iran's nuclear ambitions and attacks in the Strait of Hormuz, alongside ongoing conflicts in Ukraine. These events are fueling market volatility, evidenced by rising gold prices and declining equity markets.",
+      "executive_summary_en": "Escalating geopolitical conflicts in the Middle East, marked by nuclear threats and attacks on energy infrastructure, alongside ongoing hostilities in Ukraine, are driving significant global market volatility and concerns over economic stability.",
       "early_warnings_en": [
         {
-          "title": "Heightened Geopolitical Risk in the Middle East and Energy Supply Disruptions",
+          "title": "Escalating Geopolitical Conflict in the Middle East",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "The Pentagon has indicated US troops are poised to strike Iran, coinciding with attacks on five tankers in the Strait of Hormuz and missile strikes on Qeshm Island, while rhetoric around Iran's nuclear program intensifies.",
+          "evidence_summary": "Israel states Iran's mission is not complete as they are trying to get nuclear weapons, while the Pentagon says US troops are poised to strike Iran, and five tankers were hit in the Strait of Hormuz.",
           "refs": [
             {
-              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
-              "source": "middleeasteye.net"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
-              "source": "popularmechanics.com"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             },
             {
-              "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
-              "source": "egyptindependent.com"
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Persistent Conflict and Energy Infrastructure Vulnerability in Ukraine",
+          "title": "Threats to Global Energy Supply and Infrastructure",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Missiles have targeted Kyiv, wounding five, and Russian strikes have hit Ukraine's energy infrastructure, leading to power cuts in five regions.",
+          "evidence_summary": "Production at Iraq’s Khor Mor gas field was suspended after a drone attack, and Saudi Arabia intercepted missiles as an Aramco building in Riyadh was damaged, alongside strikes on energy infrastructure in Ukraine.",
           "refs": [
             {
-              "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-              "source": "durangoherald.com"
+              "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
+              "source": "newsday.com"
             },
             {
-              "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
-              "source": "timesofindia.indiatimes.com"
+              "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
+              "source": "winnipegfreepress.com"
             },
             {
-              "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
-              "source": "dailyadvance.com"
+              "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
+              "source": "wsls.com"
             }
           ]
         },
         {
-          "title": "Emerging Public Health and Cyber Security Risks",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "An Ebola outbreak has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, while cyber incidents include the leaking of an Italian foreign minister's personal data and suspected hybrid attacks in Europe.",
+          "title": "Heightened Market Volatility and Economic Uncertainty",
+          "signal_strength": "สูง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "The VIX volatility index increased by 32.03%, while gold, a safe haven asset, rose by 4.51%, indicating market concerns amidst rising geopolitical tensions.",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
-              "source": "WHO DON"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             },
             {
-              "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
@@ -3411,8 +3503,8 @@
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-07T21:57:34Z"
+    "generated_at": "2026-11-08T22:14:37Z"
   },
-  "updated_at": "2026-11-08T13:38:54Z",
+  "updated_at": "2026-11-08T22:14:37Z",
   "version": 1
 }
