@@ -28,7 +28,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -42,7 +42,7 @@
         "category_en": "Air / missile strikes",
         "title": "Houthis say at least 33 killed in Saudi air strike",
         "severity": 55.0,
-        "score": 41.6,
+        "score": 44.0,
         "countries": [
           "yemen",
           "saudi arabia"
@@ -50,23 +50,109 @@
         "sources": [
           "Al Jazeera",
           "BBC World",
+          "Reuters (Google News)",
           "sana.sy"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
-          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+          "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5",
+            "source": "Reuters (Google News)"
           }
         ],
         "link_sources": [
-          "BBC World"
+          "BBC World",
+          "Reuters (Google News)"
         ],
         "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:01609539a2": {
+        "id": "geo:conflict:01609539a2",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "poland"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T13:38:54Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8dfd5ff85f": {
+        "id": "geo:conflict:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "After rebel offensive, efforts to push them back appear to have stalled",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "saudi arabia",
+          "yemen",
+          "syria"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -101,7 +187,7 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2503,7 +2589,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5"
         ],
@@ -2517,7 +2603,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2550,7 +2636,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2583,7 +2669,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2619,7 +2705,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-08T13:38:54Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3118,19 +3204,19 @@
   "last_valid": {
     "econ": {
       "score": 55.5,
-      "as_of": "2026-11-08T06:15:12Z"
+      "as_of": "2026-11-08T13:38:54Z"
     },
     "geo": {
-      "score": 92.4,
-      "as_of": "2026-11-08T06:15:12Z"
+      "score": 89.8,
+      "as_of": "2026-11-08T13:38:54Z"
     },
     "nat": {
-      "score": 9.9,
-      "as_of": "2026-11-08T06:15:12Z"
+      "score": 9.6,
+      "as_of": "2026-11-08T13:38:54Z"
     },
     "bio_infra": {
-      "score": 46.6,
-      "as_of": "2026-11-08T06:15:12Z"
+      "score": 45.1,
+      "as_of": "2026-11-08T13:38:54Z"
     }
   },
   "econ_indicators": {
@@ -3139,7 +3225,7 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T06:15:12Z",
+      "as_of": "2026-11-08T13:38:54Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -3147,7 +3233,7 @@
       "change_pct": -16.42,
       "drawdown_pct": -16.92,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T06:15:12Z",
+      "as_of": "2026-11-08T13:38:54Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -3155,7 +3241,7 @@
       "change_pct": 4.51,
       "drawdown_pct": -23.38,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T06:15:12Z",
+      "as_of": "2026-11-08T13:38:54Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3163,7 +3249,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T06:15:12Z",
+      "as_of": "2026-11-08T13:38:54Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3171,7 +3257,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T06:15:12Z",
+      "as_of": "2026-11-08T13:38:54Z",
       "provider": "yfinance"
     }
   },
@@ -3327,6 +3413,6 @@
     },
     "generated_at": "2026-11-07T21:57:34Z"
   },
-  "updated_at": "2026-11-08T06:15:12Z",
+  "updated_at": "2026-11-08T13:38:54Z",
   "version": 1
 }

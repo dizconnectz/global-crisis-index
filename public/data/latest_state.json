@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T06:15:12Z",
-  "global_score": 78,
+  "generated_at": "2026-11-08T13:38:54Z",
+  "global_score": 75,
   "band": {
     "key": "critical",
     "min": 71,
@@ -11,10 +11,10 @@
     "color": "red"
   },
   "formula": {
-    "base": 60.24,
-    "boost": 17.68,
+    "base": 59.06,
+    "boost": 15.5,
     "cross_confirmed": true,
-    "max1": 92.4,
+    "max1": 89.8,
     "max2": 55.5,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 92.4,
+      "score": 89.8,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Nuclear threat",
           "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
           "severity": 95.0,
-          "score": 86.0,
+          "score": 81.8,
           "countries": [
             "israel",
             "iran"
@@ -235,7 +235,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
           "severity": 85.0,
-          "score": 61.5,
+          "score": 58.5,
           "countries": [
             "united states",
             "iran"
@@ -278,7 +278,7 @@
           "category_en": "Air / missile strikes",
           "title": "Missiles target Kyiv and wound 5 as Ukraine prepares for talks with Russia and the US",
           "severity": 55.0,
-          "score": 49.8,
+          "score": 47.3,
           "countries": [
             "ukraine",
             "russia"
@@ -330,7 +330,7 @@
           "category_en": "Invasion or declaration of war",
           "title": "Mélenchon promises action against Israeli annexation if elected President",
           "severity": 80.0,
-          "score": 48.0,
+          "score": 45.7,
           "countries": [
             "israel"
           ],
@@ -358,37 +358,45 @@
           "raw_score": null
         },
         {
-          "id": "geo:chokepoint:73ae71ea05",
+          "id": "geo:missile_strike:8dfd5ff85f",
           "pillar": "geo",
-          "category": "chokepoint",
-          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-          "category_en": "Shipping chokepoint threat",
-          "title": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-          "severity": 85.0,
-          "score": 45.5,
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Houthis say at least 33 killed in Saudi air strike",
+          "severity": 55.0,
+          "score": 44.0,
           "countries": [
-            "iran"
+            "yemen",
+            "saudi arabia"
           ],
           "sources": [
             "Al Jazeera",
+            "BBC World",
             "Reuters (Google News)",
-            "manilatimes.net"
+            "sana.sy"
           ],
-          "article_count": 1,
+          "article_count": 2,
           "links": [
-            "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss"
+            "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+            "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5"
           ],
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5",
+              "source": "Reuters (Google News)"
             }
           ],
           "link_sources": [
-            "Al Jazeera"
+            "BBC World",
+            "Reuters (Google News)"
           ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-07T13:14:34Z",
+          "first_seen": "2026-11-02T10:22:19Z",
+          "last_seen": "2026-11-08T13:38:54Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -400,7 +408,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 68,
+          "value": 70,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -420,18 +428,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 60,
+          "value": 62,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 9 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 9.9,
+      "score": 9.6,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -446,8 +454,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 4.8,
-          "score": 4.8,
+          "severity": 4.5,
+          "score": 4.5,
           "countries": [],
           "sources": [
             "USGS"
@@ -470,7 +478,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 4.8
+          "raw_score": 4.5
         },
         {
           "id": "gdacs:EQ1576118",
@@ -479,8 +487,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC, 630 thousand in MMI V.",
-          "severity": 2.7,
-          "score": 2.7,
+          "severity": 2.6,
+          "score": 2.6,
           "countries": [
             "Japan"
           ],
@@ -505,7 +513,7 @@
           "is_local": false,
           "location": "Japan (ห่างโตเกียว ~203 กม.)",
           "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 2.7
+          "raw_score": 2.6
         }
       ],
       "metrics": [
@@ -513,7 +521,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 3,
+          "value": 2,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -543,7 +551,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 184,
+          "value": 201,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -554,7 +562,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 46.6,
+      "score": 45.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -570,7 +578,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 32.7,
+          "score": 31.1,
           "countries": [
             "dr congo",
             "nigeria"
@@ -628,7 +636,7 @@
             "BBC World"
           ],
           "first_seen": "2026-11-07T13:14:34Z",
-          "last_seen": "2026-11-08T06:15:12Z",
+          "last_seen": "2026-11-08T13:38:54Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -642,7 +650,7 @@
           "category_en": "Actual cyber incident",
           "title": "Who is behind Europe’s suspected hybrid attacks?",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 22.8,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -675,7 +683,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 14.8,
+          "score": 14.1,
           "countries": [
             "france"
           ],
@@ -710,7 +718,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 12.6,
+          "score": 11.9,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -775,8 +783,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 92.4,
-      "contribution": 50.0,
+      "score": 89.8,
+      "contribution": 46.9,
       "headline": "ภัยคุกคามนิวเคลียร์: Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
       "headline_en": "Nuclear threat: Trump says  there would be no Israel  if Iran was allowed nuclear weapon"
     },
@@ -793,8 +801,8 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 46.6,
-      "contribution": 7.0,
+      "score": 45.1,
+      "contribution": 6.8,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
@@ -942,7 +950,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:13Z",
+        "fetched_at": "2026-11-08T13:38:56Z",
         "items": 5,
         "data_as_of": "2026-11-06",
         "error": null,
@@ -953,7 +961,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-08T06:15:26Z",
+        "fetched_at": "2026-11-08T13:39:04Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -964,9 +972,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
+        "fetched_at": "2026-11-08T13:38:54Z",
         "items": 25,
-        "data_as_of": "2026-11-08T04:03:12Z",
+        "data_as_of": "2026-11-08T11:22:17Z",
         "error": null,
         "note": null,
         "optional": false
@@ -975,9 +983,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
+        "fetched_at": "2026-11-08T13:38:54Z",
         "items": 25,
-        "data_as_of": "2026-11-08T05:09:39Z",
+        "data_as_of": "2026-11-08T13:06:28Z",
         "error": null,
         "note": null,
         "optional": false
@@ -986,9 +994,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
-        "items": 10,
-        "data_as_of": "2026-11-07T22:45:30Z",
+        "fetched_at": "2026-11-08T13:38:54Z",
+        "items": 12,
+        "data_as_of": "2026-11-08T09:35:45Z",
         "error": null,
         "note": null,
         "optional": false
@@ -997,8 +1005,8 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
-        "items": 3,
+        "fetched_at": "2026-11-08T13:38:54Z",
+        "items": 2,
         "data_as_of": "2026-11-06T10:39:27Z",
         "error": null,
         "note": null,
@@ -1008,9 +1016,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:14Z",
-        "items": 214,
-        "data_as_of": "2026-11-08T04:43:52Z",
+        "fetched_at": "2026-11-08T13:38:56Z",
+        "items": 235,
+        "data_as_of": "2026-11-08T12:29:43Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1019,7 +1027,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
+        "fetched_at": "2026-11-08T13:38:54Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -1030,8 +1038,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-08T06:15:12Z",
-        "items": 46,
+        "fetched_at": "2026-11-08T13:38:54Z",
+        "items": 47,
         "data_as_of": "2026-11-07T22:08:26Z",
         "error": null,
         "note": "google_news_fallback",
