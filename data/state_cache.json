@@ -1,6 +1,121 @@
 {
   "active_events": {
     "geo": {
+      "geo:nuclear:73ae71ea05": {
+        "id": "geo:nuclear:73ae71ea05",
+        "pillar": "geo",
+        "category": "nuclear",
+        "category_th": "ภัยคุกคามนิวเคลียร์",
+        "category_en": "Nuclear threat",
+        "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+        "severity": 95.0,
+        "score": 57.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "metro.co.uk"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-09T06:48:20Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:energy_infra:5679e2094a": {
+        "id": "geo:energy_infra:5679e2094a",
+        "pillar": "geo",
+        "category": "energy_infra",
+        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+        "category_en": "Attack on energy infrastructure",
+        "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
+        "severity": 75.0,
+        "score": 60.0,
+        "countries": [
+          "iraq",
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-09T06:48:20Z",
+        "last_seen": "2026-11-09T06:48:20Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73de74cec3": {
+        "id": "geo:conflict:73de74cec3",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, ‘denuclearisation’",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-09T06:48:20Z",
+        "last_seen": "2026-11-09T06:48:20Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:chokepoint:29886bc41b": {
         "id": "geo:chokepoint:29886bc41b",
         "pillar": "geo",
@@ -1974,41 +2089,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:nuclear:73ae71ea05": {
-        "id": "geo:nuclear:73ae71ea05",
-        "pillar": "geo",
-        "category": "nuclear",
-        "category_th": "ภัยคุกคามนิวเคลียร์",
-        "category_en": "Nuclear threat",
-        "title": "Iranian TV broadcasts chilling warning video on how to survive a nuclear strike",
-        "severity": 95.0,
-        "score": 57.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "metro.co.uk"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/"
-        ],
-        "refs": [
-          {
-            "url": "https://metro.co.uk/2026/11/03/iranian-tv-broadcasts-advice-a-nuclear-strike-29761539/",
-            "source": "metro.co.uk"
-          }
-        ],
-        "link_sources": [
-          "metro.co.uk"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:mobilization:01609539a2": {
         "id": "geo:mobilization:01609539a2",
         "pillar": "geo",
@@ -2681,7 +2761,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
           "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY25ROFdGcGU0SWlManhVcFpoMEdvNzFobm1DdmloYjFPVFFhU29LR0xzdmhJR3pPM1owaTBGZVlEMkFqMEVOeGJjRlBlVzhBYUNhclR2QXBPWTFQN3UwOVA3OXhTNmprYmNGVHpvY2oxVFBYUlFKa1hOY1lJR19UOTZyWkFxUDFpT0doLWdsZlpNcUE4LThUNi11Z1FMR3Z0Smg3SQ?oc=5"
         ],
@@ -2695,7 +2775,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-09T06:48:20Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2728,7 +2808,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-09T06:48:20Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2761,7 +2841,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-09T06:48:20Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2797,7 +2877,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-08T22:14:37Z",
+        "last_seen": "2026-11-09T06:48:20Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3295,20 +3375,20 @@
   },
   "last_valid": {
     "econ": {
-      "score": 55.5,
-      "as_of": "2026-11-08T22:14:37Z"
+      "score": 45.7,
+      "as_of": "2026-11-09T06:48:20Z"
     },
     "geo": {
-      "score": 87.4,
-      "as_of": "2026-11-08T22:14:37Z"
+      "score": 85.6,
+      "as_of": "2026-11-09T06:48:20Z"
     },
     "nat": {
-      "score": 9.2,
-      "as_of": "2026-11-08T22:14:37Z"
+      "score": 15.9,
+      "as_of": "2026-11-09T06:48:20Z"
     },
     "bio_infra": {
-      "score": 43.3,
-      "as_of": "2026-11-08T22:14:37Z"
+      "score": 41.7,
+      "as_of": "2026-11-09T06:48:20Z"
     }
   },
   "econ_indicators": {
@@ -3317,23 +3397,23 @@
       "change_pct": 32.03,
       "drawdown_pct": -17.42,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T22:14:37Z",
+      "as_of": "2026-11-09T06:48:20Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 98.31999969482422,
-      "change_pct": -16.42,
-      "drawdown_pct": -16.92,
-      "last_date": "2026-11-06",
-      "as_of": "2026-11-08T22:14:37Z",
+      "last": 96.72000122070312,
+      "change_pct": -7.68,
+      "drawdown_pct": -18.28,
+      "last_date": "2026-11-09",
+      "as_of": "2026-11-09T06:48:20Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4074.89990234375,
-      "change_pct": 4.51,
-      "drawdown_pct": -23.38,
-      "last_date": "2026-11-06",
-      "as_of": "2026-11-08T22:14:37Z",
+      "last": 4119.2001953125,
+      "change_pct": 3.77,
+      "drawdown_pct": -22.55,
+      "last_date": "2026-11-09",
+      "as_of": "2026-11-09T06:48:20Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3341,7 +3421,7 @@
       "change_pct": -2.68,
       "drawdown_pct": -5.65,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T22:14:37Z",
+      "as_of": "2026-11-09T06:48:20Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3349,7 +3429,7 @@
       "change_pct": -13.13,
       "drawdown_pct": -37.47,
       "last_date": "2026-11-06",
-      "as_of": "2026-11-08T22:14:37Z",
+      "as_of": "2026-11-09T06:48:20Z",
       "provider": "yfinance"
     }
   },
@@ -3357,154 +3437,139 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "ac2948059c6ca98b",
+    "events_hash": "cdcd4a89356d8205",
     "event_ids": [
       "geo:chokepoint:29886bc41b",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:d591d87e00",
-      "geo:conflict:2ccc9c3da2",
+      "geo:energy_infra:5679e2094a",
       "geo:energy_infra:7a3d474ec2",
       "geo:energy_infra:a59ee23b9a",
       "geo:invasion:8f4f9f2dcb",
       "geo:missile_strike:0c4fb5956d",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
+      "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5",
       "geo:sanctions:66b49f810a"
     ],
-    "econ_score": 55.5,
+    "econ_score": 45.7,
     "summary": {
-      "executive_summary_th": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง ซึ่งรวมถึงภัยคุกคามทางนิวเคลียร์และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน ควบคู่ไปกับการสู้รบที่ดำเนินอยู่ในยูเครน กำลังผลักดันความผันผวนของตลาดโลกอย่างมีนัยสำคัญและความกังวลเกี่ยวกับเสถียรภาพทางเศรษฐกิจ",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกกำลังถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในตะวันออกกลางที่เกี่ยวข้องกับอิหร่าน ซึ่งรวมถึงภัยคุกคามด้านนิวเคลียร์ โครงสร้างพื้นฐานด้านพลังงาน และเส้นทางการเดินเรือ สิ่งนี้สะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้นและตลาดหุ้นที่ตกต่ำ",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "อิสราเอลระบุว่าภารกิจของอิหร่านยังไม่เสร็จสิ้น โดยพวกเขากำลังพยายามสร้างอาวุธนิวเคลียร์ ขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมโจมตีอิหร่าน และมีการโจมตีเรือบรรทุกน้ำมัน 5 ลำในช่องแคบฮอร์มุซ",
+          "evidence_summary": "อิสราเอลและรูบิโอยืนยันว่าอิหร่านกำลังแสวงหาอาวุธนิวเคลียร์ ในขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมที่จะโจมตีอิหร่านหลังจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
           "refs": [
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามต่ออุปทานพลังงานและโครงสร้างพื้นฐานทั่วโลก",
+          "title": "ภัยคุกคามต่อโครงสร้างพื้นฐานด้านพลังงานและเส้นทางการจัดหาทั่วโลก",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "การผลิตที่แหล่งก๊าซ Khor Mor ของอิรักถูกระงับหลังการโจมตีด้วยโดรน และซาอุดีอาระเบียสกัดกั้นขีปนาวุธขณะที่อาคาร Aramco ในริยาดได้รับความเสียหาย รวมถึงการโจมตีโครงสร้างพื้นฐานด้านพลังงานในยูเครน",
-          "refs": [
-            {
-              "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
-              "source": "newsday.com"
-            },
-            {
-              "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
-              "source": "winnipegfreepress.com"
-            },
-            {
-              "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
-              "source": "wsls.com"
-            }
-          ]
-        },
-        {
-          "title": "ความผันผวนของตลาดที่เพิ่มขึ้นและความไม่แน่นอนทางเศรษฐกิจ",
-          "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ดัชนี VIX เพิ่มขึ้น 32.03% ในขณะที่ราคาทองคำ ซึ่งเป็นสินทรัพย์ปลอดภัย เพิ่มขึ้น 4.51% บ่งชี้ถึงความกังวลของตลาดท่ามกลางความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น",
+          "evidence_summary": "การโจมตีด้วยโดรนทำให้การผลิตที่แหล่งก๊าซ Khor Mor ของอิรักต้องหยุดชะงักและเกิดไฟฟ้าดับเป็นวงกว้าง ในขณะเดียวกัน การโจมตีของรัสเซียได้ส่งผลกระทบต่อโครงสร้างพื้นฐานด้านพลังงานของยูเครน และเรือบรรทุกน้ำมันหลายลำถูกโจมตีในช่องแคบฮอร์มุซที่สำคัญ",
           "refs": [
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
             },
             {
               "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
               "source": "themarysue.com"
-            },
+            }
+          ]
+        },
+        {
+          "title": "การกลับมาของการระบาดของโรคที่มีผลกระทบร้ายแรง",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "รายงานข่าวการระบาดของโรคยืนยันการระบาดของโรคอีโบลาที่เกิดจากไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
+          "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Escalating geopolitical conflicts in the Middle East, marked by nuclear threats and attacks on energy infrastructure, alongside ongoing hostilities in Ukraine, are driving significant global market volatility and concerns over economic stability.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East involving Iran, encompassing nuclear threats, energy infrastructure, and shipping lanes. This is reflected in increased market volatility and a downturn in equity markets.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflict in the Middle East",
+          "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Israel states Iran's mission is not complete as they are trying to get nuclear weapons, while the Pentagon says US troops are poised to strike Iran, and five tankers were hit in the Strait of Hormuz.",
+          "evidence_summary": "Israel and Rubio assert Iran's pursuit of nuclear weapons, while the Pentagon states US troops are poised to strike Iran following attacks on tankers in the Strait of Hormuz.",
           "refs": [
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "Threats to Global Energy Supply and Infrastructure",
+          "title": "Threats to Global Energy Infrastructure and Supply Routes",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Production at Iraq’s Khor Mor gas field was suspended after a drone attack, and Saudi Arabia intercepted missiles as an Aramco building in Riyadh was damaged, alongside strikes on energy infrastructure in Ukraine.",
-          "refs": [
-            {
-              "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
-              "source": "newsday.com"
-            },
-            {
-              "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
-              "source": "winnipegfreepress.com"
-            },
-            {
-              "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
-              "source": "wsls.com"
-            }
-          ]
-        },
-        {
-          "title": "Heightened Market Volatility and Economic Uncertainty",
-          "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "The VIX volatility index increased by 32.03%, while gold, a safe haven asset, rose by 4.51%, indicating market concerns amidst rising geopolitical tensions.",
+          "evidence_summary": "Drone attacks have suspended production at Iraq’s Khor Mor gas field, causing mass blackouts, while Russian strikes have impacted Ukraine's energy infrastructure, and multiple tankers have been hit in the critical Strait of Hormuz.",
           "refs": [
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
             },
             {
               "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
               "source": "themarysue.com"
-            },
+            }
+          ]
+        },
+        {
+          "title": "Resurgence of High-Consequence Disease Outbreaks",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "A Disease Outbreak News report confirms Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+          "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-08T22:14:37Z"
+    "generated_at": "2026-11-09T06:48:20Z"
   },
-  "updated_at": "2026-11-08T22:14:37Z",
+  "updated_at": "2026-11-09T06:48:20Z",
   "version": 1
 }

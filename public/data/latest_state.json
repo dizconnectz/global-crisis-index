@@ -1,33 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T22:14:37Z",
-  "global_score": 71,
+  "generated_at": "2026-11-09T06:48:20Z",
+  "global_score": 67,
   "band": {
-    "key": "critical",
-    "min": 71,
-    "max": 100,
-    "label_th": "วิกฤตเชิงระบบระดับโลก",
-    "label_en": "Global systemic crisis",
-    "color": "red"
+    "key": "high",
+    "min": 46,
+    "max": 70,
+    "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
+    "label_en": "High tension / global supply-chain impact",
+    "color": "orange"
   },
   "formula": {
-    "base": 57.89,
-    "boost": 13.48,
+    "base": 54.59,
+    "boost": 12.61,
     "cross_confirmed": true,
-    "max1": 87.4,
-    "max2": 55.5,
+    "max1": 85.6,
+    "max2": 45.7,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 55.5,
+      "score": 45.7,
       "weight": 0.35,
       "effective_weight": 0.35,
-      "status": "market_closed",
-      "status_th": "ตลาดปิดสุดสัปดาห์",
-      "status_en": "Market closed (weekend)",
+      "status": "ok",
+      "status_th": "ปกติ",
+      "status_en": "Normal",
       "note": null,
       "top_events": [],
       "metrics": [
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 98.32,
+          "value": 96.72,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-16.4% (5 วันทำการ)",
-          "hint_en": "-16.4% (5 trading days)"
+          "hint": "-7.7% (5 วันทำการ)",
+          "hint_en": "-7.7% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 4074.9,
+          "value": 4119.2,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "+4.5% (5 วันทำการ)",
-          "hint_en": "+4.5% (5 trading days)"
+          "hint": "+3.8% (5 วันทำการ)",
+          "hint_en": "+3.8% (5 trading days)"
         },
         {
           "key": "spx",
@@ -95,7 +95,7 @@
           "change_pct": 32.03,
           "drawdown_pct": -17.42,
           "score": 51.9,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-06",
           "provider": "yfinance"
         },
@@ -107,12 +107,12 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 98.32,
-          "change_pct": -16.42,
-          "drawdown_pct": -16.92,
-          "score": 74.3,
-          "status": "market_closed",
-          "last_date": "2026-11-06",
+          "value": 96.72,
+          "change_pct": -7.68,
+          "drawdown_pct": -18.28,
+          "score": 38.4,
+          "status": "ok",
+          "last_date": "2026-11-09",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 4074.9,
-          "change_pct": 4.51,
-          "drawdown_pct": -23.38,
-          "score": 50.1,
-          "status": "market_closed",
-          "last_date": "2026-11-06",
+          "value": 4119.2,
+          "change_pct": 3.77,
+          "drawdown_pct": -22.55,
+          "score": 42.1,
+          "status": "ok",
+          "last_date": "2026-11-09",
           "provider": "yfinance"
         },
         {
@@ -143,7 +143,7 @@
           "change_pct": -2.68,
           "drawdown_pct": -5.65,
           "score": 18.1,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-06",
           "provider": "yfinance"
         },
@@ -159,7 +159,7 @@
           "change_pct": -13.13,
           "drawdown_pct": -37.47,
           "score": 84.9,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-06",
           "provider": "yfinance"
         }
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 87.4,
+      "score": 85.6,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Nuclear threat",
           "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
           "severity": 95.0,
-          "score": 77.1,
+          "score": 72.8,
           "countries": [
             "israel",
             "iran"
@@ -217,6 +217,85 @@
           "raw_score": null
         },
         {
+          "id": "geo:energy_infra:5679e2094a",
+          "pillar": "geo",
+          "category": "energy_infra",
+          "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+          "category_en": "Attack on energy infrastructure",
+          "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
+          "severity": 75.0,
+          "score": 60.0,
+          "countries": [
+            "iraq",
+            "united states"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "Reuters (Google News)"
+          ],
+          "article_count": 2,
+          "links": [
+            "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera",
+            "Reuters (Google News)"
+          ],
+          "first_seen": "2026-11-09T06:48:20Z",
+          "last_seen": "2026-11-09T06:48:20Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "geo:nuclear:73ae71ea05",
+          "pillar": "geo",
+          "category": "nuclear",
+          "category_th": "ภัยคุกคามนิวเคลียร์",
+          "category_en": "Nuclear threat",
+          "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+          "severity": 95.0,
+          "score": 57.0,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "metro.co.uk"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-03T19:34:54Z",
+          "last_seen": "2026-11-09T06:48:20Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:chokepoint:d591d87e00",
           "pillar": "geo",
           "category": "chokepoint",
@@ -224,7 +303,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
           "severity": 85.0,
-          "score": 55.2,
+          "score": 52.1,
           "countries": [
             "united states",
             "iran"
@@ -267,7 +346,7 @@
           "category_en": "Air / missile strikes",
           "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged , and other Mideast news",
           "severity": 55.0,
-          "score": 55.0,
+          "score": 51.9,
           "countries": [
             "saudi arabia",
             "yemen"
@@ -315,77 +394,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "geo:chokepoint:29886bc41b",
-          "pillar": "geo",
-          "category": "chokepoint",
-          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-          "category_en": "Shipping chokepoint threat",
-          "title": "Trump orders blockade on Iranian ground transport as Houthis say Saudis killed dozens in air strikes",
-          "severity": 85.0,
-          "score": 51.0,
-          "countries": [
-            "iran",
-            "yemen"
-          ],
-          "sources": [
-            "foxnews.com"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
-          ],
-          "refs": [
-            {
-              "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8",
-              "source": "foxnews.com"
-            }
-          ],
-          "link_sources": [
-            "foxnews.com"
-          ],
-          "first_seen": "2026-11-08T22:14:37Z",
-          "last_seen": "2026-11-08T22:14:37Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:energy_infra:7a3d474ec2",
-          "pillar": "geo",
-          "category": "energy_infra",
-          "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
-          "category_en": "Attack on energy infrastructure",
-          "title": "Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say - The Hindu",
-          "severity": 75.0,
-          "score": 45.0,
-          "countries": [
-            "iraq"
-          ],
-          "sources": [
-            "Reuters (Google News)"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5"
-          ],
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ],
-          "link_sources": [
-            "Reuters (Google News)"
-          ],
-          "first_seen": "2026-11-08T22:14:37Z",
-          "last_seen": "2026-11-08T22:14:37Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -393,7 +401,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 72,
+          "value": 74,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -403,7 +411,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 2,
+          "value": 1,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -413,18 +421,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 141,
+          "value": 70,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 8 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 8 event clusters"
+          "hint": "ยุบรวมเหลือ 3 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 3 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 9.2,
+      "score": 15.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -439,8 +447,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 4.3,
-          "score": 4.3,
+          "severity": 4.0,
+          "score": 4.0,
           "countries": [],
           "sources": [
             "USGS"
@@ -463,7 +471,42 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 4.3
+          "raw_score": 4.0
+        },
+        {
+          "id": "gdacs:EQ1576372",
+          "pillar": "nat",
+          "category": "gdacs_eq",
+          "category_th": "แผ่นดินไหว",
+          "category_en": "Earthquake",
+          "title": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC, 230 thousand in MMI IV.",
+          "severity": 3.0,
+          "score": 3.0,
+          "countries": [
+            "Japan"
+          ],
+          "sources": [
+            "GDACS"
+          ],
+          "article_count": 1,
+          "links": [
+            "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372"
+          ],
+          "refs": [
+            {
+              "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372",
+              "source": "GDACS"
+            }
+          ],
+          "link_sources": [
+            "GDACS"
+          ],
+          "first_seen": "2026-11-09T05:03:32Z",
+          "last_seen": "2026-11-09T05:03:32Z",
+          "is_local": false,
+          "location": "Japan (ห่างโตเกียว ~203 กม.)",
+          "location_en": "Japan (~203 km from Tokyo)",
+          "raw_score": 3.0
         },
         {
           "id": "gdacs:EQ1576118",
@@ -472,8 +515,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC, 630 thousand in MMI V.",
-          "severity": 2.5,
-          "score": 2.5,
+          "severity": 2.3,
+          "score": 2.3,
           "countries": [
             "Japan"
           ],
@@ -498,7 +541,7 @@
           "is_local": false,
           "location": "Japan (ห่างโตเกียว ~203 กม.)",
           "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 2.5
+          "raw_score": 2.3
         }
       ],
       "metrics": [
@@ -506,7 +549,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 2,
+          "value": 3,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -526,7 +569,7 @@
           "key": "near_hubs",
           "label_th": "ใกล้จุดยุทธศาสตร์โลก",
           "label_en": "Near global strategic hubs",
-          "value": 2,
+          "value": 3,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -536,7 +579,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 211,
+          "value": 201,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -547,7 +590,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 43.3,
+      "score": 41.7,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -563,7 +606,7 @@
           "category_en": "High-consequence disease",
           "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
           "severity": 45.0,
-          "score": 29.3,
+          "score": 27.7,
           "countries": [
             "dr congo",
             "nigeria"
@@ -621,7 +664,7 @@
             "BBC World"
           ],
           "first_seen": "2026-11-07T13:14:34Z",
-          "last_seen": "2026-11-08T22:14:37Z",
+          "last_seen": "2026-11-09T06:48:20Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -635,7 +678,7 @@
           "category_en": "Actual cyber incident",
           "title": "Who is behind Europe’s suspected hybrid attacks?",
           "severity": 40.0,
-          "score": 21.5,
+          "score": 20.3,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -668,7 +711,7 @@
           "category_en": "Actual cyber incident",
           "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
           "severity": 40.0,
-          "score": 13.3,
+          "score": 12.5,
           "countries": [
             "france"
           ],
@@ -703,7 +746,7 @@
           "category_en": "Actual cyber incident",
           "title": "A Binance engineer thought he was interviewing for a job . Then the hackers pounced",
           "severity": 40.0,
-          "score": 11.3,
+          "score": 10.6,
           "countries": [],
           "sources": [
             "knpr.org"
@@ -768,8 +811,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 87.4,
-      "contribution": 44.1,
+      "score": 85.6,
+      "contribution": 42.6,
       "headline": "ภัยคุกคามนิวเคลียร์: Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
       "headline_en": "Nuclear threat: Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  "
     },
@@ -777,8 +820,8 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 55.5,
-      "contribution": 19.4,
+      "score": 45.7,
+      "contribution": 16.0,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 136.53 USD",
       "headline_en": "SOXX semiconductor ETF 136.53 USD"
     },
@@ -786,136 +829,120 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 43.3,
-      "contribution": 6.5,
+      "score": 41.7,
+      "contribution": 6.3,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง ซึ่งรวมถึงภัยคุกคามทางนิวเคลียร์และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน ควบคู่ไปกับการสู้รบที่ดำเนินอยู่ในยูเครน กำลังผลักดันความผันผวนของตลาดโลกอย่างมีนัยสำคัญและความกังวลเกี่ยวกับเสถียรภาพทางเศรษฐกิจ",
+    "executive_summary_th": "ความเสี่ยงทั่วโลกกำลังถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในตะวันออกกลางที่เกี่ยวข้องกับอิหร่าน ซึ่งรวมถึงภัยคุกคามด้านนิวเคลียร์ โครงสร้างพื้นฐานด้านพลังงาน และเส้นทางการเดินเรือ สิ่งนี้สะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้นและตลาดหุ้นที่ตกต่ำ",
     "early_warnings_th": [
       {
-        "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
         "signal_strength": "สูง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "อิสราเอลระบุว่าภารกิจของอิหร่านยังไม่เสร็จสิ้น โดยพวกเขากำลังพยายามสร้างอาวุธนิวเคลียร์ ขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมโจมตีอิหร่าน และมีการโจมตีเรือบรรทุกน้ำมัน 5 ลำในช่องแคบฮอร์มุซ",
+        "evidence_summary": "อิสราเอลและรูบิโอยืนยันว่าอิหร่านกำลังแสวงหาอาวุธนิวเคลียร์ ในขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมที่จะโจมตีอิหร่านหลังจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
         "refs": [
           {
             "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
             "source": "hindustantimes.com"
           },
           {
-            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-            "source": "themarysue.com"
+            "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+            "source": "themarysue.com"
           }
         ]
       },
       {
-        "title": "ภัยคุกคามต่ออุปทานพลังงานและโครงสร้างพื้นฐานทั่วโลก",
+        "title": "ภัยคุกคามต่อโครงสร้างพื้นฐานด้านพลังงานและเส้นทางการจัดหาทั่วโลก",
         "signal_strength": "ปานกลาง",
-        "timeframe": "1-3 เดือน",
-        "evidence_summary": "การผลิตที่แหล่งก๊าซ Khor Mor ของอิรักถูกระงับหลังการโจมตีด้วยโดรน และซาอุดีอาระเบียสกัดกั้นขีปนาวุธขณะที่อาคาร Aramco ในริยาดได้รับความเสียหาย รวมถึงการโจมตีโครงสร้างพื้นฐานด้านพลังงานในยูเครน",
-        "refs": [
-          {
-            "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
-            "source": "newsday.com"
-          },
-          {
-            "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
-            "source": "winnipegfreepress.com"
-          },
-          {
-            "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
-            "source": "wsls.com"
-          }
-        ]
-      },
-      {
-        "title": "ความผันผวนของตลาดที่เพิ่มขึ้นและความไม่แน่นอนทางเศรษฐกิจ",
-        "signal_strength": "สูง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "ดัชนี VIX เพิ่มขึ้น 32.03% ในขณะที่ราคาทองคำ ซึ่งเป็นสินทรัพย์ปลอดภัย เพิ่มขึ้น 4.51% บ่งชี้ถึงความกังวลของตลาดท่ามกลางความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น",
+        "evidence_summary": "การโจมตีด้วยโดรนทำให้การผลิตที่แหล่งก๊าซ Khor Mor ของอิรักต้องหยุดชะงักและเกิดไฟฟ้าดับเป็นวงกว้าง ในขณะเดียวกัน การโจมตีของรัสเซียได้ส่งผลกระทบต่อโครงสร้างพื้นฐานด้านพลังงานของยูเครน และเรือบรรทุกน้ำมันหลายลำถูกโจมตีในช่องแคบฮอร์มุซที่สำคัญ",
         "refs": [
           {
-            "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-            "source": "hindustantimes.com"
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+            "source": "Reuters (Google News)"
           },
           {
             "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
             "source": "themarysue.com"
-          },
+          }
+        ]
+      },
+      {
+        "title": "การกลับมาของการระบาดของโรคที่มีผลกระทบร้ายแรง",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "รายงานข่าวการระบาดของโรคยืนยันการระบาดของโรคอีโบลาที่เกิดจากไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
+        "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
           }
         ]
       }
     ],
     "local_notes_th": [],
-    "executive_summary_en": "Escalating geopolitical conflicts in the Middle East, marked by nuclear threats and attacks on energy infrastructure, alongside ongoing hostilities in Ukraine, are driving significant global market volatility and concerns over economic stability.",
+    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East involving Iran, encompassing nuclear threats, energy infrastructure, and shipping lanes. This is reflected in increased market volatility and a downturn in equity markets.",
     "early_warnings_en": [
       {
-        "title": "Escalating Geopolitical Conflict in the Middle East",
+        "title": "Escalating Geopolitical Tensions in the Middle East",
         "signal_strength": "สูง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Israel states Iran's mission is not complete as they are trying to get nuclear weapons, while the Pentagon says US troops are poised to strike Iran, and five tankers were hit in the Strait of Hormuz.",
+        "evidence_summary": "Israel and Rubio assert Iran's pursuit of nuclear weapons, while the Pentagon states US troops are poised to strike Iran following attacks on tankers in the Strait of Hormuz.",
         "refs": [
           {
             "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
             "source": "hindustantimes.com"
           },
           {
-            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-            "source": "themarysue.com"
+            "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+            "source": "themarysue.com"
           }
         ]
       },
       {
-        "title": "Threats to Global Energy Supply and Infrastructure",
+        "title": "Threats to Global Energy Infrastructure and Supply Routes",
         "signal_strength": "ปานกลาง",
-        "timeframe": "1-3 months",
-        "evidence_summary": "Production at Iraq’s Khor Mor gas field was suspended after a drone attack, and Saudi Arabia intercepted missiles as an Aramco building in Riyadh was damaged, alongside strikes on energy infrastructure in Ukraine.",
-        "refs": [
-          {
-            "url": "https://www.newsday.com/news/nation/mideast-news-november-8-2026-s34845",
-            "source": "newsday.com"
-          },
-          {
-            "url": "https://www.winnipegfreepress.com/business/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news",
-            "source": "winnipegfreepress.com"
-          },
-          {
-            "url": "https://www.wsls.com/news/world/2026/11/08/saudi-arabia-intercepts-missiles-as-aramco-building-in-riyadh-is-damaged-and-other-mideast-news/",
-            "source": "wsls.com"
-          }
-        ]
-      },
-      {
-        "title": "Heightened Market Volatility and Economic Uncertainty",
-        "signal_strength": "สูง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "The VIX volatility index increased by 32.03%, while gold, a safe haven asset, rose by 4.51%, indicating market concerns amidst rising geopolitical tensions.",
+        "evidence_summary": "Drone attacks have suspended production at Iraq’s Khor Mor gas field, causing mass blackouts, while Russian strikes have impacted Ukraine's energy infrastructure, and multiple tankers have been hit in the critical Strait of Hormuz.",
         "refs": [
           {
-            "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-            "source": "hindustantimes.com"
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+            "source": "Reuters (Google News)"
           },
           {
             "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
             "source": "themarysue.com"
-          },
+          }
+        ]
+      },
+      {
+        "title": "Resurgence of High-Consequence Disease Outbreaks",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "A Disease Outbreak News report confirms Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+        "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-            "source": "Al Jazeera"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+            "source": "WHO DON"
           }
         ]
       }
@@ -923,21 +950,21 @@
     "local_notes_en": [],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-08T22:14:37Z"
+    "generated_at": "2026-11-09T06:48:20Z"
   },
   "local_events": [],
   "data_status": {
-    "key": "market_closed",
-    "label_th": "ตลาดปิดสุดสัปดาห์",
-    "label_en": "Market closed (weekend)",
+    "key": "ok",
+    "label_th": "ปกติ",
+    "label_en": "Normal",
     "sources": [
       {
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:40Z",
+        "fetched_at": "2026-11-09T06:48:21Z",
         "items": 5,
-        "data_as_of": "2026-11-06",
+        "data_as_of": "2026-11-09",
         "error": null,
         "note": null,
         "optional": false
@@ -945,11 +972,11 @@
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
-        "status": "ok",
-        "fetched_at": "2026-11-08T22:14:51Z",
-        "items": 75,
-        "data_as_of": "2026-11-08T21:00:00Z",
-        "error": null,
+        "status": "error",
+        "fetched_at": "2026-11-09T06:48:30Z",
+        "items": null,
+        "data_as_of": null,
+        "error": "HTTP 429",
         "note": null,
         "optional": true
       },
@@ -957,9 +984,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
-        "items": 28,
-        "data_as_of": "2026-11-08T22:05:12Z",
+        "fetched_at": "2026-11-09T06:48:20Z",
+        "items": 27,
+        "data_as_of": "2026-11-09T06:01:52Z",
         "error": null,
         "note": null,
         "optional": false
@@ -968,9 +995,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
+        "fetched_at": "2026-11-09T06:48:20Z",
         "items": 25,
-        "data_as_of": "2026-11-08T21:05:07Z",
+        "data_as_of": "2026-11-09T06:32:18Z",
         "error": null,
         "note": null,
         "optional": false
@@ -979,9 +1006,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
-        "items": 13,
-        "data_as_of": "2026-11-08T20:58:00Z",
+        "fetched_at": "2026-11-09T06:48:20Z",
+        "items": 18,
+        "data_as_of": "2026-11-09T06:39:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -990,9 +1017,9 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
-        "items": 2,
-        "data_as_of": "2026-11-06T10:39:27Z",
+        "fetched_at": "2026-11-09T06:48:20Z",
+        "items": 3,
+        "data_as_of": "2026-11-09T03:34:59Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1001,9 +1028,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:40Z",
-        "items": 249,
-        "data_as_of": "2026-11-08T20:33:02Z",
+        "fetched_at": "2026-11-09T06:48:22Z",
+        "items": 230,
+        "data_as_of": "2026-11-09T05:03:32Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1012,7 +1039,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
+        "fetched_at": "2026-11-09T06:48:20Z",
         "items": 20,
         "data_as_of": "2026-10-23T15:03:45Z",
         "error": null,
@@ -1023,8 +1050,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-08T22:14:38Z",
-        "items": 45,
+        "fetched_at": "2026-11-09T06:48:21Z",
+        "items": 49,
         "data_as_of": "2026-11-07T22:08:26Z",
         "error": null,
         "note": "google_news_fallback",
