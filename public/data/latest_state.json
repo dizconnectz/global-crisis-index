@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T07:28:01Z",
-  "global_score": 58,
+  "generated_at": "2026-11-10T19:49:51Z",
+  "global_score": 52,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,18 +11,18 @@
     "color": "orange"
   },
   "formula": {
-    "base": 52.34,
-    "boost": 5.38,
+    "base": 49.72,
+    "boost": 2.15,
     "cross_confirmed": true,
-    "max1": 77.8,
-    "max2": 58.5,
+    "max1": 73.7,
+    "max2": 57.8,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 40.8,
+      "score": 38.1,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,51 +35,51 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 19.92,
+          "value": 19.91,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-5.8% (5 วันทำการ)",
-          "hint_en": "-5.8% (5 trading days)"
+          "hint": "-4.4% (5 วันทำการ)",
+          "hint_en": "-4.4% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 91.39,
+          "value": 91.74,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-11.8% (5 วันทำการ)",
-          "hint_en": "-11.8% (5 trading days)"
+          "hint": "-11.4% (5 วันทำการ)",
+          "hint_en": "-11.4% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 4125.2,
+          "value": 4033.7,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "+4.7% (5 วันทำการ)",
-          "hint_en": "+4.7% (5 trading days)"
+          "hint": "+2.4% (5 วันทำการ)",
+          "hint_en": "+2.4% (5 trading days)"
         },
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
           "label_en": "S&P 500 index",
-          "value": 7549.94,
+          "value": 7516.55,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+0.1% (5 วันทำการ)",
-          "hint_en": "+0.1% (5 trading days)"
+          "hint": "-0.7% (5 วันทำการ)",
+          "hint_en": "-0.7% (5 trading days)"
         },
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
           "label_en": "SOXX semiconductor ETF",
-          "value": 146.76,
+          "value": 145.98,
           "unit": "USD",
           "unit_en": "USD",
-          "hint": "-3.0% (5 วันทำการ)",
-          "hint_en": "-3.0% (5 trading days)"
+          "hint": "-5.8% (5 วันทำการ)",
+          "hint_en": "-5.8% (5 trading days)"
         }
       ],
       "indicators": [
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 19.92,
-          "change_pct": -5.82,
-          "drawdown_pct": -35.85,
-          "score": 29.7,
+          "value": 19.91,
+          "change_pct": -4.42,
+          "drawdown_pct": -35.88,
+          "score": 29.6,
           "status": "ok",
-          "last_date": "2026-11-09",
+          "last_date": "2026-11-10",
           "provider": "yfinance"
         },
         {
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 91.39,
-          "change_pct": -11.79,
-          "drawdown_pct": -22.78,
-          "score": 56.2,
+          "value": 91.74,
+          "change_pct": -11.45,
+          "drawdown_pct": -22.48,
+          "score": 54.8,
           "status": "ok",
           "last_date": "2026-11-10",
           "provider": "yfinance"
@@ -123,10 +123,10 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 4125.2,
-          "change_pct": 4.69,
-          "drawdown_pct": -22.44,
-          "score": 51.9,
+          "value": 4033.7,
+          "change_pct": 2.37,
+          "drawdown_pct": -24.16,
+          "score": 24.6,
           "status": "ok",
           "last_date": "2026-11-10",
           "provider": "yfinance"
@@ -139,12 +139,12 @@
           "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
-          "value": 7549.94,
-          "change_pct": 0.11,
-          "drawdown_pct": -3.44,
-          "score": 6.7,
+          "value": 7516.55,
+          "change_pct": -0.69,
+          "drawdown_pct": -3.87,
+          "score": 8.3,
           "status": "ok",
-          "last_date": "2026-11-09",
+          "last_date": "2026-11-10",
           "provider": "yfinance"
         },
         {
@@ -155,12 +155,12 @@
           "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
-          "value": 146.76,
-          "change_pct": -2.95,
-          "drawdown_pct": -32.78,
-          "score": 75.6,
+          "value": 145.98,
+          "change_pct": -5.82,
+          "drawdown_pct": -33.14,
+          "score": 76.3,
           "status": "ok",
-          "last_date": "2026-11-09",
+          "last_date": "2026-11-10",
           "provider": "yfinance"
         }
       ],
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 77.8,
+      "score": 73.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Nuclear threat",
           "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
           "severity": 95.0,
-          "score": 61.6,
+          "score": 56.6,
           "countries": [
             "israel",
             "iran"
@@ -224,7 +224,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Hormuz LNG traffic hits highest in October since Iran war began - Reuters",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 46.9,
           "countries": [
             "iran"
           ],
@@ -261,7 +261,7 @@
           "category_en": "Attack on energy infrastructure",
           "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
           "severity": 75.0,
-          "score": 50.8,
+          "score": 46.7,
           "countries": [
             "iraq",
             "united states"
@@ -304,7 +304,7 @@
           "category_en": "Nuclear threat",
           "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
           "severity": 95.0,
-          "score": 48.2,
+          "score": 44.4,
           "countries": [
             "iran"
           ],
@@ -340,7 +340,7 @@
           "category_en": "Attack on energy infrastructure",
           "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
           "severity": 75.0,
-          "score": 45.0,
+          "score": 41.4,
           "countries": [
             "saudi arabia",
             "yemen"
@@ -384,7 +384,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 2,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -394,18 +394,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 78,
+          "value": 86,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 10 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 13.7,
+      "score": 12.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -420,8 +420,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 3.4,
-          "score": 3.4,
+          "severity": 3.1,
+          "score": 3.1,
           "countries": [],
           "sources": [
             "USGS"
@@ -444,7 +444,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 3.4
+          "raw_score": 3.1
         },
         {
           "id": "gdacs:EQ1576372",
@@ -453,8 +453,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC, 230 thousand in MMI IV.",
-          "severity": 2.5,
-          "score": 2.5,
+          "severity": 2.3,
+          "score": 2.3,
           "countries": [
             "Japan"
           ],
@@ -479,7 +479,7 @@
           "is_local": false,
           "location": "Japan (ห่างโตเกียว ~203 กม.)",
           "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 2.5
+          "raw_score": 2.3
         },
         {
           "id": "gdacs:EQ1576118",
@@ -488,8 +488,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "Green earthquake (Magnitude 5.5M, Depth:38.081km) in Japan 07/11/2026 16:04 UTC, 630 thousand in MMI V.",
-          "severity": 2.0,
-          "score": 2.0,
+          "severity": 1.8,
+          "score": 1.8,
           "countries": [
             "Japan"
           ],
@@ -514,7 +514,7 @@
           "is_local": false,
           "location": "Japan (ห่างโตเกียว ~203 กม.)",
           "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 2.0
+          "raw_score": 1.8
         }
       ],
       "metrics": [
@@ -552,7 +552,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 205,
+          "value": 208,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -563,7 +563,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 58.5,
+      "score": 57.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -601,7 +601,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-10T07:28:01Z",
+          "last_seen": "2026-11-10T19:49:51Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -615,7 +615,7 @@
           "category_en": "Actual cyber incident",
           "title": "France blames Iran for October supermarket cyberattack",
           "severity": 40.0,
-          "score": 30.1,
+          "score": 27.7,
           "countries": [
             "france",
             "iran"
@@ -674,7 +674,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-10T07:28:01Z",
+          "last_seen": "2026-11-10T19:49:51Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -709,7 +709,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-10T07:28:01Z",
+          "last_seen": "2026-11-10T19:49:51Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -723,7 +723,7 @@
           "category_en": "Actual cyber incident",
           "title": "Italian foreign minister says hackers leaked his personal data",
           "severity": 40.0,
-          "score": 20.3,
+          "score": 18.7,
           "countries": [
             "russia"
           ],
@@ -791,8 +791,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 77.8,
-      "contribution": 32.6,
+      "score": 73.7,
+      "contribution": 27.9,
       "headline": "ภัยคุกคามนิวเคลียร์: Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
       "headline_en": "Nuclear threat: Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  "
     },
@@ -800,17 +800,17 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 40.8,
-      "contribution": 14.3,
-      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 146.76 USD",
-      "headline_en": "SOXX semiconductor ETF 146.76 USD"
+      "score": 38.1,
+      "contribution": 13.3,
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 145.98 USD",
+      "headline_en": "SOXX semiconductor ETF 145.98 USD"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 58.5,
-      "contribution": 8.8,
+      "score": 57.8,
+      "contribution": 8.7,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
@@ -944,7 +944,7 @@
       }
     ],
     "local_notes_en": [],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-10T07:28:01Z"
   },
@@ -958,7 +958,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:03Z",
+        "fetched_at": "2026-11-10T19:49:53Z",
         "items": 5,
         "data_as_of": "2026-11-10",
         "error": null,
@@ -969,7 +969,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-10T07:28:12Z",
+        "fetched_at": "2026-11-10T19:50:02Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -980,9 +980,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:01Z",
-        "items": 33,
-        "data_as_of": "2026-11-10T05:38:53Z",
+        "fetched_at": "2026-11-10T19:49:51Z",
+        "items": 32,
+        "data_as_of": "2026-11-10T18:35:35Z",
         "error": null,
         "note": null,
         "optional": false
@@ -991,9 +991,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:01Z",
+        "fetched_at": "2026-11-10T19:49:51Z",
         "items": 25,
-        "data_as_of": "2026-11-10T07:05:11Z",
+        "data_as_of": "2026-11-10T19:34:13Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1002,9 +1002,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:02Z",
-        "items": 20,
-        "data_as_of": "2026-11-10T05:00:00Z",
+        "fetched_at": "2026-11-10T19:49:52Z",
+        "items": 29,
+        "data_as_of": "2026-11-10T19:42:06Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1013,7 +1013,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:01Z",
+        "fetched_at": "2026-11-10T19:49:51Z",
         "items": 3,
         "data_as_of": "2026-11-09T03:34:59Z",
         "error": null,
@@ -1024,9 +1024,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:04Z",
-        "items": 232,
-        "data_as_of": "2026-11-10T04:42:40Z",
+        "fetched_at": "2026-11-10T19:49:53Z",
+        "items": 242,
+        "data_as_of": "2026-11-10T16:42:24Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1035,7 +1035,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:01Z",
+        "fetched_at": "2026-11-10T19:49:51Z",
         "items": 20,
         "data_as_of": "2026-11-06T20:42:12Z",
         "error": null,
@@ -1046,9 +1046,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-10T07:28:02Z",
-        "items": 46,
-        "data_as_of": "2026-11-09T18:12:35Z",
+        "fetched_at": "2026-11-10T19:49:52Z",
+        "items": 50,
+        "data_as_of": "2026-11-10T14:02:31Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false

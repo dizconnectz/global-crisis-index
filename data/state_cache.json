@@ -1,34 +1,41 @@
 {
   "active_events": {
     "geo": {
-      "geo:conflict:9fd884d358": {
-        "id": "geo:conflict:9fd884d358",
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
         "pillar": "geo",
         "category": "conflict",
         "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
         "category_en": "Armed conflict",
-        "title": "Krakow shooting suspect has died in hospital, police say",
+        "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
         "severity": 30.0,
         "score": 18.0,
-        "countries": [],
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
         "sources": [
-          "BBC World"
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
         ],
         "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+            "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           }
         ],
         "link_sources": [
           "BBC World"
         ],
-        "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -63,6 +70,153 @@
           "BBC World"
         ],
         "first_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c5abc2fdb": {
+        "id": "geo:conflict:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Jerusalem Daily: 14-year-old killed in West Bank raid",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "palestine",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-10T19:49:51Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:d591d87e00": {
+        "id": "geo:conflict:d591d87e00",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "US petrol prices are down, but elevated inflation continues",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "united states",
+          "venezuela"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 5,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/10/us-petrol-prices-are-down-but-elevated-inflation-continues?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/10/us-petrol-prices-are-down-but-elevated-inflation-continues?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-07T11:17:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ba62be1ea7": {
+        "id": "geo:conflict:ba62be1ea7",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "At least 12 people killed in Bulgaria motorway pile-up",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-10T19:49:51Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:9fd884d358": {
+        "id": "geo:conflict:9fd884d358",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Krakow shooting suspect has died in hospital, police say",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-09T22:28:51Z",
         "last_seen": "2026-11-10T07:28:01Z",
         "is_local": false,
         "location": null,
@@ -170,46 +324,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-10T07:28:01Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "aol.co.uk",
-          "channelnewsasia.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-10T07:28:01Z",
         "is_local": false,
         "location": null,
@@ -1795,43 +1909,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c5abc2fdb": {
-        "id": "geo:conflict:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:38384a8522": {
         "id": "geo:conflict:38384a8522",
         "pillar": "geo",
@@ -1862,42 +1939,6 @@
         ],
         "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:d591d87e00": {
-        "id": "geo:conflict:d591d87e00",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Qatari PM says US willing to seek solution to war with Iran",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran",
-          "united states"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-07T11:17:01Z",
-        "last_seen": "2026-11-07T13:14:34Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3045,41 +3086,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:e074138d45": {
-        "id": "geo:conflict:e074138d45",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Five killed in fresh ethnic violence in India's Manipur state - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "india"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMirgFBVV95cUxObENRYjE1VmhhRnFuXzRTQjFkX2NZWlZySGVjV3diT0lld3ZBb0pEQ2ZjSmtEdjN1UTNWVzVSLVI3QllBYXdYYXdjeTVjckMxOURFUUFvWE5sdWdDUlBucFRJZy1HUk9hbnJDR29ZNE04LV9zRlVtN2xjYmNRSmkxemtwZF9MdjVpQlY0eXkzQUpHODQ1Q3g5amdXM0tWbHZaSWVTYlFYREpFaHNVaEE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObENRYjE1VmhhRnFuXzRTQjFkX2NZWlZySGVjV3diT0lld3ZBb0pEQ2ZjSmtEdjN1UTNWVzVSLVI3QllBYXdYYXdjeTVjckMxOURFUUFvWE5sdWdDUlBucFRJZy1HUk9hbnJDR29ZNE04LV9zRlVtN2xjYmNRSmkxemtwZF9MdjVpQlY0eXkzQUpHODQ1Q3g5amdXM0tWbHZaSWVTYlFYREpFaHNVaEE?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T07:10:38Z",
-        "last_seen": "2026-11-02T10:39:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:ad160a7842": {
         "id": "geo:conflict:ad160a7842",
         "pillar": "geo",
@@ -3144,7 +3150,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3180,7 +3186,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3215,7 +3221,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3234,7 +3240,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 1,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNek9hZkRsQTJwZE4yNDJTNmljcXRFdW10TFZtb0tadlZZOGtpQnJ2ZTROVmhsTkdrQjhZOW83X2g2QzlXaUdfS2FBcVZ4cWpwaHdRVlYtNXdwMFhQdndCNkFoQ1o4WTZxd2dDczAzNndvQmVycHVJT3pXUGZqVTQyTk5nNDBFVFptREp0SG9yclM3OFR2RXI5UWxTRF9QdTlHMGx4NlR0ZTI?oc=5"
         ],
@@ -3248,7 +3254,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3281,7 +3287,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-10T19:49:51Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3816,61 +3822,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 40.8,
-      "as_of": "2026-11-10T07:28:01Z"
+      "score": 38.1,
+      "as_of": "2026-11-10T19:49:51Z"
     },
     "geo": {
-      "score": 77.8,
-      "as_of": "2026-11-10T07:28:01Z"
+      "score": 73.7,
+      "as_of": "2026-11-10T19:49:51Z"
     },
     "nat": {
-      "score": 13.7,
-      "as_of": "2026-11-10T07:28:01Z"
+      "score": 12.8,
+      "as_of": "2026-11-10T19:49:51Z"
     },
     "bio_infra": {
-      "score": 58.5,
-      "as_of": "2026-11-10T07:28:01Z"
+      "score": 57.8,
+      "as_of": "2026-11-10T19:49:51Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 19.920000076293945,
-      "change_pct": -5.82,
-      "drawdown_pct": -35.85,
-      "last_date": "2026-11-09",
-      "as_of": "2026-11-10T07:28:01Z",
+      "last": 19.90999984741211,
+      "change_pct": -4.42,
+      "drawdown_pct": -35.88,
+      "last_date": "2026-11-10",
+      "as_of": "2026-11-10T19:49:51Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 91.38999938964844,
-      "change_pct": -11.79,
-      "drawdown_pct": -22.78,
+      "last": 91.73999786376953,
+      "change_pct": -11.45,
+      "drawdown_pct": -22.48,
       "last_date": "2026-11-10",
-      "as_of": "2026-11-10T07:28:01Z",
+      "as_of": "2026-11-10T19:49:51Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4125.2001953125,
-      "change_pct": 4.69,
-      "drawdown_pct": -22.44,
+      "last": 4033.699951171875,
+      "change_pct": 2.37,
+      "drawdown_pct": -24.16,
       "last_date": "2026-11-10",
-      "as_of": "2026-11-10T07:28:01Z",
+      "as_of": "2026-11-10T19:49:51Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7549.93994140625,
-      "change_pct": 0.11,
-      "drawdown_pct": -3.44,
-      "last_date": "2026-11-09",
-      "as_of": "2026-11-10T07:28:01Z",
+      "last": 7516.5498046875,
+      "change_pct": -0.69,
+      "drawdown_pct": -3.87,
+      "last_date": "2026-11-10",
+      "as_of": "2026-11-10T19:49:51Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 146.75999450683594,
-      "change_pct": -2.95,
-      "drawdown_pct": -32.78,
-      "last_date": "2026-11-09",
-      "as_of": "2026-11-10T07:28:01Z",
+      "last": 145.97999572753906,
+      "change_pct": -5.82,
+      "drawdown_pct": -33.14,
+      "last_date": "2026-11-10",
+      "as_of": "2026-11-10T19:49:51Z",
       "provider": "yfinance"
     }
   },
@@ -4029,6 +4035,6 @@
     },
     "generated_at": "2026-11-10T07:28:01Z"
   },
-  "updated_at": "2026-11-10T07:28:01Z",
+  "updated_at": "2026-11-10T19:49:51Z",
   "version": 1
 }
