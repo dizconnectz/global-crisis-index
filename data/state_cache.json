@@ -1,6 +1,42 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:a59ee23b9a": {
         "id": "geo:conflict:a59ee23b9a",
         "pillar": "geo",
@@ -35,7 +71,43 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:38384a8522": {
+        "id": "geo:conflict:38384a8522",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "sudan"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -70,7 +142,121 @@
           "BBC World"
         ],
         "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:15560e224d": {
+        "id": "geo:conflict:15560e224d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran opens training camp for women in readiness for war",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "united kingdom",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 5,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8809c12f03": {
+        "id": "geo:missile_strike:8809c12f03",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "El Salvador fires missiles on Haitian gang hideout",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:c1a682ee34": {
+        "id": "geo:conflict:c1a682ee34",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Tigray displaced families fear renewed war as hopes of returning home fade",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ethiopia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1251,41 +1437,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Haitians cheer El Salvador’s Bukele amid gang war",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:afa09db868": {
         "id": "geo:conflict:afa09db868",
         "pillar": "geo",
@@ -1903,41 +2054,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:38384a8522": {
-        "id": "geo:conflict:38384a8522",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Sudan war and climate change see parents struggle to feed their children",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-07T15:28:13Z",
         "is_local": false,
         "location": null,
@@ -2979,41 +3095,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:29bb94f597": {
-        "id": "geo:conflict:29bb94f597",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "somalia"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T10:39:58Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:a0b737dcc6": {
         "id": "geo:sanctions:a0b737dcc6",
         "pillar": "geo",
@@ -3150,7 +3231,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3186,7 +3267,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3221,7 +3302,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3233,20 +3314,20 @@
         "category": "vuln_advisory",
         "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
         "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
         "severity": 5.0,
         "score": 5.0,
         "countries": [],
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 3,
         "links": [
-          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNek9hZkRsQTJwZE4yNDJTNmljcXRFdW10TFZtb0tadlZZOGtpQnJ2ZTROVmhsTkdrQjhZOW83X2g2QzlXaUdfS2FBcVZ4cWpwaHdRVlYtNXdwMFhQdndCNkFoQ1o4WTZxd2dDczAzNndvQmVycHVJT3pXUGZqVTQyTk5nNDBFVFptREp0SG9yclM3OFR2RXI5UWxTRF9QdTlHMGx4NlR0ZTI?oc=5"
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQekdzSVBJbmxxWVRBdkR3aEd2SHktc29wQi12YzFSU2ZOaUZDYWlOa2NqWGdVUW41a3Q1UFo2RmlMbnpaamt3THpjb2diSUZDRVhiZ054a25UT3hNdVJHcmpoWm5QWl82amlFcEEzR1k5SXE4bDZvbWFibzJDa2IyRVJZVWwxYmJYTVFUTnhkc0cxM2xDMUZzSXpwSHlBMUxnVDR6cHJTVQ?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNek9hZkRsQTJwZE4yNDJTNmljcXRFdW10TFZtb0tadlZZOGtpQnJ2ZTROVmhsTkdrQjhZOW83X2g2QzlXaUdfS2FBcVZ4cWpwaHdRVlYtNXdwMFhQdndCNkFoQ1o4WTZxd2dDczAzNndvQmVycHVJT3pXUGZqVTQyTk5nNDBFVFptREp0SG9yclM3OFR2RXI5UWxTRF9QdTlHMGx4NlR0ZTI?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQekdzSVBJbmxxWVRBdkR3aEd2SHktc29wQi12YzFSU2ZOaUZDYWlOa2NqWGdVUW41a3Q1UFo2RmlMbnpaamt3THpjb2diSUZDRVhiZ054a25UT3hNdVJHcmpoWm5QWl82amlFcEEzR1k5SXE4bDZvbWFibzJDa2IyRVJZVWwxYmJYTVFUTnhkc0cxM2xDMUZzSXpwSHlBMUxnVDR6cHJTVQ?oc=5",
             "source": "CISA"
           }
         ],
@@ -3254,7 +3335,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3287,11 +3368,47 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-10T19:49:51Z",
+        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:high_consequence:6179c355b9": {
+        "id": "bio_infra:high_consequence:6179c355b9",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-11T06:39:43Z",
+        "is_local": true,
+        "location": "คองโก",
+        "location_en": "DR Congo",
+        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:b801542e1b": {
         "id": "bio_infra:cyber_incident:b801542e1b",
@@ -3398,42 +3515,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:high_consequence:6179c355b9": {
-        "id": "bio_infra:high_consequence:6179c355b9",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "Armed men kill at least 33 in village in Ebola-hit eastern DRC",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-06T19:29:50Z",
-        "is_local": true,
-        "location": "คองโก",
-        "location_en": "DR Congo",
-        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:23e591e8c3": {
         "id": "bio_infra:cyber_incident:23e591e8c3",
@@ -3822,61 +3903,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 38.1,
-      "as_of": "2026-11-10T19:49:51Z"
+      "score": 30.1,
+      "as_of": "2026-11-11T06:39:43Z"
     },
     "geo": {
-      "score": 73.7,
-      "as_of": "2026-11-10T19:49:51Z"
+      "score": 70.1,
+      "as_of": "2026-11-11T06:39:43Z"
     },
     "nat": {
-      "score": 12.8,
-      "as_of": "2026-11-10T19:49:51Z"
+      "score": 12.1,
+      "as_of": "2026-11-11T06:39:43Z"
     },
     "bio_infra": {
-      "score": 57.8,
-      "as_of": "2026-11-10T19:49:51Z"
+      "score": 57.5,
+      "as_of": "2026-11-11T06:39:43Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 19.90999984741211,
-      "change_pct": -4.42,
-      "drawdown_pct": -35.88,
+      "last": 19.459999084472656,
+      "change_pct": -6.58,
+      "drawdown_pct": -37.33,
       "last_date": "2026-11-10",
-      "as_of": "2026-11-10T19:49:51Z",
+      "as_of": "2026-11-11T06:39:43Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 91.73999786376953,
-      "change_pct": -11.45,
-      "drawdown_pct": -22.48,
-      "last_date": "2026-11-10",
-      "as_of": "2026-11-10T19:49:51Z",
+      "last": 92.55000305175781,
+      "change_pct": -2.19,
+      "drawdown_pct": -21.8,
+      "last_date": "2026-11-11",
+      "as_of": "2026-11-11T06:39:43Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4033.699951171875,
-      "change_pct": 2.37,
-      "drawdown_pct": -24.16,
-      "last_date": "2026-11-10",
-      "as_of": "2026-11-10T19:49:51Z",
+      "last": 4063.10009765625,
+      "change_pct": -0.24,
+      "drawdown_pct": -23.6,
+      "last_date": "2026-11-11",
+      "as_of": "2026-11-11T06:39:43Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7516.5498046875,
-      "change_pct": -0.69,
-      "drawdown_pct": -3.87,
+      "last": 7520.93017578125,
+      "change_pct": -0.63,
+      "drawdown_pct": -3.81,
       "last_date": "2026-11-10",
-      "as_of": "2026-11-10T19:49:51Z",
+      "as_of": "2026-11-11T06:39:43Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 145.97999572753906,
-      "change_pct": -5.82,
-      "drawdown_pct": -33.14,
+      "last": 146.58999633789062,
+      "change_pct": -5.43,
+      "drawdown_pct": -32.86,
       "last_date": "2026-11-10",
-      "as_of": "2026-11-10T19:49:51Z",
+      "as_of": "2026-11-11T06:39:43Z",
       "provider": "yfinance"
     }
   },
@@ -3884,9 +3965,8 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "4eb35bec379015b6",
+    "events_hash": "243bb1ae10720ff9",
     "event_ids": [
-      "bio_infra:cyber_incident:b801542e1b",
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:29886bc41b",
       "geo:chokepoint:73ae71ea05",
@@ -3894,28 +3974,43 @@
       "geo:energy_infra:5679e2094a",
       "geo:energy_infra:7a3d474ec2",
       "geo:energy_infra:8dfd5ff85f",
-      "geo:invasion:8f4f9f2dcb",
       "geo:missile_strike:0c4fb5956d",
-      "geo:missile_strike:7a3d474ec2",
+      "geo:missile_strike:8809c12f03",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5"
     ],
-    "econ_score": 40.8,
+    "econ_score": 30.1,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง รวมถึงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่านและการโจมตีโครงสร้างพื้นฐานด้านพลังงาน ควบคู่ไปกับความขัดแย้งที่ยืดเยื้อในยูเครน ตลาดสะท้อนสิ่งนี้ด้วยราคาทองคำที่สูงขึ้น แม้ว่าราคาน้ำมันดิบจะลดลงอย่างมีนัยสำคัญ",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งมีสาเหตุมาจากความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน การคุกคามเส้นทางเดินเรือที่สำคัญ และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน นอกจากนี้ การระบาดของโรคและเหตุการณ์ทางไซเบอร์ที่กำลังดำเนินอยู่ยังเพิ่มความไม่มั่นคงโดยรวม",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
-          "signal_strength": "สูง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานหลายฉบับระบุถึงความตึงเครียดที่เพิ่มขึ้นเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน ภัยคุกคามต่อช่องแคบฮอร์มุซ และการโจมตีด้วยโดรนและขีปนาวุธต่อโครงสร้างพื้นฐานด้านพลังงานในอิรักและซาอุดีอาระเบีย",
+          "evidence_summary": "อิสราเอลและเจ้าหน้าที่สหรัฐฯ แสดงความกังวลเกี่ยวกับโครงการอาวุธนิวเคลียร์ของอิหร่าน ขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมโจมตีอิหร่าน และอิหร่านเปิดค่ายฝึกสำหรับสตรีเพื่อเตรียมพร้อมสำหรับสงคราม",
           "refs": [
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
+            }
+          ]
+        },
+        {
+          "title": "ภัยคุกคามต่อความมั่นคงด้านพลังงานและการเดินเรือทั่วโลก",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "การโจมตีด้วยโดรนทำให้การผลิตก๊าซที่แหล่ง Khor Mor ของอิรักต้องหยุดชะงัก และซาอุดีอาระเบียสกัดกั้นขีปนาวุธหลังการโจมตีท่อส่งน้ำมันและอาคาร Aramco ในขณะที่การจราจร LNG ในช่องแคบฮอร์มุซเพิ่มขึ้นสูงสุด",
+          "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
               "source": "Reuters (Google News)"
@@ -3923,63 +4018,63 @@
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
               "source": "Al Jazeera"
-            }
-          ]
-        },
-        {
-          "title": "ภัยคุกคามต่อความมั่นคงด้านพลังงานทั่วโลก",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การโจมตีแหล่งก๊าซ Khor Mor ในเคอร์ดิสถานของอิรักและโครงสร้างพื้นฐานน้ำมันของซาอุดีอาระเบีย ควบคู่ไปกับการโจมตีโครงสร้างพื้นฐานด้านพลังงานของยูเครนโดยรัสเซีย เน้นย้ำถึงความเปราะบางในการจัดหาพลังงานทั่วโลก",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-              "source": "Al Jazeera"
             },
             {
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
               "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "การกลับมาของโรคระบาดร้ายแรงและภัยคุกคามทางไซเบอร์",
+          "title": "การระบาดของโรคที่มีผลกระทบรุนแรงกลับมาอีกครั้ง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดใหม่ของอีโบลา ไข้เหลือง และไวรัสชามอนดา ควบคู่ไปกับการโจมตีทางไซเบอร์ต่อซูเปอร์มาร์เก็ตฝรั่งเศสที่ถูกกล่าวหาว่าอิหร่านเป็นผู้กระทำ ซึ่งบ่งชี้ถึงความเสี่ยงทางชีวภาพและไซเบอร์ที่ต่อเนื่อง",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อ Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกา และไวรัส Shamonda ในฝรั่งเศส",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "source": "WHO DON"
             },
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions in the Middle East, including concerns over Iran's nuclear ambitions and attacks on energy infrastructure, alongside persistent conflict in Ukraine. Markets reflect this with rising gold prices, even as crude oil experiences a significant decline.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, marked by concerns over Iran's nuclear program, threats to critical shipping lanes, and attacks on energy infrastructure. Additionally, ongoing disease outbreaks and cyber incidents contribute to the overall instability.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflict in the Middle East",
-          "signal_strength": "สูง",
+          "title": "Escalating Geopolitical Tensions in the Middle East",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Multiple reports indicate rising tensions regarding Iran's nuclear program, threats to the Strait of Hormuz, and drone and missile attacks on energy infrastructure in Iraq and Saudi Arabia.",
+          "evidence_summary": "Israel and US officials express concerns about Iran's nuclear weapons program, while the Pentagon states US troops are poised to strike Iran, and Iran opens a training camp for women in readiness for war.",
           "refs": [
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
+            }
+          ]
+        },
+        {
+          "title": "Threats to Global Energy Security and Shipping",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Drone attacks have suspended gas production at Iraq’s Khor Mor field, and Saudi Arabia intercepted missiles after attacks on pipelines and an Aramco building, while Hormuz LNG traffic hit its highest level.",
+          "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
               "source": "Reuters (Google News)"
@@ -3987,45 +4082,29 @@
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
               "source": "Al Jazeera"
-            }
-          ]
-        },
-        {
-          "title": "Threats to Global Energy Security",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Attacks on Iraq's Khor Mor gas field and Saudi Arabian oil infrastructure, alongside Russian strikes on Ukrainian energy infrastructure, highlight vulnerabilities in global energy supply.",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-              "source": "Al Jazeera"
             },
             {
               "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
               "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Resurgence of High-Consequence Diseases and Cyber Threats",
+          "title": "Resurgence of High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "New outbreaks of Ebola, Yellow fever, and Shamonda virus are reported, alongside a cyberattack on a French supermarket blamed on Iran, indicating ongoing biological and cyber risks.",
+          "evidence_summary": "Disease Outbreak News reports Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside yellow fever in the WHO African Region and Shamonda virus in France.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "source": "WHO DON"
             },
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
             }
           ]
@@ -4033,8 +4112,8 @@
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-10T07:28:01Z"
+    "generated_at": "2026-11-11T06:39:43Z"
   },
-  "updated_at": "2026-11-10T19:49:51Z",
+  "updated_at": "2026-11-11T06:39:43Z",
   "version": 1
 }
