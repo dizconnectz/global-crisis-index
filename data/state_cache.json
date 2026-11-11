@@ -1,13 +1,89 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "russia",
+          "ukraine",
+          "uae"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "aol.co.uk",
+          "channelnewsasia.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ab65d8b961": {
+        "id": "geo:conflict:ab65d8b961",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:8809c12f03": {
         "id": "geo:conflict:8809c12f03",
         "pillar": "geo",
         "category": "conflict",
         "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
         "category_en": "Armed conflict",
-        "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+        "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
         "severity": 30.0,
         "score": 18.0,
         "countries": [
@@ -31,47 +107,193 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
+      "geo:missile_strike:38384a8522": {
+        "id": "geo:missile_strike:38384a8522",
         "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
-        "severity": 30.0,
-        "score": 18.0,
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
+        "severity": 55.0,
+        "score": 33.0,
         "countries": [
-          "ukraine",
-          "russia"
+          "sudan"
         ],
         "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "aol.co.uk",
-          "channelnewsasia.com"
+          "BBC World"
         ],
         "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss",
+            "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           }
         ],
         "link_sources": [
           "BBC World"
         ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a383595182": {
+        "id": "geo:conflict:a383595182",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Israel is ‘disrupting entire ecosystems’, including Lebanon’s wheat crop",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "israel",
+          "lebanon"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Can Tehran survive a ‘zero oil’ budget, if US blockade on Iran persists?",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "manilatimes.net"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:57a1dee4cd": {
+        "id": "geo:conflict:57a1dee4cd",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Bessent’s relocation: From US to EU, is Iran bringing war to Western soil?",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "european union",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news-analysis/2026/11/11/bessents-relocation-from-us-to-eu-is-iran-bringing-war-to-western-soil?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXNuaEJXU0pFb0oxRlkzenJYREJId21QY2pxclZ3bnBDWEFwZXFhZkJCLTJEUWJELTRKeExPZDdYWmZUY25UZnNJYXZ5NGNUYXpUSHkwZUJyYU9wWmp0aWVHTUQ1ZFVlQ3dOZnE3azBSNm9KZVRMWnJEWXExR3VrektGaXU2RlNySG5GX01LbHR2M2xxMF92RzcwZWV0REJ6T3ZIV0dvQkM0c1pQU1hzQlVB?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news-analysis/2026/11/11/bessents-relocation-from-us-to-eu-is-iran-bringing-war-to-western-soil?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXNuaEJXU0pFb0oxRlkzenJYREJId21QY2pxclZ3bnBDWEFwZXFhZkJCLTJEUWJELTRKeExPZDdYWmZUY25UZnNJYXZ5NGNUYXpUSHkwZUJyYU9wWmp0aWVHTUQ1ZFVlQ3dOZnE3azBSNm9KZVRMWnJEWXExR3VrektGaXU2RlNySG5GX01LbHR2M2xxMF92RzcwZWV0REJ6T3ZIV0dvQkM0c1pQU1hzQlVB?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:e074138d45": {
+        "id": "geo:sanctions:e074138d45",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "EXCLUSIVE: India holds Pernod, Diageo Scotch shipments as investigators seek higher tariff - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "india"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT2dKQl9URVgwZzRNcjdPZWtXVDNPd1gyR2QxY3V2d294UWRqUm5CcnAxSm5hOXh6SjRyYzMzQ1ZCQXo3a1p3MW5Jck9NMEtabkRmMHpYU1lCeHp1cFNEOUlXRHItMnlOZnJleFdRbndsdkpQOXFleUJGQWVfWnlyMUtxak5TblhrLVUwQWktT2F1XzZuNjYxNHhhZENtcTlLcDFtRkNXR3luaU1CUldLUVNoRkhWZm1FT0xzSHZUQ2Q?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT2dKQl9URVgwZzRNcjdPZWtXVDNPd1gyR2QxY3V2d294UWRqUm5CcnAxSm5hOXh6SjRyYzMzQ1ZCQXo3a1p3MW5Jck9NMEtabkRmMHpYU1lCeHp1cFNEOUlXRHItMnlOZnJleFdRbndsdkpQOXFleUJGQWVfWnlyMUtxak5TblhrLVUwQWktT2F1XzZuNjYxNHhhZENtcTlLcDFtRkNXR3luaU1CUldLUVNoRkhWZm1FT0xzSHZUQ2Q?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -547,43 +769,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T07:11:50Z",
-        "last_seen": "2026-11-10T07:28:01Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Hormuz LNG traffic hits highest in October since Iran war began - Reuters",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-10T07:28:01Z",
         "is_local": false,
         "location": null,
@@ -2803,39 +2988,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0b0432919a": {
-        "id": "geo:conflict:0b0432919a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Godzilla : Destroy All Monsters Melee Remastered review – Power Stone Kaiju Wars",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "metro.co.uk"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://metro.co.uk/2026/11/03/godzilla-destroy-monsters-melee-remastered-review-power-stone-kaiju-wars-29760761/"
-        ],
-        "refs": [
-          {
-            "url": "https://metro.co.uk/2026/11/03/godzilla-destroy-monsters-melee-remastered-review-power-stone-kaiju-wars-29760761/",
-            "source": "metro.co.uk"
-          }
-        ],
-        "link_sources": [
-          "metro.co.uk"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:2ef44b2e75": {
         "id": "geo:conflict:2ef44b2e75",
         "pillar": "geo",
@@ -2880,39 +3032,6 @@
           "northernpublicradio.org",
           "aspenpublicradio.org",
           "ksmu.org"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8b53846582": {
-        "id": "geo:conflict:8b53846582",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Hegseth announces pathway for troops to become military chaplains",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "armytimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.armytimes.com/news/your-army/2026/11/02/hegseth-announces-pathway-for-troops-to-become-military-chaplains/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.armytimes.com/news/your-army/2026/11/02/hegseth-announces-pathway-for-troops-to-become-military-chaplains/",
-            "source": "armytimes.com"
-          }
-        ],
-        "link_sources": [
-          "armytimes.com"
         ],
         "first_seen": "2026-11-03T19:34:54Z",
         "last_seen": "2026-11-03T19:34:54Z",
@@ -3012,76 +3131,6 @@
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:813e6af174": {
-        "id": "geo:conflict:813e6af174",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "From Italy to Canada, how the UK’s Palestine Action group went global",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "canada",
-          "united kingdom",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/3/from-italy-to-canada-how-the-uks-palestine-action-group-went-global?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:36fe0534f5": {
-        "id": "geo:conflict:36fe0534f5",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Very cold war: Who’s attacking Europe’s supermarket freezers?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -3231,7 +3280,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3267,7 +3316,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3302,7 +3351,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3321,7 +3370,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipwFBVV95cUxQekdzSVBJbmxxWVRBdkR3aEd2SHktc29wQi12YzFSU2ZOaUZDYWlOa2NqWGdVUW41a3Q1UFo2RmlMbnpaamt3THpjb2diSUZDRVhiZ054a25UT3hNdVJHcmpoWm5QWl82amlFcEEzR1k5SXE4bDZvbWFibzJDa2IyRVJZVWwxYmJYTVFUTnhkc0cxM2xDMUZzSXpwSHlBMUxnVDR6cHJTVQ?oc=5"
         ],
@@ -3335,7 +3384,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3368,11 +3417,51 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-11T19:41:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:high_consequence:a2cf81e798": {
+        "id": "bio_infra:high_consequence:a2cf81e798",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/11/kenya-discharges-last-ebola-patient?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/11/kenya-discharges-last-ebola-patient?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-11T19:41:47Z",
+        "is_local": true,
+        "location": null,
+        "location_en": null,
+        "raw_score": 36.0
       },
       "bio_infra:high_consequence:6179c355b9": {
         "id": "bio_infra:high_consequence:6179c355b9",
@@ -3903,61 +3992,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 30.1,
-      "as_of": "2026-11-11T06:39:43Z"
+      "score": 25.9,
+      "as_of": "2026-11-11T19:41:47Z"
     },
     "geo": {
-      "score": 70.1,
-      "as_of": "2026-11-11T06:39:43Z"
+      "score": 69.4,
+      "as_of": "2026-11-11T19:41:47Z"
     },
     "nat": {
-      "score": 12.1,
-      "as_of": "2026-11-11T06:39:43Z"
+      "score": 11.2,
+      "as_of": "2026-11-11T19:41:47Z"
     },
     "bio_infra": {
-      "score": 57.5,
-      "as_of": "2026-11-11T06:39:43Z"
+      "score": 57.4,
+      "as_of": "2026-11-11T19:41:47Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 19.459999084472656,
-      "change_pct": -6.58,
-      "drawdown_pct": -37.33,
-      "last_date": "2026-11-10",
-      "as_of": "2026-11-11T06:39:43Z",
+      "last": 17.639999389648438,
+      "change_pct": 6.2,
+      "drawdown_pct": -43.19,
+      "last_date": "2026-11-11",
+      "as_of": "2026-11-11T19:41:47Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 92.55000305175781,
-      "change_pct": -2.19,
-      "drawdown_pct": -21.8,
+      "last": 92.70999908447266,
+      "change_pct": -2.02,
+      "drawdown_pct": -21.66,
       "last_date": "2026-11-11",
-      "as_of": "2026-11-11T06:39:43Z",
+      "as_of": "2026-11-11T19:41:47Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 4063.10009765625,
-      "change_pct": -0.24,
-      "drawdown_pct": -23.6,
+      "last": 3996.0,
+      "change_pct": -1.89,
+      "drawdown_pct": -24.86,
       "last_date": "2026-11-11",
-      "as_of": "2026-11-11T06:39:43Z",
+      "as_of": "2026-11-11T19:41:47Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7520.93017578125,
-      "change_pct": -0.63,
-      "drawdown_pct": -3.81,
-      "last_date": "2026-11-10",
-      "as_of": "2026-11-11T06:39:43Z",
+      "last": 7627.2998046875,
+      "change_pct": -0.8,
+      "drawdown_pct": -2.45,
+      "last_date": "2026-11-11",
+      "as_of": "2026-11-11T19:41:47Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 146.58999633789062,
-      "change_pct": -5.43,
-      "drawdown_pct": -32.86,
-      "last_date": "2026-11-10",
-      "as_of": "2026-11-11T06:39:43Z",
+      "last": 156.3699951171875,
+      "change_pct": 4.15,
+      "drawdown_pct": -28.38,
+      "last_date": "2026-11-11",
+      "as_of": "2026-11-11T19:41:47Z",
       "provider": "yfinance"
     }
   },
@@ -3965,55 +4054,53 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "243bb1ae10720ff9",
+    "events_hash": "d00140f02668520b",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:29886bc41b",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:d591d87e00",
       "geo:energy_infra:5679e2094a",
-      "geo:energy_infra:7a3d474ec2",
       "geo:energy_infra:8dfd5ff85f",
-      "geo:missile_strike:0c4fb5956d",
+      "geo:missile_strike:38384a8522",
       "geo:missile_strike:8809c12f03",
       "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5"
     ],
-    "econ_score": 30.1,
+    "econ_score": 25.9,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งมีสาเหตุมาจากความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน การคุกคามเส้นทางเดินเรือที่สำคัญ และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน นอกจากนี้ การระบาดของโรคและเหตุการณ์ทางไซเบอร์ที่กำลังดำเนินอยู่ยังเพิ่มความไม่มั่นคงโดยรวม",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง โดยเฉพาะอย่างยิ่งที่เกี่ยวข้องกับภัยคุกคามทางนิวเคลียร์ของอิหร่าน การโจมตีโครงสร้างพื้นฐานด้านพลังงาน และการคุกคามเส้นทางการเดินเรือที่สำคัญ นอกจากนี้ การระบาดของโรคติดเชื้อร้ายแรง เช่น อีโบลา ยังคงเป็นความกังวล",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางทวีความรุนแรงขึ้น",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "อิสราเอลและเจ้าหน้าที่สหรัฐฯ แสดงความกังวลเกี่ยวกับโครงการอาวุธนิวเคลียร์ของอิหร่าน ขณะที่เพนตากอนระบุว่ากองทัพสหรัฐฯ พร้อมโจมตีอิหร่าน และอิหร่านเปิดค่ายฝึกสำหรับสตรีเพื่อเตรียมพร้อมสำหรับสงคราม",
+          "evidence_summary": "มีรายงานการปิดล้อมอิหร่านโดยสหรัฐฯ ภัยคุกคามทางนิวเคลียร์ของอิหร่าน การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ และการโจมตีโครงสร้างพื้นฐานด้านพลังงานในอิรักและซาอุดีอาระเบีย",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามต่อความมั่นคงด้านพลังงานและการเดินเรือทั่วโลก",
+          "title": "ภัยคุกคามต่ออุปทานพลังงานและเส้นทางการเดินเรือทั่วโลก",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การโจมตีด้วยโดรนทำให้การผลิตก๊าซที่แหล่ง Khor Mor ของอิรักต้องหยุดชะงัก และซาอุดีอาระเบียสกัดกั้นขีปนาวุธหลังการโจมตีท่อส่งน้ำมันและอาคาร Aramco ในขณะที่การจราจร LNG ในช่องแคบฮอร์มุซเพิ่มขึ้นสูงสุด",
+          "evidence_summary": "การปิดล้อมอิหร่านของสหรัฐฯ การโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ และการโจมตีโครงสร้างพื้นฐานด้านพลังงานในอิรักและซาอุดีอาระเบีย บ่งชี้ถึงความเสี่ยงต่อการขนส่งพลังงาน",
           "refs": [
             {
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
@@ -4026,10 +4113,10 @@
           ]
         },
         {
-          "title": "การระบาดของโรคที่มีผลกระทบรุนแรงกลับมาอีกครั้ง",
+          "title": "การระบาดของโรคติดเชื้อร้ายแรงที่กลับมาอีกครั้ง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อ Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกา และไวรัส Shamonda ในฝรั่งเศส",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกา และไวรัสชามอนดาในฝรั่งเศส",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4046,38 +4133,40 @@
           ]
         }
       ],
-      "local_notes_th": [],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, marked by concerns over Iran's nuclear program, threats to critical shipping lanes, and attacks on energy infrastructure. Additionally, ongoing disease outbreaks and cyber incidents contribute to the overall instability.",
+      "local_notes_th": [
+        "เคนยาได้ปล่อยผู้ป่วยอีโบลาคนสุดท้ายออกจากโรงพยาบาล ซึ่งเป็นก้าวสำคัญสู่การเป็นประเทศที่ปลอดไวรัส"
+      ],
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, particularly concerning Iran's nuclear threats, attacks on energy infrastructure, and threats to critical shipping lanes. Additionally, outbreaks of high-consequence diseases like Ebola remain a concern.",
       "early_warnings_en": [
         {
           "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Israel and US officials express concerns about Iran's nuclear weapons program, while the Pentagon states US troops are poised to strike Iran, and Iran opens a training camp for women in readiness for war.",
+          "evidence_summary": "Reports indicate a US blockade on Iran, Iran's nuclear threats, attacks on tankers in the Strait of Hormuz, and drone attacks on energy infrastructure in Iraq and Saudi Arabia.",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
               "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
               "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "Threats to Global Energy Security and Shipping",
+          "title": "Threats to Global Energy Supply and Shipping Lanes",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Drone attacks have suspended gas production at Iraq’s Khor Mor field, and Saudi Arabia intercepted missiles after attacks on pipelines and an Aramco building, while Hormuz LNG traffic hit its highest level.",
+          "evidence_summary": "The US blockade on Iran, attacks on tankers in the Strait of Hormuz, and strikes on energy infrastructure in Iraq and Saudi Arabia indicate risks to energy transport.",
           "refs": [
             {
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
@@ -4093,7 +4182,7 @@
           "title": "Resurgence of High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Disease Outbreak News reports Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside yellow fever in the WHO African Region and Shamonda virus in France.",
+          "evidence_summary": "Reports detail Ebola outbreaks in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Yellow fever in the African Region and Shamonda virus in France.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4110,10 +4199,12 @@
           ]
         }
       ],
-      "local_notes_en": []
+      "local_notes_en": [
+        "Kenya has discharged its last Ebola patient, marking a significant milestone towards achieving virus-free status."
+      ]
     },
-    "generated_at": "2026-11-11T06:39:43Z"
+    "generated_at": "2026-11-11T19:41:47Z"
   },
-  "updated_at": "2026-11-11T06:39:43Z",
+  "updated_at": "2026-11-11T19:41:47Z",
   "version": 1
 }
