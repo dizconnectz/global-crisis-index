@@ -1,6 +1,303 @@
 {
   "active_events": {
     "geo": {
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:b5e6a948c9": {
+        "id": "geo:conflict:b5e6a948c9",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:0c5abc2fdb": {
+        "id": "geo:missile_strike:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+        "severity": 55.0,
+        "score": 44.0,
+        "countries": [
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:ffd4002ff9": {
+        "id": "geo:missile_strike:ffd4002ff9",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "colombia"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ab65d8b961": {
+        "id": "geo:conflict:ab65d8b961",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:38384a8522": {
+        "id": "geo:missile_strike:38384a8522",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "sudan"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:0c5abc2fdb": {
+        "id": "geo:sanctions:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "BDS claims win as energy giants quit Israeli gas project off Gaza",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "‘No war, no peace’: Can Iran break the deadlock with the US?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:sanctions:a59ee23b9a": {
         "id": "geo:sanctions:a59ee23b9a",
         "pillar": "geo",
@@ -308,41 +605,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:ab65d8b961": {
-        "id": "geo:conflict:ab65d8b961",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:8809c12f03": {
         "id": "geo:conflict:8809c12f03",
         "pillar": "geo",
@@ -373,41 +635,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:38384a8522": {
-        "id": "geo:missile_strike:38384a8522",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
         "last_seen": "2026-11-12T07:22:31Z",
         "is_local": false,
         "location": null,
@@ -2214,58 +2441,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Missiles target Kyiv and wound 5 as Ukraine prepares for talks with Russia and the US",
-        "severity": 55.0,
-        "score": 55.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-          "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
-          "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html"
-        ],
-        "refs": [
-          {
-            "url": "https://www.durangoherald.com/articles/associated-press/missiles-target-kyiv-and-injure-5-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-            "source": "durangoherald.com"
-          },
-          {
-            "url": "https://timesofindia.indiatimes.com/world/europe/russia-claims-massive-overnight-strike-on-military-targets-in-and-around-kyiv/articleshow/135630911.cms",
-            "source": "timesofindia.indiatimes.com"
-          },
-          {
-            "url": "http://www.dailyadvance.com/news/world/missiles-target-kyiv-and-wound-5-as-ukraine-prepares-for-talks-with-russia-and-the/article_d93b52f8-3730-52ad-9f80-e37e1f85f9ba.html",
-            "source": "dailyadvance.com"
-          }
-        ],
-        "link_sources": [
-          "durangoherald.com",
-          "timesofindia.indiatimes.com",
-          "dailyadvance.com"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:energy_infra:a59ee23b9a": {
         "id": "geo:energy_infra:a59ee23b9a",
         "pillar": "geo",
@@ -2664,52 +2839,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-          "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA1aWlfTHBOUUVBVXg1Y2RNZXRGMHA1Z2kybE9wSHlsc244YUFYcEdYNG91bkVCWWpXbV9RWVAwZl94ODhy?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-05T20:04:17Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:1be0a55e17": {
         "id": "geo:conflict:1be0a55e17",
         "pillar": "geo",
@@ -2884,39 +3013,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:3b2910db6e": {
-        "id": "geo:conflict:3b2910db6e",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Yemeni government forces claim control of strategic al-Jawf mountain range",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/4/yemeni-government-forces-claim-control-of-strategic-al-jawf-mountain-range?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-04T19:51:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:55a57e9a6a": {
         "id": "geo:sanctions:55a57e9a6a",
         "pillar": "geo",
@@ -3084,39 +3180,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:coup_unrest:aec3be9677": {
-        "id": "geo:coup_unrest:aec3be9677",
-        "pillar": "geo",
-        "category": "coup_unrest",
-        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
-        "category_en": "Coup / political unrest",
-        "title": "  The Coup Is Underway : Kunstler Sees A  Turnstile Into The Next Phase Of The Fourth Turning  ",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [],
-        "sources": [
-          "zerohedge.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.zerohedge.com/political/coup-underway-kunstler-sees-turnstile-next-phase-fourth-turning"
-        ],
-        "refs": [
-          {
-            "url": "https://www.zerohedge.com/political/coup-underway-kunstler-sees-turnstile-next-phase-fourth-turning",
-            "source": "zerohedge.com"
-          }
-        ],
-        "link_sources": [
-          "zerohedge.com"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:2ef44b2e75": {
         "id": "geo:conflict:2ef44b2e75",
         "pillar": "geo",
@@ -3163,42 +3226,6 @@
           "ksmu.org"
         ],
         "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:terror:a59ee23b9a": {
-        "id": "geo:terror:a59ee23b9a",
-        "pillar": "geo",
-        "category": "terror",
-        "category_th": "การก่อการร้าย",
-        "category_en": "Terrorism",
-        "title": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
         "last_seen": "2026-11-03T19:34:54Z",
         "is_local": false,
         "location": null,
@@ -3409,7 +3436,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3445,7 +3472,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3480,7 +3507,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3499,7 +3526,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 3,
         "links": [
           "https://news.google.com/rss/articles/CBMipwFBVV95cUxQekdzSVBJbmxxWVRBdkR3aEd2SHktc29wQi12YzFSU2ZOaUZDYWlOa2NqWGdVUW41a3Q1UFo2RmlMbnpaamt3THpjb2diSUZDRVhiZ054a25UT3hNdVJHcmpoWm5QWl82amlFcEEzR1k5SXE4bDZvbWFibzJDa2IyRVJZVWwxYmJYTVFUTnhkc0cxM2xDMUZzSXpwSHlBMUxnVDR6cHJTVQ?oc=5"
         ],
@@ -3513,7 +3540,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3546,11 +3573,44 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:high_consequence:5f2ab0bf19": {
+        "id": "bio_infra:high_consequence:5f2ab0bf19",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-12T20:03:49Z",
+        "is_local": true,
+        "location": null,
+        "location_en": null,
+        "raw_score": 27.0
       },
       "bio_infra:high_consequence:a2cf81e798": {
         "id": "bio_infra:high_consequence:a2cf81e798",
@@ -3580,7 +3640,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-12T07:22:31Z",
+        "last_seen": "2026-11-12T20:03:49Z",
         "is_local": true,
         "location": null,
         "location_en": null,
@@ -4091,61 +4151,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 26.1,
-      "as_of": "2026-11-12T07:22:31Z"
+      "score": 28.3,
+      "as_of": "2026-11-12T20:03:49Z"
     },
     "geo": {
-      "score": 66.5,
-      "as_of": "2026-11-12T07:22:31Z"
+      "score": 64.1,
+      "as_of": "2026-11-12T20:03:49Z"
     },
     "nat": {
-      "score": 10.5,
-      "as_of": "2026-11-12T07:22:31Z"
+      "score": 9.8,
+      "as_of": "2026-11-12T20:03:49Z"
     },
     "bio_infra": {
-      "score": 57.3,
-      "as_of": "2026-11-12T07:22:31Z"
+      "score": 57.4,
+      "as_of": "2026-11-12T20:03:49Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 17.489999771118164,
-      "change_pct": 5.3,
-      "drawdown_pct": -43.67,
-      "last_date": "2026-11-11",
-      "as_of": "2026-11-12T07:22:31Z",
+      "last": 18.579999923706055,
+      "change_pct": -34.07,
+      "drawdown_pct": -40.16,
+      "last_date": "2026-11-12",
+      "as_of": "2026-11-12T20:03:49Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 93.05000305175781,
-      "change_pct": -5.33,
-      "drawdown_pct": -21.38,
+      "last": 96.08999633789062,
+      "change_pct": -2.24,
+      "drawdown_pct": -18.81,
       "last_date": "2026-11-12",
-      "as_of": "2026-11-12T07:22:31Z",
+      "as_of": "2026-11-12T20:03:49Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3967.0,
-      "change_pct": -3.56,
-      "drawdown_pct": -25.41,
+      "last": 3887.60009765625,
+      "change_pct": -5.49,
+      "drawdown_pct": -26.9,
       "last_date": "2026-11-12",
-      "as_of": "2026-11-12T07:22:31Z",
+      "as_of": "2026-11-12T20:03:49Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7619.3798828125,
-      "change_pct": -0.9,
-      "drawdown_pct": -2.55,
-      "last_date": "2026-11-11",
-      "as_of": "2026-11-12T07:22:31Z",
+      "last": 7594.830078125,
+      "change_pct": 3.28,
+      "drawdown_pct": -2.87,
+      "last_date": "2026-11-12",
+      "as_of": "2026-11-12T20:03:49Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 155.39999389648438,
-      "change_pct": 3.51,
-      "drawdown_pct": -28.83,
-      "last_date": "2026-11-11",
-      "as_of": "2026-11-12T07:22:31Z",
+      "last": 154.63999938964844,
+      "change_pct": 17.24,
+      "drawdown_pct": -29.17,
+      "last_date": "2026-11-12",
+      "as_of": "2026-11-12T20:03:49Z",
       "provider": "yfinance"
     }
   },
@@ -4153,49 +4213,48 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "44fa209dc0d4b789",
+    "events_hash": "f2e3f8ad4ddd0e8c",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
-      "geo:chokepoint:d591d87e00",
-      "geo:conflict:a59ee23b9a",
-      "geo:conflict:ed9a73c4e5",
       "geo:energy_infra:5679e2094a",
-      "geo:energy_infra:8dfd5ff85f",
+      "geo:missile_strike:0c5abc2fdb",
       "geo:missile_strike:38384a8522",
       "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:a59ee23b9a",
+      "geo:missile_strike:ffd4002ff9",
       "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5"
     ],
-    "econ_score": 26.1,
+    "econ_score": 28.3,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง รวมถึงภัยคุกคามต่อเส้นทางเดินเรือสำคัญและโครงสร้างพื้นฐานด้านพลังงาน ควบคู่ไปกับความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน สถานการณ์เหล่านี้เกิดขึ้นท่ามกลางความขัดแย้งที่ดำเนินอยู่และการระบาดของโรคใหม่ในหลายภูมิภาค",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางจากความขัดแย้งที่ดำเนินอยู่ ภัยคุกคามต่อโครงสร้างพื้นฐานด้านพลังงาน และความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่านและจุดคอขวดการขนส่งทางเรือ นอกจากนี้ยังมีการระบาดของโรคที่สำคัญในหลายภูมิภาค",
       "early_warnings_th": [
         {
-          "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์และความเสี่ยงด้านอุปทานพลังงานที่เพิ่มขึ้นในตะวันออกกลาง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลางและความเสี่ยงด้านอุปทานพลังงาน",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ความตึงเครียดเพิ่มขึ้นจากภัยคุกคามต่อช่องแคบฮอร์มุซ การโจมตีด้วยโดรนต่อโครงสร้างพื้นฐานด้านพลังงานในอิรักและซาอุดีอาระเบีย และความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน โดยเพนตากอนเตรียมพร้อมโจมตีอิหร่าน",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "มีรายงานการโจมตีทางอากาศและขีปนาวุธในภูมิภาค การโจมตีโครงสร้างพื้นฐานด้านพลังงาน และภัยคุกคามต่อเส้นทางเดินเรือที่สำคัญ รวมถึงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
-            },
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามต่อเนื่องจากการระบาดของโรคที่มีผลกระทบรุนแรง",
+          "title": "การระบาดของโรคทั่วโลก",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "การระบาดของโรคหลายชนิด รวมถึงอีโบลาในแอฟริกาและไวรัสชามอนดาในฝรั่งเศส บ่งชี้ถึงความกังวลด้านสาธารณสุขทั่วโลกที่ดำเนินอยู่",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4212,18 +4271,18 @@
           ]
         },
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์และการปฏิบัติการทางทหารในภูมิภาคที่ดำเนินอยู่",
-          "signal_strength": "ปานกลาง",
+          "title": "ความขัดแย้งในภูมิภาคที่ยืดเยื้อและการโจมตีเป้าหมายพลเรือน/พลังงาน",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "การเจรจาระหว่างรัสเซีย-ยูเครนสิ้นสุดลงโดยไม่มีความคืบหน้า ท่ามกลางการโจมตีด้วยขีปนาวุธอย่างต่อเนื่อง ขณะที่ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตี และเอลซัลวาดอร์ยิงขีปนาวุธ แสดงให้เห็นถึงความขัดแย้งทางทหารในภูมิภาคที่ยังคงมีอยู่",
+          "evidence_summary": "มีรายงานการโจมตีทางอากาศในยูเครน โคลอมเบีย และเอลซัลวาดอร์ ซึ่งบ่งชี้ถึงความไม่มั่นคงในภูมิภาคที่กว้างขวางและการใช้กำลัง",
           "refs": [
             {
-              "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-              "source": "asiaone.com"
+              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
-              "url": "https://www.freemalaysiatoday.com/category/world/2026/11/12/saudi-arabia-says-debris-from-intercepted-missiles-falls-in-mecca-region",
-              "source": "freemalaysiatoday.com"
+              "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
               "url": "https://freerepublic.com/focus/f-news/4402666/posts",
@@ -4233,33 +4292,33 @@
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions in the Middle East, including threats to shipping chokepoints and energy infrastructure, alongside concerns over Iran's nuclear program. These developments are occurring amidst ongoing conflicts and new disease outbreaks in several regions.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with ongoing conflicts, threats to energy infrastructure, and concerns over Iran's nuclear ambitions and shipping chokepoints. Concurrently, there are significant disease outbreaks reported in multiple regions.",
       "early_warnings_en": [
         {
-          "title": "Heightened Geopolitical Instability and Energy Supply Risks in the Middle East",
+          "title": "Escalating Geopolitical Tensions in the Middle East and Energy Supply Risks",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Tensions are escalating with threats to the Strait of Hormuz, drone attacks on energy infrastructure in Iraq and Saudi Arabia, and concerns over Iran's nuclear ambitions, with the Pentagon reportedly poised to strike Iran.",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Reports indicate air and missile strikes in the region, attacks on energy infrastructure, and threats to critical shipping lanes, alongside concerns regarding Iran's nuclear program.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
-            },
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Continued Threat of High-Consequence Disease Outbreaks",
+          "title": "Global Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Multiple disease outbreaks, including Ebola in Africa and the Shamonda virus in France, indicate an ongoing global health concern.",
+          "evidence_summary": "Reports include an Ebola disease outbreak in the Democratic Republic of the Congo, Kenya, and Nigeria, as well as Yellow fever in the WHO African Region and Shamonda virus in France.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4276,18 +4335,18 @@
           ]
         },
         {
-          "title": "Ongoing Geopolitical Conflicts and Regional Military Actions",
-          "signal_strength": "ปานกลาง",
+          "title": "Persistent Regional Conflicts and Attacks on Civilian/Energy Targets",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Russia-Ukraine talks ended without a breakthrough amidst continued missile strikes, while Saudi Arabia intercepted Houthi missiles and El Salvador conducted missile strikes, highlighting persistent regional conflicts and military engagements.",
+          "evidence_summary": "Air strikes have been reported in Ukraine, Colombia, and El Salvador, indicating widespread regional instability and the use of force.",
           "refs": [
             {
-              "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-              "source": "asiaone.com"
+              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
-              "url": "https://www.freemalaysiatoday.com/category/world/2026/11/12/saudi-arabia-says-debris-from-intercepted-missiles-falls-in-mecca-region",
-              "source": "freemalaysiatoday.com"
+              "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             },
             {
               "url": "https://freerepublic.com/focus/f-news/4402666/posts",
@@ -4298,8 +4357,8 @@
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-12T07:22:31Z"
+    "generated_at": "2026-11-12T20:03:49Z"
   },
-  "updated_at": "2026-11-12T07:22:31Z",
+  "updated_at": "2026-11-12T20:03:49Z",
   "version": 1
 }
