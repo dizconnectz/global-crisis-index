@@ -1,46 +1,6 @@
 {
   "active_events": {
     "geo": {
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-12T20:03:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:b5e6a948c9": {
         "id": "geo:conflict:b5e6a948c9",
         "pillar": "geo",
@@ -68,7 +28,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -82,7 +42,7 @@
         "category_en": "Air / missile strikes",
         "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
         "severity": 55.0,
-        "score": 44.0,
+        "score": 40.9,
         "countries": [
           "israel",
           "palestine"
@@ -91,27 +51,21 @@
           "Al Jazeera",
           "BBC World"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World",
-          "Al Jazeera"
+          "BBC World"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -146,7 +100,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -181,7 +135,47 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -216,7 +210,159 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:c1a682ee34": {
+        "id": "geo:conflict:c1a682ee34",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ethiopia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:6de3adadae": {
+        "id": "geo:conflict:6de3adadae",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "palestine",
+          "lebanon",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ed9a73c4e5": {
+        "id": "geo:conflict:ed9a73c4e5",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+        "severity": 30.0,
+        "score": 25.6,
+        "countries": [
+          "israel",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "business-standard.com",
+          "jcpost.com",
+          "ky3.com",
+          "morungexpress.com",
+          "openthemagazine.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:8dfd5ff85f": {
+        "id": "geo:sanctions:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -387,63 +533,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:ed9a73c4e5": {
-        "id": "geo:conflict:ed9a73c4e5",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Hormuz will never return to pre - war status , says Iran chief negotiator",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "iran",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "business-standard.com",
-          "jcpost.com",
-          "ky3.com",
-          "morungexpress.com",
-          "openthemagazine.com"
-        ],
-        "article_count": 6,
-        "links": [
-          "https://www.business-standard.com/world-news/hormuz-will-never-return-to-pre-war-status-says-iran-s-chief-negotiator-126111200051_1.html",
-          "https://openthemagazine.com/world/trump-netanyahu-iran-war-clash-shouting-match-from-hell-reported-as-leaders-disagree",
-          "https://jcpost.com/posts/fe25deeb-14a4-4cb9-a2ba-ea001b276d41"
-        ],
-        "refs": [
-          {
-            "url": "https://www.business-standard.com/world-news/hormuz-will-never-return-to-pre-war-status-says-iran-s-chief-negotiator-126111200051_1.html",
-            "source": "business-standard.com"
-          },
-          {
-            "url": "https://openthemagazine.com/world/trump-netanyahu-iran-war-clash-shouting-match-from-hell-reported-as-leaders-disagree",
-            "source": "openthemagazine.com"
-          },
-          {
-            "url": "https://jcpost.com/posts/fe25deeb-14a4-4cb9-a2ba-ea001b276d41",
-            "source": "jcpost.com"
-          }
-        ],
-        "link_sources": [
-          "business-standard.com",
-          "openthemagazine.com",
-          "jcpost.com",
-          "ky3.com",
-          "morungexpress.com"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
         "last_seen": "2026-11-12T07:22:31Z",
         "is_local": false,
         "location": null,
@@ -965,41 +1054,6 @@
         "refs": [
           {
             "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-11T06:39:43Z",
-        "last_seen": "2026-11-11T06:39:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:c1a682ee34": {
-        "id": "geo:conflict:c1a682ee34",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Tigray displaced families fear renewed war as hopes of returning home fade",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ethiopia"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -2905,43 +2959,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:9636e0af39": {
-        "id": "geo:conflict:9636e0af39",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ukraine",
-          "european union",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-05T06:57:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:d1faafcc70": {
         "id": "geo:sanctions:d1faafcc70",
         "pillar": "geo",
@@ -3300,78 +3317,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:a0b737dcc6": {
-        "id": "geo:sanctions:a0b737dcc6",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "china",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:ea8e466faf": {
-        "id": "geo:sanctions:ea8e466faf",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "EXCLUSIVE: India moves to resolve Scotch tariff dispute under UK trade pact, sources say - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "india",
-          "united kingdom"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejNZeU16MndWU3VSckp3bDJ4YXgzQ0Rnb1Ftb2daeWRlVHZsQkxjY2U4ODVvRUJrM1VtMXl6UnQ5STlfcFVtYzF1YnpCaUZfWExkLUhkaEU4SFE4T2tQRHZoN3J0QVBUbUtCSThZcF8yYVJCbndSeFFVTjZCa0Y3RE5iUS1hUUM4d1dIQjRvVlZMNFViTWd4cllEVmdHWTJfQ0x5Tjk5SzlDeUtmMXRfM0hsSm9TX294dTJv?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:ad160a7842": {
         "id": "geo:conflict:ad160a7842",
         "pillar": "geo",
@@ -3436,7 +3381,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3472,7 +3417,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3507,7 +3452,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3540,7 +3485,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3573,7 +3518,42 @@
           "CISA"
         ],
         "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:2576c23d0e": {
+        "id": "bio_infra:cyber_incident:2576c23d0e",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "north korea"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3606,7 +3586,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": true,
         "location": null,
         "location_en": null,
@@ -3640,7 +3620,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-13T06:54:43Z",
         "is_local": true,
         "location": null,
         "location_en": null,
@@ -4043,169 +4023,66 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:cyber_incident:6c1b9fa3bc": {
-        "id": "bio_infra:cyber_incident:6c1b9fa3bc",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "#StopRansomware: SafePay Ransomware",
-        "severity": 40.0,
-        "score": 25.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ybmVpckN1ejAyTndlMm1nallXS0dlT1RsSFUxZk9sN3JaVWdGdG96TkpibTFOdlF3dXBkQ0hLRVU5M2NSdW1oU0dOOXBlcVYwRlh5d0tCWmxlbXVROGNXa2pGY0dHOF9HQ1RuNm5CdTl1Qm1welE?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": true,
-        "location": null,
-        "location_en": null,
-        "raw_score": 40.0
-      },
-      "bio_infra:cyber_incident:cd1b674e1e": {
-        "id": "bio_infra:cyber_incident:cd1b674e1e",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:cyber_incident:a59ee23b9a": {
-        "id": "bio_infra:cyber_incident:a59ee23b9a",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "Hackers hit Ukraine and Russia's emergency apps, send fake nuclear alerts, World News - AsiaOne.com",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVZCZklZTHcxczVSU2RVYmd6SXlMUExCQXVlZEd4bXZnWmZERVM5Q19IU2VoY0duaHJGMEViY0FSUWo2YlV0dXo5cmp0bjZFaVc4R202cmQ2UDREbVUzMU1uM2lBeXUzZGEyakhxSWJYQjVXMk5vVlU2Z1RlSXMyNnpMeS1ENi1xSXhicW1NTG9UUUgwWXlDSjJ1a1R4UDY5V0Rn?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVZCZklZTHcxczVSU2RVYmd6SXlMUExCQXVlZEd4bXZnWmZERVM5Q19IU2VoY0duaHJGMEViY0FSUWo2YlV0dXo5cmp0bjZFaVc4R202cmQ2UDREbVUzMU1uM2lBeXUzZGEyakhxSWJYQjVXMk5vVlU2Z1RlSXMyNnpMeS1ENi1xSXhicW1NTG9UUUgwWXlDSjJ1a1R4UDY5V0Rn?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-03T06:56:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 28.3,
-      "as_of": "2026-11-12T20:03:49Z"
+      "score": 28.6,
+      "as_of": "2026-11-13T06:54:43Z"
     },
     "geo": {
-      "score": 64.1,
-      "as_of": "2026-11-12T20:03:49Z"
+      "score": 60.9,
+      "as_of": "2026-11-13T06:54:43Z"
     },
     "nat": {
-      "score": 9.8,
-      "as_of": "2026-11-12T20:03:49Z"
+      "score": 8.9,
+      "as_of": "2026-11-13T06:54:43Z"
     },
     "bio_infra": {
-      "score": 57.4,
-      "as_of": "2026-11-12T20:03:49Z"
+      "score": 57.5,
+      "as_of": "2026-11-13T06:54:43Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 18.579999923706055,
-      "change_pct": -34.07,
-      "drawdown_pct": -40.16,
+      "last": 18.700000762939453,
+      "change_pct": -33.64,
+      "drawdown_pct": -39.77,
       "last_date": "2026-11-12",
-      "as_of": "2026-11-12T20:03:49Z",
+      "as_of": "2026-11-13T06:54:43Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 96.08999633789062,
-      "change_pct": -2.24,
-      "drawdown_pct": -18.81,
-      "last_date": "2026-11-12",
-      "as_of": "2026-11-12T20:03:49Z",
+      "last": 96.56999969482422,
+      "change_pct": -1.78,
+      "drawdown_pct": -18.4,
+      "last_date": "2026-11-13",
+      "as_of": "2026-11-13T06:54:43Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3887.60009765625,
-      "change_pct": -5.49,
-      "drawdown_pct": -26.9,
-      "last_date": "2026-11-12",
-      "as_of": "2026-11-12T20:03:49Z",
+      "last": 3895.800048828125,
+      "change_pct": -4.4,
+      "drawdown_pct": -26.75,
+      "last_date": "2026-11-13",
+      "as_of": "2026-11-13T06:54:43Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7594.830078125,
-      "change_pct": 3.28,
-      "drawdown_pct": -2.87,
+      "last": 7592.39990234375,
+      "change_pct": 3.25,
+      "drawdown_pct": -2.9,
       "last_date": "2026-11-12",
-      "as_of": "2026-11-12T20:03:49Z",
+      "as_of": "2026-11-13T06:54:43Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 154.63999938964844,
-      "change_pct": 17.24,
-      "drawdown_pct": -29.17,
+      "last": 154.99000549316406,
+      "change_pct": 17.51,
+      "drawdown_pct": -29.01,
       "last_date": "2026-11-12",
-      "as_of": "2026-11-12T20:03:49Z",
+      "as_of": "2026-11-13T06:54:43Z",
       "provider": "yfinance"
     }
   },
@@ -4359,6 +4236,6 @@
     },
     "generated_at": "2026-11-12T20:03:49Z"
   },
-  "updated_at": "2026-11-12T20:03:49Z",
+  "updated_at": "2026-11-13T06:54:43Z",
   "version": 1
 }

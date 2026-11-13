@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T20:03:49Z",
-  "global_score": 42,
+  "generated_at": "2026-11-13T06:54:43Z",
+  "global_score": 41,
   "band": {
     "key": "watch",
     "min": 21,
@@ -11,18 +11,18 @@
     "color": "yellow"
   },
   "formula": {
-    "base": 42.42,
+    "base": 41.28,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 64.1,
-    "max2": 57.4,
+    "max1": 60.9,
+    "max2": 57.5,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 28.3,
+      "score": 28.6,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,51 +35,51 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 18.58,
+          "value": 18.7,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-34.1% (5 วันทำการ)",
-          "hint_en": "-34.1% (5 trading days)"
+          "hint": "-33.6% (5 วันทำการ)",
+          "hint_en": "-33.6% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 96.09,
+          "value": 96.57,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-2.2% (5 วันทำการ)",
-          "hint_en": "-2.2% (5 trading days)"
+          "hint": "-1.8% (5 วันทำการ)",
+          "hint_en": "-1.8% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3887.6,
+          "value": 3895.8,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-5.5% (5 วันทำการ)",
-          "hint_en": "-5.5% (5 trading days)"
+          "hint": "-4.4% (5 วันทำการ)",
+          "hint_en": "-4.4% (5 trading days)"
         },
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
           "label_en": "S&P 500 index",
-          "value": 7594.83,
+          "value": 7592.4,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+3.3% (5 วันทำการ)",
-          "hint_en": "+3.3% (5 trading days)"
+          "hint": "+3.2% (5 วันทำการ)",
+          "hint_en": "+3.2% (5 trading days)"
         },
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
           "label_en": "SOXX semiconductor ETF",
-          "value": 154.64,
+          "value": 154.99,
           "unit": "USD",
           "unit_en": "USD",
-          "hint": "+17.2% (5 วันทำการ)",
-          "hint_en": "+17.2% (5 trading days)"
+          "hint": "+17.5% (5 วันทำการ)",
+          "hint_en": "+17.5% (5 trading days)"
         }
       ],
       "indicators": [
@@ -91,10 +91,10 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 18.58,
-          "change_pct": -34.07,
-          "drawdown_pct": -40.16,
-          "score": 24.3,
+          "value": 18.7,
+          "change_pct": -33.64,
+          "drawdown_pct": -39.77,
+          "score": 24.8,
           "status": "ok",
           "last_date": "2026-11-12",
           "provider": "yfinance"
@@ -107,12 +107,12 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 96.09,
-          "change_pct": -2.24,
-          "drawdown_pct": -18.81,
-          "score": 37.6,
+          "value": 96.57,
+          "change_pct": -1.78,
+          "drawdown_pct": -18.4,
+          "score": 38.2,
           "status": "ok",
-          "last_date": "2026-11-12",
+          "last_date": "2026-11-13",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3887.6,
-          "change_pct": -5.49,
-          "drawdown_pct": -26.9,
+          "value": 3895.8,
+          "change_pct": -4.4,
+          "drawdown_pct": -26.75,
           "score": 5.0,
           "status": "ok",
-          "last_date": "2026-11-12",
+          "last_date": "2026-11-13",
           "provider": "yfinance"
         },
         {
@@ -139,9 +139,9 @@
           "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
-          "value": 7594.83,
-          "change_pct": 3.28,
-          "drawdown_pct": -2.87,
+          "value": 7592.4,
+          "change_pct": 3.25,
+          "drawdown_pct": -2.9,
           "score": 4.8,
           "status": "ok",
           "last_date": "2026-11-12",
@@ -155,10 +155,10 @@
           "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
-          "value": 154.64,
-          "change_pct": 17.24,
-          "drawdown_pct": -29.17,
-          "score": 67.9,
+          "value": 154.99,
+          "change_pct": 17.51,
+          "drawdown_pct": -29.01,
+          "score": 67.5,
           "status": "ok",
           "last_date": "2026-11-12",
           "provider": "yfinance"
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 64.1,
+      "score": 60.9,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Air / missile strikes",
           "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
           "severity": 55.0,
-          "score": 44.0,
+          "score": 40.9,
           "countries": [
             "israel",
             "palestine"
@@ -194,27 +194,21 @@
             "Al Jazeera",
             "BBC World"
           ],
-          "article_count": 2,
+          "article_count": 1,
           "links": [
-            "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-            "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+            "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
           ],
           "refs": [
             {
               "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
-            },
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ],
           "link_sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
           "first_seen": "2026-11-12T20:03:49Z",
-          "last_seen": "2026-11-12T20:03:49Z",
+          "last_seen": "2026-11-13T06:54:43Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -228,7 +222,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Can Tehran survive a ‘zero oil’ budget, if US blockade on Iran persists?",
           "severity": 85.0,
-          "score": 43.2,
+          "score": 40.2,
           "countries": [
             "iran"
           ],
@@ -265,7 +259,7 @@
           "category_en": "Nuclear threat",
           "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
           "severity": 95.0,
-          "score": 40.8,
+          "score": 38.0,
           "countries": [
             "israel",
             "iran"
@@ -304,7 +298,7 @@
           "category_en": "Air / missile strikes",
           "title": "Saudi Arabia intercepts Houthi missiles , drones ; group denies targeting Mecca",
           "severity": 55.0,
-          "score": 40.4,
+          "score": 37.5,
           "countries": [
             "saudi arabia",
             "yemen"
@@ -346,43 +340,35 @@
           "raw_score": null
         },
         {
-          "id": "geo:energy_infra:5679e2094a",
+          "id": "geo:missile_strike:ffd4002ff9",
           "pillar": "geo",
-          "category": "energy_infra",
-          "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
-          "category_en": "Attack on energy infrastructure",
-          "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
-          "severity": 75.0,
-          "score": 33.7,
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
+          "severity": 55.0,
+          "score": 33.0,
           "countries": [
-            "iraq",
-            "united states"
+            "colombia"
           ],
           "sources": [
-            "Al Jazeera",
-            "Reuters (Google News)"
+            "BBC World"
           ],
-          "article_count": 2,
+          "article_count": 1,
           "links": [
-            "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-            "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5"
+            "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss"
           ],
           "refs": [
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ],
           "link_sources": [
-            "Al Jazeera",
-            "Reuters (Google News)"
+            "BBC World"
           ],
-          "first_seen": "2026-11-09T06:48:20Z",
-          "last_seen": "2026-11-09T06:48:20Z",
+          "first_seen": "2026-11-12T20:03:49Z",
+          "last_seen": "2026-11-13T06:54:43Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -394,7 +380,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 91,
+          "value": 90,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -404,7 +390,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 2,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -414,18 +400,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 83,
+          "value": 84,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 8 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 8 event clusters"
+          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 10 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 9.8,
+      "score": 8.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -440,8 +426,8 @@
           "category_th": "แผ่นดินไหว",
           "category_en": "Earthquake",
           "title": "M 6.1 - 144 km SE of Hasaki, Japan",
-          "severity": 2.3,
-          "score": 2.3,
+          "severity": 2.1,
+          "score": 2.1,
           "countries": [],
           "sources": [
             "USGS"
@@ -464,42 +450,7 @@
           "is_local": false,
           "location": "144 km SE of Hasaki, Japan (ห่างโตเกียว ~234 กม.)",
           "location_en": "144 km SE of Hasaki, Japan (~234 km from Tokyo)",
-          "raw_score": 2.3
-        },
-        {
-          "id": "gdacs:EQ1576372",
-          "pillar": "nat",
-          "category": "gdacs_eq",
-          "category_th": "แผ่นดินไหว",
-          "category_en": "Earthquake",
-          "title": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC, 230 thousand in MMI IV.",
-          "severity": 1.7,
-          "score": 1.7,
-          "countries": [
-            "Japan"
-          ],
-          "sources": [
-            "GDACS"
-          ],
-          "article_count": 1,
-          "links": [
-            "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372"
-          ],
-          "refs": [
-            {
-              "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372",
-              "source": "GDACS"
-            }
-          ],
-          "link_sources": [
-            "GDACS"
-          ],
-          "first_seen": "2026-11-09T05:03:32Z",
-          "last_seen": "2026-11-09T05:03:32Z",
-          "is_local": false,
-          "location": "Japan (ห่างโตเกียว ~203 กม.)",
-          "location_en": "Japan (~203 km from Tokyo)",
-          "raw_score": 1.7
+          "raw_score": 2.1
         }
       ],
       "metrics": [
@@ -527,7 +478,7 @@
           "key": "near_hubs",
           "label_th": "ใกล้จุดยุทธศาสตร์โลก",
           "label_en": "Near global strategic hubs",
-          "value": 2,
+          "value": 1,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -537,7 +488,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 198,
+          "value": 154,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -548,7 +499,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.4,
+      "score": 57.5,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -586,7 +537,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-12T20:03:49Z",
+          "last_seen": "2026-11-13T06:54:43Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -622,7 +573,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-12T20:03:49Z",
+          "last_seen": "2026-11-13T06:54:43Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -657,7 +608,42 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-12T20:03:49Z",
+          "last_seen": "2026-11-13T06:54:43Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:cyber_incident:2576c23d0e",
+          "pillar": "bio_infra",
+          "category": "cyber_incident",
+          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "category_en": "Actual cyber incident",
+          "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+          "severity": 40.0,
+          "score": 24.0,
+          "countries": [
+            "north korea"
+          ],
+          "sources": [
+            "BBC World"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ],
+          "link_sources": [
+            "BBC World"
+          ],
+          "first_seen": "2026-11-13T06:54:43Z",
+          "last_seen": "2026-11-13T06:54:43Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -671,7 +657,7 @@
           "category_en": "Actual cyber incident",
           "title": "France blames Iran for October supermarket cyberattack",
           "severity": 40.0,
-          "score": 20.0,
+          "score": 18.6,
           "countries": [
             "france",
             "iran"
@@ -699,42 +685,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "bio_infra:cyber_incident:c705264ec3",
-          "pillar": "bio_infra",
-          "category": "cyber_incident",
-          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-          "category_en": "Actual cyber incident",
-          "title": "Italian foreign minister says hackers leaked his personal data",
-          "severity": 40.0,
-          "score": 13.5,
-          "countries": [
-            "russia"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ],
-          "link_sources": [
-            "BBC World"
-          ],
-          "first_seen": "2026-11-07T13:14:34Z",
-          "last_seen": "2026-11-09T06:48:20Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -752,7 +702,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 13,
+          "value": 11,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -776,8 +726,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 64.1,
-      "contribution": 22.4,
+      "score": 60.9,
+      "contribution": 21.3,
       "headline": "การโจมตีทางอากาศ/ขีปนาวุธ: Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
       "headline_en": "Air / missile strikes: Israeli strike on Gaza hospital kills six Palestinians, health ministry says"
     },
@@ -785,16 +735,16 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 28.3,
-      "contribution": 9.9,
-      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 154.64 USD",
-      "headline_en": "SOXX semiconductor ETF 154.64 USD"
+      "score": 28.6,
+      "contribution": 10.0,
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 154.99 USD",
+      "headline_en": "SOXX semiconductor ETF 154.99 USD"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.4,
+      "score": 57.5,
       "contribution": 8.6,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
@@ -929,7 +879,7 @@
       }
     ],
     "local_notes_en": [],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-12T20:03:49Z"
   },
@@ -943,9 +893,9 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:51Z",
+        "fetched_at": "2026-11-13T06:54:44Z",
         "items": 5,
-        "data_as_of": "2026-11-12",
+        "data_as_of": "2026-11-13",
         "error": null,
         "note": null,
         "optional": false
@@ -954,7 +904,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-12T20:04:02Z",
+        "fetched_at": "2026-11-13T06:54:52Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -965,9 +915,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:50Z",
-        "items": 31,
-        "data_as_of": "2026-11-12T19:33:37Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
+        "items": 33,
+        "data_as_of": "2026-11-13T03:57:01Z",
         "error": null,
         "note": null,
         "optional": false
@@ -976,9 +926,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:50Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
         "items": 25,
-        "data_as_of": "2026-11-12T19:45:40Z",
+        "data_as_of": "2026-11-13T06:46:35Z",
         "error": null,
         "note": null,
         "optional": false
@@ -987,9 +937,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:50Z",
-        "items": 27,
-        "data_as_of": "2026-11-12T19:57:39Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
+        "items": 26,
+        "data_as_of": "2026-11-13T00:44:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -998,7 +948,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:50Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
         "items": 2,
         "data_as_of": "2026-11-09T03:34:59Z",
         "error": null,
@@ -1009,9 +959,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:52Z",
-        "items": 226,
-        "data_as_of": "2026-11-12T08:29:44Z",
+        "fetched_at": "2026-11-13T06:54:44Z",
+        "items": 173,
+        "data_as_of": "2026-11-12T22:20:24Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1020,7 +970,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:51Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
         "items": 20,
         "data_as_of": "2026-11-06T20:42:12Z",
         "error": null,
@@ -1031,9 +981,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-12T20:03:50Z",
-        "items": 42,
-        "data_as_of": "2026-11-12T12:00:00Z",
+        "fetched_at": "2026-11-13T06:54:43Z",
+        "items": 47,
+        "data_as_of": "2026-11-12T20:28:52Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false
