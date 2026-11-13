@@ -1,6 +1,307 @@
 {
   "active_events": {
     "geo": {
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:c1a682ee34": {
+        "id": "geo:conflict:c1a682ee34",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ethiopia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-11T06:39:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8ddae695aa": {
+        "id": "geo:conflict:8ddae695aa",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "At least 10 killed in Guinea in crackdown on gold mining",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-13T19:50:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:2ccc9c3da2": {
+        "id": "geo:missile_strike:2ccc9c3da2",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran",
+          "iraq"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-13T19:50:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ab65d8b961": {
+        "id": "geo:sanctions:ab65d8b961",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "The fight over Canadian steelworker jobs",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+        "severity": 30.0,
+        "score": 23.4,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "abcnews.com",
+          "aol.co.uk",
+          "channelnewsasia.com",
+          "freerepublic.com",
+          "idahopress.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:ed9a73c4e5": {
+        "id": "geo:conflict:ed9a73c4e5",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+        "severity": 30.0,
+        "score": 23.5,
+        "countries": [
+          "iran",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "business-standard.com",
+          "jcpost.com",
+          "ky3.com",
+          "morungexpress.com",
+          "openthemagazine.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:3ab9380fa2": {
+        "id": "geo:sanctions:3ab9380fa2",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "China warns against fresh US chip curbs",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-07T06:09:31Z",
+        "last_seen": "2026-11-13T19:50:43Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:b5e6a948c9": {
         "id": "geo:conflict:b5e6a948c9",
         "pillar": "geo",
@@ -141,46 +442,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:38384a8522": {
         "id": "geo:missile_strike:38384a8522",
         "pillar": "geo",
@@ -210,42 +471,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:c1a682ee34": {
-        "id": "geo:conflict:c1a682ee34",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ethiopia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T06:39:43Z",
         "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
@@ -283,49 +508,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-13T06:54:43Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:ed9a73c4e5": {
-        "id": "geo:conflict:ed9a73c4e5",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-        "severity": 30.0,
-        "score": 25.6,
-        "countries": [
-          "israel",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "business-standard.com",
-          "jcpost.com",
-          "ky3.com",
-          "morungexpress.com",
-          "openthemagazine.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
         "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
@@ -475,64 +657,6 @@
           "kyivpost.com"
         ],
         "first_seen": "2026-11-12T07:22:31Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Russia - Ukraine talks turn to post - war security but end without breakthrough",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "russia",
-          "ukraine",
-          "uae"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "abcnews.com",
-          "aol.co.uk",
-          "channelnewsasia.com",
-          "freerepublic.com",
-          "idahopress.com"
-        ],
-        "article_count": 7,
-        "links": [
-          "https://freerepublic.com/focus/f-news/4402666/posts",
-          "https://abcnews.com/Business/wireStory/ireland-faces-pressure-stop-sending-russia-ingredient-vital-138069913",
-          "http://www.idahopress.com/news/world/ireland-faces-pressure-to-stop-sending-russia-an-ingredient-vital-to-its-war-on-ukraine/article_61908687-d4ca-5bf7-b4f7-6a0fc3d63d4a.html"
-        ],
-        "refs": [
-          {
-            "url": "https://freerepublic.com/focus/f-news/4402666/posts",
-            "source": "freerepublic.com"
-          },
-          {
-            "url": "https://abcnews.com/Business/wireStory/ireland-faces-pressure-stop-sending-russia-ingredient-vital-138069913",
-            "source": "abcnews.com"
-          },
-          {
-            "url": "http://www.idahopress.com/news/world/ireland-faces-pressure-to-stop-sending-russia-an-ingredient-vital-to-its-war-on-ukraine/article_61908687-d4ca-5bf7-b4f7-6a0fc3d63d4a.html",
-            "source": "idahopress.com"
-          }
-        ],
-        "link_sources": [
-          "freerepublic.com",
-          "abcnews.com",
-          "idahopress.com",
-          "reflector.com",
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-12T07:22:31Z",
         "is_local": false,
         "location": null,
@@ -2225,41 +2349,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:ab65d8b961": {
-        "id": "geo:sanctions:ab65d8b961",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T06:15:12Z",
-        "last_seen": "2026-11-08T06:15:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:065595248b": {
         "id": "geo:conflict:065595248b",
         "pillar": "geo",
@@ -2680,41 +2769,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:3ab9380fa2": {
-        "id": "geo:sanctions:3ab9380fa2",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "US urges China to honour Busan trade deal commitments",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "china"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-07T06:09:31Z",
-        "last_seen": "2026-11-07T06:09:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:mobilization:54155a838b": {
         "id": "geo:mobilization:54155a838b",
         "pillar": "geo",
@@ -2887,72 +2941,6 @@
           "dailyexcelsior.com"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-05T20:04:17Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:1be0a55e17": {
-        "id": "geo:conflict:1be0a55e17",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Jordanian officer killed in stabbing attack in Amman",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-05T20:04:17Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:28ab7e6bbf": {
-        "id": "geo:conflict:28ab7e6bbf",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "OpenAI kicks off charm offensive to change voters' view of data centers - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pvX1VfZi1WbVpNTl9weHZ0YUJ5RmhvVTgyOVRadlVyc01HeW1rdm5uRjhzMFRSSkJ4TW1yVmxHbkFvSnpTWkxWSGRIalRXM0dndmdtUXNTNTlYc0V2TGlxNTEtZm5iZDJlZXd5VUhjWUc1ejFXeTJpNHBzY2g4NllDX3dNWmo0eFBZQW1MUVR5Z2NVOUFMcENoLWZzMThDaGNXdERwWXJ6Mi1MTHc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pvX1VfZi1WbVpNTl9weHZ0YUJ5RmhvVTgyOVRadlVyc01HeW1rdm5uRjhzMFRSSkJ4TW1yVmxHbkFvSnpTWkxWSGRIalRXM0dndmdtUXNTNTlYc0V2TGlxNTEtZm5iZDJlZXd5VUhjWUc1ejFXeTJpNHBzY2g4NllDX3dNWmo0eFBZQW1MUVR5Z2NVOUFMcENoLWZzMThDaGNXdERwWXJ6Mi1MTHc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-05T20:04:17Z",
         "last_seen": "2026-11-05T20:04:17Z",
         "is_local": false,
         "location": null,
@@ -3164,39 +3152,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:d33ec26a75": {
-        "id": "geo:sanctions:d33ec26a75",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Tariff news : Maine Sen . Susan Collins fights backlash",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "bnnbloomberg.ca"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/screwed-either-way-republican-senator-fights-backlash-over-trump-tariffs-in-maine/",
-            "source": "bnnbloomberg.ca"
-          }
-        ],
-        "link_sources": [
-          "bnnbloomberg.ca"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:2ef44b2e75": {
         "id": "geo:conflict:2ef44b2e75",
         "pillar": "geo",
@@ -3248,106 +3203,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:sanctions:1da6317f78": {
-        "id": "geo:sanctions:1da6317f78",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Trump to remove Rwanda and South Africa from US trade deal",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "south africa"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:9837c944d6": {
-        "id": "geo:sanctions:9837c944d6",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "South Carolina shrimpers weigh costs, vote in crucial US midterms",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/3/south-carolina-shrimpers-weigh-costs-vote-in-crucial-us-midterms?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:ad160a7842": {
-        "id": "geo:conflict:ad160a7842",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Emotional reunions with loved ones for Oleshky evacuees",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "ukraine",
-          "belarus",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbnFHM2dZUTJhZmduUmVZVXlxWmQ3dzFlWjZDaWJ0Rm9kZlY5Q2dkRmsxR0E0aC1tSTBOcjlXZkRfRWE3VkJ6dDVPa3g4RF80Z1V6UzRWR0ZaQXVIcVNTemI0MVptbWYxbVZiUzRkQUwyWk1Tc2l6U0ZqOWxxMTJOM0hjSzVQTTBjd3NVSllkVmdpUFlCQlJqaUxkTGItdEVJb0Vrd0RVekpxM2ZQYnRhTXVkblhpMkk?oc=5"
-        ],
-        "first_seen": "2026-11-02T06:43:02Z",
-        "last_seen": "2026-11-02T07:11:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     },
     "bio_infra": {
@@ -3381,7 +3236,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3417,7 +3272,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3452,7 +3307,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3485,40 +3340,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:906d96177f": {
-        "id": "bio_infra:vuln_advisory:906d96177f",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "CISA Urges Patching Newly Exploited Vulnerabilities in Ivanti Connect Secure",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblhOY1lDWmNic0I1a0o1NVhKaVFiZThWTTlVRHRsVTB6WHh6YVZpQ0kyUFU4MnQxU2pydjBMaDZtWWJpT0wtUzlUekhRVjg5VzVlREl5c0d0Qi1vRll1dnQtNjJSYTZTQi13VkY4d3pUb2FHTFFYNkZFODdGVUM2TkhSczM1N0NuS1daV19EMHpQNFRVdjFJQWJGaHA1NEtLTXpFMHNBMDJjTnhoYXk0VG5rNVQwdjRCbm56QlRNYnpBdw?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblhOY1lDWmNic0I1a0o1NVhKaVFiZThWTTlVRHRsVTB6WHh6YVZpQ0kyUFU4MnQxU2pydjBMaDZtWWJpT0wtUzlUekhRVjg5VzVlREl5c0d0Qi1vRll1dnQtNjJSYTZTQi13VkY4d3pUb2FHTFFYNkZFODdGVUM2TkhSczM1N0NuS1daV19EMHpQNFRVdjFJQWJGaHA1NEtLTXpFMHNBMDJjTnhoYXk0VG5rNVQwdjRCbm56QlRNYnpBdw?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-05T05:22:48Z",
-        "last_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3553,7 +3375,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-13T06:54:43Z",
-        "last_seen": "2026-11-13T06:54:43Z",
+        "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3938,151 +3760,66 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:cyber_incident:2ef44b2e75": {
-        "id": "bio_infra:cyber_incident:2ef44b2e75",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "A new cold war : hackers target fridges across the globe",
-        "severity": 40.0,
-        "score": 25.0,
-        "countries": [],
-        "sources": [
-          "aspenpublicradio.org",
-          "ksmu.org",
-          "ksut.org",
-          "kunc.org",
-          "northernpublicradio.org",
-          "wcsufm.org"
-        ],
-        "article_count": 6,
-        "links": [
-          "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe"
-        ],
-        "refs": [
-          {
-            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "ksut.org"
-          },
-          {
-            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "wcsufm.org"
-          },
-          {
-            "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "northernpublicradio.org"
-          }
-        ],
-        "link_sources": [
-          "ksut.org",
-          "wcsufm.org",
-          "northernpublicradio.org",
-          "aspenpublicradio.org",
-          "ksmu.org"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": true,
-        "location": null,
-        "location_en": null,
-        "raw_score": 40.0
-      },
-      "bio_infra:cyber_incident:36fe0534f5": {
-        "id": "bio_infra:cyber_incident:36fe0534f5",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "Very cold war: Who’s attacking Europe’s supermarket freezers?",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 28.6,
-      "as_of": "2026-11-13T06:54:43Z"
+      "score": 30.1,
+      "as_of": "2026-11-13T19:50:43Z"
     },
     "geo": {
-      "score": 60.9,
-      "as_of": "2026-11-13T06:54:43Z"
+      "score": 57.2,
+      "as_of": "2026-11-13T19:50:43Z"
     },
     "nat": {
-      "score": 8.9,
-      "as_of": "2026-11-13T06:54:43Z"
+      "score": 7.7,
+      "as_of": "2026-11-13T19:50:43Z"
     },
     "bio_infra": {
-      "score": 57.5,
-      "as_of": "2026-11-13T06:54:43Z"
+      "score": 57.4,
+      "as_of": "2026-11-13T19:50:43Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 18.700000762939453,
-      "change_pct": -33.64,
-      "drawdown_pct": -39.77,
-      "last_date": "2026-11-12",
-      "as_of": "2026-11-13T06:54:43Z",
+      "last": 19.049999237060547,
+      "change_pct": -25.7,
+      "drawdown_pct": -38.65,
+      "last_date": "2026-11-13",
+      "as_of": "2026-11-13T19:50:43Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 96.56999969482422,
-      "change_pct": -1.78,
-      "drawdown_pct": -18.4,
+      "last": 95.73999786376953,
+      "change_pct": -2.62,
+      "drawdown_pct": -19.1,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-13T06:54:43Z",
+      "as_of": "2026-11-13T19:50:43Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3895.800048828125,
-      "change_pct": -4.4,
-      "drawdown_pct": -26.75,
+      "last": 3881.10009765625,
+      "change_pct": -4.76,
+      "drawdown_pct": -27.03,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-13T06:54:43Z",
+      "as_of": "2026-11-13T19:50:43Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7592.39990234375,
-      "change_pct": 3.25,
-      "drawdown_pct": -2.9,
-      "last_date": "2026-11-12",
-      "as_of": "2026-11-13T06:54:43Z",
+      "last": 7546.43994140625,
+      "change_pct": 2.3,
+      "drawdown_pct": -3.49,
+      "last_date": "2026-11-13",
+      "as_of": "2026-11-13T19:50:43Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 154.99000549316406,
-      "change_pct": 17.51,
-      "drawdown_pct": -29.01,
-      "last_date": "2026-11-12",
-      "as_of": "2026-11-13T06:54:43Z",
+      "last": 148.36500549316406,
+      "change_pct": 8.67,
+      "drawdown_pct": -32.05,
+      "last_date": "2026-11-13",
+      "as_of": "2026-11-13T19:50:43Z",
       "provider": "yfinance"
     }
   },
@@ -4090,48 +3827,67 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "f2e3f8ad4ddd0e8c",
+    "events_hash": "c652b54c880e9674",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
-      "geo:energy_infra:5679e2094a",
       "geo:missile_strike:0c5abc2fdb",
+      "geo:missile_strike:2ccc9c3da2",
       "geo:missile_strike:38384a8522",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
       "geo:missile_strike:ffd4002ff9",
-      "geo:nuclear:73ae71ea05",
       "geo:nuclear:ed9a73c4e5"
     ],
-    "econ_score": 28.3,
+    "econ_score": 30.1,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางจากความขัดแย้งที่ดำเนินอยู่ ภัยคุกคามต่อโครงสร้างพื้นฐานด้านพลังงาน และความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่านและจุดคอขวดการขนส่งทางเรือ นอกจากนี้ยังมีการระบาดของโรคที่สำคัญในหลายภูมิภาค",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน การโจมตีโครงสร้างพื้นฐานด้านพลังงาน และภัยคุกคามต่อเส้นทางเดินเรือที่สำคัญ ควบคู่ไปกับการแพร่ระบาดของโรคหลายชนิดและการโจมตีทางไซเบอร์ที่สำคัญ อย่างไรก็ตาม ดัชนีเศรษฐกิจหลักแสดงให้เห็นถึงความผันผวนของตลาดที่ลดลงและตลาดหุ้นที่ปรับตัวสูงขึ้น",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลางและความเสี่ยงด้านอุปทานพลังงาน",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการโจมตีทางอากาศและขีปนาวุธในภูมิภาค การโจมตีโครงสร้างพื้นฐานด้านพลังงาน และภัยคุกคามต่อเส้นทางเดินเรือที่สำคัญ รวมถึงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน",
+          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "อิสราเอลระบุว่าภารกิจของอิหร่านยังไม่เสร็จสิ้น โดยกล่าวหาว่าอิหร่านพยายามครอบครองอาวุธนิวเคลียร์ ขณะที่สหรัฐฯ เตือนถึงผลกระทบทางพลังงานจากสงครามสหรัฐฯ-อิหร่าน และมีรายงานการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
           "refs": [
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคทั่วโลก",
+          "title": "ภัยคุกคามต่ออุปทานและโครงสร้างพื้นฐานด้านพลังงานทั่วโลก",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "มีการโจมตีด้วยโดรนต่อแหล่งก๊าซในเคอร์ดิสถานของอิรักทำให้เกิดไฟฟ้าดับ และซาอุดีอาระเบียสกัดกั้นขีปนาวุธที่ยิงเข้าใส่ริยาดหลังการโจมตีท่อส่งน้ำมัน",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "การแพร่ระบาดของโรคในวงกว้างและภัยคุกคามทางไซเบอร์",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
+          "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิด เช่น อีโบลาในคองโก เคนยา และไนจีเรีย ไข้เหลืองในภูมิภาคแอฟริกา และไวรัสชามอนดาในฝรั่งเศส นอกจากนี้ แฮกเกอร์เกาหลีเหนือยังใช้แฮกเงินคริปโตมูลค่า 400 ล้านดอลลาร์",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4144,58 +3900,58 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ความขัดแย้งในภูมิภาคที่ยืดเยื้อและการโจมตีเป้าหมายพลเรือน/พลังงาน",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการโจมตีทางอากาศในยูเครน โคลอมเบีย และเอลซัลวาดอร์ ซึ่งบ่งชี้ถึงความไม่มั่นคงในภูมิภาคที่กว้างขวางและการใช้กำลัง",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://freerepublic.com/focus/f-news/4402666/posts",
-              "source": "freerepublic.com"
             }
           ]
         }
       ],
       "local_notes_th": [],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with ongoing conflicts, threats to energy infrastructure, and concerns over Iran's nuclear ambitions and shipping chokepoints. Concurrently, there are significant disease outbreaks reported in multiple regions.",
+      "executive_summary_en": "Global risk is driven by escalating geopolitical tensions, particularly in the Middle East concerning Iran's nuclear program, attacks on energy infrastructure, and threats to critical shipping lanes, alongside multiple disease outbreaks and a significant cyber incident. However, key economic indicators show reduced market volatility and rising stock indices.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions in the Middle East and Energy Supply Risks",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Reports indicate air and missile strikes in the region, attacks on energy infrastructure, and threats to critical shipping lanes, alongside concerns regarding Iran's nuclear program.",
+          "title": "Escalating Geopolitical Conflict in the Middle East",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Israel states Iran's mission is not complete, accusing them of trying to get nuclear weapons, while the US warns against an energy 'shock' from a potential US-Iran war, and five tankers were reportedly hit in the Strait of Hormuz.",
           "refs": [
             {
-              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
+              "source": "hindustantimes.com"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
+              "source": "themarysue.com"
             }
           ]
         },
         {
-          "title": "Global Disease Outbreaks",
+          "title": "Threats to Global Energy Supply and Infrastructure",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Drone attacks have targeted gas fields in Iraqi Kurdistan causing blackouts, and Saudi Arabia has intercepted missiles fired at Riyadh after Houthi attacks on pipelines.",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/11/can-tehran-survive-a-zero-oil-budget-if-us-blockade-on-iran-persists?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "Widespread Disease Outbreaks and Cyber Threats",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Reports include an Ebola disease outbreak in the Democratic Republic of the Congo, Kenya, and Nigeria, as well as Yellow fever in the WHO African Region and Shamonda virus in France.",
+          "evidence_summary": "Multiple disease outbreaks are reported, including Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, Yellow fever in the WHO African Region, and Shamonda virus in France, while North Korean hackers used fake video calls in a $400 million crypto hack.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4208,34 +3964,14 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "Persistent Regional Conflicts and Attacks on Civilian/Energy Targets",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Air strikes have been reported in Ukraine, Colombia, and El Salvador, indicating widespread regional instability and the use of force.",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://freerepublic.com/focus/f-news/4402666/posts",
-              "source": "freerepublic.com"
             }
           ]
         }
       ],
       "local_notes_en": []
     },
-    "generated_at": "2026-11-12T20:03:49Z"
+    "generated_at": "2026-11-13T19:50:43Z"
   },
-  "updated_at": "2026-11-13T06:54:43Z",
+  "updated_at": "2026-11-13T19:50:43Z",
   "version": 1
 }
