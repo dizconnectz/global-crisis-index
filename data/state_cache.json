@@ -1,6 +1,147 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:1000521c0f": {
+        "id": "geo:conflict:1000521c0f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Deadly car bomb blast kills two near Syria’s capital",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "syria"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T22:34:12Z",
+        "last_seen": "2026-11-14T22:34:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:04aaf49312": {
+        "id": "geo:missile_strike:04aaf49312",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "myanmar"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ab65d8b961": {
+        "id": "geo:sanctions:ab65d8b961",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Canada’s Stelco to recall 175 workers after government pressure",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-14T22:34:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:d591d87e00": {
+        "id": "geo:sanctions:d591d87e00",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "How does Iran view shift in US approach after JD Vance ordered away?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:54c60dd82f": {
         "id": "geo:conflict:54c60dd82f",
         "pillar": "geo",
@@ -36,112 +177,6 @@
         ],
         "link_sources": [
           "BBC World",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T18:14:22Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:04aaf49312": {
-        "id": "geo:missile_strike:04aaf49312",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "myanmar"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T18:14:22Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:ab65d8b961": {
-        "id": "geo:sanctions:ab65d8b961",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Canada’s Stelco to recall 175 workers after government pressure",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T06:15:12Z",
-        "last_seen": "2026-11-14T18:14:22Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:d591d87e00": {
-        "id": "geo:sanctions:d591d87e00",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "How does Iran view shift in US approach after JD Vance ordered away?",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "iran",
-          "united states"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
           "Al Jazeera"
         ],
         "first_seen": "2026-11-14T18:14:22Z",
@@ -3172,77 +3207,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:d1faafcc70": {
-        "id": "geo:sanctions:d1faafcc70",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "canada",
-          "united states"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-05T03:35:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:6179c355b9": {
-        "id": "geo:sanctions:6179c355b9",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-04T19:51:48Z",
-        "last_seen": "2026-11-05T03:35:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:invasion:7d6b0d5274": {
         "id": "geo:invasion:7d6b0d5274",
         "pillar": "geo",
@@ -3308,58 +3272,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:conflict:2ef44b2e75": {
-        "id": "geo:conflict:2ef44b2e75",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "A new cold war : hackers target fridges across the globe",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [],
-        "sources": [
-          "aspenpublicradio.org",
-          "ksmu.org",
-          "ksut.org",
-          "kunc.org",
-          "northernpublicradio.org",
-          "wcsufm.org"
-        ],
-        "article_count": 6,
-        "links": [
-          "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-          "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe"
-        ],
-        "refs": [
-          {
-            "url": "https://www.ksut.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "ksut.org"
-          },
-          {
-            "url": "https://www.wcsufm.org/latest-from-npr/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "wcsufm.org"
-          },
-          {
-            "url": "https://www.northernpublicradio.org/2026-11-03/a-new-cold-war-hackers-target-fridges-across-the-globe",
-            "source": "northernpublicradio.org"
-          }
-        ],
-        "link_sources": [
-          "ksut.org",
-          "wcsufm.org",
-          "northernpublicradio.org",
-          "aspenpublicradio.org",
-          "ksmu.org"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-03T19:34:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     },
     "bio_infra": {
@@ -3392,7 +3304,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3428,7 +3340,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3464,7 +3376,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3499,7 +3411,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3532,7 +3444,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3565,7 +3477,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3598,7 +3510,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3954,19 +3866,19 @@
   "last_valid": {
     "econ": {
       "score": 30.2,
-      "as_of": "2026-11-14T18:14:22Z"
+      "as_of": "2026-11-14T22:34:12Z"
     },
     "geo": {
-      "score": 65.7,
-      "as_of": "2026-11-14T18:14:22Z"
+      "score": 64.5,
+      "as_of": "2026-11-14T22:34:12Z"
     },
     "nat": {
-      "score": 7.1,
-      "as_of": "2026-11-14T18:14:22Z"
+      "score": 6.9,
+      "as_of": "2026-11-14T22:34:12Z"
     },
     "bio_infra": {
       "score": 64.4,
-      "as_of": "2026-11-14T18:14:22Z"
+      "as_of": "2026-11-14T22:34:12Z"
     }
   },
   "econ_indicators": {
@@ -3975,7 +3887,7 @@
       "change_pct": -24.73,
       "drawdown_pct": -37.84,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T18:14:22Z",
+      "as_of": "2026-11-14T22:34:12Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -3983,7 +3895,7 @@
       "change_pct": -2.52,
       "drawdown_pct": -19.02,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T18:14:22Z",
+      "as_of": "2026-11-14T22:34:12Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -3991,7 +3903,7 @@
       "change_pct": -4.63,
       "drawdown_pct": -26.93,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T18:14:22Z",
+      "as_of": "2026-11-14T22:34:12Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3999,7 +3911,7 @@
       "change_pct": 2.51,
       "drawdown_pct": -3.29,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T18:14:22Z",
+      "as_of": "2026-11-14T22:34:12Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4007,7 +3919,7 @@
       "change_pct": 9.35,
       "drawdown_pct": -31.62,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T18:14:22Z",
+      "as_of": "2026-11-14T22:34:12Z",
       "provider": "yfinance"
     }
   },
@@ -4165,6 +4077,6 @@
     },
     "generated_at": "2026-11-14T18:14:22Z"
   },
-  "updated_at": "2026-11-14T18:14:22Z",
+  "updated_at": "2026-11-14T22:34:12Z",
   "version": 1
 }

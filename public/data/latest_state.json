@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T18:14:22Z",
+  "generated_at": "2026-11-14T22:34:12Z",
   "global_score": 44,
   "band": {
     "key": "watch",
@@ -11,10 +11,10 @@
     "color": "yellow"
   },
   "formula": {
-    "base": 44.29,
+    "base": 43.84,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 65.7,
+    "max1": 64.5,
     "max2": 64.4,
     "max1_pillar": "geo"
   },
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 65.7,
+      "score": 64.5,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
           "severity": 85.0,
-          "score": 47.1,
+          "score": 45.8,
           "countries": [
             "iran"
           ],
@@ -222,7 +222,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
           "severity": 85.0,
-          "score": 47.1,
+          "score": 45.8,
           "countries": [
             "united states"
           ],
@@ -278,7 +278,7 @@
             "Al Jazeera"
           ],
           "first_seen": "2026-11-14T18:14:22Z",
-          "last_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T22:34:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -292,7 +292,7 @@
           "category_en": "Air / missile strikes",
           "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
           "severity": 55.0,
-          "score": 32.2,
+          "score": 31.3,
           "countries": [
             "israel",
             "palestine"
@@ -329,7 +329,7 @@
           "category_en": "Air / missile strikes",
           "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
           "severity": 55.0,
-          "score": 30.5,
+          "score": 29.6,
           "countries": [
             "ukraine",
             "russia"
@@ -367,7 +367,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 90,
+          "value": 88,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -377,7 +377,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 1,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -387,18 +387,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 65,
+          "value": 59,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 5 event clusters"
+          "hint": "ยุบรวมเหลือ 4 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 4 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 7.1,
+      "score": 6.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -441,7 +441,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 203,
+          "value": 204,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -490,7 +490,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T22:34:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -523,7 +523,7 @@
             "BBC World"
           ],
           "first_seen": "2026-11-14T18:14:22Z",
-          "last_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T22:34:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -556,7 +556,7 @@
             "Reuters (Google News)"
           ],
           "first_seen": "2026-11-14T18:14:22Z",
-          "last_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T22:34:12Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -570,7 +570,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
           "severity": 70.0,
-          "score": 38.8,
+          "score": 37.7,
           "countries": [],
           "sources": [
             "BBC World"
@@ -603,7 +603,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft services begin recovering after global outage",
           "severity": 70.0,
-          "score": 38.8,
+          "score": 37.7,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -668,8 +668,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 65.7,
-      "contribution": 23.0,
+      "score": 64.5,
+      "contribution": 22.6,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tehran says tanker hit naval mine, caught fire",
       "headline_en": "Shipping chokepoint threat: Iran war live: Tehran says tanker hit naval mine, caught fire"
     },
@@ -825,7 +825,7 @@
     "local_notes_en": [
       "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
     ],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-14T18:14:22Z"
   },
@@ -859,7 +859,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-14T18:14:22Z",
+      "last_seen": "2026-11-14T22:34:12Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -875,7 +875,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:24Z",
+        "fetched_at": "2026-11-14T22:34:14Z",
         "items": 5,
         "data_as_of": "2026-11-13",
         "error": null,
@@ -886,7 +886,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-14T18:14:33Z",
+        "fetched_at": "2026-11-14T22:34:23Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -897,9 +897,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:22Z",
+        "fetched_at": "2026-11-14T22:34:12Z",
         "items": 23,
-        "data_as_of": "2026-11-14T18:00:10Z",
+        "data_as_of": "2026-11-14T22:09:40Z",
         "error": null,
         "note": null,
         "optional": false
@@ -908,9 +908,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:23Z",
+        "fetched_at": "2026-11-14T22:34:12Z",
         "items": 25,
-        "data_as_of": "2026-11-14T16:53:39Z",
+        "data_as_of": "2026-11-14T22:00:45Z",
         "error": null,
         "note": null,
         "optional": false
@@ -919,9 +919,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:23Z",
-        "items": 17,
-        "data_as_of": "2026-11-14T12:27:00Z",
+        "fetched_at": "2026-11-14T22:34:13Z",
+        "items": 11,
+        "data_as_of": "2026-11-14T15:20:08Z",
         "error": null,
         "note": null,
         "optional": false
@@ -930,7 +930,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:22Z",
+        "fetched_at": "2026-11-14T22:34:12Z",
         "items": 1,
         "data_as_of": "2026-11-09T03:34:59Z",
         "error": null,
@@ -941,9 +941,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:25Z",
-        "items": 230,
-        "data_as_of": "2026-11-14T17:40:27Z",
+        "fetched_at": "2026-11-14T22:34:14Z",
+        "items": 232,
+        "data_as_of": "2026-11-14T20:38:10Z",
         "error": null,
         "note": null,
         "optional": false
@@ -952,7 +952,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:23Z",
+        "fetched_at": "2026-11-14T22:34:13Z",
         "items": 20,
         "data_as_of": "2026-11-13T19:00:00Z",
         "error": null,
@@ -963,8 +963,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-14T18:14:23Z",
-        "items": 42,
+        "fetched_at": "2026-11-14T22:34:13Z",
+        "items": 44,
         "data_as_of": "2026-11-13T12:00:00Z",
         "error": null,
         "note": "google_news_fallback",
