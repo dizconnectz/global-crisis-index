@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T06:38:49Z",
-  "global_score": 45,
+  "generated_at": "2026-11-14T18:14:22Z",
+  "global_score": 44,
   "band": {
     "key": "watch",
     "min": 21,
@@ -11,11 +11,11 @@
     "color": "yellow"
   },
   "formula": {
-    "base": 45.45,
+    "base": 44.29,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 69.3,
-    "max2": 63.4,
+    "max1": 65.7,
+    "max2": 64.4,
     "max1_pillar": "geo"
   },
   "pillars": {
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 69.3,
+      "score": 65.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 47.1,
           "countries": [
             "iran"
           ],
@@ -222,7 +222,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 47.1,
           "countries": [
             "united states"
           ],
@@ -250,6 +250,41 @@
           "raw_score": null
         },
         {
+          "id": "geo:missile_strike:04aaf49312",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+          "severity": 55.0,
+          "score": 33.0,
+          "countries": [
+            "myanmar"
+          ],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T18:14:22Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:missile_strike:0c5abc2fdb",
           "pillar": "geo",
           "category": "missile_strike",
@@ -257,7 +292,7 @@
           "category_en": "Air / missile strikes",
           "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
           "severity": 55.0,
-          "score": 34.8,
+          "score": 32.2,
           "countries": [
             "israel",
             "palestine"
@@ -294,7 +329,7 @@
           "category_en": "Air / missile strikes",
           "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
           "severity": 55.0,
-          "score": 33.0,
+          "score": 30.5,
           "countries": [
             "ukraine",
             "russia"
@@ -325,45 +360,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "geo:nuclear:ed9a73c4e5",
-          "pillar": "geo",
-          "category": "nuclear",
-          "category_th": "ภัยคุกคามนิวเคลียร์",
-          "category_en": "Nuclear threat",
-          "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons  ",
-          "severity": 95.0,
-          "score": 32.3,
-          "countries": [
-            "israel",
-            "iran"
-          ],
-          "sources": [
-            "egyptindependent.com",
-            "hindustantimes.com",
-            "middleeasteye.net",
-            "popularmechanics.com"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html"
-          ],
-          "refs": [
-            {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
-            }
-          ],
-          "link_sources": [
-            "hindustantimes.com"
-          ],
-          "first_seen": "2026-11-07T15:28:13Z",
-          "last_seen": "2026-11-08T22:14:37Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -371,7 +367,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 89,
+          "value": 90,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -391,7 +387,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 73,
+          "value": 65,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
@@ -402,7 +398,7 @@
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 7.4,
+      "score": 7.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -445,7 +441,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 188,
+          "value": 203,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -456,7 +452,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 63.4,
+      "score": 64.4,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -494,7 +490,73 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-14T06:38:49Z",
+          "last_seen": "2026-11-14T18:14:22Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:global_outage:f57196f24b",
+          "pillar": "bio_infra",
+          "category": "global_outage",
+          "category_th": "ระบบล่มหลายประเทศ",
+          "category_en": "Multi-country system outage",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "severity": 70.0,
+          "score": 42.0,
+          "countries": [],
+          "sources": [
+            "BBC World"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ],
+          "link_sources": [
+            "BBC World"
+          ],
+          "first_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T18:14:22Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:global_outage:be92ee8672",
+          "pillar": "bio_infra",
+          "category": "global_outage",
+          "category_th": "ระบบล่มหลายประเทศ",
+          "category_en": "Multi-country system outage",
+          "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
+          "severity": 70.0,
+          "score": 42.0,
+          "countries": [],
+          "sources": [
+            "Reuters (Google News)"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5"
+          ],
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ],
+          "link_sources": [
+            "Reuters (Google News)"
+          ],
+          "first_seen": "2026-11-14T18:14:22Z",
+          "last_seen": "2026-11-14T18:14:22Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -508,7 +570,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
           "severity": 70.0,
-          "score": 42.0,
+          "score": 38.8,
           "countries": [],
           "sources": [
             "BBC World"
@@ -541,7 +603,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft services begin recovering after global outage",
           "severity": 70.0,
-          "score": 42.0,
+          "score": 38.8,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -565,77 +627,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "bio_infra:outbreak:b8ab6557ad",
-          "pillar": "bio_infra",
-          "category": "outbreak",
-          "category_th": "การระบาดของโรค",
-          "category_en": "Disease outbreak",
-          "title": "Disease Outbreak News: Yellow fever - WHO African Region",
-          "severity": 25.0,
-          "score": 25.0,
-          "countries": [
-            "sahel",
-            "nigeria"
-          ],
-          "sources": [
-            "WHO DON"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624"
-          ],
-          "refs": [
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-              "source": "WHO DON"
-            }
-          ],
-          "link_sources": [
-            "WHO DON"
-          ],
-          "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-14T06:38:49Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "bio_infra:outbreak:23e591e8c3",
-          "pillar": "bio_infra",
-          "category": "outbreak",
-          "category_th": "การระบาดของโรค",
-          "category_en": "Disease outbreak",
-          "title": "Disease Outbreak News: Shamonda virus in human - France",
-          "severity": 25.0,
-          "score": 25.0,
-          "countries": [
-            "france"
-          ],
-          "sources": [
-            "WHO DON"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623"
-          ],
-          "refs": [
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-              "source": "WHO DON"
-            }
-          ],
-          "link_sources": [
-            "WHO DON"
-          ],
-          "first_seen": "2026-11-09T22:28:51Z",
-          "last_seen": "2026-11-14T06:38:49Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -653,7 +644,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 7,
+          "value": 9,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -677,8 +668,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 69.3,
-      "contribution": 24.3,
+      "score": 65.7,
+      "contribution": 23.0,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Tehran says tanker hit naval mine, caught fire",
       "headline_en": "Shipping chokepoint threat: Iran war live: Tehran says tanker hit naval mine, caught fire"
     },
@@ -695,140 +686,148 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 63.4,
-      "contribution": 9.5,
+      "score": 64.4,
+      "contribution": 9.7,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์การเดินเรือและความทะเยอทะยานด้านนิวเคลียร์ของอิหร่าน ควบคู่ไปกับความขัดแย้งในภูมิภาคที่แพร่หลาย นอกจากนี้ การระบาดของโรคที่สำคัญและการหยุดชะงักของระบบเทคโนโลยีทั่วโลกก็เป็นปัจจัยเสริมในภาพรวมความเสี่ยง",
+    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะภัยคุกคามต่อเส้นทางเดินเรือสำคัญและการโจมตีทางอากาศ/ขีปนาวุธในหลายภูมิภาค รวมถึงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน นอกจากนี้ การหยุดชะงักของระบบทั่วโลกที่ส่งผลกระทบต่อบริการสำคัญและการระบาดของโรคที่รุนแรงยังเพิ่มความเปราะบางด้านโครงสร้างพื้นฐานและสุขภาพ",
     "early_warnings_th": [
       {
-        "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นและภัยคุกคามต่อความมั่นคงทางทะเล",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงและความเปราะบางของโครงสร้างพื้นฐานด้านพลังงาน",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "มีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเลใกล้กับอิหร่าน และเรือบรรทุกน้ำมันอีกห้าลำถูกโจมตีในช่องแคบฮอร์มุซ ขณะที่เจ้าหน้าที่อิสราเอลและสหรัฐฯ แสดงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน และการโจมตีของกลุ่มฮูตีพุ่งเป้าไปที่โครงสร้างพื้นฐานด้านพลังงานของซาอุดีอาระเบีย",
+        "evidence_summary": "มีรายงานว่าเรือบรรทุกน้ำมันของอิหร่านถูกทุ่นระเบิดทางทะเลและเกิดเพลิงไหม้ ขณะที่การโจมตีด้วยโดรนทำให้เกิดไฟฟ้าดับครั้งใหญ่ที่แหล่งก๊าซในเคอร์ดิสถานของอิรัก และอิสราเอลแสดงความกังวลเกี่ยวกับความพยายามของอิหร่านในการพัฒนานิวเคลียร์",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
             "source": "Al Jazeera"
           },
           {
-            "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-            "source": "hindustantimes.com"
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-            "source": "asiaone.com"
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+            "source": "Reuters (Google News)"
           }
         ]
       },
       {
-        "title": "ภัยคุกคามต่อเนื่องจากการระบาดของโรคในหลายภูมิภาค",
+        "title": "ภัยคุกคามต่อเนื่องต่อโครงสร้างพื้นฐานดิจิทัลที่สำคัญและสาธารณสุข",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีการรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
+        "evidence_summary": "บริการของ Microsoft ประสบปัญหาการหยุดชะงักทั่วโลกตลอดทั้งวัน ในขณะที่มีรายงานการระบาดของโรคอีโบลา ไข้เหลือง และไวรัสชามอนดาอย่างต่อเนื่องในหลายประเทศ",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
             "source": "WHO DON"
           },
           {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-            "source": "WHO DON"
-          },
-          {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-            "source": "WHO DON"
-          }
-        ]
-      },
-      {
-        "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลทั่วโลก",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการหยุดชะงักทั่วโลก ซึ่งส่งผลกระทบต่อบริการหลายอย่าง เน้นย้ำถึงศักยภาพของผลกระทบที่แพร่หลายจากการหยุดชะงักของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
-        "refs": [
-          {
             "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "ความรุนแรงของความขัดแย้งในภูมิภาคและการโจมตีทางอากาศ",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "มีรายงานการโจมตีทางอากาศและขีปนาวุธอย่างต่อเนื่องในเมียนมา กาซา ยูเครน ซาอุดีอาระเบีย และโคลอมเบีย ซึ่งส่งผลให้มีผู้เสียชีวิตและความเสียหาย",
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
             "source": "Al Jazeera"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
           }
         ]
       }
     ],
     "local_notes_th": [
-      "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+      "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
     ],
-    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly concerning shipping chokepoints and Iran's nuclear ambitions, alongside widespread regional conflicts. Additionally, significant disease outbreaks and a major global technology outage contribute to the overall risk landscape.",
+    "executive_summary_en": "Global risk is currently driven by heightened geopolitical tensions, particularly shipping chokepoint threats and widespread air/missile strikes across various regions, alongside concerns about Iran's nuclear program. Concurrently, a multi-country system outage affecting critical services and significant disease outbreaks contribute to infrastructure and health vulnerabilities.",
     "early_warnings_en": [
       {
-        "title": "Heightened Geopolitical Instability and Maritime Security Threats",
+        "title": "Escalating Geopolitical Tensions and Energy Infrastructure Vulnerability",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Reports indicate a tanker was hit by a naval mine near Iran, with five other tankers also struck in the Strait of Hormuz, while Israel and US officials express concerns over Iran's nuclear program and Houthi attacks target Saudi energy infrastructure.",
+        "evidence_summary": "An Iranian tanker was reportedly hit by a naval mine, and a drone attack caused a mass blackout at an Iraqi Kurdistan gas field, while Israel expressed concerns about Iran's nuclear ambitions.",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
             "source": "Al Jazeera"
           },
           {
-            "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-            "source": "hindustantimes.com"
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-            "source": "asiaone.com"
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+            "source": "Reuters (Google News)"
           }
         ]
       },
       {
-        "title": "Continued Threat of Multi-Region Disease Outbreaks",
+        "title": "Persistent Threats to Critical Digital Infrastructure and Public Health",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "New outbreaks of Ebola disease have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Yellow fever in the WHO African Region and Shamonda virus in France.",
+        "evidence_summary": "Microsoft services experienced a day-long global outage, while outbreaks of Ebola, Yellow fever, and Shamonda virus continue to be reported across multiple countries.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
             "source": "WHO DON"
           },
           {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-            "source": "WHO DON"
-          },
-          {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-            "source": "WHO DON"
-          }
-        ]
-      },
-      {
-        "title": "Vulnerability of Global Digital Infrastructure",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 weeks",
-        "evidence_summary": "Microsoft experienced a global outage affecting multiple services, highlighting the widespread impact potential of disruptions to critical digital infrastructure.",
-        "refs": [
-          {
             "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "Intensification of Regional Conflicts and Aerial Attacks",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "Air and missile strikes continue to be reported in Myanmar, Gaza, Ukraine, Saudi Arabia, and Colombia, resulting in casualties and damage.",
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
             "source": "Al Jazeera"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
           }
         ]
       }
     ],
     "local_notes_en": [
-      "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
+      "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
     ],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-14T06:38:49Z"
+    "generated_at": "2026-11-14T18:14:22Z"
   },
   "local_events": [
     {
@@ -860,7 +859,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-14T06:38:49Z",
+      "last_seen": "2026-11-14T18:14:22Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -876,7 +875,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:51Z",
+        "fetched_at": "2026-11-14T18:14:24Z",
         "items": 5,
         "data_as_of": "2026-11-13",
         "error": null,
@@ -887,7 +886,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-14T06:39:01Z",
+        "fetched_at": "2026-11-14T18:14:33Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -898,9 +897,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:49Z",
-        "items": 25,
-        "data_as_of": "2026-11-14T05:52:31Z",
+        "fetched_at": "2026-11-14T18:14:22Z",
+        "items": 23,
+        "data_as_of": "2026-11-14T18:00:10Z",
         "error": null,
         "note": null,
         "optional": false
@@ -909,9 +908,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:49Z",
+        "fetched_at": "2026-11-14T18:14:23Z",
         "items": 25,
-        "data_as_of": "2026-11-14T06:33:57Z",
+        "data_as_of": "2026-11-14T16:53:39Z",
         "error": null,
         "note": null,
         "optional": false
@@ -920,9 +919,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:50Z",
-        "items": 23,
-        "data_as_of": "2026-11-14T05:36:00Z",
+        "fetched_at": "2026-11-14T18:14:23Z",
+        "items": 17,
+        "data_as_of": "2026-11-14T12:27:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -931,7 +930,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:49Z",
+        "fetched_at": "2026-11-14T18:14:22Z",
         "items": 1,
         "data_as_of": "2026-11-09T03:34:59Z",
         "error": null,
@@ -942,9 +941,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:52Z",
-        "items": 209,
-        "data_as_of": "2026-11-14T04:56:47Z",
+        "fetched_at": "2026-11-14T18:14:25Z",
+        "items": 230,
+        "data_as_of": "2026-11-14T17:40:27Z",
         "error": null,
         "note": null,
         "optional": false
@@ -953,7 +952,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:50Z",
+        "fetched_at": "2026-11-14T18:14:23Z",
         "items": 20,
         "data_as_of": "2026-11-13T19:00:00Z",
         "error": null,
@@ -964,8 +963,8 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-14T06:38:50Z",
-        "items": 41,
+        "fetched_at": "2026-11-14T18:14:23Z",
+        "items": 42,
         "data_as_of": "2026-11-13T12:00:00Z",
         "error": null,
         "note": "google_news_fallback",

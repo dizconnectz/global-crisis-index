@@ -1,6 +1,193 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:54c60dd82f": {
+        "id": "geo:conflict:54c60dd82f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "ukraine",
+          "nato",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 4,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:04aaf49312": {
+        "id": "geo:missile_strike:04aaf49312",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "myanmar"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ab65d8b961": {
+        "id": "geo:sanctions:ab65d8b961",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Canada’s Stelco to recall 175 workers after government pressure",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:d591d87e00": {
+        "id": "geo:sanctions:d591d87e00",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "How does Iran view shift in US approach after JD Vance ordered away?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73de74cec3": {
+        "id": "geo:conflict:73de74cec3",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "russia",
+          "iran",
+          "china"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-09T06:48:20Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:missile_strike:a59ee23b9a": {
         "id": "geo:missile_strike:a59ee23b9a",
         "pillar": "geo",
@@ -286,41 +473,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-13T19:50:43Z",
-        "last_seen": "2026-11-13T19:50:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:ab65d8b961": {
-        "id": "geo:sanctions:ab65d8b961",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "The fight over Canadian steelworker jobs",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T06:15:12Z",
         "last_seen": "2026-11-13T19:50:43Z",
         "is_local": false,
         "location": null,
@@ -1955,42 +2107,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:73de74cec3": {
-        "id": "geo:conflict:73de74cec3",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, ‘denuclearisation’",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-09T06:48:20Z",
-        "last_seen": "2026-11-09T06:48:20Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:29886bc41b": {
         "id": "geo:chokepoint:29886bc41b",
         "pillar": "geo",
@@ -3127,74 +3243,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:55a57e9a6a": {
-        "id": "geo:sanctions:55a57e9a6a",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Breakingviews - COMMENTARY: COP31 will show up the folly of cleantech tariffs - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGduQXZiWG9HYXlTSVRybEdMWlJZOUdfMlZOSlBaOVk0Y2hWNlVrUS1WWHlTUGJ1TDVDTmFzRGZrcFlkd3l4NUt5M2xJaXh2X0J5NDhid1FJc2ZfNnh3OEhiQ19xel9xTFVja0laamtGemFhY2hVV084ckxDU0xZdWdJZGR0Z3daRVE2V0V6YWVNYzM4bE1lS3pqU242ZzFEcTZjYU93?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-04T06:38:42Z",
-        "last_seen": "2026-11-04T19:51:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:mobilization:01609539a2": {
-        "id": "geo:mobilization:01609539a2",
-        "pillar": "geo",
-        "category": "mobilization",
-        "category_th": "การเคลื่อนกำลังพล",
-        "category_en": "Military mobilisation",
-        "title": "Coalition of the Willing to hold first joint military exercises in Poland",
-        "severity": 45.0,
-        "score": 27.0,
-        "countries": [
-          "poland"
-        ],
-        "sources": [
-          "bgnes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "http://www.bgnes.com/politics/coalition-of-the-willing-to-hold-first-joint-military-exercises-in-poland"
-        ],
-        "refs": [
-          {
-            "url": "http://www.bgnes.com/politics/coalition-of-the-willing-to-hold-first-joint-military-exercises-in-poland",
-            "source": "bgnes.com"
-          }
-        ],
-        "link_sources": [
-          "bgnes.com"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:invasion:7d6b0d5274": {
         "id": "geo:invasion:7d6b0d5274",
         "pillar": "geo",
@@ -3344,7 +3392,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-14T06:38:49Z",
+        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3380,7 +3428,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-14T06:38:49Z",
+        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3416,7 +3464,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-14T06:38:49Z",
+        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3451,7 +3499,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-14T06:38:49Z",
+        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3484,7 +3532,73 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-14T06:38:49Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:global_outage:f57196f24b": {
+        "id": "bio_infra:global_outage:f57196f24b",
+        "pillar": "bio_infra",
+        "category": "global_outage",
+        "category_th": "ระบบล่มหลายประเทศ",
+        "category_en": "Multi-country system outage",
+        "title": "Microsoft says services fully restored after day-long global outage",
+        "severity": 70.0,
+        "score": 42.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T18:14:22Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:global_outage:be92ee8672": {
+        "id": "bio_infra:global_outage:be92ee8672",
+        "pillar": "bio_infra",
+        "category": "global_outage",
+        "category_th": "ระบบล่มหลายประเทศ",
+        "category_en": "Multi-country system outage",
+        "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
+        "severity": 70.0,
+        "score": 42.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-14T18:14:22Z",
+        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3840,19 +3954,19 @@
   "last_valid": {
     "econ": {
       "score": 30.2,
-      "as_of": "2026-11-14T06:38:49Z"
+      "as_of": "2026-11-14T18:14:22Z"
     },
     "geo": {
-      "score": 69.3,
-      "as_of": "2026-11-14T06:38:49Z"
+      "score": 65.7,
+      "as_of": "2026-11-14T18:14:22Z"
     },
     "nat": {
-      "score": 7.4,
-      "as_of": "2026-11-14T06:38:49Z"
+      "score": 7.1,
+      "as_of": "2026-11-14T18:14:22Z"
     },
     "bio_infra": {
-      "score": 63.4,
-      "as_of": "2026-11-14T06:38:49Z"
+      "score": 64.4,
+      "as_of": "2026-11-14T18:14:22Z"
     }
   },
   "econ_indicators": {
@@ -3861,7 +3975,7 @@
       "change_pct": -24.73,
       "drawdown_pct": -37.84,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T06:38:49Z",
+      "as_of": "2026-11-14T18:14:22Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -3869,7 +3983,7 @@
       "change_pct": -2.52,
       "drawdown_pct": -19.02,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T06:38:49Z",
+      "as_of": "2026-11-14T18:14:22Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -3877,7 +3991,7 @@
       "change_pct": -4.63,
       "drawdown_pct": -26.93,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T06:38:49Z",
+      "as_of": "2026-11-14T18:14:22Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3885,7 +3999,7 @@
       "change_pct": 2.51,
       "drawdown_pct": -3.29,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T06:38:49Z",
+      "as_of": "2026-11-14T18:14:22Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3893,7 +4007,7 @@
       "change_pct": 9.35,
       "drawdown_pct": -31.62,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-14T06:38:49Z",
+      "as_of": "2026-11-14T18:14:22Z",
       "provider": "yfinance"
     }
   },
@@ -3901,148 +4015,156 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "9456a5d8f6927862",
+    "events_hash": "4f48db28b4389844",
     "event_ids": [
+      "bio_infra:global_outage:be92ee8672",
       "bio_infra:global_outage:d64749d646",
+      "bio_infra:global_outage:f57196f24b",
       "bio_infra:global_outage:fba01990e9",
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:afa09db868",
+      "geo:missile_strike:04aaf49312",
       "geo:missile_strike:0c5abc2fdb",
-      "geo:missile_strike:2ccc9c3da2",
-      "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a59ee23b9a",
-      "geo:nuclear:ed9a73c4e5"
+      "geo:missile_strike:a59ee23b9a"
     ],
     "econ_score": 30.2,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์การเดินเรือและความทะเยอทะยานด้านนิวเคลียร์ของอิหร่าน ควบคู่ไปกับความขัดแย้งในภูมิภาคที่แพร่หลาย นอกจากนี้ การระบาดของโรคที่สำคัญและการหยุดชะงักของระบบเทคโนโลยีทั่วโลกก็เป็นปัจจัยเสริมในภาพรวมความเสี่ยง",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะภัยคุกคามต่อเส้นทางเดินเรือสำคัญและการโจมตีทางอากาศ/ขีปนาวุธในหลายภูมิภาค รวมถึงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน นอกจากนี้ การหยุดชะงักของระบบทั่วโลกที่ส่งผลกระทบต่อบริการสำคัญและการระบาดของโรคที่รุนแรงยังเพิ่มความเปราะบางด้านโครงสร้างพื้นฐานและสุขภาพ",
       "early_warnings_th": [
         {
-          "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นและภัยคุกคามต่อความมั่นคงทางทะเล",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงและความเปราะบางของโครงสร้างพื้นฐานด้านพลังงาน",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเลใกล้กับอิหร่าน และเรือบรรทุกน้ำมันอีกห้าลำถูกโจมตีในช่องแคบฮอร์มุซ ขณะที่เจ้าหน้าที่อิสราเอลและสหรัฐฯ แสดงความกังวลเกี่ยวกับโครงการนิวเคลียร์ของอิหร่าน และการโจมตีของกลุ่มฮูตีพุ่งเป้าไปที่โครงสร้างพื้นฐานด้านพลังงานของซาอุดีอาระเบีย",
+          "evidence_summary": "มีรายงานว่าเรือบรรทุกน้ำมันของอิหร่านถูกทุ่นระเบิดทางทะเลและเกิดเพลิงไหม้ ขณะที่การโจมตีด้วยโดรนทำให้เกิดไฟฟ้าดับครั้งใหญ่ที่แหล่งก๊าซในเคอร์ดิสถานของอิรัก และอิสราเอลแสดงความกังวลเกี่ยวกับความพยายามของอิหร่านในการพัฒนานิวเคลียร์",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-              "source": "asiaone.com"
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         },
         {
-          "title": "ภัยคุกคามต่อเนื่องจากการระบาดของโรคในหลายภูมิภาค",
+          "title": "ภัยคุกคามต่อเนื่องต่อโครงสร้างพื้นฐานดิจิทัลที่สำคัญและสาธารณสุข",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการรายงานการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
+          "evidence_summary": "บริการของ Microsoft ประสบปัญหาการหยุดชะงักทั่วโลกตลอดทั้งวัน ในขณะที่มีรายงานการระบาดของโรคอีโบลา ไข้เหลือง และไวรัสชามอนดาอย่างต่อเนื่องในหลายประเทศ",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
             },
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-              "source": "WHO DON"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-              "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลทั่วโลก",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการหยุดชะงักทั่วโลก ซึ่งส่งผลกระทบต่อบริการหลายอย่าง เน้นย้ำถึงศักยภาพของผลกระทบที่แพร่หลายจากการหยุดชะงักของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
-          "refs": [
-            {
               "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "ความรุนแรงของความขัดแย้งในภูมิภาคและการโจมตีทางอากาศ",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "มีรายงานการโจมตีทางอากาศและขีปนาวุธอย่างต่อเนื่องในเมียนมา กาซา ยูเครน ซาอุดีอาระเบีย และโคลอมเบีย ซึ่งส่งผลให้มีผู้เสียชีวิตและความเสียหาย",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
               "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly concerning shipping chokepoints and Iran's nuclear ambitions, alongside widespread regional conflicts. Additionally, significant disease outbreaks and a major global technology outage contribute to the overall risk landscape.",
+      "executive_summary_en": "Global risk is currently driven by heightened geopolitical tensions, particularly shipping chokepoint threats and widespread air/missile strikes across various regions, alongside concerns about Iran's nuclear program. Concurrently, a multi-country system outage affecting critical services and significant disease outbreaks contribute to infrastructure and health vulnerabilities.",
       "early_warnings_en": [
         {
-          "title": "Heightened Geopolitical Instability and Maritime Security Threats",
+          "title": "Escalating Geopolitical Tensions and Energy Infrastructure Vulnerability",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Reports indicate a tanker was hit by a naval mine near Iran, with five other tankers also struck in the Strait of Hormuz, while Israel and US officials express concerns over Iran's nuclear program and Houthi attacks target Saudi energy infrastructure.",
+          "evidence_summary": "An Iranian tanker was reportedly hit by a naval mine, and a drone attack caused a mass blackout at an Iraqi Kurdistan gas field, while Israel expressed concerns about Iran's nuclear ambitions.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-              "source": "hindustantimes.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.asiaone.com:443/asia/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-              "source": "asiaone.com"
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0podHZ4b0JYVG1rSVRyYWRUZHBDNDIyeGpjTGNyTXBSNmJGRkljVDhJYWlyWFRFbmE1OC1LYUxiVGRyVGIwdTc2b3NxWWdsSEtJME81NnlBelBWRFFQOXoyQWhhZTNTbjNFSlI0VVNUNDdPaUt3M204aDNOR1NjVHVUTU5BUVJmMm5pc2huOFkwOExPUUdJdy1PVVZXckdpdWtQMGszX2EtQVRuVzlWa2tUQU1wcmR6eFZXYkFXUzBfNHZPdy1PaWNiWlF2dw?oc=5",
+              "source": "Reuters (Google News)"
             }
           ]
         },
         {
-          "title": "Continued Threat of Multi-Region Disease Outbreaks",
+          "title": "Persistent Threats to Critical Digital Infrastructure and Public Health",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "New outbreaks of Ebola disease have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Yellow fever in the WHO African Region and Shamonda virus in France.",
+          "evidence_summary": "Microsoft services experienced a day-long global outage, while outbreaks of Ebola, Yellow fever, and Shamonda virus continue to be reported across multiple countries.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
             },
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-              "source": "WHO DON"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-              "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "Vulnerability of Global Digital Infrastructure",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Microsoft experienced a global outage affecting multiple services, highlighting the widespread impact potential of disruptions to critical digital infrastructure.",
-          "refs": [
-            {
               "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "Intensification of Regional Conflicts and Aerial Attacks",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Air and missile strikes continue to be reported in Myanmar, Gaza, Ukraine, Saudi Arabia, and Colombia, resulting in casualties and damage.",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
               "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
+        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-14T06:38:49Z"
+    "generated_at": "2026-11-14T18:14:22Z"
   },
-  "updated_at": "2026-11-14T06:38:49Z",
+  "updated_at": "2026-11-14T18:14:22Z",
   "version": 1
 }
