@@ -1,33 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T18:56:48Z",
-  "global_score": 48,
+  "generated_at": "2026-11-16T06:44:13Z",
+  "global_score": 45,
   "band": {
-    "key": "high",
-    "min": 46,
-    "max": 70,
-    "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
-    "label_en": "High tension / global supply-chain impact",
-    "color": "orange"
+    "key": "watch",
+    "min": 21,
+    "max": 45,
+    "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
+    "label_en": "Watch / regional volatility",
+    "color": "yellow"
   },
   "formula": {
-    "base": 46.27,
-    "boost": 1.31,
-    "cross_confirmed": true,
-    "max1": 72.4,
-    "max2": 62.7,
+    "base": 44.74,
+    "boost": 0.0,
+    "cross_confirmed": false,
+    "max1": 68.6,
+    "max2": 61.5,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 30.2,
+      "score": 30.4,
       "weight": 0.35,
       "effective_weight": 0.35,
-      "status": "market_closed",
-      "status_th": "ตลาดปิดสุดสัปดาห์",
-      "status_en": "Market closed (weekend)",
+      "status": "ok",
+      "status_th": "ปกติ",
+      "status_en": "Normal",
       "note": null,
       "top_events": [],
       "metrics": [
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 95.84,
+          "value": 96.58,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-2.5% (5 วันทำการ)",
-          "hint_en": "-2.5% (5 trading days)"
+          "hint": "+4.3% (5 วันทำการ)",
+          "hint_en": "+4.3% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3886.3,
+          "value": 3848.5,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-4.6% (5 วันทำการ)",
-          "hint_en": "-4.6% (5 trading days)"
+          "hint": "-6.5% (5 วันทำการ)",
+          "hint_en": "-6.5% (5 trading days)"
         },
         {
           "key": "spx",
@@ -95,7 +95,7 @@
           "change_pct": -24.73,
           "drawdown_pct": -37.84,
           "score": 27.2,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-13",
           "provider": "yfinance"
         },
@@ -107,12 +107,12 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 95.84,
-          "change_pct": -2.52,
-          "drawdown_pct": -19.02,
-          "score": 37.3,
-          "status": "market_closed",
-          "last_date": "2026-11-13",
+          "value": 96.58,
+          "change_pct": 4.33,
+          "drawdown_pct": -18.39,
+          "score": 38.2,
+          "status": "ok",
+          "last_date": "2026-11-16",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3886.3,
-          "change_pct": -4.63,
-          "drawdown_pct": -26.93,
+          "value": 3848.5,
+          "change_pct": -6.46,
+          "drawdown_pct": -27.64,
           "score": 5.0,
-          "status": "market_closed",
-          "last_date": "2026-11-13",
+          "status": "ok",
+          "last_date": "2026-11-16",
           "provider": "yfinance"
         },
         {
@@ -143,7 +143,7 @@
           "change_pct": 2.51,
           "drawdown_pct": -3.29,
           "score": 6.1,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-13",
           "provider": "yfinance"
         },
@@ -159,7 +159,7 @@
           "change_pct": 9.35,
           "drawdown_pct": -31.62,
           "score": 73.2,
-          "status": "market_closed",
+          "status": "ok",
           "last_date": "2026-11-13",
           "provider": "yfinance"
         }
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 72.4,
+      "score": 68.6,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Air / missile strikes",
           "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
           "severity": 55.0,
-          "score": 55.0,
+          "score": 50.8,
           "countries": [
             "saudi arabia",
             "yemen",
@@ -202,11 +202,10 @@
             "gulfnews.com",
             "idahostatejournal.com"
           ],
-          "article_count": 4,
+          "article_count": 3,
           "links": [
             "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-            "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-            "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
+            "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh"
           ],
           "refs": [
             {
@@ -216,19 +215,14 @@
             {
               "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
               "source": "omanobserver.om"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-              "source": "Reuters (Google News)"
             }
           ],
           "link_sources": [
             "gulfnews.com",
-            "omanobserver.om",
-            "Reuters (Google News)"
+            "omanobserver.om"
           ],
           "first_seen": "2026-11-02T10:22:19Z",
-          "last_seen": "2026-11-15T18:56:48Z",
+          "last_seen": "2026-11-16T06:44:13Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -242,7 +236,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
           "severity": 85.0,
-          "score": 51.0,
+          "score": 47.1,
           "countries": [
             "iran",
             "israel"
@@ -278,7 +272,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
           "severity": 85.0,
-          "score": 39.9,
+          "score": 36.8,
           "countries": [
             "iran"
           ],
@@ -315,7 +309,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
           "severity": 85.0,
-          "score": 39.9,
+          "score": 36.8,
           "countries": [
             "united states"
           ],
@@ -375,7 +369,7 @@
             "ynetnews.com"
           ],
           "first_seen": "2026-11-03T06:56:57Z",
-          "last_seen": "2026-11-15T18:56:48Z",
+          "last_seen": "2026-11-16T06:44:13Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -397,7 +391,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 1,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -407,18 +401,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 141,
+          "value": 113,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 9 event clusters"
+          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 10 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 6.4,
+      "score": 5.8,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -431,7 +425,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 1,
+          "value": 0,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -461,7 +455,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 176,
+          "value": 166,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -472,7 +466,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 62.7,
+      "score": 61.5,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -510,7 +504,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-15T18:56:48Z",
+          "last_seen": "2026-11-16T06:44:13Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -524,7 +518,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
           "severity": 70.0,
-          "score": 38.7,
+          "score": 35.7,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -557,7 +551,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft says services fully restored after day-long global outage",
           "severity": 70.0,
-          "score": 36.6,
+          "score": 33.8,
           "countries": [],
           "sources": [
             "BBC World"
@@ -590,7 +584,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
           "severity": 70.0,
-          "score": 32.8,
+          "score": 30.3,
           "countries": [],
           "sources": [
             "BBC World"
@@ -623,7 +617,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft services begin recovering after global outage",
           "severity": 70.0,
-          "score": 32.8,
+          "score": 30.3,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -674,7 +668,7 @@
           "key": "advisories",
           "label_th": "ประกาศช่องโหว่ทั่วไป",
           "label_en": "Routine vulnerability advisories",
-          "value": 6,
+          "value": 2,
           "unit": "รายการ",
           "unit_en": "items",
           "hint": null,
@@ -688,8 +682,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 72.4,
-      "contribution": 26.6,
+      "score": 68.6,
+      "contribution": 24.0,
       "headline": "การโจมตีทางอากาศ/ขีปนาวุธ: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
       "headline_en": "Air / missile strikes: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack"
     },
@@ -697,7 +691,7 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 30.2,
+      "score": 30.4,
       "contribution": 10.6,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 149.3 USD",
       "headline_en": "SOXX semiconductor ETF 149.3 USD"
@@ -706,8 +700,8 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 62.7,
-      "contribution": 9.4,
+      "score": 61.5,
+      "contribution": 9.2,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
@@ -837,7 +831,7 @@
     "local_notes_en": [
       "The Middle East respiratory syndrome (MERS) outbreak in Qatar is a local high-consequence disease event."
     ],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-15T18:56:48Z"
   },
@@ -871,7 +865,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-15T18:56:48Z",
+      "last_seen": "2026-11-16T06:44:13Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -879,17 +873,17 @@
     }
   ],
   "data_status": {
-    "key": "market_closed",
-    "label_th": "ตลาดปิดสุดสัปดาห์",
-    "label_en": "Market closed (weekend)",
+    "key": "ok",
+    "label_th": "ปกติ",
+    "label_en": "Normal",
     "sources": [
       {
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:51Z",
+        "fetched_at": "2026-11-16T06:44:15Z",
         "items": 5,
-        "data_as_of": "2026-11-13",
+        "data_as_of": "2026-11-16",
         "error": null,
         "note": null,
         "optional": false
@@ -898,8 +892,8 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:57:16Z",
-        "items": 75,
+        "fetched_at": "2026-11-16T06:44:32Z",
+        "items": 48,
         "data_as_of": "2026-11-15T07:45:00Z",
         "error": null,
         "note": null,
@@ -909,9 +903,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:48Z",
-        "items": 26,
-        "data_as_of": "2026-11-15T18:08:20Z",
+        "fetched_at": "2026-11-16T06:44:13Z",
+        "items": 21,
+        "data_as_of": "2026-11-16T05:06:59Z",
         "error": null,
         "note": null,
         "optional": false
@@ -920,9 +914,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:49Z",
+        "fetched_at": "2026-11-16T06:44:13Z",
         "items": 25,
-        "data_as_of": "2026-11-15T18:31:52Z",
+        "data_as_of": "2026-11-16T05:57:54Z",
         "error": null,
         "note": null,
         "optional": false
@@ -931,9 +925,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:49Z",
-        "items": 15,
-        "data_as_of": "2026-11-15T18:41:43Z",
+        "fetched_at": "2026-11-16T06:44:14Z",
+        "items": 19,
+        "data_as_of": "2026-11-16T06:07:56Z",
         "error": null,
         "note": null,
         "optional": false
@@ -942,9 +936,9 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:48Z",
-        "items": 1,
-        "data_as_of": "2026-11-09T03:34:59Z",
+        "fetched_at": "2026-11-16T06:44:13Z",
+        "items": 0,
+        "data_as_of": null,
         "error": null,
         "note": null,
         "optional": false
@@ -953,9 +947,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:51Z",
-        "items": 208,
-        "data_as_of": "2026-11-15T16:12:44Z",
+        "fetched_at": "2026-11-16T06:44:15Z",
+        "items": 198,
+        "data_as_of": "2026-11-16T05:12:35Z",
         "error": null,
         "note": null,
         "optional": false
@@ -964,7 +958,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:49Z",
+        "fetched_at": "2026-11-16T06:44:14Z",
         "items": 20,
         "data_as_of": "2026-11-13T19:00:00Z",
         "error": null,
@@ -975,9 +969,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-15T18:56:49Z",
-        "items": 100,
-        "data_as_of": "2026-11-15T14:25:45Z",
+        "fetched_at": "2026-11-16T06:44:14Z",
+        "items": 45,
+        "data_as_of": "2026-11-14T22:35:24Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false

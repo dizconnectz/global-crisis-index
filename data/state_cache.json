@@ -1,42 +1,6 @@
 {
   "active_events": {
     "geo": {
-      "geo:chokepoint:ed9a73c4e5": {
-        "id": "geo:chokepoint:ed9a73c4e5",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran",
-          "israel"
-        ],
-        "sources": [
-          "theyeshivaworld.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html"
-        ],
-        "refs": [
-          {
-            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-            "source": "theyeshivaworld.com"
-          }
-        ],
-        "link_sources": [
-          "theyeshivaworld.com"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:73ae71ea05": {
         "id": "geo:missile_strike:73ae71ea05",
         "pillar": "geo",
@@ -70,7 +34,7 @@
           "ynetnews.com"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -91,13 +55,14 @@
           "israel"
         ],
         "sources": [
+          "Al Jazeera",
           "ibtimes.com",
           "israelnationalnews.com"
         ],
         "article_count": 3,
         "links": [
           "https://www.israelnationalnews.com/news/436212",
-          "https://www.ibtimes.com/netanyahu-eisenkot-unity-government-iran-nuclear-threat-3809771"
+          "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss"
         ],
         "refs": [
           {
@@ -105,13 +70,355 @@
             "source": "israelnationalnews.com"
           },
           {
-            "url": "https://www.ibtimes.com/netanyahu-eisenkot-unity-government-iran-nuclear-threat-3809771",
-            "source": "ibtimes.com"
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
           "israelnationalnews.com",
-          "ibtimes.com"
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8dfd5ff85f": {
+        "id": "geo:missile_strike:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
+        "severity": 55.0,
+        "score": 50.8,
+        "countries": [
+          "saudi arabia",
+          "yemen",
+          "iran",
+          "uae"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "asiaone.com",
+          "clickorlando.com",
+          "freemalaysiatoday.com",
+          "gulfnews.com",
+          "idahostatejournal.com"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
+          "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh"
+        ],
+        "refs": [
+          {
+            "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
+            "source": "gulfnews.com"
+          },
+          {
+            "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
+            "source": "omanobserver.om"
+          }
+        ],
+        "link_sources": [
+          "gulfnews.com",
+          "omanobserver.om"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:b2e0284c13": {
+        "id": "geo:conflict:b2e0284c13",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Kim Ghattas :  War in the Middle East doesnt serve anyone interests  ",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "newstatesman.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests"
+        ],
+        "refs": [
+          {
+            "url": "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests",
+            "source": "newstatesman.com"
+          }
+        ],
+        "link_sources": [
+          "newstatesman.com"
+        ],
+        "first_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8dfd5ff85f": {
+        "id": "geo:conflict:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+          "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c4fb5956d": {
+        "id": "geo:conflict:0c4fb5956d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Prince Harry praises war veterans on surprise visit to Ukraine",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World",
+          "livemint.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T21:46:15Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:1e7073f4ea": {
+        "id": "geo:conflict:1e7073f4ea",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Canada bars Russia from Junior World Championships",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "canada",
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ea94661062": {
+        "id": "geo:sanctions:ea94661062",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:14d281fd80": {
+        "id": "geo:coup_unrest:14d281fd80",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c5abc2fdb": {
+        "id": "geo:conflict:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Who can force Israel to implement Gaza ceasefire deal?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-16T06:44:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:ed9a73c4e5": {
+        "id": "geo:chokepoint:ed9a73c4e5",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran",
+          "israel"
+        ],
+        "sources": [
+          "theyeshivaworld.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html"
+        ],
+        "refs": [
+          {
+            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+            "source": "theyeshivaworld.com"
+          }
+        ],
+        "link_sources": [
+          "theyeshivaworld.com"
         ],
         "first_seen": "2026-11-15T18:56:48Z",
         "last_seen": "2026-11-15T18:56:48Z",
@@ -222,96 +529,6 @@
           "bakersfieldnow.com"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:8dfd5ff85f": {
-        "id": "geo:missile_strike:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
-        "severity": 55.0,
-        "score": 55.0,
-        "countries": [
-          "saudi arabia",
-          "yemen",
-          "iran",
-          "uae"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "asiaone.com",
-          "clickorlando.com",
-          "freemalaysiatoday.com",
-          "gulfnews.com",
-          "idahostatejournal.com"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-          "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-          "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-            "source": "gulfnews.com"
-          },
-          {
-            "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-            "source": "omanobserver.om"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "gulfnews.com",
-          "omanobserver.om",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:b2e0284c13": {
-        "id": "geo:conflict:b2e0284c13",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Kim Ghattas :  War in the Middle East doesnt serve anyone interests  ",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "newstatesman.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests"
-        ],
-        "refs": [
-          {
-            "url": "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests",
-            "source": "newstatesman.com"
-          }
-        ],
-        "link_sources": [
-          "newstatesman.com"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
         "last_seen": "2026-11-15T18:56:48Z",
         "is_local": false,
         "location": null,
@@ -1756,43 +1973,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c5abc2fdb": {
-        "id": "geo:conflict:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Jerusalem Daily: 14-year-old killed in West Bank raid",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "palestine",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-10T19:49:51Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:d591d87e00": {
         "id": "geo:conflict:d591d87e00",
         "pillar": "geo",
@@ -2500,42 +2680,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c4fb5956d": {
-        "id": "geo:conflict:0c4fb5956d",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Hacked Records Show 400 , 000 Russians Killed in War on Ukraine",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World",
-          "livemint.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.livemint.com/news/world/hacked-records-show-400-000-russians-killed-in-war-on-ukraine-11794157943924.html"
-        ],
-        "refs": [
-          {
-            "url": "https://www.livemint.com/news/world/hacked-records-show-400-000-russians-killed-in-war-on-ukraine-11794157943924.html",
-            "source": "livemint.com"
-          }
-        ],
-        "link_sources": [
-          "livemint.com"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-08T22:14:37Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:0c4fb5956d": {
         "id": "geo:missile_strike:0c4fb5956d",
         "pillar": "geo",
@@ -2716,85 +2860,6 @@
         ],
         "first_seen": "2026-11-08T13:38:54Z",
         "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8dfd5ff85f": {
-        "id": "geo:conflict:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "After rebel offensive, efforts to push them back appear to have stalled",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "saudi arabia",
-          "yemen",
-          "syria"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/project-force-2/2026/11/8/after-rebel-offensive-efforts-to-push-them-back-appear-to-have-stalled?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-08T13:38:54Z",
-        "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:afa09db868": {
-        "id": "geo:conflict:afa09db868",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trump asks UFC chief Dana White to be White House press secretary",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "united states"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T06:15:12Z",
-        "last_seen": "2026-11-08T06:15:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2986,39 +3051,6 @@
         "refs": [
           {
             "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-07T21:57:34Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:cf41b4af86": {
-        "id": "geo:conflict:cf41b4af86",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Guatemalan lawmaker and three police officers killed in armed attack",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -3329,39 +3361,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:missile_strike:23d45fa7a5": {
-        "id": "geo:missile_strike:23d45fa7a5",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-04T06:38:42Z",
-        "last_seen": "2026-11-04T06:38:42Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     },
     "bio_infra": {
@@ -3394,7 +3393,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3430,7 +3429,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3466,7 +3465,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3501,7 +3500,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3520,7 +3519,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5"
         ],
@@ -3534,106 +3533,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:f86fc04885": {
-        "id": "bio_infra:vuln_advisory:f86fc04885",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Defending Python Applications Against eXternal Extensible Markup Language (XML) Entity (XXE) Vulnerabilities - NICCS (.gov)",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbkRNZElFcjc1NGZvRW9UMWh0Tl92dk9wTV92anlLb0lTS3JLdU9GcEx5YWtuRWNNYTdsUGZFeDIxa19tYzNoNVE4ZjhZNFF5aGt5ZFdXa1dSbWFuMEtpaV9sUnVrSnUzOHphTjVjZjlNVk1hZVRpcnN6QUN5RzkxTE41X0QyQ19zODZOcTVzSDYxekZzRVoxbmdveUhQZ1M3a09ZeU9icTJpVHJ0dUJBZ0wzMVU1cFdjZXlfXzF0N0dXYVpNbEZmYnNma2VYSlNESnc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbkRNZElFcjc1NGZvRW9UMWh0Tl92dk9wTV92anlLb0lTS3JLdU9GcEx5YWtuRWNNYTdsUGZFeDIxa19tYzNoNVE4ZjhZNFF5aGt5ZFdXa1dSbWFuMEtpaV9sUnVrSnUzOHphTjVjZjlNVk1hZVRpcnN6QUN5RzkxTE41X0QyQ19zODZOcTVzSDYxekZzRVoxbmdveUhQZ1M3a09ZeU9icTJpVHJ0dUJBZ0wzMVU1cFdjZXlfXzF0N0dXYVpNbEZmYnNma2VYSlNESnc?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:9c98d6fe4b": {
-        "id": "bio_infra:vuln_advisory:9c98d6fe4b",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK): Host Vulnerability Scanning - NICCS (.gov)",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZW5HUy1OOWRuTmRwM2JqTmlfM2lKWjFZY1oxMldyVHIzMjNVd2Z3QWd5ZTliZFVabzdfUVpyNVJxdk9YcDlmekdUeS1SaERBQkg0UzZXZFZfSEY2aElqdzV3RC1NaGZ6czBDX0J6SHB4UXhxUHA1NGRwWUtOTGpfZXBYZEVzRHF3VnNFYy1mWFQ4MzVzLXVuUTJaTWswNU4zUjNDZjBYS01WeThpazFNSGhSVTMwVXpVQUNTYjRTM0NmQU5sQk1RQzd4eXFLUQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZW5HUy1OOWRuTmRwM2JqTmlfM2lKWjFZY1oxMldyVHIzMjNVd2Z3QWd5ZTliZFVabzdfUVpyNVJxdk9YcDlmekdUeS1SaERBQkg0UzZXZFZfSEY2aElqdzV3RC1NaGZ6czBDX0J6SHB4UXhxUHA1NGRwWUtOTGpfZXBYZEVzRHF3VnNFYy1mWFQ4MzVzLXVuUTJaTWswNU4zUjNDZjBYS01WeThpazFNSGhSVTMwVXpVQUNTYjRTM0NmQU5sQk1RQzd4eXFLUQ?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:6169d29d7b": {
-        "id": "bio_infra:vuln_advisory:6169d29d7b",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Common ASP .NET Model-View-Controller (MVC) Vulnerabilities and Attacks from CMD+CTRL Security - NICCS (.gov)",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFVyY3ZuZ05pbkRyM1hxY05YUGplZ19pcGtOdXczUkRUTFR0X2pXXzNRclZZdkhPUTNjQ2dUaFktTjNzR0hmMC1RcG1iZEFoQkw1RE5uTl8wSXpsdTI3TVNETVZTRE9BNndWNlJ5SnNjZDBBNTZmaXZNbktIbklVOFV1NFRyMEp3Z0didnN1MlM0aWRjaThCMzM4V2JET3JqSU5YQk1mb3RxbG96SS16cHNDTkFUQmM?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFVyY3ZuZ05pbkRyM1hxY05YUGplZ19pcGtOdXczUkRUTFR0X2pXXzNRclZZdkhPUTNjQ2dUaFktTjNzR0hmMC1RcG1iZEFoQkw1RE5uTl8wSXpsdTI3TVNETVZTRE9BNndWNlJ5SnNjZDBBNTZmaXZNbktIbklVOFV1NFRyMEp3Z0didnN1MlM0aWRjaThCMzM4V2JET3JqSU5YQk1mb3RxbG96SS16cHNDTkFUQmM?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3666,40 +3566,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:47e6ae2c11": {
-        "id": "bio_infra:vuln_advisory:47e6ae2c11",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Mitigating C Code Vulnerabilities from CMD+CTRL Security - NICCS (.gov)",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckMyLVFWclBsd20yMHBpUkdLS2pmTG9yM0tGUVBEbUtkV24ya3UzRU5maVI2QnR5ZHprY0Z1d1RkV3VCOWhSanhGX1lwX3JMa25kQWxvcXdUaDJyNWhaSFg1anFPbk03aDYtUTlWaFd1R1FpVm9WVW5raEt3c283ZEtwcnpxZXd3?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQckMyLVFWclBsd20yMHBpUkdLS2pmTG9yM0tGUVBEbUtkV24ya3UzRU5maVI2QnR5ZHprY0Z1d1RkV3VCOWhSanhGX1lwX3JMa25kQWxvcXdUaDJyNWhaSFg1anFPbk03aDYtUTlWaFd1R1FpVm9WVW5raEt3c283ZEtwcnpxZXd3?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3735,7 +3602,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": true,
         "location": "คองโก",
         "location_en": "DR Congo",
@@ -4085,20 +3952,20 @@
   },
   "last_valid": {
     "econ": {
-      "score": 30.2,
-      "as_of": "2026-11-15T18:56:48Z"
+      "score": 30.4,
+      "as_of": "2026-11-16T06:44:13Z"
     },
     "geo": {
-      "score": 72.4,
-      "as_of": "2026-11-15T18:56:48Z"
+      "score": 68.6,
+      "as_of": "2026-11-16T06:44:13Z"
     },
     "nat": {
-      "score": 6.4,
-      "as_of": "2026-11-15T18:56:48Z"
+      "score": 5.8,
+      "as_of": "2026-11-16T06:44:13Z"
     },
     "bio_infra": {
-      "score": 62.7,
-      "as_of": "2026-11-15T18:56:48Z"
+      "score": 61.5,
+      "as_of": "2026-11-16T06:44:13Z"
     }
   },
   "econ_indicators": {
@@ -4107,23 +3974,23 @@
       "change_pct": -24.73,
       "drawdown_pct": -37.84,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-15T18:56:48Z",
+      "as_of": "2026-11-16T06:44:13Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 95.83999633789062,
-      "change_pct": -2.52,
-      "drawdown_pct": -19.02,
-      "last_date": "2026-11-13",
-      "as_of": "2026-11-15T18:56:48Z",
+      "last": 96.58000183105469,
+      "change_pct": 4.33,
+      "drawdown_pct": -18.39,
+      "last_date": "2026-11-16",
+      "as_of": "2026-11-16T06:44:13Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3886.300048828125,
-      "change_pct": -4.63,
-      "drawdown_pct": -26.93,
-      "last_date": "2026-11-13",
-      "as_of": "2026-11-15T18:56:48Z",
+      "last": 3848.5,
+      "change_pct": -6.46,
+      "drawdown_pct": -27.64,
+      "last_date": "2026-11-16",
+      "as_of": "2026-11-16T06:44:13Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -4131,7 +3998,7 @@
       "change_pct": 2.51,
       "drawdown_pct": -3.29,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-15T18:56:48Z",
+      "as_of": "2026-11-16T06:44:13Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4139,7 +4006,7 @@
       "change_pct": 9.35,
       "drawdown_pct": -31.62,
       "last_date": "2026-11-13",
-      "as_of": "2026-11-15T18:56:48Z",
+      "as_of": "2026-11-16T06:44:13Z",
       "provider": "yfinance"
     }
   },
@@ -4290,6 +4157,6 @@
     },
     "generated_at": "2026-11-15T18:56:48Z"
   },
-  "updated_at": "2026-11-15T18:56:48Z",
+  "updated_at": "2026-11-16T06:44:13Z",
   "version": 1
 }
