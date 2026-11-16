@@ -1,6 +1,204 @@
 {
   "active_events": {
     "geo": {
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:9636e0af39": {
+        "id": "geo:conflict:9636e0af39",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "What will Europe do next in Ukraine?",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "ukraine",
+          "european union",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/inside-story/2026/11/16/what-will-europe-do-next-in-ukraine?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/inside-story/2026/11/16/what-will-europe-do-next-in-ukraine?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:8f4f9f2dcb": {
+        "id": "geo:coup_unrest:8f4f9f2dcb",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8dfd5ff85f": {
+        "id": "geo:conflict:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "saudi arabia",
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1oaDQwcHhPSlhNTmNsZDhJc1dSQ1BwODVvWDBsdlhpUUxfVUJnUUdlQnNmTUFtYWlhblk4N1c1YWJFdEVqNmIzYjZSWTFsSjRXc1FhRzRIME90alJDb2pMeHlzbjVjWWdYb2FUbGIza3NkWmhLOFE4WHhOeXdhaHh6NjhtS0pENGtzc1RUMmVIZ0t2cnJ2WHA1alNwMzgzWEVZR3RnU0ZJMFVxcWNOWUdwOFRlRXhhQllPZmd6MA?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1oaDQwcHhPSlhNTmNsZDhJc1dSQ1BwODVvWDBsdlhpUUxfVUJnUUdlQnNmTUFtYWlhblk4N1c1YWJFdEVqNmIzYjZSWTFsSjRXc1FhRzRIME90alJDb2pMeHlzbjVjWWdYb2FUbGIza3NkWmhLOFE4WHhOeXdhaHh6NjhtS0pENGtzc1RUMmVIZ0t2cnJ2WHA1alNwMzgzWEVZR3RnU0ZJMFVxcWNOWUdwOFRlRXhhQllPZmd6MA?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-08T13:38:54Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:73ae71ea05": {
+        "id": "geo:sanctions:73ae71ea05",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Iran braces for natural gas shortages during winter energy imbalance",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:missile_strike:73ae71ea05": {
         "id": "geo:missile_strike:73ae71ea05",
         "pillar": "geo",
@@ -163,50 +361,6 @@
           "newstatesman.com"
         ],
         "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8dfd5ff85f": {
-        "id": "geo:conflict:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "yemen",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-          "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-08T13:38:54Z",
         "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
@@ -826,46 +980,6 @@
         ],
         "first_seen": "2026-11-09T06:48:20Z",
         "last_seen": "2026-11-14T18:14:22Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-14T06:38:49Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2797,74 +2911,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:e18a77f7d4": {
-        "id": "geo:conflict:e18a77f7d4",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "What we know so far after Krakow gun attack",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:01609539a2": {
-        "id": "geo:conflict:01609539a2",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Poland mourns six killed in attack as authorities launch ‘terrorism’ probe",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "poland"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/8/poland-mourns-six-killed-in-attack-as-authorities-launch-terrorism-probe?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T13:38:54Z",
-        "last_seen": "2026-11-08T13:38:54Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:f2e533405c": {
         "id": "geo:conflict:f2e533405c",
         "pillar": "geo",
@@ -3225,39 +3271,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:c17dce4ca3": {
-        "id": "geo:sanctions:c17dce4ca3",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "EXCLUSIVE: VietJet to pay lessor $250 million after court-ordered asset freeze, sources say - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm52aUlIcjdvcVh0bEt6QThoWmZ1UGNuWEZMSm5keHNxS1hVN3d0Z21BMzl4WGhVMmg2QlhUbVpuQzUyWks2MURHUkp0Q3NnSlY3TUVOOEl0bnE1b0hMbTZZUVZUdjB1LVFzTE1ycWM3TDM3ckFYSGpRZThMNjh4NW9lRmk0dXVueWR3R3FJN3lTUm1BcHpodlNjeDBrXzUxV3ItTzhOc0poa0c1Wld4a3pjaFRhNV9HclNDcTdaWVh6a1hZVERaRElR?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-06T06:57:31Z",
-        "last_seen": "2026-11-06T19:29:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:ec9f74ca51": {
         "id": "geo:missile_strike:ec9f74ca51",
         "pillar": "geo",
@@ -3393,7 +3406,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T22:15:58Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3429,7 +3442,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T22:15:58Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3465,7 +3478,73 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-16T06:44:13Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:ebd92c9de6": {
+        "id": "bio_infra:vuln_advisory:ebd92c9de6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-16T22:15:58Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:e7ff5c5646": {
+        "id": "bio_infra:vuln_advisory:e7ff5c5646",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CDM144: Vulnerability and Risk Management Using the CDM Agency Dashboard",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjllS3hVU0hSbmVSb2d5REQ4eGwxTGN3dHFoQkNucVJzNGwxbUg1SGtKeGdzSm9XS0o5aFNlTTRQZG9HZFBaamNyMHRmLVZUQ0xWbFRGOUJnOVZHVHNRbWRYQ3ZaaUdDX0VjWWItWXpyRS1ONkZINEJNamotSkM1TERaZUw2c3BZNmQ5cFRGRkxVMzBSc1VCd1RQWkhkVzc3Qm5fREJzWTNtdEY3UnVjVTJhWHlZQQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjllS3hVU0hSbmVSb2d5REQ4eGwxTGN3dHFoQkNucVJzNGwxbUg1SGtKeGdzSm9XS0o5aFNlTTRQZG9HZFBaamNyMHRmLVZUQ0xWbFRGOUJnOVZHVHNRbWRYQ3ZaaUdDX0VjWWItWXpyRS1ONkZINEJNamotSkM1TERaZUw2c3BZNmQ5cFRGRkxVMzBSc1VCd1RQWkhkVzc3Qm5fREJzWTNtdEY3UnVjVTJhWHlZQQ?oc=5",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-16T22:15:58Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3500,72 +3579,6 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:ebd92c9de6": {
-        "id": "bio_infra:vuln_advisory:ebd92c9de6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:d12066540c": {
-        "id": "bio_infra:vuln_advisory:d12066540c",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Performing Vulnerability Scans from CMD+CTRL Security - NICCS (.gov)",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVVlVQm5OSkdwOG5ibGpLQUpJX2wzU3dEYkx6UGFIYXBTcFFoeVZVek1QdXkteG93djhkUi1icDNrMkRMZDV1d0sxTk1ISF81bnNCbjFQeFpRNDhtVUN0U2k0Vlp5R0RreTZvOWJ1cVFLZFBLVEMtQjZxVDFZbVRfcDY1ZUo?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVVlVQm5OSkdwOG5ibGpLQUpJX2wzU3dEYkx6UGFIYXBTcFFoeVZVek1QdXkteG93djhkUi1icDNrMkRMZDV1d0sxTk1ISF81bnNCbjFQeFpRNDhtVUN0U2k0Vlp5R0RreTZvOWJ1cVFLZFBLVEMtQjZxVDFZbVRfcDY1ZUo?oc=5",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
         "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
@@ -3952,61 +3965,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 30.4,
-      "as_of": "2026-11-16T06:44:13Z"
+      "score": 35.7,
+      "as_of": "2026-11-16T22:15:58Z"
     },
     "geo": {
-      "score": 68.6,
-      "as_of": "2026-11-16T06:44:13Z"
+      "score": 63.8,
+      "as_of": "2026-11-16T22:15:58Z"
     },
     "nat": {
-      "score": 5.8,
-      "as_of": "2026-11-16T06:44:13Z"
+      "score": 30.0,
+      "as_of": "2026-11-16T22:15:58Z"
     },
     "bio_infra": {
-      "score": 61.5,
-      "as_of": "2026-11-16T06:44:13Z"
+      "score": 60.1,
+      "as_of": "2026-11-16T22:15:58Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 19.299999237060547,
-      "change_pct": -24.73,
-      "drawdown_pct": -37.84,
-      "last_date": "2026-11-13",
-      "as_of": "2026-11-16T06:44:13Z",
+      "last": 22.90999984741211,
+      "change_pct": 15.01,
+      "drawdown_pct": -26.22,
+      "last_date": "2026-11-16",
+      "as_of": "2026-11-16T22:15:58Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 96.58000183105469,
-      "change_pct": 4.33,
-      "drawdown_pct": -18.39,
+      "last": 91.83999633789062,
+      "change_pct": -0.79,
+      "drawdown_pct": -22.4,
       "last_date": "2026-11-16",
-      "as_of": "2026-11-16T06:44:13Z",
+      "as_of": "2026-11-16T22:15:58Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3848.5,
-      "change_pct": -6.46,
-      "drawdown_pct": -27.64,
+      "last": 3859.0,
+      "change_pct": -6.21,
+      "drawdown_pct": -27.44,
       "last_date": "2026-11-16",
-      "as_of": "2026-11-16T06:44:13Z",
+      "as_of": "2026-11-16T22:15:58Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7561.669921875,
-      "change_pct": 2.51,
-      "drawdown_pct": -3.29,
-      "last_date": "2026-11-13",
-      "as_of": "2026-11-16T06:44:13Z",
+      "last": 7416.58984375,
+      "change_pct": -1.77,
+      "drawdown_pct": -5.15,
+      "last_date": "2026-11-16",
+      "as_of": "2026-11-16T22:15:58Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 149.3000030517578,
-      "change_pct": 9.35,
-      "drawdown_pct": -31.62,
-      "last_date": "2026-11-13",
-      "as_of": "2026-11-16T06:44:13Z",
+      "last": 141.22000122070312,
+      "change_pct": -3.77,
+      "drawdown_pct": -35.32,
+      "last_date": "2026-11-16",
+      "as_of": "2026-11-16T22:15:58Z",
       "provider": "yfinance"
     }
   },
@@ -4014,29 +4027,27 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "e273bc0b4eedd81c",
+    "events_hash": "5f7fc1750f3585bb",
     "event_ids": [
       "bio_infra:global_outage:be92ee8672",
-      "bio_infra:global_outage:d64749d646",
       "bio_infra:global_outage:f57196f24b",
-      "bio_infra:global_outage:fba01990e9",
       "bio_infra:high_consequence:08ddd752fb",
+      "gdacs:TC1001351",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:afa09db868",
       "geo:chokepoint:ed9a73c4e5",
-      "geo:missile_strike:0c5abc2fdb",
-      "geo:missile_strike:73ae71ea05",
-      "geo:missile_strike:8dfd5ff85f"
+      "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:a59ee23b9a"
     ],
-    "econ_score": 30.2,
+    "econ_score": 35.7,
     "summary": {
-      "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนด้วยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง ซึ่งรวมถึงการโจมตีด้วยขีปนาวุธและความกังวลเกี่ยวกับความทะเยอทะยานด้านนิวเคลียร์ของอิหร่านและจุดคอขวดทางการเดินเรือ ในขณะเดียวกัน การระบาดของโรคหลายชนิดและการหยุดชะงักของบริการไอทีทั่วโลกครั้งใหญ่ยังเน้นย้ำถึงช่องโหว่ที่สำคัญในด้านสาธารณสุขและโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
+      "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันได้รับผลกระทบจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางที่มีความขัดแย้ง การโจมตีด้วยขีปนาวุธ และความกังวลเกี่ยวกับเส้นทางเดินเรือที่สำคัญ นอกจากนี้ การหยุดชะงักของโครงสร้างพื้นฐานที่สำคัญ เช่น บริการเทคโนโลยีระดับโลก และการระบาดของโรคหลายชนิด ก็เป็นปัจจัยเสริมในสภาพแวดล้อมความเสี่ยงที่ซับซ้อนนี้",
       "early_warnings_th": [
         {
           "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังกรุงริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และเรือบรรทุกน้ำมันของอิหร่านถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ อิสราเอลยังระบุว่าอิหร่านกำลังพยายามครอบครองอาวุธนิวเคลียร์ และกลุ่มฮิซบอลเลาะห์มีแนวโน้มสูงที่จะเข้าร่วมหากสงครามก",
+          "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และมีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ยังมีรายงานว่าอิหร่านกำลังสร้างคลังแสงขีปนาวุธขึ้นใหม่และมีความเป็นไปได้ที่ฮิซบอลเลาะห์จะเข้าร่วมความขัดแย้ง",
           "refs": [
             {
               "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
@@ -4047,16 +4058,32 @@
               "source": "omanobserver.om"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+              "source": "theyeshivaworld.com"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคในวงกว้าง",
+          "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญ",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการล่มทั่วโลกตลอดทั้งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่เชื่อมโยงกัน",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "การอุบัติและการแพร่กระจายของโรคที่มีผลกระทบรุนแรง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกาของ WHO และไวรัส Shamonda ในฝรั่งเศส",
+          "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิด รวมถึงอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4069,36 +4096,21 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "Microsoft ประสบปัญหาบริการล่มทั่วโลกเป็นเวลาหนึ่งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงศักยภาพของการหยุดชะงักในวงกว้างจากความล้มเหลวของระบบ",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "การระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์เป็นเหตุการณ์โรคที่มีผลกระทบรุนแรงในระดับท้องถิ่น"
+        "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
+        "พายุหมุนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้มในอินเดีย โดยมีประชากร 20.826 ล้านคนอยู่ในพื้นที่พายุโซนร้อน"
       ],
-      "executive_summary_en": "The global risk landscape is currently dominated by escalating geopolitical tensions in the Middle East, marked by missile strikes and concerns over Iran's nuclear ambitions and shipping chokepoints. Concurrently, multiple disease outbreaks and a major global IT service outage underscore significant vulnerabilities in public health and critical digital infrastructure.",
+      "executive_summary_en": "The global risk landscape is currently shaped by heightened geopolitical tensions, particularly in the Middle East with ongoing conflicts, missile strikes, and concerns over critical shipping chokepoints. Concurrently, significant infrastructure disruptions, such as a widespread global outage of major tech services, and multiple disease outbreaks contribute to the complex risk environment.",
       "early_warnings_en": [
         {
           "title": "Escalating Geopolitical Conflict in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, while Iran claimed a Bahrain drone attack, and an Iranian tanker was reportedly hit by a naval mine. Israel also states Iran is trying to get nuclear weapons, and Hezbollah is likely to join if war with Iran resumes.",
+          "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, Iran claimed a drone attack in Bahrain, and a tanker was reportedly hit by a naval mine. There are also reports of Iran rebuilding its missile arsenal and the potential for Hezbollah to join a conflict.",
           "refs": [
             {
               "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
@@ -4109,16 +4121,32 @@
               "source": "omanobserver.om"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+              "source": "theyeshivaworld.com"
             }
           ]
         },
         {
-          "title": "Widespread Disease Outbreaks",
+          "title": "Critical Infrastructure Vulnerabilities",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the fragility of interconnected digital infrastructure.",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "Emergence and Spread of High-Consequence Diseases",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "There are ongoing outbreaks of Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, as well as Yellow fever in the WHO African Region and Shamonda virus in France.",
+          "evidence_summary": "Multiple disease outbreaks have been reported, including Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, Yellow fever in the WHO African Region, and Shamonda virus in France.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4133,30 +4161,15 @@
               "source": "WHO DON"
             }
           ]
-        },
-        {
-          "title": "Vulnerability of Critical Digital Infrastructure",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the potential for widespread disruption from system failures.",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ]
         }
       ],
       "local_notes_en": [
-        "The Middle East respiratory syndrome (MERS) outbreak in Qatar is a local high-consequence disease event."
+        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar.",
+        "Tropical cyclone AKVAN-26 has an orange notification in India, with 20.826 million people in the Tropical Storm area."
       ]
     },
-    "generated_at": "2026-11-15T18:56:48Z"
+    "generated_at": "2026-11-16T22:15:58Z"
   },
-  "updated_at": "2026-11-16T06:44:13Z",
+  "updated_at": "2026-11-16T22:15:58Z",
   "version": 1
 }

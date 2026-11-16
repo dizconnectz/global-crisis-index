@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T06:44:13Z",
-  "global_score": 45,
+  "generated_at": "2026-11-16T22:15:58Z",
+  "global_score": 48,
   "band": {
-    "key": "watch",
-    "min": 21,
-    "max": 45,
-    "label_th": "เฝ้าระวัง / ผันผวนระดับภูมิภาค",
-    "label_en": "Watch / regional volatility",
-    "color": "yellow"
+    "key": "high",
+    "min": 46,
+    "max": 70,
+    "label_th": "ตึงเครียดสูง / กระทบห่วงโซ่โลก",
+    "label_en": "High tension / global supply-chain impact",
+    "color": "orange"
   },
   "formula": {
-    "base": 44.74,
+    "base": 48.34,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 68.6,
-    "max2": 61.5,
+    "max1": 63.8,
+    "max2": 60.1,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 30.4,
+      "score": 35.7,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,51 +35,51 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 19.3,
+          "value": 22.91,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-24.7% (5 วันทำการ)",
-          "hint_en": "-24.7% (5 trading days)"
+          "hint": "+15.0% (5 วันทำการ)",
+          "hint_en": "+15.0% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 96.58,
+          "value": 91.84,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "+4.3% (5 วันทำการ)",
-          "hint_en": "+4.3% (5 trading days)"
+          "hint": "-0.8% (5 วันทำการ)",
+          "hint_en": "-0.8% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3848.5,
+          "value": 3859.0,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-6.5% (5 วันทำการ)",
-          "hint_en": "-6.5% (5 trading days)"
+          "hint": "-6.2% (5 วันทำการ)",
+          "hint_en": "-6.2% (5 trading days)"
         },
         {
           "key": "spx",
           "label_th": "ดัชนี S&P 500",
           "label_en": "S&P 500 index",
-          "value": 7561.67,
+          "value": 7416.59,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+2.5% (5 วันทำการ)",
-          "hint_en": "+2.5% (5 trading days)"
+          "hint": "-1.8% (5 วันทำการ)",
+          "hint_en": "-1.8% (5 trading days)"
         },
         {
           "key": "soxx",
           "label_th": "ดัชนีเซมิคอนดักเตอร์ SOXX",
           "label_en": "SOXX semiconductor ETF",
-          "value": 149.3,
+          "value": 141.22,
           "unit": "USD",
           "unit_en": "USD",
-          "hint": "+9.3% (5 วันทำการ)",
-          "hint_en": "+9.3% (5 trading days)"
+          "hint": "-3.8% (5 วันทำการ)",
+          "hint_en": "-3.8% (5 trading days)"
         }
       ],
       "indicators": [
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 19.3,
-          "change_pct": -24.73,
-          "drawdown_pct": -37.84,
-          "score": 27.2,
+          "value": 22.91,
+          "change_pct": 15.01,
+          "drawdown_pct": -26.22,
+          "score": 41.6,
           "status": "ok",
-          "last_date": "2026-11-13",
+          "last_date": "2026-11-16",
           "provider": "yfinance"
         },
         {
@@ -107,10 +107,10 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 96.58,
-          "change_pct": 4.33,
-          "drawdown_pct": -18.39,
-          "score": 38.2,
+          "value": 91.84,
+          "change_pct": -0.79,
+          "drawdown_pct": -22.4,
+          "score": 32.3,
           "status": "ok",
           "last_date": "2026-11-16",
           "provider": "yfinance"
@@ -123,9 +123,9 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3848.5,
-          "change_pct": -6.46,
-          "drawdown_pct": -27.64,
+          "value": 3859.0,
+          "change_pct": -6.21,
+          "drawdown_pct": -27.44,
           "score": 5.0,
           "status": "ok",
           "last_date": "2026-11-16",
@@ -139,12 +139,12 @@
           "unit_en": "pts",
           "ticker": "^GSPC",
           "weight": 0.2,
-          "value": 7561.67,
-          "change_pct": 2.51,
-          "drawdown_pct": -3.29,
-          "score": 6.1,
+          "value": 7416.59,
+          "change_pct": -1.77,
+          "drawdown_pct": -5.15,
+          "score": 13.0,
           "status": "ok",
-          "last_date": "2026-11-13",
+          "last_date": "2026-11-16",
           "provider": "yfinance"
         },
         {
@@ -155,12 +155,12 @@
           "unit_en": "USD",
           "ticker": "SOXX",
           "weight": 0.15,
-          "value": 149.3,
-          "change_pct": 9.35,
-          "drawdown_pct": -31.62,
-          "score": 73.2,
+          "value": 141.22,
+          "change_pct": -3.77,
+          "drawdown_pct": -35.32,
+          "score": 80.6,
           "status": "ok",
-          "last_date": "2026-11-13",
+          "last_date": "2026-11-16",
           "provider": "yfinance"
         }
       ],
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 68.6,
+      "score": 63.8,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Air / missile strikes",
           "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
           "severity": 55.0,
-          "score": 50.8,
+          "score": 45.7,
           "countries": [
             "saudi arabia",
             "yemen",
@@ -236,7 +236,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
           "severity": 85.0,
-          "score": 47.1,
+          "score": 42.4,
           "countries": [
             "iran",
             "israel"
@@ -272,7 +272,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
           "severity": 85.0,
-          "score": 36.8,
+          "score": 33.1,
           "countries": [
             "iran"
           ],
@@ -309,7 +309,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
           "severity": 85.0,
-          "score": 36.8,
+          "score": 33.1,
           "countries": [
             "united states"
           ],
@@ -337,39 +337,40 @@
           "raw_score": null
         },
         {
-          "id": "geo:missile_strike:73ae71ea05",
+          "id": "geo:missile_strike:a59ee23b9a",
           "pillar": "geo",
           "category": "missile_strike",
           "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
           "category_en": "Air / missile strikes",
-          "title": "Iran rebuilding missile arsenal , with up to 2 , 500 missiles remaining , report says",
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
           "severity": 55.0,
           "score": 33.0,
           "countries": [
-            "iran"
+            "russia",
+            "ukraine"
           ],
           "sources": [
             "Al Jazeera",
             "BBC World",
-            "Reuters (Google News)",
-            "wthitv.com",
-            "ynetnews.com"
+            "dailyadvance.com",
+            "durangoherald.com",
+            "timesofindia.indiatimes.com"
           ],
           "article_count": 1,
           "links": [
-            "https://www.ynetnews.com/article/hyz7en8czg"
+            "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
           ],
           "refs": [
             {
-              "url": "https://www.ynetnews.com/article/hyz7en8czg",
-              "source": "ynetnews.com"
+              "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ],
           "link_sources": [
-            "ynetnews.com"
+            "BBC World"
           ],
-          "first_seen": "2026-11-03T06:56:57Z",
-          "last_seen": "2026-11-16T06:44:13Z",
+          "first_seen": "2026-11-02T06:11:14Z",
+          "last_seen": "2026-11-16T22:15:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -401,18 +402,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 113,
+          "value": 74,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 10 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 10 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 5.8,
+      "score": 30.0,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -425,7 +426,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 0,
+          "value": 1,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -435,7 +436,7 @@
           "key": "gdacs_orange_red",
           "label_th": "GDACS ระดับส้ม/แดง",
           "label_en": "GDACS orange/red alerts",
-          "value": 1,
+          "value": 2,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -455,7 +456,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 166,
+          "value": 181,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -466,7 +467,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 61.5,
+      "score": 60.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -504,7 +505,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-16T06:44:13Z",
+          "last_seen": "2026-11-16T22:15:58Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -518,7 +519,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
           "severity": 70.0,
-          "score": 35.7,
+          "score": 32.1,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -551,7 +552,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft says services fully restored after day-long global outage",
           "severity": 70.0,
-          "score": 33.8,
+          "score": 30.4,
           "countries": [],
           "sources": [
             "BBC World"
@@ -584,7 +585,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
           "severity": 70.0,
-          "score": 30.3,
+          "score": 27.3,
           "countries": [],
           "sources": [
             "BBC World"
@@ -617,7 +618,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft services begin recovering after global outage",
           "severity": 70.0,
-          "score": 30.3,
+          "score": 27.3,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -682,8 +683,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 68.6,
-      "contribution": 24.0,
+      "score": 63.8,
+      "contribution": 22.3,
       "headline": "การโจมตีทางอากาศ/ขีปนาวุธ: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
       "headline_en": "Air / missile strikes: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack"
     },
@@ -691,29 +692,29 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 30.4,
-      "contribution": 10.6,
-      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 149.3 USD",
-      "headline_en": "SOXX semiconductor ETF 149.3 USD"
+      "score": 35.7,
+      "contribution": 12.5,
+      "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 141.22 USD",
+      "headline_en": "SOXX semiconductor ETF 141.22 USD"
     },
     {
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 61.5,
-      "contribution": 9.2,
+      "score": 60.1,
+      "contribution": 9.0,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนด้วยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง ซึ่งรวมถึงการโจมตีด้วยขีปนาวุธและความกังวลเกี่ยวกับความทะเยอทะยานด้านนิวเคลียร์ของอิหร่านและจุดคอขวดทางการเดินเรือ ในขณะเดียวกัน การระบาดของโรคหลายชนิดและการหยุดชะงักของบริการไอทีทั่วโลกครั้งใหญ่ยังเน้นย้ำถึงช่องโหว่ที่สำคัญในด้านสาธารณสุขและโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
+    "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันได้รับผลกระทบจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางที่มีความขัดแย้ง การโจมตีด้วยขีปนาวุธ และความกังวลเกี่ยวกับเส้นทางเดินเรือที่สำคัญ นอกจากนี้ การหยุดชะงักของโครงสร้างพื้นฐานที่สำคัญ เช่น บริการเทคโนโลยีระดับโลก และการระบาดของโรคหลายชนิด ก็เป็นปัจจัยเสริมในสภาพแวดล้อมความเสี่ยงที่ซับซ้อนนี้",
     "early_warnings_th": [
       {
         "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังกรุงริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และเรือบรรทุกน้ำมันของอิหร่านถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ อิสราเอลยังระบุว่าอิหร่านกำลังพยายามครอบครองอาวุธนิวเคลียร์ และกลุ่มฮิซบอลเลาะห์มีแนวโน้มสูงที่จะเข้าร่วมหากสงครามก",
+        "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และมีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ยังมีรายงานว่าอิหร่านกำลังสร้างคลังแสงขีปนาวุธขึ้นใหม่และมีความเป็นไปได้ที่ฮิซบอลเลาะห์จะเข้าร่วมความขัดแย้ง",
         "refs": [
           {
             "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
@@ -724,16 +725,32 @@
             "source": "omanobserver.om"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+            "source": "theyeshivaworld.com"
           }
         ]
       },
       {
-        "title": "การระบาดของโรคในวงกว้าง",
+        "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญ",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-4 สัปดาห์",
+        "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการล่มทั่วโลกตลอดทั้งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่เชื่อมโยงกัน",
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ]
+      },
+      {
+        "title": "การอุบัติและการแพร่กระจายของโรคที่มีผลกระทบรุนแรง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกาของ WHO และไวรัส Shamonda ในฝรั่งเศส",
+        "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิด รวมถึงอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -746,36 +763,21 @@
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
             "source": "WHO DON"
-          }
-        ]
-      },
-      {
-        "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "Microsoft ประสบปัญหาบริการล่มทั่วโลกเป็นเวลาหนึ่งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงศักยภาพของการหยุดชะงักในวงกว้างจากความล้มเหลวของระบบ",
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-            "source": "Reuters (Google News)"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
           }
         ]
       }
     ],
     "local_notes_th": [
-      "การระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์เป็นเหตุการณ์โรคที่มีผลกระทบรุนแรงในระดับท้องถิ่น"
+      "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
+      "พายุหมุนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้มในอินเดีย โดยมีประชากร 20.826 ล้านคนอยู่ในพื้นที่พายุโซนร้อน"
     ],
-    "executive_summary_en": "The global risk landscape is currently dominated by escalating geopolitical tensions in the Middle East, marked by missile strikes and concerns over Iran's nuclear ambitions and shipping chokepoints. Concurrently, multiple disease outbreaks and a major global IT service outage underscore significant vulnerabilities in public health and critical digital infrastructure.",
+    "executive_summary_en": "The global risk landscape is currently shaped by heightened geopolitical tensions, particularly in the Middle East with ongoing conflicts, missile strikes, and concerns over critical shipping chokepoints. Concurrently, significant infrastructure disruptions, such as a widespread global outage of major tech services, and multiple disease outbreaks contribute to the complex risk environment.",
     "early_warnings_en": [
       {
         "title": "Escalating Geopolitical Conflict in the Middle East",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, while Iran claimed a Bahrain drone attack, and an Iranian tanker was reportedly hit by a naval mine. Israel also states Iran is trying to get nuclear weapons, and Hezbollah is likely to join if war with Iran resumes.",
+        "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, Iran claimed a drone attack in Bahrain, and a tanker was reportedly hit by a naval mine. There are also reports of Iran rebuilding its missile arsenal and the potential for Hezbollah to join a conflict.",
         "refs": [
           {
             "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
@@ -786,16 +788,32 @@
             "source": "omanobserver.om"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+            "source": "theyeshivaworld.com"
           }
         ]
       },
       {
-        "title": "Widespread Disease Outbreaks",
+        "title": "Critical Infrastructure Vulnerabilities",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-4 weeks",
+        "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the fragility of interconnected digital infrastructure.",
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ]
+      },
+      {
+        "title": "Emergence and Spread of High-Consequence Diseases",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "There are ongoing outbreaks of Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, as well as Yellow fever in the WHO African Region and Shamonda virus in France.",
+        "evidence_summary": "Multiple disease outbreaks have been reported, including Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, Yellow fever in the WHO African Region, and Shamonda virus in France.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -810,30 +828,15 @@
             "source": "WHO DON"
           }
         ]
-      },
-      {
-        "title": "Vulnerability of Critical Digital Infrastructure",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-4 weeks",
-        "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the potential for widespread disruption from system failures.",
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-            "source": "Reuters (Google News)"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ]
       }
     ],
     "local_notes_en": [
-      "The Middle East respiratory syndrome (MERS) outbreak in Qatar is a local high-consequence disease event."
+      "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar.",
+      "Tropical cyclone AKVAN-26 has an orange notification in India, with 20.826 million people in the Tropical Storm area."
     ],
-    "source": "gemini_cached",
+    "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-15T18:56:48Z"
+    "generated_at": "2026-11-16T22:15:58Z"
   },
   "local_events": [
     {
@@ -865,11 +868,46 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-16T06:44:13Z",
+      "last_seen": "2026-11-16T22:15:58Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
       "raw_score": 45.0
+    },
+    {
+      "id": "gdacs:TC1001351",
+      "pillar": "nat",
+      "category": "gdacs_tc",
+      "category_th": "พายุหมุนเขตร้อน",
+      "category_en": "Tropical cyclone",
+      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (20.826 million in Tropical Storm).",
+      "severity": 44.3,
+      "score": 30,
+      "countries": [
+        "India"
+      ],
+      "sources": [
+        "GDACS"
+      ],
+      "article_count": 1,
+      "links": [
+        "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351"
+      ],
+      "refs": [
+        {
+          "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+          "source": "GDACS"
+        }
+      ],
+      "link_sources": [
+        "GDACS"
+      ],
+      "first_seen": "2026-11-16T20:06:39Z",
+      "last_seen": "2026-11-16T20:06:39Z",
+      "is_local": true,
+      "location": "India",
+      "location_en": "India",
+      "raw_score": 44.3
     }
   ],
   "data_status": {
@@ -881,7 +919,7 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:15Z",
+        "fetched_at": "2026-11-16T22:16:01Z",
         "items": 5,
         "data_as_of": "2026-11-16",
         "error": null,
@@ -891,11 +929,11 @@
       {
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
-        "status": "ok",
-        "fetched_at": "2026-11-16T06:44:32Z",
-        "items": 48,
-        "data_as_of": "2026-11-15T07:45:00Z",
-        "error": null,
+        "status": "error",
+        "fetched_at": "2026-11-16T22:16:14Z",
+        "items": null,
+        "data_as_of": null,
+        "error": "HTTP 429",
         "note": null,
         "optional": true
       },
@@ -903,9 +941,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:13Z",
+        "fetched_at": "2026-11-16T22:15:58Z",
         "items": 21,
-        "data_as_of": "2026-11-16T05:06:59Z",
+        "data_as_of": "2026-11-16T21:40:07Z",
         "error": null,
         "note": null,
         "optional": false
@@ -914,9 +952,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:13Z",
+        "fetched_at": "2026-11-16T22:15:58Z",
         "items": 25,
-        "data_as_of": "2026-11-16T05:57:54Z",
+        "data_as_of": "2026-11-16T21:35:51Z",
         "error": null,
         "note": null,
         "optional": false
@@ -925,9 +963,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:14Z",
-        "items": 19,
-        "data_as_of": "2026-11-16T06:07:56Z",
+        "fetched_at": "2026-11-16T22:15:58Z",
+        "items": 28,
+        "data_as_of": "2026-11-16T20:51:44Z",
         "error": null,
         "note": null,
         "optional": false
@@ -936,9 +974,9 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:13Z",
-        "items": 0,
-        "data_as_of": null,
+        "fetched_at": "2026-11-16T22:15:58Z",
+        "items": 1,
+        "data_as_of": "2026-11-16T21:11:17Z",
         "error": null,
         "note": null,
         "optional": false
@@ -947,9 +985,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:15Z",
-        "items": 198,
-        "data_as_of": "2026-11-16T05:12:35Z",
+        "fetched_at": "2026-11-16T22:16:01Z",
+        "items": 216,
+        "data_as_of": "2026-11-16T21:26:52Z",
         "error": null,
         "note": null,
         "optional": false
@@ -958,7 +996,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:14Z",
+        "fetched_at": "2026-11-16T22:15:58Z",
         "items": 20,
         "data_as_of": "2026-11-13T19:00:00Z",
         "error": null,
@@ -969,9 +1007,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-16T06:44:14Z",
-        "items": 45,
-        "data_as_of": "2026-11-14T22:35:24Z",
+        "fetched_at": "2026-11-16T22:16:00Z",
+        "items": 46,
+        "data_as_of": "2026-11-16T12:00:00Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false
