@@ -1,6 +1,270 @@
 {
   "active_events": {
     "geo": {
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:487249a1b7": {
+        "id": "geo:sanctions:487249a1b7",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "UK sanctions firms over Israeli West Bank settlements",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "united kingdom",
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "BBC World",
+          "en.shafaqna.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-15T18:56:48Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:a65295dd0b": {
+        "id": "geo:sanctions:a65295dd0b",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+        "severity": 40.0,
+        "score": 32.0,
+        "countries": [
+          "china",
+          "canada",
+          "united states"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:terror:0b612d4d44": {
+        "id": "geo:terror:0b612d4d44",
+        "pillar": "geo",
+        "category": "terror",
+        "category_th": "การก่อการร้าย",
+        "category_en": "Terrorism",
+        "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:eca76495af": {
+        "id": "geo:sanctions:eca76495af",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Companies get billions in tariff refunds. Consumers are left with the bill.",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/17/companies-get-billions-in-tariff-refunds-consumers-are-left-with-the-bill?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/companies-get-billions-in-tariff-refunds-consumers-are-left-with-the-bill?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLUh5YlVmNzRxZm9pNkZLZFQ4YWhKbExkLW51U3R1QWFFb3AzUXZieDdROGpiYVRoZEwycHV3eUVTZWptS1ZTTkdLSG9SNzFYdEVPUGwwOWJVTTV3NThPU2NjX3BsZnlmVUtLanZjZEgzdWZiWkp6NThLUENnMEpxOGZPVnQ2Vm1YWDhoX1UzRkx4SUh2cFhObkxsek1ub0UtNjNfaWNpaU8?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:3ab9380fa2": {
+        "id": "geo:conflict:3ab9380fa2",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:a383595182": {
         "id": "geo:conflict:a383595182",
         "pillar": "geo",
@@ -112,42 +376,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:3ab9380fa2": {
-        "id": "geo:conflict:3ab9380fa2",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "china"
-        ],
-        "sources": [
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-17T08:04:10Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:a59ee23b9a": {
         "id": "geo:conflict:a59ee23b9a",
         "pillar": "geo",
@@ -186,46 +414,6 @@
         ],
         "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-17T08:04:10Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-16T22:15:58Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -757,43 +945,6 @@
         ],
         "link_sources": [
           "rawstory.com"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:487249a1b7": {
-        "id": "geo:sanctions:487249a1b7",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Protesters urge united kingdom to impose sanctions on Israel over Gaza genocide - Shafaqna English",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "united kingdom",
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "en.shafaqna.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://en.shafaqna.com/491991/protesters-urge-uk-to-impose-sanctions-on-israel-over-gaza-genocide/"
-        ],
-        "refs": [
-          {
-            "url": "https://en.shafaqna.com/491991/protesters-urge-uk-to-impose-sanctions-on-israel-over-gaza-genocide/",
-            "source": "en.shafaqna.com"
-          }
-        ],
-        "link_sources": [
-          "en.shafaqna.com"
         ],
         "first_seen": "2026-11-15T18:56:48Z",
         "last_seen": "2026-11-15T18:56:48Z",
@@ -1712,46 +1863,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "‘No war, no peace’: Can Iran break the deadlock with the US?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-12T20:03:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:a59ee23b9a": {
         "id": "geo:sanctions:a59ee23b9a",
         "pillar": "geo",
@@ -2486,75 +2597,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:f185fc1856": {
-        "id": "geo:conflict:f185fc1856",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trump says he was 'kidding' about Dana White press secretary offer",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-09T22:28:51Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:5009c8e190": {
-        "id": "geo:conflict:5009c8e190",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "COP31 opens amid energy crisis as activists demand climate action",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "turkey"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/9/cop31-opens-amid-energy-crisis-as-activists-demand-climate-action?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/cop31-opens-amid-energy-crisis-as-activists-demand-climate-action?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T20:04:17Z",
-        "last_seen": "2026-11-09T22:28:51Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:coup_unrest:5009c8e190": {
         "id": "geo:coup_unrest:5009c8e190",
         "pillar": "geo",
@@ -2577,43 +2619,6 @@
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/9/cyprus-rivals-agree-new-crossings-across-islands-dividing-line?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-09T22:28:51Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a034c515ad": {
-        "id": "geo:conflict:a034c515ad",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "South Africa detains foreigners suspected of heading to join Russian forces",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "south africa",
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -3026,44 +3031,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:065595248b": {
-        "id": "geo:conflict:065595248b",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Syria denies plans to send troops to Yemen as Saudi military ties deepen - Reuters",
-        "severity": 30.0,
-        "score": 22.7,
-        "countries": [
-          "syria",
-          "yemen",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-07T21:57:34Z",
-        "last_seen": "2026-11-08T06:15:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:66b49f810a": {
         "id": "geo:sanctions:66b49f810a",
         "pillar": "geo",
@@ -3361,7 +3328,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T21:02:38Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3397,7 +3364,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T21:02:38Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3433,7 +3400,73 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:5f873c6b3f": {
+        "id": "bio_infra:vuln_advisory:5f873c6b3f",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Dorsett Controls InfoScan",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:6af065c6fa": {
+        "id": "bio_infra:vuln_advisory:6af065c6fa",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Mendix Studio Pro",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3445,20 +3478,20 @@
         "category": "vuln_advisory",
         "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
         "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
         "severity": 5.0,
         "score": 5.0,
         "countries": [],
         "sources": [
           "CISA"
         ],
-        "article_count": 2,
+        "article_count": 6,
         "links": [
-          "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5"
+          "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5",
+            "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
             "source": "CISA"
           }
         ],
@@ -3466,19 +3499,19 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T21:02:38Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:vuln_advisory:a445c21fb1": {
-        "id": "bio_infra:vuln_advisory:a445c21fb1",
+      "bio_infra:vuln_advisory:e930a801e6": {
+        "id": "bio_infra:vuln_advisory:e930a801e6",
         "pillar": "bio_infra",
         "category": "vuln_advisory",
         "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
         "category_en": "Routine vulnerability advisory",
-        "title": "CISA Vulnerability Review FY 2024/2025",
+        "title": "Siemens meta-iot2050",
         "severity": 5.0,
         "score": 5.0,
         "countries": [],
@@ -3487,23 +3520,355 @@
         ],
         "article_count": 1,
         "links": [
-          "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc?oc=5"
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc?oc=5",
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
             "source": "CISA"
           }
         ],
         "link_sources": [
           "CISA"
         ],
-        "first_seen": "2026-11-17T08:04:10Z",
-        "last_seen": "2026-11-17T08:04:10Z",
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:vuln_advisory:a9f59f1f13": {
+        "id": "bio_infra:vuln_advisory:a9f59f1f13",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens SIMATIC WinCC",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:4e4b97cee4": {
+        "id": "bio_infra:vuln_advisory:4e4b97cee4",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens RUGGEDCOM APE1808",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:1f8e3e19e1": {
+        "id": "bio_infra:vuln_advisory:1f8e3e19e1",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:f554a054bf": {
+        "id": "bio_infra:vuln_advisory:f554a054bf",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Industrial Automation Software Products",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:27e2d5c84f": {
+        "id": "bio_infra:vuln_advisory:27e2d5c84f",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens ROS#",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:402cd71416": {
+        "id": "bio_infra:vuln_advisory:402cd71416",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Simcenter Femap",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:0af32ceded": {
+        "id": "bio_infra:vuln_advisory:0af32ceded",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Desigo, Gridscale",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:466b6a349e": {
+        "id": "bio_infra:vuln_advisory:466b6a349e",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Building Automation and Energy Products",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:6b29cb2024": {
+        "id": "bio_infra:vuln_advisory:6b29cb2024",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Industrial Edge Management",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:afa09db868": {
+        "id": "bio_infra:cyber_incident:afa09db868",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+        "severity": 40.0,
+        "score": 25.0,
+        "countries": [
+          "united states"
+        ],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-17T21:02:38Z",
+        "is_local": true,
+        "location": "สหรัฐฯ",
+        "location_en": "US",
+        "raw_score": 40.0
       },
       "bio_infra:outbreak:23e591e8c3": {
         "id": "bio_infra:outbreak:23e591e8c3",
@@ -3920,61 +4285,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 35.7,
-      "as_of": "2026-11-17T08:04:10Z"
+      "score": 40.1,
+      "as_of": "2026-11-17T21:02:38Z"
     },
     "geo": {
-      "score": 68.0,
-      "as_of": "2026-11-17T08:04:10Z"
+      "score": 64.1,
+      "as_of": "2026-11-17T21:02:38Z"
     },
     "nat": {
       "score": 30.0,
-      "as_of": "2026-11-17T08:04:10Z"
+      "as_of": "2026-11-17T21:02:38Z"
     },
     "bio_infra": {
-      "score": 59.3,
-      "as_of": "2026-11-17T08:04:10Z"
+      "score": 58.3,
+      "as_of": "2026-11-17T21:02:38Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 22.90999984741211,
-      "change_pct": 15.01,
-      "drawdown_pct": -26.22,
-      "last_date": "2026-11-16",
-      "as_of": "2026-11-17T08:04:10Z",
+      "last": 25.889999389648438,
+      "change_pct": 33.04,
+      "drawdown_pct": -16.62,
+      "last_date": "2026-11-17",
+      "as_of": "2026-11-17T21:02:38Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 91.83999633789062,
-      "change_pct": 0.38,
-      "drawdown_pct": -22.4,
+      "last": 92.8499984741211,
+      "change_pct": 1.49,
+      "drawdown_pct": -21.55,
       "last_date": "2026-11-17",
-      "as_of": "2026-11-17T08:04:10Z",
+      "as_of": "2026-11-17T21:02:38Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3875.10009765625,
-      "change_pct": -3.85,
-      "drawdown_pct": -27.14,
+      "last": 3849.39990234375,
+      "change_pct": -4.49,
+      "drawdown_pct": -27.62,
       "last_date": "2026-11-17",
-      "as_of": "2026-11-17T08:04:10Z",
+      "as_of": "2026-11-17T21:02:38Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7416.58984375,
-      "change_pct": -1.77,
-      "drawdown_pct": -5.15,
-      "last_date": "2026-11-16",
-      "as_of": "2026-11-17T08:04:10Z",
+      "last": 7340.740234375,
+      "change_pct": -2.4,
+      "drawdown_pct": -6.12,
+      "last_date": "2026-11-17",
+      "as_of": "2026-11-17T21:02:38Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 141.22000122070312,
-      "change_pct": -3.77,
-      "drawdown_pct": -35.32,
-      "last_date": "2026-11-16",
-      "as_of": "2026-11-17T08:04:10Z",
+      "last": 141.4600067138672,
+      "change_pct": -3.5,
+      "drawdown_pct": -35.21,
+      "last_date": "2026-11-17",
+      "as_of": "2026-11-17T21:02:38Z",
       "provider": "yfinance"
     }
   },
@@ -3982,28 +4347,26 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "b9e2efab61961dad",
+    "events_hash": "50e363c0b2a7c7e3",
     "event_ids": [
-      "bio_infra:global_outage:be92ee8672",
       "bio_infra:high_consequence:08ddd752fb",
       "gdacs:TC1001351",
       "geo:chokepoint:2ccc9c3da2",
-      "geo:chokepoint:73ae71ea05",
-      "geo:chokepoint:afa09db868",
       "geo:chokepoint:ed9a73c4e5",
       "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a59ee23b9a"
+      "geo:missile_strike:a59ee23b9a",
+      "geo:sanctions:a65295dd0b"
     ],
-    "econ_score": 35.7,
+    "econ_score": 40.1,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งมีเหตุการณ์เรือบรรทุกน้ำมันและขีปนาวุธโจมตี รวมถึงการหยุดชะงักของโครงสร้างพื้นฐานดิจิทัลที่สำคัญทั่วโลก",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันได้รับแรงผลักดันจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่มีภัยคุกคามต่อเส้นทางเดินเรือและเหตุขีปนาวุธโจมตี ควบคู่ไปกับข้อพิพาททางการค้าที่ดำเนินอยู่ ความไม่มั่นคงนี้สะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้นและดัชนีหุ้นที่ลดลง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+          "title": "ความไม่มั่นคงทางภูมิรัฐศาสตร์และความปลอดภัยทางทะเล",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เหตุการณ์ที่เกี่ยวข้องกับเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและการโจมตีด้วยขีปนาวุธ/โดรนในภูมิภาค รวมถึงรายงานเกี่ยวกับความขัดแย้งที่อาจขยายวงกว้าง บ่งชี้ถึงความเสี่ยงที่เพิ่มขึ้นของการบานปลาย",
+          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ และอิหร่านอ้างว่าได้โจมตีด้วยโดรนในบาห์เรน ขณะที่สหรัฐฯ เพิ่มการปิดล้อมทางเศรษฐกิจต่ออิหร่าน",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
@@ -4020,10 +4383,10 @@
           ]
         },
         {
-          "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลทั่วโลก",
+          "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญ",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การหยุดชะงักของบริการ Microsoft ทั่วโลกเป็นเวลาหนึ่งวัน ซึ่งรวมถึง Outlook และ Teams แสดงให้เห็นถึงศักยภาพของการหยุดชะงักในวงกว้างจากความล้มเหลวของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
+          "evidence_summary": "บริการของ Microsoft รวมถึง Outlook และ Teams ประสบปัญหาการหยุดชะงักทั่วโลกเป็นเวลานาน ก่อนที่จะกลับมาใช้งานได้ตามปกติ",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -4036,10 +4399,10 @@
           ]
         },
         {
-          "title": "ภัยคุกคามจากการระบาดของโรคอย่างต่อเนื่อง",
+          "title": "การกลับมาของโรคระบาดร้ายแรง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "การระบาดครั้งใหม่ของอีโบลาในหลายประเทศในแอฟริกา ไข้เหลืองในภูมิภาคแอฟริกาของ WHO และไวรัส Shamonda ในฝรั่งเศส เน้นย้ำถึงความเสี่ยงต่อเนื่องของโรคที่มีผลกระทบรุนแรง",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4047,26 +4410,23 @@
             },
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
-              "source": "WHO DON"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
               "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีรายงานการระบาดของโรคเมอร์สในกาตาร์",
-        "พายุไซโคลนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้ม โดยมีประชากร 16.134 ล้านคนในอินเดียได้รับผลกระทบจากลมระดับพายุโซนร้อน"
+        "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
+        "รัฐบาลสหรัฐฯ ร่วมกับพันธมิตรเร่งเสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบตรวจสอบห่วงโซ่ความเย็น",
+        "พายุไซโคลนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้มในอินเดีย"
       ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, marked by shipping incidents and missile strikes, alongside significant global outages of critical digital infrastructure.",
+      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with shipping chokepoint threats and missile strikes, alongside ongoing trade disputes. This instability is reflected in increased market volatility and declining equity indices.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions in the Middle East",
+          "title": "Geopolitical Instability and Maritime Security",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Incidents involving tankers in the Strait of Hormuz and missile/drone attacks in the region, coupled with reports of potential wider conflict, indicate a heightened risk of escalation.",
+          "evidence_summary": "Tankers were hit in the Strait of Hormuz, and Iran claimed drone attacks in Bahrain, while the U.S. tightened its economic blockade on Iran.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
@@ -4083,10 +4443,10 @@
           ]
         },
         {
-          "title": "Vulnerability of Global Digital Infrastructure",
+          "title": "Critical Infrastructure Vulnerability",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "A recent day-long global outage of Microsoft services, including Outlook and Teams, demonstrates the potential for widespread disruption from critical digital infrastructure failures.",
+          "evidence_summary": "Microsoft services, including Outlook and Teams, experienced a prolonged global outage before being fully restored.",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -4099,10 +4459,10 @@
           ]
         },
         {
-          "title": "Persistent Threat of Disease Outbreaks",
+          "title": "Resurgence of High-Consequence Diseases",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "New outbreaks of Ebola in multiple African countries, Yellow fever in the WHO African Region, and Shamonda virus in France highlight the ongoing risk of high-consequence diseases.",
+          "evidence_summary": "Outbreaks of Ebola disease caused by Bundibugyo virus were reported in the Democratic Republic of the Congo, Kenya, and Nigeria, along with Yellow fever in the WHO African Region.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4111,21 +4471,18 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
               "source": "WHO DON"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
-              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "A MERS outbreak has been reported in Qatar.",
-        "Tropical cyclone AKVAN-26 has been issued an orange notification, affecting 16.134 million people in India with tropical storm-level winds."
+        "A Middle East respiratory syndrome (MERS) outbreak has been reported in Qatar.",
+        "U.S. Government Partners urge hardening industrial refrigeration and cold chain monitoring systems.",
+        "Tropical cyclone AKVAN-26 has received an orange notification in India."
       ]
     },
-    "generated_at": "2026-11-17T08:04:10Z"
+    "generated_at": "2026-11-17T21:02:38Z"
   },
-  "updated_at": "2026-11-17T08:04:10Z",
+  "updated_at": "2026-11-17T21:02:38Z",
   "version": 1
 }
