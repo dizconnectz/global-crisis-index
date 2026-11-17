@@ -1,6 +1,196 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:a383595182": {
+        "id": "geo:conflict:a383595182",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Stories of survival and pain: Children amid Israel’s war on south Lebanon",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "israel",
+          "lebanon"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/features/2026/11/17/stories-of-survival-and-pain-children-amid-israels-war-on-south-lebanon?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/features/2026/11/17/stories-of-survival-and-pain-children-amid-israels-war-on-south-lebanon?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-17T08:04:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:2ccc9c3da2": {
+        "id": "geo:chokepoint:2ccc9c3da2",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iraq",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T08:04:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Iran war live: Bahrain says intercepted Iranian drones, IRGC claims attack",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "wthitv.com",
+          "ynetnews.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-17T08:04:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:3ab9380fa2": {
+        "id": "geo:conflict:3ab9380fa2",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRG5BVmUxVXppTDIxS2lSYjc2T2FqUzYxLVB5WGFwNnBfNzduYk1waU9NQzFrWmU2c3dvZGYtM183UmUzQk5JOUxYX3luZGRwbkkwbnpPYWdNcmpKWVJlTWF5V21ObkV2UTQ5aTRtRjA3aEwtckxnTWdNYUZpdm8?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-17T08:04:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Ukraine launches biggest drone attack on Russia since war began, defence ministry data shows - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "ukraine",
+          "russia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "abcnews.com",
+          "aol.co.uk",
+          "channelnewsasia.com",
+          "freerepublic.com",
+          "idahopress.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-17T08:04:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:missile_strike:a59ee23b9a": {
         "id": "geo:missile_strike:a59ee23b9a",
         "pillar": "geo",
@@ -194,45 +384,6 @@
         ],
         "first_seen": "2026-11-16T22:15:58Z",
         "last_seen": "2026-11-16T22:15:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Iran rebuilding missile arsenal , with up to 2 , 500 missiles remaining , report says",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "wthitv.com",
-          "ynetnews.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.ynetnews.com/article/hyz7en8czg"
-        ],
-        "refs": [
-          {
-            "url": "https://www.ynetnews.com/article/hyz7en8czg",
-            "source": "ynetnews.com"
-          }
-        ],
-        "link_sources": [
-          "ynetnews.com"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-16T06:44:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1236,49 +1387,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
-        "severity": 30.0,
-        "score": 23.4,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "abcnews.com",
-          "aol.co.uk",
-          "channelnewsasia.com",
-          "freerepublic.com",
-          "idahopress.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-13T19:50:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:ed9a73c4e5": {
         "id": "geo:conflict:ed9a73c4e5",
         "pillar": "geo",
@@ -1823,42 +1931,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:a383595182": {
-        "id": "geo:conflict:a383595182",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Israel is ‘disrupting entire ecosystems’, including Lebanon’s wheat crop",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "israel",
-          "lebanon"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-11T19:41:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:57a1dee4cd": {
         "id": "geo:conflict:57a1dee4cd",
         "pillar": "geo",
@@ -1967,41 +2039,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-11T06:39:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:3ab9380fa2": {
-        "id": "geo:conflict:3ab9380fa2",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "The superpower battle over energy – and what it means for your bills",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "china"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-10T07:28:01Z",
         "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
@@ -3189,88 +3226,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:9689f0274f": {
-        "id": "geo:conflict:9689f0274f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trump New Chief Of Staff Stephen Miller Accused India Of Funding Russia Ukraine War Through Oil Purchases",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "india",
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "freepressjournal.in"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.freepressjournal.in/world/trumps-new-chief-of-staff-stephen-miller-accused-india-of-funding-russias-ukraine-war-through-oil-purchases",
-          "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.freepressjournal.in/world/trumps-new-chief-of-staff-stephen-miller-accused-india-of-funding-russias-ukraine-war-through-oil-purchases",
-            "source": "freepressjournal.in"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "freepressjournal.in",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-07T15:28:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:mobilization:54155a838b": {
-        "id": "geo:mobilization:54155a838b",
-        "pillar": "geo",
-        "category": "mobilization",
-        "category_th": "การเคลื่อนกำลังพล",
-        "category_en": "Military mobilisation",
-        "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
-        "severity": 45.0,
-        "score": 27.0,
-        "countries": [
-          "ukraine",
-          "france",
-          "united kingdom",
-          "poland"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-06T19:29:50Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:ec9f74ca51": {
         "id": "geo:missile_strike:ec9f74ca51",
         "pillar": "geo",
@@ -3406,7 +3361,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-17T08:04:10Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3442,7 +3397,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-17T08:04:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3478,7 +3433,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-17T08:04:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3497,7 +3452,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
           "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5"
         ],
@@ -3511,19 +3466,19 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-17T08:04:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:vuln_advisory:e7ff5c5646": {
-        "id": "bio_infra:vuln_advisory:e7ff5c5646",
+      "bio_infra:vuln_advisory:a445c21fb1": {
+        "id": "bio_infra:vuln_advisory:a445c21fb1",
         "pillar": "bio_infra",
         "category": "vuln_advisory",
         "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
         "category_en": "Routine vulnerability advisory",
-        "title": "CDM144: Vulnerability and Risk Management Using the CDM Agency Dashboard",
+        "title": "CISA Vulnerability Review FY 2024/2025",
         "severity": 5.0,
         "score": 5.0,
         "countries": [],
@@ -3532,19 +3487,19 @@
         ],
         "article_count": 1,
         "links": [
-          "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjllS3hVU0hSbmVSb2d5REQ4eGwxTGN3dHFoQkNucVJzNGwxbUg1SGtKeGdzSm9XS0o5aFNlTTRQZG9HZFBaamNyMHRmLVZUQ0xWbFRGOUJnOVZHVHNRbWRYQ3ZaaUdDX0VjWWItWXpyRS1ONkZINEJNamotSkM1TERaZUw2c3BZNmQ5cFRGRkxVMzBSc1VCd1RQWkhkVzc3Qm5fREJzWTNtdEY3UnVjVTJhWHlZQQ?oc=5"
+          "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc?oc=5"
         ],
         "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjllS3hVU0hSbmVSb2d5REQ4eGwxTGN3dHFoQkNucVJzNGwxbUg1SGtKeGdzSm9XS0o5aFNlTTRQZG9HZFBaamNyMHRmLVZUQ0xWbFRGOUJnOVZHVHNRbWRYQ3ZaaUdDX0VjWWItWXpyRS1ONkZINEJNamotSkM1TERaZUw2c3BZNmQ5cFRGRkxVMzBSc1VCd1RQWkhkVzc3Qm5fREJzWTNtdEY3UnVjVTJhWHlZQQ?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc?oc=5",
             "source": "CISA"
           }
         ],
         "link_sources": [
           "CISA"
         ],
-        "first_seen": "2026-11-16T22:15:58Z",
-        "last_seen": "2026-11-16T22:15:58Z",
+        "first_seen": "2026-11-17T08:04:10Z",
+        "last_seen": "2026-11-17T08:04:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3966,19 +3921,19 @@
   "last_valid": {
     "econ": {
       "score": 35.7,
-      "as_of": "2026-11-16T22:15:58Z"
+      "as_of": "2026-11-17T08:04:10Z"
     },
     "geo": {
-      "score": 63.8,
-      "as_of": "2026-11-16T22:15:58Z"
+      "score": 68.0,
+      "as_of": "2026-11-17T08:04:10Z"
     },
     "nat": {
       "score": 30.0,
-      "as_of": "2026-11-16T22:15:58Z"
+      "as_of": "2026-11-17T08:04:10Z"
     },
     "bio_infra": {
-      "score": 60.1,
-      "as_of": "2026-11-16T22:15:58Z"
+      "score": 59.3,
+      "as_of": "2026-11-17T08:04:10Z"
     }
   },
   "econ_indicators": {
@@ -3987,23 +3942,23 @@
       "change_pct": 15.01,
       "drawdown_pct": -26.22,
       "last_date": "2026-11-16",
-      "as_of": "2026-11-16T22:15:58Z",
+      "as_of": "2026-11-17T08:04:10Z",
       "provider": "yfinance"
     },
     "brent": {
       "last": 91.83999633789062,
-      "change_pct": -0.79,
+      "change_pct": 0.38,
       "drawdown_pct": -22.4,
-      "last_date": "2026-11-16",
-      "as_of": "2026-11-16T22:15:58Z",
+      "last_date": "2026-11-17",
+      "as_of": "2026-11-17T08:04:10Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3859.0,
-      "change_pct": -6.21,
-      "drawdown_pct": -27.44,
-      "last_date": "2026-11-16",
-      "as_of": "2026-11-16T22:15:58Z",
+      "last": 3875.10009765625,
+      "change_pct": -3.85,
+      "drawdown_pct": -27.14,
+      "last_date": "2026-11-17",
+      "as_of": "2026-11-17T08:04:10Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -4011,7 +3966,7 @@
       "change_pct": -1.77,
       "drawdown_pct": -5.15,
       "last_date": "2026-11-16",
-      "as_of": "2026-11-16T22:15:58Z",
+      "as_of": "2026-11-17T08:04:10Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4019,7 +3974,7 @@
       "change_pct": -3.77,
       "drawdown_pct": -35.32,
       "last_date": "2026-11-16",
-      "as_of": "2026-11-16T22:15:58Z",
+      "as_of": "2026-11-17T08:04:10Z",
       "provider": "yfinance"
     }
   },
@@ -4027,28 +3982,33 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "5f7fc1750f3585bb",
+    "events_hash": "b9e2efab61961dad",
     "event_ids": [
       "bio_infra:global_outage:be92ee8672",
-      "bio_infra:global_outage:f57196f24b",
       "bio_infra:high_consequence:08ddd752fb",
       "gdacs:TC1001351",
+      "geo:chokepoint:2ccc9c3da2",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:afa09db868",
       "geo:chokepoint:ed9a73c4e5",
+      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a"
     ],
     "econ_score": 35.7,
     "summary": {
-      "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันได้รับผลกระทบจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางที่มีความขัดแย้ง การโจมตีด้วยขีปนาวุธ และความกังวลเกี่ยวกับเส้นทางเดินเรือที่สำคัญ นอกจากนี้ การหยุดชะงักของโครงสร้างพื้นฐานที่สำคัญ เช่น บริการเทคโนโลยีระดับโลก และการระบาดของโรคหลายชนิด ก็เป็นปัจจัยเสริมในสภาพแวดล้อมความเสี่ยงที่ซับซ้อนนี้",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งมีเหตุการณ์เรือบรรทุกน้ำมันและขีปนาวุธโจมตี รวมถึงการหยุดชะงักของโครงสร้างพื้นฐานดิจิทัลที่สำคัญทั่วโลก",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และมีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ยังมีรายงานว่าอิหร่านกำลังสร้างคลังแสงขีปนาวุธขึ้นใหม่และมีความเป็นไปได้ที่ฮิซบอลเลาะห์จะเข้าร่วมความขัดแย้ง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "เหตุการณ์ที่เกี่ยวข้องกับเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและการโจมตีด้วยขีปนาวุธ/โดรนในภูมิภาค รวมถึงรายงานเกี่ยวกับความขัดแย้งที่อาจขยายวงกว้าง บ่งชี้ถึงความเสี่ยงที่เพิ่มขึ้นของการบานปลาย",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
               "source": "gulfnews.com"
@@ -4056,18 +4016,14 @@
             {
               "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
               "source": "omanobserver.om"
-            },
-            {
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-              "source": "theyeshivaworld.com"
             }
           ]
         },
         {
-          "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญ",
+          "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลทั่วโลก",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการล่มทั่วโลกตลอดทั้งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่เชื่อมโยงกัน",
+          "evidence_summary": "การหยุดชะงักของบริการ Microsoft ทั่วโลกเป็นเวลาหนึ่งวัน ซึ่งรวมถึง Outlook และ Teams แสดงให้เห็นถึงศักยภาพของการหยุดชะงักในวงกว้างจากความล้มเหลวของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -4080,10 +4036,10 @@
           ]
         },
         {
-          "title": "การอุบัติและการแพร่กระจายของโรคที่มีผลกระทบรุนแรง",
+          "title": "ภัยคุกคามจากการระบาดของโรคอย่างต่อเนื่อง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิด รวมถึงอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
+          "evidence_summary": "การระบาดครั้งใหม่ของอีโบลาในหลายประเทศในแอฟริกา ไข้เหลืองในภูมิภาคแอฟริกาของ WHO และไวรัส Shamonda ในฝรั่งเศส เน้นย้ำถึงความเสี่ยงต่อเนื่องของโรคที่มีผลกระทบรุนแรง",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4101,17 +4057,21 @@
         }
       ],
       "local_notes_th": [
-        "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
-        "พายุหมุนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้มในอินเดีย โดยมีประชากร 20.826 ล้านคนอยู่ในพื้นที่พายุโซนร้อน"
+        "มีรายงานการระบาดของโรคเมอร์สในกาตาร์",
+        "พายุไซโคลนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้ม โดยมีประชากร 16.134 ล้านคนในอินเดียได้รับผลกระทบจากลมระดับพายุโซนร้อน"
       ],
-      "executive_summary_en": "The global risk landscape is currently shaped by heightened geopolitical tensions, particularly in the Middle East with ongoing conflicts, missile strikes, and concerns over critical shipping chokepoints. Concurrently, significant infrastructure disruptions, such as a widespread global outage of major tech services, and multiple disease outbreaks contribute to the complex risk environment.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, marked by shipping incidents and missile strikes, alongside significant global outages of critical digital infrastructure.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflict in the Middle East",
+          "title": "Escalating Geopolitical Tensions in the Middle East",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, Iran claimed a drone attack in Bahrain, and a tanker was reportedly hit by a naval mine. There are also reports of Iran rebuilding its missile arsenal and the potential for Hezbollah to join a conflict.",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "Incidents involving tankers in the Strait of Hormuz and missile/drone attacks in the region, coupled with reports of potential wider conflict, indicate a heightened risk of escalation.",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
               "source": "gulfnews.com"
@@ -4119,18 +4079,14 @@
             {
               "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
               "source": "omanobserver.om"
-            },
-            {
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-              "source": "theyeshivaworld.com"
             }
           ]
         },
         {
-          "title": "Critical Infrastructure Vulnerabilities",
+          "title": "Vulnerability of Global Digital Infrastructure",
           "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the fragility of interconnected digital infrastructure.",
+          "evidence_summary": "A recent day-long global outage of Microsoft services, including Outlook and Teams, demonstrates the potential for widespread disruption from critical digital infrastructure failures.",
           "refs": [
             {
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -4143,10 +4099,10 @@
           ]
         },
         {
-          "title": "Emergence and Spread of High-Consequence Diseases",
+          "title": "Persistent Threat of Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Multiple disease outbreaks have been reported, including Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, Yellow fever in the WHO African Region, and Shamonda virus in France.",
+          "evidence_summary": "New outbreaks of Ebola in multiple African countries, Yellow fever in the WHO African Region, and Shamonda virus in France highlight the ongoing risk of high-consequence diseases.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4164,12 +4120,12 @@
         }
       ],
       "local_notes_en": [
-        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar.",
-        "Tropical cyclone AKVAN-26 has an orange notification in India, with 20.826 million people in the Tropical Storm area."
+        "A MERS outbreak has been reported in Qatar.",
+        "Tropical cyclone AKVAN-26 has been issued an orange notification, affecting 16.134 million people in India with tropical storm-level winds."
       ]
     },
-    "generated_at": "2026-11-16T22:15:58Z"
+    "generated_at": "2026-11-17T08:04:10Z"
   },
-  "updated_at": "2026-11-16T22:15:58Z",
+  "updated_at": "2026-11-17T08:04:10Z",
   "version": 1
 }

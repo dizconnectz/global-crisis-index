@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T22:15:58Z",
-  "global_score": 48,
+  "generated_at": "2026-11-17T08:04:10Z",
+  "global_score": 50,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,11 +11,11 @@
     "color": "orange"
   },
   "formula": {
-    "base": 48.34,
+    "base": 49.69,
     "boost": 0.0,
     "cross_confirmed": false,
-    "max1": 63.8,
-    "max2": 60.1,
+    "max1": 68.0,
+    "max2": 59.3,
     "max1_pillar": "geo"
   },
   "pillars": {
@@ -48,18 +48,18 @@
           "value": 91.84,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-0.8% (5 วันทำการ)",
-          "hint_en": "-0.8% (5 trading days)"
+          "hint": "+0.4% (5 วันทำการ)",
+          "hint_en": "+0.4% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3859.0,
+          "value": 3875.1,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-6.2% (5 วันทำการ)",
-          "hint_en": "-6.2% (5 trading days)"
+          "hint": "-3.9% (5 วันทำการ)",
+          "hint_en": "-3.9% (5 trading days)"
         },
         {
           "key": "spx",
@@ -108,11 +108,11 @@
           "ticker": "BZ=F",
           "weight": 0.25,
           "value": 91.84,
-          "change_pct": -0.79,
+          "change_pct": 0.38,
           "drawdown_pct": -22.4,
           "score": 32.3,
           "status": "ok",
-          "last_date": "2026-11-16",
+          "last_date": "2026-11-17",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3859.0,
-          "change_pct": -6.21,
-          "drawdown_pct": -27.44,
+          "value": 3875.1,
+          "change_pct": -3.85,
+          "drawdown_pct": -27.14,
           "score": 5.0,
           "status": "ok",
-          "last_date": "2026-11-16",
+          "last_date": "2026-11-17",
           "provider": "yfinance"
         },
         {
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 63.8,
+      "score": 68.0,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -178,6 +178,42 @@
       "note": null,
       "top_events": [
         {
+          "id": "geo:chokepoint:2ccc9c3da2",
+          "pillar": "geo",
+          "category": "chokepoint",
+          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+          "category_en": "Shipping chokepoint threat",
+          "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+          "severity": 85.0,
+          "score": 51.0,
+          "countries": [
+            "iraq",
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-17T08:04:10Z",
+          "last_seen": "2026-11-17T08:04:10Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:missile_strike:8dfd5ff85f",
           "pillar": "geo",
           "category": "missile_strike",
@@ -185,7 +221,7 @@
           "category_en": "Air / missile strikes",
           "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
           "severity": 55.0,
-          "score": 45.7,
+          "score": 42.8,
           "countries": [
             "saudi arabia",
             "yemen",
@@ -236,7 +272,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
           "severity": 85.0,
-          "score": 42.4,
+          "score": 39.7,
           "countries": [
             "iran",
             "israel"
@@ -265,6 +301,45 @@
           "raw_score": null
         },
         {
+          "id": "geo:missile_strike:73ae71ea05",
+          "pillar": "geo",
+          "category": "missile_strike",
+          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+          "category_en": "Air / missile strikes",
+          "title": "Iran war live: Bahrain says intercepted Iranian drones, IRGC claims attack",
+          "severity": 55.0,
+          "score": 33.0,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Al Jazeera",
+            "BBC World",
+            "Reuters (Google News)",
+            "wthitv.com",
+            "ynetnews.com"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss"
+          ],
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ],
+          "link_sources": [
+            "Al Jazeera"
+          ],
+          "first_seen": "2026-11-03T06:56:57Z",
+          "last_seen": "2026-11-17T08:04:10Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
           "id": "geo:chokepoint:73ae71ea05",
           "pillar": "geo",
           "category": "chokepoint",
@@ -272,7 +347,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
           "severity": 85.0,
-          "score": 33.1,
+          "score": 31.0,
           "countries": [
             "iran"
           ],
@@ -300,81 +375,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "geo:chokepoint:afa09db868",
-          "pillar": "geo",
-          "category": "chokepoint",
-          "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-          "category_en": "Shipping chokepoint threat",
-          "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
-          "severity": 85.0,
-          "score": 33.1,
-          "countries": [
-            "united states"
-          ],
-          "sources": [
-            "Al Jazeera"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-              "source": "Al Jazeera"
-            }
-          ],
-          "link_sources": [
-            "Al Jazeera"
-          ],
-          "first_seen": "2026-11-14T06:38:49Z",
-          "last_seen": "2026-11-14T06:38:49Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
-        },
-        {
-          "id": "geo:missile_strike:a59ee23b9a",
-          "pillar": "geo",
-          "category": "missile_strike",
-          "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-          "category_en": "Air / missile strikes",
-          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-          "severity": 55.0,
-          "score": 33.0,
-          "countries": [
-            "russia",
-            "ukraine"
-          ],
-          "sources": [
-            "Al Jazeera",
-            "BBC World",
-            "dailyadvance.com",
-            "durangoherald.com",
-            "timesofindia.indiatimes.com"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
-          ],
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            }
-          ],
-          "link_sources": [
-            "BBC World"
-          ],
-          "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-16T22:15:58Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -382,7 +382,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 90,
+          "value": 89,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -392,7 +392,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 0,
+          "value": 1,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -402,7 +402,7 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 74,
+          "value": 73,
           "unit": "ชิ้น",
           "unit_en": "articles",
           "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
@@ -456,7 +456,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 181,
+          "value": 163,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -467,7 +467,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 60.1,
+      "score": 59.3,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -505,7 +505,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-16T22:15:58Z",
+          "last_seen": "2026-11-17T08:04:10Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -519,7 +519,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
           "severity": 70.0,
-          "score": 32.1,
+          "score": 30.1,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -552,7 +552,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft says services fully restored after day-long global outage",
           "severity": 70.0,
-          "score": 30.4,
+          "score": 28.5,
           "countries": [],
           "sources": [
             "BBC World"
@@ -585,7 +585,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
           "severity": 70.0,
-          "score": 27.3,
+          "score": 25.5,
           "countries": [],
           "sources": [
             "BBC World"
@@ -618,7 +618,7 @@
           "category_en": "Multi-country system outage",
           "title": "Microsoft services begin recovering after global outage",
           "severity": 70.0,
-          "score": 27.3,
+          "score": 25.5,
           "countries": [],
           "sources": [
             "Al Jazeera"
@@ -683,10 +683,10 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 63.8,
-      "contribution": 22.3,
-      "headline": "การโจมตีทางอากาศ/ขีปนาวุธ: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
-      "headline_en": "Air / missile strikes: Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack"
+      "score": 68.0,
+      "contribution": 23.8,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+      "headline_en": "Shipping chokepoint threat: Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field"
     },
     {
       "pillar": "econ",
@@ -701,21 +701,25 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 60.1,
-      "contribution": 9.0,
+      "score": 59.3,
+      "contribution": 8.9,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "ภูมิทัศน์ความเสี่ยงทั่วโลกในปัจจุบันได้รับผลกระทบจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางที่มีความขัดแย้ง การโจมตีด้วยขีปนาวุธ และความกังวลเกี่ยวกับเส้นทางเดินเรือที่สำคัญ นอกจากนี้ การหยุดชะงักของโครงสร้างพื้นฐานที่สำคัญ เช่น บริการเทคโนโลยีระดับโลก และการระบาดของโรคหลายชนิด ก็เป็นปัจจัยเสริมในสภาพแวดล้อมความเสี่ยงที่ซับซ้อนนี้",
+    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งมีเหตุการณ์เรือบรรทุกน้ำมันและขีปนาวุธโจมตี รวมถึงการหยุดชะงักของโครงสร้างพื้นฐานดิจิทัลที่สำคัญทั่วโลก",
     "early_warnings_th": [
       {
-        "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
         "signal_strength": "ปานกลาง",
-        "timeframe": "1-3 เดือน",
-        "evidence_summary": "ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตีที่มุ่งเป้าไปยังริยาด ขณะที่อิหร่านอ้างว่ามีการโจมตีด้วยโดรนในบาห์เรน และมีรายงานว่าเรือบรรทุกน้ำมันถูกโจมตีด้วยทุ่นระเบิดทางทะเล นอกจากนี้ยังมีรายงานว่าอิหร่านกำลังสร้างคลังแสงขีปนาวุธขึ้นใหม่และมีความเป็นไปได้ที่ฮิซบอลเลาะห์จะเข้าร่วมความขัดแย้ง",
+        "timeframe": "1-4 สัปดาห์",
+        "evidence_summary": "เหตุการณ์ที่เกี่ยวข้องกับเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและการโจมตีด้วยขีปนาวุธ/โดรนในภูมิภาค รวมถึงรายงานเกี่ยวกับความขัดแย้งที่อาจขยายวงกว้าง บ่งชี้ถึงความเสี่ยงที่เพิ่มขึ้นของการบานปลาย",
         "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
           {
             "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
             "source": "gulfnews.com"
@@ -723,18 +727,14 @@
           {
             "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
             "source": "omanobserver.om"
-          },
-          {
-            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-            "source": "theyeshivaworld.com"
           }
         ]
       },
       {
-        "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญ",
+        "title": "ความเปราะบางของโครงสร้างพื้นฐานดิจิทัลทั่วโลก",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "ไมโครซอฟต์ประสบปัญหาบริการล่มทั่วโลกตลอดทั้งวัน ซึ่งส่งผลกระทบต่อบริการต่างๆ เช่น Outlook และ Teams เน้นย้ำถึงความเปราะบางของโครงสร้างพื้นฐานดิจิทัลที่เชื่อมโยงกัน",
+        "evidence_summary": "การหยุดชะงักของบริการ Microsoft ทั่วโลกเป็นเวลาหนึ่งวัน ซึ่งรวมถึง Outlook และ Teams แสดงให้เห็นถึงศักยภาพของการหยุดชะงักในวงกว้างจากความล้มเหลวของโครงสร้างพื้นฐานดิจิทัลที่สำคัญ",
         "refs": [
           {
             "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -747,10 +747,10 @@
         ]
       },
       {
-        "title": "การอุบัติและการแพร่กระจายของโรคที่มีผลกระทบรุนแรง",
+        "title": "ภัยคุกคามจากการระบาดของโรคอย่างต่อเนื่อง",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิด รวมถึงอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ไข้เหลืองในภูมิภาคแอฟริกาขององค์การอนามัยโลก และไวรัสชามอนดาในฝรั่งเศส",
+        "evidence_summary": "การระบาดครั้งใหม่ของอีโบลาในหลายประเทศในแอฟริกา ไข้เหลืองในภูมิภาคแอฟริกาของ WHO และไวรัส Shamonda ในฝรั่งเศส เน้นย้ำถึงความเสี่ยงต่อเนื่องของโรคที่มีผลกระทบรุนแรง",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -768,17 +768,21 @@
       }
     ],
     "local_notes_th": [
-      "มีการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
-      "พายุหมุนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้มในอินเดีย โดยมีประชากร 20.826 ล้านคนอยู่ในพื้นที่พายุโซนร้อน"
+      "มีรายงานการระบาดของโรคเมอร์สในกาตาร์",
+      "พายุไซโคลนเขตร้อน AKVAN-26 ได้รับการแจ้งเตือนระดับสีส้ม โดยมีประชากร 16.134 ล้านคนในอินเดียได้รับผลกระทบจากลมระดับพายุโซนร้อน"
     ],
-    "executive_summary_en": "The global risk landscape is currently shaped by heightened geopolitical tensions, particularly in the Middle East with ongoing conflicts, missile strikes, and concerns over critical shipping chokepoints. Concurrently, significant infrastructure disruptions, such as a widespread global outage of major tech services, and multiple disease outbreaks contribute to the complex risk environment.",
+    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions in the Middle East, marked by shipping incidents and missile strikes, alongside significant global outages of critical digital infrastructure.",
     "early_warnings_en": [
       {
-        "title": "Escalating Geopolitical Conflict in the Middle East",
+        "title": "Escalating Geopolitical Tensions in the Middle East",
         "signal_strength": "ปานกลาง",
-        "timeframe": "1-3 months",
-        "evidence_summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh, Iran claimed a drone attack in Bahrain, and a tanker was reportedly hit by a naval mine. There are also reports of Iran rebuilding its missile arsenal and the potential for Hezbollah to join a conflict.",
+        "timeframe": "1-4 weeks",
+        "evidence_summary": "Incidents involving tankers in the Strait of Hormuz and missile/drone attacks in the region, coupled with reports of potential wider conflict, indicate a heightened risk of escalation.",
         "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
           {
             "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
             "source": "gulfnews.com"
@@ -786,18 +790,14 @@
           {
             "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
             "source": "omanobserver.om"
-          },
-          {
-            "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-            "source": "theyeshivaworld.com"
           }
         ]
       },
       {
-        "title": "Critical Infrastructure Vulnerabilities",
+        "title": "Vulnerability of Global Digital Infrastructure",
         "signal_strength": "เฝ้าระวัง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Microsoft experienced a day-long global outage affecting services like Outlook and Teams, highlighting the fragility of interconnected digital infrastructure.",
+        "evidence_summary": "A recent day-long global outage of Microsoft services, including Outlook and Teams, demonstrates the potential for widespread disruption from critical digital infrastructure failures.",
         "refs": [
           {
             "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
@@ -810,10 +810,10 @@
         ]
       },
       {
-        "title": "Emergence and Spread of High-Consequence Diseases",
+        "title": "Persistent Threat of Disease Outbreaks",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "Multiple disease outbreaks have been reported, including Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, Yellow fever in the WHO African Region, and Shamonda virus in France.",
+        "evidence_summary": "New outbreaks of Ebola in multiple African countries, Yellow fever in the WHO African Region, and Shamonda virus in France highlight the ongoing risk of high-consequence diseases.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -831,12 +831,12 @@
       }
     ],
     "local_notes_en": [
-      "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar.",
-      "Tropical cyclone AKVAN-26 has an orange notification in India, with 20.826 million people in the Tropical Storm area."
+      "A MERS outbreak has been reported in Qatar.",
+      "Tropical cyclone AKVAN-26 has been issued an orange notification, affecting 16.134 million people in India with tropical storm-level winds."
     ],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-16T22:15:58Z"
+    "generated_at": "2026-11-17T08:04:10Z"
   },
   "local_events": [
     {
@@ -868,7 +868,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-16T22:15:58Z",
+      "last_seen": "2026-11-17T08:04:10Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -880,8 +880,8 @@
       "category": "gdacs_tc",
       "category_th": "พายุหมุนเขตร้อน",
       "category_en": "Tropical cyclone",
-      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (20.826 million in Tropical Storm).",
-      "severity": 44.3,
+      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (16.134 million in Tropical Storm).",
+      "severity": 41.5,
       "score": 30,
       "countries": [
         "India"
@@ -907,7 +907,7 @@
       "is_local": true,
       "location": "India",
       "location_en": "India",
-      "raw_score": 44.3
+      "raw_score": 41.5
     }
   ],
   "data_status": {
@@ -919,9 +919,9 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:16:01Z",
+        "fetched_at": "2026-11-17T08:04:11Z",
         "items": 5,
-        "data_as_of": "2026-11-16",
+        "data_as_of": "2026-11-17",
         "error": null,
         "note": null,
         "optional": false
@@ -930,7 +930,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-16T22:16:14Z",
+        "fetched_at": "2026-11-17T08:04:21Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -941,9 +941,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:15:58Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
         "items": 21,
-        "data_as_of": "2026-11-16T21:40:07Z",
+        "data_as_of": "2026-11-17T08:02:27Z",
         "error": null,
         "note": null,
         "optional": false
@@ -952,9 +952,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:15:58Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
         "items": 25,
-        "data_as_of": "2026-11-16T21:35:51Z",
+        "data_as_of": "2026-11-17T07:36:21Z",
         "error": null,
         "note": null,
         "optional": false
@@ -963,9 +963,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:15:58Z",
-        "items": 28,
-        "data_as_of": "2026-11-16T20:51:44Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
+        "items": 27,
+        "data_as_of": "2026-11-17T07:00:00Z",
         "error": null,
         "note": null,
         "optional": false
@@ -974,9 +974,9 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:15:58Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
         "items": 1,
-        "data_as_of": "2026-11-16T21:11:17Z",
+        "data_as_of": "2026-11-16T21:11:20Z",
         "error": null,
         "note": null,
         "optional": false
@@ -985,9 +985,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:16:01Z",
-        "items": 216,
-        "data_as_of": "2026-11-16T21:26:52Z",
+        "fetched_at": "2026-11-17T08:04:11Z",
+        "items": 189,
+        "data_as_of": "2026-11-17T07:43:35Z",
         "error": null,
         "note": null,
         "optional": false
@@ -996,7 +996,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:15:58Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
         "items": 20,
         "data_as_of": "2026-11-13T19:00:00Z",
         "error": null,
@@ -1007,9 +1007,9 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-16T22:16:00Z",
-        "items": 46,
-        "data_as_of": "2026-11-16T12:00:00Z",
+        "fetched_at": "2026-11-17T08:04:10Z",
+        "items": 45,
+        "data_as_of": "2026-11-17T07:35:36Z",
         "error": null,
         "note": "google_news_fallback",
         "optional": false
