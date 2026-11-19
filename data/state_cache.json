@@ -9,11 +9,10 @@
         "category_en": "Armed conflict",
         "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.3,
         "countries": [
           "ukraine",
-          "russia",
-          "china"
+          "russia"
         ],
         "sources": [
           "Al Jazeera",
@@ -25,27 +24,21 @@
           "freerepublic.com",
           "idahopress.com"
         ],
-        "article_count": 3,
+        "article_count": 2,
         "links": [
-          "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday?traffic_source=rss"
+          "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday?traffic_source=rss",
-            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World",
-          "Al Jazeera"
+          "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -59,7 +52,7 @@
         "category_en": "Armed conflict",
         "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.3,
         "countries": [
           "israel",
           "palestine"
@@ -68,27 +61,21 @@
           "Al Jazeera",
           "BBC World"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
-            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World",
-          "Al Jazeera"
+          "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -127,7 +114,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -160,7 +147,81 @@
           "BBC World"
         ],
         "first_seen": "2026-11-18T20:39:47Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:dd01598568": {
+        "id": "geo:coup_unrest:dd01598568",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [
+          "russia",
+          "china",
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "manilatimes.net"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -200,43 +261,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-18T20:39:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:coup_unrest:dd01598568": {
-        "id": "geo:coup_unrest:dd01598568",
-        "pillar": "geo",
-        "category": "coup_unrest",
-        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
-        "category_en": "Coup / political unrest",
-        "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [
-          "russia",
-          "china",
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-18T20:39:47Z",
         "last_seen": "2026-11-18T20:39:47Z",
         "is_local": false,
         "location": null,
@@ -1658,43 +1682,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Iran war live: Tehran says tanker hit naval mine, caught fire",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-14T06:38:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:afa09db868": {
         "id": "geo:chokepoint:afa09db868",
         "pillar": "geo",
@@ -2341,42 +2328,6 @@
         ],
         "first_seen": "2026-11-11T19:41:47Z",
         "last_seen": "2026-11-11T19:41:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:38384a8522": {
-        "id": "geo:conflict:38384a8522",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
-        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3196,7 +3147,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3231,7 +3182,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3267,7 +3218,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3303,7 +3254,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3336,7 +3287,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3369,7 +3320,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3402,7 +3353,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3435,7 +3386,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3468,7 +3419,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3501,7 +3452,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3534,7 +3485,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3567,7 +3518,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3600,7 +3551,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3633,7 +3584,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3666,7 +3617,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3699,7 +3650,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3732,7 +3683,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3765,7 +3716,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3800,7 +3751,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T20:39:47Z",
+        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -4246,102 +4197,66 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:cyber_incident:c705264ec3": {
-        "id": "bio_infra:cyber_incident:c705264ec3",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "Italian foreign minister says hackers leaked his personal data",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-07T13:14:34Z",
-        "last_seen": "2026-11-09T06:48:20Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 40.2,
-      "as_of": "2026-11-18T20:39:47Z"
+      "score": 40.4,
+      "as_of": "2026-11-19T07:36:06Z"
     },
     "geo": {
-      "score": 57.5,
-      "as_of": "2026-11-18T20:39:47Z"
+      "score": 66.0,
+      "as_of": "2026-11-19T07:36:06Z"
     },
     "nat": {
       "score": 30.0,
-      "as_of": "2026-11-18T20:39:47Z"
+      "as_of": "2026-11-19T07:36:06Z"
     },
     "bio_infra": {
       "score": 57.6,
-      "as_of": "2026-11-18T20:39:47Z"
+      "as_of": "2026-11-19T07:36:06Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 24.799999237060547,
-      "change_pct": 41.8,
-      "drawdown_pct": -20.13,
+      "last": 24.559999465942383,
+      "change_pct": 40.42,
+      "drawdown_pct": -20.9,
       "last_date": "2026-11-18",
-      "as_of": "2026-11-18T20:39:47Z",
+      "as_of": "2026-11-19T07:36:06Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 88.87000274658203,
-      "change_pct": -4.19,
-      "drawdown_pct": -24.91,
-      "last_date": "2026-11-18",
-      "as_of": "2026-11-18T20:39:47Z",
+      "last": 89.5999984741211,
+      "change_pct": -6.49,
+      "drawdown_pct": -24.29,
+      "last_date": "2026-11-19",
+      "as_of": "2026-11-19T07:36:06Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3728.39990234375,
-      "change_pct": -6.8,
-      "drawdown_pct": -29.9,
-      "last_date": "2026-11-18",
-      "as_of": "2026-11-18T20:39:47Z",
+      "last": 3740.800048828125,
+      "change_pct": -3.72,
+      "drawdown_pct": -29.66,
+      "last_date": "2026-11-19",
+      "as_of": "2026-11-19T07:36:06Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7325.43994140625,
-      "change_pct": -3.86,
-      "drawdown_pct": -6.31,
+      "last": 7323.6298828125,
+      "change_pct": -3.88,
+      "drawdown_pct": -6.33,
       "last_date": "2026-11-18",
-      "as_of": "2026-11-18T20:39:47Z",
+      "as_of": "2026-11-19T07:36:06Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 141.38999938964844,
-      "change_pct": -9.02,
-      "drawdown_pct": -35.24,
+      "last": 141.85000610351562,
+      "change_pct": -8.72,
+      "drawdown_pct": -35.03,
       "last_date": "2026-11-18",
-      "as_of": "2026-11-18T20:39:47Z",
+      "as_of": "2026-11-19T07:36:06Z",
       "provider": "yfinance"
     }
   },
@@ -4349,142 +4264,131 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "4759a8b57ca72770",
+    "events_hash": "70b17ff330ea7e4d",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "gdacs:TC1001351",
       "geo:chokepoint:2ccc9c3da2",
-      "geo:chokepoint:ed9a73c4e5",
+      "geo:chokepoint:73ae71ea05",
       "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a59ee23b9a",
-      "geo:missile_strike:e2c2b01abc"
+      "geo:missile_strike:a59ee23b9a"
     ],
-    "econ_score": 40.2,
+    "econ_score": 40.4,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันได้รับแรงผลักดันจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่มีภัยคุกคามต่อเส้นทางเดินเรือและการโจมตีด้วยขีปนาวุธ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน นอกจากนี้ ยังมีความกังวลด้านสาธารณสุขที่สำคัญจากการระบาดของโรคอีโบลาที่มีผลกระทบร้ายแรงและโรคติดเชื้ออื่น ๆ ในขณะที่ตลาดการเงินแสดงความผันผวนสูงและภาวะตลาดตกต่ำในวงกว้าง",
+      "executive_summary_th": "สถานการณ์ความเสี่ยงทั่วโลกในปัจจุบันถูกขับเคลื่อนด้วยความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางที่มีภัยคุกคามต่อเส้นทางเดินเรือและการโจมตีด้วยขีปนาวุธ ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ ขณะเดียวกัน ตลาดการเงินกำลังเผชิญกับความผันผวนที่เพิ่มขึ้นและการปรับตัวลดลงในวงกว้าง ในขณะที่โครงสร้างพื้นฐานที่สำคัญเผชิญกับภัยคุกคามจากเหตุการณ์ทางไซเบอร์และการระบาดของโรคในวงกว้าง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อการเดินเรือในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
-          "signal_strength": "เฝ้าระวัง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นและภัยคุกคามต่อเส้นทางเดินเรือ",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตี และคูเวตขับไล่การโจมตีของอิหร่าน ซึ่งบ่งชี้ถึงความไม่มั่นคงในภูมิภาคที่เพิ่มขึ้น",
+          "evidence_summary": "เหตุการณ์หลายครั้งในช่องแคบฮอร์มุซ รวมถึงการโจมตีเรือบรรทุกน้ำมันและภัยคุกคามจากการปิดล้อมของสหรัฐฯ ต่ออิหร่าน ควบคู่ไปกับการโจมตีด้วยขีปนาวุธในตะวันออกกลางและการพังทลายของสะพานไครเมีย บ่งชี้ถึงความเสี่ยงที่เพิ่มขึ้นของความขัดแย้งในภูมิภาคและการหยุดชะงักของการขนส่งทั่วโลก",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-              "source": "gulfnews.com"
-            },
-            {
-              "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-              "source": "omanobserver.om"
+              "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคร้ายแรง: ภัยคุกคามจากอีโบลา",
+          "title": "ความผันผวนของตลาดที่เพิ่มขึ้นและความเสี่ยงต่อภาวะเศรษฐกิจถดถอย",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "ดัชนีความผันผวน VIX พุ่งสูงขึ้นอย่างมีนัยสำคัญ ควบคู่ไปกับการลดลงในวงกว้างของดัชนีตลาดหลัก เช่น S&P 500 และภาคส่วนเซมิคอนดักเตอร์ ซึ่งบ่งชี้ถึงความไม่แน่นอนของนักลงทุนที่เพิ่มขึ้นและศักยภาพในการหดตัวทางเศรษฐกิจเพิ่มเติม",
+          "refs": []
+        },
+        {
+          "title": "ความเปราะบางของโครงสร้างพื้นฐานที่สำคัญและภัยคุกคามต่อสาธารณสุข",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาสายพันธุ์ Bundibugyo ที่มีผลกระทบร้ายแรงในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
+          "evidence_summary": "การหยุดชะงักของระบบทั่วโลกที่ส่งผลกระทบต่อบริการหลัก เช่น Microsoft Outlook และ Teams ควบคู่ไปกับคำเตือนเกี่ยวกับช่องโหว่ของซอฟต์แวร์ Java ที่สำคัญ เน้นย้ำถึงความเปราะบางทางไซเบอร์ที่สำคัญ ในขณะที่การระบาดของโรคที่มีผลกระทบร้ายแรง เช่น อีโบลาและไวรัสอื่น ๆ ก่อให้เกิดความเสี่ยงต่อสาธารณสุขอย่างต่อเนื",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ความเสี่ยงด้านความปลอดภัยทางไซเบอร์และการหยุดชะงักของระบบที่เพิ่มขึ้น",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "รัฐบาลได้เตือนถึงช่องโหว่ของ Java ที่ทำให้ระบบคอมพิวเตอร์เสี่ยงต่อการถูกแฮกเกอร์โจมตี หลังจากเกิดเหตุการณ์บริการของ Microsoft เช่น Outlook และ Teams หยุดชะงักทั่วโลก",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRE5uQWVHVHVQV19VTmJrT29QT1lKV0xQQzhUZWp6Wk5aSWZCV3ZKbHNKZ3NBMmlhYzNsT1J6V1AxQjBxR2QzWWk2ODlfaTBEU1JCLXFVWE1adHFQU0M2Rk1fZXhYYzQ5bmczU1lyWHc5WjNFVi1SLXF0NkJSaWlMQUNGdmZfX1ZETWtxZ05UUER6VVpxRDZBaUkzUTZMSGRsWVRacEJkSTUxYkRyeVc2dGJvWUpSNVNPbGc?oc=5",
-              "source": "Reuters (Google News)"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+              "source": "WHO DON"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "กาตาร์กำลังเผชิญกับการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS)",
-        "รัฐบาลสหรัฐฯ กำลังเร่งให้เสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบติดตามห่วงโซ่ความเย็นเพื่อป้องกันเหตุการณ์ทางไซเบอร์",
-        "อินเดียมีการแจ้งเตือนระดับสีส้มสำหรับพายุไซโคลนเขตร้อน AKVAN-26 ซึ่งส่งผลกระทบต่อประชากรจำนวนมากในระดับพายุโซนร้อน"
+        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์",
+        "หน่วยงานรัฐบาลสหรัฐฯ กระตุ้นให้เสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบตรวจสอบห่วงโซ่ความเย็น",
+        "มีการแจ้งเตือนระดับสีส้มสำหรับพายุไซโคลน AKVAN-26 ในอินเดีย โดยมีประชากร 39.362 ล้านคนอยู่ในพื้นที่พายุโซนร้อน"
       ],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with shipping chokepoint threats and missile strikes, alongside ongoing conflicts in Ukraine. Concurrently, significant public health concerns arise from a high-consequence Ebola outbreak and other infectious diseases, while financial markets exhibit high volatility and a broad downturn.",
+      "executive_summary_en": "The global risk landscape is currently dominated by escalating geopolitical tensions, particularly in the Middle East with shipping chokepoint threats and missile strikes, alongside ongoing conflicts. Concurrently, financial markets are experiencing increased volatility and broad declines, while critical infrastructure faces threats from cyber incidents and widespread disease outbreaks.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Shipping Threats in the Middle East",
-          "signal_strength": "เฝ้าระวัง",
+          "title": "Escalating Geopolitical Tensions and Shipping Chokepoint Threats",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tankers were hit in the Strait of Hormuz, Saudi Arabia intercepted Houthi missiles, and Kuwait repelled an Iranian attack, indicating heightened regional instability.",
+          "evidence_summary": "Multiple incidents in the Strait of Hormuz, including tanker hits and US blockade threats against Iran, alongside missile strikes in the Middle East and the collapse of the Crimean Bridge, indicate a heightened risk of regional conflict and disruption to global shipping.",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-              "source": "gulfnews.com"
-            },
-            {
-              "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-              "source": "omanobserver.om"
+              "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
             }
           ]
         },
         {
-          "title": "High-Consequence Disease Outbreak: Ebola Threat",
+          "title": "Increased Market Volatility and Economic Downturn Risks",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "The VIX volatility index has surged significantly, accompanied by broad declines in major market indices like the S&P 500 and the semiconductor sector, suggesting growing investor uncertainty and potential for further economic contraction.",
+          "refs": []
+        },
+        {
+          "title": "Critical Infrastructure Vulnerabilities and Public Health Threats",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "A high-consequence Ebola disease outbreak caused by Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
+          "evidence_summary": "Global system outages affecting major services like Microsoft Outlook and Teams, coupled with warnings about critical Java software flaws, highlight significant cyber vulnerabilities, while outbreaks of high-consequence diseases like Ebola and other viruses pose ongoing public health risks.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "Increased Cybersecurity Risks and System Outages",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Governments have warned about a Java flaw making computer systems vulnerable to hackers, following a global outage of Microsoft services like Outlook and Teams.",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRE5uQWVHVHVQV19VTmJrT29QT1lKV0xQQzhUZWp6Wk5aSWZCV3ZKbHNKZ3NBMmlhYzNsT1J6V1AxQjBxR2QzWWk2ODlfaTBEU1JCLXFVWE1adHFQU0M2Rk1fZXhYYzQ5bmczU1lyWHc5WjNFVi1SLXF0NkJSaWlMQUNGdmZfX1ZETWtxZ05UUER6VVpxRDZBaUkzUTZMSGRsWVRacEJkSTUxYkRyeVc2dGJvWUpSNVNPbGc?oc=5",
-              "source": "Reuters (Google News)"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+              "source": "WHO DON"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "Qatar is experiencing a Middle East respiratory syndrome (MERS) outbreak.",
-        "The US government is urging the hardening of industrial refrigeration and cold chain monitoring systems against cyber incidents.",
-        "India is under an orange notification for Tropical Cyclone AKVAN-26, affecting a significant population at tropical storm strength."
+        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar.",
+        "US government partners urge hardening industrial refrigeration and cold chain monitoring systems.",
+        "An orange notification has been issued for tropical cyclone AKVAN-26 in India, with 39.362 million people in the Tropical Storm area."
       ]
     },
-    "generated_at": "2026-11-18T20:39:47Z"
+    "generated_at": "2026-11-19T07:36:06Z"
   },
-  "updated_at": "2026-11-18T20:39:47Z",
+  "updated_at": "2026-11-19T07:36:06Z",
   "version": 1
 }
