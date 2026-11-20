@@ -9,7 +9,7 @@
         "category_en": "Armed conflict",
         "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
         "severity": 30.0,
-        "score": 20.4,
+        "score": 19.0,
         "countries": [
           "russia",
           "ukraine",
@@ -39,7 +39,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -53,7 +53,7 @@
         "category_en": "Armed conflict",
         "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.3,
         "countries": [
           "israel",
           "palestine"
@@ -62,18 +62,56 @@
           "Al Jazeera",
           "BBC World"
         ],
-        "article_count": 3,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/19/families-flee-gazas-bureij-camp-as-israel-launches-new-offensive?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:29886bc41b": {
+        "id": "geo:missile_strike:29886bc41b",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+        "severity": 55.0,
+        "score": 44.0,
+        "countries": [
+          "iran",
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/families-flee-gazas-bureij-camp-as-israel-launches-new-offensive?traffic_source=rss",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -81,8 +119,183 @@
           "BBC World",
           "Al Jazeera"
         ],
+        "first_seen": "2026-11-20T07:27:30Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "manilatimes.net"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:7a98ec2d16": {
+        "id": "geo:coup_unrest:7a98ec2d16",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "Trump nominee refuses to call Jan 6 an ‘attack’ at Senate hearing",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-nominee-refuses-to-call-jan-6-an-attack-at-senate-hearing?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-nominee-refuses-to-call-jan-6-an-attack-at-senate-hearing?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-20T07:27:30Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Haiti police say 34 gang members killed in capital raid",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:569f3a526a": {
+        "id": "geo:conflict:569f3a526a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Six killed in suspected gas explosion at Georgia apartment building",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-20T07:27:30Z",
+        "last_seen": "2026-11-20T07:27:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ab65d8b961": {
+        "id": "geo:sanctions:ab65d8b961",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Canada sees little US movement on tariff relief, sources say - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "canada"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-08T06:15:12Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -303,43 +516,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-18T20:39:47Z",
-        "last_seen": "2026-11-19T07:36:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
@@ -1535,41 +1711,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:ab65d8b961": {
-        "id": "geo:sanctions:ab65d8b961",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Canada’s Stelco to recall 175 workers after government pressure",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-08T06:15:12Z",
-        "last_seen": "2026-11-14T22:34:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:d591d87e00": {
         "id": "geo:sanctions:d591d87e00",
         "pillar": "geo",
@@ -2227,42 +2368,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:8b732e90cf": {
-        "id": "geo:conflict:8b732e90cf",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Could next week meeting of this century  Big Three  end divide - and - conquer  forever war ? – World Tribune : U . S . Politics and Culture , Geostrategy , China , North Korea , Corporate Watch , Media Watch",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "china",
-          "north korea"
-        ],
-        "sources": [
-          "worldtribune.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://worldtribune.com/could-next-weeks-meeting-of-this-centurys-big-three-end-divide-and-conquer-forever-wars/"
-        ],
-        "refs": [
-          {
-            "url": "https://worldtribune.com/could-next-weeks-meeting-of-this-centurys-big-three-end-divide-and-conquer-forever-wars/",
-            "source": "worldtribune.com"
-          }
-        ],
-        "link_sources": [
-          "worldtribune.com"
-        ],
-        "first_seen": "2026-11-12T07:22:31Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:5eac72d88e": {
         "id": "geo:sanctions:5eac72d88e",
         "pillar": "geo",
@@ -2294,75 +2399,6 @@
           "hngn.com"
         ],
         "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:81bf4f07fa": {
-        "id": "geo:conflict:81bf4f07fa",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Bridgman launches fundraising campaign for inclusive Salute the Troops Park",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "wsbt.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://wsbt.com/news/local/bridgman-launches-fundraising-campaign-for-inclusive-salute-the-troops-park"
-        ],
-        "refs": [
-          {
-            "url": "https://wsbt.com/news/local/bridgman-launches-fundraising-campaign-for-inclusive-salute-the-troops-park",
-            "source": "wsbt.com"
-          }
-        ],
-        "link_sources": [
-          "wsbt.com"
-        ],
-        "first_seen": "2026-11-12T07:22:31Z",
-        "last_seen": "2026-11-12T07:22:31Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-12T07:22:31Z",
         "is_local": false,
         "location": null,
@@ -2570,42 +2606,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:16d0facfc3": {
-        "id": "geo:sanctions:16d0facfc3",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Firms tied to West Bank settlements win $15m UK deals despite sanctions",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "palestine",
-          "united kingdom"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/10/firms-tied-to-west-bank-settlements-win-15m-uk-deals-despite-sanctions?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-10T07:28:01Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:energy_infra:8dfd5ff85f": {
         "id": "geo:energy_infra:8dfd5ff85f",
         "pillar": "geo",
@@ -2751,59 +2751,6 @@
           "foxnews.com"
         ],
         "first_seen": "2026-11-08T22:14:37Z",
-        "last_seen": "2026-11-08T22:14:37Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:2ccc9c3da2": {
-        "id": "geo:conflict:2ccc9c3da2",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Resumption of War in Iran after US Mid - Terms",
-        "severity": 30.0,
-        "score": 30.0,
-        "countries": [
-          "iran",
-          "iraq"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "foxnews.com",
-          "mg.co.za",
-          "naturalnews.com"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://mg.co.za/thought-leader/2026-11-08-resumption-of-war-in-iran-after-us-mid-terms/",
-          "https://www.naturalnews.com/2026-11-08-trump-weighs-next-move-war-with-iran.html",
-          "https://www.foxnews.com/opinion/robert-l-maginnis-iran-war-cost-republicans-congress-what-will-it-cost-america"
-        ],
-        "refs": [
-          {
-            "url": "https://mg.co.za/thought-leader/2026-11-08-resumption-of-war-in-iran-after-us-mid-terms/",
-            "source": "mg.co.za"
-          },
-          {
-            "url": "https://www.naturalnews.com/2026-11-08-trump-weighs-next-move-war-with-iran.html",
-            "source": "naturalnews.com"
-          },
-          {
-            "url": "https://www.foxnews.com/opinion/robert-l-maginnis-iran-war-cost-republicans-congress-what-will-it-cost-america",
-            "source": "foxnews.com"
-          }
-        ],
-        "link_sources": [
-          "mg.co.za",
-          "naturalnews.com",
-          "foxnews.com",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T06:57:31Z",
         "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
@@ -3117,7 +3064,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3152,7 +3099,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3188,7 +3135,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3224,7 +3171,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3257,7 +3204,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3290,7 +3237,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3323,7 +3270,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3356,7 +3303,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3389,7 +3336,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3422,7 +3369,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3455,7 +3402,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3488,7 +3435,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3521,7 +3468,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3554,7 +3501,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3587,7 +3534,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3620,7 +3567,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3653,7 +3600,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3686,7 +3633,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3719,7 +3666,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3752,7 +3699,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3785,7 +3732,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4271,61 +4218,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 46.7,
-      "as_of": "2026-11-19T20:45:23Z"
+      "score": 47.3,
+      "as_of": "2026-11-20T07:27:30Z"
     },
     "geo": {
-      "score": 62.1,
-      "as_of": "2026-11-19T20:45:23Z"
+      "score": 67.2,
+      "as_of": "2026-11-20T07:27:30Z"
     },
     "nat": {
-      "score": 12.2,
-      "as_of": "2026-11-19T20:45:23Z"
+      "score": 11.5,
+      "as_of": "2026-11-20T07:27:30Z"
     },
     "bio_infra": {
-      "score": 57.5,
-      "as_of": "2026-11-19T20:45:23Z"
+      "score": 57.4,
+      "as_of": "2026-11-20T07:27:30Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 28.40999984741211,
-      "change_pct": 51.93,
-      "drawdown_pct": -8.5,
+      "last": 28.440000534057617,
+      "change_pct": 52.09,
+      "drawdown_pct": -8.41,
       "last_date": "2026-11-19",
-      "as_of": "2026-11-19T20:45:23Z",
+      "as_of": "2026-11-20T07:27:30Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 89.76000213623047,
-      "change_pct": -6.32,
-      "drawdown_pct": -24.16,
-      "last_date": "2026-11-19",
-      "as_of": "2026-11-19T20:45:23Z",
+      "last": 90.01000213623047,
+      "change_pct": -6.08,
+      "drawdown_pct": -23.95,
+      "last_date": "2026-11-20",
+      "as_of": "2026-11-20T07:27:30Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3669.89990234375,
-      "change_pct": -5.54,
-      "drawdown_pct": -31.0,
-      "last_date": "2026-11-19",
-      "as_of": "2026-11-19T20:45:23Z",
+      "last": 3557.800048828125,
+      "change_pct": -8.45,
+      "drawdown_pct": -33.1,
+      "last_date": "2026-11-20",
+      "as_of": "2026-11-20T07:27:30Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7188.89990234375,
-      "change_pct": -5.31,
-      "drawdown_pct": -8.06,
+      "last": 7175.830078125,
+      "change_pct": -5.49,
+      "drawdown_pct": -8.22,
       "last_date": "2026-11-19",
-      "as_of": "2026-11-19T20:45:23Z",
+      "as_of": "2026-11-20T07:27:30Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 138.8800048828125,
-      "change_pct": -10.39,
-      "drawdown_pct": -36.39,
+      "last": 137.9499969482422,
+      "change_pct": -10.99,
+      "drawdown_pct": -36.82,
       "last_date": "2026-11-19",
-      "as_of": "2026-11-19T20:45:23Z",
+      "as_of": "2026-11-20T07:27:30Z",
       "provider": "yfinance"
     }
   },
@@ -4333,62 +4280,43 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "c8e754a448080edf",
+    "events_hash": "98bb7e8b6bcf0e6a",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:2ccc9c3da2",
       "geo:chokepoint:73ae71ea05",
+      "geo:missile_strike:29886bc41b",
       "geo:missile_strike:73ae71ea05"
     ],
-    "econ_score": 46.7,
+    "econ_score": 47.3,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นในตะวันออกกลาง ซึ่งเห็นได้จากภัยคุกคามต่อเส้นทางเดินเรือและการโจมตีด้วยขีปนาวุธในภูมิภาค ควบคู่ไปกับความผันผวนของตลาดที่สำคัญและการลดลงของดัชนีหุ้นหลัก",
+      "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในตะวันออกกลางจากภัยคุกคามต่อเส้นทางเดินเรือและการโจมตีด้วยขีปนาวุธ ประกอบกับการระบาดของโรคสำคัญ กำลังผลักดันความเสี่ยงทั่วโลกในปัจจุบัน สิ่งเหล่านี้ส่งผลให้ตลาดมีความผันผวนสูงและสินทรัพย์เสี่ยงปรับตัวลดลงอย่างมาก",
       "early_warnings_th": [
         {
           "title": "ความขัดแย้งทางภูมิรัฐศาสตร์และการหยุดชะงักของการเดินเรือในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ การปิดล้อมอิหร่านโดยสหรัฐฯ และการโจมตีด้วยขีปนาวุธในภูมิภาคที่เกี่ยวข้องกับอิหร่าน ซาอุดีอาระเบีย และคูเวต",
+          "evidence_summary": "หน่วยงานการเดินเรือของสหรัฐฯ เตือนว่าการปิดล้อมของอิหร่านกำลังเพิ่มเบี้ยประกันภัยในอ่าวเปอร์เซีย และมีการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ รวมถึงการโจมตีด้วยขีปนาวุธในภูมิภาค",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
               "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "ความขัดแย้งในภูมิภาคและการโจมตีข้ามพรมแดนที่ต่อเนื่อง",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "คูเวตสามารถขับไล่การโจมตีของอิหร่านได้ ซาอุดีอาระเบียสกัดกั้นขีปนาวุธของกลุ่มฮูตี และสะพานไครเมียพังทลายบางส่วนจากการโจมตี ซึ่งบ่งชี้ถึงการสู้รบทางทหารที่ดำเนินอยู่และขยายวงกว้างขึ้น",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-              "source": "gulfnews.com"
-            },
-            {
-              "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-              "source": "omanobserver.om"
-            }
-          ]
-        },
-        {
-          "title": "ภัยคุกคามด้านสาธารณสุขและช่องโหว่ทางไซเบอร์ที่กำลังเกิดขึ้น",
+          "title": "การระบาดของโรคที่มีความรุนแรงสูงในวงกว้าง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการรายงานการระบาดของโรคอีโบลา ชิคุนกุนยา และไข้เหลืองในหลายภูมิภาค ควบคู่ไปกับคำเตือนเกี่ยวกับช่องโหว่ของ Java ที่ทำให้ระบบคอมพิวเตอร์เสี่ยงต่อการถูกแฮกเกอร์โจมตี",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงโรคชิคุนกุนยาในสวิตเซอร์แลนด์ และไข้เหลืองในภูมิภาคแอฟริกาของ WHO",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4401,61 +4329,61 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
               "source": "WHO DON"
+            }
+          ]
+        },
+        {
+          "title": "ความไม่มั่นคงทางเศรษฐกิจโลกที่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์และสงครามการค้า",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "ตลาดแสดงความผันผวนที่เพิ่มขึ้นอย่างมีนัยสำคัญและดัชนีหุ้นหลักลดลงอย่างรวดเร็ว ท่ามกลางความขัดแย้งทางการค้า เช่น แคนาดาที่ยังไม่ได้รับการผ่อนปรนภาษีจากสหรัฐฯ และการคว่ำบาตรของสหราชอาณาจักร",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีการรายงานการระบาดของโรคเมอร์สในกาตาร์",
-        "รัฐบาลสหรัฐฯ เรียกร้องให้เสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบติดตามห่วงโซ่ความเย็นเพื่อป้องกันภัยคุกคามทางไซเบอร์"
+        "กาตาร์รายงานข่าวการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS)",
+        "หน่วยงานรัฐบาลสหรัฐฯ เรียกร้องให้เสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบตรวจสอบห่วงโซ่ความเย็น"
       ],
-      "executive_summary_en": "Global risk is primarily driven by escalating geopolitical tensions in the Middle East, marked by threats to shipping lanes and regional missile strikes, alongside significant market volatility and declines in major stock indices.",
+      "executive_summary_en": "Escalating geopolitical tensions, particularly in the Middle East with shipping chokepoint threats and missile strikes, coupled with significant disease outbreaks, are currently driving global risk. These factors are contributing to heightened market volatility and a broad decline in equity and safe-haven assets.",
       "early_warnings_en": [
         {
           "title": "Escalating Geopolitical Conflict and Shipping Disruptions in the Middle East",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Multiple reports indicate tankers being hit in the Strait of Hormuz, a US blockade on Iran, and regional missile attacks involving Iran, Saudi Arabia, and Kuwait.",
+          "evidence_summary": "The US maritime agency warned that an Iranian blockade was adding to rising Gulf premiums, with tankers hit in the Strait of Hormuz and missile strikes reported across the region.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
               "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Persistent Regional Conflicts and Cross-Border Attacks",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Kuwait repelled an Iranian attack, Saudi Arabia intercepted Houthi missiles, and the Crimean Bridge partly collapsed due to an attack, indicating ongoing and expanding military engagements.",
-          "refs": [
-            {
-              "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-              "source": "gulfnews.com"
-            },
-            {
-              "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-              "source": "omanobserver.om"
-            }
-          ]
-        },
-        {
-          "title": "Emerging Public Health Threats and Cyber Vulnerabilities",
+          "title": "Widespread High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "New outbreaks of Ebola, Chikungunya, and Yellow fever have been reported across multiple regions, alongside warnings about a critical Java flaw leaving computer systems open to hackers.",
+          "evidence_summary": "Ebola disease caused by Bundibugyo virus was reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Chikungunya in Switzerland and Yellow fever in the WHO African Region.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
@@ -4470,15 +4398,35 @@
               "source": "WHO DON"
             }
           ]
+        },
+        {
+          "title": "Global Economic Instability Driven by Geopolitical Tensions and Trade Wars",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Markets show significantly increased volatility and sharp declines in major equity indices, amidst ongoing trade disputes such as Canada seeing little US movement on tariff relief and UK sanctions.",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ]
         }
       ],
       "local_notes_en": [
-        "A MERS outbreak has been reported in Qatar.",
-        "The US government is urging the hardening of industrial refrigeration and cold chain monitoring systems against cyber threats."
+        "Qatar reported a Middle East respiratory syndrome (MERS) outbreak.",
+        "US Government partners urged hardening industrial refrigeration and cold chain monitoring systems."
       ]
     },
-    "generated_at": "2026-11-19T20:45:23Z"
+    "generated_at": "2026-11-20T07:27:30Z"
   },
-  "updated_at": "2026-11-19T20:45:23Z",
+  "updated_at": "2026-11-20T07:27:30Z",
   "version": 1
 }
