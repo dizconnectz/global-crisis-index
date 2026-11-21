@@ -1,6 +1,233 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:b83a24fb1a": {
+        "id": "geo:conflict:b83a24fb1a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trafalgar Square Christmas tree felled in Norway",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "united kingdom"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-21T19:25:16Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "What we know about the latest Russian missile strikes on Ukraine",
+        "severity": 55.0,
+        "score": 44.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:nuclear:73ae71ea05": {
+        "id": "geo:nuclear:73ae71ea05",
+        "pillar": "geo",
+        "category": "nuclear",
+        "category_th": "ภัยคุกคามนิวเคลียร์",
+        "category_en": "Nuclear threat",
+        "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+        "severity": 95.0,
+        "score": 57.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "metro.co.uk"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T19:34:54Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c5abc2fdb": {
+        "id": "geo:conflict:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:great_power:d48f9ad5c9": {
+        "id": "geo:great_power:d48f9ad5c9",
+        "pillar": "geo",
+        "category": "great_power",
+        "category_th": "การปะทะของมหาอำนาจ",
+        "category_en": "Great-power clash",
+        "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+        "severity": 90.0,
+        "score": 54.0,
+        "countries": [
+          "russia",
+          "nato",
+          "poland"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-21T19:25:16Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:15560e224d": {
+        "id": "geo:chokepoint:15560e224d",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "iran",
+          "united kingdom"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-21T19:25:16Z",
+        "last_seen": "2026-11-21T19:25:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:1da6317f78": {
         "id": "geo:conflict:1da6317f78",
         "pillar": "geo",
@@ -30,46 +257,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-20T20:29:26Z",
-        "last_seen": "2026-11-21T07:21:18Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "What we know about the latest Russian missile strikes on Ukraine",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
@@ -377,43 +564,6 @@
         "link_sources": [
           "BBC World",
           "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-20T20:29:26Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:0c5abc2fdb": {
-        "id": "geo:conflict:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Swimming lessons offer Gaza’s children a moment of relief",
-        "severity": 30.0,
-        "score": 20.4,
-        "countries": [
-          "palestine",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_swimming-lessons-offer-gazas-children-relief-201126?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_swimming-lessons-offer-gazas-children-relief-201126?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-20T20:29:26Z",
@@ -2150,39 +2300,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:8ddae695aa": {
-        "id": "geo:conflict:8ddae695aa",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "At least 10 killed in Guinea in crackdown on gold mining",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-13T19:50:43Z",
-        "last_seen": "2026-11-13T19:50:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:2ccc9c3da2": {
         "id": "geo:missile_strike:2ccc9c3da2",
         "pillar": "geo",
@@ -2513,49 +2630,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:57a1dee4cd": {
-        "id": "geo:conflict:57a1dee4cd",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Bessent’s relocation: From US to EU, is Iran bringing war to Western soil?",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "european union",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news-analysis/2026/11/11/bessents-relocation-from-us-to-eu-is-iran-bringing-war-to-western-soil?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXNuaEJXU0pFb0oxRlkzenJYREJId21QY2pxclZ3bnBDWEFwZXFhZkJCLTJEUWJELTRKeExPZDdYWmZUY25UZnNJYXZ5NGNUYXpUSHkwZUJyYU9wWmp0aWVHTUQ1ZFVlQ3dOZnE3azBSNm9KZVRMWnJEWXExR3VrektGaXU2RlNySG5GX01LbHR2M2xxMF92RzcwZWV0REJ6T3ZIV0dvQkM0c1pQU1hzQlVB?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news-analysis/2026/11/11/bessents-relocation-from-us-to-eu-is-iran-bringing-war-to-western-soil?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXNuaEJXU0pFb0oxRlkzenJYREJId21QY2pxclZ3bnBDWEFwZXFhZkJCLTJEUWJELTRKeExPZDdYWmZUY25UZnNJYXZ5NGNUYXpUSHkwZUJyYU9wWmp0aWVHTUQ1ZFVlQ3dOZnE3azBSNm9KZVRMWnJEWXExR3VrektGaXU2RlNySG5GX01LbHR2M2xxMF92RzcwZWV0REJ6T3ZIV0dvQkM0c1pQU1hzQlVB?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-11T19:41:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:8809c12f03": {
         "id": "geo:missile_strike:8809c12f03",
         "pillar": "geo",
@@ -2657,42 +2731,6 @@
         ],
         "first_seen": "2026-11-10T07:28:01Z",
         "last_seen": "2026-11-10T07:28:01Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:nuclear:73ae71ea05": {
-        "id": "geo:nuclear:73ae71ea05",
-        "pillar": "geo",
-        "category": "nuclear",
-        "category_th": "ภัยคุกคามนิวเคลียร์",
-        "category_en": "Nuclear threat",
-        "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
-        "severity": 95.0,
-        "score": 57.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "metro.co.uk"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T19:34:54Z",
-        "last_seen": "2026-11-09T06:48:20Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3004,7 +3042,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3037,7 +3075,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3072,7 +3110,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3105,7 +3143,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3138,7 +3176,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3171,7 +3209,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3204,7 +3242,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3237,7 +3275,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3270,7 +3308,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3303,7 +3341,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3336,7 +3374,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3369,7 +3407,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3402,7 +3440,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3435,7 +3473,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3468,7 +3506,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3501,7 +3539,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3534,7 +3572,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3567,7 +3605,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3600,7 +3638,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3633,7 +3671,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4113,62 +4151,25 @@
         "location": null,
         "location_en": null,
         "raw_score": 27.0
-      },
-      "bio_infra:cyber_incident:b801542e1b": {
-        "id": "bio_infra:cyber_incident:b801542e1b",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "France blames Iran for October supermarket cyberattack",
-        "severity": 40.0,
-        "score": 30.1,
-        "countries": [
-          "france",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-09T22:28:51Z",
-        "last_seen": "2026-11-10T07:28:01Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
       "score": 62.8,
-      "as_of": "2026-11-21T07:21:18Z"
+      "as_of": "2026-11-21T19:25:16Z"
     },
     "geo": {
-      "score": 60.9,
-      "as_of": "2026-11-21T07:21:18Z"
+      "score": 75.3,
+      "as_of": "2026-11-21T19:25:16Z"
     },
     "nat": {
-      "score": 20.6,
-      "as_of": "2026-11-21T07:21:18Z"
+      "score": 26.5,
+      "as_of": "2026-11-21T19:25:16Z"
     },
     "bio_infra": {
-      "score": 57.0,
-      "as_of": "2026-11-21T07:21:18Z"
+      "score": 56.9,
+      "as_of": "2026-11-21T19:25:16Z"
     }
   },
   "econ_indicators": {
@@ -4177,7 +4178,7 @@
       "change_pct": 85.96,
       "drawdown_pct": 0.0,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-21T07:21:18Z",
+      "as_of": "2026-11-21T19:25:16Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -4185,7 +4186,7 @@
       "change_pct": -3.41,
       "drawdown_pct": -21.78,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-21T07:21:18Z",
+      "as_of": "2026-11-21T19:25:16Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -4193,7 +4194,7 @@
       "change_pct": -9.54,
       "drawdown_pct": -33.9,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-21T07:21:18Z",
+      "as_of": "2026-11-21T19:25:16Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -4201,7 +4202,7 @@
       "change_pct": -8.61,
       "drawdown_pct": -11.62,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-21T07:21:18Z",
+      "as_of": "2026-11-21T19:25:16Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4209,7 +4210,7 @@
       "change_pct": -17.35,
       "drawdown_pct": -43.48,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-21T07:21:18Z",
+      "as_of": "2026-11-21T19:25:16Z",
       "provider": "yfinance"
     }
   },
@@ -4217,25 +4218,31 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "b952beb347190b49",
+    "events_hash": "6a20b0eb81f64296",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
+      "geo:chokepoint:15560e224d",
       "geo:chokepoint:73ae71ea05",
+      "geo:great_power:d48f9ad5c9",
       "geo:missile_strike:29886bc41b",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
-      "geo:missile_strike:e1f2a10169"
+      "geo:nuclear:73ae71ea05"
     ],
     "econ_score": 62.8,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะการโจมตีด้วยขีปนาวุธและภัยคุกคามต่อเส้นทางการเดินเรือในตะวันออกกลางและยุโรปตะวันออก ควบคู่ไปกับความผันผวนและการตกต่ำของตลาดอย่างมีนัยสำคัญ นอกจากนี้ยังมีการระบาดของโรคที่มีผลกระทบรุนแรงอย่างต่อเนื่อง",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันได้รับแรงผลักดันจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางจากการกระทำของอิหร่านที่ส่งผลกระทบต่อการขนส่งและความมั่นคงในภูมิภาค ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่ในยูเครน พัฒนาการเหล่านี้สะท้อนให้เห็นในความผันผวนของตลาดอย่างมีนัยสำคัญ โดยดัชนีหุ้นหลักปรับตัวลดลงและดัชนี VIX พุ่งสูงขึ้น",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อเส้นทางการเดินเรือที่เพิ่มขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลางและความมั่นคงด้านพลังงาน",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "คูเวตขับไล่การโจมตีของอิหร่านหลังสหรัฐฯ โจมตีเกาะ รัสเซียยิงขีปนาวุธโจมตียูเครนและขีปนาวุธลูกหนึ่งตกในโปแลนด์ และขีปนาวุธของกลุ่มฮูตีพุ่งเป้าไปที่ริยาด ขณะเดียวกัน หน่วยงานเดินเรือของสหรัฐฯ เตือนว่าการปิดล้อมของอิหร่านจะเพิ่มเบี้ยประกันภัยในอ่าวเปอร์เซีย และเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ",
+          "evidence_summary": "การกระทำของอิหร่าน รวมถึงการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซและคำเตือนเรื่องการปิดล้อม ควบคู่ไปกับการที่คูเวตสามารถขับไล่การโจมตีของอิหร่านได้ แสดงให้เห็นถึงความเสี่ยงที่เพิ่มขึ้นต่อการขนส่งและอุปทานพลังงานในภูมิภาค",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
               "source": "Al Jazeera"
@@ -4243,18 +4250,34 @@
             {
               "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "ความเสี่ยงที่ความขัดแย้งจะขยายวงกว้างในยุโรปตะวันออก",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "ขีปนาวุธของรัสเซียที่ตกในโปแลนด์ระหว่างการซ้อมรบของพันธมิตรยูเครน ควบคู่ไปกับการโจมตีด้วยขีปนาวุธของรัสเซียอย่างต่อเนื่องในยูเครนและการประณามการละเมิดน่านฟ้าของโปแลนด์ ชี้ให้เห็นถึงความเสี่ยงที่ความขัดแย้งจะขยายวงกว้างออกไปนอกพรมแดนยูเครน",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+              "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคที่มีผลกระทบรุนแรง",
+          "title": "ภัยคุกคามทั่วโลกที่ยังคงมีอยู่จากการระบาดของโรคร้ายแรง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของโรคชิคุนกุนยาในสวิตเซอร์แลนด์และไข้เหลืองในภูมิภาคแอฟริกาของ WHO",
+          "evidence_summary": "การระบาดใหม่ของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของโรคอื่นๆ เน้นย้ำถึงภัยคุกคามด้านสาธารณสุขทั่วโลกที่ยังคงมีอยู่",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -4267,41 +4290,25 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
               "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ข้อพิพาททางการค้าและการคว่ำบาตรที่ส่งผลกระทบต่อความสัมพันธ์ระหว่างประเทศ",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "แคนาดาเห็นความคืบหน้าเพียงเล็กน้อยจากสหรัฐฯ ในการบรรเทาภาษี ศุลกากรของทรัมป์บีบอุตสาหกรรมรถยนต์ของแคนาดา และสหราชอาณาจักรคว่ำบาตรบริษัทที่เกี่ยวข้องกับการตั้งถิ่นฐานของอิสราเอลในเขตเวสต์แบงก์",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
-              "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีรายงานข่าวการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในท้องถิ่นที่ประเทศกาตาร์"
       ],
-      "executive_summary_en": "Global risk is driven by escalating geopolitical tensions, particularly missile strikes and shipping threats in the Middle East and Eastern Europe, alongside significant market volatility and downturns. Additionally, there are ongoing outbreaks of high-consequence diseases.",
+      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with Iran's actions impacting shipping and regional stability, alongside ongoing conflict in Ukraine. These developments are reflected in significant market volatility, with major stock indices declining and the VIX index surging.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Chokepoint Threats",
+          "title": "Escalating Geopolitical Tensions in the Middle East and Energy Security",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Kuwait repelled Iranian attacks after US strikes, Russia launched missile strikes on Ukraine and a missile hit Poland, and Houthi missiles targeted Riyadh. Concurrently, the US maritime agency warned of an Iran blockade adding to Gulf premiums, and tankers were hit in the Strait of Hormuz.",
+          "evidence_summary": "Iran's actions, including tankers being hit in the Strait of Hormuz and warnings of blockades, coupled with Kuwait repelling Iranian attacks, indicate a heightened risk to shipping and energy supply in the region.",
           "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
             {
               "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
               "source": "Al Jazeera"
@@ -4309,18 +4316,34 @@
             {
               "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "Risk of Broadening Conflict in Eastern Europe",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-4 weeks",
+          "evidence_summary": "A Russian missile hitting Poland during military exercises by Ukraine's allies, alongside continued Russian missile strikes on Ukraine and Polish condemnation of airspace violations, suggests a risk of the conflict expanding beyond Ukraine's borders.",
+          "refs": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+              "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
               "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Emergence of High-Consequence Disease Outbreaks",
+          "title": "Persistent Global Threat from High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Reports indicate an Ebola disease outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Chikungunya virus disease in Switzerland and Yellow fever in the WHO African Region.",
+          "evidence_summary": "New outbreaks of Ebola disease caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside other disease outbreaks, highlight a persistent global health threat.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -4335,34 +4358,14 @@
               "source": "WHO DON"
             }
           ]
-        },
-        {
-          "title": "Trade Disputes and Sanctions Impacting International Relations",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "Canada sees little US movement on tariff relief, Trump tariffs squeeze Canada's car industry, and the UK sanctioned firms over Israeli West Bank settlements.",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
-              "source": "Al Jazeera"
-            }
-          ]
         }
       ],
       "local_notes_en": [
-        "There is news of a Middle East respiratory syndrome (MERS) outbreak in Qatar."
+        "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-21T07:21:18Z"
+    "generated_at": "2026-11-21T19:25:16Z"
   },
-  "updated_at": "2026-11-21T07:21:18Z",
+  "updated_at": "2026-11-21T19:25:16Z",
   "version": 1
 }
