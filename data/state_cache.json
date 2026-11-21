@@ -1,6 +1,303 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:1da6317f78": {
+        "id": "geo:conflict:1da6317f78",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Nearly 600 women killed in South Africa within three months",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "south africa"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "What we know about the latest Russian missile strikes on Ukraine",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:38384a8522": {
+        "id": "geo:conflict:38384a8522",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Sudan’s war will end, but will it be too late?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "sudan"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/opinions/2026/11/21/sudans-war-will-end-but-will-it-be-too-late?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/opinions/2026/11/21/sudans-war-will-end-but-will-it-be-too-late?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8dfd5ff85f": {
+        "id": "geo:missile_strike:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "saudi arabia",
+          "yemen",
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "asiaone.com",
+          "clickorlando.com",
+          "freemalaysiatoday.com",
+          "gulfnews.com",
+          "idahostatejournal.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:2a71180d4b": {
+        "id": "geo:conflict:2a71180d4b",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:a79dba56c4": {
+        "id": "geo:conflict:a79dba56c4",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "india",
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-21T07:21:18Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73de74cec3": {
+        "id": "geo:conflict:73de74cec3",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "russia",
+          "iran",
+          "china"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-09T06:48:20Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Three Salvadoran soldiers killed in Haiti while handling explosives",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-21T07:21:18Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:missile_strike:e1f2a10169": {
         "id": "geo:missile_strike:e1f2a10169",
         "pillar": "geo",
@@ -25,41 +322,6 @@
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-20T20:29:26Z",
-        "last_seen": "2026-11-20T20:29:26Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:1da6317f78": {
-        "id": "geo:conflict:1da6317f78",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Nearly 600 women killed in South Africa within three months",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "south africa"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           }
         ],
@@ -305,42 +567,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-20T07:27:30Z",
-        "last_seen": "2026-11-20T07:27:30Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Haiti police say 34 gang members killed in capital raid",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-20T07:27:30Z",
         "is_local": false,
         "location": null,
@@ -632,46 +858,6 @@
         ],
         "first_seen": "2026-11-18T20:39:47Z",
         "last_seen": "2026-11-19T07:36:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-18T20:39:47Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1387,57 +1573,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:8dfd5ff85f": {
-        "id": "geo:missile_strike:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh as Iran claims Bahrain drone attack",
-        "severity": 55.0,
-        "score": 50.8,
-        "countries": [
-          "saudi arabia",
-          "yemen",
-          "iran",
-          "uae"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "asiaone.com",
-          "clickorlando.com",
-          "freemalaysiatoday.com",
-          "gulfnews.com",
-          "idahostatejournal.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-          "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh"
-        ],
-        "refs": [
-          {
-            "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
-            "source": "gulfnews.com"
-          },
-          {
-            "url": "https://www.omanobserver.om/article/1199693/world/region/saudi-intercepts-two-ballistic-missiles-fired-towards-riyadh",
-            "source": "omanobserver.om"
-          }
-        ],
-        "link_sources": [
-          "gulfnews.com",
-          "omanobserver.om"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:b2e0284c13": {
         "id": "geo:conflict:b2e0284c13",
         "pillar": "geo",
@@ -1906,43 +2041,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:73de74cec3": {
-        "id": "geo:conflict:73de74cec3",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "russia",
-          "iran",
-          "china"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-09T06:48:20Z",
-        "last_seen": "2026-11-14T18:14:22Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:dd01598568": {
         "id": "geo:conflict:dd01598568",
         "pillar": "geo",
@@ -2199,39 +2297,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:b5e6a948c9": {
-        "id": "geo:conflict:b5e6a948c9",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:ffd4002ff9": {
         "id": "geo:missile_strike:ffd4002ff9",
         "pillar": "geo",
@@ -2267,41 +2332,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:ab65d8b961": {
-        "id": "geo:conflict:ab65d8b961",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "canada"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:38384a8522": {
         "id": "geo:missile_strike:38384a8522",
         "pillar": "geo",
@@ -2331,43 +2361,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:6de3adadae": {
-        "id": "geo:conflict:6de3adadae",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "palestine",
-          "lebanon",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-13T06:54:43Z",
         "last_seen": "2026-11-13T06:54:43Z",
         "is_local": false,
         "location": null,
@@ -2558,50 +2551,6 @@
         ],
         "first_seen": "2026-11-11T19:41:47Z",
         "last_seen": "2026-11-11T19:41:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:15560e224d": {
-        "id": "geo:conflict:15560e224d",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iran opens training camp for women in readiness for war",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "iran",
-          "united kingdom",
-          "israel"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 5,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-11T06:39:43Z",
-        "last_seen": "2026-11-11T06:39:43Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3022,45 +2971,45 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "geo:energy_infra:a59ee23b9a": {
-        "id": "geo:energy_infra:a59ee23b9a",
-        "pillar": "geo",
-        "category": "energy_infra",
-        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
-        "category_en": "Attack on energy infrastructure",
-        "title": "Russian strikes hit Ukraine energy infrastructure , cause power cuts in five regions",
-        "severity": 75.0,
+      }
+    },
+    "bio_infra": {
+      "bio_infra:high_consequence:08ddd752fb": {
+        "id": "bio_infra:high_consequence:08ddd752fb",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
+        "severity": 45.0,
         "score": 45.0,
         "countries": [
-          "russia",
-          "ukraine"
+          "dr congo",
+          "nigeria"
         ],
         "sources": [
-          "moneycontrol.com"
+          "WHO DON"
         ],
         "article_count": 1,
         "links": [
-          "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html"
+          "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630"
         ],
         "refs": [
           {
-            "url": "https://www.moneycontrol.com/world/russian-strikes-hit-ukraine-s-energy-infrastructure-cause-power-cuts-in-five-regions-article-14074422.html",
-            "source": "moneycontrol.com"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+            "source": "WHO DON"
           }
         ],
         "link_sources": [
-          "moneycontrol.com"
+          "WHO DON"
         ],
-        "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-07T15:28:13Z",
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
-      }
-    },
-    "bio_infra": {
+      },
       "bio_infra:outbreak:6227d0a06d": {
         "id": "bio_infra:outbreak:6227d0a06d",
         "pillar": "bio_infra",
@@ -3088,7 +3037,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3123,47 +3072,11 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
         "raw_score": 45.0
-      },
-      "bio_infra:high_consequence:08ddd752fb": {
-        "id": "bio_infra:high_consequence:08ddd752fb",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "Disease Outbreak News: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
-        "severity": 45.0,
-        "score": 45.0,
-        "countries": [
-          "dr congo",
-          "nigeria"
-        ],
-        "sources": [
-          "WHO DON"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625"
-        ],
-        "refs": [
-          {
-            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
-            "source": "WHO DON"
-          }
-        ],
-        "link_sources": [
-          "WHO DON"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-20T20:29:26Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       },
       "bio_infra:vuln_advisory:ebd92c9de6": {
         "id": "bio_infra:vuln_advisory:ebd92c9de6",
@@ -3192,7 +3105,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3225,7 +3138,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3258,7 +3171,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3291,7 +3204,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3324,7 +3237,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3357,7 +3270,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3390,7 +3303,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3423,7 +3336,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3456,7 +3369,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3489,7 +3402,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3522,7 +3435,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3555,7 +3468,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3588,7 +3501,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3621,7 +3534,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3654,7 +3567,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3687,7 +3600,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3720,7 +3633,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-20T20:29:26Z",
+        "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4242,61 +4155,61 @@
   },
   "last_valid": {
     "econ": {
-      "score": 60.8,
-      "as_of": "2026-11-20T20:29:26Z"
+      "score": 62.8,
+      "as_of": "2026-11-21T07:21:18Z"
     },
     "geo": {
-      "score": 63.6,
-      "as_of": "2026-11-20T20:29:26Z"
+      "score": 60.9,
+      "as_of": "2026-11-21T07:21:18Z"
     },
     "nat": {
-      "score": 10.7,
-      "as_of": "2026-11-20T20:29:26Z"
+      "score": 20.6,
+      "as_of": "2026-11-21T07:21:18Z"
     },
     "bio_infra": {
-      "score": 57.2,
-      "as_of": "2026-11-20T20:29:26Z"
+      "score": 57.0,
+      "as_of": "2026-11-21T07:21:18Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 35.290000915527344,
-      "change_pct": 82.85,
+      "last": 35.88999938964844,
+      "change_pct": 85.96,
       "drawdown_pct": 0.0,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-20T20:29:26Z",
+      "as_of": "2026-11-21T07:21:18Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 89.66999816894531,
-      "change_pct": -6.44,
-      "drawdown_pct": -24.23,
+      "last": 92.56999969482422,
+      "change_pct": -3.41,
+      "drawdown_pct": -21.78,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-20T20:29:26Z",
+      "as_of": "2026-11-21T07:21:18Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3519.60009765625,
-      "change_pct": -9.44,
-      "drawdown_pct": -33.82,
+      "last": 3515.39990234375,
+      "change_pct": -9.54,
+      "drawdown_pct": -33.9,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-20T20:29:26Z",
+      "as_of": "2026-11-21T07:21:18Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 6941.41015625,
-      "change_pct": -8.2,
-      "drawdown_pct": -11.22,
+      "last": 6910.39013671875,
+      "change_pct": -8.61,
+      "drawdown_pct": -11.62,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-20T20:29:26Z",
+      "as_of": "2026-11-21T07:21:18Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 124.0199966430664,
-      "change_pct": -16.93,
-      "drawdown_pct": -43.2,
+      "last": 123.4000015258789,
+      "change_pct": -17.35,
+      "drawdown_pct": -43.48,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-20T20:29:26Z",
+      "as_of": "2026-11-21T07:21:18Z",
       "provider": "yfinance"
     }
   },
@@ -4304,22 +4217,24 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "544da82191675e0a",
+    "events_hash": "b952beb347190b49",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:73ae71ea05",
       "geo:missile_strike:29886bc41b",
+      "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:a59ee23b9a",
       "geo:missile_strike:e1f2a10169"
     ],
-    "econ_score": 60.8,
+    "econ_score": 62.8,
     "summary": {
-      "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะในตะวันออกกลางจากภัยคุกคามต่อเส้นทางเดินเรือและการโจมตีด้วยขีปนาวุธ รวมถึงความขัดแย้งต่อเนื่องในยุโรปตะวันออก กำลังผลักดันความผันผวนอย่างมากในตลาดการเงินโลกและทำให้ตลาดหุ้นปรับตัวลดลงอย่างรุนแรง นอกจากนี้ การระบาดของโรคต่างๆ ยังคงเป็นข้อกังวล",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกถูกขับเคลื่อนโดยความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะการโจมตีด้วยขีปนาวุธและภัยคุกคามต่อเส้นทางการเดินเรือในตะวันออกกลางและยุโรปตะวันออก ควบคู่ไปกับความผันผวนและการตกต่ำของตลาดอย่างมีนัยสำคัญ นอกจากนี้ยังมีการระบาดของโรคที่มีผลกระทบรุนแรงอย่างต่อเนื่อง",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อเส้นทางการเดินเรือที่เพิ่มขึ้น",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "หน่วยงานเดินเรือของสหรัฐฯ เตือนว่าการปิดล้อมของอิหร่านกำลังเพิ่มเบี้ยประกันภัยในอ่าวเปอร์เซีย ในขณะที่เรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ และคูเวตได้ขับไล่การโจมตีของอิหร่าน",
+          "evidence_summary": "คูเวตขับไล่การโจมตีของอิหร่านหลังสหรัฐฯ โจมตีเกาะ รัสเซียยิงขีปนาวุธโจมตียูเครนและขีปนาวุธลูกหนึ่งตกในโปแลนด์ และขีปนาวุธของกลุ่มฮูตีพุ่งเป้าไปที่ริยาด ขณะเดียวกัน หน่วยงานเดินเรือของสหรัฐฯ เตือนว่าการปิดล้อมของอิหร่านจะเพิ่มเบี้ยประกันภัยในอ่าวเปอร์เซีย และเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ",
           "refs": [
             {
               "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
@@ -4336,20 +4251,13 @@
           ]
         },
         {
-          "title": "ความไม่มั่นคงของตลาดโลกที่แย่ลง",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "ดัชนีความผันผวน VIX เพิ่มขึ้นอย่างมีนัยสำคัญ และดัชนีหุ้นหลัก เช่น S&P 500 และ SOXX semiconductor ETF ประสบกับการลดลงอย่างรวดเร็ว",
-          "refs": []
-        },
-        {
-          "title": "ภัยคุกคามจากการระบาดของโรคที่ยังคงมีอยู่",
+          "title": "การระบาดของโรคที่มีผลกระทบรุนแรง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "ข่าวการระบาดของโรครายงานอีโบลาในคองโก เคนยา และไนจีเรีย รวมถึงชิคุนกุนยาในสวิตเซอร์แลนด์ และไข้เหลืองในภูมิภาคแอฟริกาของ WHO",
+          "evidence_summary": "มีรายงานการระบาดของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของโรคชิคุนกุนยาในสวิตเซอร์แลนด์และไข้เหลืองในภูมิภาคแอฟริกาของ WHO",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
             },
             {
@@ -4359,21 +4267,40 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON624",
               "source": "WHO DON"
+            }
+          ]
+        },
+        {
+          "title": "ข้อพิพาททางการค้าและการคว่ำบาตรที่ส่งผลกระทบต่อความสัมพันธ์ระหว่างประเทศ",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "แคนาดาเห็นความคืบหน้าเพียงเล็กน้อยจากสหรัฐฯ ในการบรรเทาภาษี ศุลกากรของทรัมป์บีบอุตสาหกรรมรถยนต์ของแคนาดา และสหราชอาณาจักรคว่ำบาตรบริษัทที่เกี่ยวข้องกับการตั้งถิ่นฐานของอิสราเอลในเขตเวสต์แบงก์",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "การระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ถูกตรวจพบในกาตาร์",
-        "รัฐบาลสหรัฐฯ เรียกร้องให้เสริมความแข็งแกร่งของระบบทำความเย็นอุตสาหกรรมและระบบตรวจสอบห่วงโซ่ความเย็น"
+        "มีรายงานข่าวการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Escalating geopolitical tensions, particularly in the Middle East with shipping chokepoint threats and missile strikes, alongside ongoing conflict in Eastern Europe, are driving significant volatility in global financial markets and a sharp downturn in equities. Disease outbreaks also remain a concern.",
+      "executive_summary_en": "Global risk is driven by escalating geopolitical tensions, particularly missile strikes and shipping threats in the Middle East and Eastern Europe, alongside significant market volatility and downturns. Additionally, there are ongoing outbreaks of high-consequence diseases.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflict in the Middle East",
+          "title": "Escalating Geopolitical Tensions and Chokepoint Threats",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "The US maritime agency warned that an Iranian blockade was adding to rising Gulf premiums, while tankers were hit in the Strait of Hormuz, and Kuwait repelled Iranian attacks.",
+          "evidence_summary": "Kuwait repelled Iranian attacks after US strikes, Russia launched missile strikes on Ukraine and a missile hit Poland, and Houthi missiles targeted Riyadh. Concurrently, the US maritime agency warned of an Iran blockade adding to Gulf premiums, and tankers were hit in the Strait of Hormuz.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
@@ -4390,20 +4317,13 @@
           ]
         },
         {
-          "title": "Worsening Global Market Instability",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "The VIX volatility index increased significantly, and major equity indices like the S&P 500 and SOXX semiconductor ETF experienced sharp declines.",
-          "refs": []
-        },
-        {
-          "title": "Persistent Disease Outbreak Threats",
+          "title": "Emergence of High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Disease Outbreak News reported Ebola in the Democratic Republic of the Congo, Kenya, and Nigeria, as well as Chikungunya in Switzerland and Yellow fever in the WHO African Region.",
+          "evidence_summary": "Reports indicate an Ebola disease outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Chikungunya virus disease in Switzerland and Yellow fever in the WHO African Region.",
           "refs": [
             {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
             },
             {
@@ -4415,15 +4335,34 @@
               "source": "WHO DON"
             }
           ]
+        },
+        {
+          "title": "Trade Disputes and Sanctions Impacting International Relations",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Canada sees little US movement on tariff relief, Trump tariffs squeeze Canada's car industry, and the UK sanctioned firms over Israeli West Bank settlements.",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNl8xcFNUUzg5MHNEdmx3QmtiV2hJRXhEVW9ETVVSYnBJTFFDLXcxOEgyVUJWdUVsOXk4S0JKaDRoN1BIQk15UzBBWjdrQ3EzWi1BV2VLRHdCX1Rvdm9hRHg2VWRvNDF0QmpvaF9WZzFrS2VFMXY3VXgxNHpzYjA3cGF1QzRHd2RGNjlmZ285eHZHNUM3S2FIUnF6R2cycnVCbzdqZWRvbWJ6ZzlYR2IwNGdR?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+              "source": "Al Jazeera"
+            }
+          ]
         }
       ],
       "local_notes_en": [
-        "A Middle East respiratory syndrome (MERS) outbreak was detected in Qatar.",
-        "The US government urged hardening industrial refrigeration and cold chain monitoring systems."
+        "There is news of a Middle East respiratory syndrome (MERS) outbreak in Qatar."
       ]
     },
-    "generated_at": "2026-11-20T20:29:26Z"
+    "generated_at": "2026-11-21T07:21:18Z"
   },
-  "updated_at": "2026-11-20T20:29:26Z",
+  "updated_at": "2026-11-21T07:21:18Z",
   "version": 1
 }
