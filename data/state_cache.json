@@ -1,6 +1,188 @@
 {
   "active_events": {
     "geo": {
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Iran attacks US bases in Bahrain as its tankers get ready to break the US blockade",
+        "severity": 85.0,
+        "score": 85.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "enca.com",
+          "euronews.com",
+          "manilatimes.net",
+          "tribuneindia.com"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+          "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+          "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+            "source": "euronews.com"
+          },
+          {
+            "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+            "source": "enca.com"
+          },
+          {
+            "url": "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/",
+            "source": "tribuneindia.com"
+          }
+        ],
+        "link_sources": [
+          "euronews.com",
+          "enca.com",
+          "tribuneindia.com"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:great_power:d48f9ad5c9": {
+        "id": "geo:great_power:d48f9ad5c9",
+        "pillar": "geo",
+        "category": "great_power",
+        "category_th": "การปะทะของมหาอำนาจ",
+        "category_en": "Great-power clash",
+        "title": "Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast",
+        "severity": 90.0,
+        "score": 54.0,
+        "countries": [
+          "russia",
+          "nato"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "thevermilion.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+            "source": "thevermilion.com"
+          }
+        ],
+        "link_sources": [
+          "thevermilion.com"
+        ],
+        "first_seen": "2026-11-21T19:25:16Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "At least 14 feared trapped after Russian drone strike collapses building in Ukraine Kyiv region",
+        "severity": 55.0,
+        "score": 55.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "moneycontrol.com",
+          "news.az",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 4,
+        "links": [
+          "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
+          "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
+          "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
+            "source": "moneycontrol.com"
+          },
+          {
+            "url": "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
+            "source": "news.az"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "moneycontrol.com",
+          "news.az",
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:energy_infra:8dfd5ff85f": {
+        "id": "geo:energy_infra:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "energy_infra",
+        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+        "category_en": "Attack on energy infrastructure",
+        "title": "Yemen Houthis claim strikes on Saudi oil refinery , radar facility",
+        "severity": 75.0,
+        "score": 45.0,
+        "countries": [
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "bignewsnetwork.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility"
+        ],
+        "refs": [
+          {
+            "url": "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility",
+            "source": "bignewsnetwork.com"
+          }
+        ],
+        "link_sources": [
+          "bignewsnetwork.com"
+        ],
+        "first_seen": "2026-11-10T07:28:01Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:b83a24fb1a": {
         "id": "geo:conflict:b83a24fb1a",
         "pillar": "geo",
@@ -30,55 +212,122 @@
           "BBC World"
         ],
         "first_seen": "2026-11-21T19:25:16Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
+      "geo:missile_strike:38384a8522": {
+        "id": "geo:missile_strike:38384a8522",
         "pillar": "geo",
         "category": "missile_strike",
         "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
         "category_en": "Air / missile strikes",
-        "title": "What we know about the latest Russian missile strikes on Ukraine",
+        "title": "Civilians killed in RSF drone strikes in Sudan",
         "severity": 55.0,
-        "score": 44.0,
+        "score": 33.0,
         "countries": [
-          "russia",
-          "ukraine",
-          "baltics"
+          "sudan"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
         ],
         "sources": [
           "Al Jazeera",
           "BBC World",
           "Reuters (Google News)",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "timesofindia.indiatimes.com"
+          "wthitv.com",
+          "ynetnews.com"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUFLdlZmeWprX3A2YllLMmlQSXZrYTRIazVMOEExREZuTXFCYThyVUlnR3U0TDg3dGpUeHE5SHJyanJWQUZTRHdwUG5YYTFxVXMtUU5rY1pOVzZkRUxhQ29oUEVUS0NJTWFxcUJmLW9lRE52cGs3N2FLbXZzNmVFNFpXTmZNZnI4S1pWNDB5RWV0UFhUUGlCTVUwNjlWZDMxcXhxS0FvZUdNNWN4UU9jMEw4bWVaOVB0TlE?oc=5"
+          "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
+            "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-22T19:48:52Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "INSIGHT - Trump and Tehran gamble on time as Iran war stalemate deepens - Awani International",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWlfbkotZE1PQXBrd1d2QW5LZnI2enJIUDNsZEQycjFhVE01bVFKVU92emg5N2ZMNE5PQmNqRUJqMVVQWFJCcWxGQlBnOUxnY2VjUDFCYkFSZjNHd3MxM3ByaWFRVlg5LWJlZnpYbFRFT3JZOXVmeU9XdVhCSjFiYWxkdG1OSHNLRTJnSXpEX0F5VjROVjVZUjBfM2tTVDNoc09VR1RDaVVvQks5aGppYU1R?oc=5"
+        ],
+        "refs": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUFLdlZmeWprX3A2YllLMmlQSXZrYTRIazVMOEExREZuTXFCYThyVUlnR3U0TDg3dGpUeHE5SHJyanJWQUZTRHdwUG5YYTFxVXMtUU5rY1pOVzZkRUxhQ29oUEVUS0NJTWFxcUJmLW9lRE52cGs3N2FLbXZzNmVFNFpXTmZNZnI4S1pWNDB5RWV0UFhUUGlCTVUwNjlWZDMxcXhxS0FvZUdNNWN4UU9jMEw4bWVaOVB0TlE?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWlfbkotZE1PQXBrd1d2QW5LZnI2enJIUDNsZEQycjFhVE01bVFKVU92emg5N2ZMNE5PQmNqRUJqMVVQWFJCcWxGQlBnOUxnY2VjUDFCYkFSZjNHd3MxM3ByaWFRVlg5LWJlZnpYbFRFT3JZOXVmeU9XdVhCSjFiYWxkdG1OSHNLRTJnSXpEX0F5VjROVjVZUjBfM2tTVDNoc09VR1RDaVVvQks5aGppYU1R?oc=5",
             "source": "Reuters (Google News)"
           }
         ],
         "link_sources": [
-          "BBC World",
           "Reuters (Google News)"
         ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -296,43 +545,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-21T19:25:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:great_power:d48f9ad5c9": {
-        "id": "geo:great_power:d48f9ad5c9",
-        "pillar": "geo",
-        "category": "great_power",
-        "category_th": "การปะทะของมหาอำนาจ",
-        "category_en": "Great-power clash",
-        "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
-        "severity": 90.0,
-        "score": 54.0,
-        "countries": [
-          "russia",
-          "nato",
-          "poland"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-21T19:25:16Z",
         "last_seen": "2026-11-21T19:25:16Z",
         "is_local": false,
         "location": null,
@@ -800,43 +1012,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "manilatimes.net"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-20T07:27:30Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:coup_unrest:7a98ec2d16": {
         "id": "geo:coup_unrest:7a98ec2d16",
         "pillar": "geo",
@@ -934,85 +1109,6 @@
         ],
         "first_seen": "2026-11-08T06:15:12Z",
         "last_seen": "2026-11-20T07:27:30Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "wthitv.com",
-          "ynetnews.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-19T20:45:23Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
-        "last_seen": "2026-11-19T20:45:23Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2150,41 +2246,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:1000521c0f": {
-        "id": "geo:conflict:1000521c0f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Deadly car bomb blast kills two near Syria’s capital",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "syria"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T22:34:12Z",
-        "last_seen": "2026-11-14T22:34:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:04aaf49312": {
         "id": "geo:missile_strike:04aaf49312",
         "pillar": "geo",
@@ -2484,41 +2545,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:38384a8522": {
-        "id": "geo:missile_strike:38384a8522",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "sudan"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:8dfd5ff85f": {
         "id": "geo:sanctions:8dfd5ff85f",
         "pillar": "geo",
@@ -2555,42 +2581,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:0c5abc2fdb": {
-        "id": "geo:sanctions:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "BDS claims win as energy giants quit Israeli gas project off Gaza",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-12T20:03:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:8809c12f03": {
         "id": "geo:missile_strike:8809c12f03",
         "pillar": "geo",
@@ -2621,42 +2611,6 @@
         ],
         "first_seen": "2026-11-11T06:39:43Z",
         "last_seen": "2026-11-11T06:39:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:energy_infra:8dfd5ff85f": {
-        "id": "geo:energy_infra:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "energy_infra",
-        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
-        "category_en": "Attack on energy infrastructure",
-        "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
-        "severity": 75.0,
-        "score": 45.0,
-        "countries": [
-          "saudi arabia",
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-10T07:28:01Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2741,49 +2695,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:0c4fb5956d": {
-        "id": "geo:missile_strike:0c4fb5956d",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Drone and missile attacks wound 9 in Ukraine",
-        "severity": 55.0,
-        "score": 44.0,
-        "countries": [
-          "ukraine"
-        ],
-        "sources": [
-          "Reuters (Google News)",
-          "mercurynews.com",
-          "nwaonline.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.mercurynews.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-          "https://www.nwaonline.com/news/2026/nov/08/drone-missile-strikes-in-ukraine-wound-9/"
-        ],
-        "refs": [
-          {
-            "url": "https://www.mercurynews.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-            "source": "mercurynews.com"
-          },
-          {
-            "url": "https://www.nwaonline.com/news/2026/nov/08/drone-missile-strikes-in-ukraine-wound-9/",
-            "source": "nwaonline.com"
-          }
-        ],
-        "link_sources": [
-          "mercurynews.com",
-          "nwaonline.com"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
-        "last_seen": "2026-11-08T22:14:37Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:nuclear:ed9a73c4e5": {
         "id": "geo:nuclear:ed9a73c4e5",
         "pillar": "geo",
@@ -2817,41 +2728,6 @@
           "hindustantimes.com"
         ],
         "first_seen": "2026-11-07T15:28:13Z",
-        "last_seen": "2026-11-08T22:14:37Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:energy_infra:7a3d474ec2": {
-        "id": "geo:energy_infra:7a3d474ec2",
-        "pillar": "geo",
-        "category": "energy_infra",
-        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
-        "category_en": "Attack on energy infrastructure",
-        "title": "Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say - The Hindu",
-        "severity": 75.0,
-        "score": 45.0,
-        "countries": [
-          "iraq"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2p1NTRaRkdsTjlCUnVjbWdaaEJ1R2E2dGlVd3lfdDl5QmhzT3lFbm5MOWpDTjUyal9HT0FHZkMwNi1MRkxybTJBZGtOOEVGS0FyOVhpbmxxQnJrTG9EYXlRbXVuN0RnczcxNzQ0NHFVY25rWU9PWFVoZ1FwY1ZzeWgyaVpBM0JKMjBXblVlZkFGcGxDNFFMRkVQUTJNdkc3WW1wRXpiWGxBcV9LNmNiTUxQXzBqOEHSAb4BQVVfeXFMT1hIeGlMdmxtMlY0eC1EOWV2NHRIZHFSN3cyV1R1c04tcXhReVpZTTNIRmJfMHdpbGdKeXdKUkdjSVNCdjdIZTlkWmVWV0tIQlJoTXlZb3hKVkllQmc2MEttNzZyY3JYbWtudXk2bjBka0hRVWxkeG5LSjFyUnJwUExMTm1JUnRGUDZlNTJWLXVOTkM2cU5sNHpkc1IyYTZoU1pqWnZTbWJHYnlyMUptX1BkcXZXRGxpS2dXLVRRQQ?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-08T22:14:37Z",
         "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
@@ -2933,7 +2809,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2966,7 +2842,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3001,7 +2877,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3034,7 +2910,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3067,7 +2943,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3100,7 +2976,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3133,7 +3009,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3166,7 +3042,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3199,7 +3075,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3232,7 +3108,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3265,7 +3141,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3298,7 +3174,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3331,7 +3207,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3364,7 +3240,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3397,7 +3273,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3430,7 +3306,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3463,7 +3339,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3496,7 +3372,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3529,7 +3405,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3562,7 +3438,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4048,19 +3924,19 @@
   "last_valid": {
     "econ": {
       "score": 62.0,
-      "as_of": "2026-11-22T07:01:56Z"
+      "as_of": "2026-11-22T19:48:52Z"
     },
     "geo": {
-      "score": 71.6,
-      "as_of": "2026-11-22T07:01:56Z"
+      "score": 91.6,
+      "as_of": "2026-11-22T19:48:52Z"
     },
     "nat": {
-      "score": 24.6,
-      "as_of": "2026-11-22T07:01:56Z"
+      "score": 22.8,
+      "as_of": "2026-11-22T19:48:52Z"
     },
     "bio_infra": {
-      "score": 56.7,
-      "as_of": "2026-11-22T07:01:56Z"
+      "score": 56.6,
+      "as_of": "2026-11-22T19:48:52Z"
     }
   },
   "econ_indicators": {
@@ -4069,7 +3945,7 @@
       "change_pct": 85.96,
       "drawdown_pct": 0.0,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T07:01:56Z",
+      "as_of": "2026-11-22T19:48:52Z",
       "provider": "yfinance"
     },
     "brent": {
@@ -4077,7 +3953,7 @@
       "change_pct": -6.15,
       "drawdown_pct": -24.0,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T07:01:56Z",
+      "as_of": "2026-11-22T19:48:52Z",
       "provider": "yfinance"
     },
     "gold": {
@@ -4085,7 +3961,7 @@
       "change_pct": -9.54,
       "drawdown_pct": -33.9,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T07:01:56Z",
+      "as_of": "2026-11-22T19:48:52Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -4093,7 +3969,7 @@
       "change_pct": -8.61,
       "drawdown_pct": -11.62,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T07:01:56Z",
+      "as_of": "2026-11-22T19:48:52Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4101,7 +3977,7 @@
       "change_pct": -17.35,
       "drawdown_pct": -43.48,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T07:01:56Z",
+      "as_of": "2026-11-22T19:48:52Z",
       "provider": "yfinance"
     }
   },
@@ -4109,128 +3985,116 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "36756304a6758d94",
+    "events_hash": "ccf7b24a2076d23c",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:15560e224d",
       "geo:chokepoint:73ae71ea05",
+      "geo:energy_infra:8dfd5ff85f",
       "geo:great_power:d48f9ad5c9",
       "geo:missile_strike:0c5abc2fdb",
-      "geo:missile_strike:29886bc41b",
+      "geo:missile_strike:38384a8522",
+      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:73ae71ea05"
     ],
     "econ_score": 62.0,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันได้รับแรงผลักดันจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งในตะวันออกกลางจากการกระทำของอิหร่านที่ส่งผลกระทบต่อการขนส่งและความกังวลด้านนิวเคลียร์ รวมถึงความขัดแย้งที่ดำเนินอยู่ในยุโรปตะวันออก พัฒนาการเหล่านี้ส่งผลให้เกิดความผันผวนและการลดลงอย่างมีนัยสำคัญในตลาดการเงินทั่วโลก",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกเพิ่มขึ้นจากการปะทะทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะในตะวันออกกลางจากการกระทำของอิหร่านต่อฐานทัพสหรัฐฯ และการเดินเรือในช่องแคบฮอร์มุซ ควบคู่ไปกับการสู้รบที่ดำเนินอยู่ในยูเครนและการโจมตีเรือรัสเซียในอ่าวฟินแลนด์ ตลาดการเงินสะท้อนความไม่มั่นคงนี้ด้วยการลดลงอย่างมีนัยสำคัญของดัชนีหลัก เช่น S&P 500 และหุ้นกลุ่มเซมิคอนดักเตอร์ พร้อมกับความผันผวนที่สูงขึ้น",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในตะวันออกกลาง",
-          "signal_strength": "ปานกลาง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางที่ทวีความรุนแรงขึ้นคุกคามความมั่นคงด้านพลังงาน",
+          "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "อิหร่านได้กระชับการควบคุมการขนส่งในช่องแคบฮอร์มุซ โดยมีเรือบรรทุกน้ำมันถูกโจมตี และยังคงมีความกังวลเกี่ยวกับความทะเยอทะยานด้านนิวเคลียร์ของอิหร่านและการโจมตีด้วยขีปนาวุธในภูมิภาค",
+          "evidence_summary": "อิหร่านได้โจมตีฐานทัพสหรัฐฯ และเตรียมพร้อมที่จะฝ่าฝืนการปิดล้อม โดยมีเรือบรรทุกน้ำมันถูกโจมตีในช่องแคบฮอร์มุซ ขณะที่กองกำลังฮูตีอ้างว่าโจมตีโรงกลั่นน้ำมันของซาอุดีอาระเบีย",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "source": "euronews.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+              "source": "enca.com"
             },
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/",
+              "source": "tribuneindia.com"
             }
           ]
         },
         {
-          "title": "ความขัดแย้งและความไม่มั่นคงที่เลวร้ายลงในยุโรปตะวันออก",
+          "title": "ความขัดแย้งที่ขยายวงกว้างและความเสี่ยงของการเผชิญหน้าโดยตรงในยุโรป",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "รัสเซียยังคงโจมตีด้วยขีปนาวุธในยูเครน โดยมีขีปนาวุธลูกหนึ่งถูกรายงานว่าตกในโปแลนด์ และโปแลนด์ได้ประณามการละเมิดน่านฟ้าของรัสเซีย",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUFLdlZmeWprX3A2YllLMmlQSXZrYTRIazVMOEExREZuTXFCYThyVUlnR3U0TDg3dGpUeHE5SHJyanJWQUZTRHdwUG5YYTFxVXMtUU5rY1pOVzZkRUxhQ29oUEVUS0NJTWFxcUJmLW9lRE52cGs3N2FLbXZzNmVFNFpXTmZNZnI4S1pWNDB5RWV0UFhUUGlCTVUwNjlWZDMxcXhxS0FvZUdNNWN4UU9jMEw4bWVaOVB0TlE?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ]
-        },
-        {
-          "title": "ความผันผวนอย่างมีนัยสำคัญในตลาดโลก",
-          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "ดัชนีความผันผวน VIX พุ่งขึ้น 85.96% ในขณะที่ดัชนี S&P 500 และกองทุน ETF เซมิคอนดักเตอร์ SOXX ลดลง 8.61% และ 17.35% ตามลำดับภายในห้าวัน",
-          "refs": []
+          "evidence_summary": "เรือบรรทุกสินค้าของรัสเซียถูกโจมตีในอ่าวฟินแลนด์ ขีปนาวุธรัสเซียตกในโปแลนด์ และโปแลนด์ประณามการละเมิดน่านฟ้าของรัสเซีย ซึ่งบ่งชี้ถึงความเป็นไปได้ที่ความขัดแย้งในยูเครนจะขยายวง",
+          "refs": [
+            {
+              "url": "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
+              "source": "moneycontrol.com"
+            },
+            {
+              "url": "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
+              "source": "news.az"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
         }
       ],
       "local_notes_th": [
-        "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ซึ่งเป็นโรคร้ายแรงในกาตาร์"
+        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly in the Middle East with Iran's actions impacting shipping and nuclear concerns, and ongoing conflict in Eastern Europe. These developments are contributing to significant volatility and declines across global financial markets.",
+      "executive_summary_en": "Global systemic risk is elevated due to escalating geopolitical conflicts, particularly in the Middle East with Iran's actions against US bases and shipping in the Strait of Hormuz, alongside ongoing hostilities in Ukraine and a Russian ship attack in the Gulf of Finland. Financial markets reflect this instability, with significant drops in major indices like the S&P 500 and semiconductor stocks, coupled with high volatility.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions in the Middle East",
-          "signal_strength": "ปานกลาง",
+          "title": "Escalating Geopolitical Tensions in the Middle East Threaten Energy Security",
+          "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Iran has tightened its grip on shipping in the Strait of Hormuz, with tankers being hit, and there are ongoing concerns about Iran's nuclear ambitions and missile attacks in the region.",
+          "evidence_summary": "Iran has attacked US bases and is preparing to break blockades, with tankers being hit in the Strait of Hormuz, while Houthi forces claim strikes on Saudi oil infrastructure.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+              "source": "euronews.com"
             },
             {
-              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+              "source": "enca.com"
             },
             {
-              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/",
+              "source": "tribuneindia.com"
             }
           ]
         },
         {
-          "title": "Worsening Conflict and Instability in Eastern Europe",
+          "title": "Broadening Conflict and Direct Confrontation Risks in Europe",
           "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Russia has continued missile strikes on Ukraine, with one missile reportedly hitting Poland, and Poland has condemned Russian airspace violations.",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
-              "source": "Al Jazeera"
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUFLdlZmeWprX3A2YllLMmlQSXZrYTRIazVMOEExREZuTXFCYThyVUlnR3U0TDg3dGpUeHE5SHJyanJWQUZTRHdwUG5YYTFxVXMtUU5rY1pOVzZkRUxhQ29oUEVUS0NJTWFxcUJmLW9lRE52cGs3N2FLbXZzNmVFNFpXTmZNZnI4S1pWNDB5RWV0UFhUUGlCTVUwNjlWZDMxcXhxS0FvZUdNNWN4UU9jMEw4bWVaOVB0TlE?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ]
-        },
-        {
-          "title": "Significant Global Market Volatility",
-          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-3 months",
-          "evidence_summary": "The VIX volatility index surged by 85.96%, while the S&P 500 index and SOXX semiconductor ETF experienced declines of 8.61% and 17.35% respectively over five days.",
-          "refs": []
+          "evidence_summary": "A Russian cargo ship was attacked in the Gulf of Finland, a Russian missile hit Poland, and Poland condemned Russian airspace violations, indicating a potential spillover of the Ukraine conflict.",
+          "refs": [
+            {
+              "url": "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
+              "source": "moneycontrol.com"
+            },
+            {
+              "url": "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
+              "source": "news.az"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
         }
       ],
       "local_notes_en": [
-        "A high-consequence disease, Middle East respiratory syndrome (MERS), has been reported in Qatar."
+        "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-22T07:01:56Z"
+    "generated_at": "2026-11-22T19:48:52Z"
   },
-  "updated_at": "2026-11-22T07:01:56Z",
+  "updated_at": "2026-11-22T19:48:52Z",
   "version": 1
 }
