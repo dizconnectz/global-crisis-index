@@ -1,15 +1,238 @@
 {
   "active_events": {
     "geo": {
+      "geo:missile_strike:a59ee23b9a": {
+        "id": "geo:missile_strike:a59ee23b9a",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+        "severity": 55.0,
+        "score": 50.7,
+        "countries": [
+          "russia",
+          "ukraine",
+          "poland"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "dailyadvance.com",
+          "durangoherald.com",
+          "moneycontrol.com",
+          "news.az",
+          "timesofindia.indiatimes.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1VMUS1oUkxlYzRWaDg5WjNPbGJoV2t1LTlRNkVMWnF6a3Q3aUljXzlCal9hWmdhWnlkYzdKNjdFVGdwVk1WUFFucGdfbUlnY3RtUjBsdFBxVTdmTGNjcnJ1a0VDNnk5eFh5NDdWaGNWcjNWcFI2WkoxZnFUbkI5UHZ6YTdYZUVMa19Ldk5YTERtX3ZialpvbjI4eFVoQ0Eyd2l0NGxoVQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1VMUS1oUkxlYzRWaDg5WjNPbGJoV2t1LTlRNkVMWnF6a3Q3aUljXzlCal9hWmdhWnlkYzdKNjdFVGdwVk1WUFFucGdfbUlnY3RtUjBsdFBxVTdmTGNjcnJ1a0VDNnk5eFh5NDdWaGNWcjNWcFI2WkoxZnFUbkI5UHZ6YTdYZUVMa19Ldk5YTERtX3ZialpvbjI4eFVoQ0Eyd2l0NGxoVQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:b83a24fb1a": {
+        "id": "geo:conflict:b83a24fb1a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trafalgar Square Christmas tree felled in Norway",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "united kingdom"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-21T19:25:16Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:e074138d45": {
+        "id": "geo:conflict:e074138d45",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "New Zealand’s Mitchell, Phillips frustrate India as first Test ends in draw",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "india"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/sports/2026/11/23/new-zealand-india-first-test-cricket-wtc-phillips-mitchell-nicholls?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/sports/2026/11/23/new-zealand-india-first-test-cricket-wtc-phillips-mitchell-nicholls?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-23T07:50:36Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:f99aecef3d": {
+        "id": "geo:conflict:f99aecef3d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Indonesia confirms 24 killed in candy factory fire as search continues",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "indonesia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-23T07:50:36Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:6179c355b9": {
+        "id": "geo:conflict:6179c355b9",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "WHO chief calls for peace amid heavy fighting in Ebola-hit DR Congo region",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:e1fba413ee": {
+        "id": "geo:conflict:e1fba413ee",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Cameroon’s ex-rebels caught between hiding and broken promises",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/23/cameroons-ex-rebels-caught-between-hiding-and-broken-promises?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/23/cameroons-ex-rebels-caught-between-hiding-and-broken-promises?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-23T07:50:36Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:chokepoint:73ae71ea05": {
         "id": "geo:chokepoint:73ae71ea05",
         "pillar": "geo",
         "category": "chokepoint",
         "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
         "category_en": "Shipping chokepoint threat",
-        "title": "Iran attacks US bases in Bahrain as its tankers get ready to break the US blockade",
+        "title": "Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats",
         "severity": 85.0,
-        "score": 85.0,
+        "score": 78.4,
         "countries": [
           "iran"
         ],
@@ -21,33 +244,21 @@
           "manilatimes.net",
           "tribuneindia.com"
         ],
-        "article_count": 3,
+        "article_count": 1,
         "links": [
-          "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
-          "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
-          "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/"
+          "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
-            "source": "euronews.com"
-          },
-          {
-            "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
-            "source": "enca.com"
-          },
-          {
-            "url": "https://www.tribuneindia.com/news/world/us-imposed-blockade-an-act-of-war-iran-dy-fm-vows-to-break-siege/",
-            "source": "tribuneindia.com"
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "euronews.com",
-          "enca.com",
-          "tribuneindia.com"
+          "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -90,62 +301,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:a59ee23b9a": {
-        "id": "geo:missile_strike:a59ee23b9a",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "At least 14 feared trapped after Russian drone strike collapses building in Ukraine Kyiv region",
-        "severity": 55.0,
-        "score": 55.0,
-        "countries": [
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "dailyadvance.com",
-          "durangoherald.com",
-          "moneycontrol.com",
-          "news.az",
-          "timesofindia.indiatimes.com"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
-          "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
-          "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.moneycontrol.com/world/at-least-14-feared-trapped-after-russian-drone-strike-collapses-building-in-ukraine-s-kyiv-region-article-14086600.html",
-            "source": "moneycontrol.com"
-          },
-          {
-            "url": "https://news.az/news/russian-cargo-ship-still-burning-after-drone-strike-off-finland",
-            "source": "news.az"
-          },
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "moneycontrol.com",
-          "news.az",
-          "BBC World",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-22T19:48:52Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:energy_infra:8dfd5ff85f": {
         "id": "geo:energy_infra:8dfd5ff85f",
         "pillar": "geo",
@@ -177,41 +332,6 @@
           "bignewsnetwork.com"
         ],
         "first_seen": "2026-11-10T07:28:01Z",
-        "last_seen": "2026-11-22T19:48:52Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:b83a24fb1a": {
-        "id": "geo:conflict:b83a24fb1a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Trafalgar Square Christmas tree felled in Norway",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "united kingdom"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-21T19:25:16Z",
         "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
@@ -1552,41 +1672,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:6179c355b9": {
-        "id": "geo:conflict:6179c355b9",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "DR Congo’s rival peace efforts fail to halt violence in the east",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T07:40:05Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:e074138d45": {
         "id": "geo:sanctions:e074138d45",
         "pillar": "geo",
@@ -2209,43 +2294,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:f660745d5c": {
-        "id": "geo:conflict:f660745d5c",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Iran war live: Saudi-led coalition strikes down 3 drones",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran",
-          "saudi arabia",
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-15T06:45:12Z",
-        "last_seen": "2026-11-15T06:45:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:missile_strike:04aaf49312": {
         "id": "geo:missile_strike:04aaf49312",
         "pillar": "geo",
@@ -2545,77 +2593,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:8dfd5ff85f": {
-        "id": "geo:sanctions:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "yemen",
-          "saudi arabia"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-13T06:54:43Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:8809c12f03": {
-        "id": "geo:missile_strike:8809c12f03",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "El Salvador fires missiles on Haitian gang hideout",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-11T06:39:43Z",
-        "last_seen": "2026-11-11T06:39:43Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:energy_infra:5679e2094a": {
         "id": "geo:energy_infra:5679e2094a",
         "pillar": "geo",
@@ -2654,42 +2631,6 @@
         ],
         "first_seen": "2026-11-09T06:48:20Z",
         "last_seen": "2026-11-09T06:48:20Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:29886bc41b": {
-        "id": "geo:chokepoint:29886bc41b",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Trump orders blockade on Iranian ground transport as Houthis say Saudis killed dozens in air strikes",
-        "severity": 85.0,
-        "score": 51.0,
-        "countries": [
-          "iran",
-          "yemen"
-        ],
-        "sources": [
-          "foxnews.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
-        ],
-        "refs": [
-          {
-            "url": "https://www.foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8",
-            "source": "foxnews.com"
-          }
-        ],
-        "link_sources": [
-          "foxnews.com"
-        ],
-        "first_seen": "2026-11-08T22:14:37Z",
-        "last_seen": "2026-11-08T22:14:37Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2809,7 +2750,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2842,7 +2783,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2877,7 +2818,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -2910,7 +2851,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2943,7 +2884,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2976,7 +2917,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3009,7 +2950,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3042,7 +2983,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3075,7 +3016,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3108,7 +3049,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3141,7 +3082,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3174,7 +3115,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3207,7 +3148,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3240,7 +3181,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3273,7 +3214,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3306,7 +3247,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3339,7 +3280,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3372,7 +3313,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3405,7 +3346,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3438,11 +3379,47 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-22T19:48:52Z",
+        "last_seen": "2026-11-23T07:50:36Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:high_consequence:6179c355b9": {
+        "id": "bio_infra:high_consequence:6179c355b9",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "WHO chief calls for peace amid heavy fighting in Ebola-hit DR Congo region",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-23T07:50:36Z",
+        "is_local": true,
+        "location": "คองโก",
+        "location_en": "DR Congo",
+        "raw_score": 27.0
       },
       "bio_infra:outbreak:b8ab6557ad": {
         "id": "bio_infra:outbreak:b8ab6557ad",
@@ -3649,42 +3626,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:high_consequence:6179c355b9": {
-        "id": "bio_infra:high_consequence:6179c355b9",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": true,
-        "location": "คองโก",
-        "location_en": "DR Congo",
-        "raw_score": 27.0
-      },
       "bio_infra:global_outage:be92ee8672": {
         "id": "bio_infra:global_outage:be92ee8672",
         "pillar": "bio_infra",
@@ -3851,92 +3792,25 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:high_consequence:5f2ab0bf19": {
-        "id": "bio_infra:high_consequence:5f2ab0bf19",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": true,
-        "location": null,
-        "location_en": null,
-        "raw_score": 27.0
-      },
-      "bio_infra:high_consequence:a2cf81e798": {
-        "id": "bio_infra:high_consequence:a2cf81e798",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-13T06:54:43Z",
-        "is_local": true,
-        "location": null,
-        "location_en": null,
-        "raw_score": 27.0
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 62.0,
-      "as_of": "2026-11-22T19:48:52Z"
+      "score": 61.9,
+      "as_of": "2026-11-23T07:50:36Z"
     },
     "geo": {
-      "score": 91.6,
-      "as_of": "2026-11-22T19:48:52Z"
+      "score": 87.3,
+      "as_of": "2026-11-23T07:50:36Z"
     },
     "nat": {
-      "score": 22.8,
-      "as_of": "2026-11-22T19:48:52Z"
+      "score": 22.6,
+      "as_of": "2026-11-23T07:50:36Z"
     },
     "bio_infra": {
-      "score": 56.6,
-      "as_of": "2026-11-22T19:48:52Z"
+      "score": 57.0,
+      "as_of": "2026-11-23T07:50:36Z"
     }
   },
   "econ_indicators": {
@@ -3945,23 +3819,23 @@
       "change_pct": 85.96,
       "drawdown_pct": 0.0,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T19:48:52Z",
+      "as_of": "2026-11-23T07:50:36Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 89.94999694824219,
-      "change_pct": -6.15,
-      "drawdown_pct": -24.0,
-      "last_date": "2026-11-20",
-      "as_of": "2026-11-22T19:48:52Z",
+      "last": 89.52999877929688,
+      "change_pct": -3.15,
+      "drawdown_pct": -24.35,
+      "last_date": "2026-11-23",
+      "as_of": "2026-11-23T07:50:36Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3515.39990234375,
-      "change_pct": -9.54,
-      "drawdown_pct": -33.9,
-      "last_date": "2026-11-20",
-      "as_of": "2026-11-22T19:48:52Z",
+      "last": 3625.300048828125,
+      "change_pct": -5.91,
+      "drawdown_pct": -31.83,
+      "last_date": "2026-11-23",
+      "as_of": "2026-11-23T07:50:36Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3969,7 +3843,7 @@
       "change_pct": -8.61,
       "drawdown_pct": -11.62,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T19:48:52Z",
+      "as_of": "2026-11-23T07:50:36Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3977,7 +3851,7 @@
       "change_pct": -17.35,
       "drawdown_pct": -43.48,
       "last_date": "2026-11-20",
-      "as_of": "2026-11-22T19:48:52Z",
+      "as_of": "2026-11-23T07:50:36Z",
       "provider": "yfinance"
     }
   },
@@ -4095,6 +3969,6 @@
     },
     "generated_at": "2026-11-22T19:48:52Z"
   },
-  "updated_at": "2026-11-22T19:48:52Z",
+  "updated_at": "2026-11-23T07:50:36Z",
   "version": 1
 }
