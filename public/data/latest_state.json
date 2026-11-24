@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T00:00:06Z",
-  "global_score": 63,
+  "generated_at": "2026-11-24T10:02:30Z",
+  "global_score": 59,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,18 +11,18 @@
     "color": "orange"
   },
   "formula": {
-    "base": 54.33,
-    "boost": 8.53,
+    "base": 53.71,
+    "boost": 5.22,
     "cross_confirmed": true,
-    "max1": 81.5,
-    "max2": 56.8,
+    "max1": 77.8,
+    "max2": 57.1,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 40.7,
+      "score": 43.0,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,31 +35,31 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 26.62,
+          "value": 27.55,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "+16.2% (5 วันทำการ)",
-          "hint_en": "+16.2% (5 trading days)"
+          "hint": "+8.2% (5 วันทำการ)",
+          "hint_en": "+8.2% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 86.81,
+          "value": 86.54,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-6.1% (5 วันทำการ)",
-          "hint_en": "-6.1% (5 trading days)"
+          "hint": "-7.1% (5 วันทำการ)",
+          "hint_en": "-7.1% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3622.2,
+          "value": 3621.6,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-6.0% (5 วันทำการ)",
-          "hint_en": "-6.0% (5 trading days)"
+          "hint": "-6.3% (5 วันทำการ)",
+          "hint_en": "-6.3% (5 trading days)"
         },
         {
           "key": "spx",
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 26.62,
-          "change_pct": 16.19,
-          "drawdown_pct": -25.83,
-          "score": 54.9,
+          "value": 27.55,
+          "change_pct": 8.21,
+          "drawdown_pct": -23.24,
+          "score": 57.6,
           "status": "ok",
-          "last_date": "2026-11-23",
+          "last_date": "2026-11-24",
           "provider": "yfinance"
         },
         {
@@ -107,12 +107,12 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 86.81,
-          "change_pct": -6.09,
-          "drawdown_pct": -26.65,
-          "score": 28.1,
+          "value": 86.54,
+          "change_pct": -7.09,
+          "drawdown_pct": -26.88,
+          "score": 34.3,
           "status": "ok",
-          "last_date": "2026-11-23",
+          "last_date": "2026-11-24",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3622.2,
-          "change_pct": -5.99,
-          "drawdown_pct": -31.89,
+          "value": 3621.6,
+          "change_pct": -6.28,
+          "drawdown_pct": -31.9,
           "score": 5.0,
           "status": "ok",
-          "last_date": "2026-11-23",
+          "last_date": "2026-11-24",
           "provider": "yfinance"
         },
         {
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 81.5,
+      "score": 77.8,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats",
           "severity": 85.0,
-          "score": 70.3,
+          "score": 65.7,
           "countries": [
             "iran"
           ],
@@ -225,7 +225,7 @@
           "category_en": "Air / missile strikes",
           "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
           "severity": 55.0,
-          "score": 45.4,
+          "score": 42.4,
           "countries": [
             "russia",
             "ukraine"
@@ -268,7 +268,7 @@
           "category_en": "Great-power clash",
           "title": "Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast",
           "severity": 90.0,
-          "score": 44.6,
+          "score": 41.7,
           "countries": [
             "russia",
             "nato"
@@ -305,7 +305,7 @@
           "category_en": "Nuclear threat",
           "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
           "severity": 95.0,
-          "score": 39.9,
+          "score": 37.3,
           "countries": [
             "iran"
           ],
@@ -341,7 +341,7 @@
           "category_en": "Attack on energy infrastructure",
           "title": "Yemen Houthis claim strikes on Saudi oil refinery , radar facility",
           "severity": 75.0,
-          "score": 37.2,
+          "score": 34.7,
           "countries": [
             "yemen",
             "saudi arabia"
@@ -396,18 +396,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 114,
+          "value": 78,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 8 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 8 event clusters"
+          "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 9 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 20.3,
+      "score": 19.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -450,7 +450,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 126,
+          "value": 118,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -461,7 +461,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 56.8,
+      "score": 57.1,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -499,7 +499,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-24T00:00:06Z",
+          "last_seen": "2026-11-24T10:02:30Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -532,7 +532,42 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-18T07:40:05Z",
-          "last_seen": "2026-11-24T00:00:06Z",
+          "last_seen": "2026-11-24T10:02:30Z",
+          "is_local": false,
+          "location": null,
+          "location_en": null,
+          "raw_score": null
+        },
+        {
+          "id": "bio_infra:cyber_incident:73ae71ea05",
+          "pillar": "bio_infra",
+          "category": "cyber_incident",
+          "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+          "category_en": "Actual cyber incident",
+          "title": "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports - Reuters",
+          "severity": 40.0,
+          "score": 24.0,
+          "countries": [
+            "iran"
+          ],
+          "sources": [
+            "Reuters (Google News)"
+          ],
+          "article_count": 1,
+          "links": [
+            "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5"
+          ],
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ],
+          "link_sources": [
+            "Reuters (Google News)"
+          ],
+          "first_seen": "2026-11-24T10:02:30Z",
+          "last_seen": "2026-11-24T10:02:30Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -546,7 +581,7 @@
           "category_en": "Disease outbreak",
           "title": "Disease Outbreak News: Yellow fever - WHO African Region",
           "severity": 25.0,
-          "score": 13.7,
+          "score": 12.8,
           "countries": [
             "sahel",
             "nigeria"
@@ -582,7 +617,7 @@
           "category_en": "Actual cyber incident",
           "title": "Governments warn Java flaw leaves computer systems open to hackers - Reuters",
           "severity": 40.0,
-          "score": 10.4,
+          "score": 9.7,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -606,39 +641,6 @@
           "location": null,
           "location_en": null,
           "raw_score": null
-        },
-        {
-          "id": "bio_infra:global_outage:be92ee8672",
-          "pillar": "bio_infra",
-          "category": "global_outage",
-          "category_th": "ระบบล่มหลายประเทศ",
-          "category_en": "Multi-country system outage",
-          "title": "Microsoft restores service to Outlook and Teams after global outage - CNA",
-          "severity": 70.0,
-          "score": 10.2,
-          "countries": [],
-          "sources": [
-            "Reuters (Google News)"
-          ],
-          "article_count": 1,
-          "links": [
-            "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5"
-          ],
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjhZWWdmOUhRUGZMOVlWd2tjZ3lwLVJKTjltOEpTSjJzX3F5TnQtMEd5SGFQWWJtYnl1M0FkQldINlU4dlk5VXVSWjBxVHh5RVdUZnhiQ2hqNGd1MDkwWW4zZ2lCclF6cEhTd0l6WTBsVjVCUllnNlV1VWJkZy1VRFZ3UU01Ml9yVFI5X1J0ZWctR0s5cFJySmQzNEpTTGg5Q3Z2UzBGdw?oc=5",
-              "source": "Reuters (Google News)"
-            }
-          ],
-          "link_sources": [
-            "Reuters (Google News)"
-          ],
-          "first_seen": "2026-11-14T18:14:22Z",
-          "last_seen": "2026-11-15T06:45:12Z",
-          "is_local": false,
-          "location": null,
-          "location_en": null,
-          "raw_score": null
         }
       ],
       "metrics": [
@@ -656,7 +658,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 7,
+          "value": 8,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -680,8 +682,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 81.5,
-      "contribution": 37.1,
+      "score": 77.8,
+      "contribution": 32.4,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats",
       "headline_en": "Shipping chokepoint threat: Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats"
     },
@@ -689,8 +691,8 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 40.7,
-      "contribution": 14.2,
+      "score": 43.0,
+      "contribution": 15.0,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 140.22 USD",
       "headline_en": "SOXX semiconductor ETF 140.22 USD"
     },
@@ -698,100 +700,140 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 56.8,
-      "contribution": 8.5,
+      "score": 57.1,
+      "contribution": 8.6,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria"
     }
   ],
   "summary": {
-    "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และดัชนีความผันผวน VIX วิกฤตเริ่มลุกลามข้ามหมวด จึงมีตัวเร่งเชิงระบบเพิ่มเข้ามา",
+    "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งจากการกระทำของอิหร่านในช่องแคบฮอร์มุซและการโจมตีเรือขนส่งของรัสเซีย กำลังขับเคลื่อนความเสี่ยงเชิงระบบทั่วโลก ซึ่งสะท้อนให้เห็นถึงความผันผวนของตลาดที่เพิ่มขึ้นและการลดลงของดัชนีตลาดหุ้นหลัก",
     "early_warnings_th": [
       {
-        "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในเส้นทางเดินเรือสำคัญและตะวันออกกลาง",
         "signal_strength": "สูง",
         "timeframe": "1-4 สัปดาห์",
+        "evidence_summary": "เรือบรรทุกน้ำมันถูกวางเพลิงในช่องแคบฮอร์มุซ โดยอิหร่านเตือนถึงภัยคุกคามภายในและกระชับการควบคุมการเดินเรือ ขณะที่กลุ่มฮูตีในเยเมนอ้างว่าโจมตีโรงกลั่นน้ำมันซาอุดีอาระเบีย และสหรัฐฯ เพิ่มมาตรการคว่ำบาตรอิหร่าน",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
             "source": "Al Jazeera"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility",
+            "source": "bignewsnetwork.com"
           }
-        ],
-        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 6 แหล่งข่าว เช่น “Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats”"
+        ]
       },
       {
-        "title": "โรคติดต่อร้ายแรง: คองโก–ไนจีเรีย",
+        "title": "ภัยคุกคามความมั่นคงทางทะเลที่เพิ่มขึ้นในน่านน้ำยุโรป",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
+        "evidence_summary": "เรือที่มุ่งหน้าสู่รัสเซียถูกโจมตีด้วยโดรนในอ่าวฟินแลนด์ เกิดเพลิงไหม้และถูกลากออกไป ซึ่งบ่งชี้ถึงความเป็นไปได้ที่ความขัดแย้งจะบานปลายส่งผลกระทบต่อการเดินเรือในน่านน้ำยุโรป",
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+            "source": "thevermilion.com"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ]
+      },
+      {
+        "title": "การกลับมาและการแพร่กระจายของโรคติดเชื้อร้ายแรง",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "มีรายงานการระบาดใหม่ของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของโรคชิคุนกุนยาในสวิตเซอร์แลนด์",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
             "source": "WHO DON"
-          }
-        ],
-        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria”"
-      },
-      {
-        "title": "การปะทะของมหาอำนาจ: รัสเซีย–นาโต",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 สัปดาห์",
-        "refs": [
+          },
           {
-            "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-            "source": "thevermilion.com"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+            "source": "WHO DON"
           }
-        ],
-        "evidence_summary": "พบรายงาน 1 ชิ้นจาก 2 แหล่งข่าว เช่น “Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast”"
+        ]
       }
     ],
     "local_notes_th": [
-      "โรคติดต่อร้ายแรง — กาตาร์: Disease Outbreak News: Middle East respiratory syndrome (MERS) – Qatar (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
+      "มีรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
     ],
-    "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and VIX volatility index. The crisis is spreading across pillars, so the systemic booster is active.",
+    "executive_summary_en": "Escalating geopolitical tensions, particularly involving Iran's actions in the Strait of Hormuz and attacks on Russian shipping, are driving global systemic risk. This is reflected in increased market volatility and a decline in major stock indices.",
     "early_warnings_en": [
       {
-        "title": "Shipping chokepoint threat: Iran",
+        "title": "Escalating Geopolitical Tensions in Critical Maritime Chokepoints and the Middle East",
         "signal_strength": "สูง",
         "timeframe": "1-4 weeks",
+        "evidence_summary": "Tankers have been set ablaze in the Strait of Hormuz, with Iran warning of internal threats and tightening its grip on shipping, while Yemen Houthis claim strikes on a Saudi oil refinery and the US escalates sanctions on Iran.",
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
             "source": "Al Jazeera"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility",
+            "source": "bignewsnetwork.com"
           }
-        ],
-        "evidence_summary": "1 report(s) from 6 outlet(s), e.g. “Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats”"
+        ]
       },
       {
-        "title": "High-consequence disease: DR Congo–Nigeria",
+        "title": "Heightened Maritime Security Threats in European Waters",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
+        "evidence_summary": "A Russia-bound ship was attacked by drones in the Gulf of Finland, set on fire, and towed away, indicating potential escalation of conflict affecting shipping in European waters.",
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+            "source": "thevermilion.com"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ]
+      },
+      {
+        "title": "Resurgence and Spread of High-Consequence Infectious Diseases",
+        "signal_strength": "ปานกลาง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "New outbreaks of Ebola disease caused by Bundibugyo virus have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Chikungunya virus disease in Switzerland.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
             "source": "WHO DON"
-          }
-        ],
-        "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria”"
-      },
-      {
-        "title": "Great-power clash: Russia–NATO",
-        "signal_strength": "ปานกลาง",
-        "timeframe": "1-4 weeks",
-        "refs": [
+          },
           {
-            "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-            "source": "thevermilion.com"
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+            "source": "WHO DON"
           }
-        ],
-        "evidence_summary": "1 report(s) from 2 outlet(s), e.g. “Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast”"
+        ]
       }
     ],
     "local_notes_en": [
-      "High-consequence disease — Qatar: Disease Outbreak News: Middle East respiratory syndrome (MERS) – Qatar (weight in the global index capped at 25 points in its pillar)"
+      "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
     ],
-    "source": "template",
-    "model": null,
-    "generated_at": "2026-11-24T00:00:06Z"
+    "source": "gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2026-11-24T10:02:30Z"
   },
   "local_events": [
     {
@@ -823,7 +865,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-24T00:00:06Z",
+      "last_seen": "2026-11-24T10:02:30Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -839,9 +881,9 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:08Z",
+        "fetched_at": "2026-11-24T10:02:31Z",
         "items": 5,
-        "data_as_of": "2026-11-23",
+        "data_as_of": "2026-11-24",
         "error": null,
         "note": null,
         "optional": false
@@ -850,7 +892,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-24T00:00:27Z",
+        "fetched_at": "2026-11-24T10:02:43Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -861,9 +903,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:06Z",
-        "items": 34,
-        "data_as_of": "2026-11-23T23:16:08Z",
+        "fetched_at": "2026-11-24T10:02:30Z",
+        "items": 24,
+        "data_as_of": "2026-11-24T09:42:54Z",
         "error": null,
         "note": null,
         "optional": false
@@ -872,9 +914,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:06Z",
+        "fetched_at": "2026-11-24T10:02:30Z",
         "items": 25,
-        "data_as_of": "2026-11-23T23:49:37Z",
+        "data_as_of": "2026-11-24T09:51:26Z",
         "error": null,
         "note": null,
         "optional": false
@@ -883,9 +925,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:07Z",
-        "items": 55,
-        "data_as_of": "2026-11-23T22:40:29Z",
+        "fetched_at": "2026-11-24T10:02:31Z",
+        "items": 29,
+        "data_as_of": "2026-11-24T09:52:58Z",
         "error": null,
         "note": null,
         "optional": false
@@ -894,7 +936,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:06Z",
+        "fetched_at": "2026-11-24T10:02:30Z",
         "items": 4,
         "data_as_of": "2026-11-23T02:40:58Z",
         "error": null,
@@ -905,9 +947,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:08Z",
-        "items": 163,
-        "data_as_of": "2026-11-23T20:16:50Z",
+        "fetched_at": "2026-11-24T10:02:31Z",
+        "items": 149,
+        "data_as_of": "2026-11-24T08:19:08Z",
         "error": null,
         "note": null,
         "optional": false
@@ -916,7 +958,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:07Z",
+        "fetched_at": "2026-11-24T10:02:31Z",
         "items": 20,
         "data_as_of": "2026-11-20T19:00:00Z",
         "error": null,
@@ -927,7 +969,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-24T00:00:06Z",
+        "fetched_at": "2026-11-24T10:02:30Z",
         "items": 30,
         "data_as_of": "2026-11-23T12:00:00Z",
         "error": null,

@@ -9,12 +9,119 @@
         "category_en": "Armed conflict",
         "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.4,
         "countries": [
           "russia",
           "libya",
-          "ukraine",
-          "baltics"
+          "ukraine"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:6179c355b9": {
+        "id": "geo:conflict:6179c355b9",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "DR Congo says aircraft missing as rebels claim to shoot down plane",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:b6a772c16b": {
+        "id": "geo:sanctions:b6a772c16b",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "united kingdom",
+          "myanmar"
+        ],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:7ce8277c35": {
+        "id": "geo:conflict:7ce8277c35",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "mexico"
         ],
         "sources": [
           "Al Jazeera",
@@ -22,16 +129,16 @@
         ],
         "article_count": 2,
         "links": [
-          "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss"
+          "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/24/moment-mexican-troops-captured-cartel-leader-el-chapo?traffic_source=rss"
         ],
         "refs": [
           {
-            "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+            "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/moment-mexican-troops-captured-cartel-leader-el-chapo?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -39,8 +146,182 @@
           "BBC World",
           "Al Jazeera"
         ],
-        "first_seen": "2026-11-24T00:00:06Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "first_seen": "2026-11-22T07:01:56Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:c6af69ac89": {
+        "id": "geo:conflict:c6af69ac89",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Wars choke global food routes, threatening aid for 7.3 million, WFP warns",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:14d281fd80": {
+        "id": "geo:conflict:14d281fd80",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Why has Yemen’s offensive against the Houthis in al-Bayda stalled?",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "irishtimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:c4e7ac099d": {
+        "id": "geo:sanctions:c4e7ac099d",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "WHO chief visits Cuba as healthcare system deteriorates",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "cuba"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:8809c12f03": {
+        "id": "geo:conflict:8809c12f03",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "haiti"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-05T03:35:49Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:2db509f2c9": {
+        "id": "geo:conflict:2db509f2c9",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "UN food agency chief warns wars jeopardize food aid for 7.3 million more people - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOEZlNTVYYjRLZDhNc0FuOF9MV3B3MWFPcG9ya3lBZlFZS2gzc1E4ajR1aDFGamY5dlMwazdLVmxLaVFEWndoUjd3cWpkRDlkb3RSNTNqN0pCbFJQdXRPNEZTUFV1cnE4aExPZmgwTVB5UTIyZmNZbWRERC1XM25lVHVjU3gxdDNIN29UNy04cm1ramhmRlJscmZJVkhHRUlDMm9KRlIwTzRESnExVGJFajI0WEhPTVRtbVdpbXFLZnR6TXZJWTkxYWxYYw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOEZlNTVYYjRLZDhNc0FuOF9MV3B3MWFPcG9ya3lBZlFZS2gzc1E4ajR1aDFGamY5dlMwazdLVmxLaVFEWndoUjd3cWpkRDlkb3RSNTNqN0pCbFJQdXRPNEZTUFV1cnE4aExPZmgwTVB5UTIyZmNZbWRERC1XM25lVHVjU3gxdDNIN29UNy04cm1ramhmRlJscmZJVkhHRUlDMm9KRlIwTzRESnExVGJFajI0WEhPTVRtbVdpbXFLZnR6TXZJWTkxYWxYYw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -416,41 +697,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:6179c355b9": {
-        "id": "geo:conflict:6179c355b9",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "WHO chief calls for peace amid heavy fighting in Ebola-hit DR Congo region",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-23T07:50:36Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:e1fba413ee": {
         "id": "geo:conflict:e1fba413ee",
         "pillar": "geo",
@@ -668,41 +914,6 @@
         ],
         "first_seen": "2026-11-03T06:56:57Z",
         "last_seen": "2026-11-22T19:48:52Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:7ce8277c35": {
-        "id": "geo:conflict:7ce8277c35",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "mexico"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-22T07:01:56Z",
-        "last_seen": "2026-11-22T07:01:56Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -1067,42 +1278,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-09T06:48:20Z",
-        "last_seen": "2026-11-21T07:21:18Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8809c12f03": {
-        "id": "geo:conflict:8809c12f03",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Three Salvadoran soldiers killed in Haiti while handling explosives",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "haiti"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-05T03:35:49Z",
         "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
@@ -1711,43 +1886,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:14d281fd80": {
-        "id": "geo:conflict:14d281fd80",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "How the Houthis fund war effort and tighten grip on Yemen",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "irishtimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/18/how-the-houthis-fund-war-effort-and-tighten-grip-on-yemen?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/18/how-the-houthis-fund-war-effort-and-tighten-grip-on-yemen?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T19:29:50Z",
-        "last_seen": "2026-11-18T07:40:05Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:46eb8b3d43": {
         "id": "geo:conflict:46eb8b3d43",
         "pillar": "geo",
@@ -2161,112 +2299,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:b2e0284c13": {
-        "id": "geo:conflict:b2e0284c13",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Kim Ghattas :  War in the Middle East doesnt serve anyone interests  ",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "newstatesman.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests"
-        ],
-        "refs": [
-          {
-            "url": "https://www.newstatesman.com/the-weekend-interview/2026/11/kim-ghattas-war-in-the-middle-east-doesnt-serve-anyones-interests",
-            "source": "newstatesman.com"
-          }
-        ],
-        "link_sources": [
-          "newstatesman.com"
-        ],
-        "first_seen": "2026-11-15T18:56:48Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:0c4fb5956d": {
-        "id": "geo:conflict:0c4fb5956d",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Prince Harry praises war veterans on surprise visit to Ukraine",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World",
-          "livemint.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-02T21:46:15Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:1e7073f4ea": {
-        "id": "geo:conflict:1e7073f4ea",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Canada bars Russia from Junior World Championships",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "canada",
-          "russia",
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-16T06:44:13Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:ea94661062": {
         "id": "geo:sanctions:ea94661062",
         "pillar": "geo",
@@ -2437,50 +2469,6 @@
         ],
         "first_seen": "2026-11-14T18:14:22Z",
         "last_seen": "2026-11-14T22:34:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:54c60dd82f": {
-        "id": "geo:conflict:54c60dd82f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "ukraine",
-          "nato",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T18:14:22Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2671,7 +2659,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2704,7 +2692,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2739,7 +2727,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -2772,7 +2760,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2805,7 +2793,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2838,7 +2826,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2871,7 +2859,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2904,7 +2892,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2937,7 +2925,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -2970,7 +2958,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3003,7 +2991,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3036,7 +3024,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3069,7 +3057,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3102,7 +3090,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3135,7 +3123,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3168,7 +3156,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3201,7 +3189,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3234,7 +3222,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3267,7 +3255,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3300,7 +3288,42 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T00:00:06Z",
+        "last_seen": "2026-11-24T10:02:30Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:73ae71ea05": {
+        "id": "bio_infra:cyber_incident:73ae71ea05",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3683,45 +3706,45 @@
   },
   "last_valid": {
     "econ": {
-      "score": 40.7,
-      "as_of": "2026-11-24T00:00:06Z"
+      "score": 43.0,
+      "as_of": "2026-11-24T10:02:30Z"
     },
     "geo": {
-      "score": 81.5,
-      "as_of": "2026-11-24T00:00:06Z"
+      "score": 77.8,
+      "as_of": "2026-11-24T10:02:30Z"
     },
     "nat": {
-      "score": 20.3,
-      "as_of": "2026-11-24T00:00:06Z"
+      "score": 19.1,
+      "as_of": "2026-11-24T10:02:30Z"
     },
     "bio_infra": {
-      "score": 56.8,
-      "as_of": "2026-11-24T00:00:06Z"
+      "score": 57.1,
+      "as_of": "2026-11-24T10:02:30Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 26.6200008392334,
-      "change_pct": 16.19,
-      "drawdown_pct": -25.83,
-      "last_date": "2026-11-23",
-      "as_of": "2026-11-24T00:00:06Z",
+      "last": 27.549999237060547,
+      "change_pct": 8.21,
+      "drawdown_pct": -23.24,
+      "last_date": "2026-11-24",
+      "as_of": "2026-11-24T10:02:30Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 86.80999755859375,
-      "change_pct": -6.09,
-      "drawdown_pct": -26.65,
-      "last_date": "2026-11-23",
-      "as_of": "2026-11-24T00:00:06Z",
+      "last": 86.54000091552734,
+      "change_pct": -7.09,
+      "drawdown_pct": -26.88,
+      "last_date": "2026-11-24",
+      "as_of": "2026-11-24T10:02:30Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3622.199951171875,
-      "change_pct": -5.99,
-      "drawdown_pct": -31.89,
-      "last_date": "2026-11-23",
-      "as_of": "2026-11-24T00:00:06Z",
+      "last": 3621.60009765625,
+      "change_pct": -6.28,
+      "drawdown_pct": -31.9,
+      "last_date": "2026-11-24",
+      "as_of": "2026-11-24T10:02:30Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -3729,7 +3752,7 @@
       "change_pct": -2.42,
       "drawdown_pct": -7.44,
       "last_date": "2026-11-23",
-      "as_of": "2026-11-24T00:00:06Z",
+      "as_of": "2026-11-24T10:02:30Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -3737,13 +3760,14 @@
       "change_pct": -0.71,
       "drawdown_pct": -35.78,
       "last_date": "2026-11-23",
-      "as_of": "2026-11-24T00:00:06Z",
+      "as_of": "2026-11-24T10:02:30Z",
       "provider": "yfinance"
     }
   },
   "ai": {
-    "source": "template",
-    "model": null,
+    "source": "gemini",
+    "model": "gemini-2.5-flash",
+    "prompt_version": 4,
     "events_hash": "71d8fa75d4b3fa08",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
@@ -3756,95 +3780,135 @@
       "geo:missile_strike:ffd4002ff9",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 40.7,
+    "econ_score": 43.0,
     "summary": {
-      "executive_summary_th": "แรงกดดันหลักมาจากความขัดแย้งและภูมิรัฐศาสตร์ โดยเฉพาะการปิด/คุกคามช่องแคบเดินเรือเกี่ยวกับอิหร่าน รองลงมาคือเศรษฐกิจ การเงิน และพลังงาน จากความเคลื่อนไหวของดัชนีเซมิคอนดักเตอร์ SOXX และดัชนีความผันผวน VIX วิกฤตเริ่มลุกลามข้ามหมวด จึงมีตัวเร่งเชิงระบบเพิ่มเข้ามา",
+      "executive_summary_th": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งจากการกระทำของอิหร่านในช่องแคบฮอร์มุซและการโจมตีเรือขนส่งของรัสเซีย กำลังขับเคลื่อนความเสี่ยงเชิงระบบทั่วโลก ซึ่งสะท้อนให้เห็นถึงความผันผวนของตลาดที่เพิ่มขึ้นและการลดลงของดัชนีตลาดหุ้นหลัก",
       "early_warnings_th": [
         {
-          "title": "การปิด/คุกคามช่องแคบเดินเรือ: อิหร่าน",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นในเส้นทางเดินเรือสำคัญและตะวันออกกลาง",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
+          "evidence_summary": "เรือบรรทุกน้ำมันถูกวางเพลิงในช่องแคบฮอร์มุซ โดยอิหร่านเตือนถึงภัยคุกคามภายในและกระชับการควบคุมการเดินเรือ ขณะที่กลุ่มฮูตีในเยเมนอ้างว่าโจมตีโรงกลั่นน้ำมันซาอุดีอาระเบีย และสหรัฐฯ เพิ่มมาตรการคว่ำบาตรอิหร่าน",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
               "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility",
+              "source": "bignewsnetwork.com"
             }
-          ],
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 6 แหล่งข่าว เช่น “Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats”"
+          ]
         },
         {
-          "title": "โรคติดต่อร้ายแรง: คองโก–ไนจีเรีย",
+          "title": "ภัยคุกคามความมั่นคงทางทะเลที่เพิ่มขึ้นในน่านน้ำยุโรป",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
+          "evidence_summary": "เรือที่มุ่งหน้าสู่รัสเซียถูกโจมตีด้วยโดรนในอ่าวฟินแลนด์ เกิดเพลิงไหม้และถูกลากออกไป ซึ่งบ่งชี้ถึงความเป็นไปได้ที่ความขัดแย้งจะบานปลายส่งผลกระทบต่อการเดินเรือในน่านน้ำยุโรป",
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+              "source": "thevermilion.com"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "การกลับมาและการแพร่กระจายของโรคติดเชื้อร้ายแรง",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "มีรายงานการระบาดใหม่ของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของโรคชิคุนกุนยาในสวิตเซอร์แลนด์",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
-            }
-          ],
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 1 แหล่งข่าว เช่น “Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria”"
-        },
-        {
-          "title": "การปะทะของมหาอำนาจ: รัสเซีย–นาโต",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 สัปดาห์",
-          "refs": [
+            },
             {
-              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-              "source": "thevermilion.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+              "source": "WHO DON"
             }
-          ],
-          "evidence_summary": "พบรายงาน 1 ชิ้นจาก 2 แหล่งข่าว เช่น “Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast”"
+          ]
         }
       ],
       "local_notes_th": [
-        "โรคติดต่อร้ายแรง — กาตาร์: Disease Outbreak News: Middle East respiratory syndrome (MERS) – Qatar (น้ำหนักในดัชนีโลกถูกจำกัดไว้ที่ 25 คะแนนในหมวด)"
+        "มีรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Pressure comes mainly from conflict & geopolitics, especially shipping chokepoint threat involving Iran, followed by economy, finance & energy, driven by SOXX semiconductor ETF and VIX volatility index. The crisis is spreading across pillars, so the systemic booster is active.",
+      "executive_summary_en": "Escalating geopolitical tensions, particularly involving Iran's actions in the Strait of Hormuz and attacks on Russian shipping, are driving global systemic risk. This is reflected in increased market volatility and a decline in major stock indices.",
       "early_warnings_en": [
         {
-          "title": "Shipping chokepoint threat: Iran",
+          "title": "Escalating Geopolitical Tensions in Critical Maritime Chokepoints and the Middle East",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
+          "evidence_summary": "Tankers have been set ablaze in the Strait of Hormuz, with Iran warning of internal threats and tightening its grip on shipping, while Yemen Houthis claim strikes on a Saudi oil refinery and the US escalates sanctions on Iran.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
               "source": "Al Jazeera"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+              "source": "Al Jazeera"
+            },
+            {
+              "url": "http://www.bignewsnetwork.com/news/279449147/yemen-houthis-claim-strikes-on-saudi-oil-refinery-radar-facility",
+              "source": "bignewsnetwork.com"
             }
-          ],
-          "evidence_summary": "1 report(s) from 6 outlet(s), e.g. “Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats”"
+          ]
         },
         {
-          "title": "High-consequence disease: DR Congo–Nigeria",
+          "title": "Heightened Maritime Security Threats in European Waters",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
+          "evidence_summary": "A Russia-bound ship was attacked by drones in the Gulf of Finland, set on fire, and towed away, indicating potential escalation of conflict affecting shipping in European waters.",
+          "refs": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            },
+            {
+              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+              "source": "thevermilion.com"
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World"
+            }
+          ]
+        },
+        {
+          "title": "Resurgence and Spread of High-Consequence Infectious Diseases",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "New outbreaks of Ebola disease caused by Bundibugyo virus have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside Chikungunya virus disease in Switzerland.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
-            }
-          ],
-          "evidence_summary": "1 report(s) from 1 outlet(s), e.g. “Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria”"
-        },
-        {
-          "title": "Great-power clash: Russia–NATO",
-          "signal_strength": "ปานกลาง",
-          "timeframe": "1-4 weeks",
-          "refs": [
+            },
             {
-              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-              "source": "thevermilion.com"
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+              "source": "WHO DON"
             }
-          ],
-          "evidence_summary": "1 report(s) from 2 outlet(s), e.g. “Russian cargo ship attacked by drones in the Gulf of Finland : it is on fire and drifting towards the NATO coast”"
+          ]
         }
       ],
       "local_notes_en": [
-        "High-consequence disease — Qatar: Disease Outbreak News: Middle East respiratory syndrome (MERS) – Qatar (weight in the global index capped at 25 points in its pillar)"
+        "A local outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-24T00:00:06Z"
+    "generated_at": "2026-11-24T10:02:30Z"
   },
-  "updated_at": "2026-11-24T00:00:06Z",
+  "updated_at": "2026-11-24T10:02:30Z",
   "version": 1
 }
