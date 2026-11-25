@@ -1,6 +1,694 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:f660745d5c": {
+        "id": "geo:conflict:f660745d5c",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Trump administration weighs strikes on Iran leaders to end war , reports say",
+        "severity": 30.0,
+        "score": 30.0,
+        "countries": [
+          "iran",
+          "saudi arabia",
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "aljazeera.com",
+          "foxnews.com",
+          "jpost.com",
+          "wcbm.com"
+        ],
+        "article_count": 7,
+        "links": [
+          "https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report",
+          "https://www.jpost.com/middle-east/iran-news/article-916036",
+          "https://wcbm.com/national-headline/president-trump-is-considering-assassinating-senior-iranian-officials-to-bring-an-end-to-the-war/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.foxnews.com/world/trump-administration-weighs-targeting-irans-top-regime-leaders-bid-end-war-report",
+            "source": "foxnews.com"
+          },
+          {
+            "url": "https://www.jpost.com/middle-east/iran-news/article-916036",
+            "source": "jpost.com"
+          },
+          {
+            "url": "https://wcbm.com/national-headline/president-trump-is-considering-assassinating-senior-iranian-officials-to-bring-an-end-to-the-war/",
+            "source": "wcbm.com"
+          }
+        ],
+        "link_sources": [
+          "foxnews.com",
+          "jpost.com",
+          "wcbm.com",
+          "aljazeera.com",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:a59ee23b9a": {
+        "id": "geo:sanctions:a59ee23b9a",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "N Korea reviews Switzerland relations after sanctions on youth camp linked to Russia - Ukraine war",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "dailyexcelsior.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.dailyexcelsior.com/n-korea-reviews-switzerland-relations-after-sanctions-on-youth-camp-linked-to-russia-ukraine-war/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.dailyexcelsior.com/n-korea-reviews-switzerland-relations-after-sanctions-on-youth-camp-linked-to-russia-ukraine-war/",
+            "source": "dailyexcelsior.com"
+          }
+        ],
+        "link_sources": [
+          "dailyexcelsior.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
+        "severity": 85.0,
+        "score": 85.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "bignewsnetwork.com",
+          "enca.com",
+          "euronews.com",
+          "hngn.com",
+          "jpost.com",
+          "manilatimes.net"
+        ],
+        "article_count": 5,
+        "links": [
+          "http://www.jpost.com/american-politics/article-916016",
+          "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
+          "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs"
+        ],
+        "refs": [
+          {
+            "url": "http://www.jpost.com/american-politics/article-916016",
+            "source": "jpost.com"
+          },
+          {
+            "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
+            "source": "news.webindia123.com"
+          },
+          {
+            "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
+            "source": "bignewsnetwork.com"
+          }
+        ],
+        "link_sources": [
+          "jpost.com",
+          "news.webindia123.com",
+          "bignewsnetwork.com",
+          "hngn.com"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:73ae71ea05": {
+        "id": "geo:sanctions:73ae71ea05",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Iran Continues Targeting Ships in Strait of Hormuz as US Ramps Up Sanctions",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "news.antiwar.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.antiwar.com/2026/11/24/iran-continues-targeting-ships-in-strait-of-hormuz-as-us-ramps-up-sanctions/"
+        ],
+        "refs": [
+          {
+            "url": "https://news.antiwar.com/2026/11/24/iran-continues-targeting-ships-in-strait-of-hormuz-as-us-ramps-up-sanctions/",
+            "source": "news.antiwar.com"
+          }
+        ],
+        "link_sources": [
+          "news.antiwar.com"
+        ],
+        "first_seen": "2026-11-16T22:15:58Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:8dfd5ff85f": {
+        "id": "geo:missile_strike:8dfd5ff85f",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Airstrikes rock Yemen capital after Houthi drone attack on Riyadh financial district",
+        "severity": 55.0,
+        "score": 55.0,
+        "countries": [
+          "yemen",
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "asiaone.com",
+          "bignewsnetwork.com",
+          "clickorlando.com",
+          "freemalaysiatoday.com",
+          "gulfnews.com"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://www.prokerala.com/news/articles/a1840749.html",
+          "http://www.bignewsnetwork.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+          "http://www.theuknews.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district"
+        ],
+        "refs": [
+          {
+            "url": "https://www.prokerala.com/news/articles/a1840749.html",
+            "source": "prokerala.com"
+          },
+          {
+            "url": "http://www.bignewsnetwork.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+            "source": "bignewsnetwork.com"
+          },
+          {
+            "url": "http://www.theuknews.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+            "source": "theuknews.com"
+          }
+        ],
+        "link_sources": [
+          "prokerala.com",
+          "bignewsnetwork.com",
+          "theuknews.com"
+        ],
+        "first_seen": "2026-11-02T10:22:19Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:c4e7ac099d": {
+        "id": "geo:chokepoint:c4e7ac099d",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "WHO chief calls on U . S . to lift oil blockade on Cuba , citing health impact",
+        "severity": 85.0,
+        "score": 85.0,
+        "countries": [
+          "cuba"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "dominicanrepublicpost.com",
+          "en.shafaqna.com",
+          "freemalaysiatoday.com",
+          "grenadachronicle.com",
+          "japantoday.com",
+          "spokesman.com"
+        ],
+        "article_count": 7,
+        "links": [
+          "https://japantoday.com/category/world/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact",
+          "https://www.freemalaysiatoday.com/category/world/2026/11/25/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact",
+          "https://www.spokesman.com/stories/2026/nov/24/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba/"
+        ],
+        "refs": [
+          {
+            "url": "https://japantoday.com/category/world/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact",
+            "source": "japantoday.com"
+          },
+          {
+            "url": "https://www.freemalaysiatoday.com/category/world/2026/11/25/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact",
+            "source": "freemalaysiatoday.com"
+          },
+          {
+            "url": "https://www.spokesman.com/stories/2026/nov/24/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba/",
+            "source": "spokesman.com"
+          }
+        ],
+        "link_sources": [
+          "japantoday.com",
+          "freemalaysiatoday.com",
+          "spokesman.com",
+          "en.shafaqna.com",
+          "dominicanrepublicpost.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:e1f2a10169": {
+        "id": "geo:conflict:e1f2a10169",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Poland renews push for permanent US troops after Russian incursions",
+        "severity": 30.0,
+        "score": 30.0,
+        "countries": [
+          "poland",
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "BBC World",
+          "foxnews.com",
+          "rnz.co.nz"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://www.foxnews.com/world/nato-jet-cleared-shoot-russian-missile-poland-warsaw-pushes-us-troops",
+          "https://www.rnz.co.nz/news/world/2768856/one-every-four-minutes-720-000-russian-soldiers-killed-since-start-of-ukraine-war-new-data-suggests",
+          "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.foxnews.com/world/nato-jet-cleared-shoot-russian-missile-poland-warsaw-pushes-us-troops",
+            "source": "foxnews.com"
+          },
+          {
+            "url": "https://www.rnz.co.nz/news/world/2768856/one-every-four-minutes-720-000-russian-soldiers-killed-since-start-of-ukraine-war-new-data-suggests",
+            "source": "rnz.co.nz"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "foxnews.com",
+          "rnz.co.nz",
+          "BBC World"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:14d281fd80": {
+        "id": "geo:conflict:14d281fd80",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Houthi rebels close in on the city of Aden as Yemeni forces dig in behind a fortified line",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "yemen"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "hindustantimes.com",
+          "irishtimes.com",
+          "nvdaily.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.hindustantimes.com/world-news/us-news/houthi-rebels-close-in-on-the-city-of-aden-as-yemeni-forces-dig-in-behind-a-fortified-line-101795554051541.html",
+          "https://www.nvdaily.com/associated_press_national/houthi-rebels-close-in-on-aden-as-yemeni-forces-dig-in-behind-a-fortified-line/article_5e6f5698-c229-5879-9bd9-b90d47fdd448.html"
+        ],
+        "refs": [
+          {
+            "url": "https://www.hindustantimes.com/world-news/us-news/houthi-rebels-close-in-on-the-city-of-aden-as-yemeni-forces-dig-in-behind-a-fortified-line-101795554051541.html",
+            "source": "hindustantimes.com"
+          },
+          {
+            "url": "https://www.nvdaily.com/associated_press_national/houthi-rebels-close-in-on-aden-as-yemeni-forces-dig-in-behind-a-fortified-line/article_5e6f5698-c229-5879-9bd9-b90d47fdd448.html",
+            "source": "nvdaily.com"
+          }
+        ],
+        "link_sources": [
+          "hindustantimes.com",
+          "nvdaily.com"
+        ],
+        "first_seen": "2026-11-06T19:29:50Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:invasion:a59ee23b9a": {
+        "id": "geo:invasion:a59ee23b9a",
+        "pillar": "geo",
+        "category": "invasion",
+        "category_th": "การรุกรานหรือประกาศสงคราม",
+        "category_en": "Invasion or declaration of war",
+        "title": "Over 700 , 000 Russian troops believed killed in Ukraine since invasion , leaked data su",
+        "severity": 80.0,
+        "score": 48.0,
+        "countries": [
+          "russia",
+          "ukraine"
+        ],
+        "sources": [
+          "ynetnews.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.ynetnews.com/article/rksvhhmjmx"
+        ],
+        "refs": [
+          {
+            "url": "https://www.ynetnews.com/article/rksvhhmjmx",
+            "source": "ynetnews.com"
+          }
+        ],
+        "link_sources": [
+          "ynetnews.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:dd01598568": {
+        "id": "geo:missile_strike:dd01598568",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "China J - 10C Fighter Spotted With Russian  Bunker - Buster  Missile . Taiwan Airfields Could Face A New Threat . ",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "china",
+          "russia",
+          "taiwan"
+        ],
+        "sources": [
+          "ibtimes.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.ibtimes.com/chinese-j-10c-modified-kh-29t-missile-3810159"
+        ],
+        "refs": [
+          {
+            "url": "https://www.ibtimes.com/chinese-j-10c-modified-kh-29t-missile-3810159",
+            "source": "ibtimes.com"
+          }
+        ],
+        "link_sources": [
+          "ibtimes.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:a383595182": {
+        "id": "geo:sanctions:a383595182",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US sanctions on Lebanon Hezbollah - affiliates may have limited impact | Israel attacks Lebanon News",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "lebanon",
+          "israel"
+        ],
+        "sources": [
+          "aljazeera.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact",
+            "source": "aljazeera.com"
+          }
+        ],
+        "link_sources": [
+          "aljazeera.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:811f8562e8": {
+        "id": "geo:conflict:811f8562e8",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "U . S Army auditors fear key units are unprepared to deploy in Pacific war scenario",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "postcourier.com.pg"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.postcourier.com.pg/u-s-army-auditors-fear-key-units-are-unprepared-to-deploy-in-pacific-war-scenario/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.postcourier.com.pg/u-s-army-auditors-fear-key-units-are-unprepared-to-deploy-in-pacific-war-scenario/",
+            "source": "postcourier.com.pg"
+          }
+        ],
+        "link_sources": [
+          "postcourier.com.pg"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:0c4fb5956d": {
+        "id": "geo:missile_strike:0c4fb5956d",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Hegseth Holds Up Approval of Patriot Air Defense Missiles for Ukraine , Report Says",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "ukraine"
+        ],
+        "sources": [
+          "foreignpolicy.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://foreignpolicy.com/2026/11/24/ukraine-patriot-missiles-trump-hegseth-delay-china-purge-chen-jining/?tpcc=recirc_trending062921"
+        ],
+        "refs": [
+          {
+            "url": "https://foreignpolicy.com/2026/11/24/ukraine-patriot-missiles-trump-hegseth-delay-china-purge-chen-jining/?tpcc=recirc_trending062921",
+            "source": "foreignpolicy.com"
+          }
+        ],
+        "link_sources": [
+          "foreignpolicy.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:487249a1b7": {
+        "id": "geo:chokepoint:487249a1b7",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "UK Foreign Secretary condemns Israel  horrifying  Gaza blockade as  collective punishment  for Palestinians",
+        "severity": 85.0,
+        "score": 51.0,
+        "countries": [
+          "united kingdom",
+          "israel",
+          "palestine"
+        ],
+        "sources": [
+          "thenationalnews.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.thenationalnews.com/news/mena/2026/11/24/ed-miliband-condemns-israels-horrifying-gaza-blockade-as-collective-punishment-for-palestinians/"
+        ],
+        "refs": [
+          {
+            "url": "https://www.thenationalnews.com/news/mena/2026/11/24/ed-miliband-condemns-israels-horrifying-gaza-blockade-as-collective-punishment-for-palestinians/",
+            "source": "thenationalnews.com"
+          }
+        ],
+        "link_sources": [
+          "thenationalnews.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:22f963165d": {
+        "id": "geo:conflict:22f963165d",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Troops foil kidnapping attempt in Kaduna Chikun LGA",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "punchng.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://punchng.com/army-foil-kidnapping-attempt-in-kaduna/"
+        ],
+        "refs": [
+          {
+            "url": "https://punchng.com/army-foil-kidnapping-attempt-in-kaduna/",
+            "source": "punchng.com"
+          }
+        ],
+        "link_sources": [
+          "punchng.com"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:0c5abc2fdb": {
+        "id": "geo:missile_strike:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+        "severity": 55.0,
+        "score": 55.0,
+        "countries": [
+          "israel",
+          "palestine",
+          "india"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "bakersfieldnow.com"
+        ],
+        "article_count": 4,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+          "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
+            "source": "Al Jazeera"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:1000521c0f": {
         "id": "geo:conflict:1000521c0f",
         "pillar": "geo",
@@ -30,58 +718,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:0c5abc2fdb": {
-        "id": "geo:missile_strike:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-        "severity": 55.0,
-        "score": 55.0,
-        "countries": [
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "bakersfieldnow.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -117,7 +754,7 @@
           "BBC World"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -131,7 +768,7 @@
         "category_en": "Armed conflict",
         "title": "Watch: Moment troops raid home and capture Mexican drug lord",
         "severity": 30.0,
-        "score": 22.0,
+        "score": 20.5,
         "countries": [
           "mexico"
         ],
@@ -153,7 +790,83 @@
           "BBC World"
         ],
         "first_seen": "2026-11-22T07:01:56Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:847f6a5bb1": {
+        "id": "geo:conflict:847f6a5bb1",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "ukraine",
+          "libya"
+        ],
+        "sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+          "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUDQ4VmpuUGp3SW9fRFdmaWowcnNZTXZkNl9ZX3NyTHhid1ZkYldlYWtkeGJ0VnRucTR3MDJoUzN4NnJ5ckdBdnRIT0c0UG82djYyQklKTUM3NG1ianZlUkNOUjVOU2xMYldsU1Y5cEI1R0ludFFaekQxRkc0RkM4OXhYOWxNOTBVdFJXS2txcjhXcnpzX0cwT1lBWnlEZmtaVVE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUDQ4VmpuUGp3SW9fRFdmaWowcnNZTXZkNl9ZX3NyTHhid1ZkYldlYWtkeGJ0VnRucTR3MDJoUzN4NnJ5ckdBdnRIT0c0UG82djYyQklKTUM3NG1ianZlUkNOUjVOU2xMYldsU1Y5cEI1R0ludFFaekQxRkc0RkM4OXhYOWxNOTBVdFJXS2txcjhXcnpzX0cwT1lBWnlEZmtaVVE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-25T08:47:06Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:d852a82902": {
+        "id": "geo:sanctions:d852a82902",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -417,39 +1130,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:d852a82902": {
-        "id": "geo:sanctions:d852a82902",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:2db509f2c9": {
         "id": "geo:conflict:2db509f2c9",
         "pillar": "geo",
@@ -551,42 +1231,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:73ae71ea05": {
-        "id": "geo:sanctions:73ae71ea05",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "US imposes new sanctions targeting Iran's global financial networks - Latest news from Azerbaijan",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRFNqX3JfZ1BkY1B5WTQ3UWlSU3Y5ZlA2anoyTUs4VXlzSm9DUlpIZEQtNi05dldzTDhfaXVrbVhjdTk0WVZmRmhubWQ0VjA3czI5VDNJYXJkMFNsWHFsQzUxREFlMy15RWFSd0dFTEREd0FIUV9EZHExZmtnZDN3MjNfNDBrUUFyZmg3b0FKU0hhUQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRFNqX3JfZ1BkY1B5WTQ3UWlSU3Y5ZlA2anoyTUs4VXlzSm9DUlpIZEQtNi05dldzTDhfaXVrbVhjdTk0WVZmRmhubWQ0VjA3czI5VDNJYXJkMFNsWHFsQzUxREFlMy15RWFSd0dFTEREd0FIUV9EZHExZmtnZDN3MjNfNDBrUUFyZmg3b0FKU0hhUQ?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-16T22:15:58Z",
-        "last_seen": "2026-11-24T22:33:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:b6a772c16b": {
         "id": "geo:sanctions:b6a772c16b",
         "pillar": "geo",
@@ -650,43 +1294,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-24T10:02:30Z",
-        "last_seen": "2026-11-24T10:02:30Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:14d281fd80": {
-        "id": "geo:conflict:14d281fd80",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Why has Yemen’s offensive against the Houthis in al-Bayda stalled?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "irishtimes.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-06T19:29:50Z",
         "last_seen": "2026-11-24T10:02:30Z",
         "is_local": false,
         "location": null,
@@ -1094,46 +1701,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Iran war live: Hormuz tankers set ablaze; Tehran warns of internal threats",
-        "severity": 85.0,
-        "score": 78.4,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "enca.com",
-          "euronews.com",
-          "manilatimes.net",
-          "tribuneindia.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-23T07:50:36Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:great_power:d48f9ad5c9": {
         "id": "geo:great_power:d48f9ad5c9",
         "pillar": "geo",
@@ -1491,50 +2058,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-21T07:21:18Z",
-        "last_seen": "2026-11-21T07:21:18Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:8dfd5ff85f": {
-        "id": "geo:missile_strike:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "saudi arabia",
-          "yemen",
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "asiaone.com",
-          "clickorlando.com",
-          "freemalaysiatoday.com",
-          "gulfnews.com",
-          "idahostatejournal.com"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T10:22:19Z",
         "last_seen": "2026-11-21T07:21:18Z",
         "is_local": false,
         "location": null,
@@ -2423,42 +2946,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:a383595182": {
-        "id": "geo:conflict:a383595182",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Stories of survival and pain: Children amid Israel’s war on south Lebanon",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "israel",
-          "lebanon"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/features/2026/11/17/stories-of-survival-and-pain-children-amid-israels-war-on-south-lebanon?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/features/2026/11/17/stories-of-survival-and-pain-children-amid-israels-war-on-south-lebanon?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-17T08:04:10Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:2ccc9c3da2": {
         "id": "geo:chokepoint:2ccc9c3da2",
         "pillar": "geo",
@@ -2696,41 +3183,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:coup_unrest:14d281fd80": {
-        "id": "geo:coup_unrest:14d281fd80",
-        "pillar": "geo",
-        "category": "coup_unrest",
-        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
-        "category_en": "Coup / political unrest",
-        "title": "Yemen’s Houthis unilaterally release 600 war detainees",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-16T06:44:13Z",
-        "last_seen": "2026-11-16T06:44:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:ed9a73c4e5": {
         "id": "geo:chokepoint:ed9a73c4e5",
         "pillar": "geo",
@@ -2943,7 +3395,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -2978,7 +3430,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3014,7 +3466,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3047,7 +3499,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3082,7 +3534,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3115,7 +3567,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3148,7 +3600,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3181,7 +3633,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3214,7 +3666,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3247,7 +3699,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3280,7 +3732,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3313,7 +3765,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3346,7 +3798,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3379,7 +3831,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3412,7 +3864,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3445,7 +3897,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3478,7 +3930,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3511,7 +3963,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3544,7 +3996,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3577,7 +4029,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3610,7 +4062,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3643,7 +4095,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3676,7 +4128,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3709,7 +4161,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3742,7 +4194,43 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:73ae71ea05": {
+        "id": "bio_infra:cyber_incident:73ae71ea05",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Iran Claims Hormuz Mine Hits as U . S . Probes Ship Cyberattacks",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Reuters (Google News)",
+          "hngn.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.hngn.com/articles/273951/20261124/iran-claims-hormuz-mine-hits-us-probes-ship-cyberattacks.htm"
+        ],
+        "refs": [
+          {
+            "url": "https://www.hngn.com/articles/273951/20261124/iran-claims-hormuz-mine-hits-us-probes-ship-cyberattacks.htm",
+            "source": "hngn.com"
+          }
+        ],
+        "link_sources": [
+          "hngn.com"
+        ],
+        "first_seen": "2026-11-24T10:02:30Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3754,7 +4242,7 @@
         "category": "cyber_incident",
         "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
         "category_en": "Actual cyber incident",
-        "title": "US CIA, ODNI suffer cybersecurity breach of some unclassified information, NYT reports - Reuters",
+        "title": "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters",
         "severity": 40.0,
         "score": 24.0,
         "countries": [],
@@ -3775,42 +4263,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-24T22:33:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:cyber_incident:73ae71ea05": {
-        "id": "bio_infra:cyber_incident:73ae71ea05",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-24T10:02:30Z",
-        "last_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4226,45 +4679,45 @@
   },
   "last_valid": {
     "econ": {
-      "score": 42.5,
-      "as_of": "2026-11-24T22:33:48Z"
+      "score": 43.5,
+      "as_of": "2026-11-25T08:47:06Z"
     },
     "geo": {
-      "score": 77.2,
-      "as_of": "2026-11-24T22:33:48Z"
+      "score": 93.5,
+      "as_of": "2026-11-25T08:47:06Z"
     },
     "nat": {
-      "score": 18.6,
-      "as_of": "2026-11-24T22:33:48Z"
+      "score": 17.5,
+      "as_of": "2026-11-25T08:47:06Z"
     },
     "bio_infra": {
-      "score": 58.1,
-      "as_of": "2026-11-24T22:33:48Z"
+      "score": 57.6,
+      "as_of": "2026-11-25T08:47:06Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 26.360000610351562,
-      "change_pct": 3.53,
-      "drawdown_pct": -26.55,
-      "last_date": "2026-11-24",
-      "as_of": "2026-11-24T22:33:48Z",
+      "last": 27.780000686645508,
+      "change_pct": 13.11,
+      "drawdown_pct": -22.6,
+      "last_date": "2026-11-25",
+      "as_of": "2026-11-25T08:47:06Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 88.5,
-      "change_pct": -4.98,
-      "drawdown_pct": -25.22,
-      "last_date": "2026-11-24",
-      "as_of": "2026-11-24T22:33:48Z",
+      "last": 87.45999908447266,
+      "change_pct": -4.88,
+      "drawdown_pct": -26.1,
+      "last_date": "2026-11-25",
+      "as_of": "2026-11-25T08:47:06Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3555.10009765625,
-      "change_pct": -8.0,
-      "drawdown_pct": -33.15,
-      "last_date": "2026-11-24",
-      "as_of": "2026-11-24T22:33:48Z",
+      "last": 3562.800048828125,
+      "change_pct": -4.79,
+      "drawdown_pct": -33.01,
+      "last_date": "2026-11-25",
+      "as_of": "2026-11-25T08:47:06Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -4272,7 +4725,7 @@
       "change_pct": -1.9,
       "drawdown_pct": -7.9,
       "last_date": "2026-11-24",
-      "as_of": "2026-11-24T22:33:48Z",
+      "as_of": "2026-11-25T08:47:06Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -4280,7 +4733,7 @@
       "change_pct": -9.08,
       "drawdown_pct": -41.09,
       "last_date": "2026-11-24",
-      "as_of": "2026-11-24T22:33:48Z",
+      "as_of": "2026-11-25T08:47:06Z",
       "provider": "yfinance"
     }
   },
@@ -4288,152 +4741,149 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "7d7825b57c20c0c7",
+    "events_hash": "8d7c4b49918858e9",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
-      "geo:chokepoint:15560e224d",
+      "geo:chokepoint:487249a1b7",
       "geo:chokepoint:73ae71ea05",
       "geo:chokepoint:b3a5b7a539",
-      "geo:conflict:e320a99dc8",
-      "geo:energy_infra:8dfd5ff85f",
+      "geo:chokepoint:c4e7ac099d",
+      "geo:conflict:e1f2a10169",
+      "geo:conflict:f660745d5c",
       "geo:great_power:d48f9ad5c9",
+      "geo:invasion:a59ee23b9a",
+      "geo:missile_strike:0c4fb5956d",
       "geo:missile_strike:0c5abc2fdb",
+      "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
       "geo:missile_strike:ba059e9665",
       "geo:missile_strike:c1a682ee34",
+      "geo:missile_strike:dd01598568",
       "geo:nuclear:73ae71ea05"
     ],
-    "econ_score": 42.5,
+    "econ_score": 43.5,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์การเดินเรือในช่องแคบฮอร์มุซ และการโจมตีทางอากาศ/ขีปนาวุธที่เพิ่มขึ้นในหลายภูมิภาค ในขณะเดียวกัน การระบาดของโรคสำคัญ โดยเฉพาะอีโบลา กำลังเป็นภัยคุกคามด้านสาธารณสุขทั่วโลกที่เพิ่มขึ้น ควบคู่ไปกับตลาดการเงินที่แสดงความผันผวนและการปรับตัวลดลงในวงกว้าง",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์การเดินเรือและการโจมตีทางอากาศและขีปนาวุธในหลายภูมิภาค ความไม่มั่นคงที่เพิ่มขึ้นนี้สะท้อนให้เห็นในความผันผวนของตลาดที่เพิ่มขึ้น โดยดัชนีหลักและสินค้าโภคภัณฑ์แสดงการลดลง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และการหยุดชะงักของการเดินเรือที่ทวีความรุนแรงขึ้น",
+          "title": "ภัยคุกคามที่ทวีความรุนแรงขึ้นต่อจุดยุทธศาสตร์การเดินเรือทั่วโลก",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานเรือบรรทุกน้ำมันถูกวางเพลิงในช่องแคบฮอร์มุซ และอิหร่านเตือนถึงภัยคุกคามภายในประเทศ ขณะที่การโจมตีทางอากาศและขีปนาวุธเกิดขึ้นในหลายภูมิภาค รวมถึงการโจมตีเรือในอ่าวฟินแลนด์และเยเมน",
+          "evidence_summary": "รายงานเน้นย้ำถึงศักยภาพของอิหร่านในการคุกคามการเดินเรือ การประณามการปิดล้อมกาซา และเหตุการณ์ที่ส่งผลกระทบต่อเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "http://www.jpost.com/american-politics/article-916016",
+              "source": "jpost.com"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EU2dNbFVIS0c4bUxWcTNPWHVCZGhNbElqVjRRTFZ4M05MbFFCRTlEUHJsN1dkSzV6aV9XZHR6T1J1MUJ1LTkzSUFiS0xlZlpKQnc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
+              "source": "news.webindia123.com"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
+              "source": "bignewsnetwork.com"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคทั่วโลกที่รุนแรงขึ้น",
+          "title": "การโจมตีทางอากาศและขีปนาวุธที่ทวีความรุนแรงขึ้นในพื้นที่ความขัดแย้ง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "การระบาดของโรคอีโบลาสายพันธุ์ Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ถูกเตือนว่าอาจแพร่กระจายไปทั่วโลกและมีผู้เสียชีวิตจำนวนมาก",
+          "evidence_summary": "มีรายงานการโจมตีทางอากาศในเยเมนและกาซา เรือที่มุ่งหน้าไปยังรัสเซียถูกโจมตีในอ่าวฟินแลนด์ และกลุ่มฮูตีอ้างว่าโจมตีโรงกลั่นน้ำมันของซาอุดีอาระเบีย",
+          "refs": [
+            {
+              "url": "https://www.prokerala.com/news/articles/a1840749.html",
+              "source": "prokerala.com"
+            },
+            {
+              "url": "http://www.bignewsnetwork.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+              "source": "bignewsnetwork.com"
+            },
+            {
+              "url": "http://www.theuknews.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+              "source": "theuknews.com"
+            }
+          ]
+        },
+        {
+          "title": "การระบาดของโรคที่มีผลกระทบร้ายแรง",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "มีการรายงานการระบาดของโรคอีโบลาที่เกิดจากไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGg5RFlweHBiOGp6bF94bE04U1FjWkNtQTY4NFE2WndHZlBZLWxCQzVfRnYycE5ZUzBJYml4RzJIdXVidndDbFJDbkQwS1dqYmNIbzJNUXMzNDRqenBSaHR4OWV4RDR1b1hEWnZhYnlWTEl3UWdjTzNZZVF5Ym5yNXpGUFFDNHdfWmljTQ?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
-              "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "ความไม่แน่นอนทางเศรษฐกิจจากการคว่ำบาตรและสงครามการค้า",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 เดือน",
-          "evidence_summary": "สหรัฐฯ เตรียมเปิดเผยมาตรการภาษีใหม่หลังการสอบสวนกำลังการผลิตส่วนเกิน และยังคงใช้มาตรการคว่ำบาตรเครือข่ายทางการเงินทั่วโลกของอิหร่าน",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRFNqX3JfZ1BkY1B5WTQ3UWlSU3Y5ZlA2anoyTUs4VXlzSm9DUlpIZEQtNi05dldzTDhfaXVrbVhjdTk0WVZmRmhubWQ0VjA3czI5VDNJYXJkMFNsWHFsQzUxREFlMy15RWFSd0dFTEREd0FIUV9EZHExZmtnZDN3MjNfNDBrUUFyZmg3b0FKU0hhUQ?oc=5",
-              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีรายงานการระบาดของไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
-        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีการรายงานไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
+        "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global systemic risk is currently driven by escalating geopolitical tensions, particularly concerning shipping chokepoints in the Strait of Hormuz and a surge in air/missile strikes across multiple regions. Concurrently, significant disease outbreaks, notably Ebola, present a growing global health threat, while financial markets exhibit increased volatility and a broad downturn.",
+      "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, particularly concerning shipping chokepoints and widespread air and missile strikes across multiple regions. This heightened instability is reflected in increased market volatility, with major indices and commodities showing declines.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Shipping Disruptions",
+          "title": "Escalating Threats to Global Shipping Chokepoints",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tankers were reported set ablaze in the Strait of Hormuz, and Iran warned of internal threats, while air and missile strikes occurred in multiple regions, including attacks on ships in the Gulf of Finland and Yemen.",
+          "evidence_summary": "Reports highlight Iran's capacity to threaten shipping, condemnations of the Gaza blockade, and incidents affecting tankers in the Strait of Hormuz.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "http://www.jpost.com/american-politics/article-916016",
+              "source": "jpost.com"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EU2dNbFVIS0c4bUxWcTNPWHVCZGhNbElqVjRRTFZ4M05MbFFCRTlEUHJsN1dkSzV6aV9XZHR6T1J1MUJ1LTkzSUFiS0xlZlpKQnc?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
+              "source": "news.webindia123.com"
             },
             {
-              "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World"
+              "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
+              "source": "bignewsnetwork.com"
             }
           ]
         },
         {
-          "title": "Worsening Global Disease Outbreaks",
+          "title": "Intensification of Air and Missile Strikes in Conflict Zones",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "An Ebola outbreak caused by Bundibugyo virus in the Democratic Republic of the Congo, Kenya, and Nigeria has been warned to potentially spread worldwide with a high death toll.",
+          "evidence_summary": "Airstrikes have been reported in Yemen and Gaza, a Russia-bound ship was attacked in the Gulf of Finland, and Houthi claims strikes on a Saudi oil refinery.",
+          "refs": [
+            {
+              "url": "https://www.prokerala.com/news/articles/a1840749.html",
+              "source": "prokerala.com"
+            },
+            {
+              "url": "http://www.bignewsnetwork.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+              "source": "bignewsnetwork.com"
+            },
+            {
+              "url": "http://www.theuknews.com/news/279452803/roundup-airstrikes-rock-yemen-capital-after-houthi-drone-attack-on-riyadh-financial-district",
+              "source": "theuknews.com"
+            }
+          ]
+        },
+        {
+          "title": "Emergence of High-Consequence Disease Outbreak",
+          "signal_strength": "ปานกลาง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "An Ebola disease outbreak caused by the Bundibugyo virus has been reported in the Democratic Republic of the Congo, Kenya, and Nigeria.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
               "source": "WHO DON"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGg5RFlweHBiOGp6bF94bE04U1FjWkNtQTY4NFE2WndHZlBZLWxCQzVfRnYycE5ZUzBJYml4RzJIdXVidndDbFJDbkQwS1dqYmNIbzJNUXMzNDRqenBSaHR4OWV4RDR1b1hEWnZhYnlWTEl3UWdjTzNZZVF5Ym5yNXpGUFFDNHdfWmljTQ?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
-              "source": "WHO DON"
-            }
-          ]
-        },
-        {
-          "title": "Economic Uncertainty from Sanctions and Trade Wars",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-3 months",
-          "evidence_summary": "The US is set to unveil new tariffs following an investigation into excess factory capacity and continues to impose sanctions targeting Iran's global financial networks.",
-          "refs": [
-            {
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
-              "source": "Reuters (Google News)"
-            },
-            {
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRFNqX3JfZ1BkY1B5WTQ3UWlSU3Y5ZlA2anoyTUs4VXlzSm9DUlpIZEQtNi05dldzTDhfaXVrbVhjdTk0WVZmRmhubWQ0VjA3czI5VDNJYXJkMFNsWHFsQzUxREFlMy15RWFSd0dFTEREd0FIUV9EZHExZmtnZDN3MjNfNDBrUUFyZmg3b0FKU0hhUQ?oc=5",
-              "source": "Reuters (Google News)"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "Reports indicate an outbreak of Influenza A(H5N1) in the United States.",
-        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
+        "Influenza A(H5N1) has been reported in the United States of America.",
+        "Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-24T22:33:48Z"
+    "generated_at": "2026-11-25T08:47:06Z"
   },
-  "updated_at": "2026-11-24T22:33:48Z",
+  "updated_at": "2026-11-25T08:47:06Z",
   "version": 1
 }
