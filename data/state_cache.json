@@ -1,6 +1,442 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:de2d47ef1a": {
+        "id": "geo:conflict:de2d47ef1a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "iran",
+          "germany"
+        ],
+        "sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hPQWhhdW9HTWxtRndjQkN3aFhQTzhyWV9sQ0NTbHNsRFpINkRjMHhKRGN4QTk1NTJYWU1yVHhmYVJSazJEVGtOdVIzZ2xsNFJFeHF0YXNEbXBqTF94bnBDOEFnMV9JdGRRbWVROFJGRmZISmZWUXhtYTlJTXFFMlBWa2IwdXBfUXY4OENRd2tVeWh0Q1M1OThsMl9kMkVEamJiTjMzdWxwZHRzdlVHYmtwTUI?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hPQWhhdW9HTWxtRndjQkN3aFhQTzhyWV9sQ0NTbHNsRFpINkRjMHhKRGN4QTk1NTJYWU1yVHhmYVJSazJEVGtOdVIzZ2xsNFJFeHF0YXNEbXBqTF94bnBDOEFnMV9JdGRRbWVROFJGRmZISmZWUXhtYTlJTXFFMlBWa2IwdXBfUXY4OENRd2tVeWh0Q1M1OThsMl9kMkVEamJiTjMzdWxwZHRzdlVHYmtwTUI?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:0c5abc2fdb": {
+        "id": "geo:conflict:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "palestine",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:energy_infra:ec9f74ca51": {
+        "id": "geo:energy_infra:ec9f74ca51",
+        "pillar": "geo",
+        "category": "energy_infra",
+        "category_th": "การโจมตีโครงสร้างพื้นฐานพลังงาน",
+        "category_en": "Attack on energy infrastructure",
+        "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+        "severity": 75.0,
+        "score": 45.0,
+        "countries": [
+          "saudi arabia"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:8838731ca0": {
+        "id": "geo:sanctions:8838731ca0",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "What will Trump’s latest tariffs mean for the world?",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:1000521c0f": {
+        "id": "geo:conflict:1000521c0f",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Syrian children continue learning amid the ruins of war in Idlib",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "syria"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/26/syrian-children-continue-learning-amid-the-ruins-of-war-in-idlib?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/syrian-children-continue-learning-amid-the-ruins-of-war-in-idlib?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:73ae71ea05": {
+        "id": "geo:missile_strike:73ae71ea05",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "wthitv.com",
+          "ynetnews.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-03T06:56:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:3ab9380fa2": {
+        "id": "geo:sanctions:3ab9380fa2",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsUHRZRTVLa29xcENmUjJaUUNjWExsaVNTREJqNlNwSFZzNXFuRUFqSlpRam4tZkZHWXEwZXQ5VlhPVFJzcmNnZEw5a3N2ZVBndnpnNzhiN1Y1NkRtU1M5WE05UmRFcGMzUVk0NXYyRTVpM05MOUhISDhmb3BPTERXcmNHWE9zc2dR?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsUHRZRTVLa29xcENmUjJaUUNjWExsaVNTREJqNlNwSFZzNXFuRUFqSlpRam4tZkZHWXEwZXQ5VlhPVFJzcmNnZEw5a3N2ZVBndnpnNzhiN1Y1NkRtU1M5WE05UmRFcGMzUVk0NXYyRTVpM05MOUhISDhmb3BPTERXcmNHWE9zc2dR?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:37c699f5cc": {
+        "id": "geo:conflict:37c699f5cc",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive - Reuters",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:90d014520e": {
+        "id": "geo:sanctions:90d014520e",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "US proposes 10% tariff on Brazilian aircraft, Reuters reports - Digg",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "brazil"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MTXN2SEc1Qkd2ckdjNnNZeHhZS3Y4S3QxTWwySW40dHVVS2tUdndZUDNMV0ZvVGZJYlZCcVRxZFNVdFoySWtDaW1ZZ1dMa0hfWVE?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MTXN2SEc1Qkd2ckdjNnNZeHhZS3Y4S3QxTWwySW40dHVVS2tUdndZUDNMV0ZvVGZJYlZCcVRxZFNVdFoySWtDaW1ZZ1dMa0hfWVE?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:0c56e3166b": {
+        "id": "geo:sanctions:0c56e3166b",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "World stocks tumble as Trump tariffs rattle markets, AI rally fades - Euronext Markets: Real-time Stock Market Data | live",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFU0MGVaQ3FORTJicWJ1QTlNQWRob3haZGpGQUR2bDg2QXpYNHZtSTZyUGFCN256S3ZpWlI5cC1mT2MxR0NfZ2FJYXpnRVc2VG9ycTNvN1A4QzdiQmF5SWdhNEdscW9VTFFhdlhfaXJGZm4wcElWU2tyaTRrWmRMY0tSZ0JpbS1yTERnME54SmxSMWFNclRRMzgtOXJScVNVSDNkVmZwNXNaczg?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFU0MGVaQ3FORTJicWJ1QTlNQWRob3haZGpGQUR2bDg2QXpYNHZtSTZyUGFCN256S3ZpWlI5cC1mT2MxR0NfZ2FJYXpnRVc2VG9ycTNvN1A4QzdiQmF5SWdhNEdscW9VTFFhdlhfaXJGZm4wcElWU2tyaTRrWmRMY0tSZ0JpbS1yTERnME54SmxSMWFNclRRMzgtOXJScVNVSDNkVmZwNXNaczg?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:e074138d45": {
+        "id": "geo:sanctions:e074138d45",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Trump’s Proposed India Tariffs: How They Compare With Rival Nations - Deccan Chronicle",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "india"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdHBoalhGUFBhTTMtbzhramtCSS16cTc4SVdSOGhyU21BOTV1Vk1OVjBBU3lPbjRENDV6cVFzSENsU2tCSzAzVVF3b2hLclc5QXNZZjk4RWRXTVB6RkxHVm13YTNiOHBUU3FnWjdHcUJQY1FoZHEyejR4U2tVY1ZRZDJMWTY4bXZDSTltR1NOVVE5Q19ERGJhanN5SHZzcUtxNkd2UEcxZ1NHb0YxMG9fQtIBtgFBVV95cUxOSlByTXVfMjBRckRJbG1qY29jbUNETVZGUnpTNlRBQWVfb2Q5dzdJeURFd1JCcUZGNEFybE9MVkpPNzdLbDRGSXhNTnVZWnhHRXRnTVc0VFdaMTc0VC1NZUxISlUtUmVHXzJpRFpLOEZkdzRpVHdhNGpIclg3WE96d25tRjVHand5TERnSWo5QldPZmtZLXd3VlVXbGtmQzBySnFock1NNWQ5T2hzOVB2bmRmSk8xQQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdHBoalhGUFBhTTMtbzhramtCSS16cTc4SVdSOGhyU21BOTV1Vk1OVjBBU3lPbjRENDV6cVFzSENsU2tCSzAzVVF3b2hLclc5QXNZZjk4RWRXTVB6RkxHVm13YTNiOHBUU3FnWjdHcUJQY1FoZHEyejR4U2tVY1ZRZDJMWTY4bXZDSTltR1NOVVE5Q19ERGJhanN5SHZzcUtxNkd2UEcxZ1NHb0YxMG9fQtIBtgFBVV95cUxOSlByTXVfMjBRckRJbG1qY29jbUNETVZGUnpTNlRBQWVfb2Q5dzdJeURFd1JCcUZGNEFybE9MVkpPNzdLbDRGSXhNTnVZWnhHRXRnTVc0VFdaMTc0VC1NZUxISlUtUmVHXzJpRFpLOEZkdzRpVHdhNGpIclg3WE96d25tRjVHand5TERnSWo5QldPZmtZLXd3VlVXbGtmQzBySnFock1NNWQ5T2hzOVB2bmRmSk8xQQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-11T19:41:47Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:ec285935b4": {
+        "id": "geo:sanctions:ec285935b4",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Vietnam seeks US trade deal as Trump threatens 35% tariffs, Reuters reports - Digg",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "vietnam"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TNlRFc1JMaWJaeXpMb01CSDZCbjl4Q1BBV0F4U2wxU2hReGI3bGtyZU9FVVIxb2JzUFdyMlI1Q1o5aF9Ub2pCV1NGck1xM0FiS1E?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TNlRFc1JMaWJaeXpMb01CSDZCbjl4Q1BBV0F4U2wxU2hReGI3bGtyZU9FVVIxb2JzUFdyMlI1Q1o5aF9Ub2pCV1NGck1xM0FiS1E?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:sanctions:cf47278328": {
         "id": "geo:sanctions:cf47278328",
         "pillar": "geo",
@@ -396,41 +832,6 @@
         "refs": [
           {
             "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-26T08:32:57Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:90d014520e": {
-        "id": "geo:sanctions:90d014520e",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Brazil blasts ‘unacceptable’ new US tariff proposals",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "brazil"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/26/brazil-blasts-unacceptable-new-us-tariff-proposals?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/26/brazil-blasts-unacceptable-new-us-tariff-proposals?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -1610,41 +2011,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:1000521c0f": {
-        "id": "geo:conflict:1000521c0f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Land mine casualties soar in Syria, two years after war",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "syria"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-25T08:47:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:847f6a5bb1": {
         "id": "geo:conflict:847f6a5bb1",
         "pillar": "geo",
@@ -2257,43 +2623,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:0c5abc2fdb": {
-        "id": "geo:conflict:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "israel",
-          "palestine"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-24T00:00:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:73ae71ea05": {
         "id": "geo:conflict:73ae71ea05",
         "pillar": "geo",
@@ -2539,45 +2868,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-22T19:48:52Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:73ae71ea05": {
-        "id": "geo:missile_strike:73ae71ea05",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Iran unveils dual-missile launcher, new ‘missile city’: What to know",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "wthitv.com",
-          "ynetnews.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-03T06:56:57Z",
         "last_seen": "2026-11-22T19:48:52Z",
         "is_local": false,
         "location": null,
@@ -3268,43 +3558,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:c1a682ee34": {
-        "id": "geo:conflict:c1a682ee34",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "ethiopia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEJBNVB0dkdmX1h1VU1fRTJkVGdQN3oyWWZlOTBqaFVPOHBIcWk2YlJ1M2poeFpLcWxlNV9rOHBQYTRwdzRaN2ZKbkNveGgyMkFBRmY1b2t4REJSampnVjdaZnlmYVA3Vm1oU0o5T093T0t0QjNQZU8xeHRzWGZRaERvVXJpUFNqZDhQcjZfSVFHSktmVGZ5anIzZWpxMXlfU0VqR2VybTFlSzl1R0M1R01IY1BEanRJSFJQQU5pLWFXMGs?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEJBNVB0dkdmX1h1VU1fRTJkVGdQN3oyWWZlOTBqaFVPOHBIcWk2YlJ1M2poeFpLcWxlNV9rOHBQYTRwdzRaN2ZKbkNveGgyMkFBRmY1b2t4REJSampnVjdaZnlmYVA3Vm1oU0o5T093T0t0QjNQZU8xeHRzWGZRaERvVXJpUFNqZDhQcjZfSVFHSktmVGZ5anIzZWpxMXlfU0VqR2VybTFlSzl1R0M1R01IY1BEanRJSFJQQU5pLWFXMGs?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-11T06:39:43Z",
-        "last_seen": "2026-11-18T20:39:47Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:487249a1b7": {
         "id": "geo:sanctions:487249a1b7",
         "pillar": "geo",
@@ -3455,41 +3708,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:e074138d45": {
-        "id": "geo:sanctions:e074138d45",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "India says Xiaomi, Flextronics hid royalty deals in tariff fight - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "india"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa3o5aWpWd1B5T1dCekZvVHRxa3BnREVFQ0hpYTVhVE9GOEVQbzNEZWVZM25PN3VJZUNDZ0ppMHZLODl2b29xTmhRT0J1RWswT0NTTXMyTHhfSUhpT05XUjFzRS1MZUlRQWJkMWxGUGZGbkNKR3d3ZUw5dERfdlRJRldzcVYzbEVrRUpGUmZ2NG05ZEpzNkp3ZEEyUVNSR2lSMEJRa09XMUR1dFhtbFdlWUt6T2lRZ3g3eGJ4SU9B?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa3o5aWpWd1B5T1dCekZvVHRxa3BnREVFQ0hpYTVhVE9GOEVQbzNEZWVZM25PN3VJZUNDZ0ppMHZLODl2b29xTmhRT0J1RWswT0NTTXMyTHhfSUhpT05XUjFzRS1MZUlRQWJkMWxGUGZGbkNKR3d3ZUw5dERfdlRJRldzcVYzbEVrRUpGUmZ2NG05ZEpzNkp3ZEEyUVNSR2lSMEJRa09XMUR1dFhtbFdlWUt6T2lRZ3g3eGJ4SU9B?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-11T19:41:47Z",
-        "last_seen": "2026-11-18T07:40:05Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:eca76495af": {
         "id": "geo:sanctions:eca76495af",
         "pillar": "geo",
@@ -3559,94 +3777,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:9636e0af39": {
-        "id": "geo:conflict:9636e0af39",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "What will Europe do next in Ukraine?",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "ukraine",
-          "european union",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/video/inside-story/2026/11/16/what-will-europe-do-next-in-ukraine?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/inside-story/2026/11/16/what-will-europe-do-next-in-ukraine?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmhGNVhidkt3TlpMM3l5UmpTaGYyRnEyZ0pDQnhydG0wWm9sS3VGN0pndWVSODhUbFhYTW5EalBIMEljZEVsNndnbVVNd1dmVzNOMVNHYmtpOEZjVXBaOHNfQ0dzQjlva0QyNEU5OS1vMm50TmhuVEFaZDZ0THpwTDUtX3dpeV9HUEYwOEZaVkhBNzBrZXg1dXljcmVFRC1CT0hqclh2cU9uSklvSTRnSUxXVTlmQmNhNlI1Q1E0S2hSdzF3?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-16T22:15:58Z",
-        "last_seen": "2026-11-16T22:15:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:8dfd5ff85f": {
-        "id": "geo:conflict:8dfd5ff85f",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "saudi arabia",
-          "yemen"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1oaDQwcHhPSlhNTmNsZDhJc1dSQ1BwODVvWDBsdlhpUUxfVUJnUUdlQnNmTUFtYWlhblk4N1c1YWJFdEVqNmIzYjZSWTFsSjRXc1FhRzRIME90alJDb2pMeHlzbjVjWWdYb2FUbGIza3NkWmhLOFE4WHhOeXdhaHh6NjhtS0pENGtzc1RUMmVIZ0t2cnJ2WHA1alNwMzgzWEVZR3RnU0ZJMFVxcWNOWUdwOFRlRXhhQllPZmd6MA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1oaDQwcHhPSlhNTmNsZDhJc1dSQ1BwODVvWDBsdlhpUUxfVUJnUUdlQnNmTUFtYWlhblk4N1c1YWJFdEVqNmIzYjZSWTFsSjRXc1FhRzRIME90alJDb2pMeHlzbjVjWWdYb2FUbGIza3NkWmhLOFE4WHhOeXdhaHh6NjhtS0pENGtzc1RUMmVIZ0t2cnJ2WHA1alNwMzgzWEVZR3RnU0ZJMFVxcWNOWUdwOFRlRXhhQllPZmd6MA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-08T13:38:54Z",
-        "last_seen": "2026-11-16T22:15:58Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:ed9a73c4e5": {
         "id": "geo:chokepoint:ed9a73c4e5",
         "pillar": "geo",
@@ -3678,41 +3808,6 @@
         ],
         "first_seen": "2026-11-15T18:56:48Z",
         "last_seen": "2026-11-15T18:56:48Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:missile_strike:04aaf49312": {
-        "id": "geo:missile_strike:04aaf49312",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-        "severity": 55.0,
-        "score": 33.0,
-        "countries": [
-          "myanmar"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T22:34:12Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3784,7 +3879,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -3819,7 +3914,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3855,7 +3950,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3888,7 +3983,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3923,7 +4018,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -3956,7 +4051,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3989,7 +4084,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4022,7 +4117,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4055,7 +4150,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4088,7 +4183,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4121,7 +4216,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4154,7 +4249,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4187,7 +4282,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4220,7 +4315,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4253,7 +4348,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4286,7 +4381,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4319,7 +4414,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4352,7 +4447,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4385,7 +4480,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4418,7 +4513,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4451,7 +4546,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4470,7 +4565,7 @@
         "sources": [
           "CISA"
         ],
-        "article_count": 3,
+        "article_count": 1,
         "links": [
           "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
         ],
@@ -4484,106 +4579,40 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:vuln_advisory:466b6a349e": {
-        "id": "bio_infra:vuln_advisory:466b6a349e",
+      "bio_infra:cyber_incident:27174b03a5": {
+        "id": "bio_infra:cyber_incident:27174b03a5",
         "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Building Automation and Energy Products",
-        "severity": 5.0,
-        "score": 5.0,
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "FIFA says personal and business information stolen in cyberattack - Al Jazeera",
+        "severity": 40.0,
+        "score": 24.0,
         "countries": [],
         "sources": [
-          "CISA"
+          "Reuters (Google News)"
         ],
         "article_count": 1,
         "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01"
+          "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0Q1MUVjSVJDS29yYjFudkVhNUgycnYxZjVmU0pxV2JhWjdHZGtGX1lsRXVINkJVdmI1cnNraDVSUXEyNHVvV0hJVGtaa2trY2JtUElUNnJZaDJqRURBTUpkaE9tX0EtaG1Ta00xbC1xeVVKNlFMLXB4VFFiOVNGbkluUUdPRVByWk5qbUhPVEQtWDdkand2aDBhZWxFR3lwRVFkdVNJS3J5U21HMkHSAbMBQVVfeXFMT3ZTZmxCS1paUWxsN09ybHBkWGt5dDRTRWY1OHBLeXVvVjBlRHRiV19ZT0xidjk1cXdOejU5NGJ1dzJvX1ZWaGN6THdRZ05ObGd6anlMY2JWTExpQ3h4RXJuMmV1VEEtYmp2V2J0ejZoMW9WZ2o4NXlsLXI1YW9mcDk2aFBGWHctUUlzVEoxanRPcnF4U085bTlrekZKYzEtNWlpV2FjbkZudjM2czRsYTJkaG8?oc=5"
         ],
         "refs": [
           {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-            "source": "CISA"
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0Q1MUVjSVJDS29yYjFudkVhNUgycnYxZjVmU0pxV2JhWjdHZGtGX1lsRXVINkJVdmI1cnNraDVSUXEyNHVvV0hJVGtaa2trY2JtUElUNnJZaDJqRURBTUpkaE9tX0EtaG1Ta00xbC1xeVVKNlFMLXB4VFFiOVNGbkluUUdPRVByWk5qbUhPVEQtWDdkand2aDBhZWxFR3lwRVFkdVNJS3J5U21HMkHSAbMBQVVfeXFMT3ZTZmxCS1paUWxsN09ybHBkWGt5dDRTRWY1OHBLeXVvVjBlRHRiV19ZT0xidjk1cXdOejU5NGJ1dzJvX1ZWaGN6THdRZ05ObGd6anlMY2JWTExpQ3h4RXJuMmV1VEEtYmp2V2J0ejZoMW9WZ2o4NXlsLXI1YW9mcDk2aFBGWHctUUlzVEoxanRPcnF4U085bTlrekZKYzEtNWlpV2FjbkZudjM2czRsYTJkaG8?oc=5",
+            "source": "Reuters (Google News)"
           }
         ],
         "link_sources": [
-          "CISA"
+          "Reuters (Google News)"
         ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:6b29cb2024": {
-        "id": "bio_infra:vuln_advisory:6b29cb2024",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Industrial Edge Management",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:0af32ceded": {
-        "id": "bio_infra:vuln_advisory:0af32ceded",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Desigo, Gridscale",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T08:32:57Z",
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -5034,44 +5063,44 @@
   "last_valid": {
     "econ": {
       "score": 44.2,
-      "as_of": "2026-11-26T08:32:57Z"
+      "as_of": "2026-11-26T21:41:10Z"
     },
     "geo": {
-      "score": 86.5,
-      "as_of": "2026-11-26T08:32:57Z"
+      "score": 82.4,
+      "as_of": "2026-11-26T21:41:10Z"
     },
     "nat": {
-      "score": 15.1,
-      "as_of": "2026-11-26T08:32:57Z"
+      "score": 13.9,
+      "as_of": "2026-11-26T21:41:10Z"
     },
     "bio_infra": {
       "score": 57.6,
-      "as_of": "2026-11-26T08:32:57Z"
+      "as_of": "2026-11-26T21:41:10Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 27.110000610351562,
-      "change_pct": -4.68,
-      "drawdown_pct": -24.46,
+      "last": 26.799999237060547,
+      "change_pct": -5.77,
+      "drawdown_pct": -25.33,
       "last_date": "2026-11-26",
-      "as_of": "2026-11-26T08:32:57Z",
+      "as_of": "2026-11-26T21:41:10Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 90.75,
-      "change_pct": -1.34,
-      "drawdown_pct": -23.32,
+      "last": 91.7300033569336,
+      "change_pct": -0.27,
+      "drawdown_pct": -22.49,
       "last_date": "2026-11-26",
-      "as_of": "2026-11-26T08:32:57Z",
+      "as_of": "2026-11-26T21:41:10Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3592.5,
-      "change_pct": -2.52,
-      "drawdown_pct": -32.45,
+      "last": 3593.39990234375,
+      "change_pct": -2.5,
+      "drawdown_pct": -32.43,
       "last_date": "2026-11-26",
-      "as_of": "2026-11-26T08:32:57Z",
+      "as_of": "2026-11-26T21:41:10Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -5079,7 +5108,7 @@
       "change_pct": -1.92,
       "drawdown_pct": -8.14,
       "last_date": "2026-11-25",
-      "as_of": "2026-11-26T08:32:57Z",
+      "as_of": "2026-11-26T21:41:10Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -5087,7 +5116,7 @@
       "change_pct": -9.78,
       "drawdown_pct": -41.38,
       "last_date": "2026-11-25",
-      "as_of": "2026-11-26T08:32:57Z",
+      "as_of": "2026-11-26T21:41:10Z",
       "provider": "yfinance"
     }
   },
@@ -5095,7 +5124,7 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "36e282f77b80b0c0",
+    "events_hash": "ec40f6664ea5804e",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:487249a1b7",
@@ -5103,22 +5132,23 @@
       "geo:chokepoint:b3a5b7a539",
       "geo:chokepoint:c4e7ac099d",
       "geo:energy_infra:8dfd5ff85f",
-      "geo:great_power:d48f9ad5c9",
+      "geo:energy_infra:ec9f74ca51",
       "geo:invasion:a59ee23b9a",
       "geo:missile_strike:0c5abc2fdb",
+      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
       "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:2576c23d0e"
     ],
     "econ_score": 44.2,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น ซึ่งรวมถึงภัยคุกคามต่อเส้นทางเดินเรือสำคัญ ความขัดแย้งทางทหารที่ดำเนินอยู่ และการโจมตีโครงสร้างพื้นฐานด้านพลังงาน พัฒนาการเหล่านี้ส่งผลให้ตลาดมีความผันผวน โดยเฉพาะอย่างยิ่งในภาคส่วนเซมิคอนดักเตอร์ที่ลดลงอย่างเห็นได้ชัด",
+      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น ซึ่งรวมถึงภัยคุกคามต่อเส้นทางเดินเรือและโครงสร้างพื้นฐานด้านพลังงานที่สำคัญ ควบคู่ไปกับความขัดแย้งและการแสดงท่าทีด้านนิวเคลียร์อย่างต่อเนื่อง พัฒนาการเหล่านี้ส่งผลให้ตลาดผันผวน โดยเห็นได้จากดัชนีหุ้นที่ลดลงและราคาน้ำมันที่ยังคงสูงอยู่ ในขณะที่การระบาดของโรคก็เป็นอีกหนึ่งความกังวล",
       "early_warnings_th": [
         {
-          "title": "ความขัดแย้งทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้นและภัยคุกคามต่อเส้นทางเดินเรือสำคัญ",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และการหยุดชะงักของอุปทานพลังงาน",
           "signal_strength": "สูง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ความตึงเครียดอยู่ในระดับสูงจากภัยคุกคามต่อเส้นทางเดินเรือสำคัญจากอิหร่านและการปิดล้อมในฉนวนกาซา ควบคู่ไปกับการโจมตีทางอากาศอย่างต่อเนื่องในเยเมนและฉนวนกาซา และการโจมตีโครงสร้างพื้นฐานน้ำมันของซาอุดีอาระเบีย",
+          "evidence_summary": "มีรายงานการโจมตีโครงสร้างพื้นฐานด้านพลังงานของซาอุดีอาระเบียหลายครั้ง และการโจมตีทางอากาศในเยเมน กาซา และคูเวต ควบคู่ไปกับภัยคุกคามต่อเส้นทางเดินเรือสำคัญ",
           "refs": [
             {
               "url": "http://www.jpost.com/american-politics/article-916016",
@@ -5135,18 +5165,18 @@
           ]
         },
         {
-          "title": "การแพร่ขยายอาวุธนิวเคลียร์และการขยายกำลังทหาร",
+          "title": "ความเสี่ยงที่เพิ่มขึ้นจากความขัดแย้งระหว่างมหาอำนาจและการแพร่ขยายอาวุธนิวเคลียร์",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เกาหลีเหนือมีแผนที่จะขยายการติดตั้งอาวุธนิวเคลียร์ทางยุทธวิธี ในขณะที่เครื่องบินขับไล่ J-10C ของจีนถูกพบพร้อมขีปนาวุธ \"ทำลายบังเกอร์\" และสหรัฐฯ พยายามทำข้อตกลงถาวรเพื่อยับยั้งอิหร่านจากการครอบครองอาวุธนิวเคลียร์",
+          "evidence_summary": "เกาหลีเหนือประกาศขยายการติดตั้งอาวุธนิวเคลียร์ทางยุทธวิธี และมีรายงานเรือบรรทุกสินค้าของรัสเซียถูกโจมตีใกล้ชายฝั่ง NATO",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.ibtimes.com/chinese-j-10c-modified-kh-29t-missile-3810159",
-              "source": "ibtimes.com"
+              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+              "source": "thevermilion.com"
             },
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
@@ -5155,10 +5185,10 @@
           ]
         },
         {
-          "title": "การกลับมาของโรคร้ายแรง",
+          "title": "การระบาดของโรคติดต่อร้ายแรงที่กลับมาอีกครั้ง",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดใหม่ของโรคอีโบลาที่เกิดจากเชื้อไวรัส Bundibugyo ในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย ควบคู่ไปกับการระบาดของเชื้อโปลิโอไวรัสชนิดที่ 1 ที่มาจากวัคซีนในซีเรีย",
+          "evidence_summary": "มีการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงโปลิโอในซีเรีย และชิคุนกุนยาในสวิตเซอร์แลนด์",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5166,22 +5196,26 @@
             },
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
+              "source": "WHO DON"
+            },
+            {
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
               "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_th": [
-        "มีการรายงานไข้หวัดใหญ่สายพันธุ์ A(H5N1) ในสหรัฐอเมริกา",
-        "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีรายงานการระบาดของไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
+        "มีรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global risk is primarily driven by escalating geopolitical tensions, including threats to shipping chokepoints, ongoing military conflicts, and attacks on energy infrastructure. These developments are contributing to market volatility, with notable declines in the semiconductor sector.",
+      "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, including threats to critical shipping lanes and energy infrastructure, alongside ongoing conflicts and nuclear posturing. These developments are contributing to market volatility, evidenced by declining stock indices and persistent high oil prices, while disease outbreaks add further concern.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Conflicts and Shipping Chokepoint Threats",
+          "title": "Escalating Geopolitical Tensions and Energy Supply Disruptions",
           "signal_strength": "สูง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Tensions are high with threats to shipping chokepoints from Iran and blockades in Gaza, alongside ongoing airstrikes in Yemen and Gaza, and attacks on Saudi oil infrastructure.",
+          "evidence_summary": "Multiple attacks on Saudi energy infrastructure and airstrikes in Yemen, Gaza, and Kuwait have been reported, alongside threats to critical shipping lanes.",
           "refs": [
             {
               "url": "http://www.jpost.com/american-politics/article-916016",
@@ -5198,18 +5232,18 @@
           ]
         },
         {
-          "title": "Nuclear Proliferation and Military Expansion",
+          "title": "Heightened Risk of Great Power Confrontation and Nuclear Proliferation",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "North Korea plans to widen tactical nuclear deployment, while China's J-10C fighter is spotted with a \"bunker-buster\" missile, and the US seeks a permanent deal to stop Iran from acquiring nuclear weapons.",
+          "evidence_summary": "North Korea has announced plans to widen the deployment of tactical nuclear weapons, and a Russian cargo ship was reportedly attacked near the NATO coast.",
           "refs": [
             {
               "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.ibtimes.com/chinese-j-10c-modified-kh-29t-missile-3810159",
-              "source": "ibtimes.com"
+              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
+              "source": "thevermilion.com"
             },
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
@@ -5218,10 +5252,10 @@
           ]
         },
         {
-          "title": "Resurgence of High-Consequence Diseases",
+          "title": "Resurgence of High-Consequence Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "New outbreaks of Ebola disease caused by Bundibugyo virus are reported in the Democratic Republic of the Congo, Kenya, and Nigeria, alongside circulating vaccine-derived poliovirus type 1 in Syria.",
+          "evidence_summary": "Outbreaks of Ebola have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, along with poliovirus in Syria and Chikungunya in Switzerland.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5230,17 +5264,21 @@
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON628",
               "source": "WHO DON"
+            },
+            {
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+              "source": "WHO DON"
             }
           ]
         }
       ],
       "local_notes_en": [
-        "Influenza A(H5N1) has been reported in the United States.",
-        "Middle East respiratory syndrome (MERS) has been reported in Qatar."
+        "An outbreak of Influenza A(H5N1) has been reported in the United States of America.",
+        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-26T08:32:57Z"
+    "generated_at": "2026-11-26T21:41:10Z"
   },
-  "updated_at": "2026-11-26T08:32:57Z",
+  "updated_at": "2026-11-26T21:41:10Z",
   "version": 1
 }
