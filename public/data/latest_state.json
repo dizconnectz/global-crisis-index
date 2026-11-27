@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T21:41:10Z",
-  "global_score": 64,
+  "generated_at": "2026-11-27T08:45:16Z",
+  "global_score": 59,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,18 +11,18 @@
     "color": "orange"
   },
   "formula": {
-    "base": 55.04,
-    "boost": 9.27,
+    "base": 53.19,
+    "boost": 6.18,
     "cross_confirmed": true,
-    "max1": 82.4,
-    "max2": 57.6,
+    "max1": 78.8,
+    "max2": 57.5,
     "max1_pillar": "geo"
   },
   "pillars": {
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 44.2,
+      "score": 43.0,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -35,31 +35,31 @@
           "key": "vix",
           "label_th": "ดัชนีความผันผวน VIX",
           "label_en": "VIX volatility index",
-          "value": 26.8,
+          "value": 24.92,
           "unit": "จุด",
           "unit_en": "pts",
-          "hint": "-5.8% (5 วันทำการ)",
-          "hint_en": "-5.8% (5 trading days)"
+          "hint": "-30.6% (5 วันทำการ)",
+          "hint_en": "-30.6% (5 trading days)"
         },
         {
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 91.73,
+          "value": 92.55,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-0.3% (5 วันทำการ)",
-          "hint_en": "-0.3% (5 trading days)"
+          "hint": "+0.6% (5 วันทำการ)",
+          "hint_en": "+0.6% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3593.4,
+          "value": 3698.7,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-2.5% (5 วันทำการ)",
-          "hint_en": "-2.5% (5 trading days)"
+          "hint": "+0.4% (5 วันทำการ)",
+          "hint_en": "+0.4% (5 trading days)"
         },
         {
           "key": "spx",
@@ -91,12 +91,12 @@
           "unit_en": "pts",
           "ticker": "^VIX",
           "weight": 0.3,
-          "value": 26.8,
-          "change_pct": -5.77,
-          "drawdown_pct": -25.33,
-          "score": 55.4,
+          "value": 24.92,
+          "change_pct": -30.57,
+          "drawdown_pct": -30.57,
+          "score": 49.7,
           "status": "ok",
-          "last_date": "2026-11-26",
+          "last_date": "2026-11-27",
           "provider": "yfinance"
         },
         {
@@ -107,12 +107,12 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 91.73,
-          "change_pct": -0.27,
-          "drawdown_pct": -22.49,
-          "score": 32.2,
+          "value": 92.55,
+          "change_pct": 0.62,
+          "drawdown_pct": -21.8,
+          "score": 33.2,
           "status": "ok",
-          "last_date": "2026-11-26",
+          "last_date": "2026-11-27",
           "provider": "yfinance"
         },
         {
@@ -123,12 +123,12 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3593.4,
-          "change_pct": -2.5,
-          "drawdown_pct": -32.43,
-          "score": 5.0,
+          "value": 3698.7,
+          "change_pct": 0.36,
+          "drawdown_pct": -30.45,
+          "score": 7.7,
           "status": "ok",
-          "last_date": "2026-11-26",
+          "last_date": "2026-11-27",
           "provider": "yfinance"
         },
         {
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 82.4,
+      "score": 78.8,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -185,7 +185,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
           "severity": 85.0,
-          "score": 66.2,
+          "score": 61.4,
           "countries": [
             "iran"
           ],
@@ -240,7 +240,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "WHO chief calls on U . S . to lift oil blockade on Cuba , citing health impact",
           "severity": 85.0,
-          "score": 66.2,
+          "score": 61.4,
           "countries": [
             "cuba"
           ],
@@ -295,7 +295,7 @@
           "category_en": "Nuclear threat",
           "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
           "severity": 95.0,
-          "score": 52.1,
+          "score": 48.4,
           "countries": [
             "north korea"
           ],
@@ -330,7 +330,7 @@
           "category_en": "Attack on energy infrastructure",
           "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
           "severity": 75.0,
-          "score": 45.0,
+          "score": 41.8,
           "countries": [
             "saudi arabia"
           ],
@@ -365,7 +365,7 @@
           "category_en": "Air / missile strikes",
           "title": "Airstrikes rock Yemen capital after Houthi drone attack on Riyadh financial district",
           "severity": 55.0,
-          "score": 42.8,
+          "score": 39.7,
           "countries": [
             "yemen",
             "saudi arabia"
@@ -428,7 +428,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 1,
+          "value": 0,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -438,18 +438,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 96,
+          "value": 79,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 12 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 12 event clusters"
+          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 5 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 13.9,
+      "score": 12.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -492,7 +492,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 124,
+          "value": 109,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -503,7 +503,7 @@
     "bio_infra": {
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.6,
+      "score": 57.5,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -541,7 +541,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-26T21:41:10Z",
+          "last_seen": "2026-11-27T08:45:16Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -576,7 +576,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-24T22:33:48Z",
-          "last_seen": "2026-11-26T21:41:10Z",
+          "last_seen": "2026-11-27T08:45:16Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -609,7 +609,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-18T07:40:05Z",
-          "last_seen": "2026-11-26T21:41:10Z",
+          "last_seen": "2026-11-27T08:45:16Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -623,7 +623,7 @@
           "category_en": "Actual cyber incident",
           "title": "FIFA says personal and business information stolen in cyberattack - Al Jazeera",
           "severity": 40.0,
-          "score": 24.0,
+          "score": 22.3,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -656,7 +656,7 @@
           "category_en": "Actual cyber incident",
           "title": "US CIA, ODNI suffer cybersecurity breach of some unclassified information, source says - Reuters",
           "severity": 40.0,
-          "score": 20.4,
+          "score": 18.9,
           "countries": [],
           "sources": [
             "Reuters (Google News)"
@@ -721,8 +721,8 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 82.4,
-      "contribution": 38.1,
+      "score": 78.8,
+      "contribution": 33.8,
       "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
       "headline_en": "Shipping chokepoint threat: Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade"
     },
@@ -730,8 +730,8 @@
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 44.2,
-      "contribution": 15.5,
+      "score": 43.0,
+      "contribution": 15.0,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 127.98 USD",
       "headline_en": "SOXX semiconductor ETF 127.98 USD"
     },
@@ -739,7 +739,7 @@
       "pillar": "bio_infra",
       "label_th": "สุขภาพและโครงสร้างพื้นฐาน",
       "label_en": "Health & critical infrastructure",
-      "score": 57.6,
+      "score": 57.5,
       "contribution": 8.6,
       "headline": "โรคติดต่อร้ายแรง: Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
       "headline_en": "High-consequence disease: Disease Outbreak News: Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria"
@@ -880,7 +880,7 @@
       "An outbreak of Influenza A(H5N1) has been reported in the United States of America.",
       "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
     ],
-    "source": "gemini",
+    "source": "gemini_cached",
     "model": "gemini-2.5-flash",
     "generated_at": "2026-11-26T21:41:10Z"
   },
@@ -914,7 +914,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-24T22:33:48Z",
-      "last_seen": "2026-11-26T21:41:10Z",
+      "last_seen": "2026-11-27T08:45:16Z",
       "is_local": true,
       "location": "สหรัฐฯ",
       "location_en": "US",
@@ -949,7 +949,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-14T06:38:49Z",
-      "last_seen": "2026-11-26T21:41:10Z",
+      "last_seen": "2026-11-27T08:45:16Z",
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
@@ -965,9 +965,9 @@
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:11Z",
+        "fetched_at": "2026-11-27T08:45:18Z",
         "items": 5,
-        "data_as_of": "2026-11-26",
+        "data_as_of": "2026-11-27",
         "error": null,
         "note": null,
         "optional": false
@@ -976,7 +976,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-26T21:41:21Z",
+        "fetched_at": "2026-11-27T08:45:30Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -987,9 +987,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
-        "items": 28,
-        "data_as_of": "2026-11-26T21:17:53Z",
+        "fetched_at": "2026-11-27T08:45:16Z",
+        "items": 33,
+        "data_as_of": "2026-11-27T08:13:43Z",
         "error": null,
         "note": null,
         "optional": false
@@ -998,9 +998,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
+        "fetched_at": "2026-11-27T08:45:16Z",
         "items": 25,
-        "data_as_of": "2026-11-26T21:08:44Z",
+        "data_as_of": "2026-11-27T08:24:59Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1009,9 +1009,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
-        "items": 43,
-        "data_as_of": "2026-11-26T19:12:09Z",
+        "fetched_at": "2026-11-27T08:45:17Z",
+        "items": 21,
+        "data_as_of": "2026-11-27T08:18:41Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1020,7 +1020,7 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
+        "fetched_at": "2026-11-27T08:45:16Z",
         "items": 4,
         "data_as_of": "2026-11-24T11:06:14Z",
         "error": null,
@@ -1031,9 +1031,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:12Z",
-        "items": 156,
-        "data_as_of": "2026-11-26T20:20:01Z",
+        "fetched_at": "2026-11-27T08:45:21Z",
+        "items": 130,
+        "data_as_of": "2026-11-27T08:13:53Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1042,7 +1042,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
+        "fetched_at": "2026-11-27T08:45:17Z",
         "items": 20,
         "data_as_of": "2026-11-24T19:00:00Z",
         "error": null,
@@ -1053,7 +1053,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-26T21:41:10Z",
+        "fetched_at": "2026-11-27T08:45:16Z",
         "items": 30,
         "data_as_of": "2026-11-25T12:00:00Z",
         "error": null,

@@ -1,6 +1,58 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:a59ee23b9a": {
+        "id": "geo:conflict:a59ee23b9a",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+        "severity": 30.0,
+        "score": 24.0,
+        "countries": [
+          "ukraine",
+          "russia",
+          "china",
+          "iran",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "abcnews.com",
+          "aol.co.uk",
+          "channelnewsasia.com",
+          "freerepublic.com",
+          "idahopress.com"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+          "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "BBC World",
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-27T08:45:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:de2d47ef1a": {
         "id": "geo:conflict:de2d47ef1a",
         "pillar": "geo",
@@ -18,7 +70,7 @@
           "BBC World",
           "Reuters (Google News)"
         ],
-        "article_count": 2,
+        "article_count": 3,
         "links": [
           "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
           "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hPQWhhdW9HTWxtRndjQkN3aFhQTzhyWV9sQ0NTbHNsRFpINkRjMHhKRGN4QTk1NTJYWU1yVHhmYVJSazJEVGtOdVIzZ2xsNFJFeHF0YXNEbXBqTF94bnBDOEFnMV9JdGRRbWVROFJGRmZISmZWUXhtYTlJTXFFMlBWa2IwdXBfUXY4OENRd2tVeWh0Q1M1OThsMl9kMkVEamJiTjMzdWxwZHRzdlVHYmtwTUI?oc=5"
@@ -38,7 +90,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-26T21:41:10Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -52,7 +104,7 @@
         "category_en": "Armed conflict",
         "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.3,
         "countries": [
           "palestine",
           "israel"
@@ -61,27 +113,91 @@
           "Al Jazeera",
           "BBC World"
         ],
-        "article_count": 2,
+        "article_count": 1,
         "links": [
-          "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-27T08:45:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:8f4f9f2dcb": {
+        "id": "geo:sanctions:8f4f9f2dcb",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Western sanctions on Israeli settlers serve to shield the Israeli state",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/opinions/2026/11/27/western-sanctions-on-israeli-settlers-serve-to-shield-the-israeli-state?traffic_source=rss"
+        ],
+        "refs": [
           {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss",
+            "url": "https://www.aljazeera.com/opinions/2026/11/27/western-sanctions-on-israeli-settlers-serve-to-shield-the-israeli-state?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
         "link_sources": [
-          "BBC World",
           "Al Jazeera"
         ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "first_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T08:45:16Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:c8537a9047": {
+        "id": "geo:conflict:c8537a9047",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "sahel"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -504,55 +620,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-25T21:47:56Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:a59ee23b9a": {
-        "id": "geo:conflict:a59ee23b9a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
-        "severity": 30.0,
-        "score": 24.0,
-        "countries": [
-          "ukraine",
-          "russia"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "abcnews.com",
-          "aol.co.uk",
-          "channelnewsasia.com",
-          "freerepublic.com",
-          "idahopress.com"
-        ],
-        "article_count": 3,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-          "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVHA4MmE5dGltNVhyZ0d1RHUwSDhtM0xMdWk1SE9uOXB0elZPN3d1NV9VWEdHT05xSkxuVkZfYTNJUERJY2Z3RlR2VXJiOUEzbDFib25hYWVSZy04bDhVQ0phV3VXcFdIUlU3bS1zWEFwM05EbTFlM3hVM1JyOW9ZSW52LWxudktISzJCN2lEbmw3SE95M1ZoLUlSVjFzS0pjMU00V3kwcm5Ma09XMTlzQXhNMl96d2Fy0gG-AUFVX3lxTE9GUW5veXdka29WRnN6NmwtNWd1SXdRV0tlYlFaNWZNY3plam5BWW5BYThQM3dnNmR1YzRBcktFS0I1T3VWTU9VTk83Yk9UZkdpbGZBSnlkVXJCWl84ckJwUjlGd1NMQXEzeW5BTVlKRHNRQnk1bHdxeEFJSWNpV1FGdGVGUEFrS0dRT2pmMWJqb2YtYnFJZ2RZLXBhaG1aaHRxYmQ0dEhwWEVib2M3aGJJd254OWF0ODduQlNNM1E?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVHA4MmE5dGltNVhyZ0d1RHUwSDhtM0xMdWk1SE9uOXB0elZPN3d1NV9VWEdHT05xSkxuVkZfYTNJUERJY2Z3RlR2VXJiOUEzbDFib25hYWVSZy04bDhVQ0phV3VXcFdIUlU3bS1zWEFwM05EbTFlM3hVM1JyOW9ZSW52LWxudktISzJCN2lEbmw3SE95M1ZoLUlSVjFzS0pjMU00V3kwcm5Ma09XMTlzQXhNMl96d2Fy0gG-AUFVX3lxTE9GUW5veXdka29WRnN6NmwtNWd1SXdRV0tlYlFaNWZNY3plam5BWW5BYThQM3dnNmR1YzRBcktFS0I1T3VWTU9VTk83Yk9UZkdpbGZBSnlkVXJCWl84ckJwUjlGd1NMQXEzeW5BTVlKRHNRQnk1bHdxeEFJSWNpV1FGdGVGUEFrS0dRT2pmMWJqb2YtYnFJZ2RZLXBhaG1aaHRxYmQ0dEhwWEVib2M3aGJJd254OWF0ODduQlNNM1E?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-26T08:32:57Z",
         "is_local": false,
         "location": null,
@@ -3452,39 +3519,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:703206fe8d": {
-        "id": "geo:conflict:703206fe8d",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Irishman charged with destroying US military aircraft with axe",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-18T20:39:47Z",
-        "last_seen": "2026-11-19T07:36:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:coup_unrest:dd01598568": {
         "id": "geo:coup_unrest:dd01598568",
         "pillar": "geo",
@@ -3629,39 +3663,6 @@
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-18T07:40:05Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:terror:0b612d4d44": {
-        "id": "geo:terror:0b612d4d44",
-        "pillar": "geo",
-        "category": "terror",
-        "category_th": "การก่อการร้าย",
-        "category_en": "Terrorism",
-        "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
           }
         ],
@@ -3879,7 +3880,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -3914,7 +3915,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3950,7 +3951,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3983,7 +3984,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4018,7 +4019,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": true,
         "location": "กาตาร์",
         "location_en": "Qatar",
@@ -4051,7 +4052,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4084,7 +4085,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4117,7 +4118,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4150,7 +4151,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4183,7 +4184,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4216,7 +4217,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4249,7 +4250,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4282,7 +4283,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4315,7 +4316,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4348,7 +4349,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4381,7 +4382,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4414,7 +4415,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4447,7 +4448,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4480,7 +4481,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4513,7 +4514,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4546,7 +4547,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4579,7 +4580,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-27T08:45:16Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -5062,45 +5063,45 @@
   },
   "last_valid": {
     "econ": {
-      "score": 44.2,
-      "as_of": "2026-11-26T21:41:10Z"
+      "score": 43.0,
+      "as_of": "2026-11-27T08:45:16Z"
     },
     "geo": {
-      "score": 82.4,
-      "as_of": "2026-11-26T21:41:10Z"
+      "score": 78.8,
+      "as_of": "2026-11-27T08:45:16Z"
     },
     "nat": {
-      "score": 13.9,
-      "as_of": "2026-11-26T21:41:10Z"
+      "score": 12.9,
+      "as_of": "2026-11-27T08:45:16Z"
     },
     "bio_infra": {
-      "score": 57.6,
-      "as_of": "2026-11-26T21:41:10Z"
+      "score": 57.5,
+      "as_of": "2026-11-27T08:45:16Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 26.799999237060547,
-      "change_pct": -5.77,
-      "drawdown_pct": -25.33,
-      "last_date": "2026-11-26",
-      "as_of": "2026-11-26T21:41:10Z",
+      "last": 24.920000076293945,
+      "change_pct": -30.57,
+      "drawdown_pct": -30.57,
+      "last_date": "2026-11-27",
+      "as_of": "2026-11-27T08:45:16Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 91.7300033569336,
-      "change_pct": -0.27,
-      "drawdown_pct": -22.49,
-      "last_date": "2026-11-26",
-      "as_of": "2026-11-26T21:41:10Z",
+      "last": 92.55000305175781,
+      "change_pct": 0.62,
+      "drawdown_pct": -21.8,
+      "last_date": "2026-11-27",
+      "as_of": "2026-11-27T08:45:16Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3593.39990234375,
-      "change_pct": -2.5,
-      "drawdown_pct": -32.43,
-      "last_date": "2026-11-26",
-      "as_of": "2026-11-26T21:41:10Z",
+      "last": 3698.699951171875,
+      "change_pct": 0.36,
+      "drawdown_pct": -30.45,
+      "last_date": "2026-11-27",
+      "as_of": "2026-11-27T08:45:16Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -5108,7 +5109,7 @@
       "change_pct": -1.92,
       "drawdown_pct": -8.14,
       "last_date": "2026-11-25",
-      "as_of": "2026-11-26T21:41:10Z",
+      "as_of": "2026-11-27T08:45:16Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -5116,7 +5117,7 @@
       "change_pct": -9.78,
       "drawdown_pct": -41.38,
       "last_date": "2026-11-25",
-      "as_of": "2026-11-26T21:41:10Z",
+      "as_of": "2026-11-27T08:45:16Z",
       "provider": "yfinance"
     }
   },
@@ -5279,6 +5280,6 @@
     },
     "generated_at": "2026-11-26T21:41:10Z"
   },
-  "updated_at": "2026-11-26T21:41:10Z",
+  "updated_at": "2026-11-27T08:45:16Z",
   "version": 1
 }
