@@ -12,10 +12,7 @@
         "score": 24.0,
         "countries": [
           "ukraine",
-          "russia",
-          "china",
-          "iran",
-          "israel"
+          "russia"
         ],
         "sources": [
           "Al Jazeera",
@@ -27,10 +24,10 @@
           "freerepublic.com",
           "idahopress.com"
         ],
-        "article_count": 2,
+        "article_count": 4,
         "links": [
           "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss"
+          "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss"
         ],
         "refs": [
           {
@@ -38,7 +35,7 @@
             "source": "BBC World"
           },
           {
-            "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+            "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
@@ -47,7 +44,155 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:6179c355b9": {
+        "id": "geo:conflict:6179c355b9",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:coup_unrest:7db4546f55": {
+        "id": "geo:coup_unrest:7db4546f55",
+        "pillar": "geo",
+        "category": "coup_unrest",
+        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
+        "category_en": "Coup / political unrest",
+        "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+        "severity": 35.0,
+        "score": 21.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:0c5abc2fdb": {
+        "id": "geo:missile_strike:0c5abc2fdb",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
+        "severity": 55.0,
+        "score": 36.5,
+        "countries": [
+          "palestine",
+          "israel"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "bakersfieldnow.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-12T20:03:49Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement - NBC News",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5Ia1VtUFl4b1FmMmh3dS1HQ1ktQ29sNHVrVG9uQnlEcGpMcVB0NUNyMmM3c1B5Q0N6czFFd1hYMFV3bU1FT0liUF9aSEZRWXdiTXVKaG9ZM0NWMXB5M3dxQTBwVEdlVTF1YURsZmxBTmprTU9BbkhmWVZGSWJmTEE4YUt5Tm1JNHphVWFWdF80cVQ4R2dBUXYxeEtSUTkwZFIxa2ZIdkxEazU4ZllpVmNoWHJfQQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5Ia1VtUFl4b1FmMmh3dS1HQ1ktQ29sNHVrVG9uQnlEcGpMcVB0NUNyMmM3c1B5Q0N6czFFd1hYMFV3bU1FT0liUF9aSEZRWXdiTXVKaG9ZM0NWMXB5M3dxQTBwVEdlVTF1YURsZmxBTmprTU9BbkhmWVZGSWJmTEE4YUt5Tm1JNHphVWFWdF80cVQ4R2dBUXYxeEtSUTkwZFIxa2ZIdkxEazU4ZllpVmNoWHJfQQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-27T21:26:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -734,42 +879,6 @@
           "BBC World"
         ],
         "first_seen": "2026-11-26T08:32:57Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:6179c355b9": {
-        "id": "geo:conflict:6179c355b9",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "DR Congo Ebola cases surpass 12,000 as fighting disrupts response in east",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
         "last_seen": "2026-11-26T08:32:57Z",
         "is_local": false,
         "location": null,
@@ -2026,58 +2135,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:missile_strike:0c5abc2fdb": {
-        "id": "geo:missile_strike:0c5abc2fdb",
-        "pillar": "geo",
-        "category": "missile_strike",
-        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
-        "category_en": "Air / missile strikes",
-        "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-        "severity": 55.0,
-        "score": 55.0,
-        "countries": [
-          "israel",
-          "palestine",
-          "india"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "bakersfieldnow.com"
-        ],
-        "article_count": 4,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
-          "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          },
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/25/phone-spying-to-missiles-why-india-israel-strategic-ties-go-beyond-modi?traffic_source=rss",
-            "source": "Al Jazeera"
-          },
-          {
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVmdOUHJwNXRuX1lxb1VPQ19jS0kxSmZCbWNMZ01tbXRiYVU2Ujl3V0JxUnRHTGxUZXVZeVUzTGRIZ01VWTZGTWRQZngwSVVxVjJuRnN1QnExNkxFVmMxTkRBeGdWdnk5S1VKNkRIN1c2WkJmSWhwZmhva195Ql96RjJNNmlBeWFpUHJXd21GS1Q0dkRDUnJwR01SeEtIbUR5NDJVa1JFQ0hKMlNwRjFXd3g3TEg1blhmV2tIXzl4cnpoei1FSWg2YlZoOA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "BBC World",
-          "Al Jazeera",
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-25T08:47:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:847f6a5bb1": {
         "id": "geo:conflict:847f6a5bb1",
         "pillar": "geo",
@@ -2684,46 +2741,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-24T00:00:06Z",
-        "last_seen": "2026-11-24T00:00:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "COMMENTARY: Oil's Iran war recovery masks a stubborn diesel shortage - Reuters",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
         "last_seen": "2026-11-24T00:00:06Z",
         "is_local": false,
         "location": null,
@@ -3483,42 +3500,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:62204bb407": {
-        "id": "geo:conflict:62204bb407",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "As Burnham heads to Brussels, are new Brexit wars about to begin?",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "european union",
-          "united kingdom"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-19T20:45:23Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:coup_unrest:dd01598568": {
         "id": "geo:coup_unrest:dd01598568",
         "pillar": "geo",
@@ -3709,39 +3690,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:sanctions:eca76495af": {
-        "id": "geo:sanctions:eca76495af",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Companies get billions in tariff refunds. Consumers are left with the bill.",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/17/companies-get-billions-in-tariff-refunds-consumers-are-left-with-the-bill?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/companies-get-billions-in-tariff-refunds-consumers-are-left-with-the-bill?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-17T21:02:38Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:chokepoint:2ccc9c3da2": {
         "id": "geo:chokepoint:2ccc9c3da2",
         "pillar": "geo",
@@ -3880,7 +3828,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T21:26:13Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -3915,7 +3863,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T21:26:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3951,7 +3899,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T21:26:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3984,7 +3932,634 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T08:45:16Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:ebd92c9de6": {
+        "id": "bio_infra:vuln_advisory:ebd92c9de6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 7,
+        "links": [
+          "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-02T06:49:49Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:534264dbdd": {
+        "id": "bio_infra:vuln_advisory:534264dbdd",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "AutomationDirect C-More EA9 Programming Software",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:3102d4d6bb": {
+        "id": "bio_infra:vuln_advisory:3102d4d6bb",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:a9d091d51b": {
+        "id": "bio_infra:vuln_advisory:a9d091d51b",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Danfoss AK-SM 8xxA Series",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-24T22:33:48Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:34bad3a386": {
+        "id": "bio_infra:vuln_advisory:34bad3a386",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "libumqtt",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:a6b35719cf": {
+        "id": "bio_infra:vuln_advisory:a6b35719cf",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Elecbrakes EB2, VM1, ELBC2000",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:45f433bea9": {
+        "id": "bio_infra:vuln_advisory:45f433bea9",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Autonomy Logic OpenPLC Runtime",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-19T20:45:23Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:91d0f7b29d": {
+        "id": "bio_infra:vuln_advisory:91d0f7b29d",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens SIMATIC",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:27e2d5c84f": {
+        "id": "bio_infra:vuln_advisory:27e2d5c84f",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens ROS#",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:402cd71416": {
+        "id": "bio_infra:vuln_advisory:402cd71416",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Simcenter Femap",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:4e4b97cee4": {
+        "id": "bio_infra:vuln_advisory:4e4b97cee4",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens RUGGEDCOM APE1808",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:e930a801e6": {
+        "id": "bio_infra:vuln_advisory:e930a801e6",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens meta-iot2050",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:e35a2ad0dc": {
+        "id": "bio_infra:vuln_advisory:e35a2ad0dc",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Industrial Software Products",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:9e9fee2a9b": {
+        "id": "bio_infra:vuln_advisory:9e9fee2a9b",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Critical Java Vulnerability Requires Immediate Patching",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-18T07:40:05Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:1f8e3e19e1": {
+        "id": "bio_infra:vuln_advisory:1f8e3e19e1",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:6af065c6fa": {
+        "id": "bio_infra:vuln_advisory:6af065c6fa",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Siemens Mendix Studio Pro",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:vuln_advisory:5f873c6b3f": {
+        "id": "bio_infra:vuln_advisory:5f873c6b3f",
+        "pillar": "bio_infra",
+        "category": "vuln_advisory",
+        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
+        "category_en": "Routine vulnerability advisory",
+        "title": "Dorsett Controls InfoScan",
+        "severity": 5.0,
+        "score": 5.0,
+        "countries": [],
+        "sources": [
+          "CISA"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+        ],
+        "refs": [
+          {
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+            "source": "CISA"
+          }
+        ],
+        "link_sources": [
+          "CISA"
+        ],
+        "first_seen": "2026-11-17T21:02:38Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:18f18656c7": {
+        "id": "bio_infra:cyber_incident:18f18656c7",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-27T21:26:13Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:be38e3b834": {
+        "id": "bio_infra:cyber_incident:be38e3b834",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Reuters, NBC report hackers breached Defense Department platform - WORLD News Group",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-27T21:26:13Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4024,567 +4599,6 @@
         "location": "กาตาร์",
         "location_en": "Qatar",
         "raw_score": 45.0
-      },
-      "bio_infra:vuln_advisory:ebd92c9de6": {
-        "id": "bio_infra:vuln_advisory:ebd92c9de6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 7,
-        "links": [
-          "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:534264dbdd": {
-        "id": "bio_infra:vuln_advisory:534264dbdd",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "AutomationDirect C-More EA9 Programming Software",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:3102d4d6bb": {
-        "id": "bio_infra:vuln_advisory:3102d4d6bb",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:a9d091d51b": {
-        "id": "bio_infra:vuln_advisory:a9d091d51b",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Danfoss AK-SM 8xxA Series",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:a6b35719cf": {
-        "id": "bio_infra:vuln_advisory:a6b35719cf",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Elecbrakes EB2, VM1, ELBC2000",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:45f433bea9": {
-        "id": "bio_infra:vuln_advisory:45f433bea9",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Autonomy Logic OpenPLC Runtime",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:34bad3a386": {
-        "id": "bio_infra:vuln_advisory:34bad3a386",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "libumqtt",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:e35a2ad0dc": {
-        "id": "bio_infra:vuln_advisory:e35a2ad0dc",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Industrial Software Products",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:5f873c6b3f": {
-        "id": "bio_infra:vuln_advisory:5f873c6b3f",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Dorsett Controls InfoScan",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:6af065c6fa": {
-        "id": "bio_infra:vuln_advisory:6af065c6fa",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Mendix Studio Pro",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:1f8e3e19e1": {
-        "id": "bio_infra:vuln_advisory:1f8e3e19e1",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:9e9fee2a9b": {
-        "id": "bio_infra:vuln_advisory:9e9fee2a9b",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Critical Java Vulnerability Requires Immediate Patching",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:e930a801e6": {
-        "id": "bio_infra:vuln_advisory:e930a801e6",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens meta-iot2050",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:402cd71416": {
-        "id": "bio_infra:vuln_advisory:402cd71416",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens Simcenter Femap",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:27e2d5c84f": {
-        "id": "bio_infra:vuln_advisory:27e2d5c84f",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens ROS#",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:91d0f7b29d": {
-        "id": "bio_infra:vuln_advisory:91d0f7b29d",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens SIMATIC",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 2,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:vuln_advisory:4e4b97cee4": {
-        "id": "bio_infra:vuln_advisory:4e4b97cee4",
-        "pillar": "bio_infra",
-        "category": "vuln_advisory",
-        "category_th": "ประกาศเตือนช่องโหว่ทั่วไป",
-        "category_en": "Routine vulnerability advisory",
-        "title": "Siemens RUGGEDCOM APE1808",
-        "severity": 5.0,
-        "score": 5.0,
-        "countries": [],
-        "sources": [
-          "CISA"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07"
-        ],
-        "refs": [
-          {
-            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-            "source": "CISA"
-          }
-        ],
-        "link_sources": [
-          "CISA"
-        ],
-        "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T08:45:16Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       },
       "bio_infra:cyber_incident:27174b03a5": {
         "id": "bio_infra:cyber_incident:27174b03a5",
@@ -4992,132 +5006,66 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:global_outage:d64749d646": {
-        "id": "bio_infra:global_outage:d64749d646",
-        "pillar": "bio_infra",
-        "category": "global_outage",
-        "category_th": "ระบบล่มหลายประเทศ",
-        "category_en": "Multi-country system outage",
-        "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
-        "severity": 70.0,
-        "score": 42.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-14T06:38:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "bio_infra:global_outage:fba01990e9": {
-        "id": "bio_infra:global_outage:fba01990e9",
-        "pillar": "bio_infra",
-        "category": "global_outage",
-        "category_th": "ระบบล่มหลายประเทศ",
-        "category_en": "Multi-country system outage",
-        "title": "Microsoft services begin recovering after global outage",
-        "severity": 70.0,
-        "score": 42.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-14T06:38:49Z",
-        "last_seen": "2026-11-14T06:38:49Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 43.0,
-      "as_of": "2026-11-27T08:45:16Z"
+      "score": 38.6,
+      "as_of": "2026-11-27T21:26:13Z"
     },
     "geo": {
-      "score": 78.8,
-      "as_of": "2026-11-27T08:45:16Z"
+      "score": 74.6,
+      "as_of": "2026-11-27T21:26:13Z"
     },
     "nat": {
-      "score": 12.9,
-      "as_of": "2026-11-27T08:45:16Z"
+      "score": 11.9,
+      "as_of": "2026-11-27T21:26:13Z"
     },
     "bio_infra": {
-      "score": 57.5,
-      "as_of": "2026-11-27T08:45:16Z"
+      "score": 57.6,
+      "as_of": "2026-11-27T21:26:13Z"
     }
   },
   "econ_indicators": {
     "vix": {
-      "last": 24.920000076293945,
-      "change_pct": -30.57,
-      "drawdown_pct": -30.57,
+      "last": 23.809999465942383,
+      "change_pct": -33.66,
+      "drawdown_pct": -33.66,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T08:45:16Z",
+      "as_of": "2026-11-27T21:26:13Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 92.55000305175781,
-      "change_pct": 0.62,
-      "drawdown_pct": -21.8,
+      "last": 90.83999633789062,
+      "change_pct": -1.24,
+      "drawdown_pct": -23.24,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T08:45:16Z",
+      "as_of": "2026-11-27T21:26:13Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3698.699951171875,
-      "change_pct": 0.36,
-      "drawdown_pct": -30.45,
+      "last": 3668.5,
+      "change_pct": -0.46,
+      "drawdown_pct": -31.02,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T08:45:16Z",
+      "as_of": "2026-11-27T21:26:13Z",
       "provider": "yfinance"
     },
     "spx": {
-      "last": 7182.77978515625,
-      "change_pct": -1.92,
-      "drawdown_pct": -8.14,
-      "last_date": "2026-11-25",
-      "as_of": "2026-11-27T08:45:16Z",
+      "last": 7297.490234375,
+      "change_pct": 1.7,
+      "drawdown_pct": -6.67,
+      "last_date": "2026-11-27",
+      "as_of": "2026-11-27T21:26:13Z",
       "provider": "yfinance"
     },
     "soxx": {
-      "last": 127.9800033569336,
-      "change_pct": -9.78,
-      "drawdown_pct": -41.38,
-      "last_date": "2026-11-25",
-      "as_of": "2026-11-27T08:45:16Z",
+      "last": 134.07000732421875,
+      "change_pct": -2.81,
+      "drawdown_pct": -38.59,
+      "last_date": "2026-11-27",
+      "as_of": "2026-11-27T21:26:13Z",
       "provider": "yfinance"
     }
   },
@@ -5125,7 +5073,7 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "ec40f6664ea5804e",
+    "events_hash": "0061e4a403099b5f",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:487249a1b7",
@@ -5136,20 +5084,18 @@
       "geo:energy_infra:ec9f74ca51",
       "geo:invasion:a59ee23b9a",
       "geo:missile_strike:0c5abc2fdb",
-      "geo:missile_strike:73ae71ea05",
       "geo:missile_strike:8dfd5ff85f",
-      "geo:missile_strike:a59ee23b9a",
       "geo:nuclear:2576c23d0e"
     ],
-    "econ_score": 44.2,
+    "econ_score": 38.6,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงเชิงระบบทั่วโลกส่วนใหญ่เกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่ทวีความรุนแรงขึ้น ซึ่งรวมถึงภัยคุกคามต่อเส้นทางเดินเรือและโครงสร้างพื้นฐานด้านพลังงานที่สำคัญ ควบคู่ไปกับความขัดแย้งและการแสดงท่าทีด้านนิวเคลียร์อย่างต่อเนื่อง พัฒนาการเหล่านี้ส่งผลให้ตลาดผันผวน โดยเห็นได้จากดัชนีหุ้นที่ลดลงและราคาน้ำมันที่ยังคงสูงอยู่ ในขณะที่การระบาดของโรคก็เป็นอีกหนึ่งความกังวล",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งบริเวณจุดยุทธศาสตร์การเดินเรือและการโจมตีโครงสร้างพื้นฐานด้านพลังงานในตะวันออกกลาง ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่และการระบาดของโรคสำคัญ นอกจากนี้ เหตุการณ์โจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญก็เป็นปัจจัยที่เพิ่มความกังวลในระบบด้วย",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และการหยุดชะงักของอุปทานพลังงาน",
-          "signal_strength": "สูง",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อความมั่นคงทางทะเลที่เพิ่มขึ้น",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "มีรายงานการโจมตีโครงสร้างพื้นฐานด้านพลังงานของซาอุดีอาระเบียหลายครั้ง และการโจมตีทางอากาศในเยเมน กาซา และคูเวต ควบคู่ไปกับภัยคุกคามต่อเส้นทางเดินเรือสำคัญ",
+          "evidence_summary": "ภัยคุกคามต่อจุดยุทธศาสตร์การเดินเรือยังคงมีอยู่ โดยมีการกล่าวถึงการปิดล้อมทางทะเลและการประณามการปิดล้อมที่มีอยู่ ขณะที่เรือบรรทุกสินค้าของรัสเซียถูกโจมตีด้วยโดรนในอ่าวฟินแลนด์",
           "refs": [
             {
               "url": "http://www.jpost.com/american-politics/article-916016",
@@ -5166,30 +5112,30 @@
           ]
         },
         {
-          "title": "ความเสี่ยงที่เพิ่มขึ้นจากความขัดแย้งระหว่างมหาอำนาจและการแพร่ขยายอาวุธนิวเคลียร์",
-          "signal_strength": "ปานกลาง",
+          "title": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานอย่างต่อเนื่องท่ามกลางความขัดแย้งในภูมิภาค",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "เกาหลีเหนือประกาศขยายการติดตั้งอาวุธนิวเคลียร์ทางยุทธวิธี และมีรายงานเรือบรรทุกสินค้าของรัสเซียถูกโจมตีใกล้ชายฝั่ง NATO",
+          "evidence_summary": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานยังคงดำเนินอยู่ โดยโรงกลั่นน้ำมันของซาอุดีอาระเบียถูกโจมตีและโรงกลั่นน้ำมันที่ใหญ่ที่สุดถูกโจมตีโดยกลุ่มกบฏฮูตี ควบคู่ไปกับการโจมตีทางอากาศและผู้เสียชีวิตในภูมิภาค",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-              "source": "thevermilion.com"
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
+              "source": "Reuters (Google News)"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.prokerala.com/news/articles/a1840749.html",
+              "source": "prokerala.com"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคติดต่อร้ายแรงที่กลับมาอีกครั้ง",
+          "title": "การระบาดของโรคอุบัติใหม่และภัยคุกคามทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีการระบาดของโรคอีโบลาในสาธารณรัฐประชาธิปไตยคองโก เคนยา และไนจีเรีย รวมถึงโปลิโอในซีเรีย และชิคุนกุนยาในสวิตเซอร์แลนด์",
+          "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิดทั่วโลก รวมถึงอีโบลา โปลิโอ และชิคุนกุนยา ขณะที่เหตุการณ์ทางไซเบอร์ที่สำคัญได้เจาะระบบแพลตฟอร์มคอมพิวเตอร์ของกองทัพอากาศและกระทรวงกลาโหมของสหรัฐฯ",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5207,16 +5153,16 @@
         }
       ],
       "local_notes_th": [
-        "มีรายงานการระบาดของไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
-        "มีรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีการรายงานไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
+        "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global systemic risk is primarily driven by escalating geopolitical tensions, including threats to critical shipping lanes and energy infrastructure, alongside ongoing conflicts and nuclear posturing. These developments are contributing to market volatility, evidenced by declining stock indices and persistent high oil prices, while disease outbreaks add further concern.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly around shipping chokepoints and attacks on energy infrastructure in the Middle East, alongside ongoing conflicts and significant disease outbreaks. Cyber incidents targeting critical infrastructure also contribute to systemic concerns.",
       "early_warnings_en": [
         {
-          "title": "Escalating Geopolitical Tensions and Energy Supply Disruptions",
-          "signal_strength": "สูง",
+          "title": "Heightened Geopolitical Tensions and Maritime Security Threats",
+          "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Multiple attacks on Saudi energy infrastructure and airstrikes in Yemen, Gaza, and Kuwait have been reported, alongside threats to critical shipping lanes.",
+          "evidence_summary": "Threats to shipping chokepoints persist with discussions of naval blockades and condemnations of existing blockades, while a Russian cargo ship was attacked by drones in the Gulf of Finland.",
           "refs": [
             {
               "url": "http://www.jpost.com/american-politics/article-916016",
@@ -5233,30 +5179,30 @@
           ]
         },
         {
-          "title": "Heightened Risk of Great Power Confrontation and Nuclear Proliferation",
-          "signal_strength": "ปานกลาง",
+          "title": "Persistent Attacks on Energy Infrastructure Amidst Regional Conflicts",
+          "signal_strength": "เฝ้าระวัง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "North Korea has announced plans to widen the deployment of tactical nuclear weapons, and a Russian cargo ship was reportedly attacked near the NATO coast.",
+          "evidence_summary": "Attacks on energy infrastructure continue, with a Saudi refinery disrupted and the largest oil refinery attacked by Houthi rebels, alongside ongoing airstrikes and casualties in the region.",
           "refs": [
             {
-              "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://www.thevermilion.com/russian-cargo-ship-attacked-by-drones-in-the-gulf-of-finland-it-is-on-fire-and-drifting-towards-the-nato-coast/article_23133/",
-              "source": "thevermilion.com"
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
+              "source": "Reuters (Google News)"
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
-              "source": "Al Jazeera"
+              "url": "https://www.prokerala.com/news/articles/a1840749.html",
+              "source": "prokerala.com"
             }
           ]
         },
         {
-          "title": "Resurgence of High-Consequence Disease Outbreaks",
+          "title": "Emerging Disease Outbreaks and Cyber Breaches of Critical Infrastructure",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Outbreaks of Ebola have been reported in the Democratic Republic of the Congo, Kenya, and Nigeria, along with poliovirus in Syria and Chikungunya in Switzerland.",
+          "evidence_summary": "Multiple disease outbreaks, including Ebola, poliovirus, and chikungunya, are reported globally, while significant cyber incidents have breached US Air Force and Defense Department computing platforms.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5274,12 +5220,12 @@
         }
       ],
       "local_notes_en": [
-        "An outbreak of Influenza A(H5N1) has been reported in the United States of America.",
-        "An outbreak of Middle East respiratory syndrome (MERS) has been reported in Qatar."
+        "Influenza A(H5N1) has been reported in the United States of America.",
+        "Middle East respiratory syndrome (MERS) has been reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-26T21:41:10Z"
+    "generated_at": "2026-11-27T21:26:13Z"
   },
-  "updated_at": "2026-11-27T08:45:16Z",
+  "updated_at": "2026-11-27T21:26:13Z",
   "version": 1
 }
