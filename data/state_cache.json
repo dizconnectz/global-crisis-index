@@ -1,6 +1,39 @@
 {
   "active_events": {
     "geo": {
+      "geo:conflict:f2c3399e67": {
+        "id": "geo:conflict:f2c3399e67",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Eight killed in Peruvian military helicopter crash",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
       "geo:conflict:a59ee23b9a": {
         "id": "geo:conflict:a59ee23b9a",
         "pillar": "geo",
@@ -9,7 +42,7 @@
         "category_en": "Armed conflict",
         "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "severity": 30.0,
-        "score": 24.0,
+        "score": 22.3,
         "countries": [
           "ukraine",
           "russia"
@@ -24,27 +57,272 @@
           "freerepublic.com",
           "idahopress.com"
         ],
-        "article_count": 4,
+        "article_count": 2,
         "links": [
-          "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-          "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss"
+          "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
         ],
         "refs": [
           {
             "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
             "source": "BBC World"
-          },
+          }
+        ],
+        "link_sources": [
+          "BBC World"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:dcd611df1f": {
+        "id": "geo:sanctions:dcd611df1f",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "Trump’s tariffs have become America’s new normal",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss"
+        ],
+        "refs": [
           {
-            "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss",
+            "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
             "source": "Al Jazeera"
           }
         ],
         "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:e074138d45": {
+        "id": "geo:conflict:e074138d45",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "‘Last local militant’: India declares victory but Kashmir’s rebels adapt",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "india"
+        ],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/28/last-local-militant-india-declares-victory-but-kashmirs-rebels-adapt?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/28/last-local-militant-india-declares-victory-but-kashmirs-rebels-adapt?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-23T07:50:36Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:73ae71ea05": {
+        "id": "geo:conflict:73ae71ea05",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
           "BBC World",
+          "Reuters (Google News)",
+          "nypost.com",
+          "truthout.org",
+          "wfmz.com"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T07:08:00Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:chokepoint:73ae71ea05": {
+        "id": "geo:chokepoint:73ae71ea05",
+        "pillar": "geo",
+        "category": "chokepoint",
+        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
+        "category_en": "Shipping chokepoint threat",
+        "title": "US disables ship attempting to breach Iran blockade",
+        "severity": 85.0,
+        "score": 52.5,
+        "countries": [
+          "iran"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "Reuters (Google News)",
+          "bignewsnetwork.com",
+          "enca.com",
+          "euronews.com",
+          "hngn.com",
+          "jpost.com",
+          "manilatimes.net"
+        ],
+        "article_count": 2,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
           "Al Jazeera"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:conflict:2acb64aa19": {
+        "id": "geo:conflict:2acb64aa19",
+        "pillar": "geo",
+        "category": "conflict",
+        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
+        "category_en": "Armed conflict",
+        "title": "‘Activists of rhythm’: Fighting Spain’s far-right through art",
+        "severity": 30.0,
+        "score": 18.0,
+        "countries": [],
+        "sources": [
+          "Al Jazeera"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:missile_strike:fee3775c0e": {
+        "id": "geo:missile_strike:fee3775c0e",
+        "pillar": "geo",
+        "category": "missile_strike",
+        "category_th": "การโจมตีทางอากาศ/ขีปนาวุธ",
+        "category_en": "Air / missile strikes",
+        "title": "Hackers breach US military’s cloud network handling aircraft, missiles and personnel data: What we know - Moneycontrol.com",
+        "severity": 55.0,
+        "score": 33.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "geo:sanctions:3ab9380fa2": {
+        "id": "geo:sanctions:3ab9380fa2",
+        "pillar": "geo",
+        "category": "sanctions",
+        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
+        "category_en": "Sanctions / trade war",
+        "title": "China urges US to scrap new tariffs, warns of global trade disruption - Latest news from Azerbaijan",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "china"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT0owempLY1d6bDRDSFlWNEJoZEQ1MXFraW5jalVqdW42YkJNMzBSMDg0LWhzU2JSNEtmbFZJTjVkallpcnptdWVpbW9RTGxJNVJNYnNBT3lfajFMZ25ORUJDLUIzT05PNmZyYXRiQ2E5RFp5MlRMZklUUFBjMkJnOGFkdlRIYm94QnAwcm0xWTM2LVk?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT0owempLY1d6bDRDSFlWNEJoZEQ1MXFraW5jalVqdW42YkJNMzBSMDg0LWhzU2JSNEtmbFZJTjVkallpcnptdWVpbW9RTGxJNVJNYnNBT3lfajFMZ25ORUJDLUIzT05PNmZyYXRiQ2E5RFp5MlRMZklUUFBjMkJnOGFkdlRIYm94QnAwcm0xWTM2LVk?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-26T21:41:10Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -152,46 +430,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-12T20:03:49Z",
-        "last_seen": "2026-11-27T21:26:13Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:conflict:73ae71ea05": {
-        "id": "geo:conflict:73ae71ea05",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement - NBC News",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World",
-          "Reuters (Google News)",
-          "nypost.com",
-          "truthout.org",
-          "wfmz.com"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5Ia1VtUFl4b1FmMmh3dS1HQ1ktQ29sNHVrVG9uQnlEcGpMcVB0NUNyMmM3c1B5Q0N6czFFd1hYMFV3bU1FT0liUF9aSEZRWXdiTXVKaG9ZM0NWMXB5M3dxQTBwVEdlVTF1YURsZmxBTmprTU9BbkhmWVZGSWJmTEE4YUt5Tm1JNHphVWFWdF80cVQ4R2dBUXYxeEtSUTkwZFIxa2ZIdkxEazU4ZllpVmNoWHJfQQ?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVW5Ia1VtUFl4b1FmMmh3dS1HQ1ktQ29sNHVrVG9uQnlEcGpMcVB0NUNyMmM3c1B5Q0N6czFFd1hYMFV3bU1FT0liUF9aSEZRWXdiTXVKaG9ZM0NWMXB5M3dxQTBwVEdlVTF1YURsZmxBTmprTU9BbkhmWVZGSWJmTEE4YUt5Tm1JNHphVWFWdF80cVQ4R2dBUXYxeEtSUTkwZFIxa2ZIdkxEazU4ZllpVmNoWHJfQQ?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-02T07:08:00Z",
         "last_seen": "2026-11-27T21:26:13Z",
         "is_local": false,
         "location": null,
@@ -485,41 +723,6 @@
           "Al Jazeera"
         ],
         "first_seen": "2026-11-03T06:56:57Z",
-        "last_seen": "2026-11-26T21:41:10Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:sanctions:3ab9380fa2": {
-        "id": "geo:sanctions:3ab9380fa2",
-        "pillar": "geo",
-        "category": "sanctions",
-        "category_th": "มาตรการคว่ำบาตร/สงครามการค้า",
-        "category_en": "Sanctions / trade war",
-        "title": "Trump's new tariffs aim to prise global trade from China's grip - Reuters",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [
-          "china"
-        ],
-        "sources": [
-          "Reuters (Google News)"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsUHRZRTVLa29xcENmUjJaUUNjWExsaVNTREJqNlNwSFZzNXFuRUFqSlpRam4tZkZHWXEwZXQ5VlhPVFJzcmNnZEw5a3N2ZVBndnpnNzhiN1Y1NkRtU1M5WE05UmRFcGMzUVk0NXYyRTVpM05MOUhISDhmb3BPTERXcmNHWE9zc2dR?oc=5"
-        ],
-        "refs": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdXQjZTRVJvNzVESnNzMlpfZmxhTEgweFZsUHRZRTVLa29xcENmUjJaUUNjWExsaVNTREJqNlNwSFZzNXFuRUFqSlpRam4tZkZHWXEwZXQ5VlhPVFJzcmNnZEw5a3N2ZVBndnpnNzhiN1Y1NkRtU1M5WE05UmRFcGMzUVk0NXYyRTVpM05MOUhISDhmb3BPTERXcmNHWE9zc2dR?oc=5",
-            "source": "Reuters (Google News)"
-          }
-        ],
-        "link_sources": [
-          "Reuters (Google News)"
-        ],
-        "first_seen": "2026-11-26T21:41:10Z",
         "last_seen": "2026-11-26T21:41:10Z",
         "is_local": false,
         "location": null,
@@ -1584,61 +1787,6 @@
           "dailyexcelsior.com"
         ],
         "first_seen": "2026-11-25T08:47:06Z",
-        "last_seen": "2026-11-25T08:47:06Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:chokepoint:73ae71ea05": {
-        "id": "geo:chokepoint:73ae71ea05",
-        "pillar": "geo",
-        "category": "chokepoint",
-        "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
-        "category_en": "Shipping chokepoint threat",
-        "title": "Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
-        "severity": 85.0,
-        "score": 85.0,
-        "countries": [
-          "iran"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "Reuters (Google News)",
-          "bignewsnetwork.com",
-          "enca.com",
-          "euronews.com",
-          "hngn.com",
-          "jpost.com",
-          "manilatimes.net"
-        ],
-        "article_count": 5,
-        "links": [
-          "http://www.jpost.com/american-politics/article-916016",
-          "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-          "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs"
-        ],
-        "refs": [
-          {
-            "url": "http://www.jpost.com/american-politics/article-916016",
-            "source": "jpost.com"
-          },
-          {
-            "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-            "source": "news.webindia123.com"
-          },
-          {
-            "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-            "source": "bignewsnetwork.com"
-          }
-        ],
-        "link_sources": [
-          "jpost.com",
-          "news.webindia123.com",
-          "bignewsnetwork.com",
-          "hngn.com"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
         "last_seen": "2026-11-25T08:47:06Z",
         "is_local": false,
         "location": null,
@@ -2782,41 +2930,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:e074138d45": {
-        "id": "geo:conflict:e074138d45",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "New Zealand’s Mitchell, Phillips frustrate India as first Test ends in draw",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [
-          "india"
-        ],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/sports/2026/11/23/new-zealand-india-first-test-cricket-wtc-phillips-mitchell-nicholls?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/sports/2026/11/23/new-zealand-india-first-test-cricket-wtc-phillips-mitchell-nicholls?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-23T07:50:36Z",
-        "last_seen": "2026-11-23T07:50:36Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:conflict:f99aecef3d": {
         "id": "geo:conflict:f99aecef3d",
         "pillar": "geo",
@@ -3395,39 +3508,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "geo:conflict:569f3a526a": {
-        "id": "geo:conflict:569f3a526a",
-        "pillar": "geo",
-        "category": "conflict",
-        "category_th": "การสู้รบ/ความขัดแย้งด้วยอาวุธ",
-        "category_en": "Armed conflict",
-        "title": "Six killed in suspected gas explosion at Georgia apartment building",
-        "severity": 30.0,
-        "score": 18.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-20T07:27:30Z",
-        "last_seen": "2026-11-20T07:27:30Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "geo:sanctions:ab65d8b961": {
         "id": "geo:sanctions:ab65d8b961",
         "pillar": "geo",
@@ -3495,43 +3575,6 @@
         ],
         "first_seen": "2026-11-19T20:45:23Z",
         "last_seen": "2026-11-19T20:45:23Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
-      "geo:coup_unrest:dd01598568": {
-        "id": "geo:coup_unrest:dd01598568",
-        "pillar": "geo",
-        "category": "coup_unrest",
-        "category_th": "รัฐประหาร/ความไม่สงบทางการเมือง",
-        "category_en": "Coup / political unrest",
-        "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-        "severity": 35.0,
-        "score": 21.0,
-        "countries": [
-          "russia",
-          "china",
-          "ukraine"
-        ],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-18T20:39:47Z",
-        "last_seen": "2026-11-19T07:36:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3828,7 +3871,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": true,
         "location": "สหรัฐฯ",
         "location_en": "US",
@@ -3863,7 +3906,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3899,7 +3942,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3932,7 +3975,7 @@
           "WHO DON"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3965,7 +4008,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-02T06:49:49Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -3998,7 +4041,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4031,7 +4074,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4064,7 +4107,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-24T22:33:48Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4097,7 +4140,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4130,7 +4173,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4163,7 +4206,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-19T20:45:23Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4196,7 +4239,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4229,7 +4272,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4262,7 +4305,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4295,7 +4338,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4328,7 +4371,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4361,7 +4404,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4394,7 +4437,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4427,7 +4470,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4460,7 +4503,7 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4493,11 +4536,47 @@
           "CISA"
         ],
         "first_seen": "2026-11-17T21:02:38Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
         "raw_score": null
+      },
+      "bio_infra:high_consequence:6179c355b9": {
+        "id": "bio_infra:high_consequence:6179c355b9",
+        "pillar": "bio_infra",
+        "category": "high_consequence",
+        "category_th": "โรคติดต่อร้ายแรง",
+        "category_en": "High-consequence disease",
+        "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+        "severity": 45.0,
+        "score": 25.0,
+        "countries": [
+          "dr congo"
+        ],
+        "sources": [
+          "Al Jazeera",
+          "BBC World"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss"
+        ],
+        "refs": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+            "source": "Al Jazeera"
+          }
+        ],
+        "link_sources": [
+          "Al Jazeera"
+        ],
+        "first_seen": "2026-11-02T06:11:14Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": true,
+        "location": "คองโก",
+        "location_en": "DR Congo",
+        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:18f18656c7": {
         "id": "bio_infra:cyber_incident:18f18656c7",
@@ -4512,7 +4591,7 @@
         "sources": [
           "Reuters (Google News)"
         ],
-        "article_count": 2,
+        "article_count": 4,
         "links": [
           "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
         ],
@@ -4526,7 +4605,7 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-27T21:26:13Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4559,7 +4638,207 @@
           "Reuters (Google News)"
         ],
         "first_seen": "2026-11-27T21:26:13Z",
-        "last_seen": "2026-11-27T21:26:13Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:e89cbdf436": {
+        "id": "bio_infra:cyber_incident:e89cbdf436",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers breach Air Force cloud platform holding personnel and military data - WCTI",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5YY2t4ZnhZUnlPaG9IRU9vU2Vfdy16cVFXdDZCYWtkWUpIVGRhZTNCOE1tdUU4dUJobTd3bVJfSlQ5dDcwOU0wS3Exam16YVRVb2w5WUxpck9KWDM2WkFfdk5SdU5vN1l1eDZyTXI2Wl9HNU1lZGNCWnVKeFRJa05GY2JMU01ieEw5NEpmZWNrcFZPeldPLUhZZnphQ1I1eWtGLWItWkdESW11b2V6SE1R?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5YY2t4ZnhZUnlPaG9IRU9vU2Vfdy16cVFXdDZCYWtkWUpIVGRhZTNCOE1tdUU4dUJobTd3bVJfSlQ5dDcwOU0wS3Exam16YVRVb2w5WUxpck9KWDM2WkFfdk5SdU5vN1l1eDZyTXI2Wl9HNU1lZGNCWnVKeFRJa05GY2JMU01ieEw5NEpmZWNrcFZPeldPLUhZZnphQ1I1eWtGLWItWkdESW11b2V6SE1R?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:28a77383c2": {
+        "id": "bio_infra:cyber_incident:28a77383c2",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Reuters reported a breach of the US Air Force’s Cloud One cloud platform — Channel NewsAsia - UA.NEWS",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3BfaW01Mm1aNzZMQl9lY3ppQXdfNl8zMUpUOXRwc2NvYmNYUWo5UC1qUUtiNlU5ZDZlZjdxbU5QYVBtZmxRa2N2U2RmWHVKNktob0EtYTVjSWREMnJkeTZMNVBOcUc2Rkh6VUtvM1BTcE1BeWR4UElpeEpzNXRxMmZoTE16TFRhUGRJejd2OWl2NkVqZE05bldPaVpLNC0tNUlxZlN6aDNlYjBpYmNQNDZEY0ZvUDQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3BfaW01Mm1aNzZMQl9lY3ppQXdfNl8zMUpUOXRwc2NvYmNYUWo5UC1qUUtiNlU5ZDZlZjdxbU5QYVBtZmxRa2N2U2RmWHVKNktob0EtYTVjSWREMnJkeTZMNVBOcUc2Rkh6VUtvM1BTcE1BeWR4UElpeEpzNXRxMmZoTE16TFRhUGRJejd2OWl2NkVqZE05bldPaVpLNC0tNUlxZlN6aDNlYjBpYmNQNDZEY0ZvUDQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:b58b6203b0": {
+        "id": "bio_infra:cyber_incident:b58b6203b0",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers reportedly breached US Air Force’s main computing platform - Nacionale",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWhLamEyaEg4eVVMV2xfOWxwUzJSdWYybUFfWEhlRDhJNzFCd245SEk4T09RdjFkUWEycE54bUdKUUQxcUVaOGxFcno3MHRwdzRaeEhaTlBSYS0xTFRnbTdsWUItczU1VnFCTUYzS0VqOUUtUnp4aFNUZmluanBIU3R0WmlWQ3lMejhVeHo1R240MUxTMXphdTIxbGhLMlVTdUZqZQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWhLamEyaEg4eVVMV2xfOWxwUzJSdWYybUFfWEhlRDhJNzFCd245SEk4T09RdjFkUWEycE54bUdKUUQxcUVaOGxFcno3MHRwdzRaeEhaTlBSYS0xTFRnbTdsWUItczU1VnFCTUYzS0VqOUUtUnp4aFNUZmluanBIU3R0WmlWQ3lMejhVeHo1R240MUxTMXphdTIxbGhLMlVTdUZqZQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:e074138d45": {
+        "id": "bio_infra:cyber_incident:e074138d45",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers breach US Air Force’s Cloud One platform; Cyber Command called in: Report - The Indian Express",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [
+          "india"
+        ],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 3,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakRTazRiQVZhVWZJaXBuZWxJTG9vWXRCd3FERmk2WFRtcjhPc3VMdWlzZmJmYzE4bUtXbGtHMmV6UmhTWndrbEF0RDFkMUstOXNxWk04WktjbjdQajFmdXJSNFEzWTVmMk1wWmV2c2pUaElfTmdncDZkUXVLMk1hMEJOb2R5RlZDYnRQbWRzTmNFSHpuQUVYTDJtSW9mWjJNV0RYWEhpSDNXWGJSeTlLNkxBMDR4VWN2dEHSAcABQVVfeXFMUGZqMmZBT1R3M0liZlM3c2FlMldvekVNbzE1cVdYeUZpVWZ0RlpudVpldm5fcktsX3pFUUNWUDdyMGJmbFBSbzRVdzlIaVhWX0xfUGVrOG1lV0xsaVg4SlptSFFNbXZpa0t5TVRrSzZuTi11czNuOE1BcGRCY3JGNFQtRklDd1pTMTM2TmJpdjN4eTJoMFZSZU11YlBweElTM2VGNGk4aXNlYnFFTzZ3eTA3a1B6ZUEwNm5Pd2lvbjRX?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakRTazRiQVZhVWZJaXBuZWxJTG9vWXRCd3FERmk2WFRtcjhPc3VMdWlzZmJmYzE4bUtXbGtHMmV6UmhTWndrbEF0RDFkMUstOXNxWk04WktjbjdQajFmdXJSNFEzWTVmMk1wWmV2c2pUaElfTmdncDZkUXVLMk1hMEJOb2R5RlZDYnRQbWRzTmNFSHpuQUVYTDJtSW9mWjJNV0RYWEhpSDNXWGJSeTlLNkxBMDR4VWN2dEHSAcABQVVfeXFMUGZqMmZBT1R3M0liZlM3c2FlMldvekVNbzE1cVdYeUZpVWZ0RlpudVpldm5fcktsX3pFUUNWUDdyMGJmbFBSbzRVdzlIaVhWX0xfUGVrOG1lV0xsaVg4SlptSFFNbXZpa0t5TVRrSzZuTi11czNuOE1BcGRCY3JGNFQtRklDd1pTMTM2TmJpdjN4eTJoMFZSZU11YlBweElTM2VGNGk4aXNlYnFFTzZ3eTA3a1B6ZUEwNm5Pd2lvbjRX?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:896750c9de": {
+        "id": "bio_infra:cyber_incident:896750c9de",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers allegedly access US Air Force’s digital cloud, report says - Nine.com.au",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxQazJpQ0FSMUhiaThaXzRDRVdUV1NiMUhOVUo2ZWVsV2RTNHpDa1ZxUDQ5eFNYVUE4WHhKYnptYzEyVTJKcmgyZXNjaExaeGpveHlrY01oNW5FYXNCbVZILXlmcmNacW5IYU1DVzJoOFRqZXkwbUVoaVdOQUV6VndFMmdrNDA5UzlSdm5fRDFjMnBnbXVTVkNUUFhYbm1BRU5reVVVTG9nZWstZ3BUUTBzQmNsRQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQazJpQ0FSMUhiaThaXzRDRVdUV1NiMUhOVUo2ZWVsV2RTNHpDa1ZxUDQ5eFNYVUE4WHhKYnptYzEyVTJKcmgyZXNjaExaeGpveHlrY01oNW5FYXNCbVZILXlmcmNacW5IYU1DVzJoOFRqZXkwbUVoaVdOQUV6VndFMmdrNDA5UzlSdm5fRDFjMnBnbXVTVkNUUFhYbm1BRU5reVVVTG9nZWstZ3BUUTBzQmNsRQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
+        "is_local": false,
+        "location": null,
+        "location_en": null,
+        "raw_score": null
+      },
+      "bio_infra:cyber_incident:fee3775c0e": {
+        "id": "bio_infra:cyber_incident:fee3775c0e",
+        "pillar": "bio_infra",
+        "category": "cyber_incident",
+        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
+        "category_en": "Actual cyber incident",
+        "title": "Hackers breach US military’s cloud network handling aircraft, missiles and personnel data: What we know - Moneycontrol.com",
+        "severity": 40.0,
+        "score": 24.0,
+        "countries": [],
+        "sources": [
+          "Reuters (Google News)"
+        ],
+        "article_count": 1,
+        "links": [
+          "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5"
+        ],
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ],
+        "link_sources": [
+          "Reuters (Google News)"
+        ],
+        "first_seen": "2026-11-28T07:59:06Z",
+        "last_seen": "2026-11-28T07:59:06Z",
         "is_local": false,
         "location": null,
         "location_en": null,
@@ -4632,42 +4911,6 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:high_consequence:6179c355b9": {
-        "id": "bio_infra:high_consequence:6179c355b9",
-        "pillar": "bio_infra",
-        "category": "high_consequence",
-        "category_th": "โรคติดต่อร้ายแรง",
-        "category_en": "High-consequence disease",
-        "title": "DR Congo Ebola cases surpass 12,000 as fighting disrupts response in east",
-        "severity": 45.0,
-        "score": 25.0,
-        "countries": [
-          "dr congo"
-        ],
-        "sources": [
-          "Al Jazeera",
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-02T06:11:14Z",
-        "last_seen": "2026-11-26T08:32:57Z",
-        "is_local": true,
-        "location": "คองโก",
-        "location_en": "DR Congo",
-        "raw_score": 27.0
       },
       "bio_infra:cyber_incident:9e2cb89dc8": {
         "id": "bio_infra:cyber_incident:9e2cb89dc8",
@@ -4908,39 +5151,6 @@
         "location_en": null,
         "raw_score": null
       },
-      "bio_infra:cyber_incident:07b80c767c": {
-        "id": "bio_infra:cyber_incident:07b80c767c",
-        "pillar": "bio_infra",
-        "category": "cyber_incident",
-        "category_th": "การโจมตีไซเบอร์ที่เกิดขึ้นจริง",
-        "category_en": "Actual cyber incident",
-        "title": "Rubio rules out cyberattacks or links between tech outages",
-        "severity": 40.0,
-        "score": 24.0,
-        "countries": [],
-        "sources": [
-          "Al Jazeera"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss",
-            "source": "Al Jazeera"
-          }
-        ],
-        "link_sources": [
-          "Al Jazeera"
-        ],
-        "first_seen": "2026-11-18T07:40:05Z",
-        "last_seen": "2026-11-18T07:40:05Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
-      },
       "bio_infra:global_outage:be92ee8672": {
         "id": "bio_infra:global_outage:be92ee8672",
         "pillar": "bio_infra",
@@ -4973,58 +5183,25 @@
         "location": null,
         "location_en": null,
         "raw_score": null
-      },
-      "bio_infra:global_outage:f57196f24b": {
-        "id": "bio_infra:global_outage:f57196f24b",
-        "pillar": "bio_infra",
-        "category": "global_outage",
-        "category_th": "ระบบล่มหลายประเทศ",
-        "category_en": "Multi-country system outage",
-        "title": "Microsoft says services fully restored after day-long global outage",
-        "severity": 70.0,
-        "score": 42.0,
-        "countries": [],
-        "sources": [
-          "BBC World"
-        ],
-        "article_count": 1,
-        "links": [
-          "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-        ],
-        "refs": [
-          {
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-            "source": "BBC World"
-          }
-        ],
-        "link_sources": [
-          "BBC World"
-        ],
-        "first_seen": "2026-11-14T18:14:22Z",
-        "last_seen": "2026-11-14T22:34:12Z",
-        "is_local": false,
-        "location": null,
-        "location_en": null,
-        "raw_score": null
       }
     }
   },
   "last_valid": {
     "econ": {
-      "score": 38.6,
-      "as_of": "2026-11-27T21:26:13Z"
+      "score": 40.1,
+      "as_of": "2026-11-28T07:59:06Z"
     },
     "geo": {
-      "score": 74.6,
-      "as_of": "2026-11-27T21:26:13Z"
+      "score": 71.2,
+      "as_of": "2026-11-28T07:59:06Z"
     },
     "nat": {
-      "score": 11.9,
-      "as_of": "2026-11-27T21:26:13Z"
+      "score": 10.9,
+      "as_of": "2026-11-28T07:59:06Z"
     },
     "bio_infra": {
       "score": 57.6,
-      "as_of": "2026-11-27T21:26:13Z"
+      "as_of": "2026-11-28T07:59:06Z"
     }
   },
   "econ_indicators": {
@@ -5033,23 +5210,23 @@
       "change_pct": -33.66,
       "drawdown_pct": -33.66,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T21:26:13Z",
+      "as_of": "2026-11-28T07:59:06Z",
       "provider": "yfinance"
     },
     "brent": {
-      "last": 90.83999633789062,
-      "change_pct": -1.24,
-      "drawdown_pct": -23.24,
+      "last": 95.44000244140625,
+      "change_pct": 3.76,
+      "drawdown_pct": -19.36,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T21:26:13Z",
+      "as_of": "2026-11-28T07:59:06Z",
       "provider": "yfinance"
     },
     "gold": {
-      "last": 3668.5,
-      "change_pct": -0.46,
-      "drawdown_pct": -31.02,
+      "last": 3639.60009765625,
+      "change_pct": -1.25,
+      "drawdown_pct": -31.57,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T21:26:13Z",
+      "as_of": "2026-11-28T07:59:06Z",
       "provider": "yfinance"
     },
     "spx": {
@@ -5057,7 +5234,7 @@
       "change_pct": 1.7,
       "drawdown_pct": -6.67,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T21:26:13Z",
+      "as_of": "2026-11-28T07:59:06Z",
       "provider": "yfinance"
     },
     "soxx": {
@@ -5065,7 +5242,7 @@
       "change_pct": -2.81,
       "drawdown_pct": -38.59,
       "last_date": "2026-11-27",
-      "as_of": "2026-11-27T21:26:13Z",
+      "as_of": "2026-11-28T07:59:06Z",
       "provider": "yfinance"
     }
   },
@@ -5073,69 +5250,68 @@
     "source": "gemini",
     "model": "gemini-2.5-flash",
     "prompt_version": 4,
-    "events_hash": "0061e4a403099b5f",
+    "events_hash": "4ea6732143395671",
     "event_ids": [
       "bio_infra:high_consequence:08ddd752fb",
       "geo:chokepoint:487249a1b7",
       "geo:chokepoint:73ae71ea05",
-      "geo:chokepoint:b3a5b7a539",
       "geo:chokepoint:c4e7ac099d",
       "geo:energy_infra:8dfd5ff85f",
       "geo:energy_infra:ec9f74ca51",
-      "geo:invasion:a59ee23b9a",
       "geo:missile_strike:0c5abc2fdb",
       "geo:missile_strike:8dfd5ff85f",
+      "geo:missile_strike:fee3775c0e",
       "geo:nuclear:2576c23d0e"
     ],
-    "econ_score": 38.6,
+    "econ_score": 40.1,
     "summary": {
-      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งบริเวณจุดยุทธศาสตร์การเดินเรือและการโจมตีโครงสร้างพื้นฐานด้านพลังงานในตะวันออกกลาง ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่และการระบาดของโรคสำคัญ นอกจากนี้ เหตุการณ์โจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญก็เป็นปัจจัยที่เพิ่มความกังวลในระบบด้วย",
+      "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์ทางการเดินเรือและการโจมตีโครงสร้างพื้นฐานด้านพลังงานในตะวันออกกลาง ควบคู่ไปกับเหตุการณ์โจมตีทางไซเบอร์ต่อเครือข่ายทางทหารและการระบาดของโรคอย่างต่อเนื่อง",
       "early_warnings_th": [
         {
-          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อความมั่นคงทางทะเลที่เพิ่มขึ้น",
+          "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นและความเสี่ยงด้านอุปทานพลังงาน",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "ภัยคุกคามต่อจุดยุทธศาสตร์การเดินเรือยังคงมีอยู่ โดยมีการกล่าวถึงการปิดล้อมทางทะเลและการประณามการปิดล้อมที่มีอยู่ ขณะที่เรือบรรทุกสินค้าของรัสเซียถูกโจมตีด้วยโดรนในอ่าวฟินแลนด์",
+          "evidence_summary": "ความตึงเครียดเพิ่มขึ้นจากการที่สหรัฐฯ ยับยั้งเรือที่พยายามฝ่าการปิดล้อมของอิหร่าน การโจมตีโรงกลั่นน้ำมันของซาอุดีอาระเบียที่ทำให้การดำเนินงานหยุดชะงัก และเกาหลีเหนือประกาศขยายการติดตั้งอาวุธนิวเคลียร์ทางยุทธวิธี",
           "refs": [
             {
-              "url": "http://www.jpost.com/american-politics/article-916016",
-              "source": "jpost.com"
-            },
-            {
-              "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-              "source": "news.webindia123.com"
-            },
-            {
-              "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-              "source": "bignewsnetwork.com"
-            }
-          ]
-        },
-        {
-          "title": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานอย่างต่อเนื่องท่ามกลางความขัดแย้งในภูมิภาค",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-4 สัปดาห์",
-          "evidence_summary": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานยังคงดำเนินอยู่ โดยโรงกลั่นน้ำมันของซาอุดีอาระเบียถูกโจมตีและโรงกลั่นน้ำมันที่ใหญ่ที่สุดถูกโจมตีโดยกลุ่มกบฏฮูตี ควบคู่ไปกับการโจมตีทางอากาศและผู้เสียชีวิตในภูมิภาค",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.prokerala.com/news/articles/a1840749.html",
-              "source": "prokerala.com"
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "การระบาดของโรคอุบัติใหม่และภัยคุกคามทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
+          "title": "ภัยคุกคามทางไซเบอร์ต่อเครือข่ายทหารและโครงสร้างพื้นฐานที่สำคัญอย่างต่อเนื่อง",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 เดือน",
+          "evidence_summary": "รายงานหลายฉบับยืนยันว่าแฮกเกอร์ได้เจาะเครือข่ายคลาวด์ของกองทัพสหรัฐฯ ซึ่งกระทบต่อข้อมูลที่เกี่ยวข้องกับอากาศยาน ขีปนาวุธ และบุคลากร",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "การระบาดของโรคอุบัติใหม่และโรคที่กลับมาแพร่ระบาด",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 เดือน",
-          "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิดทั่วโลก รวมถึงอีโบลา โปลิโอ และชิคุนกุนยา ขณะที่เหตุการณ์ทางไซเบอร์ที่สำคัญได้เจาะระบบแพลตฟอร์มคอมพิวเตอร์ของกองทัพอากาศและกระทรวงกลาโหมของสหรัฐฯ",
+          "evidence_summary": "การระบาดของอีโบลาในแอฟริกา โปลิโอในซีเรีย และชิคุนกุนยาในสวิตเซอร์แลนด์ เน้นย้ำถึงความท้าทายด้านสาธารณสุขทั่วโลกที่กำลังดำเนินอยู่",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5153,56 +5329,56 @@
         }
       ],
       "local_notes_th": [
-        "มีการรายงานไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
-        "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+        "มีการรายงานการระบาดของไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
+        "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
       ],
-      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly around shipping chokepoints and attacks on energy infrastructure in the Middle East, alongside ongoing conflicts and significant disease outbreaks. Cyber incidents targeting critical infrastructure also contribute to systemic concerns.",
+      "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly concerning shipping chokepoints and attacks on energy infrastructure in the Middle East, alongside persistent cyber incidents targeting military networks and ongoing disease outbreaks.",
       "early_warnings_en": [
         {
-          "title": "Heightened Geopolitical Tensions and Maritime Security Threats",
+          "title": "Escalating Geopolitical Tensions and Energy Supply Risks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-4 weeks",
-          "evidence_summary": "Threats to shipping chokepoints persist with discussions of naval blockades and condemnations of existing blockades, while a Russian cargo ship was attacked by drones in the Gulf of Finland.",
+          "evidence_summary": "Tensions are high with the US disabling a ship near an Iran blockade, attacks on Saudi oil refineries disrupting operations, and North Korea's stated intent to widen tactical nuclear deployment.",
           "refs": [
             {
-              "url": "http://www.jpost.com/american-politics/article-916016",
-              "source": "jpost.com"
-            },
-            {
-              "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-              "source": "news.webindia123.com"
-            },
-            {
-              "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-              "source": "bignewsnetwork.com"
-            }
-          ]
-        },
-        {
-          "title": "Persistent Attacks on Energy Infrastructure Amidst Regional Conflicts",
-          "signal_strength": "เฝ้าระวัง",
-          "timeframe": "1-4 weeks",
-          "evidence_summary": "Attacks on energy infrastructure continue, with a Saudi refinery disrupted and the largest oil refinery attacked by Houthi rebels, alongside ongoing airstrikes and casualties in the region.",
-          "refs": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
               "source": "Al Jazeera"
             },
             {
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
-              "source": "Reuters (Google News)"
+              "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+              "source": "Al Jazeera"
             },
             {
-              "url": "https://www.prokerala.com/news/articles/a1840749.html",
-              "source": "prokerala.com"
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ]
         },
         {
-          "title": "Emerging Disease Outbreaks and Cyber Breaches of Critical Infrastructure",
+          "title": "Persistent Cyber Threats to Military and Critical Infrastructure",
+          "signal_strength": "เฝ้าระวัง",
+          "timeframe": "1-3 months",
+          "evidence_summary": "Multiple reports confirm hackers have breached US military cloud networks, compromising data related to aircraft, missiles, and personnel.",
+          "refs": [
+            {
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+              "source": "Reuters (Google News)"
+            },
+            {
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5",
+              "source": "Reuters (Google News)"
+            }
+          ]
+        },
+        {
+          "title": "Emerging and Resurfacing Disease Outbreaks",
           "signal_strength": "ปานกลาง",
           "timeframe": "1-3 months",
-          "evidence_summary": "Multiple disease outbreaks, including Ebola, poliovirus, and chikungunya, are reported globally, while significant cyber incidents have breached US Air Force and Defense Department computing platforms.",
+          "evidence_summary": "New outbreaks of Ebola in Africa, polio in Syria, and Chikungunya in Switzerland highlight ongoing global public health challenges.",
           "refs": [
             {
               "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -5220,12 +5396,12 @@
         }
       ],
       "local_notes_en": [
-        "Influenza A(H5N1) has been reported in the United States of America.",
-        "Middle East respiratory syndrome (MERS) has been reported in Qatar."
+        "Influenza A(H5N1) outbreak reported in the United States.",
+        "Middle East respiratory syndrome (MERS) outbreak reported in Qatar."
       ]
     },
-    "generated_at": "2026-11-27T21:26:13Z"
+    "generated_at": "2026-11-28T07:59:06Z"
   },
-  "updated_at": "2026-11-27T21:26:13Z",
+  "updated_at": "2026-11-28T07:59:06Z",
   "version": 1
 }

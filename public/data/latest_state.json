@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T21:26:13Z",
-  "global_score": 53,
+  "generated_at": "2026-11-28T07:59:06Z",
+  "global_score": 50,
   "band": {
     "key": "high",
     "min": 46,
@@ -11,10 +11,10 @@
     "color": "orange"
   },
   "formula": {
-    "base": 50.04,
-    "boost": 2.84,
+    "base": 49.23,
+    "boost": 0.5,
     "cross_confirmed": true,
-    "max1": 74.6,
+    "max1": 71.2,
     "max2": 57.6,
     "max1_pillar": "geo"
   },
@@ -22,12 +22,12 @@
     "econ": {
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 38.6,
+      "score": 40.1,
       "weight": 0.35,
       "effective_weight": 0.35,
-      "status": "ok",
-      "status_th": "ปกติ",
-      "status_en": "Normal",
+      "status": "market_closed",
+      "status_th": "ตลาดปิดสุดสัปดาห์",
+      "status_en": "Market closed (weekend)",
       "note": null,
       "top_events": [],
       "metrics": [
@@ -45,21 +45,21 @@
           "key": "brent",
           "label_th": "น้ำมันดิบ Brent",
           "label_en": "Brent crude oil",
-          "value": 90.84,
+          "value": 95.44,
           "unit": "USD/บาร์เรล",
           "unit_en": "USD/bbl",
-          "hint": "-1.2% (5 วันทำการ)",
-          "hint_en": "-1.2% (5 trading days)"
+          "hint": "+3.8% (5 วันทำการ)",
+          "hint_en": "+3.8% (5 trading days)"
         },
         {
           "key": "gold",
           "label_th": "ทองคำ (Safe Haven)",
           "label_en": "Gold (safe haven)",
-          "value": 3668.5,
+          "value": 3639.6,
           "unit": "USD/ออนซ์",
           "unit_en": "USD/oz",
-          "hint": "-0.5% (5 วันทำการ)",
-          "hint_en": "-0.5% (5 trading days)"
+          "hint": "-1.2% (5 วันทำการ)",
+          "hint_en": "-1.2% (5 trading days)"
         },
         {
           "key": "spx",
@@ -95,7 +95,7 @@
           "change_pct": -33.66,
           "drawdown_pct": -33.66,
           "score": 45.2,
-          "status": "ok",
+          "status": "market_closed",
           "last_date": "2026-11-27",
           "provider": "yfinance"
         },
@@ -107,11 +107,11 @@
           "unit_en": "USD/bbl",
           "ticker": "BZ=F",
           "weight": 0.25,
-          "value": 90.84,
-          "change_pct": -1.24,
-          "drawdown_pct": -23.24,
-          "score": 31.0,
-          "status": "ok",
+          "value": 95.44,
+          "change_pct": 3.76,
+          "drawdown_pct": -19.36,
+          "score": 36.8,
+          "status": "market_closed",
           "last_date": "2026-11-27",
           "provider": "yfinance"
         },
@@ -123,11 +123,11 @@
           "unit_en": "USD/oz",
           "ticker": "GC=F",
           "weight": 0.1,
-          "value": 3668.5,
-          "change_pct": -0.46,
-          "drawdown_pct": -31.02,
+          "value": 3639.6,
+          "change_pct": -1.25,
+          "drawdown_pct": -31.57,
           "score": 5.0,
-          "status": "ok",
+          "status": "market_closed",
           "last_date": "2026-11-27",
           "provider": "yfinance"
         },
@@ -143,7 +143,7 @@
           "change_pct": 1.7,
           "drawdown_pct": -6.67,
           "score": 18.8,
-          "status": "ok",
+          "status": "market_closed",
           "last_date": "2026-11-27",
           "provider": "yfinance"
         },
@@ -159,7 +159,7 @@
           "change_pct": -2.81,
           "drawdown_pct": -38.59,
           "score": 87.2,
-          "status": "ok",
+          "status": "market_closed",
           "last_date": "2026-11-27",
           "provider": "yfinance"
         }
@@ -169,7 +169,7 @@
     "geo": {
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 74.6,
+      "score": 71.2,
       "weight": 0.35,
       "effective_weight": 0.35,
       "status": "ok",
@@ -183,9 +183,9 @@
           "category": "chokepoint",
           "category_th": "การปิด/คุกคามช่องแคบเดินเรือ",
           "category_en": "Shipping chokepoint threat",
-          "title": "Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
+          "title": "US disables ship attempting to breach Iran blockade",
           "severity": 85.0,
-          "score": 56.4,
+          "score": 52.5,
           "countries": [
             "iran"
           ],
@@ -199,34 +199,21 @@
             "jpost.com",
             "manilatimes.net"
           ],
-          "article_count": 5,
+          "article_count": 2,
           "links": [
-            "http://www.jpost.com/american-politics/article-916016",
-            "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-            "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs"
+            "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss"
           ],
           "refs": [
             {
-              "url": "http://www.jpost.com/american-politics/article-916016",
-              "source": "jpost.com"
-            },
-            {
-              "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-              "source": "news.webindia123.com"
-            },
-            {
-              "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-              "source": "bignewsnetwork.com"
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+              "source": "Al Jazeera"
             }
           ],
           "link_sources": [
-            "jpost.com",
-            "news.webindia123.com",
-            "bignewsnetwork.com",
-            "hngn.com"
+            "Al Jazeera"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-25T08:47:06Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -240,7 +227,7 @@
           "category_en": "Shipping chokepoint threat",
           "title": "WHO chief calls on U . S . to lift oil blockade on Cuba , citing health impact",
           "severity": 85.0,
-          "score": 56.4,
+          "score": 52.5,
           "countries": [
             "cuba"
           ],
@@ -295,7 +282,7 @@
           "category_en": "Nuclear threat",
           "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
           "severity": 95.0,
-          "score": 44.4,
+          "score": 41.3,
           "countries": [
             "north korea"
           ],
@@ -330,7 +317,7 @@
           "category_en": "Attack on energy infrastructure",
           "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
           "severity": 75.0,
-          "score": 38.3,
+          "score": 35.7,
           "countries": [
             "saudi arabia"
           ],
@@ -365,7 +352,7 @@
           "category_en": "Air / missile strikes",
           "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
           "severity": 55.0,
-          "score": 36.5,
+          "score": 34.0,
           "countries": [
             "palestine",
             "israel"
@@ -402,7 +389,7 @@
           "key": "active_events",
           "label_th": "เหตุการณ์ที่ติดตามอยู่",
           "label_en": "Active events tracked",
-          "value": 103,
+          "value": 105,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -412,7 +399,7 @@
           "key": "new_events",
           "label_th": "เหตุการณ์ใหม่รอบนี้",
           "label_en": "New events this run",
-          "value": 0,
+          "value": 1,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -422,18 +409,18 @@
           "key": "articles",
           "label_th": "บทความที่วิเคราะห์",
           "label_en": "Articles analysed",
-          "value": 78,
+          "value": 88,
           "unit": "ชิ้น",
           "unit_en": "articles",
-          "hint": "ยุบรวมเหลือ 5 กลุ่มเหตุการณ์",
-          "hint_en": "deduplicated into 5 event clusters"
+          "hint": "ยุบรวมเหลือ 9 กลุ่มเหตุการณ์",
+          "hint_en": "deduplicated into 9 event clusters"
         }
       ]
     },
     "nat": {
       "label_th": "ภัยธรรมชาติต่อจุดยุทธศาสตร์",
       "label_en": "Natural hazards at strategic hubs",
-      "score": 11.9,
+      "score": 10.9,
       "weight": 0.15,
       "effective_weight": 0.15,
       "status": "ok",
@@ -446,7 +433,7 @@
           "key": "quakes",
           "label_th": "แผ่นดินไหว M6.0+ (7 วัน)",
           "label_en": "M6.0+ earthquakes (7 days)",
-          "value": 4,
+          "value": 3,
           "unit": "ครั้ง",
           "unit_en": "quakes",
           "hint": null,
@@ -476,7 +463,7 @@
           "key": "local",
           "label_th": "จำกัดเป็นเหตุการณ์ท้องถิ่น",
           "label_en": "Capped as local events",
-          "value": 122,
+          "value": 110,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -525,7 +512,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-02T06:11:14Z",
-          "last_seen": "2026-11-27T21:26:13Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -560,7 +547,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-24T22:33:48Z",
-          "last_seen": "2026-11-27T21:26:13Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -593,7 +580,7 @@
             "WHO DON"
           ],
           "first_seen": "2026-11-18T07:40:05Z",
-          "last_seen": "2026-11-27T21:26:13Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -612,7 +599,7 @@
           "sources": [
             "Reuters (Google News)"
           ],
-          "article_count": 2,
+          "article_count": 4,
           "links": [
             "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
           ],
@@ -626,7 +613,7 @@
             "Reuters (Google News)"
           ],
           "first_seen": "2026-11-27T21:26:13Z",
-          "last_seen": "2026-11-27T21:26:13Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -659,7 +646,7 @@
             "Reuters (Google News)"
           ],
           "first_seen": "2026-11-27T21:26:13Z",
-          "last_seen": "2026-11-27T21:26:13Z",
+          "last_seen": "2026-11-28T07:59:06Z",
           "is_local": false,
           "location": null,
           "location_en": null,
@@ -681,7 +668,7 @@
           "key": "cyber",
           "label_th": "เหตุการณ์ไซเบอร์/ระบบล่ม",
           "label_en": "Cyber incidents / outages",
-          "value": 10,
+          "value": 14,
           "unit": "เหตุการณ์",
           "unit_en": "events",
           "hint": null,
@@ -705,17 +692,17 @@
       "pillar": "geo",
       "label_th": "ความขัดแย้งและภูมิรัฐศาสตร์",
       "label_en": "Conflict & geopolitics",
-      "score": 74.6,
-      "contribution": 28.9,
-      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade",
-      "headline_en": "Shipping chokepoint threat: Donald Trump says Iran has  little capacity to fire missiles , touts US naval blockade"
+      "score": 71.2,
+      "contribution": 25.4,
+      "headline": "การปิด/คุกคามช่องแคบเดินเรือ: US disables ship attempting to breach Iran blockade",
+      "headline_en": "Shipping chokepoint threat: US disables ship attempting to breach Iran blockade"
     },
     {
       "pillar": "econ",
       "label_th": "เศรษฐกิจ การเงิน และพลังงาน",
       "label_en": "Economy, finance & energy",
-      "score": 38.6,
-      "contribution": 13.5,
+      "score": 40.1,
+      "contribution": 14.0,
       "headline": "ดัชนีเซมิคอนดักเตอร์ SOXX 134.07 USD",
       "headline_en": "SOXX semiconductor ETF 134.07 USD"
     },
@@ -730,53 +717,53 @@
     }
   ],
   "summary": {
-    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งบริเวณจุดยุทธศาสตร์การเดินเรือและการโจมตีโครงสร้างพื้นฐานด้านพลังงานในตะวันออกกลาง ควบคู่ไปกับความขัดแย้งที่ดำเนินอยู่และการระบาดของโรคสำคัญ นอกจากนี้ เหตุการณ์โจมตีทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญก็เป็นปัจจัยที่เพิ่มความกังวลในระบบด้วย",
+    "executive_summary_th": "ความเสี่ยงทั่วโลกในปัจจุบันเกิดจากความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้น โดยเฉพาะอย่างยิ่งเกี่ยวกับจุดยุทธศาสตร์ทางการเดินเรือและการโจมตีโครงสร้างพื้นฐานด้านพลังงานในตะวันออกกลาง ควบคู่ไปกับเหตุการณ์โจมตีทางไซเบอร์ต่อเครือข่ายทางทหารและการระบาดของโรคอย่างต่อเนื่อง",
     "early_warnings_th": [
       {
-        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์และภัยคุกคามต่อความมั่นคงทางทะเลที่เพิ่มขึ้น",
+        "title": "ความตึงเครียดทางภูมิรัฐศาสตร์ที่เพิ่มขึ้นและความเสี่ยงด้านอุปทานพลังงาน",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "ภัยคุกคามต่อจุดยุทธศาสตร์การเดินเรือยังคงมีอยู่ โดยมีการกล่าวถึงการปิดล้อมทางทะเลและการประณามการปิดล้อมที่มีอยู่ ขณะที่เรือบรรทุกสินค้าของรัสเซียถูกโจมตีด้วยโดรนในอ่าวฟินแลนด์",
+        "evidence_summary": "ความตึงเครียดเพิ่มขึ้นจากการที่สหรัฐฯ ยับยั้งเรือที่พยายามฝ่าการปิดล้อมของอิหร่าน การโจมตีโรงกลั่นน้ำมันของซาอุดีอาระเบียที่ทำให้การดำเนินงานหยุดชะงัก และเกาหลีเหนือประกาศขยายการติดตั้งอาวุธนิวเคลียร์ทางยุทธวิธี",
         "refs": [
           {
-            "url": "http://www.jpost.com/american-politics/article-916016",
-            "source": "jpost.com"
-          },
-          {
-            "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-            "source": "news.webindia123.com"
-          },
-          {
-            "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-            "source": "bignewsnetwork.com"
-          }
-        ]
-      },
-      {
-        "title": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานอย่างต่อเนื่องท่ามกลางความขัดแย้งในภูมิภาค",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-4 สัปดาห์",
-        "evidence_summary": "การโจมตีโครงสร้างพื้นฐานด้านพลังงานยังคงดำเนินอยู่ โดยโรงกลั่นน้ำมันของซาอุดีอาระเบียถูกโจมตีและโรงกลั่นน้ำมันที่ใหญ่ที่สุดถูกโจมตีโดยกลุ่มกบฏฮูตี ควบคู่ไปกับการโจมตีทางอากาศและผู้เสียชีวิตในภูมิภาค",
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
             "source": "Al Jazeera"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.prokerala.com/news/articles/a1840749.html",
-            "source": "prokerala.com"
+            "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ]
       },
       {
-        "title": "การระบาดของโรคอุบัติใหม่และภัยคุกคามทางไซเบอร์ต่อโครงสร้างพื้นฐานที่สำคัญ",
+        "title": "ภัยคุกคามทางไซเบอร์ต่อเครือข่ายทหารและโครงสร้างพื้นฐานที่สำคัญอย่างต่อเนื่อง",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 เดือน",
+        "evidence_summary": "รายงานหลายฉบับยืนยันว่าแฮกเกอร์ได้เจาะเครือข่ายคลาวด์ของกองทัพสหรัฐฯ ซึ่งกระทบต่อข้อมูลที่เกี่ยวข้องกับอากาศยาน ขีปนาวุธ และบุคลากร",
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "การระบาดของโรคอุบัติใหม่และโรคที่กลับมาแพร่ระบาด",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 เดือน",
-        "evidence_summary": "มีรายงานการระบาดของโรคหลายชนิดทั่วโลก รวมถึงอีโบลา โปลิโอ และชิคุนกุนยา ขณะที่เหตุการณ์ทางไซเบอร์ที่สำคัญได้เจาะระบบแพลตฟอร์มคอมพิวเตอร์ของกองทัพอากาศและกระทรวงกลาโหมของสหรัฐฯ",
+        "evidence_summary": "การระบาดของอีโบลาในแอฟริกา โปลิโอในซีเรีย และชิคุนกุนยาในสวิตเซอร์แลนด์ เน้นย้ำถึงความท้าทายด้านสาธารณสุขทั่วโลกที่กำลังดำเนินอยู่",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -794,56 +781,56 @@
       }
     ],
     "local_notes_th": [
-      "มีการรายงานไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
-      "มีการรายงานโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
+      "มีการรายงานการระบาดของไข้หวัดใหญ่ A(H5N1) ในสหรัฐอเมริกา",
+      "มีการรายงานการระบาดของโรคทางเดินหายใจตะวันออกกลาง (MERS) ในกาตาร์"
     ],
-    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly around shipping chokepoints and attacks on energy infrastructure in the Middle East, alongside ongoing conflicts and significant disease outbreaks. Cyber incidents targeting critical infrastructure also contribute to systemic concerns.",
+    "executive_summary_en": "Global risk is currently driven by escalating geopolitical tensions, particularly concerning shipping chokepoints and attacks on energy infrastructure in the Middle East, alongside persistent cyber incidents targeting military networks and ongoing disease outbreaks.",
     "early_warnings_en": [
       {
-        "title": "Heightened Geopolitical Tensions and Maritime Security Threats",
+        "title": "Escalating Geopolitical Tensions and Energy Supply Risks",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-4 weeks",
-        "evidence_summary": "Threats to shipping chokepoints persist with discussions of naval blockades and condemnations of existing blockades, while a Russian cargo ship was attacked by drones in the Gulf of Finland.",
+        "evidence_summary": "Tensions are high with the US disabling a ship near an Iran blockade, attacks on Saudi oil refineries disrupting operations, and North Korea's stated intent to widen tactical nuclear deployment.",
         "refs": [
           {
-            "url": "http://www.jpost.com/american-politics/article-916016",
-            "source": "jpost.com"
-          },
-          {
-            "url": "https://news.webindia123.com/news/Articles/World/20261125/4524130.html",
-            "source": "news.webindia123.com"
-          },
-          {
-            "url": "http://www.bignewsnetwork.com/news/279452843/iranian-lawmaker-says-era-of-sanctions-and-blockades-is-over-amid-us-economic-curbs",
-            "source": "bignewsnetwork.com"
-          }
-        ]
-      },
-      {
-        "title": "Persistent Attacks on Energy Infrastructure Amidst Regional Conflicts",
-        "signal_strength": "เฝ้าระวัง",
-        "timeframe": "1-4 weeks",
-        "evidence_summary": "Attacks on energy infrastructure continue, with a Saudi refinery disrupted and the largest oil refinery attacked by Houthi rebels, alongside ongoing airstrikes and casualties in the region.",
-        "refs": [
-          {
-            "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
             "source": "Al Jazeera"
           },
           {
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmM3d1JkLW9CSkVNX0s4T2Y5Uy1NN0RaVnJNQXBWZHhUQW5zTUZsRFB5ZDJycWdxb3poUVFaeHFlZ3FKWnpyUXJwMDczdGpPSGUyS0hhMTk2b0JuSFRxZHl2OE52aUtCaXB2UFZJYWZQaVROQnUwcXdza01wbWNWNnlpRHRMU2t6eGo4QzZBblJiTk5ycU90bTUtUFotWlV4R1JmSjl3X2Z5UUdHdERaYlNDWUs?oc=5",
-            "source": "Reuters (Google News)"
+            "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+            "source": "Al Jazeera"
           },
           {
-            "url": "https://www.prokerala.com/news/articles/a1840749.html",
-            "source": "prokerala.com"
+            "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+            "source": "Al Jazeera"
           }
         ]
       },
       {
-        "title": "Emerging Disease Outbreaks and Cyber Breaches of Critical Infrastructure",
+        "title": "Persistent Cyber Threats to Military and Critical Infrastructure",
+        "signal_strength": "เฝ้าระวัง",
+        "timeframe": "1-3 months",
+        "evidence_summary": "Multiple reports confirm hackers have breached US military cloud networks, compromising data related to aircraft, missiles, and personnel.",
+        "refs": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZnllY1RVZTZKWC16Q0lLSHpLMEh6RzVtZ0ExUkVqbVBLb0lQQ2k0MHFObTZ1dkRMOEJrb284RnFhSlZ5S1VULUhGMWEzQWZ0dFJvckZRdVV2OWNRUDhJVFA2R1diS1J4aW8ySDNmQzNqVVpxWlhNYWk4NUN3TGJzXy1oZmUtdW1TeEN1d0dUd2k1WXlWZElnWS1QdXhST0dhdGRnTDd2dlU1X3lPLWFILXJrUXc5LURDM1JUZTlwR0gyTGtxZTRwRi1QYzNXdFpaRVcwSkFhZkxSMzVWakhXekdhak92RWRhT21OaGxQRQ?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+            "source": "Reuters (Google News)"
+          },
+          {
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPakdCSExjV3ctTmItY3FrWDYzZ2ZaYTdRcjhSNFN6MnJfWUpObzNKQWRpeWhfR083aXlWSFEzZ1h0VE9pTmdwRUZRaC1BcDlMQnA4R0s0Nkg3Rkg1dDdGUlRlM3N4eVZWWmN6TktwakhTTmdoaGt2bkg3VjhLN2NzSkhheFlWTHpzUmRuZ1R6MFlka1Roa2pqUlFFbw?oc=5",
+            "source": "Reuters (Google News)"
+          }
+        ]
+      },
+      {
+        "title": "Emerging and Resurfacing Disease Outbreaks",
         "signal_strength": "ปานกลาง",
         "timeframe": "1-3 months",
-        "evidence_summary": "Multiple disease outbreaks, including Ebola, poliovirus, and chikungunya, are reported globally, while significant cyber incidents have breached US Air Force and Defense Department computing platforms.",
+        "evidence_summary": "New outbreaks of Ebola in Africa, polio in Syria, and Chikungunya in Switzerland highlight ongoing global public health challenges.",
         "refs": [
           {
             "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
@@ -861,12 +848,12 @@
       }
     ],
     "local_notes_en": [
-      "Influenza A(H5N1) has been reported in the United States of America.",
-      "Middle East respiratory syndrome (MERS) has been reported in Qatar."
+      "Influenza A(H5N1) outbreak reported in the United States.",
+      "Middle East respiratory syndrome (MERS) outbreak reported in Qatar."
     ],
     "source": "gemini",
     "model": "gemini-2.5-flash",
-    "generated_at": "2026-11-27T21:26:13Z"
+    "generated_at": "2026-11-28T07:59:06Z"
   },
   "local_events": [
     {
@@ -898,7 +885,7 @@
         "WHO DON"
       ],
       "first_seen": "2026-11-24T22:33:48Z",
-      "last_seen": "2026-11-27T21:26:13Z",
+      "last_seen": "2026-11-28T07:59:06Z",
       "is_local": true,
       "location": "สหรัฐฯ",
       "location_en": "US",
@@ -912,7 +899,7 @@
       "category_en": "High-consequence disease",
       "title": "Disease Outbreak News: Middle East respiratory syndrome (MERS) – Qatar",
       "severity": 45.0,
-      "score": 22.9,
+      "score": 21.4,
       "countries": [
         "qatar"
       ],
@@ -937,19 +924,19 @@
       "is_local": true,
       "location": "กาตาร์",
       "location_en": "Qatar",
-      "raw_score": 41.3
+      "raw_score": 38.4
     }
   ],
   "data_status": {
-    "key": "ok",
-    "label_th": "ปกติ",
-    "label_en": "Normal",
+    "key": "market_closed",
+    "label_th": "ตลาดปิดสุดสัปดาห์",
+    "label_en": "Market closed (weekend)",
     "sources": [
       {
         "name": "Market data (Yahoo/FRED)",
         "pillar": "econ",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:16Z",
+        "fetched_at": "2026-11-28T07:59:07Z",
         "items": 5,
         "data_as_of": "2026-11-27",
         "error": null,
@@ -960,7 +947,7 @@
         "name": "GDELT DOC 2.0",
         "pillar": "geo",
         "status": "error",
-        "fetched_at": "2026-11-27T21:26:24Z",
+        "fetched_at": "2026-11-28T07:59:15Z",
         "items": null,
         "data_as_of": null,
         "error": "HTTP 429",
@@ -971,9 +958,9 @@
         "name": "BBC World",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:13Z",
-        "items": 32,
-        "data_as_of": "2026-11-27T20:57:04Z",
+        "fetched_at": "2026-11-28T07:59:06Z",
+        "items": 21,
+        "data_as_of": "2026-11-28T04:19:16Z",
         "error": null,
         "note": null,
         "optional": false
@@ -982,9 +969,9 @@
         "name": "Al Jazeera",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:13Z",
+        "fetched_at": "2026-11-28T07:59:06Z",
         "items": 25,
-        "data_as_of": "2026-11-27T21:11:27Z",
+        "data_as_of": "2026-11-28T07:22:17Z",
         "error": null,
         "note": null,
         "optional": false
@@ -993,9 +980,9 @@
         "name": "Reuters (Google News)",
         "pillar": "geo",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:14Z",
-        "items": 21,
-        "data_as_of": "2026-11-27T20:56:01Z",
+        "fetched_at": "2026-11-28T07:59:07Z",
+        "items": 42,
+        "data_as_of": "2026-11-28T06:46:20Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1004,8 +991,8 @@
         "name": "USGS Earthquakes",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:13Z",
-        "items": 4,
+        "fetched_at": "2026-11-28T07:59:06Z",
+        "items": 3,
         "data_as_of": "2026-11-24T11:06:14Z",
         "error": null,
         "note": null,
@@ -1015,9 +1002,9 @@
         "name": "GDACS Alerts",
         "pillar": "nat",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:16Z",
-        "items": 148,
-        "data_as_of": "2026-11-27T21:21:53Z",
+        "fetched_at": "2026-11-28T07:59:09Z",
+        "items": 129,
+        "data_as_of": "2026-11-28T05:21:37Z",
         "error": null,
         "note": null,
         "optional": false
@@ -1026,7 +1013,7 @@
         "name": "WHO Disease Outbreak News",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:14Z",
+        "fetched_at": "2026-11-28T07:59:06Z",
         "items": 20,
         "data_as_of": "2026-11-24T19:00:00Z",
         "error": null,
@@ -1037,7 +1024,7 @@
         "name": "CISA Cybersecurity Alerts",
         "pillar": "bio_infra",
         "status": "ok",
-        "fetched_at": "2026-11-27T21:26:14Z",
+        "fetched_at": "2026-11-28T07:59:06Z",
         "items": 30,
         "data_as_of": "2026-11-27T12:00:00Z",
         "error": null,
